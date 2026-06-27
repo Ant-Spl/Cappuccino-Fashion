@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Goodgame Studios Fashion - WOD -->
+<wodIds>
+<wod id="1" n="Static" g="Tile" t="Basic2" walkable="1" collisionSizeX="1" collisionSizeY="1" cash="250" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="3" n="Static" g="Tile" t="Blank" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" />
+<wod id="4" n="Static" g="Tile" t="Basic1" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="750" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="7" n="Static" g="Tile" t="Blankblocked" walkable="0" rotatetype="0" collisionSizeX="1" collisionSizeY="1" />
+<wod id="13" n="Static" g="Tile" t="Basic3" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="14" n="Static" g="Tile" t="Basic4" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="15" n="Static" g="Tile" t="Basic5" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="50" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="16" n="Static" g="Tile" t="Basic6" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="50" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="17" n="Static" g="Tile" t="Basic7" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="150" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="18" n="Static" g="Tile" t="Basic8" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="19" n="Static" g="Tile" t="Basic9" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="20" n="Static" g="Tile" t="Basic10" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="21" n="Static" g="Tile" t="Basic11" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="22" n="Static" g="Tile" t="Basic12" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="23" n="Static" g="Tile" t="Basic13" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="24" n="Static" g="Tile" t="Basic14" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="25" n="Static" g="Tile" t="Basic15" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="26" n="Static" g="Tile" t="Basic16" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="1500" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="27" n="Static" g="Tile" t="Basic17" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="1500" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="28" n="Static" g="Tile" t="Basic18" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="1500" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="29" n="Static" g="Tile" t="Basic19" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="30" n="Static" g="Tile" t="Basic20" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="31" n="Static" g="Tile" t="Basic21" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="32" n="Static" g="Tile" t="Basic22" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="33" n="Static" g="Tile" t="Basic23" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="34" n="Static" g="Tile" t="Basic24" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="35" n="Static" g="Tile" t="Basic25" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="36" n="Static" g="Tile" t="Basic26" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="37" n="Static" g="Tile" t="Basic27" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="38" n="Static" g="Tile" t="Basic28" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="39" n="Static" g="Tile" t="Basic29" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="40" n="Static" g="Tile" t="Basic30" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="41" n="Static" g="Tile" t="Basic31" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="42" n="Static" g="Tile" t="Basic32" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="43" n="Static" g="Tile" t="Basic33" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="101" n="Static" g="Wall" t="Basic1" cash="50" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="102" n="Static" g="Wall" t="Basic2" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="103" n="Static" g="Wall" t="Basic3" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="1" />
+<wod id="104" n="Static" g="Wall" t="Basic4" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="105" n="Static" g="Wall" t="Basic5" cash="50" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="106" n="Static" g="Wall" t="Basic6" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="1" />
+<wod id="107" n="Static" g="Wall" t="Basic7" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="1" />
+<wod id="108" n="Static" g="Wall" t="Basic8" cash="50" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="109" n="Static" g="Wall" t="Basic9" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="1" />
+<wod id="110" n="Static" g="Wall" t="Basic11" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="111" n="Static" g="Wall" t="Basic12" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="119" n="Static" g="Wall" t="Basic10" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="1" />
+<wod id="120" n="Static" g="Wall" t="Basic13" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="121" n="Static" g="Wall" t="Basic14" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="122" n="Static" g="Wall" t="Basic15" cash="3500" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="123" n="Static" g="Wall" t="Basic16" cash="4000" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="124" n="Static" g="Wall" t="Basic17" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="125" n="Static" g="Wall" t="Basic18" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="126" n="Static" g="Wall" t="Basic19" cash="3500" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="127" n="Static" g="Wall" t="Basic20" cash="4000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="128" n="Static" g="Wall" t="Basic21" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="129" n="Static" g="Wall" t="Basic22" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="130" n="Static" g="Wall" t="Basic23" cash="3500" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="131" n="Static" g="Wall" t="Basic24" cash="4000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="150" n="Window" g="Wall" t="Basic1" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1303121958" world="0" xp="0" level="0" />
+<wod id="201" n="Basic" g="Door" t="Basicwhite" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="202" n="Basic" g="Door" t="Basicwood" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="203" n="Basic" g="Door" t="Basicwoodlight" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="204" n="Basic" g="Door" t="Glas" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1303121958" world="0" xp="0" level="0" />
+<wod id="205" n="Basic" g="Door" t="Springgreen" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="206" n="Basic" g="Door" t="Springred" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="207" n="Basic" g="Door" t="Springyellow" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="252" n="Basic" g="Factory" t="Basiccloth" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" productType="1" />
+<wod id="253" n="Basic" g="Factory" t="Basicshoes" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="10" productType="2" />
+<wod id="254" n="Basic" g="Factory" t="Basicaccessoire" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="4" productType="3" />
+<wod id="306" n="Basic" g="Counter" t="Woodlighttwo" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="2" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" putslots="2" hangslots="0" />
+<wod id="307" n="Basic" g="Counter" t="Woodmediumone" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" putslots="1" hangslots="0" />
+<wod id="308" n="Basic" g="Counter" t="Woodmediumtwo" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" putslots="2" hangslots="0" />
+<wod id="309" n="Basic" g="Counter" t="Woodlighthang" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="2" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" putslots="0" hangslots="2" />
+<wod id="310" n="Basic" g="Counter" t="Woodmediumhang" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" putslots="0" hangslots="2" />
+<wod id="311" n="Basic" g="Counter" t="Woodlightfour" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1298898978" world="0" xp="0" level="0" putslots="3" hangslots="1" />
+<wod id="312" n="Basic" g="Counter" t="Woodlightthree" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="3" friends="0" goldNoFriends="0" releaseDate="1298898978" world="0" xp="0" level="0" putslots="3" hangslots="0" />
+<wod id="313" n="Basic" g="Counter" t="Woodmediumfour" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1298898978" world="0" xp="0" level="0" putslots="3" hangslots="1" />
+<wod id="314" n="Basic" g="Counter" t="Woodmediumthree" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="4000" gold="0" friends="0" goldNoFriends="0" releaseDate="1298898978" world="0" xp="0" level="0" putslots="3" hangslots="0" />
+<wod id="315" n="Basic" g="Counter" t="Hmone" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="6000" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" putslots="1" hangslots="0" />
+<wod id="316" n="Basic" g="Counter" t="Hmtwo" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="7000" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" putslots="2" hangslots="0" />
+<wod id="317" n="Basic" g="Counter" t="Hmthree" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" putslots="3" hangslots="0" />
+<wod id="318" n="Basic" g="Counter" t="Hmfour" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" putslots="3" hangslots="1" />
+<wod id="319" n="Basic" g="Counter" t="Hmhang" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="6" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" putslots="0" hangslots="2" />
+<wod id="320" n="Basic" g="Counter" t="Springgreenone" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" putslots="1" hangslots="0" />
+<wod id="321" n="Basic" g="Counter" t="Springgreentwo" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="9000" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" putslots="2" hangslots="0" />
+<wod id="322" n="Basic" g="Counter" t="Springgreenthree" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" putslots="3" hangslots="0" />
+<wod id="323" n="Basic" g="Counter" t="Springgreenfour" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="8" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" putslots="3" hangslots="1" />
+<wod id="324" n="Basic" g="Counter" t="Springgreenhang" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" putslots="0" hangslots="2" />
+<wod id="325" n="Basic" g="Counter" t="Springredone" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" putslots="1" hangslots="0" />
+<wod id="326" n="Basic" g="Counter" t="Springredtwo" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="9000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" putslots="2" hangslots="0" />
+<wod id="327" n="Basic" g="Counter" t="Springredthree" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" putslots="3" hangslots="0" />
+<wod id="328" n="Basic" g="Counter" t="Springredfour" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="8" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" putslots="3" hangslots="1" />
+<wod id="329" n="Basic" g="Counter" t="Springredhang" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" putslots="0" hangslots="2" />
+<wod id="330" n="Basic" g="Counter" t="Springyellowone" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" putslots="1" hangslots="0" />
+<wod id="331" n="Basic" g="Counter" t="Springyellowtwo" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="9000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" putslots="2" hangslots="0" />
+<wod id="332" n="Basic" g="Counter" t="Springyellowthree" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" putslots="3" hangslots="0" />
+<wod id="333" n="Basic" g="Counter" t="Springyellowfour" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="8" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" putslots="3" hangslots="1" />
+<wod id="334" n="Basic" g="Counter" t="Springyellowhang" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" putslots="0" hangslots="2" />
+<wod id="400" n="Basic" g="Booster" t="Cloth" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" boosterType="1" />
+<wod id="401" n="Basic" g="Booster" t="Shoes" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="2" boosterType="2" />
+<wod id="402" n="Basic" g="Booster" t="Accessoire" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="1" boosterType="3" />
+<wod id="501" n="Basic" g="Deco" t="Plant1" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="1500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="502" n="Basic" g="Deco" t="Plant2" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="1500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="503" n="Basic" g="Deco" t="Plant3" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="1500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="504" n="Basic" g="Deco" t="Plant4" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="505" n="Basic" g="Deco" t="Plant5" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" />
+<wod id="506" n="Basic" g="Deco" t="Plant6" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" />
+<wod id="507" n="Basic" g="Deco" t="Plant7" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" />
+<wod id="508" n="Basic" g="Deco" t="Plant8" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" />
+<wod id="509" n="Basic" g="Deco" t="Plant9" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" />
+<wod id="510" n="Basic" g="Deco" t="Plant10" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="2" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" />
+<wod id="511" n="Basic" g="Deco" t="Centralwell" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" />
+<wod id="512" n="Language" g="Deco" t="Weathercock" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" />
+<wod id="513" n="Basic" g="Deco" t="Stonewallleft" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" />
+<wod id="514" n="Basic" g="Deco" t="Stonewallright" walkable="1" rotatetype="0" collisionSizeX="1" collisionSizeY="1" />
+<wod id="515" n="Basic" g="Deco" t="Marketstand" walkable="0" rotatetype="0" collisionSizeX="1" collisionSizeY="1" />
+<wod id="521" n="Basic" g="Deco" t="Plant11" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="2" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" />
+<wod id="522" n="Basic" g="Deco" t="Mirror1" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="523" n="Basic" g="Deco" t="Hmrack" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="6" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="531" n="Basic" g="Deco" t="Flower1" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" />
+<wod id="532" n="Basic" g="Deco" t="Flower2" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="533" n="Basic" g="Deco" t="Flower3" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="534" n="Basic" g="Deco" t="Flower4" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="3" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" />
+<wod id="535" n="Basic" g="Deco" t="Flower5" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="3" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" />
+<wod id="536" n="Basic" g="Deco" t="Springlampgreen1" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="537" n="Basic" g="Deco" t="Springlampgreen2" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="538" n="Basic" g="Deco" t="Springlampred1" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="539" n="Basic" g="Deco" t="Springlampred2" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="540" n="Basic" g="Deco" t="Springlampyellow1" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="541" n="Basic" g="Deco" t="Springlampyellow2" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="611" n="Basic" g="Changingroom" t="Basicred" walkable="0" rotatetype="3" collisionSizeX="2" collisionSizeY="1" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" />
+<wod id="612" n="Basic" g="Changingroom" t="Woodlight" walkable="0" rotatetype="3" collisionSizeX="2" collisionSizeY="1" cash="0" gold="2" friends="0" goldNoFriends="0" releaseDate="1298898978" world="0" xp="0" level="0" />
+<wod id="613" n="Basic" g="Changingroom" t="Woodmedium" walkable="0" rotatetype="3" collisionSizeX="2" collisionSizeY="1" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1298898978" world="0" xp="0" level="0" />
+<wod id="614" n="Basic" g="Changingroom" t="Woodlightround" walkable="0" rotatetype="3" collisionSizeX="2" collisionSizeY="1" cash="0" gold="3" friends="0" goldNoFriends="0" releaseDate="1298898978" world="0" xp="0" level="0" />
+<wod id="615" n="Basic" g="Changingroom" t="Woodmediumround" walkable="0" rotatetype="3" collisionSizeX="2" collisionSizeY="1" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1298898978" world="0" xp="0" level="0" />
+<wod id="616" n="Basic" g="Changingroom" t="Hm" walkable="0" rotatetype="3" collisionSizeX="2" collisionSizeY="1" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="617" n="Basic" g="Changingroom" t="Springgreen" walkable="0" rotatetype="3" collisionSizeX="2" collisionSizeY="1" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="618" n="Basic" g="Changingroom" t="Springred" walkable="0" rotatetype="3" collisionSizeX="2" collisionSizeY="1" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="619" n="Basic" g="Changingroom" t="Springyellow" walkable="0" rotatetype="3" collisionSizeX="2" collisionSizeY="1" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="700" n="Head" g="Mannequin" t="Basicfemale" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" gender="1" slots="5" />
+<wod id="701" n="Head" g="Mannequin" t="Basicmale" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" gender="2" slots="5" />
+<wod id="702" n="Torso" g="Mannequin" t="Basicfemale" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" gender="1" slots="4" />
+<wod id="703" n="Torso" g="Mannequin" t="Basicmale" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" gender="2" slots="4" />
+<wod id="704" n="Legs" g="Mannequin" t="Basicfemale" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" gender="1" slots="9" />
+<wod id="705" n="Legs" g="Mannequin" t="Basicmale" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" gender="2" slots="9" />
+<wod id="706" n="Fullbody" g="Mannequin" t="Basicfemale" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="6" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" gender="1" slots="10" />
+<wod id="707" n="Fullbody" g="Mannequin" t="Basicmale" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="6" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" gender="2" slots="10" />
+<wod id="800" n="Basic" g="Cashdesk" t="Basicgrey" walkable="0" rotatetype="3" collisionSizeX="3" collisionSizeY="1" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="801" n="Basic" g="Cashdesk" t="Basicorange" walkable="0" rotatetype="3" collisionSizeX="3" collisionSizeY="1" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="802" n="Basic" g="Cashdesk" t="Touchblacklightbrown" walkable="0" rotatetype="3" collisionSizeX="3" collisionSizeY="1" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1298898978" world="0" xp="0" level="0" />
+<wod id="803" n="Basic" g="Cashdesk" t="Touchblackdarkbrown" walkable="0" rotatetype="3" collisionSizeX="3" collisionSizeY="1" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1298898978" world="0" xp="0" level="0" />
+<wod id="804" n="Basic" g="Cashdesk" t="Touchgreylightbrown" walkable="0" rotatetype="3" collisionSizeX="3" collisionSizeY="1" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1298898978" world="0" xp="0" level="0" />
+<wod id="805" n="Basic" g="Cashdesk" t="Touchgreydarkbrown" walkable="0" rotatetype="3" collisionSizeX="3" collisionSizeY="1" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1298898978" world="0" xp="0" level="0" />
+<wod id="806" n="Basic" g="Cashdesk" t="Hm" walkable="0" rotatetype="3" collisionSizeX="3" collisionSizeY="1" cash="0" gold="3" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="807" n="Basic" g="Cashdesk" t="Springgreen" walkable="0" rotatetype="3" collisionSizeX="3" collisionSizeY="1" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="808" n="Basic" g="Cashdesk" t="Springred" walkable="0" rotatetype="3" collisionSizeX="3" collisionSizeY="1" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="809" n="Basic" g="Cashdesk" t="Springyellow" walkable="0" rotatetype="3" collisionSizeX="3" collisionSizeY="1" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="901" n="Basic" g="Wallobject" t="Windowbasicwhite" cash="250" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="902" n="Basic" g="Wallobject" t="Windowbasicblack" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="903" n="Basic" g="Wallobject" t="Windowwoodlight" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="904" n="Basic" g="Wallobject" t="Windowwoodmedium" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="905" n="Basic" g="Wallobject" t="Mirror1" cash="0" gold="3" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="906" n="Basic" g="Wallobject" t="Poster1" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="907" n="Basic" g="Wallobject" t="Poster2" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="908" n="Basic" g="Wallobject" t="Poster3" cash="5000" gold="0" friends="0" goldNoFriends="0" releaseDate="1301067250" world="0" xp="0" level="0" />
+<wod id="909" n="Basic" g="Wallobject" t="Springlampgreen1" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="910" n="Basic" g="Wallobject" t="Springlampgreen2" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="911" n="Basic" g="Wallobject" t="Springmirrorgreen" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1304589649" world="0" xp="0" level="0" />
+<wod id="912" n="Basic" g="Wallobject" t="Springlampred1" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="913" n="Basic" g="Wallobject" t="Springlampred2" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="914" n="Basic" g="Wallobject" t="Springmirrorred" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="915" n="Basic" g="Wallobject" t="Springlampyellow1" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="916" n="Basic" g="Wallobject" t="Springlampyellow2" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="917" n="Basic" g="Wallobject" t="Springmirroryellow" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1306497969" world="0" xp="0" level="0" />
+<wod id="1001" n="Top" g="Avatar" t="Girl" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="1007#1011" gender="1" />
+<wod id="1002" n="Top" g="Avatar" t="Boy" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="1008#1012" gender="2" />
+<wod id="1003" n="Backarm" g="Avatar" t="Girl" usage="0" colors="F4C0A6#F2B187#E89C73#AB6845#CE875C#F3BD90#EEA675#DC9467" parts="" gender="1" />
+<wod id="1004" n="Backarm" g="Avatar" t="Boy" usage="0" colors="F4C0A6#F2B187#E89C73#AB6845#CE875C#F3BD90#EEA675#DC9467" parts="" gender="2" />
+<wod id="1005" n="Backhair" g="Avatar" t="Girl" usage="0" colors="FFDC88#FECC51#DA723C#D78B4A#AF5F3B#73472F#412A1C#25120C#031838#DEB25B#BA884D#C77833#E86C0A#BE1A00#801A6B#2D0333#0493A6#063187" parts="" gender="1" />
+<wod id="1006" n="Backhair" g="Avatar" t="Boy" usage="0" colors="FFDC88#FECC51#DA723C#D78B4A#AF5F3B#73472F#412A1C#25120C#031838#DEB25B#BA884D#C77833#E86C0A#BE1A00#801A6B#2D0333#0493A6#063187" parts="" gender="2" />
+<wod id="1007" n="Backshoulder" g="Avatar" t="Girl" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="" gender="1" />
+<wod id="1008" n="Backshoulder" g="Avatar" t="Boy" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="" gender="2" />
+<wod id="1009" n="Frontarm" g="Avatar" t="Girl" usage="0" colors="F4C0A6#F2B187#E89C73#AB6845#CE875C#F3BD90#EEA675#DC9467" parts="" gender="1" />
+<wod id="1010" n="Frontarm" g="Avatar" t="Boy" usage="0" colors="F4C0A6#F2B187#E89C73#AB6845#CE875C#F3BD90#EEA675#DC9467" parts="" gender="2" />
+<wod id="1011" n="Frontshoulder" g="Avatar" t="Girl" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="" gender="1" />
+<wod id="1012" n="Frontshoulder" g="Avatar" t="Boy" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="" gender="2" />
+<wod id="1013" n="Head" g="Avatar" t="Girl" usage="0" colors="F4C0A6#F2B187#E89C73#AB6845#CE875C#F3BD90#EEA675#DC9467" parts="" gender="1" />
+<wod id="1014" n="Head" g="Avatar" t="Boy" usage="0" colors="F4C0A6#F2B187#E89C73#AB6845#CE875C#F3BD90#EEA675#DC9467" parts="" gender="2" />
+<wod id="1015" n="Frontshoulder" g="Avatar" t="Girlgreypullover" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="" gender="1" />
+<wod id="1016" n="Backshoulder" g="Avatar" t="Girlgreypullover" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="" gender="1" />
+<wod id="1017" n="Frontshoulder" g="Avatar" t="Girlbluedress" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="" gender="1" />
+<wod id="1018" n="Backshoulder" g="Avatar" t="Girlbluedress" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="" gender="1" />
+<wod id="1019" n="Overall" g="Avatar" t="Girlbluedress" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="1017#1018" gender="1" />
+<wod id="1020" n="Top" g="Avatar" t="Girlgreypullover" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="1015#1016" gender="1" />
+<wod id="1021" n="Body" g="Avatar" t="Girl" usage="0" colors="F4C0A6#F2B187#E89C73#AB6845#CE875C#F3BD90#EEA675#DC9467" parts="1013#1003#1009" gender="1" />
+<wod id="1022" n="Body" g="Avatar" t="Boy" usage="0" colors="F4C0A6#F2B187#E89C73#AB6845#CE875C#F3BD90#EEA675#DC9467" parts="1014#1004#1010" gender="2" />
+<wod id="1041" n="Fronthair" g="Avatar" t="Girl" usage="0" colors="FFDC88#FECC51#DA723C#D78B4A#AF5F3B#73472F#412A1C#25120C#031838#DEB25B#BA884D#C77833#E86C0A#BE1A00#801A6B#2D0333#0493A6#063187" parts="1005" gender="1" />
+<wod id="1042" n="Fronthair" g="Avatar" t="Boy" usage="0" colors="FFDC88#FECC51#DA723C#D78B4A#AF5F3B#73472F#412A1C#25120C#031838#DEB25B#BA884D#C77833#E86C0A#BE1A00#801A6B#2D0333#0493A6#063187" parts="1006" gender="2" />
+<wod id="1051" n="Bottom" g="Avatar" t="Girl" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="" gender="1" />
+<wod id="1052" n="Bottom" g="Avatar" t="Boy" usage="0" colors="2B3463#9A94CC#5069A0#A1395E#37A7CF#DF998A#E86850#CF2C16#2D5771#4D86A8#69992C#71C93A#88C6A7#5FB4B9#3C7485#543B1D#BB5B34#F59A22" parts="" gender="2" />
+<wod id="1061" n="Hat" g="Avatar" t="Normal" usage="0" colors="000000" parts="" gender="0" />
+<wod id="1079" n="Face" g="Avatar" t="Girlsmile" usage="2" colors="000000" parts="" gender="1" />
+<wod id="1080" n="Face" g="Avatar" t="Boysmile" usage="2" colors="000000" parts="" gender="2" />
+<wod id="1081" n="Face" g="Avatar" t="Girl" usage="0" colors="000000" parts="" gender="1" />
+<wod id="1082" n="Face" g="Avatar" t="Boy" usage="0" colors="000000" parts="" gender="2" />
+<wod id="1083" n="Shoppingbag" g="Avatar" t="Normal" usage="0" colors="000000" parts="" gender="0" />
+<wod id="1084" n="Bottom" g="Avatar" t="Girlcashierdress" usage="1" colors="000000" parts="" gender="1" />
+<wod id="1085" n="Top" g="Avatar" t="Girlcashierdress" usage="1" colors="000000" parts="1086#1087" gender="1" />
+<wod id="1086" n="Frontshoulder" g="Avatar" t="Girlcashierdress" usage="1" colors="000000" parts="" gender="1" />
+<wod id="1087" n="Backshoulder" g="Avatar" t="Girlcashierdress" usage="1" colors="000000" parts="" gender="1" />
+<wod id="1088" n="Bottom" g="Avatar" t="Boycashierdress" usage="1" colors="000000" parts="" gender="2" />
+<wod id="1089" n="Top" g="Avatar" t="Boycashierdress" usage="1" colors="000000" parts="1090#1091" gender="2" />
+<wod id="1090" n="Frontshoulder" g="Avatar" t="Boycashierdress" usage="1" colors="000000" parts="" gender="2" />
+<wod id="1091" n="Backshoulder" g="Avatar" t="Boycashierdress" usage="1" colors="000000" parts="" gender="2" />
+<wod id="1092" n="Top" g="Avatar" t="Girlcashierdresslabel" usage="3" colors="000000" parts="1086#1087" gender="1" />
+<wod id="1093" n="Top" g="Avatar" t="Boycashierdresslabel" usage="3" colors="000000" parts="1090#1091" gender="2" />
+<wod id="1201" n="Basic" g="Clothes" t="Blackhandbagfemale" cash="21000" gold="2" friends="14" goldNoFriends="11" releaseDate="0" world="0" xp="1872" level="21" incomePerUnit="3" production="2400" duration="1440" productSubType="1" productionCostCash="4896" productionCostGold="0" gender="1" />
+<wod id="1202" n="Basic" g="Clothes" t="Blackwatchmale" cash="12000" gold="1" friends="8" goldNoFriends="6" releaseDate="0" world="0" xp="1248" level="12" incomePerUnit="4" production="1600" duration="960" productSubType="3" productionCostCash="4352" productionCostGold="0" gender="2" />
+<wod id="1203" n="Basic" g="Clothes" t="Bluenecklacefemale" cash="4000" gold="0" friends="6" goldNoFriends="5" releaseDate="0" world="0" xp="790" level="8" incomePerUnit="5" production="800" duration="480" productSubType="0" productionCostCash="2720" productionCostGold="0" gender="1" />
+<wod id="1204" n="Basic" g="Clothes" t="Goldnecklacefemale" cash="31000" gold="2" friends="21" goldNoFriends="16" releaseDate="0" world="0" xp="2038" level="31" incomePerUnit="5" production="1600" duration="960" productSubType="0" productionCostCash="5440" productionCostGold="0" gender="1" />
+<wod id="1205" n="Basic" g="Clothes" t="Perlnecklacefemale" cash="3000" gold="0" friends="4" goldNoFriends="3" releaseDate="0" world="0" xp="12" level="6" incomePerUnit="23" production="10" duration="6" productSubType="0" productionCostCash="156" productionCostGold="0" gender="1" />
+<wod id="1206" n="Basic" g="Clothes" t="Pinkhangbagfemale" cash="35000" gold="2" friends="24" goldNoFriends="18" releaseDate="0" world="0" xp="26" level="35" incomePerUnit="28" production="10" duration="6" productSubType="1" productionCostCash="190" productionCostGold="0" gender="1" />
+<wod id="1207" n="Basic" g="Clothes" t="Silvernecklacefemale" cash="33000" gold="2" friends="22" goldNoFriends="17" releaseDate="0" world="0" xp="1255" level="33" incomePerUnit="8" production="600" duration="360" productSubType="0" productionCostCash="3264" productionCostGold="0" gender="1" />
+<wod id="1208" n="Basic" g="Clothes" t="Silverwatchmale" cash="4500" gold="0" friends="6" goldNoFriends="5" releaseDate="0" world="0" xp="254" level="9" incomePerUnit="8" production="200" duration="120" productSubType="3" productionCostCash="1088" productionCostGold="0" gender="2" />
+<wod id="1209" n="Basic" g="Clothes" t="Scrafmale" cash="38000" gold="2" friends="26" goldNoFriends="20" releaseDate="0" world="0" xp="272" level="38" incomePerUnit="17" production="100" duration="60" productSubType="0" productionCostCash="1156" productionCostGold="0" gender="2" />
+<wod id="1210" n="Basic" g="Clothes" t="Purplehandbagfemale" cash="37000" gold="2" friends="25" goldNoFriends="19" releaseDate="0" world="0" xp="1521" level="37" incomePerUnit="6" production="700" duration="420" productSubType="1" productionCostCash="2856" productionCostGold="0" gender="1" />
+<wod id="1211" n="Basic" g="Clothes" t="Scraffemale" cash="29000" gold="2" friends="20" goldNoFriends="15" releaseDate="0" world="0" xp="116" level="29" incomePerUnit="18" production="50" duration="30" productSubType="0" productionCostCash="612" productionCostGold="0" gender="1" />
+<wod id="1212" n="Basic" g="Clothes" t="Blueheadphones" cash="20000" gold="2" friends="14" goldNoFriends="11" releaseDate="0" world="0" xp="669" level="20" incomePerUnit="7" production="400" duration="240" productSubType="0" productionCostCash="2190" productionCostGold="0" gender="0" />
+<wod id="1230" n="Basic" g="Clothes" t="Blackbowlermale" cash="25000" gold="2" friends="17" goldNoFriends="13" releaseDate="0" world="0" xp="1058" level="25" incomePerUnit="6" production="600" duration="360" productSubType="2" productionCostCash="2448" productionCostGold="0" gender="2" />
+<wod id="1231" n="Basic" g="Clothes" t="Blackdressfemale" cash="36000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="2074" level="36" incomePerUnit="6" production="1200" duration="720" productSubType="22" productionCostCash="4896" productionCostGold="0" gender="1" />
+<wod id="1232" n="Basic" g="Clothes" t="Blackjacketmale" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="314" level="5" incomePerUnit="5" production="300" duration="180" productSubType="23" productionCostCash="1020" productionCostGold="0" gender="2" />
+<wod id="1233" n="Basic" g="Clothes" t="Blackpantfemale" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="188" level="2" incomePerUnit="6" production="200" duration="120" productSubType="21" productionCostCash="816" productionCostGold="0" gender="1" />
+<wod id="1234" n="Basic" g="Clothes" t="Blackpantmale" cash="16000" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="464" level="16" incomePerUnit="8" production="300" duration="180" productSubType="21" productionCostCash="1632" productionCostGold="0" gender="2" />
+<wod id="1235" n="Basic" g="Clothes" t="Blacksuitmale" cash="34000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1581" level="34" incomePerUnit="7" production="800" duration="480" productSubType="22" productionCostCash="3808" productionCostGold="0" gender="2" />
+<wod id="1236" n="Basic" g="Clothes" t="Blueblousefemale" cash="4000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1082" level="8" incomePerUnit="3" production="1600" duration="960" productSubType="24" productionCostCash="3264" productionCostGold="0" gender="1" />
+<wod id="1237" n="Basic" g="Clothes" t="Bluecapfemale" cash="3500" gold="0" friends="5" goldNoFriends="4" releaseDate="0" world="0" xp="341" level="7" incomePerUnit="7" production="300" duration="180" productSubType="2" productionCostCash="1642" productionCostGold="0" gender="0" />
+<wod id="1239" n="Basic" g="Clothes" t="Bluepolomale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="9" level="0" incomePerUnit="18" production="10" duration="6" productSubType="20" productionCostCash="122" productionCostGold="0" gender="2" />
+<wod id="1240" n="Basic" g="Clothes" t="Blueshirtmale" cash="4500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="574" level="9" incomePerUnit="6" production="500" duration="300" productSubType="20" productionCostCash="2040" productionCostGold="0" gender="2" />
+<wod id="1242" n="Basic" g="Clothes" t="Brownknitcapmale" cash="15000" gold="1" friends="10" goldNoFriends="8" releaseDate="0" world="0" xp="49" level="15" incomePerUnit="15" production="30" duration="18" productSubType="2" productionCostCash="352" productionCostGold="0" gender="0" />
+<wod id="1243" n="Basic" g="Clothes" t="Charlestonhatfemale" cash="17000" gold="1" friends="12" goldNoFriends="9" releaseDate="0" world="0" xp="1344" level="17" incomePerUnit="5" production="1200" duration="720" productSubType="2" productionCostCash="4080" productionCostGold="0" gender="1" />
+<wod id="1244" n="Basic" g="Clothes" t="Darkbluejeansfemale" cash="26000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1338" level="26" incomePerUnit="6" production="800" duration="480" productSubType="21" productionCostCash="3264" productionCostGold="0" gender="1" />
+<wod id="1245" n="Basic" g="Clothes" t="Darkbluejeansmale" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="922" level="6" incomePerUnit="3" production="1200" duration="720" productSubType="21" productionCostCash="2448" productionCostGold="0" gender="2" />
+<wod id="1246" n="Basic" g="Clothes" t="Greenpulloverfemale" cash="18000" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="89" level="18" incomePerUnit="16" production="50" duration="30" productSubType="24" productionCostCash="544" productionCostGold="0" gender="1" />
+<wod id="1247" n="Basic" g="Clothes" t="Greysuitmale" cash="22000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1664" level="22" incomePerUnit="4" production="1600" duration="480" productSubType="22" productionCostCash="4352" productionCostGold="0" gender="2" />
+<wod id="1248" n="Basic" g="Clothes" t="Lightbluejeansfemale" cash="24000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="204" level="24" incomePerUnit="14" production="100" duration="60" productSubType="21" productionCostCash="952" productionCostGold="0" gender="1" />
+<wod id="1249" n="Basic" g="Clothes" t="Lightbluejeansmale" cash="1500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="735" level="3" incomePerUnit="3" production="1000" duration="600" productSubType="21" productionCostCash="2040" productionCostGold="0" gender="2" />
+<wod id="1250" n="Basic" g="Clothes" t="Orangeknitcapfemale" cash="2500" gold="0" friends="4" goldNoFriends="3" releaseDate="0" world="0" xp="805" level="5" incomePerUnit="4" production="1000" duration="600" productSubType="2" productionCostCash="3128" productionCostGold="0" gender="0" />
+<wod id="1252" n="Basic" g="Clothes" t="Pinkshirtfemale" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="28" level="1" incomePerUnit="12" production="30" duration="18" productSubType="20" productionCostCash="245" productionCostGold="0" gender="1" />
+<wod id="1253" n="Basic" g="Clothes" t="Purplepulloverfemale" cash="1500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="638" level="3" incomePerUnit="4" production="800" duration="480" productSubType="24" productionCostCash="2176" productionCostGold="0" gender="1" />
+<wod id="1255" n="Basic" g="Clothes" t="Redcapmale" cash="2000" gold="0" friends="3" goldNoFriends="3" releaseDate="0" world="0" xp="468" level="4" incomePerUnit="4" production="500" duration="300" productSubType="2" productionCostCash="1564" productionCostGold="0" gender="0" />
+<wod id="1256" n="Basic" g="Clothes" t="Reddressfemale" cash="30000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="451" level="30" incomePerUnit="9" production="200" duration="120" productSubType="22" productionCostCash="1224" productionCostGold="0" gender="1" />
+<wod id="1257" n="Basic" g="Clothes" t="Redskirtfemale" cash="11000" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="141" level="11" incomePerUnit="12" production="100" duration="60" productSubType="21" productionCostCash="816" productionCostGold="0" gender="1" />
+<wod id="1258" n="Basic" g="Clothes" t="Redtopfemale" cash="14000" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1536" level="14" incomePerUnit="2" production="2400" duration="1440" productSubType="20" productionCostCash="3264" productionCostGold="0" gender="1" />
+<wod id="1260" n="Basic" g="Clothes" t="Trenchcoatmale" cash="20000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1330" level="20" incomePerUnit="5" production="1000" duration="600" productSubType="23" productionCostCash="3400" productionCostGold="0" gender="2" />
+<wod id="1261" n="Basic" g="Clothes" t="Whiteshirtmale" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="47" level="1" incomePerUnit="10" production="50" duration="30" productSubType="20" productionCostCash="340" productionCostGold="0" gender="2" />
+<wod id="1262" n="Basic" g="Clothes" t="Whiteskirtfemale" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="492" level="2" incomePerUnit="4" production="600" duration="360" productSubType="21" productionCostCash="1632" productionCostGold="0" gender="1" />
+<wod id="1263" n="Basic" g="Clothes" t="Yellowdressfemale" cash="28000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="978" level="28" incomePerUnit="7" production="500" duration="300" productSubType="22" productionCostCash="2380" productionCostGold="0" gender="1" />
+<wod id="1264" n="Basic" g="Clothes" t="Cardiganmale" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="107" level="4" incomePerUnit="8" production="100" duration="60" productSubType="24" productionCostCash="544" productionCostGold="0" gender="2" />
+<wod id="1265" n="Basic" g="Clothes" t="Ggsshirtmale" cash="3500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="62" level="7" incomePerUnit="13" production="50" duration="30" productSubType="20" productionCostCash="442" productionCostGold="0" gender="2" />
+<wod id="1266" n="Basic" g="Clothes" t="Blackpant2male" cash="11000" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="763" level="11" incomePerUnit="4" production="700" duration="420" productSubType="21" productionCostCash="1904" productionCostGold="0" gender="2" />
+<wod id="1267" n="Basic" g="Clothes" t="Cardiganfemale" cash="32000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1383" level="32" incomePerUnit="5" production="700" duration="420" productSubType="23" productionCostCash="2380" productionCostGold="0" gender="1" />
+<wod id="1268" n="Basic" g="Clothes" t="Dressfemale" cash="35000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="2544" level="35" incomePerUnit="5" production="2400" duration="1440" productSubType="22" productionCostCash="8160" productionCostGold="0" gender="1" />
+<wod id="1269" n="Basic" g="Clothes" t="Purpletshirtfemale" cash="30000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1949" level="30" incomePerUnit="6" production="1400" duration="840" productSubType="20" productionCostCash="5712" productionCostGold="0" gender="1" />
+<wod id="1270" n="Basic" g="Clothes" t="Checkshirtfemale" cash="41000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="2395" level="41" incomePerUnit="6" production="1400" duration="840" productSubType="24" productionCostCash="5712" productionCostGold="0" gender="1" />
+<wod id="1271" n="Basic" g="Clothes" t="Bluebaggypantsfemale" cash="12000" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1218" level="12" incomePerUnit="4" production="1400" duration="840" productSubType="21" productionCostCash="3808" productionCostGold="0" gender="1" />
+<wod id="1272" n="Basic" g="Clothes" t="Greenjacketfemale" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="405" level="5" incomePerUnit="5" production="400" duration="240" productSubType="23" productionCostCash="1360" productionCostGold="0" gender="1" />
+<wod id="1273" n="Basic" g="Clothes" t="Stripedtshirtmale" cash="25000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1746" level="25" incomePerUnit="5" production="1400" duration="840" productSubType="20" productionCostCash="4760" productionCostGold="0" gender="2" />
+<wod id="1274" n="Basic" g="Clothes" t="Checkshirtmale" cash="3500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1015" level="7" incomePerUnit="3" production="1400" duration="840" productSubType="24" productionCostCash="2856" productionCostGold="0" gender="2" />
+<wod id="1275" n="Basic" g="Clothes" t="Bluesweatermale" cash="40000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1021" level="40" incomePerUnit="10" production="400" duration="240" productSubType="24" productionCostCash="2720" productionCostGold="0" gender="2" />
+<wod id="1276" n="Basic" g="Clothes" t="Greenjacketmale" cash="35000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="933" level="35" incomePerUnit="9" production="400" duration="240" productSubType="23" productionCostCash="2448" productionCostGold="0" gender="2" />
+<wod id="1277" n="Basic" g="Clothes" t="Stripedtopfemale" cash="22000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1314" level="22" incomePerUnit="3" production="900" duration="540" productSubType="20" productionCostCash="1836" productionCostGold="0" gender="1" />
+<wod id="1278" n="Basic" g="Clothes" t="Flowerskirtfemale" cash="45000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="592" level="45" incomePerUnit="11" production="200" duration="120" productSubType="21" productionCostCash="1496" productionCostGold="0" gender="1" />
+<wod id="1279" n="Basic" g="Clothes" t="Greendressfemale" cash="50000" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1880" level="50" incomePerUnit="7" production="700" duration="420" productSubType="22" productionCostCash="3332" productionCostGold="0" gender="1" />
+<wod id="1280" n="Basic" g="Clothes" t="Blackheelsfemale" cash="19000" gold="1" friends="13" goldNoFriends="10" releaseDate="0" world="0" xp="55" level="19" incomePerUnit="19" production="30" duration="18" productSubType="10" productionCostCash="388" productionCostGold="0" gender="1" />
+<wod id="1281" n="Basic" g="Clothes" t="Manblackmale" cash="5000" gold="1" friends="7" goldNoFriends="6" releaseDate="0" world="0" xp="136" level="10" incomePerUnit="10" production="100" duration="60" productSubType="10" productionCostCash="680" productionCostGold="0" gender="2" />
+<wod id="1282" n="Basic" g="Clothes" t="Manbrownmale" cash="23000" gold="2" friends="16" goldNoFriends="12" releaseDate="0" world="0" xp="1968" level="23" incomePerUnit="4" production="2400" duration="1440" productSubType="10" productionCostCash="6528" productionCostGold="0" gender="2" />
+<wod id="1283" n="Basic" g="Clothes" t="Redheelsfemale" cash="32000" gold="2" friends="22" goldNoFriends="17" releaseDate="0" world="0" xp="1063" level="32" incomePerUnit="8" production="500" duration="300" productSubType="10" productionCostCash="2720" productionCostGold="0" gender="1" />
+<wod id="1284" n="Basic" g="Clothes" t="Sneakersfemale" cash="5000" gold="1" friends="7" goldNoFriends="6" releaseDate="0" world="0" xp="1075" level="10" incomePerUnit="4" production="1200" duration="720" productSubType="10" productionCostCash="3754" productionCostGold="0" gender="0" />
+<wod id="1286" n="Basic" g="Clothes" t="Sneakersgreenmale" cash="13000" gold="1" friends="9" goldNoFriends="7" releaseDate="0" world="0" xp="763" level="13" incomePerUnit="5" production="600" duration="360" productSubType="10" productionCostCash="2040" productionCostGold="0" gender="2" />
+<wod id="1287" n="Basic" g="Clothes" t="Bootsfemale" cash="27000" gold="2" friends="18" goldNoFriends="14" releaseDate="0" world="0" xp="1575" level="27" incomePerUnit="6" production="1000" duration="600" productSubType="11" productionCostCash="4080" productionCostGold="0" gender="1" />
+<wod id="1288" n="Basic" g="Clothes" t="Strawberrysneakerfemale" cash="16000" gold="1" friends="11" goldNoFriends="9" releaseDate="0" world="0" xp="598" level="16" incomePerUnit="6" production="400" duration="240" productSubType="10" productionCostCash="1632" productionCostGold="0" gender="1" />
+<wod id="1289" n="Basic" g="Clothes" t="Redsneakermale" cash="39000" gold="2" friends="26" goldNoFriends="20" releaseDate="0" world="0" xp="1733" level="39" incomePerUnit="8" production="800" duration="480" productSubType="10" productionCostCash="4352" productionCostGold="0" gender="2" />
+<wod id="1300" n="Basic" g="Clothes" t="Premiumbluejacketmale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="3264" level="1" incomePerUnit="2" production="2400" duration="1440" productSubType="23" productionCostCash="0" productionCostGold="3" gender="2" />
+<wod id="1301" n="Basic" g="Clothes" t="Premiumgreenjacketfemale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="2832" level="1" incomePerUnit="2" production="1700" duration="1020" productSubType="23" productionCostCash="0" productionCostGold="2" gender="1" />
+<wod id="1302" n="Basic" g="Clothes" t="Premiumjumpsuitfemale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="2891" level="20" incomePerUnit="2" production="900" duration="540" productSubType="22" productionCostCash="0" productionCostGold="1" gender="1" />
+<wod id="1350" n="Custom" g="Clothes" t="Hoodiefemale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="46" level="0" incomePerUnit="4" production="1600" duration="960" productSubType="24" productionCostCash="0" productionCostGold="2" gender="1" />
+<wod id="1351" n="Custom" g="Clothes" t="Hoodiemale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="52" level="0" incomePerUnit="2" production="1600" duration="960" productSubType="24" productionCostCash="0" productionCostGold="2" gender="2" />
+<wod id="1352" n="Custom" g="Clothes" t="Longshirtfemale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="5" level="0" incomePerUnit="6" production="100" duration="60" productSubType="24" productionCostCash="408" productionCostGold="0" gender="1" />
+<wod id="1353" n="Custom" g="Clothes" t="Longshirtmale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="5" level="0" incomePerUnit="6" production="100" duration="60" productSubType="24" productionCostCash="408" productionCostGold="0" gender="2" />
+<wod id="1354" n="Custom" g="Clothes" t="Longsleevefemale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="33" level="0" incomePerUnit="4" production="800" duration="480" productSubType="24" productionCostCash="0" productionCostGold="1" gender="1" />
+<wod id="1355" n="Custom" g="Clothes" t="Longsleevemale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="48" level="0" incomePerUnit="3" production="1200" duration="720" productSubType="24" productionCostCash="0" productionCostGold="2" gender="2" />
+<wod id="1356" n="Custom" g="Clothes" t="Rollifemale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="42" level="0" incomePerUnit="6" production="1200" duration="720" productSubType="24" productionCostCash="0" productionCostGold="2" gender="1" />
+<wod id="1357" n="Custom" g="Clothes" t="Polomale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="38" level="0" incomePerUnit="2" production="800" duration="480" productSubType="24" productionCostCash="0" productionCostGold="1" gender="2" />
+<wod id="1358" n="Custom" g="Clothes" t="Topfemale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="14" level="0" incomePerUnit="4" production="300" duration="180" productSubType="20" productionCostCash="816" productionCostGold="0" gender="1" />
+<wod id="1359" n="Custom" g="Clothes" t="Vshirtmale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="14" level="0" incomePerUnit="4" production="300" duration="180" productSubType="20" productionCostCash="816" productionCostGold="0" gender="2" />
+<wod id="1360" n="Custom" g="Clothes" t="Tshirtfemale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="9" level="0" incomePerUnit="6" production="200" duration="120" productSubType="20" productionCostCash="816" productionCostGold="0" gender="1" />
+<wod id="1361" n="Custom" g="Clothes" t="Tshirtmale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="9" level="0" incomePerUnit="6" production="200" duration="120" productSubType="20" productionCostCash="816" productionCostGold="0" gender="2" />
+<wod id="1501" n="Static" g="Background" t="Village" />
+<wod id="1502" n="Marketplace" g="Background" t="Normal" />
+<wod id="1601" n="Basic" g="Moving" t="-" />
+<wod id="1602" n="Npccashier" g="Moving" t="-" />
+<wod id="1603" n="Bagholder" g="Moving" t="-" />
+<wod id="1604" n="Vested" g="Moving" t="-" />
+<wod id="1605" n="Hero" g="Moving" t="Cook" />
+<wod id="1606" n="Npcguest" g="Moving" t="-" />
+<wod id="1607" n="Otherplayer" g="Moving" t="-" />
+<wod id="1608" n="Npcmallguest" g="Moving" t="-" />
+<wod id="1801" n="Basic" g="Expansion" t="0" expansionID="0" sizeX="8" sizeY="8" />
+<wod id="1806" n="Basic" g="Expansion" t="Gold1" cash="0" gold="5" friends="1" goldNoFriends="3" releaseDate="0" world="0" xp="0" level="0" expansionID="1" sizeX="9" sizeY="9" />
+<wod id="1807" n="Basic" g="Expansion" t="Gold2" cash="0" gold="8" friends="3" goldNoFriends="5" releaseDate="0" world="0" xp="0" level="0" expansionID="2" sizeX="10" sizeY="10" />
+<wod id="1808" n="Basic" g="Expansion" t="Gold3" cash="0" gold="11" friends="5" goldNoFriends="10" releaseDate="0" world="0" xp="0" level="0" expansionID="3" sizeX="11" sizeY="11" />
+<wod id="1809" n="Basic" g="Expansion" t="Gold4" cash="0" gold="14" friends="9" goldNoFriends="15" releaseDate="0" world="0" xp="0" level="0" expansionID="4" sizeX="12" sizeY="12" />
+<wod id="1814" n="Basic" g="Expansion" t="Gold5" cash="0" gold="17" friends="15" goldNoFriends="25" releaseDate="0" world="0" xp="0" level="0" expansionID="5" sizeX="13" sizeY="13" />
+<wod id="1816" n="Basic" g="Expansion" t="Gold6" cash="0" gold="20" friends="25" goldNoFriends="35" releaseDate="0" world="0" xp="0" level="0" expansionID="6" sizeX="14" sizeY="14" />
+<wod id="1901" n="Cash" g="Currency" t="-" />
+<wod id="1902" n="Gold" g="Currency" t="-" />
+<wod id="1903" n="Basic" g="Icon" t="Rateup" />
+<wod id="1904" n="Basic" g="Icon" t="Ratedown" />
+<wod id="1905" n="Xp" g="Currency" t="-" />
+<wod id="1906" n="Logincash" g="Currency" t="-" />
+<wod id="1907" n="Basic" g="Icon" t="Guestwaiting" />
+<wod id="1908" n="Basic" g="Icon" t="Seekingjob" />
+<wod id="1909" n="Basic" g="Icon" t="Robbery" />
+<wod id="1910" n="Basic" g="Icon" t="Police" />
+<wod id="1911" n="Basic" g="Icon" t="Mysterybox" />
+<wod id="1912" n="Basic" g="Icon" t="Lonelypolicemen" />
+<wod id="1913" n="Basic" g="Icon" t="Avataricon" />
+<wod id="1914" n="Basic" g="Icon" t="Lonelycash" />
+<wod id="1950" n="Custom" g="Icon" t="Apple" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1951" n="Custom" g="Icon" t="Burger" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1952" n="Custom" g="Icon" t="Controller" cash="0" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1953" n="Custom" g="Icon" t="Bird" cash="0" gold="3" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1954" n="Custom" g="Icon" t="Cake" cash="6000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1955" n="Custom" g="Icon" t="Cross" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1956" n="Custom" g="Icon" t="Disco" cash="0" gold="8" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1957" n="Custom" g="Icon" t="Fadenkreuz" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1958" n="Custom" g="Icon" t="Fish" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1959" n="Custom" g="Icon" t="Gameboy" cash="0" gold="3" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1960" n="Custom" g="Icon" t="Hat" cash="0" gold="9" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1961" n="Custom" g="Icon" t="Headphones" cash="0" gold="6" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1962" n="Custom" g="Icon" t="Heart" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1963" n="Custom" g="Icon" t="Hearttower" cash="0" gold="8" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1964" n="Custom" g="Icon" t="Jupiter" cash="0" gold="7" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1965" n="Custom" g="Icon" t="Key" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1966" n="Custom" g="Icon" t="Klonk" cash="0" gold="10" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1967" n="Custom" g="Icon" t="Note" cash="0" gold="7" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1968" n="Custom" g="Icon" t="Pacman" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1969" n="Custom" g="Icon" t="Pegasus" cash="0" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1970" n="Custom" g="Icon" t="Pokerchip" cash="4000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1971" n="Custom" g="Icon" t="Skullm" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1972" n="Custom" g="Icon" t="Skullw" cash="0" gold="6" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1973" n="Custom" g="Icon" t="Spartahelm" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1974" n="Custom" g="Icon" t="Star" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="1975" n="Custom" g="Icon" t="Toff" cash="0" gold="10" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" />
+<wod id="2001" n="Basic" g="Achievement" t="Earnedchips" achievementID="0" requirement="10000" factor="3.6" />
+<wod id="2002" n="Basic" g="Achievement" t="Spentchips" achievementID="1" requirement="10000" factor="3.6" />
+<wod id="2003" n="Basic" g="Achievement" t="Spentgold" achievementID="2" requirement="10" factor="2.5" />
+<wod id="2004" n="Basic" g="Achievement" t="Boughtdeco" achievementID="3" requirement="10" factor="2" />
+<wod id="2005" n="Basic" g="Achievement" t="Boughtpatterns" achievementID="8" requirement="4" factor="3" />
+<wod id="2006" n="Basic" g="Achievement" t="Soldproducts" achievementID="4" requirement="2000" factor="3.6" />
+<wod id="2007" n="Basic" g="Achievement" t="Stolenproducts" achievementID="5" requirement="300" factor="4" />
+<wod id="2008" n="Basic" g="Achievement" t="Mannequindesign" achievementID="6" requirement="5" factor="3.5" />
+<wod id="2009" n="Basic" g="Achievement" t="Soldduringsale" achievementID="7" requirement="800" factor="3.5" />
+<wod id="2010" n="Social" g="Achievement" t="Friendscount" achievementID="24" requirement="1000" factor="5" />
+<wod id="2011" n="Basic" g="Achievement" t="Producedshoes" achievementID="9" requirement="1500" factor="3.5" />
+<wod id="2012" n="Basic" g="Achievement" t="Producedclothes" achievementID="10" requirement="1500" factor="3.5" />
+<wod id="2013" n="Basic" g="Achievement" t="Producedaccessoires" achievementID="11" requirement="1500" factor="3.5" />
+<wod id="2014" n="Basic" g="Achievement" t="Producedfullbody" achievementID="12" requirement="1000" factor="3.2" />
+<wod id="2015" n="Basic" g="Achievement" t="Producedbottoms" achievementID="13" requirement="1000" factor="3.2" />
+<wod id="2016" n="Basic" g="Achievement" t="Producedtops" achievementID="14" requirement="1000" factor="3.2" />
+<wod id="2017" n="Basic" g="Achievement" t="Producedjewlery" achievementID="15" requirement="1000" factor="3.2" />
+<wod id="2018" n="Basic" g="Achievement" t="Producedbags" achievementID="16" requirement="1000" factor="3.2" />
+<wod id="2019" n="Basic" g="Achievement" t="Producedhats" achievementID="17" requirement="1000" factor="3.2" />
+<wod id="2020" n="Basic" g="Achievement" t="Produceddifferentitems" achievementID="18" requirement="5" factor="3" />
+<wod id="2021" n="Basic" g="Achievement" t="Produceddifferentshoes" achievementID="19" requirement="3" factor="3" />
+<wod id="2022" n="Basic" g="Achievement" t="Produceddifferentclothes" achievementID="20" requirement="3" factor="5" />
+<wod id="2023" n="Basic" g="Achievement" t="Produceddifferentaccessoires" achievementID="21" requirement="3" factor="4" />
+<wod id="2024" n="Basic" g="Achievement" t="Producedmaleonly" achievementID="22" requirement="2000" factor="3.4" />
+<wod id="2025" n="Basic" g="Achievement" t="Producedfemaleonly" achievementID="23" requirement="2000" factor="3.4" />
+<wod id="2026" n="Basic" g="Achievement" t="FinishedCoops" achievementID="25" requirement="10" factor="10" />
+<wod id="2027" n="Basic" g="Achievement" t="FinishedGoldCoops" achievementID="26" requirement="5" factor="5" />
+<wod id="2028" n="Basic" g="Achievement" t="Masteries" achievementID="27" requirement="6" factor="6" />
+<wod id="2029" n="Basic" g="Achievement" t="Masteriesgold" achievementID="28" requirement="2" factor="2" />
+<wod id="2101" n="Basic" g="Coop" t="1" maxMember="3" chips="250" xp="42" gold="1" duration="1320" clothes="1261+11#1252+15#1262+6#1249+3" minLevel="1" maxLevel="34" />
+<wod id="2102" n="Basic" g="Coop" t="9" maxMember="4" chips="250" xp="150" gold="1" duration="2040" clothes="1263+14#1204+8#1280+13#1235+12" minLevel="19" maxLevel="999" />
+<wod id="2103" n="Basic" g="Coop" t="10" maxMember="4" chips="250" xp="459" gold="1" duration="6240" clothes="1247+22#1282+15#1204+22#1256+25" minLevel="22" maxLevel="999" />
+<wod id="2104" n="Basic" g="Coop" t="3" maxMember="4" chips="250" xp="115" gold="1" duration="3240" clothes="1233+20#1253+18#1245+8#1232+16" minLevel="2" maxLevel="64" />
+<wod id="2105" n="Basic" g="Coop" t="7" maxMember="3" chips="250" xp="208" gold="1" duration="3240" clothes="1257+15#1258+14#1283+20" minLevel="11" maxLevel="94" />
+<wod id="2106" n="Basic" g="Coop" t="6" maxMember="4" chips="250" xp="98" gold="1" duration="1560" clothes="1281+25#1284+7#1280+30#1283+25" minLevel="10" maxLevel="999" />
+<wod id="2107" n="Basic" g="Coop" t="5" maxMember="3" chips="250" xp="113" gold="1" duration="2040" clothes="1247+10#1281+23#1208+22" minLevel="9" maxLevel="70" />
+<wod id="2108" n="Basic" g="Coop" t="8" maxMember="4" chips="250" xp="219" gold="1" duration="3240" clothes="1257+21#1258+8#1263+22#1231+15#1256+20" minLevel="11" maxLevel="999" />
+<wod id="2109" n="Basic" g="Coop" t="2" maxMember="5" chips="250" xp="78" gold="1" duration="1560" clothes="1249+6#1252+30#1255+19#1248+21#1261+25" minLevel="1" maxLevel="88" />
+<wod id="2110" n="Basic" g="Coop" t="4" maxMember="5" chips="250" xp="127" gold="1" duration="2040" clothes="1205+30#1203+15#1207+17#1202+8#1208+23" minLevel="6" maxLevel="999" />
+<wod id="2111" n="Basic" g="Coop" t="11" maxMember="4" chips="250" xp="193" gold="1" duration="2520" clothes="1232+25#1281+30#1202+8#1234+25" minLevel="5" maxLevel="76" />
+<wod id="2200" n="Basic" g="Advertisement" t="Flyer" runtime="900" costChips="7500" costGold="0" minLevel="5" ratingBonus="400" sellFactor="1" xpFactor="0" />
+<wod id="2201" n="Basic" g="Advertisement" t="Magazine" runtime="3600" costChips="10000" costGold="1" minLevel="5" ratingBonus="0" sellFactor="2" xpFactor="0" />
+<wod id="2202" n="Basic" g="Advertisement" t="Tv" runtime="1800" costChips="0" costGold="5" minLevel="5" ratingBonus="0" sellFactor="1" xpFactor="1" />
+</wodIds>
