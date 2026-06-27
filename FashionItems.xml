@@ -299,6 +299,8 @@
 <wod id="1359" n="Custom" g="Clothes" t="Vshirtmale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="14" level="0" incomePerUnit="4" production="300" duration="180" productSubType="20" productionCostCash="816" productionCostGold="0" gender="2" />
 <wod id="1360" n="Custom" g="Clothes" t="Tshirtfemale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="9" level="0" incomePerUnit="6" production="200" duration="120" productSubType="20" productionCostCash="816" productionCostGold="0" gender="1" />
 <wod id="1361" n="Custom" g="Clothes" t="Tshirtmale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="9" level="0" incomePerUnit="6" production="200" duration="120" productSubType="20" productionCostCash="816" productionCostGold="0" gender="2" />
+<wod id="1362" n="Basic" g="Clothes" t="Omelettesweatermale" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="2" level="1" incomePerUnit="100" production="5" duration="1" productSubType="24" productionCostCash="400" productionCostGold="0" gender="2" />
+<wod id="1363" n="Basic" g="Clothes" t="Omelettedressfemale" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="2" level="1" incomePerUnit="100" production="5" duration="1" productSubType="22" productionCostCash="400" productionCostGold="0" gender="1" />
 <wod id="1501" n="Static" g="Background" t="Village" />
 <wod id="1502" n="Marketplace" g="Background" t="Normal" />
 <wod id="1601" n="Basic" g="Moving" t="-" />

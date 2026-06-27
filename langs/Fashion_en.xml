@@ -231,6 +231,8 @@ Please log out."  />
 			<text id="cloth_whiteshirtmale" name="White Shirt"  />
 			<text id="cloth_whiteskirtfemale" name="White Miniskirt"  />
 			<text id="cloth_yellowdressfemale" name="Cute Cocktail Dress"  />
+			<text id="cloth_omelettesweatermale" name="Omelette Icon Sweater"  />
+			<text id="cloth_omelettedressfemale" name="Omelette Diva Dress"  />
 		</cloth>
 		<commons>
 			<text id="achievement_rang" name="Rank {0}/{1}"  />
@@ -499,7 +501,7 @@ In order to collect it, simply click on the link in the welcome e-mail."  />
 			<text id="dialogs_wheeloffortune_btn_go" name="Spin!"  />
 			<text id="dialogs_wheeloffortune_btn_towheel" name="Off to the Wheel of Fortune!"  />
 			<text id="dialogs_wheeloffortune_copy1" name="Already spun the Wheel of Fortune today?"  />
-			<text id="dialogs_wheeloffortune_info" name="The first spin is for free!"  />
+			<text id="dialogs_wheeloffortune_info" name="The first spin of the day is free!"  />
 			<text id="dialogs_wheeloffortune_nomoney" name="You don&#039;t have enough gold buttons to spin the Wheel of Fortune!"  />
 			<text id="dialogs_wheeloffortune_noregister" name="Only registered players can spin the Wheel of Fortune!"  />
 			<text id="dialogs_wheeloffortune_nospace" name="There&#039;s not enough space in your gift box for all your prizes! Make some room, then you can spin the Wheel of Fortune!"  />
@@ -1066,8 +1068,8 @@ We are working as fast as we can so you will be able to play again as soon as po
 				<text id="generic_language_zh_TW" name="Chinese (traditional)"  />
 			</languages>
 			<login>
-				<text id="generic_login_banned" name="Your account has been blocked! Please contact customer support!"  />
-				<text id="generic_login_banned_2" name="Your account has been deactivated!
+				<text id="generic_login_banned" name="Your account has been blocked! Please contact Cappuccino support via Discord!"  />
+				<text id="generic_login_banned_2" name="Your account has been deactivated! Bye!
 
 Deactivation until: {0}
 
