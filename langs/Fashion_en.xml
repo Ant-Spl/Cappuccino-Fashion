@@ -102,7 +102,7 @@ Choose another one!"  />
 			<text id="alerts_fashionbook_notequaltype_title" name="Different product"  />
 			<text id="alerts_fashionbook_usebooster_title" name="Use booster?"  />
 			<text id="alerts_friend_ask" name="Do you want to add {0} as friend?"  />
-			<text id="alerts_friend_denied" name="{0} rejected your friend invite"  />
+			<text id="alerts_friend_denied" name="{0} rejected your friend request. Try someone else!"  />
 			<text id="alerts_friend_title" name="Friendship"  />
 			<text id="alerts_gift_workingplayer_copy" name="You still have goods in your hands. Put them on a shelf before you place gifts."  />
 			<text id="alerts_gift_workingplayer_title" name="Put it down first!"  />
@@ -116,11 +116,11 @@ Still {0} times possible!"  />
 			<text id="alerts_isoworld_factory_outofreach_title" name="Not reachable!"  />
 			<text id="alerts_isoworld_mannequin_instant" name="Do you want to change your mannequin?"  />
 			<text id="alerts_isoworld_marketplace_title" name="Black Board"  />
-			<text id="alerts_kickedbyplayer_copy" name="The store was closed by the owner."  />
-			<text id="alerts_kickedbyplayer_title" name="You have to go!"  />
+			<text id="alerts_kickedbyplayer_copy" name="You were kicked out of the shop. Bye!"  />
+			<text id="alerts_kickedbyplayer_title" name="Ouch!"  />
 			<text id="alerts_kickjobber_copy" name="You can&#039;t switch to the renovation mode as long as there are other players working in your store."  />
 			<text id="alerts_kickjobber_title" name="Workers in your store"  />
-			<text id="alerts_kickplayer_copy" name="Other players are still in your store. Would you like to kick them out so you may switch to redecoration mode?"  />
+			<text id="alerts_kickplayer_copy" name="Other players are still in your store. Would you like to kick them out so you may switch to Decoration Mode?"  />
 			<text id="alerts_kickplayer_title" name="Kick player out"  />
 			<text id="alerts_lostpassword_copy" name="Type in your e-mail address and we will send you a new password."  />
 			<text id="alerts_lostpassword_title" name="Forgot your password?"  />
@@ -233,6 +233,8 @@ Please log out."  />
 			<text id="cloth_yellowdressfemale" name="Cute Cocktail Dress"  />
 			<text id="cloth_omelettesweatermale" name="Omelette Icon Sweater"  />
 			<text id="cloth_omelettedressfemale" name="Omelette Diva Dress"  />
+			<text id="cloth_dancingchefdress" name="Dancing Chef Dress"  />
+			<text id="cloth_dancingchefsweater" name="Dancing Chef Sweater"  />
 		</cloth>
 		<commons>
 			<text id="achievement_rang" name="Rank {0}/{1}"  />
@@ -421,7 +423,7 @@ Send some gifts to your friends, maybe they will send you some in return."  />
 			<text id="dialogs_highscore_title" name="Ranking"  />
 			<text id="dialogs_info_goldsmith_copy" name="The goldsmith only produces accessories."  />
 			<text id="dialogs_info_goldsmith_title" name="The Goldsmith"  />
-			<text id="dialogs_info_sewer_copy" name="The seamstress produces nothing but clothes."  />
+			<text id="dialogs_info_sewer_copy" name="The seamstress produces nothing but clothes. She dedicated her whole life to this craft."  />
 			<text id="dialogs_info_sewer_title" name="The Seamstress"  />
 			<text id="dialogs_info_shoemaker_copy" name="The shoemaker only produces shoes."  />
 			<text id="dialogs_info_shoemaker_title" name="The Shoemaker"  />
@@ -989,7 +991,7 @@ We are working as fast as we can so you will be able to play again as soon as po
 				<text id="generic_friend" name="Friend"  />
 				<text id="generic_friends" name="Friends"  />
 				<text id="generic_general" name="General settings"  />
-				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_ggs" name="Cappuccino Games"  />
 				<text id="generic_group" name="Group"  />
 				<text id="generic_guest" name="Guest"  />
 				<text id="generic_help" name="Help"  />
