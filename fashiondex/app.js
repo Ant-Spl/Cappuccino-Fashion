@@ -12,15 +12,30 @@ function repoRootPath() {
 }
 
 const REPO_ROOT = repoRootPath();
-const repoFile = file => `${REPO_ROOT}${file}`;
+const GITHUB_RAW_ROOT = 'https://raw.githubusercontent.com/Ant-Spl/Cappuccino-Fashion/main/';
+
+function uniqPaths(paths) {
+  return [...new Set(paths.filter(Boolean))];
+}
+
+function filePaths(file) {
+  return uniqPaths([
+    `../${file}`,
+    `${REPO_ROOT}${file}`,
+    `./${file}`,
+    file,
+    `/${file}`,
+    `${GITHUB_RAW_ROOT}${file}`
+  ]);
+}
 
 const PATHS = {
-  items: [repoFile('FashionItems.xml'), '../FashionItems.xml', './FashionItems.xml', 'FashionItems.xml'],
-  levels: [repoFile('FashionLevelXp.xml'), '../FashionLevelXp.xml', './FashionLevelXp.xml', 'FashionLevelXp.xml'],
-  lang: [repoFile('langs/Fashion_en.xml'), '../langs/Fashion_en.xml', './langs/Fashion_en.xml', 'langs/Fashion_en.xml']
+  items: filePaths('FashionItems.xml'),
+  levels: filePaths('FashionLevelXp.xml'),
+  lang: filePaths('langs/Fashion_en.xml')
 };
 
-const ICON_DIRS = [repoFile('clothingicons').replace(/\/$/, ''), '../clothingicons', './clothingicons', 'clothingicons'];
+const ICON_DIRS = uniqPaths([`../clothingicons`, `${REPO_ROOT}clothingicons`, './clothingicons', 'clothingicons']);
 const STORAGE_KEY = 'fashionDexDishDexStyleV2';
 const THEME_KEY = 'fashionDexTheme';
 const LABEL_DAYS = { 1: 1, 2: 5, 3: 13 };
@@ -142,13 +157,17 @@ async function main() {
   bindInputs();
   try {
     setStatus('Loading Fashion data...', 'ok');
-    const [items, lang] = await Promise.all([
-      loadXml('items', PATHS.items),
-      loadXml('language', PATHS.lang)
-    ]);
-    const levels = await loadOptionalXml('level limits', PATHS.levels);
-    loadInfo = { items: items.path, levels: levels?.path || '', lang: lang.path };
-    DATA = buildData(items.doc, levels?.doc || null, lang.doc);
+    const items = await loadXml('items', PATHS.items, { required: true, validate: validateItemsXml });
+    const lang = await loadXml('language', PATHS.lang, { required: false, validate: validateFashionLangXml });
+    const levels = await loadXml('level limits', PATHS.levels, { required: false, validate: validateLevelXml });
+
+    loadInfo = {
+      items: items?.path || '',
+      levels: levels?.path || '',
+      lang: lang?.path || ''
+    };
+
+    DATA = buildData(items.doc, levels?.doc || null, lang?.doc || null);
     if (!userData.selectedCoopId && DATA.coops.length) userData.selectedCoopId = String(DATA.coops[0].id);
     syncInputs();
     renderAll();
@@ -161,33 +180,51 @@ async function main() {
   }
 }
 
-async function loadXml(kind, paths) {
+async function loadXml(kind, paths, options = {}) {
   const failures = [];
+  const required = options.required !== false;
+  const validate = typeof options.validate === 'function' ? options.validate : null;
+
   for (const path of paths) {
     try {
-      const res = await fetch(`${path}${path.includes('?') ? '&' : '?'}v=${Date.now()}`, { cache: 'no-store' });
-      if (!res.ok) throw new Error(`${res.status}`);
+      const sep = path.includes('?') ? '&' : '?';
+      const url = `${path}${sep}v=${Date.now()}`;
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const text = await res.text();
+      if (!text.trim()) throw new Error('empty response');
       const doc = new DOMParser().parseFromString(text, 'application/xml');
       if (doc.querySelector('parsererror')) throw new Error('XML parse error');
+      if (validate) validate(doc);
       return { doc, path };
     } catch (err) {
       failures.push(`${path}: ${err.message}`);
     }
   }
+
+  if (!required) {
+    console.warn(`Optional ${kind} not loaded`, failures);
+    return null;
+  }
+
   throw new Error(`Could not load ${kind}. Tried: ${failures.join(' | ')}`);
 }
 
-async function loadOptionalXml(kind, paths) {
-  try {
-    return await loadXml(kind, paths);
-  } catch (_err) {
-    return null;
-  }
+function validateItemsXml(doc) {
+  const count = doc.querySelectorAll('wod[g="Clothes"]').length;
+  if (!count) throw new Error('loaded, but no Clothes entries were found');
+}
+
+function validateFashionLangXml(doc) {
+  if (!doc.querySelector('fashion')) throw new Error('not a Fashion language XML');
+}
+
+function validateLevelXml(doc) {
+  if (!doc.querySelector('levellimits')) throw new Error('not a FashionLevelXp XML');
 }
 
 function buildData(itemsDoc, levelsDoc, langDoc) {
-  const lang = parseLang(langDoc);
+  const lang = langDoc ? parseLang(langDoc) : { cloth: {}, coop: { titles: {}, descs: {} } };
 
   const clothes = [...itemsDoc.querySelectorAll('wod')]
     .filter(el => attr(el, 'g') === 'Clothes')
@@ -212,7 +249,7 @@ function buildData(itemsDoc, levelsDoc, langDoc) {
     clothesById,
     coops,
     levels,
-    stats: { clothes: clothes.length, coops: coops.length, levels: levels.length, maxLevel: Math.max(...levels.map(x=>x.level), maxContentLevel), hasLevelFile: !!levelsDoc },
+    stats: { clothes: clothes.length, coops: coops.length, levels: levels.length, maxLevel: Math.max(...levels.map(x=>x.level), maxContentLevel), hasLevelFile: !!levelsDoc, hasLangFile: !!langDoc },
     lang
   };
 }
