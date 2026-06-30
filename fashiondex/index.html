@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-fulldex-v10">
+  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-mytime-v12">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -146,17 +146,124 @@
     </section>
 
     <section id="myTimeScreen" class="screen hidden">
-      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><img src="mytime.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'"><div><p class="eyebrow">Time planning</p><h1>My Time</h1></div></div></header>
-      <section class="panel inputs-panel">
+      <header class="sub-hero">
+        <button class="back-button" type="button" data-back>← Back</button>
+        <div class="title-row compact-title-row">
+          <img src="mytime.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'">
+          <div>
+            <p class="eyebrow">Time planning</p>
+            <h1>My Time</h1>
+          </div>
+        </div>
+      </header>
+
+      <section class="panel inputs-panel my-time-panel">
         <h2>My Time Settings</h2>
-        <div class="input-grid">
-          <label><span>Player Level</span><input id="timePlayerLevel" type="number" min="0" max="999" value="1"></label>
-          <label><span>Target Hours</span><input id="targetHours" type="number" min="0" value="8"></label>
-          <label><span>Margin Minutes</span><input id="targetMargin" type="number" min="0" value="60"></label>
-          <label><span>Optimize for</span><select id="timeObjective"><option value="xp">XP</option><option value="profit">Profit</option><option value="units">Units</option></select></label>
+        <p class="section-note">How long do you want to produce for?</p>
+        <div class="my-time-grid my-time-compact-grid">
+          <div class="time-input-card compact-time-card player-level-card">
+            <div class="compact-control-row single-input-row">
+              <span class="time-input-title">Player level:</span>
+              <input id="timePlayerLevel" type="number" min="0" max="999" value="1">
+            </div>
+          </div>
+
+          <div class="time-input-card compact-time-card target-card">
+            <div class="compact-control-row">
+              <span class="time-input-title">Target:</span>
+              <label class="mini-number-field">
+                <span>h</span>
+                <input id="myTimeHours" type="number" min="0" max="999" value="0">
+              </label>
+              <label class="mini-number-field">
+                <span>min</span>
+                <input id="myTimeMinutes" type="number" min="0" max="59" value="0">
+              </label>
+              <button id="clearMyTimeTarget" class="secondary-button compact-clear-button" type="button">Clear production time</button>
+            </div>
+          </div>
+
+          <div class="time-input-card compact-time-card margin-card">
+            <span class="time-input-title">Margin:</span>
+            <div class="compact-margin-rows">
+              <div class="compact-margin-row">
+                <strong>+</strong>
+                <label class="mini-number-field">
+                  <span>h</span>
+                  <input id="myTimeMarginPlusHours" type="number" min="0" max="999" value="0">
+                </label>
+                <label class="mini-number-field">
+                  <span>min</span>
+                  <input id="myTimeMarginPlusMinutes" type="number" min="0" max="59" value="0">
+                </label>
+              </div>
+              <div class="compact-margin-row">
+                <strong>-</strong>
+                <label class="mini-number-field">
+                  <span>h</span>
+                  <input id="myTimeMarginMinusHours" type="number" min="0" max="999" value="0">
+                </label>
+                <label class="mini-number-field">
+                  <span>min</span>
+                  <input id="myTimeMarginMinusMinutes" type="number" min="0" max="59" value="0">
+                </label>
+                <button id="clearMyTimeMargin" class="secondary-button compact-clear-button" type="button">Clear margin</button>
+              </div>
+            </div>
+          </div>
+
+          <label class="inline-toggle setting-toggle my-time-toggle compact-masteries-toggle">
+            <input id="myTimeUseLabelsToggle" type="checkbox" checked>
+            <span>Use my Labels?</span>
+          </label>
+        </div>
+        <p id="myTimeWindowSummary" class="hint my-time-window-summary"></p>
+      </section>
+
+      <section class="panel">
+        <h2>Best matches</h2>
+        <p class="section-note">Best outfits inside your chosen time window.</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Image</th>
+                <th>Recommendation</th>
+                <th>Outfit</th>
+                <th>Level</th>
+                <th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"><small>/min</small></span></th>
+                <th><span class="icon-heading"><img src="fashiondollars.png" alt="Fashiondollars" class="header-icon"><small>/min</small></span></th>
+                <th>Units</th>
+                <th>Duration</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody id="myTimeBestBody"></tbody>
+          </table>
         </div>
       </section>
-      <section class="panel"><h2>Best matches</h2><p class="section-note" id="timeWindowLabel"></p><div class="table-wrap"><table><thead><tr><th>Image</th><th>Outfit</th><th>Level</th><th>Duration</th><th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"></span></th><th><span class="icon-heading"><img src="fashiondollars.png" alt="Fashiondollars" class="header-icon"></span></th><th>Units</th><th>Type</th></tr></thead><tbody id="timeMatchesBody"></tbody></table></div></section>
+
+      <section class="panel">
+        <h2>All matching outfits</h2>
+        <p class="section-note">All available outfits in this time window, sorted by level.</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Image</th>
+                <th>Outfit</th>
+                <th>Level</th>
+                <th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"><small>/min</small></span></th>
+                <th><span class="icon-heading"><img src="fashiondollars.png" alt="Fashiondollars" class="header-icon"><small>/min</small></span></th>
+                <th>Units</th>
+                <th>Duration</th>
+                <th>Type</th>
+              </tr>
+            </thead>
+            <tbody id="myTimeAllBody"></tbody>
+          </table>
+        </div>
+      </section>
     </section>
 
     <section id="coopScreen" class="screen hidden">
@@ -204,6 +311,6 @@
       <section class="panel"><h2>Label List</h2><div class="table-wrap"><table class="mastery-table"><thead><tr><th>Image</th><th>Outfit</th><th>Level</th><th>Current Points</th><th>Current Label</th><th>Bronze</th><th>Silver</th><th>Gold</th><th>Next</th></tr></thead><tbody id="labelsBody"></tbody></table></div></section>
     </section>
   </main>
-  <script src="app.js?v=20260630-fashiondex-fulldex-v10"></script>
+  <script src="app.js?v=20260630-fashiondex-mytime-v12"></script>
 </body>
 </html>

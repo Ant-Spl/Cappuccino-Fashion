@@ -1,4 +1,4 @@
-/* FashionDex/app.js - DishDex-style static GitHub Pages build v10 */
+/* FashionDex/app.js - DishDex-style static GitHub Pages build v12 */
 (() => {
 'use strict';
 
@@ -83,9 +83,13 @@ function defaultUserData() {
     workersOverride: '',
     patternMode: 'cash',
     useLabels: true,
-    targetHours: 8,
-    targetMargin: 60,
-    timeObjective: 'profit',
+    myTimeHours: 0,
+    myTimeMinutes: 0,
+    myTimeMarginPlusHours: 0,
+    myTimeMarginPlusMinutes: 0,
+    myTimeMarginMinusHours: 0,
+    myTimeMarginMinusMinutes: 0,
+    myTimeUseLabels: true,
     fullSearch: '',
     fullSort: 'levelAsc',
     fullUseLabels: true,
@@ -379,7 +383,7 @@ function setupSortOptions() {
 }
 
 function bindInputs() {
-  const ids = ['playerLevel','xpNeeded','workerCount','patternMode','useLabelsToggle','fullSearch','fullSort','fullUseLabelsToggle','fullFamily','fullGender','timePlayerLevel','targetHours','targetMargin','timeObjective','coopSearch','coopSort','coopWorkers','coopSelect','profileName','profileLevel','profileWorkers','labelSearch','labelFamily','labelSort','labelSlots'];
+  const ids = ['playerLevel','xpNeeded','workerCount','patternMode','useLabelsToggle','fullSearch','fullSort','fullUseLabelsToggle','fullFamily','fullGender','timePlayerLevel','myTimeHours','myTimeMinutes','myTimeMarginPlusHours','myTimeMarginPlusMinutes','myTimeMarginMinusHours','myTimeMarginMinusMinutes','myTimeUseLabelsToggle','coopSearch','coopSort','coopWorkers','coopSelect','profileName','profileLevel','profileWorkers','labelSearch','labelFamily','labelSort','labelSlots'];
   ids.forEach(id => {
     document.getElementById(id)?.addEventListener('input', onInputChange);
     document.getElementById(id)?.addEventListener('change', onInputChange);
@@ -389,6 +393,14 @@ function bindInputs() {
   document.getElementById('downloadData')?.addEventListener('click', downloadData);
   document.getElementById('loadData')?.addEventListener('click', () => document.getElementById('loadDataFile')?.click());
   document.getElementById('loadDataFile')?.addEventListener('change', loadDataFile);
+  document.getElementById('clearMyTimeTarget')?.addEventListener('click', () => {
+    ['myTimeHours','myTimeMinutes'].forEach(id => setValue(id, 0));
+    readInputs(); saveUserData(); renderAll();
+  });
+  document.getElementById('clearMyTimeMargin')?.addEventListener('click', () => {
+    ['myTimeMarginPlusHours','myTimeMarginPlusMinutes','myTimeMarginMinusHours','myTimeMarginMinusMinutes'].forEach(id => setValue(id, 0));
+    readInputs(); saveUserData(); renderAll();
+  });
   document.addEventListener('input', e => {
     if (e.target?.classList?.contains('label-points')) {
       userData.labels[e.target.dataset.id] = Math.max(0, Number(e.target.value || 0));
@@ -432,9 +444,13 @@ function syncInputs() {
   setValue('fullFamily', userData.fullFamily);
   setValue('fullGender', userData.fullGender);
   setValue('timePlayerLevel', userData.level);
-  setValue('targetHours', userData.targetHours);
-  setValue('targetMargin', userData.targetMargin);
-  setValue('timeObjective', userData.timeObjective);
+  setValue('myTimeHours', userData.myTimeHours);
+  setValue('myTimeMinutes', userData.myTimeMinutes);
+  setValue('myTimeMarginPlusHours', userData.myTimeMarginPlusHours);
+  setValue('myTimeMarginPlusMinutes', userData.myTimeMarginPlusMinutes);
+  setValue('myTimeMarginMinusHours', userData.myTimeMarginMinusHours);
+  setValue('myTimeMarginMinusMinutes', userData.myTimeMarginMinusMinutes);
+  setChecked('myTimeUseLabelsToggle', userData.myTimeUseLabels !== false);
   setValue('coopSearch', userData.coopSearch);
   setValue('coopSort', userData.coopSort);
   setValue('coopWorkers', userData.coopWorkers);
@@ -457,9 +473,13 @@ function readInputs() {
   userData.fullUseLabels = getChecked('fullUseLabelsToggle', userData.fullUseLabels !== false);
   userData.fullFamily = getValue('fullFamily', userData.fullFamily);
   userData.fullGender = getValue('fullGender', userData.fullGender);
-  userData.targetHours = Number(getValue('targetHours', userData.targetHours));
-  userData.targetMargin = Number(getValue('targetMargin', userData.targetMargin));
-  userData.timeObjective = getValue('timeObjective', userData.timeObjective);
+  userData.myTimeHours = intValue('myTimeHours', userData.myTimeHours);
+  userData.myTimeMinutes = Math.min(59, intValue('myTimeMinutes', userData.myTimeMinutes));
+  userData.myTimeMarginPlusHours = intValue('myTimeMarginPlusHours', userData.myTimeMarginPlusHours);
+  userData.myTimeMarginPlusMinutes = Math.min(59, intValue('myTimeMarginPlusMinutes', userData.myTimeMarginPlusMinutes));
+  userData.myTimeMarginMinusHours = intValue('myTimeMarginMinusHours', userData.myTimeMarginMinusHours);
+  userData.myTimeMarginMinusMinutes = Math.min(59, intValue('myTimeMarginMinusMinutes', userData.myTimeMarginMinusMinutes));
+  userData.myTimeUseLabels = getChecked('myTimeUseLabelsToggle', userData.myTimeUseLabels !== false);
   userData.coopSearch = getValue('coopSearch', userData.coopSearch);
   userData.coopSort = getValue('coopSort', userData.coopSort);
   userData.coopWorkers = intValue('coopWorkers', userData.coopWorkers);
@@ -666,15 +686,54 @@ function renderFullDex() {
 }
 
 function renderTime() {
-  const target = Number(userData.targetHours || 0) * 60;
-  const margin = Number(userData.targetMargin || 0);
-  const min = Math.max(0, target - margin);
-  const max = target + margin;
-  const metric = userData.timeObjective === 'xp' ? 'adjXpPerMin' : userData.timeObjective === 'units' ? 'adjUnitsPerMin' : 'adjProfitPerMin';
-  let items = availableItems(true).filter(i => i.duration >= min && i.duration <= max);
-  items = top(items, metric, 20);
-  document.getElementById('timeWindowLabel').textContent = target > 0 ? `Showing outfits from ${timeFmt(min)} to ${timeFmt(max)}, sorted by ${userData.timeObjective}.` : 'Set a target time above 0.';
-  document.getElementById('timeMatchesBody').innerHTML = items.length ? items.map(i => `<tr class="row-${timeBucket(i.duration)}"><td>${iconCell(i)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${timeFmt(i.duration)}</td><td>${xpValue(i.adjXp)}</td><td>${money(i.adjProfit)}</td><td>${fmt(i.adjUnits)}</td><td>${escapeHtml(i.category)}</td></tr>`).join('') : emptyRow(8, 'No outfits match this time window. Try increasing the margin.');
+  const target = Math.max(0, Number(userData.myTimeHours || 0) * 60 + Number(userData.myTimeMinutes || 0));
+  const marginPlus = Math.max(0, Number(userData.myTimeMarginPlusHours || 0) * 60 + Number(userData.myTimeMarginPlusMinutes || 0));
+  const marginMinus = Math.max(0, Number(userData.myTimeMarginMinusHours || 0) * 60 + Number(userData.myTimeMarginMinusMinutes || 0));
+  const min = Math.max(0, target - marginMinus);
+  const max = target + marginPlus;
+  const useLabels = userData.myTimeUseLabels !== false;
+
+  let matches = [];
+  if (target > 0) {
+    matches = timeAvailableItems(useLabels)
+      .filter(i => i.duration >= min && i.duration <= max)
+      .sort((a, b) => a.level - b.level || a.duration - b.duration || a.name.localeCompare(b.name));
+  }
+
+  const summary = document.getElementById('myTimeWindowSummary');
+  if (summary) {
+    summary.textContent = target > 0
+      ? `Showing outfits from ${timeFmt(min)} to ${timeFmt(max)}.`
+      : 'Set a target time above 0.';
+  }
+
+  const bestRows = target > 0 ? [
+    { label: 'Best XP/min', item: bestItem(matches, i => i.adjXpPerMin), rowClass: 'best-xp-1' },
+    { label: 'Best profit/min', item: bestItem(matches, i => i.adjProfitPerMin), rowClass: 'best-profit-1' },
+    { label: 'Best units/min', item: bestItem(matches, i => i.adjUnitsPerMin), rowClass: 'best-portions-1' }
+  ].filter(row => row.item) : [];
+
+  const bestBody = document.getElementById('myTimeBestBody');
+  if (bestBody) {
+    bestBody.innerHTML = bestRows.length
+      ? bestRows.map(({ label, item, rowClass }) => itemSummaryRow(item, label, rowClass)).join('')
+      : emptyRow(9, target > 0 ? 'No outfits match this time window. Try increasing the margin.' : 'Set a target time above 0.');
+  }
+
+  const allBody = document.getElementById('myTimeAllBody');
+  if (allBody) {
+    allBody.innerHTML = matches.length
+      ? matches.map(i => `<tr class="row-${timeBucket(i.duration)}"><td>${iconCell(i)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${metricStack('xp.png', 'XP', i.adjXp, i.adjXpPerMin)}</td><td>${metricStack('fashiondollars.png', 'Fashiondollars', i.adjProfit, i.adjProfitPerMin)}</td><td>${unitMetricStack(i.adjUnits, i.adjUnitsPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`).join('')
+      : emptyRow(8, target > 0 ? 'No outfits match this time window. Try increasing the margin.' : 'Set a target time above 0.');
+  }
+}
+
+function timeAvailableItems(useLabels) {
+  return DATA.clothes
+    .filter(i => i.level <= Number(userData.level || 0))
+    .filter(i => userData.patternMode === 'all' || i.patternGold <= 0)
+    .filter(i => i.productionCostGold <= 0)
+    .map(i => adjusted(i, useLabels));
 }
 
 function renderCoops() {
