@@ -3999,3 +3999,354 @@ body.dark-theme .label-summary-card h3 {
   .label-summary-card { position: static; }
   .labels-filter-grid { grid-template-columns: 1fr; }
 }
+
+/* FIXED16: Co-Op Planner visual cleanup */
+.coop-member-actions {
+  flex-direction: column;
+  gap: 6px;
+  min-width: 58px;
+}
+
+.icon-action-button {
+  width: 44px;
+  min-width: 44px;
+  height: 40px;
+  min-height: 40px;
+  border-radius: 12px;
+  background: #2b1d13;
+  color: #fff4df;
+  box-shadow: inset 0 0 0 1px rgba(255, 226, 154, 0.08);
+}
+
+.icon-action-button .action-main-symbol {
+  display: block;
+  line-height: 1;
+}
+
+.icon-action-button.label-action-button .action-main-symbol {
+  color: var(--gold);
+  font-size: 1rem;
+}
+
+.icon-action-button.label-action-button small {
+  margin-top: 0;
+  color: #ffe2a2;
+  font-size: 0.66rem;
+}
+
+.icon-action-button.profile-label-source {
+  border-color: rgba(255, 210, 102, 0.55);
+  opacity: 0.9;
+}
+
+.icon-action-button.danger-icon {
+  color: #d7f1ff;
+}
+
+body.dark-theme .coop-member-table th,
+body.dark-theme .coop-table th {
+  color: #2d1b0f;
+}
+
+body.dark-theme .coop-member-table td,
+body.dark-theme .coop-table td {
+  color: #fff4e8;
+}
+
+body.dark-theme .coop-table .dish-type-tag,
+body.dark-theme .coop-table .requirements-cell,
+body.dark-theme .coop-table .requirements-cell strong {
+  color: #f0d7a8;
+}
+
+.dishdex-coop-plan {
+  border: 1px dashed rgba(179, 116, 51, 0.55);
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.dishdex-coop-plan .coop-plan-heading {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.dishdex-coop-plan .coop-plan-heading .coop-icon {
+  flex: 0 0 auto;
+}
+
+.dishdex-coop-plan .coop-plan-heading h3 {
+  color: #ffe7a3;
+  font-size: 1.55rem;
+  margin: 2px 0 4px;
+}
+
+.dishdex-coop-plan .coop-plan-heading p {
+  color: #e8d2a5;
+  font-weight: 900;
+}
+
+.dishdex-coop-plan .coop-plan-heading small {
+  color: #ffe2a2;
+}
+
+.coop-detail-grid section,
+.coop-team-compact-section,
+.coop-assignment-section {
+  background: rgba(31, 20, 13, 0.78);
+  border: 1px solid rgba(179, 116, 51, 0.85);
+  border-radius: 18px;
+  color: #ffe8bc;
+}
+
+.coop-detail-grid h4,
+.coop-team-compact-section h3,
+.coop-assignment-section h3,
+.coop-team-rewards-card h4 {
+  color: #ffe2a2;
+}
+
+.reward-note {
+  margin: -2px 0 10px;
+  color: #e4ca95;
+}
+
+.detail-rewards .coop-reward-pill {
+  width: 100%;
+  justify-content: flex-start;
+  color: #3b2618;
+}
+
+.coop-reward-pill.gold-tier { background: #fffdb0; }
+.coop-reward-pill.silver-tier { background: #f1f4f7; }
+.coop-reward-pill.bronze-tier { background: #f6ddb0; }
+
+.coop-team-plan-grid {
+  grid-template-columns: minmax(420px, 1fr) minmax(300px, 0.48fr);
+}
+
+.coop-team-side-stack {
+  display: grid;
+  gap: 12px;
+}
+
+.coop-team-rewards-card {
+  display: grid;
+  gap: 8px;
+}
+
+.coop-team-rewards-card h4 {
+  margin: 0 0 2px;
+  font-size: 1rem;
+}
+
+.coop-team-reward-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: center;
+  background: rgba(255, 248, 230, 0.78);
+  color: #3b2618;
+  border-radius: 12px;
+  padding: 9px 12px;
+  font-weight: 900;
+}
+
+.coop-team-reward-row strong,
+.coop-team-reward-row span {
+  color: #3b2618;
+}
+
+.coop-team-estimate-card {
+  background: rgba(83, 70, 10, 0.92) !important;
+  border-color: #e0c700;
+  color: #fff4ba !important;
+}
+
+.coop-team-estimate-card strong,
+.coop-team-estimate-card span,
+.coop-team-estimate-card small {
+  color: #fff4ba !important;
+}
+
+.coop-team-summary-item.compact-team-card,
+.coop-assignment-card {
+  background: rgba(245, 238, 207, 0.88) !important;
+  border-color: rgba(179, 116, 51, 0.85);
+  box-shadow: none;
+}
+
+.coop-team-summary-item.compact-team-card strong,
+.coop-team-summary-item.compact-team-card span,
+.coop-team-summary-item.compact-team-card small,
+.coop-assignment-card strong,
+.coop-assignment-card span,
+.coop-assignment-card small {
+  color: #3b2618 !important;
+}
+
+.coop-workload-label select,
+.manual-assignment-button {
+  background: #5b370f;
+  color: #fff4df;
+  border-color: #9f6a2f;
+}
+
+.coop-assignment-grid {
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.coop-assignment-card em {
+  background: #fff1c7;
+  color: #3b2618;
+  border: 1px solid rgba(139, 91, 35, 0.3);
+}
+
+.coop-assignment-card em small {
+  color: #5d452b;
+}
+
+.copy-coop-assignment.action-button {
+  background: #f2bd5c;
+  color: #3b2618;
+  border-color: #f9d893;
+  box-shadow: inset 0 -2px 0 rgba(0,0,0,0.12);
+}
+
+/* DishDex-style Gold Label editor */
+.gold-label-editor-card {
+  width: min(960px, 96vw);
+  background: #24170f;
+  border-color: #9f6a2f;
+  color: #ffebbf;
+}
+
+.gold-label-editor-card h3 {
+  color: #ffe2a2;
+}
+
+.gold-label-editor-card p {
+  color: #e9cf9d;
+}
+
+.gold-label-search {
+  display: grid;
+  gap: 7px;
+  margin: 16px 0 12px;
+  color: #ffe2a2;
+  font-weight: 900;
+}
+
+.gold-label-search input {
+  min-height: 46px;
+  border-radius: 12px;
+  border: 2px solid #9f6a2f;
+  background: #442c1c;
+  color: #fff4df;
+  font: inherit;
+  font-weight: 900;
+  padding: 8px 12px;
+}
+
+.gold-label-selected-bar {
+  border: 1px solid rgba(179, 116, 51, 0.7);
+  background: rgba(255, 226, 162, 0.08);
+  border-radius: 14px;
+  padding: 10px 12px;
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.gold-label-selected-bar > strong {
+  color: #ffe16c;
+  font-size: 1.25rem;
+}
+
+.gold-label-selected-bar > span {
+  color: #f0d7a8;
+  font-weight: 900;
+}
+
+.selected-gold-label-chip {
+  display: inline-block;
+  margin: 3px 5px 3px 0;
+  border-radius: 999px;
+  padding: 5px 9px;
+  background: #fff1c7;
+  color: #3b2618;
+  font-weight: 900;
+}
+
+.gold-label-button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(160px, 1fr));
+  gap: 10px;
+  max-height: 46vh;
+  overflow: auto;
+  padding-right: 6px;
+}
+
+.coop-gold-label-pill {
+  min-height: 40px;
+  border: 2px solid #9f6a2f;
+  border-radius: 999px;
+  background: #140d08;
+  color: #fff4df;
+  font: inherit;
+  font-weight: 900;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+.coop-gold-label-pill span {
+  color: #ffe16c;
+  font-size: 1rem;
+}
+
+.coop-gold-label-pill.selected {
+  background: #5b4510;
+  border-color: #ffe16c;
+  color: #fffbd3;
+}
+
+.coop-gold-label-pill.required-outfit {
+  box-shadow: inset 0 0 0 2px rgba(255, 225, 108, 0.18);
+}
+
+.coop-gold-label-pill small {
+  margin-left: auto;
+  color: #ffd47a;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+}
+
+.manual-assignment-row {
+  color: #fff4df;
+  background: #2b1d13;
+  border-color: #9f6a2f;
+}
+
+.manual-assignment-info strong,
+.manual-assignment-info small {
+  color: #fff4df;
+}
+
+@media (max-width: 900px) {
+  .coop-team-plan-grid {
+    grid-template-columns: 1fr;
+  }
+  .gold-label-button-grid {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .gold-label-button-grid {
+    grid-template-columns: 1fr;
+  }
+}

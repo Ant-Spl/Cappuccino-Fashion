@@ -451,6 +451,10 @@ function bindInputs() {
       saveUserData();
       renderSelectedCoopPlan();
     }
+    if (e.target?.id === 'coopGoldLabelSearch') {
+      window.coopGoldLabelSearch = e.target.value || '';
+      renderCoopGoldLabelEditor();
+    }
   });
   document.addEventListener('click', e => {
     const planButton = e.target?.closest?.('.plan-coop-button');
@@ -469,6 +473,13 @@ function bindInputs() {
     const goldButton = e.target?.closest?.('.open-coop-gold-labels');
     if (goldButton) {
       openCoopGoldLabelEditor(Number(goldButton.dataset.slot || 0));
+    }
+    const goldPill = e.target?.closest?.('.coop-gold-label-pill');
+    if (goldPill) {
+      toggleCoopMemberGoldLabel(Number(goldPill.dataset.slot || 0), String(goldPill.dataset.clothId || ''));
+      saveUserData();
+      renderCoops();
+      renderCoopGoldLabelEditor();
     }
     const manualButton = e.target?.closest?.('.open-manual-assignment');
     if (manualButton) {
@@ -997,8 +1008,8 @@ function renderCoopTeamEditor() {
       <td><input id="coopMemberLevel${slot}" class="coop-member-input" type="number" min="0" max="999" value="${escapeAttr(member.level ?? '')}" placeholder="Level"></td>
       <td><input id="coopMemberWorkers${slot}" class="coop-member-input" type="number" min="1" max="99" value="${escapeAttr(member.workers ?? '')}" placeholder="Workers"></td>
       <td class="coop-member-actions">
-        <button class="icon-action-button open-coop-gold-labels ${goldCount ? 'has-labels' : ''}" data-slot="${slot}" type="button" title="${escapeAttr(squareTitle)}">■<small>${fmt(goldCount)}</small></button>
-        <button class="icon-action-button clear-coop-member danger-icon" data-slot="${slot}" type="button" title="Clear player">🗑️</button>
+        <button class="icon-action-button label-action-button open-coop-gold-labels ${goldCount ? 'has-labels' : ''} ${slot === 1 ? 'profile-label-source' : ''}" data-slot="${slot}" type="button" title="${escapeAttr(squareTitle)}"><span class="action-main-symbol">■</span><small>${slot === 1 ? 'My' : fmt(goldCount)}</small></button>
+        <button class="icon-action-button clear-coop-member danger-icon" data-slot="${slot}" type="button" title="Clear player"><span class="action-main-symbol">🗑️</span></button>
       </td>
     </tr>`;
   }).join('');
@@ -1245,6 +1256,7 @@ function coopPlanCard(c) {
     return `<div class="coop-requirement-item">${r.missing ? '<div class="missing-img coop-missing-icon">No icon</div>' : iconCell(item)}<div><strong>${fmt(r.amount)}× ${escapeHtml(r.name)}</strong><span>Level ${fmt(r.level)} · ${timeFmt(r.duration || 0)} each · ${fmt(r.batches)} production${r.batches === 1 ? '' : 's'}</span></div></div>`;
   }).join('');
   const selectedReward = rewardForTier(c, plan.tier.name);
+  const teamRewardRows = coopTeamRewardRows(c, plan, selectedReward);
   const teamCards = plan.members.map(m => coopMemberPlanCard(m, c)).join('');
   const assignmentCards = plan.members.map(m => coopAssignmentMemberCard(m)).join('');
   const unassigned = plan.unassigned.length ? `<div class="bad-box"><strong>Unassigned:</strong> ${plan.unassigned.map(x => `${escapeHtml(x.req.name)} × ${fmt(x.units)}`).join(', ')}</div>` : '';
@@ -1262,14 +1274,14 @@ function coopPlanCard(c) {
       <div><strong>Total factory-hours</strong><span>${hours(c.factoryHours)}</span></div>
     </div>
     <div class="coop-detail-grid">
-      <section><h4>Reward Details</h4><div class="coop-reward-pills detail-rewards">${rewardStack(c)}</div><small>Predicted tier: ${escapeHtml(plan.tier.name)} · team reward: ${money(selectedReward.chips)} ${xpValue(selectedReward.xp)} ${goldValue(selectedReward.gold)}</small></section>
+      <section><h4>Reward Details</h4><p class="section-note reward-note">Rewards shown are per contributing player.</p><div class="coop-reward-pills detail-rewards">${rewardStack(c)}</div></section>
       <section><h4>Required outfits</h4><div class="coop-requirement-list">${reqCards || '<div class="empty">No requirements listed.</div>'}</div></section>
     </div>
     <section class="coop-team-compact-section">
       <h3>Selected team: ${escapeHtml(userData.coopTeamName || 'Current team')}</h3>
       <div class="coop-team-plan-grid">
         <div class="coop-team-summary-list team-count-${activeCount}">${teamCards || '<div class="empty">Add at least one player to the team.</div>'}</div>
-        <div class="coop-team-estimate-card ${plan.tier.className}"><strong>Estimated with this team</strong><span>${timeFmt(plan.teamMinutes)}</span><small>Predicted Status: ${escapeHtml(plan.tier.name)}</small><small>${escapeHtml(plan.tier.note)}</small></div>
+        <div class="coop-team-side-stack"><div class="coop-team-estimate-card ${plan.tier.className}"><strong>Estimated with this team</strong><span>${timeFmt(plan.teamMinutes)}</span><small>Predicted Status: ${escapeHtml(plan.tier.name)}</small><small>${escapeHtml(plan.tier.note)}</small></div>${teamRewardRows}</div>
       </div>
     </section>
     ${unassigned}${warnings}
@@ -1281,6 +1293,15 @@ function coopPlanCard(c) {
     <div id="coopGoldLabelEditor" class="coop-editor-backdrop hidden"></div>
     <div id="coopManualAssignmentEditor" class="coop-editor-backdrop hidden"></div>
   </div>`;
+}
+
+function coopTeamRewardRows(coop, plan, reward) {
+  const rows = plan.members.map(member => {
+    const hasContribution = member.loadMinutes > 0;
+    const rewardHtml = hasContribution ? `${money(reward.chips)} ${xpValue(reward.xp)} ${goldValue(reward.gold)}` : '<span class="muted-text">No reward without contribution</span>';
+    return `<div class="coop-team-reward-row"><strong>${escapeHtml(member.name)}</strong><span>${rewardHtml}</span></div>`;
+  }).join('');
+  return `<div class="coop-team-rewards-card"><h4>Team rewards at predicted status</h4>${rows || '<div class="empty">Add players to see rewards.</div>'}</div>`;
 }
 
 function coopMemberPlanCard(member, coop) {
@@ -1326,19 +1347,42 @@ function renderCoopGoldLabelEditor() {
   const slot = Number(window.currentCoopGoldSlot || 0);
   const coop = DATA.coops.find(c => String(c.id) === String(userData.selectedCoopId)) || DATA.coops[0];
   const member = normalizeCoopMember(userData.coopTeamMembers[slot - 1] || {}, slot);
+  editor.classList.remove('hidden');
   if (slot === 1) {
-    editor.classList.remove('hidden');
-    editor.innerHTML = `<div class="coop-editor-card"><button type="button" class="close-editor-button" data-close-coop-editor>×</button><h3>Gold Labels: Player 1</h3><p>Player 1 uses the Gold Labels already registered in My Labels. You do not need to enter them again here.</p></div>`;
+    const goldCount = labelTotals().gold;
+    editor.innerHTML = `<div class="coop-editor-card gold-label-editor-card"><button type="button" class="close-editor-button" data-close-coop-editor>×</button><h3>Gold Labels: Player 1</h3><p>Player 1 uses the Gold Labels already registered in My Labels. You do not need to enter them again here.</p><div class="gold-label-selected-bar"><strong>${fmt(goldCount)}</strong><span>Gold Labels from My Labels</span></div></div>`;
     return;
   }
-  const rows = (coop?.requirements || []).map(req => {
-    const checked = !!member.goldLabels?.[String(req.clothId)];
-    const disabled = Number(member.level || 0) < Number(req.level || 0);
-    return `<label class="gold-label-row ${disabled ? 'disabled' : ''}">${iconCell(DATA.clothesById.get(req.clothId) || {})}<span><strong>${escapeHtml(req.name)}</strong><small>Level ${fmt(req.level)} · Gold Label applies +5% units and -30% production time in planner.</small></span><input class="coop-gold-label-check" data-slot="${slot}" data-cloth-id="${req.clothId}" type="checkbox" ${checked ? 'checked' : ''} ${disabled ? 'disabled' : ''}></label>`;
+  const query = String(window.coopGoldLabelSearch || '').trim().toLowerCase();
+  const memberLevel = Number(member.level || 0);
+  const selectedLabels = member.goldLabels && typeof member.goldLabels === 'object' ? member.goldLabels : {};
+  const selectedIds = Object.keys(selectedLabels).filter(id => selectedLabels[id]);
+  let items = DATA.clothes.filter(item => Number(item.level || 0) <= memberLevel);
+  if (query) items = items.filter(item => `${item.name} ${item.type} ${item.category}`.toLowerCase().includes(query));
+  const requiredIds = new Set((coop?.requirements || []).map(req => String(req.clothId)));
+  items.sort((a,b) => {
+    const ar = requiredIds.has(String(a.id)) ? 0 : 1;
+    const br = requiredIds.has(String(b.id)) ? 0 : 1;
+    return ar - br || a.level - b.level || a.name.localeCompare(b.name);
+  });
+  const selectedNames = selectedIds.map(id => DATA.clothesById.get(Number(id))?.name).filter(Boolean).sort((a,b)=>a.localeCompare(b));
+  const selectedHtml = selectedNames.length
+    ? selectedNames.map(name => `<span class="selected-gold-label-chip">■ ${escapeHtml(name)}</span>`).join('')
+    : '<span class="muted-text">No Gold Labels selected yet.</span>';
+  const pills = items.map(item => {
+    const checked = !!selectedLabels[String(item.id)];
+    const required = requiredIds.has(String(item.id));
+    return `<button type="button" class="coop-gold-label-pill ${checked ? 'selected' : ''} ${required ? 'required-outfit' : ''}" data-slot="${slot}" data-cloth-id="${item.id}" title="Toggle Gold Label for ${escapeAttr(item.name)}"><span>${checked ? '■' : '□'}</span>${escapeHtml(item.name)}${required ? '<small>Co-Op</small>' : ''}</button>`;
   }).join('');
-  editor.classList.remove('hidden');
-  editor.innerHTML = `<div class="coop-editor-card"><button type="button" class="close-editor-button" data-close-coop-editor>×</button><h3>Gold Labels: ${escapeHtml(member.name || `Player ${slot}`)}</h3><p>Select the required outfits this player has at Gold Label. Saved teams keep this data.</p><div class="gold-label-list">${rows || '<div class="empty">Choose a Co-Op first.</div>'}</div></div>`;
+  editor.innerHTML = `<div class="coop-editor-card gold-label-editor-card"><button type="button" class="close-editor-button" data-close-coop-editor>×</button><h3>Gold Labels: ${escapeHtml(member.name || `Player ${slot}`)}</h3><p>Only Gold Labels matter here because they reduce production time. Selected Gold Labels are saved with this team.</p><label class="gold-label-search"><span>Search outfits</span><input id="coopGoldLabelSearch" type="search" value="${escapeAttr(window.coopGoldLabelSearch || '')}" placeholder="Search outfits..."></label><div class="gold-label-selected-bar"><strong>${fmt(selectedIds.length)}</strong><span>Gold Labels selected</span><div>${selectedHtml}</div></div><div class="gold-label-button-grid">${pills || '<div class="empty">No outfits available for this player level.</div>'}</div></div>`;
+  const search = document.getElementById('coopGoldLabelSearch');
+  if (search) {
+    search.focus();
+    const len = search.value.length;
+    try { search.setSelectionRange(len, len); } catch {}
+  }
 }
+
 
 function openCoopManualAssignmentEditor(slot) {
   window.currentCoopManualSlot = slot;
@@ -1369,6 +1413,16 @@ function closeCoopEditors() {
   document.getElementById('coopManualAssignmentEditor')?.classList.add('hidden');
   window.currentCoopGoldSlot = null;
   window.currentCoopManualSlot = null;
+}
+
+function toggleCoopMemberGoldLabel(slot, clothId) {
+  ensureCoopTeamState();
+  if (slot === 1) return;
+  const member = userData.coopTeamMembers[slot - 1];
+  if (!member || !clothId) return;
+  member.goldLabels = member.goldLabels && typeof member.goldLabels === 'object' ? member.goldLabels : {};
+  if (member.goldLabels[String(clothId)]) delete member.goldLabels[String(clothId)];
+  else member.goldLabels[String(clothId)] = true;
 }
 
 function setCoopMemberGoldLabel(slot, clothId, checked) {
