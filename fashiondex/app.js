@@ -1,4 +1,4 @@
-/* FashionDex/app.js - DishDex-style static GitHub Pages build v8 */
+/* FashionDex/app.js - DishDex-style static GitHub Pages build v10 */
 (() => {
 'use strict';
 
@@ -88,6 +88,7 @@ function defaultUserData() {
     timeObjective: 'profit',
     fullSearch: '',
     fullSort: 'levelAsc',
+    fullUseLabels: true,
     fullFamily: 'all',
     fullGender: 'all',
     coopSearch: '',
@@ -378,7 +379,7 @@ function setupSortOptions() {
 }
 
 function bindInputs() {
-  const ids = ['playerLevel','xpNeeded','workerCount','patternMode','useLabelsToggle','fullSearch','fullSort','fullFamily','fullGender','timePlayerLevel','targetHours','targetMargin','timeObjective','coopSearch','coopSort','coopWorkers','coopSelect','profileName','profileLevel','profileWorkers','labelSearch','labelFamily','labelSort','labelSlots'];
+  const ids = ['playerLevel','xpNeeded','workerCount','patternMode','useLabelsToggle','fullSearch','fullSort','fullUseLabelsToggle','fullFamily','fullGender','timePlayerLevel','targetHours','targetMargin','timeObjective','coopSearch','coopSort','coopWorkers','coopSelect','profileName','profileLevel','profileWorkers','labelSearch','labelFamily','labelSort','labelSlots'];
   ids.forEach(id => {
     document.getElementById(id)?.addEventListener('input', onInputChange);
     document.getElementById(id)?.addEventListener('change', onInputChange);
@@ -427,6 +428,7 @@ function syncInputs() {
   setChecked('useLabelsToggle', userData.useLabels);
   setValue('fullSearch', userData.fullSearch);
   setValue('fullSort', userData.fullSort);
+  setChecked('fullUseLabelsToggle', userData.fullUseLabels !== false);
   setValue('fullFamily', userData.fullFamily);
   setValue('fullGender', userData.fullGender);
   setValue('timePlayerLevel', userData.level);
@@ -452,6 +454,7 @@ function readInputs() {
   userData.useLabels = getChecked('useLabelsToggle', userData.useLabels);
   userData.fullSearch = getValue('fullSearch', userData.fullSearch);
   userData.fullSort = getValue('fullSort', userData.fullSort);
+  userData.fullUseLabels = getChecked('fullUseLabelsToggle', userData.fullUseLabels !== false);
   userData.fullFamily = getValue('fullFamily', userData.fullFamily);
   userData.fullGender = getValue('fullGender', userData.fullGender);
   userData.targetHours = Number(getValue('targetHours', userData.targetHours));
@@ -638,13 +641,29 @@ function bestItem(items, scoreFunction) {
 }
 
 function renderFullDex() {
-  let items = DATA.clothes.map(i => adjusted(i, false));
+  const useLabels = userData.fullUseLabels !== false;
+  let items = DATA.clothes.map(i => adjusted(i, useLabels));
   const q = userData.fullSearch.trim().toLowerCase();
   if (q) items = items.filter(i => filterText(i, q));
   if (userData.fullFamily !== 'all') items = items.filter(i => i.family === userData.fullFamily);
   if (userData.fullGender !== 'all') items = items.filter(i => String(i.gender) === userData.fullGender);
   items = sortItems(items, userData.fullSort);
-  document.getElementById('fullDexBody').innerHTML = items.length ? items.map(i => `<tr class="category-${familyClass(i.family)}"><td>${iconCell(i)}</td><td class="dish-name">${escapeHtml(i.name)}<div class="dish-type-tag">${escapeHtml(i.key)}</div></td><td>${i.id}</td><td>${i.level}</td><td>${escapeHtml(i.category)}</td><td>${i.genderName}</td><td>${xpValue(i.xp)}</td><td>${money(i.profit)}</td><td>${fmt(i.production)}</td><td>${timeFmt(i.duration)}</td><td>${price(i.patternCash, i.patternGold)}</td><td>${productionCost(i)}</td><td>${money(i.revenue)}</td></tr>`).join('') : emptyRow(13, 'No outfits match this search.');
+  document.getElementById('fullDexBody').innerHTML = items.length ? items.map(i => `
+    <tr class="category-${familyClass(i.family)}">
+      <td>${iconCell(i)}</td>
+      <td class="dish-name">${escapeHtml(i.name)}</td>
+      <td>${i.level}</td>
+      <td>${metricStack('xp.png', 'XP', i.adjXp, i.adjXpPerMin)}</td>
+      <td>${metricStack('fashiondollars.png', 'Fashiondollars', i.adjProfit, i.adjProfitPerMin)}</td>
+      <td>${unitMetricStack(i.adjUnits, i.adjUnitsPerMin)}</td>
+      <td>${timeFmt(i.duration)}</td>
+      <td>${escapeHtml(i.category)}</td>
+      <td>${i.genderName}</td>
+      <td>${price(i.patternCash, i.patternGold)}</td>
+      <td>${productionCost(i)}</td>
+      <td>${money(i.adjRevenue)}</td>
+    </tr>
+  `).join('') : emptyRow(12, 'No outfits match this search.');
 }
 
 function renderTime() {
@@ -753,13 +772,28 @@ function labelTotals() {
 
 function top(items, key, count) { return [...items].filter(i => Number.isFinite(Number(i[key]))).sort((a,b)=>Number(b[key])-Number(a[key]) || a.level-b.level || a.name.localeCompare(b.name)).slice(0,count); }
 function sortItems(items, sortKey) {
-  const [key, dir] = ({ levelAsc:['level',1], levelDesc:['level',-1], nameAsc:['name',1], nameDesc:['name',-1], durationAsc:['duration',1], durationDesc:['duration',-1], profitDesc:['profit',-1], profitAsc:['profit',1], xpDesc:['xp',-1], xpAsc:['xp',1], profitPerMinDesc:['profitPerMin',-1], profitPerMinAsc:['profitPerMin',1], xpPerMinDesc:['xpPerMin',-1], xpPerMinAsc:['xpPerMin',1], unitsDesc:['production',-1], unitsAsc:['production',1], unitsPerMinDesc:['unitsPerMin',-1], unitsPerMinAsc:['unitsPerMin',1] }[sortKey] || ['level',1]);
+  const config = {
+    levelAsc:['level',1], levelDesc:['level',-1], nameAsc:['name',1], nameDesc:['name',-1], durationAsc:['duration',1], durationDesc:['duration',-1],
+    profitDesc:['effectiveProfit',-1], profitAsc:['effectiveProfit',1], xpDesc:['effectiveXp',-1], xpAsc:['effectiveXp',1],
+    profitPerMinDesc:['effectiveProfitPerMin',-1], profitPerMinAsc:['effectiveProfitPerMin',1], xpPerMinDesc:['effectiveXpPerMin',-1], xpPerMinAsc:['effectiveXpPerMin',1],
+    unitsDesc:['effectiveUnits',-1], unitsAsc:['effectiveUnits',1], unitsPerMinDesc:['effectiveUnitsPerMin',-1], unitsPerMinAsc:['effectiveUnitsPerMin',1]
+  }[sortKey] || ['level',1];
+  const [key, dir] = config;
   return [...items].sort((a,b) => {
-    const av = a[key], bv = b[key];
+    const av = sortValue(a, key), bv = sortValue(b, key);
     if (typeof av === 'string') return av.localeCompare(bv) * dir;
     if (Number(av) === Number(bv)) return a.name.localeCompare(b.name);
     return (Number(av) - Number(bv)) * dir;
   });
+}
+function sortValue(item, key) {
+  if (key === 'effectiveProfit') return item.adjProfit ?? item.profit;
+  if (key === 'effectiveXp') return item.adjXp ?? item.xp;
+  if (key === 'effectiveUnits') return item.adjUnits ?? item.production;
+  if (key === 'effectiveProfitPerMin') return item.adjProfitPerMin ?? item.profitPerMin;
+  if (key === 'effectiveXpPerMin') return item.adjXpPerMin ?? item.xpPerMin;
+  if (key === 'effectiveUnitsPerMin') return item.adjUnitsPerMin ?? item.unitsPerMin;
+  return item[key];
 }
 function filterText(i, q) { return `${i.id} ${i.key} ${i.name} ${i.family} ${i.category} ${i.genderName}`.toLowerCase().includes(q); }
 function uniqueBy(arr, fn) { const seen = new Set(); return arr.filter(x => { const k = fn(x); if (seen.has(k)) return false; seen.add(k); return true; }); }

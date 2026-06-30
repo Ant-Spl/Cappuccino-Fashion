@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-mydex-v7">
+  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-fulldex-v10">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -134,14 +134,15 @@
       <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><img src="fulldex.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'"><div><p class="eyebrow">Complete catalog</p><h1>Full FashionDex</h1></div></div></header>
       <section class="panel inputs-panel">
         <h2>Sort Full FashionDex</h2>
-        <div class="input-grid">
+        <div class="input-grid full-fashiondex-options">
           <label><span>Search outfit</span><input id="fullSearch" type="search" placeholder="Search outfit..."></label>
           <label><span>Sort by</span><select id="fullSort"></select></label>
           <label><span>Type</span><select id="fullFamily"><option value="all">All</option><option>Clothes</option><option>Shoes</option><option>Accessories</option></select></label>
           <label><span>Gender</span><select id="fullGender"><option value="all">All</option><option value="0">Unisex</option><option value="1">Female</option><option value="2">Male</option></select></label>
+          <label class="full-mastery-toggle" for="fullUseLabelsToggle"><input id="fullUseLabelsToggle" type="checkbox" checked><span>Use my Labels</span></label>
         </div>
       </section>
-      <section class="panel"><h2>Available FashionDex</h2><p class="section-note">Complete outfit list with XP, profit, units, time, category, and pattern cost.</p><div class="table-wrap"><table class="full-table"><thead><tr><th>Image</th><th>Outfit</th><th>ID</th><th>Level</th><th>Type</th><th>Gender</th><th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"></span></th><th><span class="icon-heading"><img src="fashiondollars.png" alt="Fashiondollars" class="header-icon"></span></th><th>Units</th><th>Duration</th><th>Pattern</th><th>Production Cost</th><th>Revenue</th></tr></thead><tbody id="fullDexBody"></tbody></table></div></section>
+      <section class="panel"><h2>Available FashionDex</h2><p class="section-note">Complete outfit list with XP, profit, units, time, type, gender, and costs.</p><div class="table-wrap"><table class="full-table"><thead><tr><th>Image</th><th>Outfit</th><th>Level</th><th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"><small>/min</small></span></th><th><span class="icon-heading"><img src="fashiondollars.png" alt="Fashiondollars" class="header-icon"><small>/min</small></span></th><th>Units</th><th>Duration</th><th>Type</th><th>Gender</th><th>Pattern Cost</th><th>Production Cost</th><th>Revenue</th></tr></thead><tbody id="fullDexBody"></tbody></table></div></section>
     </section>
 
     <section id="myTimeScreen" class="screen hidden">
@@ -203,6 +204,6 @@
       <section class="panel"><h2>Label List</h2><div class="table-wrap"><table class="mastery-table"><thead><tr><th>Image</th><th>Outfit</th><th>Level</th><th>Current Points</th><th>Current Label</th><th>Bronze</th><th>Silver</th><th>Gold</th><th>Next</th></tr></thead><tbody id="labelsBody"></tbody></table></div></section>
     </section>
   </main>
-  <script src="app.js?v=20260630-fashiondex-labels-v9"></script>
+  <script src="app.js?v=20260630-fashiondex-fulldex-v10"></script>
 </body>
 </html>

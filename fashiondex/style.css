@@ -3413,3 +3413,20 @@ body.dark-theme .label-badge.silver,
 body.dark-theme .label-square.filled.silver {
   color: #5f6773;
 }
+
+
+/* Full FashionDex refinements v10 */
+.full-fashiondex-options {
+  grid-template-columns: repeat(4, minmax(150px, 1fr)) minmax(220px, max-content);
+  align-items: end;
+}
+.full-fashiondex-options .full-mastery-toggle {
+  align-self: end;
+  min-height: 48px;
+}
+.full-table .dish-name {
+  min-width: 170px;
+}
+@media (max-width: 1100px) {
+  .full-fashiondex-options { grid-template-columns: repeat(2, minmax(180px, 1fr)); }
+}
