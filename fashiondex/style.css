@@ -3371,3 +3371,34 @@ body.dark-theme .recommended-masteries-table .effect-total {
   .six-mode-grid { grid-template-columns: 1fr; }
   .stat-grid, .mini-grid { grid-template-columns: 1fr; }
 }
+
+/* FIXED8: Recommended Labels now mirrors DishDex mastery display. */
+.label-squares {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.label-square {
+  font-size: 1.15rem;
+  line-height: 1;
+  color: #b8aa9d;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.12);
+}
+.label-square.filled.bronze { color: var(--bronze); }
+.label-square.filled.silver { color: var(--silver); }
+.label-square.filled.gold { color: var(--gold); }
+.label-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+.label-badge .label-badge-square { font-size: 1rem; line-height: 1; }
+.label-badge.bronze { color: var(--bronze); }
+.label-badge.silver { color: var(--silver); }
+.label-badge.gold { color: var(--gold); }
+.label-badge.none { color: var(--muted); }

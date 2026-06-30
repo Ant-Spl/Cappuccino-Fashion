@@ -1,4 +1,4 @@
-/* FashionDex/app.js - DishDex-style static GitHub Pages build v6 */
+/* FashionDex/app.js - DishDex-style static GitHub Pages build v8 */
 (() => {
 'use strict';
 
@@ -536,11 +536,66 @@ function renderBucketMetricRows(items, metric) {
 function renderRecommendedLabels(summaryItems) {
   const rows = summaryItems.filter(x => x.item).map(({ label, item, rowClass }) => {
     const base = DATA.clothesById.get(item.id) || item;
-    const info = nextLabelInfo(base);
-    const benefit = info.targetLevel === 1 ? '+5% pieces' : info.targetLevel === 2 ? '+5% XP' : info.targetLevel === 3 ? 'Gold Label completion' : 'Already Gold';
-    return `<tr class="${rowClass}"><td>${iconCell(item)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(item.name)}</td><td>${labelName(labelLevel(base))}</td><td>${info.targetLevel ? labelName(info.targetLevel) : 'Complete'}</td><td>${benefit}</td><td>${info.targetLevel ? `${fmt(info.remaining)} more points` : 'Complete'}</td></tr>`;
+    const targetLevel = recommendedLabelLevelForSummary(label);
+    const currentLevel = labelLevel(base);
+    const reached = currentLevel >= targetLevel;
+    const benefit = reached
+      ? 'You already have the recommended Label for this! Nice!'
+      : recommendedLabelBenefit(base, targetLevel, label);
+    return `<tr class="${rowClass}"><td>${iconCell(item)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(item.name)}</td><td>${labelSquares(currentLevel)}</td><td>${labelBadge(targetLevel)}</td><td class="effects-cell">${benefit}</td><td>${labelRequirement(base, targetLevel)}</td></tr>`;
   });
   return rows.length ? rows.join('') : emptyRow(7, 'No Label recommendations available.');
+}
+
+function recommendedLabelLevelForSummary(label) {
+  const text = String(label || '').toLowerCase();
+  if (text.includes('xp')) return 2;
+  if (text.includes('profit') || text.includes('unit')) return 1;
+  return 1;
+}
+
+function recommendedLabelBenefit(item, targetLevel, label) {
+  const currentLevel = labelLevel(item);
+  const text = String(label || '').toLowerCase();
+  const bronzePieces = Math.ceil(Number(item.production || 0) * LABEL_BONUS_PIECES) - Number(item.production || 0);
+  const silverXp = Math.ceil(Number(item.xp || 0) * LABEL_BONUS_XP) - Number(item.xp || 0);
+  const profitGain = bronzePieces * Number(item.incomePerUnit || 0);
+
+  if (targetLevel === 2) {
+    if (currentLevel < 1) {
+      return `${labelBadge(1)} first: +${fmt(bronzePieces)} units, then ${labelBadge(2)}: +${fmt(silverXp)} XP`;
+    }
+    return `${labelBadge(2)}: +${fmt(silverXp)} XP`;
+  }
+
+  if (text.includes('profit')) {
+    return `${labelBadge(1)}: +${fmt(bronzePieces)} units / +${fmt(profitGain)} ${currencyIcon('fashiondollars.png', 'Fashiondollars')}`;
+  }
+
+  return `${labelBadge(1)}: +${fmt(bronzePieces)} units`;
+}
+
+function labelRequirement(item, targetLevel) {
+  const target = labelThreshold(item, targetLevel);
+  const points = Number(userData.labels[item.id] || 0);
+  if (!target) return 'Complete';
+  if (points > 0 && points < target) return `${fmt(target)} points required (${fmt(target - points)} more)`;
+  return `${fmt(target)} points required`;
+}
+
+function labelSquares(level) {
+  const labels = ['Bronze', 'Silver', 'Gold'];
+  return `<span class="label-squares" title="${escapeHtml(labelName(level))}">${labels.map((name, idx) => {
+    const value = idx + 1;
+    const cls = name.toLowerCase();
+    return `<span class="label-square ${cls} ${level >= value ? 'filled' : ''}" aria-label="${name}">■</span>`;
+  }).join('')}</span>`;
+}
+
+function labelBadge(level) {
+  const name = labelName(level);
+  const cls = String(name || '').toLowerCase();
+  return `<span class="label-badge ${cls}"><span class="label-badge-square">■</span> ${escapeHtml(name)}</span>`;
 }
 
 function renderXpPlans(items) {
