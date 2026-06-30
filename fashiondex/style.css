@@ -4350,3 +4350,124 @@ body.dark-theme .coop-table .requirements-cell strong {
     grid-template-columns: 1fr;
   }
 }
+
+/* FIXED17 Co-Op Planner cleanup */
+body.dark-theme .coop-table td.dish-name,
+body.dark-theme .coop-table td.dish-name strong {
+  color: #fff4e8 !important;
+}
+
+body.dark-theme .coop-table td.dish-name .dish-type-tag,
+body.dark-theme .coop-table .dish-type-tag,
+.coop-table td.dish-name .dish-type-tag {
+  color: #f1d9aa !important;
+  opacity: 1 !important;
+  font-weight: 900;
+}
+
+.coop-team-selected-heading {
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.coop-team-selected-heading h3 {
+  margin: 0;
+}
+
+.reset-coop-workloads {
+  border: 2px solid #a36d34;
+  border-radius: 999px;
+  background: transparent;
+  color: #ffe2a2;
+  font: inherit;
+  font-weight: 900;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.reset-coop-workloads:hover {
+  background: rgba(255, 226, 162, 0.12);
+}
+
+.coop-assignment-section .section-heading-row {
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.coop-assignment-section .section-heading-row h3,
+.coop-assignment-section .section-heading-row .section-note {
+  text-align: left;
+  margin-left: 0;
+}
+
+.coop-assignment-section .section-heading-row .section-note {
+  color: #f1d9aa !important;
+  max-width: 780px;
+}
+
+body.dark-theme .coop-assignment-card,
+.coop-assignment-card {
+  background: #24170f !important;
+  border: 2px solid rgba(179, 116, 51, 0.9) !important;
+  color: #ffebbf !important;
+  box-shadow: none !important;
+  align-content: start;
+  min-height: 0;
+}
+
+body.dark-theme .coop-assignment-card strong,
+body.dark-theme .coop-assignment-card span,
+body.dark-theme .coop-assignment-card small,
+.coop-assignment-card strong,
+.coop-assignment-card span,
+.coop-assignment-card small {
+  color: #ffebbf !important;
+}
+
+.coop-assignment-card > strong {
+  font-size: 1rem;
+}
+
+.coop-assignment-card > span {
+  font-weight: 900;
+}
+
+.coop-assignment-card em {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 2px 0;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #fff1c7 !important;
+  color: #3b2618 !important;
+  border: 1px solid rgba(139, 91, 35, 0.35);
+  line-height: 1.2;
+}
+
+.coop-assignment-card em small {
+  color: #5d452b !important;
+  margin-top: 2px;
+}
+
+.coop-assignment-grid {
+  align-items: start;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.coop-team-reward-row .muted-text,
+body.dark-theme .coop-team-reward-row .muted-text {
+  color: #5a4633 !important;
+}
+
+@media (max-width: 760px) {
+  .coop-team-selected-heading,
+  .coop-assignment-section .section-heading-row {
+    align-items: stretch;
+  }
+  .reset-coop-workloads,
+  .copy-coop-assignment.action-button {
+    width: 100%;
+  }
+}

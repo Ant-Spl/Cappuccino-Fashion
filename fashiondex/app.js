@@ -493,6 +493,12 @@ function bindInputs() {
     if (copyButton) {
       copyCoopAssignmentMarkdown();
     }
+    const resetWorkloadsButton = e.target?.closest?.('.reset-coop-workloads');
+    if (resetWorkloadsButton) {
+      resetCoopWorkloads();
+      saveUserData();
+      renderCoops();
+    }
   });
   document.addEventListener('change', e => {
     const workloadSelect = e.target?.closest?.('.coop-workload-select');
@@ -1187,6 +1193,18 @@ function buildCoopAssignment(c) {
       if (eligible.length) assignBatch(member, eligible[0]);
     });
 
+  // Co-Op rewards require contribution. Before optimizing the rest, give each eligible
+  // non-manual player one short production when possible so valid players are not skipped.
+  members
+    .filter(member => member.loadMinutes <= 0 && member.workload !== 'manual')
+    .sort((a, b) => a.slot - b.slot)
+    .forEach(member => {
+      const eligible = c.requirements
+        .filter(req => member.level >= Number(req.level || 0) && Number(remaining.get(String(req.clothId)) || 0) > 0)
+        .sort((a, b) => getMemberProductionDuration(member, a) - getMemberProductionDuration(member, b) || a.name.localeCompare(b.name));
+      if (eligible.length) assignBatch(member, eligible[0]);
+    });
+
   for (const req of c.requirements) {
     const key = String(req.clothId);
     while (Number(remaining.get(key) || 0) > 0) {
@@ -1278,7 +1296,7 @@ function coopPlanCard(c) {
       <section><h4>Required outfits</h4><div class="coop-requirement-list">${reqCards || '<div class="empty">No requirements listed.</div>'}</div></section>
     </div>
     <section class="coop-team-compact-section">
-      <h3>Selected team: ${escapeHtml(userData.coopTeamName || 'Current team')}</h3>
+      <div class="section-heading-row coop-team-selected-heading"><h3>Selected team: ${escapeHtml(userData.coopTeamName || 'Current team')}</h3><button class="secondary-button reset-coop-workloads" type="button">Reset workloads</button></div>
       <div class="coop-team-plan-grid">
         <div class="coop-team-summary-list team-count-${activeCount}">${teamCards || '<div class="empty">Add at least one player to the team.</div>'}</div>
         <div class="coop-team-side-stack"><div class="coop-team-estimate-card ${plan.tier.className}"><strong>Estimated with this team</strong><span>${timeFmt(plan.teamMinutes)}</span><small>Predicted Status: ${escapeHtml(plan.tier.name)}</small><small>${escapeHtml(plan.tier.note)}</small></div>${teamRewardRows}</div>
@@ -1286,7 +1304,7 @@ function coopPlanCard(c) {
     </section>
     ${unassigned}${warnings}
     <section class="coop-assignment-section">
-      <div class="section-heading-row"><div><h3>Outfit assignment plan</h3><p class="section-note">Work is split by player level, workers/factories, workload, manual assignments, and Gold Label time bonuses.</p></div><button class="copy-coop-assignment action-button" type="button">Copy assignment</button></div>
+      <div class="section-heading-row"><div><h3>Outfit assignment plan</h3><p class="section-note">Split by level, factories, workload, manual assignments, and Gold Label time bonuses.</p></div><button class="copy-coop-assignment action-button" type="button">Copy assignment</button></div>
       <div class="coop-assignment-grid">${assignmentCards || '<div class="empty">No assignments yet.</div>'}</div>
       <p id="coopCopyStatus" class="hint"></p>
     </section>
@@ -1440,6 +1458,16 @@ function setCoopMemberWorkload(slot, workload) {
   if (!member) return;
   member.workload = normalizeCoopWorkload(workload);
   if (member.workload !== 'manual') member.manualAssignments = {};
+}
+
+function resetCoopWorkloads() {
+  ensureCoopTeamState();
+  userData.coopTeamMembers = userData.coopTeamMembers.map((member, index) => {
+    const normalized = normalizeCoopMember(member, index + 1);
+    normalized.workload = 'equal';
+    normalized.manualAssignments = {};
+    return normalized;
+  });
 }
 
 function setCoopMemberManualAssignment(slot, clothId, value) {
