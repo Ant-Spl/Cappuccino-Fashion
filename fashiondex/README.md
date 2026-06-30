@@ -22,3 +22,8 @@ Menu/currency icons should also be in `fashiondex/`:
 - `goldbuttons.png`
 
 The app reads Fashion XML from the repository and hides custom-clothing base patterns from the Dex.
+
+
+## Fixed9
+- Recommended Labels XP rows now show only the Silver XP benefit instead of mentioning Bronze first.
+- Silver label text/square color was darkened for readability on MyDex blue rows.

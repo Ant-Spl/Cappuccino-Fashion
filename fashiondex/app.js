@@ -555,16 +555,12 @@ function recommendedLabelLevelForSummary(label) {
 }
 
 function recommendedLabelBenefit(item, targetLevel, label) {
-  const currentLevel = labelLevel(item);
   const text = String(label || '').toLowerCase();
   const bronzePieces = Math.ceil(Number(item.production || 0) * LABEL_BONUS_PIECES) - Number(item.production || 0);
   const silverXp = Math.ceil(Number(item.xp || 0) * LABEL_BONUS_XP) - Number(item.xp || 0);
   const profitGain = bronzePieces * Number(item.incomePerUnit || 0);
 
-  if (targetLevel === 2) {
-    if (currentLevel < 1) {
-      return `${labelBadge(1)} first: +${fmt(bronzePieces)} units, then ${labelBadge(2)}: +${fmt(silverXp)} XP`;
-    }
+  if (targetLevel === 2 || text.includes('xp')) {
     return `${labelBadge(2)}: +${fmt(silverXp)} XP`;
   }
 

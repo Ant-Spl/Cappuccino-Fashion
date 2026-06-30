@@ -3402,3 +3402,14 @@ body.dark-theme .recommended-masteries-table .effect-total {
 .label-badge.silver { color: var(--silver); }
 .label-badge.gold { color: var(--gold); }
 .label-badge.none { color: var(--muted); }
+
+
+/* FIXED9: make Silver labels readable on the light blue MyDex rows. */
+.label-badge.silver,
+.label-square.filled.silver {
+  color: #5f6773;
+}
+body.dark-theme .label-badge.silver,
+body.dark-theme .label-square.filled.silver {
+  color: #5f6773;
+}
