@@ -19,3 +19,8 @@ Replace the files in `/fashiondex/` with this package and open:
 ```text
 https://ant-spl.github.io/Cappuccino-Fashion/fashiondex/
 ```
+
+
+## v5 fix
+
+Wraps app.js in a private scope so browser globals such as `window.top` cannot collide with internal helper names.

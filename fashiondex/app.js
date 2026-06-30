@@ -1,4 +1,6 @@
-/* FashionDex/app.js - DishDex-style static GitHub Pages build */
+/* FashionDex/app.js - DishDex-style static GitHub Pages build v5 */
+(() => {
+'use strict';
 
 function repoRootPath() {
   const path = window.location.pathname || '/';
@@ -718,3 +720,4 @@ function loadDataFile(e) {
 }
 
 main();
+})();
