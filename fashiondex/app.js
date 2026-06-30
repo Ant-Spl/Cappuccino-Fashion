@@ -1,12 +1,26 @@
 /* FashionDex/app.js - DishDex-style static GitHub Pages build */
 
+function repoRootPath() {
+  const path = window.location.pathname || '/';
+  const marker = '/fashiondex';
+  const index = path.toLowerCase().indexOf(marker);
+  if (index >= 0) {
+    const root = path.slice(0, index);
+    return root.endsWith('/') ? root : `${root}/`;
+  }
+  return './';
+}
+
+const REPO_ROOT = repoRootPath();
+const repoFile = file => `${REPO_ROOT}${file}`;
+
 const PATHS = {
-  items: ['../FashionItems.xml', 'FashionItems.xml', './FashionItems.xml', '../data/FashionItems.xml', 'data/FashionItems.xml'],
-  levels: ['../FashionLevelXp.xml', 'FashionLevelXp.xml', './FashionLevelXp.xml', '../data/FashionLevelXp.xml', 'data/FashionLevelXp.xml'],
-  lang: ['../langs/Fashion_en.xml', 'langs/Fashion_en.xml', './langs/Fashion_en.xml', '../Fashion_en.xml', 'Fashion_en.xml', '../data/Fashion_en.xml', 'data/Fashion_en.xml']
+  items: [repoFile('FashionItems.xml'), '../FashionItems.xml', './FashionItems.xml', 'FashionItems.xml'],
+  levels: [repoFile('FashionLevelXp.xml'), '../FashionLevelXp.xml', './FashionLevelXp.xml', 'FashionLevelXp.xml'],
+  lang: [repoFile('langs/Fashion_en.xml'), '../langs/Fashion_en.xml', './langs/Fashion_en.xml', 'langs/Fashion_en.xml']
 };
 
-const ICON_DIRS = ['../clothingicons', 'clothingicons', './clothingicons'];
+const ICON_DIRS = [repoFile('clothingicons').replace(/\/$/, ''), '../clothingicons', './clothingicons', 'clothingicons'];
 const STORAGE_KEY = 'fashionDexDishDexStyleV2';
 const THEME_KEY = 'fashionDexTheme';
 const LABEL_DAYS = { 1: 1, 2: 5, 3: 13 };
@@ -142,9 +156,8 @@ async function main() {
   } catch (err) {
     setStatus('Could not load Fashion data.', 'bad');
     const summary = document.getElementById('dataSummary');
-    if (summary) summary.textContent = 'Could not load required XML.';
-    const stats = document.getElementById('homeStats');
-    if (stats) stats.innerHTML = `<div class="empty"><strong>FashionDex could not load.</strong><br>${escapeHtml(err.message)}</div>`;
+    if (summary) summary.textContent = err?.message || 'Could not load required XML.';
+    console.error(err);
   }
 }
 
@@ -436,16 +449,8 @@ function renderAll() {
 }
 
 function renderHome() {
-  document.getElementById('dataSummary').textContent = `${DATA.stats.clothes} outfits · ${DATA.stats.coops} Co-Ops · ${DATA.stats.levels} levels`;
-  const limit = levelLimit(userData.level);
-  document.getElementById('homeStats').innerHTML = [
-    stat('Outfits', DATA.stats.clothes),
-    stat('Co-Ops', DATA.stats.coops),
-    stat('Max Level', DATA.stats.maxLevel),
-    stat('Your Workers', effectiveWorkers()),
-    stat('Shelves', limit?.counters ?? '—'),
-    stat('Mannequins', limit?.mannequins ?? '—')
-  ].join('');
+  const summary = document.getElementById('dataSummary');
+  if (summary) summary.textContent = `${DATA.stats.clothes} outfits · ${DATA.stats.coops} Co-Ops · ${DATA.stats.levels} levels`;
 }
 
 function renderMyDex() {
