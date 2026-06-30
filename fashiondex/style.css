@@ -3521,3 +3521,481 @@ body.dark-theme .bad-box {
     align-items: flex-start;
   }
 }
+
+/* Phase 3: DishDex-quality Fashion Co-Op planner */
+.coop-member-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-action-button {
+  min-width: 42px;
+  min-height: 38px;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: var(--plain-cell);
+  color: var(--brown-dark);
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+  display: inline-grid;
+  place-items: center;
+  line-height: 1;
+}
+
+.icon-action-button small {
+  display: block;
+  font-size: 0.65rem;
+  margin-top: 2px;
+  color: var(--muted);
+}
+
+.icon-action-button.has-labels {
+  border-color: var(--gold);
+  color: var(--gold);
+  box-shadow: 0 0 0 2px rgba(214, 166, 0, 0.16);
+}
+
+.danger-icon:hover,
+.clear-coop-member:hover {
+  border-color: #c75b48;
+  color: #ffb0a4;
+}
+
+.coop-player-note {
+  display: block;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 900;
+  margin-top: 2px;
+}
+
+body.dark-theme .coop-member-table td:first-child,
+body.dark-theme .coop-member-table td:first-child strong {
+  color: var(--text);
+}
+
+.dishdex-coop-plan {
+  display: grid;
+  gap: 18px;
+  color: var(--text);
+}
+
+.dishdex-coop-plan .coop-icon {
+  width: 92px;
+  height: 92px;
+}
+
+.dishdex-coop-plan .coop-plan-heading small {
+  display: block;
+  color: var(--brown-dark);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 4px;
+}
+
+.coop-team-plan-grid {
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr) minmax(260px, 0.45fr);
+  gap: 14px;
+  align-items: start;
+}
+
+.coop-team-summary-list {
+  display: grid;
+  gap: 10px;
+}
+
+.coop-team-summary-list.team-count-1,
+.coop-team-summary-list.team-count-2,
+.coop-team-summary-list.team-count-3 {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.coop-team-summary-list.team-count-4,
+.coop-team-summary-list.team-count-5 {
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+}
+
+.coop-team-summary-item.compact-team-card,
+.coop-assignment-card,
+.coop-team-estimate-card {
+  background: rgba(255, 248, 230, 0.72);
+  border: 2px solid rgba(138, 84, 47, 0.55);
+  border-radius: 14px;
+  padding: 12px;
+  color: #3b2618;
+}
+
+body.dark-theme .coop-team-summary-item.compact-team-card,
+body.dark-theme .coop-assignment-card,
+body.dark-theme .coop-team-estimate-card {
+  background: rgba(255, 248, 230, 0.78);
+  color: #3b2618;
+}
+
+.coop-team-summary-item.compact-team-card strong,
+.coop-team-summary-item.compact-team-card span,
+.coop-team-summary-item.compact-team-card small,
+.coop-assignment-card strong,
+.coop-assignment-card span,
+.coop-assignment-card small,
+.coop-assignment-card em,
+.coop-team-estimate-card strong,
+.coop-team-estimate-card span,
+.coop-team-estimate-card small {
+  color: #3b2618;
+}
+
+.coop-team-summary-item.compact-team-card {
+  display: grid;
+  gap: 7px;
+}
+
+.coop-workload-label {
+  display: grid;
+  grid-template-columns: auto minmax(120px, 1fr);
+  gap: 8px;
+  align-items: center;
+  color: #3b2618;
+  font-weight: 900;
+}
+
+.coop-workload-label select {
+  min-height: 36px;
+  padding: 6px 8px;
+  border-radius: 10px;
+  border: 2px solid #a36d34;
+  background: #4a321f;
+  color: #fff4e8;
+  font-weight: 900;
+}
+
+.manual-assignment-button {
+  border: 2px solid #a36d34;
+  border-radius: 12px;
+  background: #4a321f;
+  color: #fff4e8;
+  font: inherit;
+  font-weight: 900;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.coop-team-estimate-card {
+  display: grid;
+  gap: 8px;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 2px rgba(214, 166, 0, 0.18);
+}
+
+.coop-team-estimate-card span {
+  font-size: 1.45rem;
+  font-weight: 900;
+}
+
+.coop-assignment-section {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 16px;
+  background: rgba(255, 248, 230, 0.08);
+}
+
+.coop-assignment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 12px;
+}
+
+.coop-assignment-card {
+  display: grid;
+  gap: 8px;
+}
+
+.coop-assignment-card em {
+  display: inline-block;
+  width: fit-content;
+  padding: 5px 8px;
+  border-radius: 999px;
+  background: #fff2cc;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.coop-assignment-card em small {
+  display: block;
+  font-size: 0.76rem;
+  opacity: 0.82;
+}
+
+.bad-box {
+  border: 2px solid #b45b45;
+  border-radius: 14px;
+  padding: 12px;
+  color: #ffd8cc;
+  background: rgba(120, 45, 30, 0.28);
+  font-weight: 900;
+}
+
+body:not(.dark-theme) .bad-box {
+  color: #5c2116;
+  background: rgba(255, 218, 205, 0.8);
+}
+
+.coop-editor-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.62);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.coop-editor-backdrop.hidden {
+  display: none;
+}
+
+.coop-editor-card {
+  width: min(920px, 96vw);
+  max-height: 86vh;
+  overflow: auto;
+  border: 2px solid var(--border);
+  border-radius: 18px;
+  background: var(--card);
+  color: var(--text);
+  padding: 18px;
+  box-shadow: var(--shadow);
+  position: relative;
+}
+
+.coop-editor-card h3 {
+  margin: 0 44px 6px 0;
+  color: var(--brown-dark);
+  font-size: 1.3rem;
+}
+
+.coop-editor-card p {
+  color: var(--muted);
+  font-weight: 900;
+  margin: 0 44px 14px 0;
+}
+
+.close-editor-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  background: var(--plain-cell);
+  color: var(--text);
+  width: 32px;
+  height: 32px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.gold-label-list,
+.manual-assignment-list {
+  display: grid;
+  gap: 10px;
+}
+
+.gold-label-row,
+.manual-assignment-row {
+  display: grid;
+  grid-template-columns: 64px 1fr auto;
+  align-items: center;
+  gap: 12px;
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  padding: 10px;
+  background: var(--plain-cell);
+  color: var(--text);
+}
+
+.gold-label-row.disabled,
+.manual-assignment-row.disabled {
+  opacity: 0.55;
+}
+
+.gold-label-row span,
+.manual-assignment-info span {
+  display: grid;
+  gap: 3px;
+}
+
+.gold-label-row small,
+.manual-assignment-info small {
+  color: var(--muted);
+  font-weight: 900;
+}
+
+.gold-label-row input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+}
+
+.manual-assignment-info {
+  display: contents;
+}
+
+.manual-assignment-row input {
+  width: 120px;
+  min-height: 46px;
+  text-align: center;
+  font-weight: 900;
+}
+
+@media (max-width: 850px) {
+  .coop-team-plan-grid,
+  .coop-team-summary-list.team-count-4,
+  .coop-team-summary-list.team-count-5 {
+    grid-template-columns: 1fr;
+  }
+
+  .gold-label-row,
+  .manual-assignment-row {
+    grid-template-columns: 56px 1fr;
+  }
+
+  .gold-label-row input[type="checkbox"],
+  .manual-assignment-row input {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+}
+
+/* FIXED15: My Labels now uses DishDex-style click squares instead of manual point entry. */
+.labels-filter-grid {
+  grid-template-columns: minmax(240px, 1.6fr) minmax(160px, 0.8fr) minmax(180px, 1fr);
+}
+.labels-workbench-grid {
+  display: grid;
+  grid-template-columns: minmax(230px, 290px) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+.label-summary-card {
+  border: 2px solid var(--border);
+  border-radius: 18px;
+  background: var(--plain-cell);
+  box-shadow: var(--shadow);
+  padding: 16px;
+  position: sticky;
+  top: 12px;
+}
+.label-summary-card h3 {
+  margin: 0 0 12px;
+  color: var(--brown-dark);
+  font-weight: 900;
+}
+.label-stat-list {
+  display: grid;
+  gap: 10px;
+}
+.label-stat-list .stat {
+  min-height: 68px;
+  box-shadow: none;
+  padding: 10px 12px;
+}
+.label-table-wrap .mastery-table,
+.label-table {
+  min-width: 980px;
+}
+.label-click-squares {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 6px;
+}
+.label-level-button {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  background: var(--plain-cell);
+  color: #9b8b7d;
+  font-size: 1.1rem;
+  font-weight: 900;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+.label-level-button:hover {
+  transform: translateY(-1px) scale(1.04);
+  border-color: var(--brown);
+}
+.label-level-button.filled.bronze { color: var(--bronze); }
+.label-level-button.filled.silver { color: #5f6773; }
+.label-level-button.filled.gold { color: var(--gold); }
+.current-label-text {
+  font-size: 0.78rem;
+  font-weight: 900;
+  color: var(--muted);
+  text-align: center;
+}
+.clear-label-button {
+  margin-top: 6px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font-weight: 900;
+  padding: 4px 9px;
+  cursor: pointer;
+}
+.clear-label-button:hover {
+  color: var(--brown-dark);
+  background: var(--header-bg);
+}
+.label-effect-lines {
+  display: grid;
+  gap: 5px;
+  text-align: left;
+  color: var(--brown-dark);
+}
+.label-effect-line {
+  font-weight: 900;
+}
+.label-effect-line.bronze { color: var(--bronze); }
+.label-effect-line.silver { color: #5f6773; }
+.label-effect-line.gold { color: var(--gold); }
+.label-effect-line .label-badge {
+  min-width: 82px;
+  justify-content: flex-start;
+}
+.label-check {
+  color: #14914a;
+  font-weight: 900;
+}
+.label-requirement-note {
+  color: var(--text);
+  opacity: 0.92;
+  font-weight: 800;
+}
+body.dark-theme .label-summary-card,
+body.dark-theme .label-level-button {
+  background: var(--plain-cell);
+  color: var(--muted);
+}
+body.dark-theme .label-level-button.filled.bronze { color: var(--bronze); }
+body.dark-theme .label-level-button.filled.silver { color: #9aa3b2; }
+body.dark-theme .label-level-button.filled.gold { color: var(--gold); }
+body.dark-theme .label-effect-lines,
+body.dark-theme .label-requirement-note,
+body.dark-theme .label-summary-card h3 {
+  color: var(--text);
+}
+@media (max-width: 980px) {
+  .labels-workbench-grid { grid-template-columns: 1fr; }
+  .label-summary-card { position: static; }
+  .labels-filter-grid { grid-template-columns: 1fr; }
+}

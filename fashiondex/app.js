@@ -1,4 +1,4 @@
-/* FashionDex/app.js - DishDex-style static GitHub Pages build v13 */
+/* FashionDex/app.js - DishDex-style static GitHub Pages build v14 */
 (() => {
 'use strict';
 
@@ -42,8 +42,18 @@ const COOP_ICON_DIRS = uniqPaths(['./coopicons', 'coopicons', `../coopicons`, `$
 const STORAGE_KEY = 'fashionDexDishDexStyleV2';
 const THEME_KEY = 'fashionDexTheme';
 const LABEL_DAYS = { 1: 1, 2: 5, 3: 13 };
+const LABEL_CLOTH_COUNT = 4;
 const LABEL_BONUS_PIECES = 1.05;
 const LABEL_BONUS_XP = 1.05;
+const LABEL_BONUS_TIME = 0.70;
+const COOP_WORKLOADS = {
+  minimum: { label: 'Minimum', weight: 0 },
+  low: { label: 'Low', weight: 0.65 },
+  equal: { label: 'Equal', weight: 1 },
+  high: { label: 'High', weight: 1.35 },
+  veryHigh: { label: 'Very high', weight: 1.8 },
+  manual: { label: 'Manual', weight: 0 }
+};
 
 const FAMILY_BY_SUBTYPE = new Map([[0,'Accessories'],[1,'Accessories'],[2,'Accessories'],[3,'Accessories'],[10,'Shoes'],[11,'Shoes'],[20,'Clothes'],[21,'Clothes'],[22,'Clothes'],[23,'Clothes'],[24,'Clothes']]);
 const CATEGORY_BY_SUBTYPE = new Map([[0,'Jewelry / Scarves'],[1,'Bags'],[2,'Hats'],[3,'Watches'],[10,'Shoes'],[11,'Boots'],[20,'Tops'],[21,'Bottoms'],[22,'Full body'],[23,'Jackets / Coats'],[24,'Sweaters / Pullovers']]);
@@ -362,7 +372,7 @@ function normalizeCoop(el, coopLang, clothesById) {
     factoryMinutes += minutes;
     cost += reqCost;
     revenue += amount * cloth.incomePerUnit;
-    return { clothId, amount, missing: false, name: cloth.name, key: cloth.key, level: cloth.level, production: cloth.production, batches, minutes, cost: reqCost, category: cloth.category, family: cloth.family };
+    return { clothId, amount, missing: false, name: cloth.name, key: cloth.key, level: cloth.level, production: cloth.production, duration: cloth.duration, batches, minutes, cost: reqCost, category: cloth.category, family: cloth.family };
   });
   return {
     id: num(el,'id'), key,
@@ -430,6 +440,13 @@ function bindInputs() {
   });
   document.addEventListener('input', e => {
     if (e.target?.classList?.contains('coop-member-input')) {
+      const levelInput = e.target.id?.match?.(/^coopMemberLevel(\d+)$/);
+      if (levelInput) {
+        const slot = Number(levelInput[1]);
+        const workersEl = document.getElementById(`coopMemberWorkers${slot}`);
+        const level = Number(e.target.value || 0);
+        if (workersEl && Number.isFinite(level) && level > 0) workersEl.value = workersForLevel(level);
+      }
       readCoopTeamInputs();
       saveUserData();
       renderSelectedCoopPlan();
@@ -449,12 +466,73 @@ function bindInputs() {
       saveUserData();
       renderCoops();
     }
+    const goldButton = e.target?.closest?.('.open-coop-gold-labels');
+    if (goldButton) {
+      openCoopGoldLabelEditor(Number(goldButton.dataset.slot || 0));
+    }
+    const manualButton = e.target?.closest?.('.open-manual-assignment');
+    if (manualButton) {
+      openCoopManualAssignmentEditor(Number(manualButton.dataset.slot || 0));
+    }
+    const closeEditor = e.target?.closest?.('[data-close-coop-editor]');
+    if (closeEditor || e.target?.classList?.contains('coop-editor-backdrop')) {
+      closeCoopEditors();
+    }
+    const copyButton = e.target?.closest?.('.copy-coop-assignment');
+    if (copyButton) {
+      copyCoopAssignmentMarkdown();
+    }
+  });
+  document.addEventListener('change', e => {
+    const workloadSelect = e.target?.closest?.('.coop-workload-select');
+    if (workloadSelect) {
+      setCoopMemberWorkload(Number(workloadSelect.dataset.slot || 0), workloadSelect.value);
+      saveUserData();
+      renderCoops();
+    }
+    const goldCheck = e.target?.closest?.('.coop-gold-label-check');
+    if (goldCheck) {
+      setCoopMemberGoldLabel(Number(goldCheck.dataset.slot || 0), String(goldCheck.dataset.clothId || ''), !!goldCheck.checked);
+      saveUserData();
+      renderCoops();
+      renderCoopGoldLabelEditor();
+    }
+    const manualChange = e.target?.closest?.('.manual-assignment-input');
+    if (manualChange) {
+      setCoopMemberManualAssignment(Number(manualChange.dataset.slot || 0), String(manualChange.dataset.clothId || ''), Number(manualChange.value || 0));
+      saveUserData();
+      renderSelectedCoopPlan();
+      renderCoopManualAssignmentEditor();
+    }
   });
   document.addEventListener('input', e => {
-    if (e.target?.classList?.contains('label-points')) {
-      userData.labels[e.target.dataset.id] = Math.max(0, Number(e.target.value || 0));
+    const manualInput = e.target?.closest?.('.manual-assignment-input');
+    if (manualInput) {
+      setCoopMemberManualAssignment(Number(manualInput.dataset.slot || 0), String(manualInput.dataset.clothId || ''), Number(manualInput.value || 0));
+      saveUserData();
+    }
+  });
+  document.addEventListener('click', e => {
+    const labelButton = e.target?.closest?.('.label-level-button');
+    if (labelButton) {
+      setLabelLevelByClick(String(labelButton.dataset.id || ''), Number(labelButton.dataset.level || 0));
       saveUserData();
       renderLabels();
+      renderMyDex();
+      renderFullDex();
+      renderMyTime();
+      renderCoops();
+      return;
+    }
+    const clearLabelButton = e.target?.closest?.('.clear-label-button');
+    if (clearLabelButton) {
+      delete userData.labels[String(clearLabelButton.dataset.id || '')];
+      saveUserData();
+      renderLabels();
+      renderMyDex();
+      renderFullDex();
+      renderMyTime();
+      renderCoops();
     }
   });
   document.addEventListener('error', e => {
@@ -656,8 +734,8 @@ function labelRequirement(item, targetLevel) {
   const target = labelThreshold(item, targetLevel);
   const points = Number(userData.labels[item.id] || 0);
   if (!target) return 'Complete';
-  if (points > 0 && points < target) return `${fmt(target)} points required (${fmt(target - points)} more)`;
-  return `${fmt(target)} points required`;
+  if (points > 0 && points < target) return `${fmt(target)} productions required (${fmt(target - points)} more)`;
+  return `${fmt(target)} productions required`;
 }
 
 function labelSquares(level) {
@@ -799,17 +877,54 @@ function ensureCoopTeamState() {
   if (!Array.isArray(userData.coopTeamMembers) || userData.coopTeamMembers.length !== 5) {
     userData.coopTeamMembers = defaultCoopMembers();
   }
-  userData.coopTeamMembers = userData.coopTeamMembers.slice(0, 5);
+  userData.coopTeamMembers = userData.coopTeamMembers.slice(0, 5).map((m, index) => normalizeCoopMember(m, index + 1));
   while (userData.coopTeamMembers.length < 5) userData.coopTeamMembers.push(blankCoopMember(userData.coopTeamMembers.length + 1));
   if (!userData.coopTeamName) userData.coopTeamName = 'New team';
 }
 
 function blankCoopMember(slot) {
-  return { name: slot === 1 ? (userData.profileName || 'Player 1') : '', level: slot === 1 ? userData.level : '', workers: slot === 1 ? effectiveWorkers() : '' };
+  return normalizeCoopMember({
+    name: slot === 1 ? (userData.profileName || 'Player 1') : '',
+    level: slot === 1 ? userData.level : '',
+    workers: slot === 1 ? effectiveWorkers() : '',
+    workload: 'equal',
+    goldLabels: {},
+    manualAssignments: {}
+  }, slot);
 }
 
 function defaultCoopMembers() {
   return [1, 2, 3, 4, 5].map(blankCoopMember);
+}
+
+function normalizeCoopMember(member = {}, slot = 1) {
+  return {
+    name: member.name || '',
+    level: member.level ?? '',
+    workers: member.workers ?? '',
+    workload: normalizeCoopWorkload(member.workload),
+    goldLabels: member.goldLabels && typeof member.goldLabels === 'object' ? member.goldLabels : {},
+    manualAssignments: normalizeManualAssignments(member.manualAssignments)
+  };
+}
+
+function normalizeCoopWorkload(value) {
+  return COOP_WORKLOADS[value] ? value : 'equal';
+}
+
+function normalizeManualAssignments(value) {
+  const clean = {};
+  if (!value || typeof value !== 'object') return clean;
+  Object.entries(value).forEach(([id, amount]) => {
+    const n = Math.max(0, Math.floor(Number(amount || 0)));
+    if (n > 0) clean[String(id)] = n;
+  });
+  return clean;
+}
+
+function workersForLevel(level) {
+  const l = levelLimit(Math.max(0, Number(level || 0)));
+  return Math.max(1, Number(l?.workers || 1));
 }
 
 function readCoopTeamInputs() {
@@ -819,33 +934,39 @@ function readCoopTeamInputs() {
   const teamSelect = document.getElementById('coopTeamSelect');
   if (teamSelect) userData.coopTeamId = teamSelect.value || '';
   userData.coopTeamMembers = [1,2,3,4,5].map(slot => {
-    const current = userData.coopTeamMembers[slot - 1] || blankCoopMember(slot);
+    const current = normalizeCoopMember(userData.coopTeamMembers[slot - 1] || blankCoopMember(slot), slot);
     const nameEl = document.getElementById(`coopMemberName${slot}`);
     const levelEl = document.getElementById(`coopMemberLevel${slot}`);
     const workersEl = document.getElementById(`coopMemberWorkers${slot}`);
-    return {
+    return normalizeCoopMember({
+      ...current,
       name: nameEl ? nameEl.value.trim() : (current.name || ''),
       level: levelEl ? levelEl.value : current.level,
       workers: workersEl ? workersEl.value : current.workers
-    };
+    }, slot);
   });
 }
 
 function activeCoopMembers(coop = null) {
   ensureCoopTeamState();
   const raw = userData.coopTeamMembers.map((m, index) => {
-    const name = String(m.name || '').trim();
-    const level = Number(m.level === '' || m.level == null ? 0 : m.level);
-    const workers = Number(m.workers === '' || m.workers == null ? 0 : m.workers);
+    const member = normalizeCoopMember(m, index + 1);
+    const name = String(member.name || '').trim();
+    const level = Number(member.level === '' || member.level == null ? 0 : member.level);
+    const workers = Number(member.workers === '' || member.workers == null ? 0 : member.workers);
     const hasData = !!name || level > 0 || workers > 0 || index === 0;
     if (!hasData) return null;
     return {
       slot: index + 1,
       name: name || `Player ${index + 1}`,
       level: Math.max(0, Math.round(level || (index === 0 ? userData.level : 1))),
-      workers: Math.max(1, Math.round(workers || 1)),
+      workers: Math.max(1, Math.round(workers || workersForLevel(level || 1))),
+      workload: normalizeCoopWorkload(member.workload),
+      goldLabels: member.goldLabels || {},
+      manualAssignments: normalizeManualAssignments(member.manualAssignments),
       loadMinutes: 0,
-      assignments: new Map()
+      assignments: new Map(),
+      manualOnly: normalizeCoopWorkload(member.workload) === 'manual'
     };
   }).filter(Boolean);
   const limit = Math.max(1, Math.min(5, Number(coop?.maxMember || 5)));
@@ -867,12 +988,18 @@ function renderCoopTeamEditor() {
   if (!body) return;
   body.innerHTML = userData.coopTeamMembers.map((m, index) => {
     const slot = index + 1;
+    const member = normalizeCoopMember(m, slot);
+    const goldCount = slot === 1 ? labelTotals().gold : Object.values(member.goldLabels || {}).filter(Boolean).length;
+    const squareTitle = slot === 1 ? 'Player 1 uses My Labels data' : 'Register this player’s Gold Labels';
     return `<tr>
-      <td><strong>Player ${slot}</strong></td>
-      <td><input id="coopMemberName${slot}" class="coop-member-input" type="text" maxlength="40" value="${escapeAttr(m.name || '')}" placeholder="Boutique name"></td>
-      <td><input id="coopMemberLevel${slot}" class="coop-member-input" type="number" min="0" max="999" value="${escapeAttr(m.level ?? '')}" placeholder="Level"></td>
-      <td><input id="coopMemberWorkers${slot}" class="coop-member-input" type="number" min="1" max="99" value="${escapeAttr(m.workers ?? '')}" placeholder="Workers"></td>
-      <td><button class="action-button clear-coop-member" data-slot="${slot}" type="button">Clear</button></td>
+      <td><strong>Player ${slot}</strong>${slot === 1 ? '<small class="coop-player-note">My Labels</small>' : ''}</td>
+      <td><input id="coopMemberName${slot}" class="coop-member-input" type="text" maxlength="40" value="${escapeAttr(member.name || '')}" placeholder="Boutique name"></td>
+      <td><input id="coopMemberLevel${slot}" class="coop-member-input" type="number" min="0" max="999" value="${escapeAttr(member.level ?? '')}" placeholder="Level"></td>
+      <td><input id="coopMemberWorkers${slot}" class="coop-member-input" type="number" min="1" max="99" value="${escapeAttr(member.workers ?? '')}" placeholder="Workers"></td>
+      <td class="coop-member-actions">
+        <button class="icon-action-button open-coop-gold-labels ${goldCount ? 'has-labels' : ''}" data-slot="${slot}" type="button" title="${escapeAttr(squareTitle)}">■<small>${fmt(goldCount)}</small></button>
+        <button class="icon-action-button clear-coop-member danger-icon" data-slot="${slot}" type="button" title="Clear player">🗑️</button>
+      </td>
     </tr>`;
   }).join('');
 }
@@ -894,7 +1021,17 @@ function saveCurrentCoopTeam() {
   const team = {
     id,
     name: userData.coopTeamName || 'Saved team',
-    members: userData.coopTeamMembers.map(m => ({ name: m.name || '', level: m.level ?? '', workers: m.workers ?? '' }))
+    members: userData.coopTeamMembers.map((m, index) => {
+      const member = normalizeCoopMember(m, index + 1);
+      return {
+        name: member.name || '',
+        level: member.level ?? '',
+        workers: member.workers ?? '',
+        workload: member.workload || 'equal',
+        goldLabels: member.goldLabels || {},
+        manualAssignments: normalizeManualAssignments(member.manualAssignments)
+      };
+    })
   };
   const idx = userData.coopTeams.findIndex(t => t.id === id);
   if (idx >= 0) userData.coopTeams[idx] = team;
@@ -925,17 +1062,20 @@ function loadSelectedCoopTeam() {
 
 function useProfileForLeader() {
   ensureCoopTeamState();
-  userData.coopTeamMembers[0] = {
+  const current = normalizeCoopMember(userData.coopTeamMembers[0] || {}, 1);
+  userData.coopTeamMembers[0] = normalizeCoopMember({
+    ...current,
     name: userData.profileName || 'Player 1',
     level: userData.level,
     workers: effectiveWorkers()
-  };
+  }, 1);
 }
 
 function clearCoopMember(slot) {
   ensureCoopTeamState();
   if (slot < 1 || slot > 5) return;
-  userData.coopTeamMembers[slot - 1] = { name: '', level: '', workers: '' };
+  userData.coopTeamMembers[slot - 1] = blankCoopMember(slot);
+  if (slot !== 1) userData.coopTeamMembers[slot - 1] = normalizeCoopMember({ name: '', level: '', workers: '', workload: 'equal', goldLabels: {}, manualAssignments: {} }, slot);
 }
 
 function renderCoops() {
@@ -982,36 +1122,86 @@ function coopIconCell(c) {
 }
 
 function rewardStack(c) {
-  return `<div class="metric-stack">${money(c.chips)}<small>${xpValue(c.xp)}</small><small>${goldValue(c.gold)}</small></div>`;
+  return `<div class="coop-reward-pills"><span class="coop-reward-pill gold-tier"><strong>Gold</strong> ${money(c.chips)} ${xpValue(c.xp)} ${goldValue(c.gold)}</span><span class="coop-reward-pill silver-tier"><strong>Silver</strong> ${money(Math.floor(c.chips/2))} ${xpValue(Math.floor(c.xp/2))}</span><span class="coop-reward-pill bronze-tier"><strong>Bronze</strong> ${money(Math.floor(c.chips/4))} ${xpValue(Math.floor(c.xp/4))}</span></div>`;
 }
 
 function buildCoopAssignment(c) {
   const members = activeCoopMembers(c);
   const unassigned = [];
+  const warnings = [];
+  const remaining = new Map();
+  c.requirements.forEach(req => remaining.set(String(req.clothId), Number(req.amount || 0)));
+
+  const assignBatch = (member, req, requestedUnits = Infinity) => {
+    const key = String(req.clothId);
+    const left = Number(remaining.get(key) || 0);
+    if (left <= 0 || member.level < Number(req.level || 0)) return 0;
+    const unitsPerBatch = memberProductionUnits(member, req);
+    const units = Math.min(left, requestedUnits, unitsPerBatch);
+    if (units <= 0) return 0;
+    const minutes = getMemberProductionDuration(member, req);
+    const existing = member.assignments.get(key) || { req, batches: 0, units: 0, minutes: 0, duration: minutes, goldLabel: memberHasGoldLabel(member, req.clothId) };
+    existing.batches += 1;
+    existing.units += units;
+    existing.minutes += minutes;
+    existing.duration = minutes;
+    existing.goldLabel = existing.goldLabel || memberHasGoldLabel(member, req.clothId);
+    member.assignments.set(key, existing);
+    member.loadMinutes += minutes;
+    remaining.set(key, Math.max(0, left - units));
+    return units;
+  };
+
+  members
+    .filter(member => member.workload === 'manual')
+    .forEach(member => {
+      Object.entries(normalizeManualAssignments(member.manualAssignments)).forEach(([clothId, amount]) => {
+        const req = c.requirements.find(r => String(r.clothId) === String(clothId));
+        let leftManual = Math.max(0, Math.floor(Number(amount || 0)));
+        while (req && leftManual > 0 && Number(remaining.get(String(req.clothId)) || 0) > 0) {
+          const assigned = assignBatch(member, req, leftManual);
+          if (!assigned) break;
+          leftManual -= assigned;
+        }
+        if (leftManual > 0) warnings.push(`${member.name}: manual assignment for ${req?.name || clothId} could not be fully filled`);
+      });
+    });
+
+  members
+    .filter(member => member.workload === 'minimum')
+    .forEach(member => {
+      const eligible = c.requirements
+        .filter(req => member.level >= Number(req.level || 0) && Number(remaining.get(String(req.clothId)) || 0) > 0)
+        .sort((a, b) => getMemberProductionDuration(member, a) - getMemberProductionDuration(member, b) || a.name.localeCompare(b.name));
+      if (eligible.length) assignBatch(member, eligible[0]);
+    });
+
   for (const req of c.requirements) {
-    let remaining = Number(req.amount || 0);
-    for (let batch = 0; batch < Math.max(0, req.batches); batch++) {
-      const eligible = members.filter(m => m.level >= Number(req.level || 0));
-      if (!eligible.length) {
-        unassigned.push({ req, batches: 1, units: Math.min(req.production || remaining, remaining), minutes: req.minutes / Math.max(1, req.batches) });
-        remaining -= Math.min(req.production || remaining, remaining);
-        continue;
+    const key = String(req.clothId);
+    while (Number(remaining.get(key) || 0) > 0) {
+      let candidates = members.filter(member => member.workload !== 'manual' && member.workload !== 'minimum' && member.level >= Number(req.level || 0));
+      if (!candidates.length) candidates = members.filter(member => member.workload !== 'manual' && member.level >= Number(req.level || 0));
+      if (!candidates.length) {
+        unassigned.push({ req, units: Number(remaining.get(key) || 0) });
+        remaining.set(key, 0);
+        break;
       }
-      const chosen = eligible.slice().sort((a,b) => (a.loadMinutes / a.workers) - (b.loadMinutes / b.workers) || a.slot - b.slot)[0];
-      const units = Math.max(0, Math.min(Number(req.production || remaining), remaining));
-      const minutes = Number(req.minutes || 0) / Math.max(1, Number(req.batches || 1));
-      const existing = chosen.assignments.get(req.clothId) || { req, batches: 0, units: 0, minutes: 0 };
-      existing.batches += 1;
-      existing.units += units;
-      existing.minutes += minutes;
-      chosen.assignments.set(req.clothId, existing);
-      chosen.loadMinutes += minutes;
-      remaining -= units;
+      const chosen = candidates.slice().sort((a, b) => {
+        const wa = Math.max(0.05, COOP_WORKLOADS[a.workload]?.weight || 1);
+        const wb = Math.max(0.05, COOP_WORKLOADS[b.workload]?.weight || 1);
+        const scoreA = ((a.loadMinutes + getMemberProductionDuration(a, req)) / Math.max(1, a.workers)) / wa;
+        const scoreB = ((b.loadMinutes + getMemberProductionDuration(b, req)) / Math.max(1, b.workers)) / wb;
+        return scoreA - scoreB || a.slot - b.slot;
+      })[0];
+      if (!assignBatch(chosen, req)) break;
     }
   }
+
   const teamMinutes = members.length ? Math.max(...members.map(m => m.loadMinutes / Math.max(1, m.workers))) : 0;
   const tier = coopTier(c, teamMinutes);
-  return { members, unassigned, teamMinutes, tier };
+  const noContribution = members.filter(m => m.loadMinutes <= 0 && (m.name || m.level || m.workers));
+  if (noContribution.length) warnings.push('Each player must produce at least one required outfit to receive rewards.');
+  return { members, unassigned, warnings, teamMinutes, tier };
 }
 
 function coopTier(c, teamMinutes) {
@@ -1022,41 +1212,219 @@ function coopTier(c, teamMinutes) {
   return { name: 'Not doable', className: 'tier-fail', note: `over the ${timeFmt(c.duration)} limit` };
 }
 
+function getMemberProductionDuration(member, req) {
+  const base = Math.max(1, Number(req.duration || 0));
+  return memberHasGoldLabel(member, req.clothId) ? Math.max(1, Math.floor(base * LABEL_BONUS_TIME)) : base;
+}
+
+function memberProductionUnits(member, req) {
+  const base = Math.max(1, Number(req.production || 1));
+  return memberHasGoldLabel(member, req.clothId) ? Math.ceil(base * LABEL_BONUS_PIECES) : base;
+}
+
+function memberHasGoldLabel(member, clothId) {
+  if (!member || !clothId) return false;
+  if (Number(member.slot) === 1) {
+    const item = DATA.clothesById.get(Number(clothId));
+    return item ? labelLevel(item) >= 3 : false;
+  }
+  return !!member.goldLabels?.[String(clothId)];
+}
+
+function rewardForTier(c, tierName) {
+  const name = String(tierName || '').toLowerCase();
+  const factor = name === 'gold' ? 1 : name === 'silver' ? 0.5 : name === 'bronze' ? 0.25 : 0;
+  return { chips: Math.floor(Number(c.chips || 0) * factor), xp: Math.floor(Number(c.xp || 0) * factor), gold: name === 'gold' ? Number(c.gold || 0) : 0 };
+}
+
 function coopPlanCard(c) {
   const plan = buildCoopAssignment(c);
   const activeCount = plan.members.length;
-  const cappedNote = activeCount >= Number(c.maxMember || 5) ? '' : '';
-  const reqRows = c.requirements.map(r => `<tr><td>${r.missing ? '' : iconCell(DATA.clothesById.get(r.clothId) || {})}</td><td class="dish-name">${escapeHtml(r.name)}</td><td>${fmt(r.amount)}</td><td>${r.batches}</td><td>${timeFmt(r.minutes)}</td><td>${r.level}</td></tr>`).join('');
-  const memberRows = plan.members.map(m => {
-    const rows = [...m.assignments.values()];
-    const assignmentText = rows.length ? rows.map(a => `${escapeHtml(a.req.name)} × ${fmt(a.units)} (${a.batches} production${a.batches === 1 ? '' : 's'})`).join('<br>') : '<span class="muted-text">No assignment</span>';
-    return `<tr>
-      <td class="dish-name">${escapeHtml(m.name)}</td>
-      <td>${m.level}</td>
-      <td>${m.workers}</td>
-      <td>${timeFmt(m.loadMinutes)}</td>
-      <td>${timeFmt(m.loadMinutes / Math.max(1, m.workers))}</td>
-      <td class="requirements-cell">${assignmentText}</td>
-    </tr>`;
+  const reqCards = c.requirements.map(r => {
+    const item = DATA.clothesById.get(r.clothId) || {};
+    return `<div class="coop-requirement-item">${r.missing ? '<div class="missing-img coop-missing-icon">No icon</div>' : iconCell(item)}<div><strong>${fmt(r.amount)}× ${escapeHtml(r.name)}</strong><span>Level ${fmt(r.level)} · ${timeFmt(r.duration || 0)} each · ${fmt(r.batches)} production${r.batches === 1 ? '' : 's'}</span></div></div>`;
   }).join('');
-  const unassigned = plan.unassigned.length ? `<div class="empty bad-box"><strong>Missing eligible player:</strong> ${plan.unassigned.map(x => escapeHtml(x.req.name)).join(', ')}</div>` : '';
-  return `<div class="coop-selected-card">
-    <div class="coop-plan-title-row">${coopIconCell(c)}<div><h3>${escapeHtml(c.title)}</h3><p class="section-note">${escapeHtml(c.description || 'No description.')}</p></div></div>
-    <div class="mini-grid">
-      ${metric('Max participants', c.maxMember || 5, 'players')}
-      ${metric('Time limit', timeFmt(c.duration), 'Co-Op duration')}
-      ${metric('Total factory-hours', hours(c.factoryHours), 'all required productions')}
-      ${metric('Estimated finish', timeFmt(plan.teamMinutes), `${activeCount} player${activeCount === 1 ? '' : 's'}`)}
-      ${metric('Predicted status', plan.tier.name, plan.tier.note)}
-      ${metric('Base rewards', `${money(c.chips)} ${xpValue(c.xp)} ${goldValue(c.gold)}`, 'before tier scaling')}
+  const selectedReward = rewardForTier(c, plan.tier.name);
+  const teamCards = plan.members.map(m => coopMemberPlanCard(m, c)).join('');
+  const assignmentCards = plan.members.map(m => coopAssignmentMemberCard(m)).join('');
+  const unassigned = plan.unassigned.length ? `<div class="bad-box"><strong>Unassigned:</strong> ${plan.unassigned.map(x => `${escapeHtml(x.req.name)} × ${fmt(x.units)}`).join(', ')}</div>` : '';
+  const warnings = plan.warnings.length ? `<div class="bad-box">${uniqueBy(plan.warnings, x => x).map(escapeHtml).join('<br>')}</div>` : '';
+  return `<div class="coop-plan-card dishdex-coop-plan" data-selected-coop-id="${c.id}">
+    <div class="coop-plan-heading">
+      ${coopIconCell(c)}
+      <div><small>Co-Op ${escapeHtml(c.key || c.index || c.id)}</small><h3>${escapeHtml(c.title)}</h3><p>${escapeHtml(c.description || 'No description.')}</p></div>
     </div>
-    ${unassigned}
-    <h3>Assignment plan</h3>
-    <p class="section-note">Assignments are balanced by each player’s number of workers/factories and level eligibility.</p>
-    <div class="table-wrap"><table><thead><tr><th>Player</th><th>Level</th><th>Workers</th><th>Factory time</th><th>Estimated player time</th><th>Assigned outfits</th></tr></thead><tbody>${memberRows || emptyRow(6, 'Add at least one player to the team.')}</tbody></table></div>
-    <h3>Required outfits</h3>
-    <div class="table-wrap"><table><thead><tr><th>Image</th><th>Required outfit</th><th>Required units</th><th>Productions</th><th>Factory time</th><th>Level</th></tr></thead><tbody>${reqRows || emptyRow(6, 'No requirements listed.')}</tbody></table></div>
+    <div class="coop-stat-grid">
+      <div><strong>Duration</strong><span>${timeFmt(c.duration)}</span></div>
+      <div><strong>Gold deadline</strong><span>${timeFmt(Math.floor(c.duration * 0.5))}</span></div>
+      <div><strong>Silver deadline</strong><span>${timeFmt(Math.floor(c.duration * 0.75))}</span></div>
+      <div><strong>Minimum outfit level</strong><span>${fmt(Math.max(0, ...c.requirements.map(r => Number(r.level || 0))))}</span></div>
+      <div><strong>Total factory-hours</strong><span>${hours(c.factoryHours)}</span></div>
+    </div>
+    <div class="coop-detail-grid">
+      <section><h4>Reward Details</h4><div class="coop-reward-pills detail-rewards">${rewardStack(c)}</div><small>Predicted tier: ${escapeHtml(plan.tier.name)} · team reward: ${money(selectedReward.chips)} ${xpValue(selectedReward.xp)} ${goldValue(selectedReward.gold)}</small></section>
+      <section><h4>Required outfits</h4><div class="coop-requirement-list">${reqCards || '<div class="empty">No requirements listed.</div>'}</div></section>
+    </div>
+    <section class="coop-team-compact-section">
+      <h3>Selected team: ${escapeHtml(userData.coopTeamName || 'Current team')}</h3>
+      <div class="coop-team-plan-grid">
+        <div class="coop-team-summary-list team-count-${activeCount}">${teamCards || '<div class="empty">Add at least one player to the team.</div>'}</div>
+        <div class="coop-team-estimate-card ${plan.tier.className}"><strong>Estimated with this team</strong><span>${timeFmt(plan.teamMinutes)}</span><small>Predicted Status: ${escapeHtml(plan.tier.name)}</small><small>${escapeHtml(plan.tier.note)}</small></div>
+      </div>
+    </section>
+    ${unassigned}${warnings}
+    <section class="coop-assignment-section">
+      <div class="section-heading-row"><div><h3>Outfit assignment plan</h3><p class="section-note">Work is split by player level, workers/factories, workload, manual assignments, and Gold Label time bonuses.</p></div><button class="copy-coop-assignment action-button" type="button">Copy assignment</button></div>
+      <div class="coop-assignment-grid">${assignmentCards || '<div class="empty">No assignments yet.</div>'}</div>
+      <p id="coopCopyStatus" class="hint"></p>
+    </section>
+    <div id="coopGoldLabelEditor" class="coop-editor-backdrop hidden"></div>
+    <div id="coopManualAssignmentEditor" class="coop-editor-backdrop hidden"></div>
   </div>`;
+}
+
+function coopMemberPlanCard(member, coop) {
+  const options = Object.entries(COOP_WORKLOADS).map(([value, cfg]) => `<option value="${value}" ${member.workload === value ? 'selected' : ''}>${cfg.label}</option>`).join('');
+  const manualSummary = manualAssignmentSummary(member, coop);
+  const labelNote = member.slot === 1 ? 'Uses My Labels data' : `${Object.values(member.goldLabels || {}).filter(Boolean).length} Gold Labels registered`;
+  return `<div class="coop-team-summary-item compact-team-card">
+    <strong>${escapeHtml(member.name)}</strong>
+    <span>Level ${fmt(member.level)} · ${fmt(member.workers)} Workers</span>
+    <small>${escapeHtml(labelNote)}</small>
+    <label class="coop-workload-label"><span>Workload</span><select class="coop-workload-select" data-slot="${member.slot}">${options}</select></label>
+    ${member.workload === 'manual' ? `<button class="manual-assignment-button open-manual-assignment" data-slot="${member.slot}" type="button">Edit manual outfits</button><small>${escapeHtml(manualSummary)}</small>` : ''}
+  </div>`;
+}
+
+function manualAssignmentSummary(member, coop) {
+  const assignments = normalizeManualAssignments(member.manualAssignments);
+  const parts = Object.entries(assignments).map(([clothId, amount]) => {
+    const req = coop?.requirements?.find(r => String(r.clothId) === String(clothId));
+    return `${fmt(amount)}× ${req?.name || clothId}`;
+  });
+  return parts.length ? parts.join(', ') : 'No manual outfits set';
+}
+
+function coopAssignmentMemberCard(member) {
+  const rows = [...member.assignments.values()];
+  const chips = rows.length ? '' : '';
+  return `<div class="coop-assignment-card">
+    <strong>${escapeHtml(member.name)}</strong>
+    <span>Factory time: ${timeFmt(member.loadMinutes)}</span>
+    ${rows.length ? rows.map(a => `<em>${fmt(a.units)}× ${escapeHtml(a.req.name)} <small>${fmt(a.batches)} production${a.batches === 1 ? '' : 's'}${a.goldLabel ? ' · Gold Label time bonus' : ''}</small></em>`).join('') : '<span class="muted-text">No outfits assigned</span>'}
+  </div>`;
+}
+
+function openCoopGoldLabelEditor(slot) {
+  window.currentCoopGoldSlot = slot;
+  renderCoopGoldLabelEditor();
+}
+
+function renderCoopGoldLabelEditor() {
+  const editor = document.getElementById('coopGoldLabelEditor');
+  if (!editor || !window.currentCoopGoldSlot) return;
+  const slot = Number(window.currentCoopGoldSlot || 0);
+  const coop = DATA.coops.find(c => String(c.id) === String(userData.selectedCoopId)) || DATA.coops[0];
+  const member = normalizeCoopMember(userData.coopTeamMembers[slot - 1] || {}, slot);
+  if (slot === 1) {
+    editor.classList.remove('hidden');
+    editor.innerHTML = `<div class="coop-editor-card"><button type="button" class="close-editor-button" data-close-coop-editor>×</button><h3>Gold Labels: Player 1</h3><p>Player 1 uses the Gold Labels already registered in My Labels. You do not need to enter them again here.</p></div>`;
+    return;
+  }
+  const rows = (coop?.requirements || []).map(req => {
+    const checked = !!member.goldLabels?.[String(req.clothId)];
+    const disabled = Number(member.level || 0) < Number(req.level || 0);
+    return `<label class="gold-label-row ${disabled ? 'disabled' : ''}">${iconCell(DATA.clothesById.get(req.clothId) || {})}<span><strong>${escapeHtml(req.name)}</strong><small>Level ${fmt(req.level)} · Gold Label applies +5% units and -30% production time in planner.</small></span><input class="coop-gold-label-check" data-slot="${slot}" data-cloth-id="${req.clothId}" type="checkbox" ${checked ? 'checked' : ''} ${disabled ? 'disabled' : ''}></label>`;
+  }).join('');
+  editor.classList.remove('hidden');
+  editor.innerHTML = `<div class="coop-editor-card"><button type="button" class="close-editor-button" data-close-coop-editor>×</button><h3>Gold Labels: ${escapeHtml(member.name || `Player ${slot}`)}</h3><p>Select the required outfits this player has at Gold Label. Saved teams keep this data.</p><div class="gold-label-list">${rows || '<div class="empty">Choose a Co-Op first.</div>'}</div></div>`;
+}
+
+function openCoopManualAssignmentEditor(slot) {
+  window.currentCoopManualSlot = slot;
+  const member = userData.coopTeamMembers[slot - 1];
+  if (member) member.workload = 'manual';
+  saveUserData();
+  renderSelectedCoopPlan();
+  renderCoopManualAssignmentEditor();
+}
+
+function renderCoopManualAssignmentEditor() {
+  const editor = document.getElementById('coopManualAssignmentEditor');
+  if (!editor || !window.currentCoopManualSlot) return;
+  const slot = Number(window.currentCoopManualSlot || 0);
+  const coop = DATA.coops.find(c => String(c.id) === String(userData.selectedCoopId)) || DATA.coops[0];
+  const member = normalizeCoopMember(userData.coopTeamMembers[slot - 1] || {}, slot);
+  const rows = (coop?.requirements || []).map(req => {
+    const canProduce = Number(member.level || 0) >= Number(req.level || 0);
+    const value = normalizeManualAssignments(member.manualAssignments)[String(req.clothId)] || 0;
+    return `<div class="manual-assignment-row ${canProduce ? '' : 'disabled'}"><div class="manual-assignment-info">${iconCell(DATA.clothesById.get(req.clothId) || {})}<span><strong>${escapeHtml(req.name)}</strong><small>${fmt(req.amount)} units required · Level ${fmt(req.level)}</small></span></div><input class="manual-assignment-input" data-slot="${slot}" data-cloth-id="${req.clothId}" type="number" min="0" max="${req.amount}" step="1" value="${fmt(value)}" ${canProduce ? '' : 'disabled'}></div>`;
+  }).join('');
+  editor.classList.remove('hidden');
+  editor.innerHTML = `<div class="coop-editor-card manual-editor-card"><button type="button" class="close-editor-button" data-close-coop-editor>×</button><h3>Manual assignment: ${escapeHtml(member.name || `Player ${slot}`)}</h3><p>Choose exactly how many required outfit units this player should produce. The planner assigns the remaining outfits after this.</p><div class="manual-assignment-list">${rows || '<div class="empty">Choose a Co-Op first.</div>'}</div></div>`;
+}
+
+function closeCoopEditors() {
+  document.getElementById('coopGoldLabelEditor')?.classList.add('hidden');
+  document.getElementById('coopManualAssignmentEditor')?.classList.add('hidden');
+  window.currentCoopGoldSlot = null;
+  window.currentCoopManualSlot = null;
+}
+
+function setCoopMemberGoldLabel(slot, clothId, checked) {
+  ensureCoopTeamState();
+  const member = userData.coopTeamMembers[slot - 1];
+  if (!member || slot === 1) return;
+  member.goldLabels = member.goldLabels && typeof member.goldLabels === 'object' ? member.goldLabels : {};
+  if (checked) member.goldLabels[String(clothId)] = true;
+  else delete member.goldLabels[String(clothId)];
+}
+
+function setCoopMemberWorkload(slot, workload) {
+  ensureCoopTeamState();
+  const member = userData.coopTeamMembers[slot - 1];
+  if (!member) return;
+  member.workload = normalizeCoopWorkload(workload);
+  if (member.workload !== 'manual') member.manualAssignments = {};
+}
+
+function setCoopMemberManualAssignment(slot, clothId, value) {
+  ensureCoopTeamState();
+  const member = userData.coopTeamMembers[slot - 1];
+  if (!member) return;
+  member.workload = 'manual';
+  member.manualAssignments = member.manualAssignments && typeof member.manualAssignments === 'object' ? member.manualAssignments : {};
+  const clean = Math.max(0, Math.floor(Number(value || 0)));
+  if (clean > 0) member.manualAssignments[String(clothId)] = clean;
+  else delete member.manualAssignments[String(clothId)];
+}
+
+function buildCoopAssignmentMarkdown(coop, plan) {
+  const lines = [];
+  lines.push(`**${coop.title} — Co-Op ${coop.key || coop.index || coop.id}**`);
+  lines.push(`Estimated finish: ${timeFmt(plan.teamMinutes)} · Predicted: ${plan.tier.name}`);
+  lines.push('');
+  lines.push('**Assignment plan**');
+  plan.members.forEach(member => {
+    const rows = [...member.assignments.values()];
+    lines.push(`**${member.name}** — Level ${member.level}, ${member.workers} workers`);
+    if (!rows.length) lines.push('- No outfits assigned');
+    rows.forEach(a => lines.push(`- ${fmt(a.units)}× ${a.req.name} (${fmt(a.batches)} production${a.batches === 1 ? '' : 's'})`));
+  });
+  return lines.join('\n');
+}
+
+async function copyCoopAssignmentMarkdown() {
+  const coop = DATA.coops.find(c => String(c.id) === String(userData.selectedCoopId)) || DATA.coops[0];
+  const status = document.getElementById('coopCopyStatus');
+  if (!coop) return;
+  const text = buildCoopAssignmentMarkdown(coop, buildCoopAssignment(coop));
+  try {
+    await navigator.clipboard.writeText(text);
+    if (status) status.textContent = 'Assignment copied for Discord.';
+  } catch {
+    if (status) status.textContent = text;
+  }
 }
 
 function renderProfile() {
@@ -1072,14 +1440,72 @@ function renderLabels() {
   if (userData.labelSort === 'level') items.sort((a,b)=>a.level-b.level || a.name.localeCompare(b.name));
   else if (userData.labelSort === 'name') items.sort((a,b)=>a.name.localeCompare(b.name));
   else if (userData.labelSort === 'label') items.sort((a,b)=>b.labelLevel-a.labelLevel || a.name.localeCompare(b.name));
-  else items.sort((a,b)=>a.nextInfo.remaining-b.nextInfo.remaining || a.level-b.level);
+  else items.sort((a,b)=>a.nextInfo.remaining-b.nextInfo.remaining || a.level-b.level || a.name.localeCompare(b.name));
+
   const totals = labelTotals();
-  document.getElementById('labelStats').innerHTML = [stat('Bronze+ Labels', totals.bronze), stat('Silver+ Labels', totals.silver), stat('Gold Labels', totals.gold), stat('Tracked outfits', Object.values(userData.labels).filter(v => Number(v) > 0).length)].join('');
+  const tracked = Object.values(userData.labels || {}).filter(v => Number(v) > 0).length;
+  document.getElementById('labelStats').innerHTML = [
+    stat('Bronze+ Labels', totals.bronze),
+    stat('Silver+ Labels', totals.silver),
+    stat('Gold Labels', totals.gold),
+    stat('Tracked outfits', tracked)
+  ].join('');
+
   document.getElementById('labelsBody').innerHTML = items.length ? items.map(i => {
-    const points = Number(userData.labels[i.id] || 0);
-    const info = nextLabelInfo(i);
-    return `<tr><td>${iconCell(i)}</td><td class="dish-name">${escapeHtml(i.name)}<div class="dish-type-tag">${escapeHtml(i.category)}</div></td><td>${i.level}</td><td><input class="label-points" data-id="${i.id}" type="number" min="0" value="${points}"></td><td><span class="tag ${i.labelLevel >= 3 ? 'good' : i.labelLevel ? 'warn' : ''}">${labelName(i.labelLevel)}</span></td><td>${fmt(labelThreshold(i,1))}</td><td>${fmt(labelThreshold(i,2))}</td><td>${fmt(labelThreshold(i,3))}</td><td><strong>${info.next}</strong><div class="dish-type-tag">${fmt(info.remaining)} remaining</div><div class="progress"><span style="width:${info.pct}%"></span></div></td></tr>`;
-  }).join('') : emptyRow(9, 'No outfits match this search.');
+    const base = DATA.clothesById.get(i.id) || i;
+    const level = labelLevel(base);
+    return `<tr>
+      <td>${iconCell(i)}</td>
+      <td class="dish-name">${escapeHtml(i.name)}<div class="dish-type-tag">${escapeHtml(i.category)}</div></td>
+      <td>${labelClickSquares(base, level)}${level ? `<button type="button" class="clear-label-button" data-id="${escapeAttr(i.id)}">Clear</button>` : ''}</td>
+      <td class="effects-cell">${labelEffectsHtml(base, level)}</td>
+      <td>${fmt(i.level)}</td>
+    </tr>`;
+  }).join('') : emptyRow(5, 'No outfits match this search.');
+}
+
+function setLabelLevelByClick(itemId, clickedLevel) {
+  const item = DATA.clothesById.get(Number(itemId));
+  if (!item || clickedLevel < 1 || clickedLevel > 3) return;
+  const current = labelLevel(item);
+  const newLevel = current === clickedLevel ? clickedLevel - 1 : clickedLevel;
+  if (newLevel <= 0) delete userData.labels[String(itemId)];
+  else userData.labels[String(itemId)] = labelThreshold(item, newLevel);
+}
+
+function labelClickSquares(item, currentLevel) {
+  const labels = ['Bronze', 'Silver', 'Gold'];
+  return `<div class="label-click-squares" role="group" aria-label="${escapeAttr(item.name)} label level">${labels.map((name, idx) => {
+    const level = idx + 1;
+    const cls = name.toLowerCase();
+    const filled = currentLevel >= level ? 'filled' : '';
+    return `<button type="button" class="label-level-button ${cls} ${filled}" data-id="${escapeAttr(item.id)}" data-level="${level}" title="Set ${escapeAttr(name)} Label">■</button>`;
+  }).join('')}</div><div class="current-label-text">${escapeHtml(labelName(currentLevel))}</div>`;
+}
+
+function labelEffectsHtml(item, currentLevel) {
+  const bronzeReq = labelThreshold(item, 1);
+  const silverReq = labelThreshold(item, 2);
+  const goldReq = labelThreshold(item, 3);
+  const bronzeGain = Math.max(0, Math.ceil(Number(item.production || 0) * LABEL_BONUS_PIECES) - Number(item.production || 0));
+  const silverGain = Math.max(0, Math.ceil(Number(item.xp || 0) * LABEL_BONUS_XP) - Number(item.xp || 0));
+  const goldDuration = masteredDuration(Number(item.duration || 0));
+  const goldSaved = Math.max(0, Number(item.duration || 0) - goldDuration);
+  return `<div class="label-effect-lines">
+    ${labelEffectLine(1, currentLevel, `+${fmt(bronzeGain)} units`, `${fmt(bronzeReq)} productions required`)}
+    ${labelEffectLine(2, currentLevel, `+${fmt(silverGain)} XP`, `${fmt(silverReq)} productions required`)}
+    ${labelEffectLine(3, currentLevel, `-${timeFmt(goldSaved)}: ${timeFmt(goldDuration)}`, `${fmt(goldReq)} productions required`)}
+    <strong>Total: ${fmt(goldReq)} productions required for Gold</strong>
+  </div>`;
+}
+
+function labelEffectLine(level, currentLevel, benefit, requirement) {
+  const done = currentLevel >= level ? '<span class="label-check">✓</span>' : '';
+  return `<div class="label-effect-line ${labelClass(level)}">${labelBadge(level)} ${done}: ${escapeHtml(benefit)} <span class="label-requirement-note">(${escapeHtml(requirement)})</span></div>`;
+}
+
+function masteredDuration(duration) {
+  return Math.max(1, Math.floor(Number(duration || 0) * LABEL_BONUS_TIME));
 }
 
 function availableItems(useLabels) {
@@ -1092,18 +1518,20 @@ function availableItems(useLabels) {
 function adjusted(item, useLabels) {
   let units = item.production;
   let xp = item.xp;
+  let duration = item.duration;
   const level = useLabels ? labelLevel(item) : 0;
   if (level >= 1) units = Math.ceil(units * LABEL_BONUS_PIECES);
   if (level >= 2) xp = Math.ceil(xp * LABEL_BONUS_XP);
+  if (level >= 3) duration = masteredDuration(duration);
   const revenue = units * item.incomePerUnit;
   const profit = revenue - item.productionCostCash;
-  return { ...item, adjUnits: units, adjXp: xp, adjRevenue: revenue, adjProfit: profit, adjProfitPerMin: item.duration ? profit/item.duration : 0, adjXpPerMin: item.duration ? xp/item.duration : 0, adjUnitsPerMin: item.duration ? units/item.duration : 0, labelLevel: level };
+  return { ...item, baseDuration: item.duration, duration, adjUnits: units, adjXp: xp, adjRevenue: revenue, adjProfit: profit, adjProfitPerMin: duration ? profit/duration : 0, adjXpPerMin: duration ? xp/duration : 0, adjUnitsPerMin: duration ? units/duration : 0, labelLevel: level };
 }
 function labelThreshold(item, level) {
-  if (!item || !item.duration) return 0;
-  const hours = item.duration / 60;
+  if (!item || !item.duration || level < 1 || level > 3) return 0;
+  const hours = Number(item.duration || 0) / 60;
   const rate = Math.round(25 / (hours + 2));
-  return Math.max(1, Math.round(rate * LABEL_DAYS[level] * Math.max(1, Number(userData.labelSlots || 4))));
+  return Math.max(1, Math.round(rate * LABEL_DAYS[level] * LABEL_CLOTH_COUNT));
 }
 function labelLevel(item) {
   const points = Number(userData.labels[item.id] || 0);

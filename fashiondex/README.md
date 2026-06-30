@@ -1,24 +1,19 @@
-# FashionDex — DishDex-style GitHub Pages build v13
+# FashionDex FIXED15
 
-This version focuses on the Co-Op Planner.
+My Labels now follows the DishDex-style mastery workflow more closely.
 
-Expected repo layout:
+Changes:
 
-```text
-/FashionItems.xml
-/FashionLevelXp.xml
-/langs/Fashion_en.xml
-/clothingicons/...
-/fashiondex/index.html
-/fashiondex/app.js
-/fashiondex/style.css
-/fashiondex/coopicons/1.png ... 11.png
-```
+- Removed manual label point input from My Labels.
+- Added clickable Bronze / Silver / Gold square buttons.
+- Clicking a square stores the required production threshold behind the scenes.
+- Label effects now show:
+  - Bronze: piece/unit bonus
+  - Silver: XP bonus
+  - Gold: production time reduction
+  - total productions required for Gold
+- Label Summary is shown beside the table.
+- Recommended Labels now says productions required instead of points required.
+- Gold Labels selected in My Labels continue to feed the Co-Op Planner for Player 1.
 
-Co-Op Planner updates:
-
-- Save/load up to 10 Co-Op teams locally.
-- Up to 5 players per team.
-- Each player has a boutique name, level, and worker/factory count.
-- Assignment plan balances required productions by worker/factory count and level eligibility.
-- Co-Op icons load from `fashiondex/coopicons/` using `1.png`, `2.png`, etc.
+Deploy inside the `fashiondex/` folder and hard refresh after upload.

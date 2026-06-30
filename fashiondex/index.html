@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-coop-v13">
+  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-labels-v15">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -380,17 +380,31 @@
       <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><img src="mylabels.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'"><div><p class="eyebrow">Outfit perks</p><h1>My Labels</h1></div></div></header>
       <section class="panel inputs-panel">
         <h2>My Labels</h2>
-        <div class="input-grid">
+        <p class="section-note">Click the squares to register Bronze, Silver, or Gold Labels. No manual points needed.</p>
+        <div class="input-grid labels-filter-grid">
           <label><span>Search outfit</span><input id="labelSearch" type="search" placeholder="Search outfit..."></label>
           <label><span>Type</span><select id="labelFamily"><option value="all">All</option><option>Clothes</option><option>Shoes</option><option>Accessories</option></select></label>
           <label><span>Sort</span><select id="labelSort"><option value="next">Closest next Label</option><option value="level">Level</option><option value="name">Name</option><option value="label">Highest Label</option></select></label>
-          <label><span>Label slots</span><input id="labelSlots" type="number" min="1" value="4"></label>
         </div>
       </section>
-      <section class="panel"><h2>Label Summary</h2><div class="stat-grid" id="labelStats"></div></section>
-      <section class="panel"><h2>Label List</h2><div class="table-wrap"><table class="mastery-table"><thead><tr><th>Image</th><th>Outfit</th><th>Level</th><th>Current Points</th><th>Current Label</th><th>Bronze</th><th>Silver</th><th>Gold</th><th>Next</th></tr></thead><tbody id="labelsBody"></tbody></table></div></section>
+      <section class="panel label-workbench-panel">
+        <div class="section-heading-row">
+          <div>
+            <h2>Label List</h2>
+            <p class="section-note">Bronze improves pieces, Silver improves XP, and Gold reduces production time.</p>
+          </div>
+        </div>
+        <div class="labels-workbench-grid">
+          <aside class="label-summary-card">
+            <h3>Label Summary</h3>
+            <div class="label-stat-list" id="labelStats"></div>
+            <p class="hint">The app stores the required production count behind the scenes when you click a label square.</p>
+          </aside>
+          <div class="table-wrap label-table-wrap"><table class="mastery-table label-table"><thead><tr><th>Image</th><th>Outfit</th><th>Label</th><th>Effects</th><th>Level</th></tr></thead><tbody id="labelsBody"></tbody></table></div>
+        </div>
+      </section>
     </section>
   </main>
-  <script src="app.js?v=20260630-fashiondex-coop-v13"></script>
+  <script src="app.js?v=20260630-fashiondex-labels-v15"></script>
 </body>
 </html>
