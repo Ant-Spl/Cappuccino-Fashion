@@ -1,4 +1,4 @@
-/* FashionDex/app.js - DishDex-style static GitHub Pages build v12 */
+/* FashionDex/app.js - DishDex-style static GitHub Pages build v13 */
 (() => {
 'use strict';
 
@@ -38,6 +38,7 @@ const PATHS = {
 };
 
 const ICON_DIRS = uniqPaths([`../clothingicons`, `${REPO_ROOT}clothingicons`, './clothingicons', 'clothingicons']);
+const COOP_ICON_DIRS = uniqPaths(['./coopicons', 'coopicons', `../coopicons`, `${REPO_ROOT}coopicons`]);
 const STORAGE_KEY = 'fashionDexDishDexStyleV2';
 const THEME_KEY = 'fashionDexTheme';
 const LABEL_DAYS = { 1: 1, 2: 5, 3: 13 };
@@ -97,8 +98,11 @@ function defaultUserData() {
     fullGender: 'all',
     coopSearch: '',
     coopSort: 'level',
-    coopWorkers: 5,
     selectedCoopId: '',
+    coopTeamId: '',
+    coopTeamName: 'New team',
+    coopTeamMembers: null,
+    coopTeams: [],
     labelSearch: '',
     labelFamily: 'all',
     labelSort: 'next',
@@ -243,6 +247,7 @@ function buildData(itemsDoc, levelsDoc, langDoc) {
     .filter(el => attr(el, 'g') === 'Coop')
     .map(el => normalizeCoop(el, lang.coop, clothesById))
     .sort((a,b)=>a.minLevel-b.minLevel || a.id-b.id);
+  coops.forEach((coop, index) => { coop.index = index + 1; });
 
   const maxContentLevel = Math.max(
     1,
@@ -383,7 +388,7 @@ function setupSortOptions() {
 }
 
 function bindInputs() {
-  const ids = ['playerLevel','xpNeeded','workerCount','patternMode','useLabelsToggle','fullSearch','fullSort','fullUseLabelsToggle','fullFamily','fullGender','timePlayerLevel','myTimeHours','myTimeMinutes','myTimeMarginPlusHours','myTimeMarginPlusMinutes','myTimeMarginMinusHours','myTimeMarginMinusMinutes','myTimeUseLabelsToggle','coopSearch','coopSort','coopWorkers','coopSelect','profileName','profileLevel','profileWorkers','labelSearch','labelFamily','labelSort','labelSlots'];
+  const ids = ['playerLevel','xpNeeded','workerCount','patternMode','useLabelsToggle','fullSearch','fullSort','fullUseLabelsToggle','fullFamily','fullGender','timePlayerLevel','myTimeHours','myTimeMinutes','myTimeMarginPlusHours','myTimeMarginPlusMinutes','myTimeMarginMinusHours','myTimeMarginMinusMinutes','myTimeUseLabelsToggle','coopSearch','coopSort','coopTeamSelect','coopTeamName','profileName','profileLevel','profileWorkers','labelSearch','labelFamily','labelSort','labelSlots'];
   ids.forEach(id => {
     document.getElementById(id)?.addEventListener('input', onInputChange);
     document.getElementById(id)?.addEventListener('change', onInputChange);
@@ -401,6 +406,50 @@ function bindInputs() {
     ['myTimeMarginPlusHours','myTimeMarginPlusMinutes','myTimeMarginMinusHours','myTimeMarginMinusMinutes'].forEach(id => setValue(id, 0));
     readInputs(); saveUserData(); renderAll();
   });
+  document.getElementById('newCoopTeamButton')?.addEventListener('click', () => {
+    newCoopTeam();
+    syncInputs();
+    saveUserData();
+    renderCoops();
+  });
+  document.getElementById('saveCoopTeamButton')?.addEventListener('click', () => {
+    readCoopTeamInputs();
+    saveCurrentCoopTeam();
+    saveUserData();
+    renderCoops();
+  });
+  document.getElementById('deleteCoopTeamButton')?.addEventListener('click', () => {
+    deleteCurrentCoopTeam();
+    saveUserData();
+    renderCoops();
+  });
+  document.getElementById('useProfileForLeaderButton')?.addEventListener('click', () => {
+    useProfileForLeader();
+    saveUserData();
+    renderCoops();
+  });
+  document.addEventListener('input', e => {
+    if (e.target?.classList?.contains('coop-member-input')) {
+      readCoopTeamInputs();
+      saveUserData();
+      renderSelectedCoopPlan();
+    }
+  });
+  document.addEventListener('click', e => {
+    const planButton = e.target?.closest?.('.plan-coop-button');
+    if (planButton) {
+      userData.selectedCoopId = String(planButton.dataset.id || '');
+      saveUserData();
+      renderCoops();
+      document.getElementById('selectedCoopPlan')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    const clearButton = e.target?.closest?.('.clear-coop-member');
+    if (clearButton) {
+      clearCoopMember(Number(clearButton.dataset.slot || 0));
+      saveUserData();
+      renderCoops();
+    }
+  });
   document.addEventListener('input', e => {
     if (e.target?.classList?.contains('label-points')) {
       userData.labels[e.target.dataset.id] = Math.max(0, Number(e.target.value || 0));
@@ -410,7 +459,7 @@ function bindInputs() {
   });
   document.addEventListener('error', e => {
     const img = e.target;
-    if (!(img instanceof HTMLImageElement) || !img.classList.contains('cloth-icon')) return;
+    if (!(img instanceof HTMLImageElement) || !(img.classList.contains('cloth-icon') || img.classList.contains('coop-icon') || img.classList.contains('dex-icon'))) return;
     const candidates = JSON.parse(img.dataset.icons || '[]');
     const next = Number(img.dataset.index || 0) + 1;
     if (next < candidates.length) {
@@ -424,6 +473,13 @@ function bindInputs() {
 
 function onInputChange(e) {
   const id = e?.target?.id;
+  if (id === 'coopTeamSelect') {
+    userData.coopTeamId = e.target.value || '';
+    loadSelectedCoopTeam();
+    saveUserData();
+    renderCoops();
+    return;
+  }
   if (['playerLevel','timePlayerLevel','profileLevel'].includes(id)) {
     ['playerLevel','timePlayerLevel','profileLevel'].forEach(otherId => setValue(otherId, e.target.value));
   }
@@ -453,7 +509,8 @@ function syncInputs() {
   setChecked('myTimeUseLabelsToggle', userData.myTimeUseLabels !== false);
   setValue('coopSearch', userData.coopSearch);
   setValue('coopSort', userData.coopSort);
-  setValue('coopWorkers', userData.coopWorkers);
+  setValue('coopTeamSelect', userData.coopTeamId);
+  setValue('coopTeamName', userData.coopTeamName);
   setValue('profileName', userData.profileName);
   setValue('profileLevel', userData.level);
   setValue('profileWorkers', userData.workersOverride);
@@ -482,8 +539,9 @@ function readInputs() {
   userData.myTimeUseLabels = getChecked('myTimeUseLabelsToggle', userData.myTimeUseLabels !== false);
   userData.coopSearch = getValue('coopSearch', userData.coopSearch);
   userData.coopSort = getValue('coopSort', userData.coopSort);
-  userData.coopWorkers = intValue('coopWorkers', userData.coopWorkers);
-  userData.selectedCoopId = getValue('coopSelect', userData.selectedCoopId);
+  userData.coopTeamId = getValue('coopTeamSelect', userData.coopTeamId);
+  userData.coopTeamName = getValue('coopTeamName', userData.coopTeamName);
+  readCoopTeamInputs();
   userData.profileName = getValue('profileName', userData.profileName);
   userData.workersOverride = getValue('profileWorkers', userData.workersOverride);
   userData.labelSearch = getValue('labelSearch', userData.labelSearch);
@@ -736,30 +794,269 @@ function timeAvailableItems(useLabels) {
     .map(i => adjusted(i, useLabels));
 }
 
+function ensureCoopTeamState() {
+  if (!Array.isArray(userData.coopTeams)) userData.coopTeams = [];
+  if (!Array.isArray(userData.coopTeamMembers) || userData.coopTeamMembers.length !== 5) {
+    userData.coopTeamMembers = defaultCoopMembers();
+  }
+  userData.coopTeamMembers = userData.coopTeamMembers.slice(0, 5);
+  while (userData.coopTeamMembers.length < 5) userData.coopTeamMembers.push(blankCoopMember(userData.coopTeamMembers.length + 1));
+  if (!userData.coopTeamName) userData.coopTeamName = 'New team';
+}
+
+function blankCoopMember(slot) {
+  return { name: slot === 1 ? (userData.profileName || 'Player 1') : '', level: slot === 1 ? userData.level : '', workers: slot === 1 ? effectiveWorkers() : '' };
+}
+
+function defaultCoopMembers() {
+  return [1, 2, 3, 4, 5].map(blankCoopMember);
+}
+
+function readCoopTeamInputs() {
+  ensureCoopTeamState();
+  const teamName = document.getElementById('coopTeamName');
+  if (teamName) userData.coopTeamName = teamName.value || 'New team';
+  const teamSelect = document.getElementById('coopTeamSelect');
+  if (teamSelect) userData.coopTeamId = teamSelect.value || '';
+  userData.coopTeamMembers = [1,2,3,4,5].map(slot => {
+    const current = userData.coopTeamMembers[slot - 1] || blankCoopMember(slot);
+    const nameEl = document.getElementById(`coopMemberName${slot}`);
+    const levelEl = document.getElementById(`coopMemberLevel${slot}`);
+    const workersEl = document.getElementById(`coopMemberWorkers${slot}`);
+    return {
+      name: nameEl ? nameEl.value.trim() : (current.name || ''),
+      level: levelEl ? levelEl.value : current.level,
+      workers: workersEl ? workersEl.value : current.workers
+    };
+  });
+}
+
+function activeCoopMembers(coop = null) {
+  ensureCoopTeamState();
+  const raw = userData.coopTeamMembers.map((m, index) => {
+    const name = String(m.name || '').trim();
+    const level = Number(m.level === '' || m.level == null ? 0 : m.level);
+    const workers = Number(m.workers === '' || m.workers == null ? 0 : m.workers);
+    const hasData = !!name || level > 0 || workers > 0 || index === 0;
+    if (!hasData) return null;
+    return {
+      slot: index + 1,
+      name: name || `Player ${index + 1}`,
+      level: Math.max(0, Math.round(level || (index === 0 ? userData.level : 1))),
+      workers: Math.max(1, Math.round(workers || 1)),
+      loadMinutes: 0,
+      assignments: new Map()
+    };
+  }).filter(Boolean);
+  const limit = Math.max(1, Math.min(5, Number(coop?.maxMember || 5)));
+  return raw.slice(0, limit);
+}
+
+function renderCoopTeamEditor() {
+  ensureCoopTeamState();
+  const select = document.getElementById('coopTeamSelect');
+  if (select) {
+    const options = ['<option value="">Current unsaved team</option>'].concat(
+      userData.coopTeams.map(team => `<option value="${escapeHtml(team.id)}" ${team.id === userData.coopTeamId ? 'selected' : ''}>${escapeHtml(team.name || 'Saved team')}</option>`)
+    );
+    select.innerHTML = options.join('');
+  }
+  const nameEl = document.getElementById('coopTeamName');
+  if (nameEl && nameEl.value !== String(userData.coopTeamName || '')) nameEl.value = userData.coopTeamName || 'New team';
+  const body = document.getElementById('coopTeamMembersBody');
+  if (!body) return;
+  body.innerHTML = userData.coopTeamMembers.map((m, index) => {
+    const slot = index + 1;
+    return `<tr>
+      <td><strong>Player ${slot}</strong></td>
+      <td><input id="coopMemberName${slot}" class="coop-member-input" type="text" maxlength="40" value="${escapeAttr(m.name || '')}" placeholder="Boutique name"></td>
+      <td><input id="coopMemberLevel${slot}" class="coop-member-input" type="number" min="0" max="999" value="${escapeAttr(m.level ?? '')}" placeholder="Level"></td>
+      <td><input id="coopMemberWorkers${slot}" class="coop-member-input" type="number" min="1" max="99" value="${escapeAttr(m.workers ?? '')}" placeholder="Workers"></td>
+      <td><button class="action-button clear-coop-member" data-slot="${slot}" type="button">Clear</button></td>
+    </tr>`;
+  }).join('');
+}
+
+function newCoopTeam() {
+  userData.coopTeamId = '';
+  userData.coopTeamName = 'New team';
+  userData.coopTeamMembers = defaultCoopMembers();
+}
+
+function saveCurrentCoopTeam() {
+  ensureCoopTeamState();
+  const existingId = userData.coopTeamId;
+  if (!existingId && userData.coopTeams.length >= 10) {
+    alert('You can save up to 10 Co-Op teams.');
+    return;
+  }
+  const id = existingId || `team-${Date.now()}`;
+  const team = {
+    id,
+    name: userData.coopTeamName || 'Saved team',
+    members: userData.coopTeamMembers.map(m => ({ name: m.name || '', level: m.level ?? '', workers: m.workers ?? '' }))
+  };
+  const idx = userData.coopTeams.findIndex(t => t.id === id);
+  if (idx >= 0) userData.coopTeams[idx] = team;
+  else userData.coopTeams.push(team);
+  userData.coopTeamId = id;
+  document.getElementById('coopTeamStatus').textContent = 'Team saved locally.';
+}
+
+function deleteCurrentCoopTeam() {
+  if (!userData.coopTeamId) {
+    newCoopTeam();
+    return;
+  }
+  if (!confirm('Delete this saved Co-Op team?')) return;
+  userData.coopTeams = userData.coopTeams.filter(t => t.id !== userData.coopTeamId);
+  newCoopTeam();
+  document.getElementById('coopTeamStatus').textContent = 'Team deleted.';
+}
+
+function loadSelectedCoopTeam() {
+  ensureCoopTeamState();
+  const team = userData.coopTeams.find(t => t.id === userData.coopTeamId);
+  if (!team) return;
+  userData.coopTeamName = team.name || 'Saved team';
+  userData.coopTeamMembers = (team.members || []).slice(0,5);
+  while (userData.coopTeamMembers.length < 5) userData.coopTeamMembers.push(blankCoopMember(userData.coopTeamMembers.length + 1));
+}
+
+function useProfileForLeader() {
+  ensureCoopTeamState();
+  userData.coopTeamMembers[0] = {
+    name: userData.profileName || 'Player 1',
+    level: userData.level,
+    workers: effectiveWorkers()
+  };
+}
+
+function clearCoopMember(slot) {
+  ensureCoopTeamState();
+  if (slot < 1 || slot > 5) return;
+  userData.coopTeamMembers[slot - 1] = { name: '', level: '', workers: '' };
+}
+
 function renderCoops() {
+  ensureCoopTeamState();
+  renderCoopTeamEditor();
   let coops = [...DATA.coops];
   const q = userData.coopSearch.trim().toLowerCase();
-  if (q) coops = coops.filter(c => `${c.title} ${c.description} ${c.id}`.toLowerCase().includes(q));
+  if (q) coops = coops.filter(c => `${c.title} ${c.description} ${c.id} ${c.key}`.toLowerCase().includes(q));
   coops.sort((a,b) => {
     if (userData.coopSort === 'time') return a.duration - b.duration;
     if (userData.coopSort === 'factory') return a.factoryMinutes - b.factoryMinutes;
     if (userData.coopSort === 'reward') return (b.chips + b.xp + b.gold * 1000) - (a.chips + a.xp + a.gold * 1000);
     return a.minLevel - b.minLevel || a.id - b.id;
   });
-  const select = document.getElementById('coopSelect');
-  if (select) {
-    select.innerHTML = DATA.coops.map(c => `<option value="${c.id}" ${String(c.id) === String(userData.selectedCoopId) ? 'selected' : ''}>${escapeHtml(c.title)}</option>`).join('');
-  }
+  renderSelectedCoopPlan();
+  const body = document.getElementById('coopListBody');
+  if (!body) return;
+  body.innerHTML = coops.length ? coops.map(c => coopListRow(c)).join('') : emptyRow(6, 'No Co-Ops available.');
+}
+
+function renderSelectedCoopPlan() {
   const selected = DATA.coops.find(c => String(c.id) === String(userData.selectedCoopId)) || DATA.coops[0];
-  document.getElementById('selectedCoopPlan').innerHTML = selected ? coopPlanCard(selected) : '<div class="empty">No Co-Op selected.</div>';
-  document.getElementById('coopListBody').innerHTML = coops.length ? coops.map(c => `<tr><td class="dish-name">${escapeHtml(c.title)}<div class="dish-type-tag">${escapeHtml(c.description)}</div></td><td>${c.minLevel}-${c.maxLevel || 999}</td><td>${c.maxMember}</td><td>${timeFmt(c.duration)}</td><td>${hours(c.factoryHours)}</td><td>${money(c.chips)} · ${xpValue(c.xp)} · ${goldValue(c.gold)}</td><td class="requirements-cell">${c.requirements.map(r => `${escapeHtml(r.name)} × ${fmt(r.amount)}`).join('<br>')}</td></tr>`).join('') : emptyRow(7, 'No Co-Ops available.');
+  const preview = document.getElementById('selectedCoopPlan');
+  if (preview) preview.innerHTML = selected ? coopPlanCard(selected) : '<div class="empty">No Co-Op selected.</div>';
+}
+
+function coopListRow(c) {
+  return `<tr>
+    <td>${coopIconCell(c)}</td>
+    <td class="dish-name">${escapeHtml(c.title)}<div class="dish-type-tag">${escapeHtml(c.description || `Co-Op ${c.key || c.index}`)}</div></td>
+    <td>${timeFmt(c.duration)}</td>
+    <td>${rewardStack(c)}</td>
+    <td class="requirements-cell">${c.requirements.map(r => `${escapeHtml(r.name)} × ${fmt(r.amount)}`).join('<br>')}</td>
+    <td><button class="action-button plan-coop-button" type="button" data-id="${c.id}">Plan!</button></td>
+  </tr>`;
+}
+
+function coopIconCell(c) {
+  const keys = [c.key, c.index, c.id].filter(v => v !== undefined && v !== null && String(v) !== '');
+  const candidates = [];
+  for (const dir of COOP_ICON_DIRS) for (const key of keys) candidates.push(`${dir}/${key}.png`);
+  const unique = [...new Set(candidates)];
+  return `<img class="coop-icon dex-icon" src="${escapeAttr(unique[0] || '')}" data-icons='${escapeAttr(JSON.stringify(unique))}' data-index="0" alt="${escapeAttr(c.title)}">`;
+}
+
+function rewardStack(c) {
+  return `<div class="metric-stack">${money(c.chips)}<small>${xpValue(c.xp)}</small><small>${goldValue(c.gold)}</small></div>`;
+}
+
+function buildCoopAssignment(c) {
+  const members = activeCoopMembers(c);
+  const unassigned = [];
+  for (const req of c.requirements) {
+    let remaining = Number(req.amount || 0);
+    for (let batch = 0; batch < Math.max(0, req.batches); batch++) {
+      const eligible = members.filter(m => m.level >= Number(req.level || 0));
+      if (!eligible.length) {
+        unassigned.push({ req, batches: 1, units: Math.min(req.production || remaining, remaining), minutes: req.minutes / Math.max(1, req.batches) });
+        remaining -= Math.min(req.production || remaining, remaining);
+        continue;
+      }
+      const chosen = eligible.slice().sort((a,b) => (a.loadMinutes / a.workers) - (b.loadMinutes / b.workers) || a.slot - b.slot)[0];
+      const units = Math.max(0, Math.min(Number(req.production || remaining), remaining));
+      const minutes = Number(req.minutes || 0) / Math.max(1, Number(req.batches || 1));
+      const existing = chosen.assignments.get(req.clothId) || { req, batches: 0, units: 0, minutes: 0 };
+      existing.batches += 1;
+      existing.units += units;
+      existing.minutes += minutes;
+      chosen.assignments.set(req.clothId, existing);
+      chosen.loadMinutes += minutes;
+      remaining -= units;
+    }
+  }
+  const teamMinutes = members.length ? Math.max(...members.map(m => m.loadMinutes / Math.max(1, m.workers))) : 0;
+  const tier = coopTier(c, teamMinutes);
+  return { members, unassigned, teamMinutes, tier };
+}
+
+function coopTier(c, teamMinutes) {
+  if (!c || !c.duration) return { name: 'Unknown', className: '', note: '' };
+  if (teamMinutes <= c.duration * 0.5) return { name: 'Gold', className: 'tier-gold', note: `within ${timeFmt(c.duration * 0.5)} Gold target` };
+  if (teamMinutes <= c.duration * 0.75) return { name: 'Silver', className: 'tier-silver', note: `within ${timeFmt(c.duration * 0.75)} Silver target` };
+  if (teamMinutes <= c.duration) return { name: 'Bronze', className: 'tier-bronze', note: `within ${timeFmt(c.duration)} Bronze target` };
+  return { name: 'Not doable', className: 'tier-fail', note: `over the ${timeFmt(c.duration)} limit` };
 }
 
 function coopPlanCard(c) {
-  const workers = Math.max(1, Number(userData.coopWorkers || effectiveWorkers()));
-  const wall = c.factoryMinutes / workers;
+  const plan = buildCoopAssignment(c);
+  const activeCount = plan.members.length;
+  const cappedNote = activeCount >= Number(c.maxMember || 5) ? '' : '';
   const reqRows = c.requirements.map(r => `<tr><td>${r.missing ? '' : iconCell(DATA.clothesById.get(r.clothId) || {})}</td><td class="dish-name">${escapeHtml(r.name)}</td><td>${fmt(r.amount)}</td><td>${r.batches}</td><td>${timeFmt(r.minutes)}</td><td>${r.level}</td></tr>`).join('');
-  return `<div class="coop-selected-card"><h3>${escapeHtml(c.title)}</h3><p class="section-note">${escapeHtml(c.description || 'No description.')}</p><div class="mini-grid">${metric('Time limit', timeFmt(c.duration), 'Co-Op duration')}${metric('Factory-hours', hours(c.factoryHours), 'Total production work')}${metric('With team workers', timeFmt(wall), `${workers} workers`)}${metric('Rewards', `${money(c.chips)} · ${xpValue(c.xp)} · ${goldValue(c.gold)}`, 'Base reward')}</div><div class="table-wrap"><table><thead><tr><th>Image</th><th>Required outfit</th><th>Required units</th><th>Batches</th><th>Factory time</th><th>Level</th></tr></thead><tbody>${reqRows || emptyRow(6, 'No requirements listed.')}</tbody></table></div></div>`;
+  const memberRows = plan.members.map(m => {
+    const rows = [...m.assignments.values()];
+    const assignmentText = rows.length ? rows.map(a => `${escapeHtml(a.req.name)} × ${fmt(a.units)} (${a.batches} production${a.batches === 1 ? '' : 's'})`).join('<br>') : '<span class="muted-text">No assignment</span>';
+    return `<tr>
+      <td class="dish-name">${escapeHtml(m.name)}</td>
+      <td>${m.level}</td>
+      <td>${m.workers}</td>
+      <td>${timeFmt(m.loadMinutes)}</td>
+      <td>${timeFmt(m.loadMinutes / Math.max(1, m.workers))}</td>
+      <td class="requirements-cell">${assignmentText}</td>
+    </tr>`;
+  }).join('');
+  const unassigned = plan.unassigned.length ? `<div class="empty bad-box"><strong>Missing eligible player:</strong> ${plan.unassigned.map(x => escapeHtml(x.req.name)).join(', ')}</div>` : '';
+  return `<div class="coop-selected-card">
+    <div class="coop-plan-title-row">${coopIconCell(c)}<div><h3>${escapeHtml(c.title)}</h3><p class="section-note">${escapeHtml(c.description || 'No description.')}</p></div></div>
+    <div class="mini-grid">
+      ${metric('Max participants', c.maxMember || 5, 'players')}
+      ${metric('Time limit', timeFmt(c.duration), 'Co-Op duration')}
+      ${metric('Total factory-hours', hours(c.factoryHours), 'all required productions')}
+      ${metric('Estimated finish', timeFmt(plan.teamMinutes), `${activeCount} player${activeCount === 1 ? '' : 's'}`)}
+      ${metric('Predicted status', plan.tier.name, plan.tier.note)}
+      ${metric('Base rewards', `${money(c.chips)} ${xpValue(c.xp)} ${goldValue(c.gold)}`, 'before tier scaling')}
+    </div>
+    ${unassigned}
+    <h3>Assignment plan</h3>
+    <p class="section-note">Assignments are balanced by each player’s number of workers/factories and level eligibility.</p>
+    <div class="table-wrap"><table><thead><tr><th>Player</th><th>Level</th><th>Workers</th><th>Factory time</th><th>Estimated player time</th><th>Assigned outfits</th></tr></thead><tbody>${memberRows || emptyRow(6, 'Add at least one player to the team.')}</tbody></table></div>
+    <h3>Required outfits</h3>
+    <div class="table-wrap"><table><thead><tr><th>Image</th><th>Required outfit</th><th>Required units</th><th>Productions</th><th>Factory time</th><th>Level</th></tr></thead><tbody>${reqRows || emptyRow(6, 'No requirements listed.')}</tbody></table></div>
+  </div>`;
 }
 
 function renderProfile() {

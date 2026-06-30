@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-mytime-v12">
+  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-coop-v13">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -267,18 +267,98 @@
     </section>
 
     <section id="coopScreen" class="screen hidden">
-      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><img src="coopplanner.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'"><div><p class="eyebrow">Team fashion</p><h1>Co-Op Planner</h1></div></div></header>
-      <section class="panel inputs-panel">
-        <h2>Co-Op List</h2>
-        <div class="input-grid">
-          <label><span>Search Co-Op</span><input id="coopSearch" type="search" placeholder="Search Co-Op..."></label>
-          <label><span>Sort by</span><select id="coopSort"><option value="level">Level</option><option value="time">Duration</option><option value="factory">Factory-hours</option><option value="reward">Rewards</option></select></label>
-          <label><span>Team workers</span><input id="coopWorkers" type="number" min="1" value="5"></label>
-          <label><span>Selected Co-Op</span><select id="coopSelect"></select></label>
+      <header class="sub-hero">
+        <button class="back-button" type="button" data-back>← Back</button>
+        <div class="title-row compact-title-row">
+          <img src="coopplanner.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'">
+          <div>
+            <p class="eyebrow">Team fashion</p>
+            <h1>Co-Op Planner</h1>
+          </div>
+        </div>
+      </header>
+
+      <section class="panel coop-team-panel">
+        <div class="section-heading-row">
+          <div>
+            <h2>Co-Op Team</h2>
+            <p class="section-note">Register up to five players and save up to ten teams.</p>
+          </div>
+          <div class="coop-team-actions">
+            <button id="newCoopTeamButton" type="button" class="action-button">New team</button>
+            <button id="saveCoopTeamButton" type="button" class="action-button">Save team</button>
+            <button id="deleteCoopTeamButton" type="button" class="action-button danger-button">Delete team</button>
+          </div>
+        </div>
+
+        <div class="coop-team-top-grid">
+          <label>
+            <span>Load team</span>
+            <select id="coopTeamSelect"></select>
+          </label>
+          <label>
+            <span>Team name</span>
+            <input id="coopTeamName" type="text" maxlength="40" autocomplete="off">
+          </label>
+          <button id="useProfileForLeaderButton" type="button" class="action-button profile-fill-button">Use My Profile for Player 1</button>
+        </div>
+
+        <div class="coop-member-table-wrap">
+          <table class="coop-member-table">
+            <thead>
+              <tr>
+                <th>Player</th>
+                <th>Boutique name</th>
+                <th>Level</th>
+                <th>Workers / factories</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="coopTeamMembersBody"></tbody>
+          </table>
+        </div>
+        <p id="coopTeamStatus" class="hint"></p>
+      </section>
+
+      <section class="panel">
+        <h2>Available Co-Ops</h2>
+        <p class="section-note">Browse Co-Op missions and prepare the team assignment.</p>
+        <div class="input-grid coop-list-controls">
+          <label>
+            <span>Search Co-Op</span>
+            <input id="coopSearch" type="search" autocomplete="off" placeholder="Search Co-Op...">
+          </label>
+          <label>
+            <span>Sort by</span>
+            <select id="coopSort">
+              <option value="level">Level</option>
+              <option value="time">Duration</option>
+              <option value="factory">Factory-hours</option>
+              <option value="reward">Rewards</option>
+            </select>
+          </label>
+        </div>
+        <div class="table-wrap coop-list-scroll">
+          <table class="coop-table">
+            <thead>
+              <tr>
+                <th>Image</th>
+                <th>Co-Op</th>
+                <th>Duration</th>
+                <th>Reward Details</th>
+                <th>Requirements</th>
+                <th>Plan</th>
+              </tr>
+            </thead>
+            <tbody id="coopListBody"></tbody>
+          </table>
         </div>
       </section>
-      <section class="panel"><h2>Selected Co-Op Plan</h2><div id="selectedCoopPlan"></div></section>
-      <section class="panel"><h2>All Co-Ops</h2><div class="table-wrap"><table><thead><tr><th>Co-Op</th><th>Level</th><th>Members</th><th>Duration</th><th>Factory-hours</th><th>Rewards</th><th>Requirements</th></tr></thead><tbody id="coopListBody"></tbody></table></div></section>
+
+      <section class="panel coop-plan-preview-panel">
+        <h2>Selected Co-Op Plan</h2>
+        <div id="selectedCoopPlan" class="coop-plan-preview empty-coop-plan">Choose a Co-Op and click Plan!</div>
+      </section>
     </section>
 
     <section id="profileScreen" class="screen hidden">
@@ -311,6 +391,6 @@
       <section class="panel"><h2>Label List</h2><div class="table-wrap"><table class="mastery-table"><thead><tr><th>Image</th><th>Outfit</th><th>Level</th><th>Current Points</th><th>Current Label</th><th>Bronze</th><th>Silver</th><th>Gold</th><th>Next</th></tr></thead><tbody id="labelsBody"></tbody></table></div></section>
     </section>
   </main>
-  <script src="app.js?v=20260630-fashiondex-mytime-v12"></script>
+  <script src="app.js?v=20260630-fashiondex-coop-v13"></script>
 </body>
 </html>

@@ -3430,3 +3430,94 @@ body.dark-theme .label-square.filled.silver {
 @media (max-width: 1100px) {
   .full-fashiondex-options { grid-template-columns: repeat(2, minmax(180px, 1fr)); }
 }
+
+/* FashionDex v13 Co-Op Planner polish */
+.coop-list-controls {
+  grid-template-columns: minmax(260px, 1fr) minmax(220px, 320px);
+  margin-bottom: 14px;
+}
+
+.coop-plan-title-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.coop-plan-title-row h3 {
+  margin: 0 0 4px;
+  color: var(--brown-dark);
+  font-size: 1.35rem;
+}
+
+.coop-selected-card h3 {
+  color: var(--brown-dark);
+  margin: 16px 0 6px;
+}
+
+.coop-member-table input {
+  text-align: center;
+}
+
+.coop-member-table input[type="text"] {
+  text-align: left;
+}
+
+.coop-plan-preview .mini-grid {
+  margin: 12px 0 16px;
+}
+
+.coop-plan-preview table {
+  min-width: 980px;
+}
+
+.coop-table {
+  min-width: 1180px;
+}
+
+.coop-table .requirements-cell {
+  min-width: 260px;
+}
+
+.coop-icon.dex-icon {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+
+.muted-text {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.bad-box {
+  border: 2px solid #b3261e;
+  color: #b3261e;
+  margin: 10px 0;
+}
+
+body.dark-theme .bad-box {
+  color: #ff9a91;
+}
+
+.tier-gold strong,
+.tier-gold { color: var(--gold); }
+.tier-silver strong,
+.tier-silver { color: #687381; }
+.tier-bronze strong,
+.tier-bronze { color: var(--bronze); }
+.tier-fail strong,
+.tier-fail { color: #b3261e; }
+
+@media (max-width: 900px) {
+  .coop-team-top-grid,
+  .coop-list-controls {
+    grid-template-columns: 1fr;
+  }
+  .coop-team-actions {
+    justify-content: flex-start;
+  }
+  .coop-plan-title-row {
+    align-items: flex-start;
+  }
+}

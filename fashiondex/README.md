@@ -1,32 +1,24 @@
-# FashionDex
+# FashionDex — DishDex-style GitHub Pages build v13
 
-GitHub Pages build for `Ant-Spl/Cappuccino-Fashion`.
+This version focuses on the Co-Op Planner.
 
-Place these files inside the repo's `fashiondex/` folder:
+Expected repo layout:
 
-- `index.html`
-- `app.js`
-- `style.css`
-- `.nojekyll`
+```text
+/FashionItems.xml
+/FashionLevelXp.xml
+/langs/Fashion_en.xml
+/clothingicons/...
+/fashiondex/index.html
+/fashiondex/app.js
+/fashiondex/style.css
+/fashiondex/coopicons/1.png ... 11.png
+```
 
-Menu/currency icons should also be in `fashiondex/`:
+Co-Op Planner updates:
 
-- `mydex.png`
-- `coopplanner.png`
-- `fulldex.png`
-- `mylabels.png`
-- `mytime.png`
-- `myprofile.png`
-- `xp.png`
-- `fashiondollars.png`
-- `goldbuttons.png`
-
-The app reads Fashion XML from the repository and hides custom-clothing base patterns from the Dex.
-
-
-## Fixed9
-- Recommended Labels XP rows now show only the Silver XP benefit instead of mentioning Bronze first.
-- Silver label text/square color was darkened for readability on MyDex blue rows.
-
-
-Fixed10: Full FashionDex and My Time groups XP/profit/units with per-minute metrics, hides internal IDs/keys, and adds a default-on Use my Labels toggle.
+- Save/load up to 10 Co-Op teams locally.
+- Up to 5 players per team.
+- Each player has a boutique name, level, and worker/factory count.
+- Assignment plan balances required productions by worker/factory count and level eligibility.
+- Co-Op icons load from `fashiondex/coopicons/` using `1.png`, `2.png`, etc.
