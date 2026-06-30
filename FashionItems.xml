@@ -299,8 +299,8 @@
 <wod id="1359" n="Custom" g="Clothes" t="Vshirtmale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="14" level="0" incomePerUnit="4" production="300" duration="180" productSubType="20" productionCostCash="816" productionCostGold="0" gender="2" />
 <wod id="1360" n="Custom" g="Clothes" t="Tshirtfemale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="9" level="0" incomePerUnit="6" production="200" duration="120" productSubType="20" productionCostCash="816" productionCostGold="0" gender="1" />
 <wod id="1361" n="Custom" g="Clothes" t="Tshirtmale" cash="0" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="9" level="0" incomePerUnit="6" production="200" duration="120" productSubType="20" productionCostCash="816" productionCostGold="0" gender="2" />
-<wod id="1362" n="Basic" g="Clothes" t="Omelettesweatermale" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="4" level="1" incomePerUnit="100" production="5" duration="2" productSubType="24" productionCostCash="400" productionCostGold="0" gender="2" />
-<wod id="1363" n="Basic" g="Clothes" t="Omelettedressfemale" cash="100" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="4" level="1" incomePerUnit="100" production="5" duration="2" productSubType="22" productionCostCash="400" productionCostGold="0" gender="1" />
+<wod id="1362" n="Basic" g="Clothes" t="Omelettesweatermale" cash="101" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="4" level="1" incomePerUnit="100" production="5" duration="2" productSubType="24" productionCostCash="400" productionCostGold="0" gender="2" />
+<wod id="1363" n="Basic" g="Clothes" t="Omelettedressfemale" cash="101" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="4" level="1" incomePerUnit="100" production="5" duration="2" productSubType="22" productionCostCash="400" productionCostGold="0" gender="1" />
 <wod id="1364" n="Basic" g="Clothes" t="Dancingchefdress" cash="300" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="680" level="2" incomePerUnit="2" production="900" duration="540" productSubType="22" productionCostCash="1224" productionCostGold="0" gender="1" />
 <wod id="1365" n="Basic" g="Clothes" t="Dancingchefsweater" cash="300" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="680" level="2" incomePerUnit="2" production="900" duration="540" productSubType="24" productionCostCash="1224" productionCostGold="0" gender="2" />
 <wod id="1501" n="Static" g="Background" t="Village" />
@@ -389,17 +389,17 @@
 <wod id="2027" n="Basic" g="Achievement" t="FinishedGoldCoops" achievementID="26" requirement="5" factor="5" />
 <wod id="2028" n="Basic" g="Achievement" t="Masteries" achievementID="27" requirement="6" factor="6" />
 <wod id="2029" n="Basic" g="Achievement" t="Masteriesgold" achievementID="28" requirement="2" factor="2" />
-<wod id="2101" n="Basic" g="Coop" t="1" maxMember="3" chips="250" xp="42" gold="1" duration="1320" clothes="1261+11#1252+15#1262+6#1249+3" minLevel="1" maxLevel="34" />
-<wod id="2102" n="Basic" g="Coop" t="9" maxMember="4" chips="250" xp="150" gold="1" duration="2040" clothes="1263+14#1204+8#1280+13#1235+12" minLevel="19" maxLevel="999" />
-<wod id="2103" n="Basic" g="Coop" t="10" maxMember="4" chips="250" xp="459" gold="1" duration="6240" clothes="1247+22#1282+15#1204+22#1256+25" minLevel="22" maxLevel="999" />
-<wod id="2104" n="Basic" g="Coop" t="3" maxMember="4" chips="250" xp="115" gold="1" duration="3240" clothes="1233+20#1253+18#1245+8#1232+16" minLevel="2" maxLevel="64" />
-<wod id="2105" n="Basic" g="Coop" t="7" maxMember="3" chips="250" xp="208" gold="1" duration="3240" clothes="1257+15#1258+14#1283+20" minLevel="11" maxLevel="94" />
-<wod id="2106" n="Basic" g="Coop" t="6" maxMember="4" chips="250" xp="98" gold="1" duration="1560" clothes="1281+25#1284+7#1280+30#1283+25" minLevel="10" maxLevel="999" />
-<wod id="2107" n="Basic" g="Coop" t="5" maxMember="3" chips="250" xp="113" gold="1" duration="2040" clothes="1247+10#1281+23#1208+22" minLevel="9" maxLevel="70" />
-<wod id="2108" n="Basic" g="Coop" t="8" maxMember="4" chips="250" xp="219" gold="1" duration="3240" clothes="1257+21#1258+8#1263+22#1231+15#1256+20" minLevel="11" maxLevel="999" />
-<wod id="2109" n="Basic" g="Coop" t="2" maxMember="5" chips="250" xp="78" gold="1" duration="1560" clothes="1249+6#1252+30#1255+19#1248+21#1261+25" minLevel="1" maxLevel="88" />
-<wod id="2110" n="Basic" g="Coop" t="4" maxMember="5" chips="250" xp="127" gold="1" duration="2040" clothes="1205+30#1203+15#1207+17#1202+8#1208+23" minLevel="6" maxLevel="999" />
-<wod id="2111" n="Basic" g="Coop" t="11" maxMember="4" chips="250" xp="193" gold="1" duration="2520" clothes="1232+25#1281+30#1202+8#1234+25" minLevel="5" maxLevel="76" />
+<wod id="2101" n="Basic" g="Coop" t="1" maxMember="5" chips="1167" xp="31" gold="2" duration="2640" clothes="1261+11#1252+15#1262+6#1249+3" minLevel="1" maxLevel="999" />
+<wod id="2102" n="Basic" g="Coop" t="9" maxMember="5" chips="6379" xp="249" gold="4" duration="4080" clothes="1263+14#1204+8#1280+13#1235+12" minLevel="19" maxLevel="999" />
+<wod id="2103" n="Basic" g="Coop" t="10" maxMember="5" chips="17198" xp="612" gold="10" duration="12480" clothes="1247+22#1282+15#1204+22#1256+25" minLevel="22" maxLevel="999" />
+<wod id="2104" n="Basic" g="Coop" t="3" maxMember="5" chips="4570" xp="139" gold="9" duration="6480" clothes="1233+20#1253+18#1245+8#1232+16" minLevel="2" maxLevel="999" />
+<wod id="2105" n="Basic" g="Coop" t="7" maxMember="5" chips="5617" xp="225" gold="7" duration="6480" clothes="1257+15#1258+14#1283+20" minLevel="11" maxLevel="999" />
+<wod id="2106" n="Basic" g="Coop" t="6" maxMember="5" chips="6146" xp="196" gold="4" duration="3120" clothes="1281+25#1284+7#1280+30#1283+25" minLevel="10" maxLevel="999" />
+<wod id="2107" n="Basic" g="Coop" t="5" maxMember="5" chips="4155" xp="127" gold="3" duration="4080" clothes="1247+10#1281+23#1208+22" minLevel="9" maxLevel="999" />
+<wod id="2108" n="Basic" g="Coop" t="8" maxMember="5" chips="9677" xp="385" gold="8" duration="6480" clothes="1257+21#1258+8#1263+22#1231+15#1256+20" minLevel="11" maxLevel="999" />
+<wod id="2109" n="Basic" g="Coop" t="2" maxMember="5" chips="3890" xp="99" gold="5" duration="3120" clothes="1249+6#1252+30#1255+19#1248+21#1261+25" minLevel="1" maxLevel="999" />
+<wod id="2110" n="Basic" g="Coop" t="4" maxMember="5" chips="8041" xp="247" gold="8" duration="4080" clothes="1205+30#1203+15#1207+17#1202+8#1208+23" minLevel="6" maxLevel="999" />
+<wod id="2111" n="Basic" g="Coop" t="11" maxMember="5" chips="6076" xp="168" gold="6" duration="5040" clothes="1232+25#1281+30#1202+8#1234+25" minLevel="5" maxLevel="999" />
 <wod id="2200" n="Basic" g="Advertisement" t="Flyer" runtime="900" costChips="7500" costGold="0" minLevel="5" ratingBonus="400" sellFactor="1" xpFactor="0" />
 <wod id="2201" n="Basic" g="Advertisement" t="Magazine" runtime="3600" costChips="10000" costGold="1" minLevel="5" ratingBonus="0" sellFactor="2" xpFactor="0" />
 <wod id="2202" n="Basic" g="Advertisement" t="Tv" runtime="1800" costChips="0" costGold="5" minLevel="5" ratingBonus="0" sellFactor="1" xpFactor="1" />
