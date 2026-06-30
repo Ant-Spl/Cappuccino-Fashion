@@ -37,7 +37,7 @@ let state = readState();
 function readState(){
   const defaults = {
     route: "home",
-    theme: localStorage.getItem("fashiondex.theme") || "light",
+    theme: localStorage.getItem("fashiondex.theme") || "dark",
     fullSearch: "", fullFamily: "all", fullGender: "all", fullSort: "levelAsc", fullLevel: "",
     mySearch: "", myFamily: "all", myGender: "all", mySort: "profitPerMinDesc",
     labelSearch: "", labelFamily: "all", labelSort: "nextAsc",
@@ -73,8 +73,9 @@ function setTheme(theme){
   state.theme = theme;
   localStorage.setItem("fashiondex.theme", theme);
   document.body.classList.toggle("dark", theme === "dark");
+  document.body.classList.toggle("dark-theme", theme === "dark");
   const b = document.getElementById("themeToggle");
-  if (b) b.textContent = theme === "dark" ? "Light" : "Dark";
+  if (b) b.textContent = theme === "dark" ? "Light Theme" : "Dark Theme";
 }
 
 async function boot(){
@@ -351,40 +352,74 @@ function renderLoadError(err){
   app.innerHTML = `<section class="card error-box"><h1>FashionDex could not load the repo data.</h1><p>${escapeHtml(err.message)}</p><p>For GitHub Pages with FashionDex inside <code>/fashiondex/</code>, the app should load these repo-root files through parent-folder paths:</p><ul><li><code>../FashionItems.xml</code></li><li><code>../FashionLevelXp.xml</code></li><li><code>../langs/Fashion_en.xml</code></li><li><code>../clothingicons/...</code> for images</li></ul><p class="small muted">Opening this by double-clicking <code>index.html</code> can fail because browsers block <code>fetch()</code> from local files. Use GitHub Pages or a local server.</p></section>`;
 }
 function sectionHeader(title, desc=""){
-  return `<div class="row between" style="margin-bottom:18px"><div><button class="secondary" data-route="home">← Home</button><h2 style="margin-top:14px">${title}</h2>${desc?`<p>${desc}</p>`:""}</div></div>`;
+  return `<header class="sub-hero">
+    <button class="back-button" type="button" data-route="home">← Home</button>
+    <div class="title-row compact-title-row">
+      <div class="fashion-logo small-logo">✂️</div>
+      <div>
+        <p class="eyebrow">FashionDex</p>
+        <h1>${escapeHtml(title)}</h1>
+        ${desc ? `<p class="subtitle">${escapeHtml(desc)}</p>` : ""}
+      </div>
+    </div>
+  </header>`;
 }
 function renderHome(){
   const s = DATA.stats;
   const limit = currentLevelLimit();
-  return `<section class="hero">
-    <div class="hero-card">
-      <div class="eyebrow">Goodgame Fashion helper</div>
-      <h1>FashionDex</h1>
-      <p>Plan patterns, production time, Co-Ops, profile limits, and Labels using the XML files from this GitHub Pages repository.</p>
-      <p class="small muted">Loaded from <code>${escapeHtml(loadInfo.items)}</code>, <code>${escapeHtml(loadInfo.levels)}</code>, and <code>${escapeHtml(loadInfo.lang)}</code>. No private Python scripts are required.</p>
-      <div class="mode-grid">
-        ${routeCard("mydex","🧵","MyDex","Your unlocked patterns and best options.")}
-        ${routeCard("full","📚","Full FashionDex","All clothing products from FashionItems.xml.")}
-        ${routeCard("time","⏱️","My Time","What to make with your available workers/time.")}
-        ${routeCard("coop","🤝","Co-Op Planner","Clothing requirements, runs, and team time.")}
-        ${routeCard("profile","👤","My Profile","Level, worker count, and local settings.")}
-        ${routeCard("labels","🏷️","My Labels","Track label progress per outfit.")}
+  return `<section class="welcome-screen">
+    <header class="hero welcome-hero">
+      <div class="title-block">
+        <div class="title-row">
+          <div class="fashion-logo title-logo">✂️</div>
+          <div>
+            <p class="eyebrow">Cappuccino Fashion</p>
+            <h1>FashionDex</h1>
+          </div>
+        </div>
+        <p class="subtitle">Access information about every outfit, label, worker plan, and Fashion Co-Op.</p>
       </div>
-    </div>
-    <aside class="card">
-      <div class="eyebrow">Loaded data</div>
-      <h2>Your Fashion repo</h2>
+      <div class="status-card">
+        <span>Fashion data loaded!</span>
+        <small>${s.clothesCount} outfits · ${s.coopCount} Co-Ops · ${s.levelCount} levels</small>
+      </div>
+    </header>
+
+    <section class="panel welcome-panel">
+      <div class="theme-toggle-row">
+        <div>
+          <h2>Choose a mode</h2>
+          <p class="section-note">Select how you want to use FashionDex.</p>
+        </div>
+        <div class="home-controls">
+          <span class="tag">Level ${profileLevel()}</span>
+          <span class="tag">${workerCount()} workers/factories</span>
+          ${limit ? `<span class="tag">${limit.counters} shelves</span><span class="tag">${limit.mannequins} mannequins</span>` : ""}
+        </div>
+      </div>
+      <div class="mode-grid six-mode-grid">
+        ${routeCard("mydex","🧵","MyDex","Your available patterns and best clothing recommendations.")}
+        ${routeCard("full","📚","Full FashionDex","The complete catalog from FashionItems.xml.")}
+        ${routeCard("time","⏱️","My Time","Plan production based on workers and available time.")}
+        ${routeCard("coop","🤝","Co-Op Planner","Browse Co-Ops and estimate factory workload.")}
+        ${routeCard("profile","👤","My Profile","Save level, workers, and planner preferences.")}
+        ${routeCard("labels","🏷️","My Labels","Track outfit label progress and bonuses.")}
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Repo data</h2>
+      <p class="section-note">Loaded from <code>${escapeHtml(loadInfo.items)}</code>, <code>${escapeHtml(loadInfo.levels)}</code>, and <code>${escapeHtml(loadInfo.lang)}</code>. No private Python scripts are needed.</p>
       <div class="stat-grid">
         <div class="stat"><strong>${s.clothesCount}</strong><span>clothing products</span></div>
         <div class="stat"><strong>${s.coopCount}</strong><span>Co-Ops</span></div>
         <div class="stat"><strong>${s.levelCount}</strong><span>level rows</span></div>
         <div class="stat"><strong>${s.maxLevel}</strong><span>max level</span></div>
       </div>
-      <div class="ok-box" style="margin-top:16px"><strong>Current profile</strong><p>Level ${profileLevel()} · ${workerCount()} workers/factories${limit ? ` · ${limit.counters} shelves/counters · ${limit.mannequins} mannequins` : ""}</p></div>
-    </aside>
+    </section>
   </section>`;
 }
-function routeCard(route, icon, title, desc){ return `<button class="mode-card" data-route="${route}"><span class="icon">${icon}</span><h3>${title}</h3><p>${desc}</p></button>`; }
+function routeCard(route, icon, title, desc){ return `<button class="mode-card" type="button" data-route="${route}"><span class="icon">${icon}</span><span class="mode-title">${title}</span><span class="mode-description">${desc}</span></button>`; }
 
 function renderFullDex(){
   let items = DATA.clothes.map(i => adjusted(i, false));

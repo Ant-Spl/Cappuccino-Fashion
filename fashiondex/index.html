@@ -1,14 +1,18 @@
-<!doctype html>
+<!-- FashionDex/index.html - GitHub Pages static build -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>FashionDex</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cappuccino Fashion FashionDex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=20260630-dishdex-style-v1">
 </head>
-<body>
-  <div class="app-shell">
-    <header class="topbar">
+<body class="dark-theme">
+  <main class="page app-shell">
+    <header class="topbar panel chrome-panel">
       <button class="brand" data-route="home" aria-label="FashionDex Home">
         <span class="brand-mark">✂️</span>
         <span><strong>FashionDex</strong><small>Goodgame Fashion helper</small></span>
@@ -21,19 +25,20 @@
         <button data-route="profile">My Profile</button>
         <button data-route="labels">My Labels</button>
       </nav>
-      <div class="toolbar">
-        <button id="refreshData" class="ghost" title="Reload XML data">Reload</button>
-        <button id="themeToggle" class="ghost">Dark</button>
+      <div class="toolbar home-controls">
+        <button id="refreshData" class="action-button" title="Reload XML data">Reload</button>
+        <button id="themeToggle" class="action-button">Dark Theme</button>
       </div>
     </header>
+
     <main id="app" class="view">
-      <section class="card loading-card">
+      <section class="panel loading-card">
         <div class="spinner" aria-hidden="true"></div>
         <h1>Loading FashionDex…</h1>
         <p>Reading <code>FashionItems.xml</code>, <code>FashionLevelXp.xml</code>, and <code>langs/Fashion_en.xml</code> from this GitHub Pages repo.</p>
       </section>
     </main>
-  </div>
-  <script src="app.js"></script>
+  </main>
+  <script src="app.js?v=20260630-dishdex-style-v1"></script>
 </body>
 </html>
