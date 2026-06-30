@@ -660,10 +660,9 @@ function renderFullDex() {
       <td>${escapeHtml(i.category)}</td>
       <td>${i.genderName}</td>
       <td>${price(i.patternCash, i.patternGold)}</td>
-      <td>${productionCost(i)}</td>
-      <td>${money(i.adjRevenue)}</td>
+      <td>${costRevenueStack(i)}</td>
     </tr>
-  `).join('') : emptyRow(12, 'No outfits match this search.');
+  `).join('') : emptyRow(11, 'No outfits match this search.');
 }
 
 function renderTime() {
@@ -832,6 +831,7 @@ function stat(label, value) { return `<div class="stat"><strong>${escapeHtml(val
 function metric(label, value, note='') { return `<div class="metric"><strong>${value}</strong><span>${escapeHtml(label)}</span>${note ? `<small>${escapeHtml(note)}</small>` : ''}</div>`; }
 function price(cash, gold) { return `${cash ? money(cash) : ''}${cash && gold ? ' + ' : ''}${gold ? goldValue(gold) : cash ? '' : 'Free'}`; }
 function productionCost(i) { return `${money(i.productionCostCash || 0)}${i.productionCostGold ? ` + ${goldValue(i.productionCostGold)}` : ''}`; }
+function costRevenueStack(i) { return `<div class="metric-stack cost-revenue-stack"><span>${productionCost(i)}</span><small>${money(i.adjRevenue)}</small></div>`; }
 function familyClass(family) { return family === 'Shoes' ? 'soup' : family === 'Accessories' ? 'salad' : 'main'; }
 function timeBucket(minutes) { if (minutes <= 10) return 'active'; if (minutes <= 60) return 'fast'; if (minutes <= 180) return 'short'; if (minutes <= 360) return 'medium'; if (minutes <= 720) return 'long'; if (minutes <= 1380) return 'veryLong'; return 'dayOff'; }
 function fmt(n) { return Math.round(Number(n || 0)).toLocaleString(); }
