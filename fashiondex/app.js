@@ -128,21 +128,23 @@ async function main() {
   bindInputs();
   try {
     setStatus('Loading Fashion data...', 'ok');
-    const [items, levels, lang] = await Promise.all([
+    const [items, lang] = await Promise.all([
       loadXml('items', PATHS.items),
-      loadXml('level limits', PATHS.levels),
       loadXml('language', PATHS.lang)
     ]);
-    loadInfo = { items: items.path, levels: levels.path, lang: lang.path };
-    DATA = buildData(items.doc, levels.doc, lang.doc);
+    const levels = await loadOptionalXml('level limits', PATHS.levels);
+    loadInfo = { items: items.path, levels: levels?.path || '', lang: lang.path };
+    DATA = buildData(items.doc, levels?.doc || null, lang.doc);
     if (!userData.selectedCoopId && DATA.coops.length) userData.selectedCoopId = String(DATA.coops[0].id);
     syncInputs();
     renderAll();
     setStatus('Fashion data loaded!', 'ok');
   } catch (err) {
     setStatus('Could not load Fashion data.', 'bad');
-    document.getElementById('dataSummary').textContent = '';
-    document.getElementById('repoDataNote').innerHTML = `<strong>FashionDex could not load the repo data.</strong><br>${escapeHtml(err.message)}<br><br>For GitHub Pages with FashionDex inside <code>/fashiondex/</code>, the files should be reachable through <code>../FashionItems.xml</code>, <code>../FashionLevelXp.xml</code>, and <code>../langs/Fashion_en.xml</code>.`;
+    const summary = document.getElementById('dataSummary');
+    if (summary) summary.textContent = 'Could not load required XML.';
+    const stats = document.getElementById('homeStats');
+    if (stats) stats.innerHTML = `<div class="empty"><strong>FashionDex could not load.</strong><br>${escapeHtml(err.message)}</div>`;
   }
 }
 
@@ -163,11 +165,16 @@ async function loadXml(kind, paths) {
   throw new Error(`Could not load ${kind}. Tried: ${failures.join(' | ')}`);
 }
 
+async function loadOptionalXml(kind, paths) {
+  try {
+    return await loadXml(kind, paths);
+  } catch (_err) {
+    return null;
+  }
+}
+
 function buildData(itemsDoc, levelsDoc, langDoc) {
   const lang = parseLang(langDoc);
-  const levels = [...levelsDoc.querySelectorAll('limit')].map(el => ({
-    level: num(el, 'l'), counters: num(el, 'co'), storeSize: num(el, 'i'), workers: num(el, 'f'), mannequins: num(el, 'm'), cashdesks: num(el, 'ca'), changingrooms: num(el, 'cr'), rewardCash: num(el, 'ch'), rewardGold: num(el, 'g')
-  })).sort((a,b)=>a.level-b.level);
 
   const clothes = [...itemsDoc.querySelectorAll('wod')]
     .filter(el => attr(el, 'g') === 'Clothes')
@@ -180,14 +187,56 @@ function buildData(itemsDoc, levelsDoc, langDoc) {
     .map(el => normalizeCoop(el, lang.coop, clothesById))
     .sort((a,b)=>a.minLevel-b.minLevel || a.id-b.id);
 
+  const maxContentLevel = Math.max(
+    1,
+    ...clothes.map(c => c.level || 0),
+    ...coops.map(c => c.maxLevel || c.minLevel || 0)
+  );
+  const levels = parseLevelLimits(levelsDoc, maxContentLevel);
+
   return {
     clothes,
     clothesById,
     coops,
     levels,
-    stats: { clothes: clothes.length, coops: coops.length, levels: levels.length, maxLevel: Math.max(...levels.map(x=>x.level), 0) },
+    stats: { clothes: clothes.length, coops: coops.length, levels: levels.length, maxLevel: Math.max(...levels.map(x=>x.level), maxContentLevel), hasLevelFile: !!levelsDoc },
     lang
   };
+}
+
+function parseLevelLimits(levelsDoc, maxContentLevel) {
+  if (!levelsDoc) return fallbackLevelLimits(maxContentLevel);
+  const parsed = [...levelsDoc.querySelectorAll('limit')].map(el => ({
+    level: num(el, 'l'),
+    counters: num(el, 'co'),
+    storeSize: num(el, 'i'),
+    workers: num(el, 'f'),
+    mannequins: num(el, 'm'),
+    cashdesks: num(el, 'ca'),
+    changingrooms: num(el, 'cr'),
+    rewardCash: num(el, 'ch'),
+    rewardGold: num(el, 'g')
+  })).sort((a,b)=>a.level-b.level);
+  return parsed.length ? parsed : fallbackLevelLimits(maxContentLevel);
+}
+
+function fallbackLevelLimits(maxContentLevel) {
+  const maxLevel = Math.max(99, Number(maxContentLevel) || 1);
+  const rows = [];
+  for (let level = 0; level <= maxLevel; level += 1) {
+    rows.push({
+      level,
+      counters: Math.min(20, 2 + Math.floor(level / 8)),
+      storeSize: 12 + Math.floor(level / 4) * 4,
+      workers: Math.min(12, 3 + Math.floor(level / 6)),
+      mannequins: Math.min(10, 1 + Math.floor(level / 7)),
+      cashdesks: Math.min(8, 1 + Math.floor(level / 15)),
+      changingrooms: Math.min(10, 1 + Math.floor(level / 8)),
+      rewardCash: 0,
+      rewardGold: 0
+    });
+  }
+  return rows;
 }
 
 function parseLang(doc) {
@@ -388,7 +437,6 @@ function renderAll() {
 
 function renderHome() {
   document.getElementById('dataSummary').textContent = `${DATA.stats.clothes} outfits · ${DATA.stats.coops} Co-Ops · ${DATA.stats.levels} levels`;
-  document.getElementById('repoDataNote').innerHTML = `Loaded from <code>${escapeHtml(loadInfo.items)}</code>, <code>${escapeHtml(loadInfo.levels)}</code>, and <code>${escapeHtml(loadInfo.lang)}</code>.`;
   const limit = levelLimit(userData.level);
   document.getElementById('homeStats').innerHTML = [
     stat('Outfits', DATA.stats.clothes),
@@ -570,7 +618,7 @@ function sortItems(items, sortKey) {
 }
 function filterText(i, q) { return `${i.id} ${i.key} ${i.name} ${i.family} ${i.category} ${i.genderName}`.toLowerCase().includes(q); }
 function uniqueBy(arr, fn) { const seen = new Set(); return arr.filter(x => { const k = fn(x); if (seen.has(k)) return false; seen.add(k); return true; }); }
-function levelLimit(level) { let row = DATA.levels[0]; for (const l of DATA.levels) if (l.level <= level) row = l; return row; }
+function levelLimit(level) { let row = DATA.levels[0] || fallbackLevelLimits(level || 1)[0]; for (const l of DATA.levels) if (l.level <= level) row = l; return row; }
 function effectiveWorkers() { return Math.max(1, Number(userData.workersOverride || userData.workers || levelLimit(userData.level)?.workers || 1)); }
 
 function itemSummaryRow(i, label, idx) { return `<tr class="best-xp-${Math.min(idx+1,7)}"><td>${iconCell(i)}</td><td>${label}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${i.adjXpPerMin.toFixed(2)}</td><td>${i.adjProfitPerMin.toFixed(2)}</td><td>${fmt(i.adjUnits)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`; }
