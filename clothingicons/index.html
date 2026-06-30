@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FashionDex</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" data-route="home" aria-label="FashionDex Home">
+        <span class="brand-mark">✂️</span>
+        <span><strong>FashionDex</strong><small>Goodgame Fashion helper</small></span>
+      </button>
+      <nav class="topnav" aria-label="Main navigation">
+        <button data-route="mydex">MyDex</button>
+        <button data-route="full">Full FashionDex</button>
+        <button data-route="time">My Time</button>
+        <button data-route="coop">Co-Op Planner</button>
+        <button data-route="profile">My Profile</button>
+        <button data-route="labels">My Labels</button>
+      </nav>
+      <div class="toolbar">
+        <button id="refreshData" class="ghost" title="Reload XML data">Reload</button>
+        <button id="themeToggle" class="ghost">Dark</button>
+      </div>
+    </header>
+    <main id="app" class="view">
+      <section class="card loading-card">
+        <div class="spinner" aria-hidden="true"></div>
+        <h1>Loading FashionDex…</h1>
+        <p>Reading <code>FashionItems.xml</code>, <code>FashionLevelXp.xml</code>, and <code>langs/Fashion_en.xml</code> from this GitHub Pages repo.</p>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
