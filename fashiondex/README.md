@@ -1,26 +1,24 @@
 # FashionDex
 
-GitHub Pages build for Cappuccino Fashion.
+Static GitHub Pages version for the `fashiondex/` folder.
 
-Expected repository layout:
+Expected public repo paths:
 
-```text
-/FashionItems.xml
-/FashionLevelXp.xml
-/langs/Fashion_en.xml
-/clothingicons/...
-/fashiondex/index.html
-/fashiondex/app.js
-/fashiondex/style.css
-```
+- `../FashionItems.xml`
+- `../FashionLevelXp.xml`
+- `../langs/Fashion_en.xml`
+- `../clothingicons/` for outfit images
 
-Replace the files in `/fashiondex/` with this package and open:
+Expected FashionDex UI icon files in the same `fashiondex/` folder:
 
-```text
-https://ant-spl.github.io/Cappuccino-Fashion/fashiondex/
-```
+- `mydex.png`
+- `coopplanner.png`
+- `fulldex.png`
+- `mylabels.png`
+- `mytime.png`
+- `myprofile.png`
+- `xp.png`
+- `fashiondollars.png`
+- `goldbuttons.png`
 
-
-## v5 fix
-
-Wraps app.js in a private scope so browser globals such as `window.top` cannot collide with internal helper names.
+Custom clothing bases with `n="Custom"` are hidden from all FashionDex views.

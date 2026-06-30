@@ -1,4 +1,4 @@
-/* FashionDex/app.js - DishDex-style static GitHub Pages build v5 */
+/* FashionDex/app.js - DishDex-style static GitHub Pages build v6 */
 (() => {
 'use strict';
 
@@ -213,8 +213,8 @@ async function loadXml(kind, paths, options = {}) {
 }
 
 function validateItemsXml(doc) {
-  const count = doc.querySelectorAll('wod[g="Clothes"]').length;
-  if (!count) throw new Error('loaded, but no Clothes entries were found');
+  const count = [...doc.querySelectorAll('wod')].filter(el => attr(el, 'g') === 'Clothes' && attr(el, 'n') !== 'Custom').length;
+  if (!count) throw new Error('loaded, but no usable non-custom Clothes entries were found');
 }
 
 function validateFashionLangXml(doc) {
@@ -229,7 +229,7 @@ function buildData(itemsDoc, levelsDoc, langDoc) {
   const lang = langDoc ? parseLang(langDoc) : { cloth: {}, coop: { titles: {}, descs: {} } };
 
   const clothes = [...itemsDoc.querySelectorAll('wod')]
-    .filter(el => attr(el, 'g') === 'Clothes')
+    .filter(el => attr(el, 'g') === 'Clothes' && attr(el, 'n') !== 'Custom')
     .map(el => normalizeCloth(el, lang.cloth))
     .sort((a,b)=>a.level-b.level || a.id-b.id);
   const clothesById = new Map(clothes.map(c => [c.id, c]));
@@ -531,7 +531,7 @@ function renderXpPlans(items) {
     const batches = Math.ceil(needed / item.adjXp);
     const total = batches * item.duration;
     const wall = total / Math.max(1, effectiveWorkers());
-    return `<tr class="row-${timeBucket(item.duration)}"><td>${iconCell(item)}</td><td>${idx === 0 ? 'Fastest XP plan' : `Plan ${idx+1}`}</td><td class="dish-name">${escapeHtml(item.name)}</td><td>${fmt(item.adjXp)}</td><td>${timeFmt(item.duration)}</td><td>${fmt(batches)}</td><td>${timeFmt(total)}</td><td>${effectiveWorkers()}</td><td>${timeFmt(wall)}</td></tr>`;
+    return `<tr class="row-${timeBucket(item.duration)}"><td>${iconCell(item)}</td><td>${idx === 0 ? 'Fastest XP plan' : `Plan ${idx+1}`}</td><td class="dish-name">${escapeHtml(item.name)}</td><td>${xpValue(item.adjXp)}</td><td>${timeFmt(item.duration)}</td><td>${fmt(batches)}</td><td>${timeFmt(total)}</td><td>${effectiveWorkers()}</td><td>${timeFmt(wall)}</td></tr>`;
   });
   return rows.length ? rows.join('') : emptyRow(9, 'No outfit matches this plan.');
 }
@@ -543,7 +543,7 @@ function renderFullDex() {
   if (userData.fullFamily !== 'all') items = items.filter(i => i.family === userData.fullFamily);
   if (userData.fullGender !== 'all') items = items.filter(i => String(i.gender) === userData.fullGender);
   items = sortItems(items, userData.fullSort);
-  document.getElementById('fullDexBody').innerHTML = items.length ? items.map(i => `<tr class="category-${familyClass(i.family)}"><td>${iconCell(i)}</td><td class="dish-name">${escapeHtml(i.name)}<div class="dish-type-tag">${escapeHtml(i.key)}</div></td><td>${i.id}</td><td>${i.level}</td><td>${escapeHtml(i.category)}</td><td>${i.genderName}</td><td>${fmt(i.xp)}</td><td>${money(i.profit)}</td><td>${fmt(i.production)}</td><td>${timeFmt(i.duration)}</td><td>${price(i.patternCash, i.patternGold)}</td><td>${productionCost(i)}</td><td>${money(i.revenue)}</td></tr>`).join('') : emptyRow(13, 'No outfits match this search.');
+  document.getElementById('fullDexBody').innerHTML = items.length ? items.map(i => `<tr class="category-${familyClass(i.family)}"><td>${iconCell(i)}</td><td class="dish-name">${escapeHtml(i.name)}<div class="dish-type-tag">${escapeHtml(i.key)}</div></td><td>${i.id}</td><td>${i.level}</td><td>${escapeHtml(i.category)}</td><td>${i.genderName}</td><td>${xpValue(i.xp)}</td><td>${money(i.profit)}</td><td>${fmt(i.production)}</td><td>${timeFmt(i.duration)}</td><td>${price(i.patternCash, i.patternGold)}</td><td>${productionCost(i)}</td><td>${money(i.revenue)}</td></tr>`).join('') : emptyRow(13, 'No outfits match this search.');
 }
 
 function renderTime() {
@@ -555,7 +555,7 @@ function renderTime() {
   let items = availableItems(true).filter(i => i.duration >= min && i.duration <= max);
   items = top(items, metric, 20);
   document.getElementById('timeWindowLabel').textContent = target > 0 ? `Showing outfits from ${timeFmt(min)} to ${timeFmt(max)}, sorted by ${userData.timeObjective}.` : 'Set a target time above 0.';
-  document.getElementById('timeMatchesBody').innerHTML = items.length ? items.map(i => `<tr class="row-${timeBucket(i.duration)}"><td>${iconCell(i)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${timeFmt(i.duration)}</td><td>${fmt(i.adjXp)}</td><td>${money(i.adjProfit)}</td><td>${fmt(i.adjUnits)}</td><td>${escapeHtml(i.category)}</td></tr>`).join('') : emptyRow(8, 'No outfits match this time window. Try increasing the margin.');
+  document.getElementById('timeMatchesBody').innerHTML = items.length ? items.map(i => `<tr class="row-${timeBucket(i.duration)}"><td>${iconCell(i)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${timeFmt(i.duration)}</td><td>${xpValue(i.adjXp)}</td><td>${money(i.adjProfit)}</td><td>${fmt(i.adjUnits)}</td><td>${escapeHtml(i.category)}</td></tr>`).join('') : emptyRow(8, 'No outfits match this time window. Try increasing the margin.');
 }
 
 function renderCoops() {
@@ -574,19 +574,19 @@ function renderCoops() {
   }
   const selected = DATA.coops.find(c => String(c.id) === String(userData.selectedCoopId)) || DATA.coops[0];
   document.getElementById('selectedCoopPlan').innerHTML = selected ? coopPlanCard(selected) : '<div class="empty">No Co-Op selected.</div>';
-  document.getElementById('coopListBody').innerHTML = coops.length ? coops.map(c => `<tr><td class="dish-name">${escapeHtml(c.title)}<div class="dish-type-tag">${escapeHtml(c.description)}</div></td><td>${c.minLevel}-${c.maxLevel || 999}</td><td>${c.maxMember}</td><td>${timeFmt(c.duration)}</td><td>${hours(c.factoryHours)}</td><td>${money(c.chips)} · ${fmt(c.xp)} XP · ${c.gold} Gold</td><td class="requirements-cell">${c.requirements.map(r => `${escapeHtml(r.name)} × ${fmt(r.amount)}`).join('<br>')}</td></tr>`).join('') : emptyRow(7, 'No Co-Ops available.');
+  document.getElementById('coopListBody').innerHTML = coops.length ? coops.map(c => `<tr><td class="dish-name">${escapeHtml(c.title)}<div class="dish-type-tag">${escapeHtml(c.description)}</div></td><td>${c.minLevel}-${c.maxLevel || 999}</td><td>${c.maxMember}</td><td>${timeFmt(c.duration)}</td><td>${hours(c.factoryHours)}</td><td>${money(c.chips)} · ${xpValue(c.xp)} · ${goldValue(c.gold)}</td><td class="requirements-cell">${c.requirements.map(r => `${escapeHtml(r.name)} × ${fmt(r.amount)}`).join('<br>')}</td></tr>`).join('') : emptyRow(7, 'No Co-Ops available.');
 }
 
 function coopPlanCard(c) {
   const workers = Math.max(1, Number(userData.coopWorkers || effectiveWorkers()));
   const wall = c.factoryMinutes / workers;
   const reqRows = c.requirements.map(r => `<tr><td>${r.missing ? '' : iconCell(DATA.clothesById.get(r.clothId) || {})}</td><td class="dish-name">${escapeHtml(r.name)}</td><td>${fmt(r.amount)}</td><td>${r.batches}</td><td>${timeFmt(r.minutes)}</td><td>${r.level}</td></tr>`).join('');
-  return `<div class="coop-selected-card"><h3>${escapeHtml(c.title)}</h3><p class="section-note">${escapeHtml(c.description || 'No description.')}</p><div class="mini-grid">${metric('Time limit', timeFmt(c.duration), 'Co-Op duration')}${metric('Factory-hours', hours(c.factoryHours), 'Total production work')}${metric('With team workers', timeFmt(wall), `${workers} workers`)}${metric('Rewards', `${money(c.chips)} · ${fmt(c.xp)} XP · ${c.gold} Gold`, 'Base reward')}</div><div class="table-wrap"><table><thead><tr><th>Image</th><th>Required outfit</th><th>Required units</th><th>Batches</th><th>Factory time</th><th>Level</th></tr></thead><tbody>${reqRows || emptyRow(6, 'No requirements listed.')}</tbody></table></div></div>`;
+  return `<div class="coop-selected-card"><h3>${escapeHtml(c.title)}</h3><p class="section-note">${escapeHtml(c.description || 'No description.')}</p><div class="mini-grid">${metric('Time limit', timeFmt(c.duration), 'Co-Op duration')}${metric('Factory-hours', hours(c.factoryHours), 'Total production work')}${metric('With team workers', timeFmt(wall), `${workers} workers`)}${metric('Rewards', `${money(c.chips)} · ${xpValue(c.xp)} · ${goldValue(c.gold)}`, 'Base reward')}</div><div class="table-wrap"><table><thead><tr><th>Image</th><th>Required outfit</th><th>Required units</th><th>Batches</th><th>Factory time</th><th>Level</th></tr></thead><tbody>${reqRows || emptyRow(6, 'No requirements listed.')}</tbody></table></div></div>`;
 }
 
 function renderProfile() {
   const l = levelLimit(userData.level);
-  document.getElementById('profileLevelInfo').innerHTML = l ? `<div class="ok-box"><h3>Level ${l.level} limits/rewards</h3><div class="mini-grid">${metric('Workers / factories', l.workers, 'f')}${metric('Shelves / counters', l.counters, 'co')}${metric('Mannequins', l.mannequins, 'm')}${metric('Cash desks', l.cashdesks, 'ca')}${metric('Dressing rooms', l.changingrooms, 'cr')}${metric('Store size / i', l.storeSize, 'i')}${metric('Cash reward', money(l.rewardCash), 'ch')}${metric('Gold reward', `${l.rewardGold} Gold`, 'g')}</div></div>` : '<div class="empty">No level data found.</div>';
+  document.getElementById('profileLevelInfo').innerHTML = l ? `<div class="ok-box"><h3>Level ${l.level} limits/rewards</h3><div class="mini-grid">${metric('Workers / factories', l.workers, 'f')}${metric('Shelves / counters', l.counters, 'co')}${metric('Mannequins', l.mannequins, 'm')}${metric('Cash desks', l.cashdesks, 'ca')}${metric('Dressing rooms', l.changingrooms, 'cr')}${metric('Store size / i', l.storeSize, 'i')}${metric('Cash reward', money(l.rewardCash), 'ch')}${metric('Gold reward', goldValue(l.rewardGold), 'g')}</div></div>` : '<div class="empty">No level data found.</div>';
 }
 
 function renderLabels() {
@@ -667,7 +667,7 @@ function effectiveWorkers() { return Math.max(1, Number(userData.workersOverride
 
 function itemSummaryRow(i, label, idx) { return `<tr class="best-xp-${Math.min(idx+1,7)}"><td>${iconCell(i)}</td><td>${label}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${i.adjXpPerMin.toFixed(2)}</td><td>${i.adjProfitPerMin.toFixed(2)}</td><td>${fmt(i.adjUnits)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`; }
 function metricRow(i, label, metric, idx) {
-  if (metric === 'xp') return `<tr class="best-xp-${Math.min(idx+1,7)}"><td>${iconCell(i)}</td><td>${label}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${i.adjXpPerMin.toFixed(2)}</td><td>${fmt(i.adjXp)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
+  if (metric === 'xp') return `<tr class="best-xp-${Math.min(idx+1,7)}"><td>${iconCell(i)}</td><td>${label}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${i.adjXpPerMin.toFixed(2)}</td><td>${xpValue(i.adjXp)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
   if (metric === 'profit') return `<tr class="best-profit-${Math.min(idx+1,7)}"><td>${iconCell(i)}</td><td>${label}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${i.adjProfitPerMin.toFixed(2)}</td><td>${money(i.adjProfit)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
   return `<tr class="best-portions-${Math.min(idx+1,7)}"><td>${iconCell(i)}</td><td>${label}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${i.adjUnitsPerMin.toFixed(2)}</td><td>${fmt(i.adjUnits)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
 }
@@ -685,13 +685,17 @@ function iconCandidates(key) {
 }
 function emptyRow(cols, text) { return `<tr><td colspan="${cols}" class="empty">${escapeHtml(text)}</td></tr>`; }
 function stat(label, value) { return `<div class="stat"><strong>${escapeHtml(value)}</strong><span>${escapeHtml(label)}</span></div>`; }
-function metric(label, value, note='') { return `<div class="metric"><strong>${escapeHtml(value)}</strong><span>${escapeHtml(label)}</span>${note ? `<small>${escapeHtml(note)}</small>` : ''}</div>`; }
-function price(cash, gold) { return `${cash ? money(cash) : ''}${cash && gold ? ' + ' : ''}${gold ? `${gold} Gold` : cash ? '' : 'Free'}`; }
-function productionCost(i) { return `${i.productionCostCash ? money(i.productionCostCash) : '0 FD'}${i.productionCostGold ? ` + ${i.productionCostGold} Gold` : ''}`; }
+function metric(label, value, note='') { return `<div class="metric"><strong>${value}</strong><span>${escapeHtml(label)}</span>${note ? `<small>${escapeHtml(note)}</small>` : ''}</div>`; }
+function price(cash, gold) { return `${cash ? money(cash) : ''}${cash && gold ? ' + ' : ''}${gold ? goldValue(gold) : cash ? '' : 'Free'}`; }
+function productionCost(i) { return `${money(i.productionCostCash || 0)}${i.productionCostGold ? ` + ${goldValue(i.productionCostGold)}` : ''}`; }
 function familyClass(family) { return family === 'Shoes' ? 'soup' : family === 'Accessories' ? 'salad' : 'main'; }
 function timeBucket(minutes) { if (minutes <= 10) return 'active'; if (minutes <= 60) return 'fast'; if (minutes <= 180) return 'short'; if (minutes <= 360) return 'medium'; if (minutes <= 720) return 'long'; if (minutes <= 1380) return 'veryLong'; return 'dayOff'; }
 function fmt(n) { return Math.round(Number(n || 0)).toLocaleString(); }
-function money(n) { return `${fmt(n)} FD`; }
+function currencyIcon(file, alt, cls='tiny-stat-icon') { return `<img src="${file}" alt="${alt}" class="${cls}" onerror="this.style.display='none'">`; }
+function valueWithIcon(file, alt, value) { return `<span class="value-with-icon">${currencyIcon(file, alt)}<span>${escapeHtml(value)}</span></span>`; }
+function money(n) { return valueWithIcon('fashiondollars.png', 'Fashiondollars', fmt(n)); }
+function xpValue(n) { return valueWithIcon('xp.png', 'XP', fmt(n)); }
+function goldValue(n) { return valueWithIcon('goldbuttons.png', 'Gold Buttons', fmt(n)); }
 function hours(h) { return `${Number(h || 0).toFixed(1)}h`; }
 function timeFmt(minutes) { minutes = Math.round(Number(minutes || 0)); if (minutes < 60) return `${minutes} min`; const h = Math.floor(minutes / 60); const m = minutes % 60; return m ? `${h}h ${m}m` : `${h}h`; }
 function escapeHtml(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }

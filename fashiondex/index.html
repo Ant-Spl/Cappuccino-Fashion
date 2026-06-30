@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260630-dishdex-clone-v3">
+  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-icons-v6">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -16,7 +16,7 @@
       <header class="hero welcome-hero">
         <div class="title-block">
           <div class="title-row">
-            <div class="fashion-logo title-logo" aria-hidden="true">✂️</div>
+            <img src="fulldex.png" alt="FashionDex" class="title-logo" onerror="this.style.display='none'">
             <div>
               <p class="eyebrow">Cappuccino Fashion</p>
               <h1>FashionDex</h1>
@@ -46,37 +46,37 @@
 
         <div class="mode-grid six-mode-grid">
           <button id="openMyDex" class="mode-card" type="button">
-            <span class="mode-icon-emoji">🧵</span>
+            <img src="mydex.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title">MyDex</span>
             <span class="mode-description">Access your personal FashionDex based on your level, workers, labels, and available patterns.</span>
           </button>
 
           <button id="openFullFashionDex" class="mode-card" type="button">
-            <span class="mode-icon-emoji">📚</span>
+            <img src="fulldex.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title">Full FashionDex</span>
             <span class="mode-description">Access the complete clothing catalog with XP, profit, units, time, type, and unlocks.</span>
           </button>
 
           <button id="openMyTime" class="mode-card" type="button">
-            <span class="mode-icon-emoji">⏱️</span>
+            <img src="mytime.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title">My Time</span>
             <span class="mode-description">Plan outfits according to the time you have and your available workers.</span>
           </button>
 
           <button id="openCoopPlanner" class="mode-card" type="button">
-            <span class="mode-icon-emoji">🤝</span>
+            <img src="coopplanner.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title">Co-Op Planner</span>
             <span class="mode-description">Browse Co-Op missions and estimate clothing batches, factory-hours, and rewards.</span>
           </button>
 
           <button id="openProfile" class="mode-card" type="button">
-            <span class="mode-icon-emoji">👤</span>
+            <img src="myprofile.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title">My Profile</span>
             <span class="mode-description">Save your boutique name, level, workers, and pattern visibility settings.</span>
           </button>
 
           <button id="openLabels" class="mode-card" type="button">
-            <span class="mode-icon-emoji">🏷️</span>
+            <img src="mylabels.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title">My Labels</span>
             <span class="mode-description">Register your outfit Labels and apply their bonuses to MyDex.</span>
           </button>
@@ -88,7 +88,7 @@
       <header class="sub-hero">
         <button class="back-button" type="button" data-back>← Back</button>
         <div class="title-row compact-title-row">
-          <div class="fashion-logo small-logo" aria-hidden="true">🧵</div>
+          <img src="mydex.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'">
           <div>
             <p class="eyebrow">Personal recommendations</p>
             <h1>MyDex</h1>
@@ -110,7 +110,7 @@
 
       <section class="panel">
         <h2>Best of Summary</h2>
-        <div class="table-wrap"><table><thead><tr><th>Image</th><th>Recommendation</th><th>Outfit</th><th>Level</th><th>XP/min</th><th>Profit/min</th><th>Units</th><th>Duration</th><th>Type</th></tr></thead><tbody id="bestSummaryBody"></tbody></table></div>
+        <div class="table-wrap"><table><thead><tr><th>Image</th><th>Recommendation</th><th>Outfit</th><th>Level</th><th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"><small>/min</small></span></th><th><span class="icon-heading"><img src="fashiondollars.png" alt="Fashiondollars" class="header-icon"><small>/min</small></span></th><th>Units</th><th>Duration</th><th>Type</th></tr></thead><tbody id="bestSummaryBody"></tbody></table></div>
       </section>
 
       <section class="panel">
@@ -119,19 +119,19 @@
         <div class="table-wrap"><table><thead><tr><th>Image</th><th>Recommendation</th><th>Outfit</th><th>Current Label</th><th>Recommended Label</th><th>Benefit</th><th>Requirement</th></tr></thead><tbody id="recommendedLabelsBody"></tbody></table></div>
       </section>
 
-      <section class="panel"><h2>Best Outfits (XP)</h2><div class="table-wrap"><table><thead><tr><th>Image</th><th>Recommendation</th><th>Outfit</th><th>Level</th><th>XP/min</th><th>XP</th><th>Duration</th><th>Type</th></tr></thead><tbody id="bestXpBody"></tbody></table></div></section>
-      <section class="panel"><h2>Best Outfits (Profit)</h2><div class="table-wrap"><table><thead><tr><th>Image</th><th>Recommendation</th><th>Outfit</th><th>Level</th><th>Profit/min</th><th>Profit</th><th>Duration</th><th>Type</th></tr></thead><tbody id="bestProfitBody"></tbody></table></div></section>
+      <section class="panel"><h2>Best Outfits (XP)</h2><div class="table-wrap"><table><thead><tr><th>Image</th><th>Recommendation</th><th>Outfit</th><th>Level</th><th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"><small>/min</small></span></th><th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"></span></th><th>Duration</th><th>Type</th></tr></thead><tbody id="bestXpBody"></tbody></table></div></section>
+      <section class="panel"><h2>Best Outfits (Profit)</h2><div class="table-wrap"><table><thead><tr><th>Image</th><th>Recommendation</th><th>Outfit</th><th>Level</th><th><span class="icon-heading"><img src="fashiondollars.png" alt="Fashiondollars" class="header-icon"><small>/min</small></span></th><th><span class="icon-heading"><img src="fashiondollars.png" alt="Fashiondollars" class="header-icon"></span></th><th>Duration</th><th>Type</th></tr></thead><tbody id="bestProfitBody"></tbody></table></div></section>
       <section class="panel"><h2>Best Outfits (Units)</h2><div class="table-wrap"><table><thead><tr><th>Image</th><th>Recommendation</th><th>Outfit</th><th>Level</th><th>Units/min</th><th>Units</th><th>Duration</th><th>Type</th></tr></thead><tbody id="bestUnitsBody"></tbody></table></div></section>
 
       <section class="panel">
         <h2>XP Needed Plans</h2>
         <p class="section-note">Best level-up plans based on your XP target and available workers.</p>
-        <div class="table-wrap"><table><thead><tr><th>Image</th><th>Plan</th><th>Outfit</th><th>XP Each</th><th>Duration</th><th>Batches Needed</th><th>Total Factory Time</th><th>Workers</th><th>Wall-clock Estimate</th></tr></thead><tbody id="xpPlansBody"></tbody></table></div>
+        <div class="table-wrap"><table><thead><tr><th>Image</th><th>Plan</th><th>Outfit</th><th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"><small>each</small></span></th><th>Duration</th><th>Batches Needed</th><th>Total Factory Time</th><th>Workers</th><th>Wall-clock Estimate</th></tr></thead><tbody id="xpPlansBody"></tbody></table></div>
       </section>
     </section>
 
     <section id="fullDexScreen" class="screen hidden">
-      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><div class="fashion-logo small-logo">📚</div><div><p class="eyebrow">Complete catalog</p><h1>Full FashionDex</h1></div></div></header>
+      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><img src="fulldex.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'"><div><p class="eyebrow">Complete catalog</p><h1>Full FashionDex</h1></div></div></header>
       <section class="panel inputs-panel">
         <h2>Sort Full FashionDex</h2>
         <div class="input-grid">
@@ -141,11 +141,11 @@
           <label><span>Gender</span><select id="fullGender"><option value="all">All</option><option value="0">Unisex</option><option value="1">Female</option><option value="2">Male</option></select></label>
         </div>
       </section>
-      <section class="panel"><h2>Available FashionDex</h2><p class="section-note">Complete outfit list with XP, profit, units, time, category, and pattern cost.</p><div class="table-wrap"><table class="full-table"><thead><tr><th>Image</th><th>Outfit</th><th>ID</th><th>Level</th><th>Type</th><th>Gender</th><th>XP</th><th>Profit</th><th>Units</th><th>Duration</th><th>Pattern</th><th>Production Cost</th><th>Revenue</th></tr></thead><tbody id="fullDexBody"></tbody></table></div></section>
+      <section class="panel"><h2>Available FashionDex</h2><p class="section-note">Complete outfit list with XP, profit, units, time, category, and pattern cost.</p><div class="table-wrap"><table class="full-table"><thead><tr><th>Image</th><th>Outfit</th><th>ID</th><th>Level</th><th>Type</th><th>Gender</th><th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"></span></th><th><span class="icon-heading"><img src="fashiondollars.png" alt="Fashiondollars" class="header-icon"></span></th><th>Units</th><th>Duration</th><th>Pattern</th><th>Production Cost</th><th>Revenue</th></tr></thead><tbody id="fullDexBody"></tbody></table></div></section>
     </section>
 
     <section id="myTimeScreen" class="screen hidden">
-      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><div class="fashion-logo small-logo">⏱️</div><div><p class="eyebrow">Time planning</p><h1>My Time</h1></div></div></header>
+      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><img src="mytime.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'"><div><p class="eyebrow">Time planning</p><h1>My Time</h1></div></div></header>
       <section class="panel inputs-panel">
         <h2>My Time Settings</h2>
         <div class="input-grid">
@@ -155,11 +155,11 @@
           <label><span>Optimize for</span><select id="timeObjective"><option value="xp">XP</option><option value="profit">Profit</option><option value="units">Units</option></select></label>
         </div>
       </section>
-      <section class="panel"><h2>Best matches</h2><p class="section-note" id="timeWindowLabel"></p><div class="table-wrap"><table><thead><tr><th>Image</th><th>Outfit</th><th>Level</th><th>Duration</th><th>XP</th><th>Profit</th><th>Units</th><th>Type</th></tr></thead><tbody id="timeMatchesBody"></tbody></table></div></section>
+      <section class="panel"><h2>Best matches</h2><p class="section-note" id="timeWindowLabel"></p><div class="table-wrap"><table><thead><tr><th>Image</th><th>Outfit</th><th>Level</th><th>Duration</th><th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"></span></th><th><span class="icon-heading"><img src="fashiondollars.png" alt="Fashiondollars" class="header-icon"></span></th><th>Units</th><th>Type</th></tr></thead><tbody id="timeMatchesBody"></tbody></table></div></section>
     </section>
 
     <section id="coopScreen" class="screen hidden">
-      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><div class="fashion-logo small-logo">🤝</div><div><p class="eyebrow">Team fashion</p><h1>Co-Op Planner</h1></div></div></header>
+      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><img src="coopplanner.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'"><div><p class="eyebrow">Team fashion</p><h1>Co-Op Planner</h1></div></div></header>
       <section class="panel inputs-panel">
         <h2>Co-Op List</h2>
         <div class="input-grid">
@@ -174,7 +174,7 @@
     </section>
 
     <section id="profileScreen" class="screen hidden">
-      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><div class="fashion-logo small-logo">👤</div><div><p class="eyebrow">Boutique profile</p><h1>My Profile</h1></div></div></header>
+      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><img src="myprofile.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'"><div><p class="eyebrow">Boutique profile</p><h1>My Profile</h1></div></div></header>
       <section class="panel">
         <h2>Fashion Profile</h2>
         <p class="section-note">Your profile is saved locally in this browser only.</p>
@@ -189,7 +189,7 @@
     </section>
 
     <section id="labelsScreen" class="screen hidden">
-      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><div class="fashion-logo small-logo">🏷️</div><div><p class="eyebrow">Outfit perks</p><h1>My Labels</h1></div></div></header>
+      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><img src="mylabels.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'"><div><p class="eyebrow">Outfit perks</p><h1>My Labels</h1></div></div></header>
       <section class="panel inputs-panel">
         <h2>My Labels</h2>
         <div class="input-grid">
@@ -203,6 +203,6 @@
       <section class="panel"><h2>Label List</h2><div class="table-wrap"><table class="mastery-table"><thead><tr><th>Image</th><th>Outfit</th><th>Level</th><th>Current Points</th><th>Current Label</th><th>Bronze</th><th>Silver</th><th>Gold</th><th>Next</th></tr></thead><tbody id="labelsBody"></tbody></table></div></section>
     </section>
   </main>
-  <script src="app.js?v=20260630-dishdex-clone-v5"></script>
+  <script src="app.js?v=20260630-fashiondex-icons-v6"></script>
 </body>
 </html>
