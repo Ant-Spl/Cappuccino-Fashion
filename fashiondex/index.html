@@ -1,4 +1,4 @@
-<!-- FashionDex/index.html - GitHub Pages static build -->
+<!-- FashionDex/index.html - DishDex-style GitHub Pages build -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,37 +8,207 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260630-dishdex-style-v1">
+  <link rel="stylesheet" href="style.css?v=20260630-dishdex-clone-v1">
 </head>
 <body class="dark-theme">
-  <main class="page app-shell">
-    <header class="topbar panel chrome-panel">
-      <button class="brand" data-route="home" aria-label="FashionDex Home">
-        <span class="brand-mark">✂️</span>
-        <span><strong>FashionDex</strong><small>Goodgame Fashion helper</small></span>
-      </button>
-      <nav class="topnav" aria-label="Main navigation">
-        <button data-route="mydex">MyDex</button>
-        <button data-route="full">Full FashionDex</button>
-        <button data-route="time">My Time</button>
-        <button data-route="coop">Co-Op Planner</button>
-        <button data-route="profile">My Profile</button>
-        <button data-route="labels">My Labels</button>
-      </nav>
-      <div class="toolbar home-controls">
-        <button id="refreshData" class="action-button" title="Reload XML data">Reload</button>
-        <button id="themeToggle" class="action-button">Dark Theme</button>
-      </div>
-    </header>
+  <main class="page">
+    <section id="welcomeScreen" class="screen welcome-screen">
+      <header class="hero welcome-hero">
+        <div class="title-block">
+          <div class="title-row">
+            <div class="fashion-logo title-logo" aria-hidden="true">✂️</div>
+            <div>
+              <p class="eyebrow">Cappuccino Fashion</p>
+              <h1>FashionDex</h1>
+            </div>
+          </div>
+          <p class="subtitle">Access information about all outfits, labels, workers, and Fashion Co-Ops!</p>
+        </div>
+        <div class="status-card">
+          <span id="loadStatus">Loading Fashion data...</span>
+          <small id="dataSummary"></small>
+        </div>
+      </header>
 
-    <main id="app" class="view">
-      <section class="panel loading-card">
-        <div class="spinner" aria-hidden="true"></div>
-        <h1>Loading FashionDex…</h1>
-        <p>Reading <code>FashionItems.xml</code>, <code>FashionLevelXp.xml</code>, and <code>langs/Fashion_en.xml</code> from this GitHub Pages repo.</p>
+      <section class="panel welcome-panel">
+        <div class="theme-toggle-row">
+          <div>
+            <h2>Choose a mode</h2>
+            <p class="section-note">Select how you want to use FashionDex.</p>
+          </div>
+          <div class="home-controls">
+            <label class="theme-toggle">
+              <span>Dark Theme</span>
+              <input id="themeToggle" type="checkbox" checked>
+            </label>
+          </div>
+        </div>
+
+        <div class="mode-grid six-mode-grid">
+          <button id="openMyDex" class="mode-card" type="button">
+            <span class="mode-icon-emoji">🧵</span>
+            <span class="mode-title">MyDex</span>
+            <span class="mode-description">Access your personal FashionDex based on your level, workers, labels, and available patterns.</span>
+          </button>
+
+          <button id="openFullFashionDex" class="mode-card" type="button">
+            <span class="mode-icon-emoji">📚</span>
+            <span class="mode-title">Full FashionDex</span>
+            <span class="mode-description">Access the complete clothing catalog with XP, profit, units, time, type, and unlocks.</span>
+          </button>
+
+          <button id="openMyTime" class="mode-card" type="button">
+            <span class="mode-icon-emoji">⏱️</span>
+            <span class="mode-title">My Time</span>
+            <span class="mode-description">Plan outfits according to the time you have and your available workers.</span>
+          </button>
+
+          <button id="openCoopPlanner" class="mode-card" type="button">
+            <span class="mode-icon-emoji">🤝</span>
+            <span class="mode-title">Co-Op Planner</span>
+            <span class="mode-description">Browse Co-Op missions and estimate clothing batches, factory-hours, and rewards.</span>
+          </button>
+
+          <button id="openProfile" class="mode-card" type="button">
+            <span class="mode-icon-emoji">👤</span>
+            <span class="mode-title">My Profile</span>
+            <span class="mode-description">Save your boutique name, level, workers, and pattern visibility settings.</span>
+          </button>
+
+          <button id="openLabels" class="mode-card" type="button">
+            <span class="mode-icon-emoji">🏷️</span>
+            <span class="mode-title">My Labels</span>
+            <span class="mode-description">Register your outfit Labels and apply their bonuses to MyDex.</span>
+          </button>
+        </div>
       </section>
-    </main>
+
+      <section class="panel">
+        <h2>Repo data</h2>
+        <p class="section-note" id="repoDataNote">FashionDex reads public XML files from this GitHub Pages repo. It does not use private Python scripts.</p>
+        <div class="stat-grid" id="homeStats"></div>
+      </section>
+    </section>
+
+    <section id="myDexScreen" class="screen hidden">
+      <header class="sub-hero">
+        <button class="back-button" type="button" data-back>← Back</button>
+        <div class="title-row compact-title-row">
+          <div class="fashion-logo small-logo" aria-hidden="true">🧵</div>
+          <div>
+            <p class="eyebrow">Personal recommendations</p>
+            <h1>MyDex</h1>
+          </div>
+        </div>
+      </header>
+
+      <section class="panel inputs-panel">
+        <h2>MyDex Settings</h2>
+        <div class="input-grid">
+          <label><span>Player Level</span><input id="playerLevel" type="number" min="0" max="999" value="1"></label>
+          <label><span>XP Needed</span><input id="xpNeeded" type="number" min="0" value="1000"></label>
+          <label><span>Available Workers</span><input id="workerCount" type="number" min="1" value="3"></label>
+          <label><span>Pattern visibility</span><select id="patternMode"><option value="cash">Cash patterns only</option><option value="all">Include gold patterns</option></select></label>
+          <label class="inline-toggle setting-toggle"><input id="useLabelsToggle" type="checkbox" checked><span>Use my Labels?</span></label>
+        </div>
+        <p class="hint">Insert your data for personalized outfit recommendations.</p>
+      </section>
+
+      <section class="panel">
+        <h2>Best of Summary</h2>
+        <div class="table-wrap"><table><thead><tr><th>Image</th><th>Recommendation</th><th>Outfit</th><th>Level</th><th>XP/min</th><th>Profit/min</th><th>Units</th><th>Duration</th><th>Type</th></tr></thead><tbody id="bestSummaryBody"></tbody></table></div>
+      </section>
+
+      <section class="panel">
+        <h2>Recommended Labels</h2>
+        <p class="section-note">Best Label targets based on your Best of Summary outfits.</p>
+        <div class="table-wrap"><table><thead><tr><th>Image</th><th>Recommendation</th><th>Outfit</th><th>Current Label</th><th>Recommended Label</th><th>Benefit</th><th>Requirement</th></tr></thead><tbody id="recommendedLabelsBody"></tbody></table></div>
+      </section>
+
+      <section class="panel"><h2>Best Outfits (XP)</h2><div class="table-wrap"><table><thead><tr><th>Image</th><th>Recommendation</th><th>Outfit</th><th>Level</th><th>XP/min</th><th>XP</th><th>Duration</th><th>Type</th></tr></thead><tbody id="bestXpBody"></tbody></table></div></section>
+      <section class="panel"><h2>Best Outfits (Profit)</h2><div class="table-wrap"><table><thead><tr><th>Image</th><th>Recommendation</th><th>Outfit</th><th>Level</th><th>Profit/min</th><th>Profit</th><th>Duration</th><th>Type</th></tr></thead><tbody id="bestProfitBody"></tbody></table></div></section>
+      <section class="panel"><h2>Best Outfits (Units)</h2><div class="table-wrap"><table><thead><tr><th>Image</th><th>Recommendation</th><th>Outfit</th><th>Level</th><th>Units/min</th><th>Units</th><th>Duration</th><th>Type</th></tr></thead><tbody id="bestUnitsBody"></tbody></table></div></section>
+
+      <section class="panel">
+        <h2>XP Needed Plans</h2>
+        <p class="section-note">Best level-up plans based on your XP target and available workers.</p>
+        <div class="table-wrap"><table><thead><tr><th>Image</th><th>Plan</th><th>Outfit</th><th>XP Each</th><th>Duration</th><th>Batches Needed</th><th>Total Factory Time</th><th>Workers</th><th>Wall-clock Estimate</th></tr></thead><tbody id="xpPlansBody"></tbody></table></div>
+      </section>
+    </section>
+
+    <section id="fullDexScreen" class="screen hidden">
+      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><div class="fashion-logo small-logo">📚</div><div><p class="eyebrow">Complete catalog</p><h1>Full FashionDex</h1></div></div></header>
+      <section class="panel inputs-panel">
+        <h2>Sort Full FashionDex</h2>
+        <div class="input-grid">
+          <label><span>Search outfit</span><input id="fullSearch" type="search" placeholder="Search outfit..."></label>
+          <label><span>Sort by</span><select id="fullSort"></select></label>
+          <label><span>Type</span><select id="fullFamily"><option value="all">All</option><option>Clothes</option><option>Shoes</option><option>Accessories</option></select></label>
+          <label><span>Gender</span><select id="fullGender"><option value="all">All</option><option value="0">Unisex</option><option value="1">Female</option><option value="2">Male</option></select></label>
+        </div>
+      </section>
+      <section class="panel"><h2>Available FashionDex</h2><p class="section-note">Complete outfit list with XP, profit, units, time, category, and pattern cost.</p><div class="table-wrap"><table class="full-table"><thead><tr><th>Image</th><th>Outfit</th><th>ID</th><th>Level</th><th>Type</th><th>Gender</th><th>XP</th><th>Profit</th><th>Units</th><th>Duration</th><th>Pattern</th><th>Production Cost</th><th>Revenue</th></tr></thead><tbody id="fullDexBody"></tbody></table></div></section>
+    </section>
+
+    <section id="myTimeScreen" class="screen hidden">
+      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><div class="fashion-logo small-logo">⏱️</div><div><p class="eyebrow">Time planning</p><h1>My Time</h1></div></div></header>
+      <section class="panel inputs-panel">
+        <h2>My Time Settings</h2>
+        <div class="input-grid">
+          <label><span>Player Level</span><input id="timePlayerLevel" type="number" min="0" max="999" value="1"></label>
+          <label><span>Target Hours</span><input id="targetHours" type="number" min="0" value="8"></label>
+          <label><span>Margin Minutes</span><input id="targetMargin" type="number" min="0" value="60"></label>
+          <label><span>Optimize for</span><select id="timeObjective"><option value="xp">XP</option><option value="profit">Profit</option><option value="units">Units</option></select></label>
+        </div>
+      </section>
+      <section class="panel"><h2>Best matches</h2><p class="section-note" id="timeWindowLabel"></p><div class="table-wrap"><table><thead><tr><th>Image</th><th>Outfit</th><th>Level</th><th>Duration</th><th>XP</th><th>Profit</th><th>Units</th><th>Type</th></tr></thead><tbody id="timeMatchesBody"></tbody></table></div></section>
+    </section>
+
+    <section id="coopScreen" class="screen hidden">
+      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><div class="fashion-logo small-logo">🤝</div><div><p class="eyebrow">Team fashion</p><h1>Co-Op Planner</h1></div></div></header>
+      <section class="panel inputs-panel">
+        <h2>Co-Op List</h2>
+        <div class="input-grid">
+          <label><span>Search Co-Op</span><input id="coopSearch" type="search" placeholder="Search Co-Op..."></label>
+          <label><span>Sort by</span><select id="coopSort"><option value="level">Level</option><option value="time">Duration</option><option value="factory">Factory-hours</option><option value="reward">Rewards</option></select></label>
+          <label><span>Team workers</span><input id="coopWorkers" type="number" min="1" value="5"></label>
+          <label><span>Selected Co-Op</span><select id="coopSelect"></select></label>
+        </div>
+      </section>
+      <section class="panel"><h2>Selected Co-Op Plan</h2><div id="selectedCoopPlan"></div></section>
+      <section class="panel"><h2>All Co-Ops</h2><div class="table-wrap"><table><thead><tr><th>Co-Op</th><th>Level</th><th>Members</th><th>Duration</th><th>Factory-hours</th><th>Rewards</th><th>Requirements</th></tr></thead><tbody id="coopListBody"></tbody></table></div></section>
+    </section>
+
+    <section id="profileScreen" class="screen hidden">
+      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><div class="fashion-logo small-logo">👤</div><div><p class="eyebrow">Boutique profile</p><h1>My Profile</h1></div></div></header>
+      <section class="panel">
+        <h2>Fashion Profile</h2>
+        <p class="section-note">Your profile is saved locally in this browser only.</p>
+        <div class="profile-grid">
+          <label><span>Boutique name</span><input id="profileName" type="text" placeholder="My boutique"></label>
+          <label><span>Player level</span><input id="profileLevel" type="number" min="0" max="999" value="1"></label>
+          <label><span>Workers override</span><input id="profileWorkers" type="number" min="1" placeholder="Auto"></label>
+        </div>
+        <div class="data-actions profile-data-actions"><button id="saveProfile" class="action-button" type="button">Save Profile</button><button id="downloadData" class="action-button" type="button">Download Data</button><button id="loadData" class="action-button" type="button">Load Data</button><button id="deleteData" class="action-button danger-button" type="button">Delete Data</button><input id="loadDataFile" type="file" accept="application/json" hidden></div>
+        <div id="profileLevelInfo"></div>
+      </section>
+    </section>
+
+    <section id="labelsScreen" class="screen hidden">
+      <header class="sub-hero"><button class="back-button" type="button" data-back>← Back</button><div class="title-row compact-title-row"><div class="fashion-logo small-logo">🏷️</div><div><p class="eyebrow">Outfit perks</p><h1>My Labels</h1></div></div></header>
+      <section class="panel inputs-panel">
+        <h2>My Labels</h2>
+        <div class="input-grid">
+          <label><span>Search outfit</span><input id="labelSearch" type="search" placeholder="Search outfit..."></label>
+          <label><span>Type</span><select id="labelFamily"><option value="all">All</option><option>Clothes</option><option>Shoes</option><option>Accessories</option></select></label>
+          <label><span>Sort</span><select id="labelSort"><option value="next">Closest next Label</option><option value="level">Level</option><option value="name">Name</option><option value="label">Highest Label</option></select></label>
+          <label><span>Label slots</span><input id="labelSlots" type="number" min="1" value="4"></label>
+        </div>
+      </section>
+      <section class="panel"><h2>Label Summary</h2><div class="stat-grid" id="labelStats"></div></section>
+      <section class="panel"><h2>Label List</h2><div class="table-wrap"><table class="mastery-table"><thead><tr><th>Image</th><th>Outfit</th><th>Level</th><th>Current Points</th><th>Current Label</th><th>Bronze</th><th>Silver</th><th>Gold</th><th>Next</th></tr></thead><tbody id="labelsBody"></tbody></table></div></section>
+    </section>
   </main>
-  <script src="app.js?v=20260630-dishdex-style-v1"></script>
+  <script src="app.js?v=20260630-dishdex-clone-v1"></script>
 </body>
 </html>
