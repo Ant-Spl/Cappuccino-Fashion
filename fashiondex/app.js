@@ -1,17 +1,18 @@
 // FashionDex for GitHub Pages.
 // This app intentionally uses only public repo files:
-//   /FashionItems.xml
-//   /FashionLevelXp.xml
-//   /langs/Fashion_en.xml
-//   /clothingicons/... image files
+//   ../FashionItems.xml when this app lives in /fashiondex/
+//   ../FashionLevelXp.xml when this app lives in /fashiondex/
+//   ../langs/Fashion_en.xml when this app lives in /fashiondex/
+//   ../clothingicons/... image files
+// It also keeps root-level fallbacks for installs where FashionDex is served from the repo root.
 
 const DATA_PATHS = {
-  items: ["FashionItems.xml", "./FashionItems.xml", "data/FashionItems.xml"],
-  levels: ["FashionLevelXp.xml", "./FashionLevelXp.xml", "data/FashionLevelXp.xml"],
-  lang: ["langs/Fashion_en.xml", "./langs/Fashion_en.xml", "Fashion_en.xml", "data/Fashion_en.xml"]
+  items: ["../FashionItems.xml", "FashionItems.xml", "./FashionItems.xml", "../data/FashionItems.xml", "data/FashionItems.xml"],
+  levels: ["../FashionLevelXp.xml", "FashionLevelXp.xml", "./FashionLevelXp.xml", "../data/FashionLevelXp.xml", "data/FashionLevelXp.xml"],
+  lang: ["../langs/Fashion_en.xml", "langs/Fashion_en.xml", "./langs/Fashion_en.xml", "../Fashion_en.xml", "Fashion_en.xml", "../data/Fashion_en.xml", "data/Fashion_en.xml"]
 };
 
-const ICON_DIR = "clothingicons";
+const ICON_DIRS = ["../clothingicons", "clothingicons"];
 const STORAGE_KEY = "fashiondex.githubpages.state.v1";
 const LABEL_DAYS = { bronze: 1, silver: 5, gold: 13 };
 const LABEL_BONUS_PIECES = 1.05;
@@ -347,7 +348,7 @@ function render(){
 }
 function renderLoadError(err){
   const app = document.getElementById("app");
-  app.innerHTML = `<section class="card error-box"><h1>FashionDex could not load the repo data.</h1><p>${escapeHtml(err.message)}</p><p>For GitHub Pages, make sure these files exist at the expected paths:</p><ul><li><code>/FashionItems.xml</code></li><li><code>/FashionLevelXp.xml</code></li><li><code>/langs/Fashion_en.xml</code></li><li><code>/clothingicons/...</code> for images</li></ul><p class="small muted">Opening this by double-clicking <code>index.html</code> can fail because browsers block <code>fetch()</code> from local files. Use GitHub Pages or a local server.</p></section>`;
+  app.innerHTML = `<section class="card error-box"><h1>FashionDex could not load the repo data.</h1><p>${escapeHtml(err.message)}</p><p>For GitHub Pages with FashionDex inside <code>/fashiondex/</code>, the app should load these repo-root files through parent-folder paths:</p><ul><li><code>../FashionItems.xml</code></li><li><code>../FashionLevelXp.xml</code></li><li><code>../langs/Fashion_en.xml</code></li><li><code>../clothingicons/...</code> for images</li></ul><p class="small muted">Opening this by double-clicking <code>index.html</code> can fail because browsers block <code>fetch()</code> from local files. Use GitHub Pages or a local server.</p></section>`;
 }
 function sectionHeader(title, desc=""){
   return `<div class="row between" style="margin-bottom:18px"><div><button class="secondary" data-route="home">← Home</button><h2 style="margin-top:14px">${title}</h2>${desc?`<p>${desc}</p>`:""}</div></div>`;
@@ -465,14 +466,18 @@ function itemCell(i){
 function iconCandidates(i){
   const key = encodeURIComponent(i.key);
   const lower = encodeURIComponent(i.key.toLowerCase());
-  return [
-    `${ICON_DIR}/Basic_Clothes_${key}.png`,
-    `${ICON_DIR}/Basic_Clothes_${key}.webp`,
-    `${ICON_DIR}/${key}.png`,
-    `${ICON_DIR}/${key}.webp`,
-    `${ICON_DIR}/${lower}.png`,
-    `${ICON_DIR}/${lower}.webp`
-  ];
+  const candidates = [];
+  for (const dir of ICON_DIRS) {
+    candidates.push(
+      `${dir}/Basic_Clothes_${key}.png`,
+      `${dir}/Basic_Clothes_${key}.webp`,
+      `${dir}/${key}.png`,
+      `${dir}/${key}.webp`,
+      `${dir}/${lower}.png`,
+      `${dir}/${lower}.webp`
+    );
+  }
+  return candidates;
 }
 function badges(i){
   return `<span class="tag">${escapeHtml(i.family)}</span><span class="tag">${escapeHtml(i.category)}</span><span class="tag">${escapeHtml(i.genderName)}</span>${i.patternGold?`<span class="tag warn">Gold pattern</span>`:""}${i.productionCostGold?`<span class="tag warn">Gold production</span>`:""}`;
