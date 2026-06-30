@@ -494,46 +494,96 @@ function renderHome() {
 
 function renderMyDex() {
   const items = availableItems(true);
-  const bestXp = top(items, 'adjXpPerMin', 7);
-  const bestProfit = top(items, 'adjProfitPerMin', 7);
-  const bestUnits = top(items, 'adjUnitsPerMin', 7);
-  const summary = uniqueBy([
-    ['Best XP/min', top(items, 'adjXpPerMin', 1)[0]],
-    ['Best raw XP', top(items, 'adjXp', 1)[0]],
-    ['Best profit/min', top(items, 'adjProfitPerMin', 1)[0]],
-    ['Best raw profit', top(items, 'adjProfit', 1)[0]],
-    ['Best units/min', top(items, 'adjUnitsPerMin', 1)[0]],
-    ['Best raw units', top(items, 'adjUnits', 1)[0]]
-  ].filter(x => x[1]), x => `${x[0]}-${x[1].id}`);
+  const bestSummaryItems = buildBestSummaryItems(items);
+  const bestXp = buildBucketRecommendations(items, 'XP/min', i => i.adjXpPerMin, 'xp');
+  const bestProfit = buildBucketRecommendations(items, 'profit/min', i => i.adjProfitPerMin, 'profit');
+  const bestUnits = buildBucketRecommendations(items, 'units/min', i => i.adjUnitsPerMin, 'portions');
 
-  document.getElementById('bestSummaryBody').innerHTML = summary.length ? summary.map(([label, i], idx) => itemSummaryRow(i, label, idx)).join('') : emptyRow(9, 'No outfit recommendations available for this level/settings.');
-  document.getElementById('bestXpBody').innerHTML = bestXp.length ? bestXp.map((i, idx) => metricRow(i, `#${idx+1}`, 'xp', idx)).join('') : emptyRow(8, 'No XP recommendations available.');
-  document.getElementById('bestProfitBody').innerHTML = bestProfit.length ? bestProfit.map((i, idx) => metricRow(i, `#${idx+1}`, 'profit', idx)).join('') : emptyRow(8, 'No profit recommendations available.');
-  document.getElementById('bestUnitsBody').innerHTML = bestUnits.length ? bestUnits.map((i, idx) => metricRow(i, `#${idx+1}`, 'units', idx)).join('') : emptyRow(8, 'No unit recommendations available.');
-  document.getElementById('recommendedLabelsBody').innerHTML = renderRecommendedLabels(summary.map(x => x[1]));
+  document.getElementById('bestSummaryBody').innerHTML = bestSummaryItems.length
+    ? bestSummaryItems.map(({ label, item, rowClass }) => itemSummaryRow(item, label, rowClass)).join('')
+    : emptyRow(9, 'No outfit recommendations available for this level/settings.');
+  document.getElementById('bestXpBody').innerHTML = renderBucketMetricRows(bestXp, 'xp');
+  document.getElementById('bestProfitBody').innerHTML = renderBucketMetricRows(bestProfit, 'profit');
+  document.getElementById('bestUnitsBody').innerHTML = renderBucketMetricRows(bestUnits, 'units');
+  document.getElementById('recommendedLabelsBody').innerHTML = renderRecommendedLabels(bestSummaryItems);
   document.getElementById('xpPlansBody').innerHTML = renderXpPlans(items);
 }
 
-function renderRecommendedLabels(items) {
-  const rows = uniqueBy(items, i => i.id).slice(0, 8).map((item, idx) => {
+function buildBestSummaryItems(items) {
+  return [
+    { label: 'Best XP/min', item: bestItem(items, i => i.adjXpPerMin), rowClass: 'best-xp-1' },
+    { label: 'Best raw XP', item: bestItem(items, i => i.adjXp), rowClass: 'best-xp-3' },
+    { label: 'Best profit/min', item: bestItem(items, i => i.adjProfitPerMin), rowClass: 'best-profit-1' },
+    { label: 'Best raw profit', item: bestItem(items, i => i.adjProfit), rowClass: 'best-profit-3' },
+    { label: 'Best units/min', item: bestItem(items, i => i.adjUnitsPerMin), rowClass: 'best-portions-1' },
+    { label: 'Best raw units', item: bestItem(items, i => i.adjUnits), rowClass: 'best-portions-3' }
+  ].filter(x => x.item);
+}
+
+function renderBucketMetricRows(items, metric) {
+  const rows = items.filter(x => x.item);
+  if (!rows.length) {
+    const message = metric === 'xp'
+      ? 'No XP recommendations available.'
+      : metric === 'profit'
+        ? 'No profit recommendations available.'
+        : 'No unit recommendations available.';
+    return emptyRow(7, message);
+  }
+  return rows.map(({ label, item, rowClass }) => metricRow(item, label, metric, rowClass)).join('');
+}
+
+function renderRecommendedLabels(summaryItems) {
+  const rows = summaryItems.filter(x => x.item).map(({ label, item, rowClass }) => {
     const base = DATA.clothesById.get(item.id) || item;
     const info = nextLabelInfo(base);
     const benefit = info.targetLevel === 1 ? '+5% pieces' : info.targetLevel === 2 ? '+5% XP' : info.targetLevel === 3 ? 'Gold Label completion' : 'Already Gold';
-    return `<tr class="best-profit-${Math.min(idx+1,7)}"><td>${iconCell(item)}</td><td>Recommended</td><td class="dish-name">${escapeHtml(item.name)}</td><td>${labelName(labelLevel(base))}</td><td>${info.targetLevel ? labelName(info.targetLevel) : 'Complete'}</td><td>${benefit}</td><td>${info.targetLevel ? `${fmt(info.remaining)} more points` : 'Complete'}</td></tr>`;
+    return `<tr class="${rowClass}"><td>${iconCell(item)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(item.name)}</td><td>${labelName(labelLevel(base))}</td><td>${info.targetLevel ? labelName(info.targetLevel) : 'Complete'}</td><td>${benefit}</td><td>${info.targetLevel ? `${fmt(info.remaining)} more points` : 'Complete'}</td></tr>`;
   });
   return rows.length ? rows.join('') : emptyRow(7, 'No Label recommendations available.');
 }
 
 function renderXpPlans(items) {
   const needed = Math.max(0, Number(userData.xpNeeded || 0));
-  if (!needed) return emptyRow(9, 'Set XP Needed above 0.');
-  const rows = top(items.filter(i => i.adjXp > 0), 'adjXpPerMin', 8).map((item, idx) => {
-    const batches = Math.ceil(needed / item.adjXp);
-    const total = batches * item.duration;
-    const wall = total / Math.max(1, effectiveWorkers());
-    return `<tr class="row-${timeBucket(item.duration)}"><td>${iconCell(item)}</td><td>${idx === 0 ? 'Fastest XP plan' : `Plan ${idx+1}`}</td><td class="dish-name">${escapeHtml(item.name)}</td><td>${xpValue(item.adjXp)}</td><td>${timeFmt(item.duration)}</td><td>${fmt(batches)}</td><td>${timeFmt(total)}</td><td>${effectiveWorkers()}</td><td>${timeFmt(wall)}</td></tr>`;
+  if (!needed) return emptyRow(10, 'Set XP Needed above 0.');
+  const workers = effectiveWorkers();
+  const rows = getTimeBuckets().map(bucket => {
+    const item = bestItem(items.filter(bucket.matches).filter(i => i.adjXp > 0), i => i.adjXpPerMin);
+    if (!item) {
+      return `<tr class="row-${bucket.key}"><td></td><td>${escapeHtml(bucket.planLabel)}</td><td class="dish-name">No available outfit</td><td></td><td></td><td></td><td></td><td></td><td>${workers}</td><td class="note-cell">No outfit matches this plan.</td></tr>`;
+    }
+    const productionsNeeded = Math.ceil(needed / item.adjXp);
+    const batches = Math.ceil(productionsNeeded / workers);
+    const totalProductionTime = batches * item.duration;
+    return `<tr class="row-${bucket.key}"><td>${iconCell(item)}</td><td>${escapeHtml(bucket.planLabel)}</td><td class="dish-name">${escapeHtml(item.name)}</td><td>${xpValue(item.adjXp)}</td><td>${timeFmt(item.duration)}</td><td>${fmt(productionsNeeded)}</td><td>${fmt(batches)}</td><td>${timeFmt(totalProductionTime)}</td><td>${workers}</td><td class="note-cell">${escapeHtml(bucket.note)}</td></tr>`;
   });
-  return rows.length ? rows.join('') : emptyRow(9, 'No outfit matches this plan.');
+  return rows.join('');
+}
+
+function getTimeBuckets() {
+  return [
+    { key: 'active', recommendationLabel: 'Best active', planLabel: 'Active-time', note: 'Best XP/min for 10 minutes or less.', matches: item => item.duration <= 10 },
+    { key: 'fast', recommendationLabel: 'Best fast', planLabel: 'Fast-time', note: 'Best XP/min between 11 minutes and 1 hour.', matches: item => item.duration >= 11 && item.duration <= 60 },
+    { key: 'short', recommendationLabel: 'Best short', planLabel: 'Short-time', note: 'Best XP/min between 1 h 1 min and 3 h.', matches: item => item.duration >= 61 && item.duration <= 180 },
+    { key: 'medium', recommendationLabel: 'Best medium', planLabel: 'Medium-time', note: 'Best XP/min between 3 h 1 min and 6 h.', matches: item => item.duration >= 181 && item.duration <= 360 },
+    { key: 'long', recommendationLabel: 'Best long', planLabel: 'Long-time', note: 'Best XP/min between 6 h 1 min and 12 h.', matches: item => item.duration >= 361 && item.duration <= 720 },
+    { key: 'veryLong', recommendationLabel: 'Best very long', planLabel: 'Very long', note: 'Best XP/min between 12 h 1 min and 23 h.', matches: item => item.duration >= 721 && item.duration <= 1380 },
+    { key: 'dayOff', recommendationLabel: 'Best day-off', planLabel: 'Day off', note: 'Best XP/min for 23 h 1 min or more.', matches: item => item.duration >= 1381 }
+  ];
+}
+
+function buildBucketRecommendations(items, metricLabel, scoreFunction, sectionKey) {
+  return getTimeBuckets().map((bucket, index) => ({
+    label: `${bucket.recommendationLabel} ${metricLabel}`,
+    item: bestItem(items.filter(bucket.matches), scoreFunction),
+    rowClass: `best-${sectionKey}-${index + 1}`
+  }));
+}
+
+function bestItem(items, scoreFunction) {
+  return [...items]
+    .filter(item => Number.isFinite(Number(scoreFunction(item))))
+    .sort((a, b) => Number(scoreFunction(b)) - Number(scoreFunction(a)) || a.level - b.level || a.name.localeCompare(b.name))[0];
 }
 
 function renderFullDex() {
@@ -665,12 +715,21 @@ function uniqueBy(arr, fn) { const seen = new Set(); return arr.filter(x => { co
 function levelLimit(level) { let row = DATA.levels[0] || fallbackLevelLimits(level || 1)[0]; for (const l of DATA.levels) if (l.level <= level) row = l; return row; }
 function effectiveWorkers() { return Math.max(1, Number(userData.workersOverride || userData.workers || levelLimit(userData.level)?.workers || 1)); }
 
-function itemSummaryRow(i, label, idx) { return `<tr class="best-xp-${Math.min(idx+1,7)}"><td>${iconCell(i)}</td><td>${label}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${i.adjXpPerMin.toFixed(2)}</td><td>${i.adjProfitPerMin.toFixed(2)}</td><td>${fmt(i.adjUnits)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`; }
-function metricRow(i, label, metric, idx) {
-  if (metric === 'xp') return `<tr class="best-xp-${Math.min(idx+1,7)}"><td>${iconCell(i)}</td><td>${label}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${i.adjXpPerMin.toFixed(2)}</td><td>${xpValue(i.adjXp)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
-  if (metric === 'profit') return `<tr class="best-profit-${Math.min(idx+1,7)}"><td>${iconCell(i)}</td><td>${label}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${i.adjProfitPerMin.toFixed(2)}</td><td>${money(i.adjProfit)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
-  return `<tr class="best-portions-${Math.min(idx+1,7)}"><td>${iconCell(i)}</td><td>${label}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${i.adjUnitsPerMin.toFixed(2)}</td><td>${fmt(i.adjUnits)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
+function itemSummaryRow(i, label, rowClass) {
+  return `<tr class="${rowClass}"><td>${iconCell(i)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${metricStack('xp.png', 'XP', i.adjXp, i.adjXpPerMin)}</td><td>${metricStack('fashiondollars.png', 'Fashiondollars', i.adjProfit, i.adjProfitPerMin)}</td><td>${unitMetricStack(i.adjUnits, i.adjUnitsPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
 }
+function metricRow(i, label, metric, rowClass) {
+  if (metric === 'xp') return `<tr class="${rowClass}"><td>${iconCell(i)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${metricStack('xp.png', 'XP', i.adjXp, i.adjXpPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
+  if (metric === 'profit') return `<tr class="${rowClass}"><td>${iconCell(i)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${metricStack('fashiondollars.png', 'Fashiondollars', i.adjProfit, i.adjProfitPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
+  return `<tr class="${rowClass}"><td>${iconCell(i)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${unitMetricStack(i.adjUnits, i.adjUnitsPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
+}
+function metricStack(file, alt, value, perMin) {
+  return `<div class="metric-stack"><span>${currencyIcon(file, alt)}<strong>${fmt(value)}</strong></span><small>${decimal(perMin)}/min</small></div>`;
+}
+function unitMetricStack(value, perMin) {
+  return `<div class="metric-stack"><span><strong>${fmt(value)}</strong></span><small>${decimal(perMin)}/min</small></div>`;
+}
+function decimal(n) { return Number(n || 0).toFixed(2); }
 function iconCell(i) {
   if (!i || !i.key) return '<div class="missing-img">No icon</div>';
   const candidates = iconCandidates(i.key);
@@ -697,7 +756,7 @@ function money(n) { return valueWithIcon('fashiondollars.png', 'Fashiondollars',
 function xpValue(n) { return valueWithIcon('xp.png', 'XP', fmt(n)); }
 function goldValue(n) { return valueWithIcon('goldbuttons.png', 'Gold Buttons', fmt(n)); }
 function hours(h) { return `${Number(h || 0).toFixed(1)}h`; }
-function timeFmt(minutes) { minutes = Math.round(Number(minutes || 0)); if (minutes < 60) return `${minutes} min`; const h = Math.floor(minutes / 60); const m = minutes % 60; return m ? `${h}h ${m}m` : `${h}h`; }
+function timeFmt(minutes) { minutes = Math.round(Number(minutes || 0)); if (minutes < 60) return `${minutes} min`; const h = Math.floor(minutes / 60); const m = minutes % 60; return m ? `${h} h ${m} min` : `${h} h`; }
 function escapeHtml(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function escapeAttr(s) { return escapeHtml(s).replace(/'/g, '&#039;'); }
 

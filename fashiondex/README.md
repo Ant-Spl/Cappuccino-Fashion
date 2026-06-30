@@ -1,15 +1,15 @@
 # FashionDex
 
-Static GitHub Pages version for the `fashiondex/` folder.
+GitHub Pages build for `Ant-Spl/Cappuccino-Fashion`.
 
-Expected public repo paths:
+Place these files inside the repo's `fashiondex/` folder:
 
-- `../FashionItems.xml`
-- `../FashionLevelXp.xml`
-- `../langs/Fashion_en.xml`
-- `../clothingicons/` for outfit images
+- `index.html`
+- `app.js`
+- `style.css`
+- `.nojekyll`
 
-Expected FashionDex UI icon files in the same `fashiondex/` folder:
+Menu/currency icons should also be in `fashiondex/`:
 
 - `mydex.png`
 - `coopplanner.png`
@@ -21,4 +21,4 @@ Expected FashionDex UI icon files in the same `fashiondex/` folder:
 - `fashiondollars.png`
 - `goldbuttons.png`
 
-Custom clothing bases with `n="Custom"` are hidden from all FashionDex views.
+The app reads Fashion XML from the repository and hides custom-clothing base patterns from the Dex.
