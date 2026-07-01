@@ -1,1 +1,1 @@
-FashionDex GitHub Pages build - FIXED30. Premium clothing filtering/tags and My Mannequin image picker.
+FashionDex DishDex-style static GitHub Pages build - FIXED31
