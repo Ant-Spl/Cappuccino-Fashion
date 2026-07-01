@@ -4471,3 +4471,107 @@ body.dark-theme .coop-team-reward-row .muted-text {
     width: 100%;
   }
 }
+
+/* FIXED19 Co-Op Planner cleanup */
+.dishdex-coop-plan {
+  border: 0 !important;
+  padding: 0 !important;
+}
+
+body.dark-theme .coop-plan-heading p,
+body.dark-theme .coop-table td.dish-name .dish-type-tag,
+body.dark-theme .coop-table .dish-type-tag,
+.coop-table td.dish-name .dish-type-tag {
+  color: #f6dcae !important;
+  opacity: 1 !important;
+  font-weight: 900 !important;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.35);
+}
+
+.coop-assignment-section {
+  padding: 18px 20px !important;
+}
+
+.coop-assignment-section .section-heading-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left !important;
+  gap: 16px;
+}
+
+.coop-assignment-section .section-heading-row h3 {
+  text-align: left !important;
+  margin: 0 0 8px !important;
+}
+
+.coop-assignment-section .section-heading-row .section-note {
+  text-align: left !important;
+  margin: 0 !important;
+}
+
+.coop-assignment-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+  gap: 12px !important;
+  align-items: stretch !important;
+}
+
+.coop-assignment-card {
+  text-align: left !important;
+  justify-items: start !important;
+  align-items: start !important;
+  align-content: start !important;
+  display: grid !important;
+  gap: 7px !important;
+  padding: 12px 14px !important;
+  min-height: 0 !important;
+}
+
+.coop-assignment-card > strong,
+.coop-assignment-card > span {
+  text-align: left !important;
+  justify-self: start !important;
+}
+
+.coop-assignment-card em {
+  justify-self: start !important;
+  text-align: left !important;
+  display: inline-grid !important;
+  gap: 1px !important;
+  width: fit-content !important;
+  max-width: 100% !important;
+  margin: 2px 0 !important;
+  padding: 6px 10px !important;
+  border-radius: 999px !important;
+}
+
+.coop-assignment-card em small {
+  display: block !important;
+  text-align: center !important;
+  font-size: 0.72rem !important;
+  line-height: 1.1 !important;
+}
+
+.coop-team-compact-section {
+  padding: 16px 18px !important;
+}
+
+.coop-team-selected-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.reset-coop-workloads {
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .coop-assignment-section .section-heading-row,
+  .coop-team-selected-heading {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

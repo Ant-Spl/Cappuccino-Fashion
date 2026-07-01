@@ -1154,24 +1154,54 @@ function buildCoopAssignment(c) {
   const remaining = new Map();
   c.requirements.forEach(req => remaining.set(String(req.clothId), Number(req.amount || 0)));
 
-  const assignBatch = (member, req, requestedUnits = Infinity) => {
+  const getAssignment = (member, req) => member.assignments.get(String(req.clothId));
+  const extraDurationForUnits = (member, req, units = 1) => {
+    const current = getAssignment(member, req);
+    const currentUnits = Number(current?.units || 0);
+    const production = Math.max(1, memberProductionUnits(member, req));
+    const oldBatches = currentUnits > 0 ? Math.ceil(currentUnits / production) : 0;
+    const newBatches = currentUnits + units > 0 ? Math.ceil((currentUnits + units) / production) : 0;
+    return Math.max(0, newBatches - oldBatches) * getMemberProductionDuration(member, req);
+  };
+
+  const assignUnits = (member, req, requestedUnits = 1) => {
     const key = String(req.clothId);
     const left = Number(remaining.get(key) || 0);
     if (left <= 0 || member.level < Number(req.level || 0)) return 0;
-    const unitsPerBatch = memberProductionUnits(member, req);
-    const units = Math.min(left, requestedUnits, unitsPerBatch);
+    const units = Math.max(0, Math.min(left, Math.floor(Number(requestedUnits || 0))));
     if (units <= 0) return 0;
-    const minutes = getMemberProductionDuration(member, req);
-    const existing = member.assignments.get(key) || { req, batches: 0, units: 0, minutes: 0, duration: minutes, goldLabel: memberHasGoldLabel(member, req.clothId) };
-    existing.batches += 1;
+    const production = Math.max(1, memberProductionUnits(member, req));
+    const duration = getMemberProductionDuration(member, req);
+    const existing = member.assignments.get(key) || {
+      req,
+      batches: 0,
+      units: 0,
+      minutes: 0,
+      duration,
+      goldLabel: memberHasGoldLabel(member, req.clothId)
+    };
+    const oldBatches = existing.units > 0 ? Math.ceil(existing.units / production) : 0;
     existing.units += units;
-    existing.minutes += minutes;
-    existing.duration = minutes;
+    const newBatches = existing.units > 0 ? Math.ceil(existing.units / production) : 0;
+    const addedMinutes = Math.max(0, newBatches - oldBatches) * duration;
+    existing.batches = newBatches;
+    existing.minutes = newBatches * duration;
+    existing.duration = duration;
     existing.goldLabel = existing.goldLabel || memberHasGoldLabel(member, req.clothId);
     member.assignments.set(key, existing);
-    member.loadMinutes += minutes;
+    member.loadMinutes += addedMinutes;
+    // virtualMinutes lets the planner split small Co-Op requirements between designers
+    // instead of letting one oversized production consume a whole requirement alone.
+    member.virtualMinutes = Number(member.virtualMinutes || 0) + (units * duration / production);
     remaining.set(key, Math.max(0, left - units));
     return units;
+  };
+
+  const assignShortestContribution = (member) => {
+    const eligible = c.requirements
+      .filter(req => member.level >= Number(req.level || 0) && Number(remaining.get(String(req.clothId)) || 0) > 0)
+      .sort((a, b) => getMemberProductionDuration(member, a) - getMemberProductionDuration(member, b) || a.name.localeCompare(b.name));
+    return eligible.length ? assignUnits(member, eligible[0], 1) : 0;
   };
 
   members
@@ -1179,55 +1209,49 @@ function buildCoopAssignment(c) {
     .forEach(member => {
       Object.entries(normalizeManualAssignments(member.manualAssignments)).forEach(([clothId, amount]) => {
         const req = c.requirements.find(r => String(r.clothId) === String(clothId));
-        let leftManual = Math.max(0, Math.floor(Number(amount || 0)));
-        while (req && leftManual > 0 && Number(remaining.get(String(req.clothId)) || 0) > 0) {
-          const assigned = assignBatch(member, req, leftManual);
-          if (!assigned) break;
-          leftManual -= assigned;
-        }
-        if (leftManual > 0) warnings.push(`${member.name}: manual assignment for ${req?.name || clothId} could not be fully filled`);
+        const wanted = Math.max(0, Math.floor(Number(amount || 0)));
+        const assigned = req ? assignUnits(member, req, wanted) : 0;
+        if (wanted > assigned) warnings.push(`${member.name}: manual assignment for ${req?.name || clothId} could not be fully filled`);
       });
     });
 
   members
     .filter(member => member.workload === 'minimum')
-    .forEach(member => {
-      const eligible = c.requirements
-        .filter(req => member.level >= Number(req.level || 0) && Number(remaining.get(String(req.clothId)) || 0) > 0)
-        .sort((a, b) => getMemberProductionDuration(member, a) - getMemberProductionDuration(member, b) || a.name.localeCompare(b.name));
-      if (eligible.length) assignBatch(member, eligible[0]);
-    });
+    .forEach(member => assignShortestContribution(member));
 
-  // Co-Op rewards require contribution. Before optimizing the rest, give each eligible
-  // non-manual player one short production when possible so valid players are not skipped.
+  // Co-Op rewards require contribution. Give every eligible non-manual player one
+  // small contribution first; then the optimizer splits the rest by level, factories,
+  // workload, and Gold Label time bonuses.
   members
     .filter(member => member.loadMinutes <= 0 && member.workload !== 'manual')
     .sort((a, b) => a.slot - b.slot)
-    .forEach(member => {
-      const eligible = c.requirements
-        .filter(req => member.level >= Number(req.level || 0) && Number(remaining.get(String(req.clothId)) || 0) > 0)
-        .sort((a, b) => getMemberProductionDuration(member, a) - getMemberProductionDuration(member, b) || a.name.localeCompare(b.name));
-      if (eligible.length) assignBatch(member, eligible[0]);
-    });
+    .forEach(member => assignShortestContribution(member));
+
+  const chooseMemberForReq = (req) => {
+    let candidates = members.filter(member => member.workload !== 'manual' && member.workload !== 'minimum' && member.level >= Number(req.level || 0));
+    if (!candidates.length) candidates = members.filter(member => member.workload !== 'manual' && member.level >= Number(req.level || 0));
+    if (!candidates.length) return null;
+    return candidates.slice().sort((a, b) => {
+      const wa = Math.max(0.05, COOP_WORKLOADS[a.workload]?.weight || 1);
+      const wb = Math.max(0.05, COOP_WORKLOADS[b.workload]?.weight || 1);
+      const va = (Number(a.virtualMinutes || 0) + (getMemberProductionDuration(a, req) / Math.max(1, memberProductionUnits(a, req)))) / Math.max(1, a.workers) / wa;
+      const vb = (Number(b.virtualMinutes || 0) + (getMemberProductionDuration(b, req) / Math.max(1, memberProductionUnits(b, req)))) / Math.max(1, b.workers) / wb;
+      const ta = (a.loadMinutes + extraDurationForUnits(a, req, 1)) / Math.max(1, a.workers) / wa;
+      const tb = (b.loadMinutes + extraDurationForUnits(b, req, 1)) / Math.max(1, b.workers) / wb;
+      return va - vb || ta - tb || a.slot - b.slot;
+    })[0];
+  };
 
   for (const req of c.requirements) {
     const key = String(req.clothId);
     while (Number(remaining.get(key) || 0) > 0) {
-      let candidates = members.filter(member => member.workload !== 'manual' && member.workload !== 'minimum' && member.level >= Number(req.level || 0));
-      if (!candidates.length) candidates = members.filter(member => member.workload !== 'manual' && member.level >= Number(req.level || 0));
-      if (!candidates.length) {
+      const chosen = chooseMemberForReq(req);
+      if (!chosen) {
         unassigned.push({ req, units: Number(remaining.get(key) || 0) });
         remaining.set(key, 0);
         break;
       }
-      const chosen = candidates.slice().sort((a, b) => {
-        const wa = Math.max(0.05, COOP_WORKLOADS[a.workload]?.weight || 1);
-        const wb = Math.max(0.05, COOP_WORKLOADS[b.workload]?.weight || 1);
-        const scoreA = ((a.loadMinutes + getMemberProductionDuration(a, req)) / Math.max(1, a.workers)) / wa;
-        const scoreB = ((b.loadMinutes + getMemberProductionDuration(b, req)) / Math.max(1, b.workers)) / wb;
-        return scoreA - scoreB || a.slot - b.slot;
-      })[0];
-      if (!assignBatch(chosen, req)) break;
+      if (!assignUnits(chosen, req, 1)) break;
     }
   }
 

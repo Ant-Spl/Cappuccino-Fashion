@@ -1,14 +1,11 @@
-# FashionDex DishDex Clone FIXED17
+# FashionDex FIXED19
 
-Co-Op Planner polish pass:
+Co-Op planner polish and assignment distribution update.
 
-- Added Reset workloads button to the selected team plan.
-- Planner now tries to give every eligible non-manual player at least one production before optimizing the rest, so valid teammates do not get skipped unnecessarily.
-- Kept Minimum workload behavior as one shortest eligible production first.
-- Cleaned up the outfit assignment plan styling to be closer to DishDex.
-- Improved dark-mode contrast for Co-Op descriptions and assignment text.
-
-Deploy these files inside `fashiondex/` and hard refresh after upload.
-
-
-FIXED18: Added missing labelClass helper that caused 'Could not load Fashion data' when rendering label effects.
+Changes:
+- Split assignment units across all eligible designers instead of letting one oversized production consume an entire requirement.
+- Designers can receive multiple outfit types in the assignment plan.
+- Kept contribution seeding so eligible players are not skipped.
+- Removed extra nested dashed outline around the selected Co-Op plan.
+- Cleaned the assignment plan card layout and dark-mode contrast.
+- Strengthened Co-Op description contrast in dark mode.
