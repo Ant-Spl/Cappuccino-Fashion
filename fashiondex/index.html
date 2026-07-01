@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-profile-v23">
+  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-profile-v24">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -366,10 +366,11 @@
       <section class="panel">
         <h2>Fashion Profile</h2>
         <p class="section-note">Your profile is saved locally in this browser only.</p>
-        <div class="profile-grid">
+        <div class="profile-grid profile-grid-autoworkers">
           <label><span>Boutique name</span><input id="profileName" type="text" placeholder="My boutique"></label>
           <label><span>Player level</span><input id="profileLevel" type="number" min="0" max="999" value="1"></label>
-          <label><span>Workers override</span><input id="profileWorkers" type="number" min="1" placeholder="Auto"></label>
+          <label><span>Available Workers</span><input id="profileWorkers" type="number" min="1" value="1"></label>
+          <label class="inline-toggle setting-toggle profile-auto-workers-toggle"><input id="profileAutoWorkersToggle" type="checkbox" checked><span>Autofill Workers?</span></label>
         </div>
         <div class="data-actions profile-data-actions"><button id="saveProfile" class="action-button" type="button">Save Profile</button><button id="downloadData" class="action-button" type="button">Download Data</button><button id="loadData" class="action-button" type="button">Load Data</button><button id="deleteData" class="action-button danger-button" type="button">Delete Data</button><input id="loadDataFile" type="file" accept="application/json" hidden></div>
         <div id="profileLevelInfo"></div>
@@ -405,6 +406,6 @@
       </section>
     </section>
   </main>
-  <script src="app.js?v=20260630-fashiondex-profile-v23"></script>
+  <script src="app.js?v=20260630-fashiondex-profile-v24"></script>
 </body>
 </html>

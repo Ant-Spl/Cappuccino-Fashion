@@ -1,4 +1,4 @@
-/* FashionDex/app.js - DishDex-style static GitHub Pages build v20 */
+/* FashionDex/app.js - DishDex-style static GitHub Pages build v24 */
 (() => {
 'use strict';
 
@@ -92,6 +92,7 @@ function defaultUserData() {
     level: 1,
     xpNeeded: 1000,
     workers: 3,
+    autoWorkers: true,
     workersOverride: '',
     patternMode: 'cash',
     useLabels: true,
@@ -124,7 +125,15 @@ function defaultUserData() {
 
 function loadUserData() {
   try {
-    return { ...defaultUserData(), ...(JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}')) };
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    const data = { ...defaultUserData(), ...saved };
+    if (saved.autoWorkers === undefined) data.autoWorkers = !saved.workersOverride;
+    if (saved.workersOverride && saved.autoWorkers === undefined) {
+      const overrideWorkers = Math.max(1, Math.round(Number(saved.workersOverride || 0)));
+      if (overrideWorkers > 0) data.workers = overrideWorkers;
+    }
+    data.workers = Math.max(1, Math.round(Number(data.workers || 1)));
+    return data;
   } catch {
     return defaultUserData();
   }
@@ -190,6 +199,7 @@ async function main() {
     };
 
     DATA = buildData(items.doc, levels?.doc || null, lang?.doc || null);
+    if (userData.autoWorkers !== false) userData.workers = workersForLevel(userData.level);
     if (!userData.selectedCoopId && DATA.coops.length) userData.selectedCoopId = String(DATA.coops[0].id);
     syncInputs();
     renderAll();
@@ -399,7 +409,7 @@ function setupSortOptions() {
 }
 
 function bindInputs() {
-  const ids = ['playerLevel','xpNeeded','workerCount','patternMode','useLabelsToggle','fullSearch','fullSort','fullUseLabelsToggle','fullFamily','fullGender','timePlayerLevel','myTimeHours','myTimeMinutes','myTimeMarginPlusHours','myTimeMarginPlusMinutes','myTimeMarginMinusHours','myTimeMarginMinusMinutes','myTimeUseLabelsToggle','coopSearch','coopSort','coopTeamSelect','coopTeamName','profileName','profileLevel','profileWorkers','labelSearch','labelFamily','labelSort','labelSlots'];
+  const ids = ['playerLevel','xpNeeded','workerCount','patternMode','useLabelsToggle','fullSearch','fullSort','fullUseLabelsToggle','fullFamily','fullGender','timePlayerLevel','myTimeHours','myTimeMinutes','myTimeMarginPlusHours','myTimeMarginPlusMinutes','myTimeMarginMinusHours','myTimeMarginMinusMinutes','myTimeUseLabelsToggle','coopSearch','coopSort','coopTeamSelect','coopTeamName','profileName','profileLevel','profileWorkers','profileAutoWorkersToggle','labelSearch','labelFamily','labelSort','labelSlots'];
   ids.forEach(id => {
     document.getElementById(id)?.addEventListener('input', onInputChange);
     document.getElementById(id)?.addEventListener('change', onInputChange);
@@ -578,6 +588,24 @@ function onInputChange(e) {
   }
   if (['playerLevel','timePlayerLevel','profileLevel'].includes(id)) {
     ['playerLevel','timePlayerLevel','profileLevel'].forEach(otherId => setValue(otherId, e.target.value));
+    if (getChecked('profileAutoWorkersToggle', userData.autoWorkers !== false)) {
+      const workers = workersForLevel(Number(e.target.value || userData.level || 1));
+      setValue('profileWorkers', workers);
+      setValue('workerCount', workers);
+    }
+  }
+  if (id === 'profileAutoWorkersToggle') {
+    const auto = getChecked('profileAutoWorkersToggle', true);
+    const workers = auto ? workersForLevel(intValue('profileLevel', userData.level)) : Math.max(1, intValue('profileWorkers', userData.workers));
+    setValue('profileWorkers', workers);
+    setValue('workerCount', workers);
+    setProfileWorkersEditable(!auto);
+  }
+  if (id === 'profileWorkers' || id === 'workerCount') {
+    const workers = Math.max(1, intValue(id, userData.workers || 1));
+    setValue(id, workers);
+    if (id === 'profileWorkers') setValue('workerCount', workers);
+    if (id === 'workerCount' && !getChecked('profileAutoWorkersToggle', userData.autoWorkers !== false)) setValue('profileWorkers', workers);
   }
   readInputs();
   saveUserData();
@@ -609,7 +637,13 @@ function syncInputs() {
   setValue('coopTeamName', userData.coopTeamName);
   setValue('profileName', userData.profileName);
   setValue('profileLevel', userData.level);
-  setValue('profileWorkers', userData.workersOverride);
+  const profileAutoWorkers = userData.autoWorkers !== false;
+  const profileWorkers = profileAutoWorkers ? workersForLevel(userData.level) : Math.max(1, Number(userData.workers || userData.workersOverride || workersForLevel(userData.level) || 1));
+  userData.workers = profileWorkers;
+  setValue('profileWorkers', profileWorkers);
+  setChecked('profileAutoWorkersToggle', profileAutoWorkers);
+  setProfileWorkersEditable(!profileAutoWorkers);
+  setValue('workerCount', userData.workers);
   setValue('labelSearch', userData.labelSearch);
   setValue('labelFamily', userData.labelFamily);
   setValue('labelSort', userData.labelSort);
@@ -618,7 +652,7 @@ function syncInputs() {
 function readInputs() {
   userData.level = intValue('playerLevel', intValue('timePlayerLevel', intValue('profileLevel', userData.level)));
   userData.xpNeeded = intValue('xpNeeded', userData.xpNeeded);
-  userData.workers = intValue('workerCount', userData.workers);
+  userData.workers = Math.max(1, intValue('workerCount', userData.workers));
   userData.patternMode = getValue('patternMode', userData.patternMode);
   userData.useLabels = getChecked('useLabelsToggle', userData.useLabels);
   userData.fullSearch = getValue('fullSearch', userData.fullSearch);
@@ -639,7 +673,13 @@ function readInputs() {
   userData.coopTeamName = getValue('coopTeamName', userData.coopTeamName);
   readCoopTeamInputs();
   userData.profileName = getValue('profileName', userData.profileName);
-  userData.workersOverride = getValue('profileWorkers', userData.workersOverride);
+  userData.autoWorkers = getChecked('profileAutoWorkersToggle', userData.autoWorkers !== false);
+  const profileWorkers = userData.autoWorkers ? workersForLevel(userData.level) : Math.max(1, intValue('profileWorkers', userData.workers));
+  userData.workers = profileWorkers;
+  userData.workersOverride = userData.autoWorkers ? '' : String(profileWorkers);
+  setValue('profileWorkers', profileWorkers);
+  setValue('workerCount', profileWorkers);
+  setProfileWorkersEditable(!userData.autoWorkers);
   userData.labelSearch = getValue('labelSearch', userData.labelSearch);
   userData.labelFamily = getValue('labelFamily', userData.labelFamily);
   userData.labelSort = getValue('labelSort', userData.labelSort);
@@ -647,6 +687,14 @@ function readInputs() {
   syncLevelInputs();
 }
 function syncLevelInputs() { ['playerLevel','timePlayerLevel','profileLevel'].forEach(id => setValue(id, userData.level)); }
+function setProfileWorkersEditable(editable) {
+  const el = document.getElementById('profileWorkers');
+  if (el) {
+    el.disabled = !editable;
+    el.min = '1';
+    el.classList.toggle('readonly-input', !editable);
+  }
+}
 function setValue(id, value) { const el = document.getElementById(id); if (el && el.value !== String(value ?? '')) el.value = value ?? ''; }
 function getValue(id, fallback='') { const el = document.getElementById(id); return el ? el.value : fallback; }
 function intValue(id, fallback=0) { const value = Number(getValue(id, fallback)); return Number.isFinite(value) ? Math.max(0, Math.round(value)) : fallback; }
@@ -946,6 +994,7 @@ function normalizeManualAssignments(value) {
 }
 
 function workersForLevel(level) {
+  if (!DATA) return Math.max(1, Math.round(Number(userData?.workers || 1)));
   const l = levelLimit(Math.max(0, Number(level || 0)));
   return Math.max(1, Number(l?.workers || 1));
 }
@@ -1761,7 +1810,7 @@ function sortValue(item, key) {
 function filterText(i, q) { return `${i.id} ${i.key} ${i.name} ${i.family} ${i.category} ${i.genderName}`.toLowerCase().includes(q); }
 function uniqueBy(arr, fn) { const seen = new Set(); return arr.filter(x => { const k = fn(x); if (seen.has(k)) return false; seen.add(k); return true; }); }
 function levelLimit(level) { let row = DATA.levels[0] || fallbackLevelLimits(level || 1)[0]; for (const l of DATA.levels) if (l.level <= level) row = l; return row; }
-function effectiveWorkers() { return Math.max(1, Number(userData.workersOverride || userData.workers || levelLimit(userData.level)?.workers || 1)); }
+function effectiveWorkers() { return Math.max(1, Number(userData.workers || levelLimit(userData.level)?.workers || 1)); }
 
 function itemSummaryRow(i, label, rowClass) {
   return `<tr class="${rowClass}"><td>${iconCell(i)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${metricStack('xp.png', 'XP', i.adjXp, i.adjXpPerMin)}</td><td>${metricStack('fashiondollars.png', 'Fashiondollars', i.adjProfit, i.adjProfitPerMin)}</td><td>${unitMetricStack(i.adjUnits, i.adjUnitsPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;

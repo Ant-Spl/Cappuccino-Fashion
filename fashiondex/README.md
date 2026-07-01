@@ -1,8 +1,9 @@
-# FashionDex FIXED23
+# FashionDex FIXED24
 
-Profile wording cleanup.
+Profile wording and worker autofill update.
 
-- Renamed level summary to `Level X Limits:`.
-- Removed internal attribute codes from the profile limit cards.
-- Renamed Workers / Shelves / Cashiers / Daily instant productions.
-- Removed current-level cash and Gold Button reward cards.
+- Renamed Workers override to Available Workers.
+- Added Autofill Workers? toggle, on by default.
+- Available Workers updates from FashionLevelXp when level changes.
+- When autofill is off, Available Workers can be edited manually.
+- Worker count is clamped to at least 1.

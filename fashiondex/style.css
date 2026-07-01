@@ -285,6 +285,7 @@ body.dark-theme .danger-button { color: #ff9a91; }
 }
 
 .profile-grid { grid-template-columns: 2fr 1fr 1fr; }
+.profile-grid.profile-grid-autoworkers { grid-template-columns: 2fr 1fr 1fr auto; align-items: end; }
 
 .sort-grid {
   display: grid;
@@ -469,6 +470,19 @@ body.dark-theme .dish-type-tag {
 .inline-toggle.setting-toggle span {
   color: var(--brown-dark);
   font-weight: 900;
+}
+
+
+.profile-auto-workers-toggle {
+  min-height: 48px;
+  align-self: end;
+  white-space: nowrap;
+}
+
+input.readonly-input,
+input:disabled.readonly-input {
+  opacity: 0.86;
+  cursor: not-allowed;
 }
 
 .ingredient-detail-row td {
