@@ -5028,3 +5028,17 @@ body.dark-theme .mannequin-score-cards .metric strong {
     width: 100%;
   }
 }
+
+/* FIXED33: My Mannequin auto-mode score preview contrast */
+body.dark-theme #mannequinAutoBody .mannequin-preview span,
+body.dark-theme #mannequinAutoBody .mannequin-preview small,
+body.dark-theme #mannequinAutoBody .metric-stack span,
+body.dark-theme #mannequinAutoBody .metric-stack small {
+  color: #3b2417 !important;
+  text-shadow: none !important;
+  font-weight: 900;
+}
+
+body.dark-theme #mannequinAutoBody .mannequin-preview {
+  color: #3b2417 !important;
+}
