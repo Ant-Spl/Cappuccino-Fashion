@@ -335,7 +335,7 @@ function buildData(itemsDoc, levelsDoc, langDoc) {
   const clothes = [...itemsDoc.querySelectorAll('wod')]
     .filter(el => attr(el, 'g') === 'Clothes' && attr(el, 'n') !== 'Custom')
     .map(el => normalizeCloth(el, lang.cloth))
-    .sort((a,b)=>a.level-b.level || a.id-b.id);
+    .sort((a,b)=>effectiveUnlockLevel(a)-effectiveUnlockLevel(b) || a.id-b.id);
   const clothesById = new Map(clothes.map(c => [c.id, c]));
 
   const coops = [...itemsDoc.querySelectorAll('wod')]
@@ -346,7 +346,7 @@ function buildData(itemsDoc, levelsDoc, langDoc) {
 
   const maxContentLevel = Math.max(
     1,
-    ...clothes.map(c => c.level || 0),
+    ...clothes.map(c => effectiveUnlockLevel(c) || 0),
     ...coops.map(c => c.maxLevel || c.minLevel || 0)
   );
   const levels = parseLevelLimits(levelsDoc, maxContentLevel);
@@ -420,6 +420,9 @@ function normalizeCloth(el, names) {
   const incomePerUnit = num(el, 'incomePerUnit');
   const productionCostCash = num(el, 'productionCostCash');
   const productionCostGold = num(el, 'productionCostGold');
+  const baseLevel = num(el, 'level');
+  const isPremiumClothing = key.startsWith('Premium') && productionCostGold > 0;
+  const displayLevel = isPremiumClothing ? Math.max(10, baseLevel) : baseLevel;
   const revenue = incomePerUnit * production;
   const profit = revenue - productionCostCash;
   const xp = num(el, 'xp');
@@ -428,7 +431,7 @@ function normalizeCloth(el, names) {
   return {
     id: num(el, 'id'), n: attr(el,'n'), key, langKey,
     name: names[langKey] || prettify(key),
-    level: num(el,'level'), displayLevel: (key.startsWith('Premium') && productionCostGold > 0) ? 10 : num(el,'level'), xp,
+    level: baseLevel, displayLevel, xp,
     patternCash: num(el,'cash'), patternGold: num(el,'gold'), friends: num(el,'friends'), goldNoFriends: num(el,'goldNoFriends'),
     incomePerUnit, production, duration, productSubType: subtype,
     productionCostCash, productionCostGold, revenue, profit,
@@ -438,7 +441,7 @@ function normalizeCloth(el, names) {
     family, category: CATEGORY_BY_SUBTYPE.get(subtype) || `Subtype ${subtype}`,
     gender, genderName: GENDER[gender] || `Gender ${gender}`,
     isPremiumProduction: productionCostGold > 0,
-    isPremiumClothing: key.startsWith('Premium') && productionCostGold > 0,
+    isPremiumClothing,
     isGoldPattern: num(el,'gold') > 0
   };
 }
@@ -990,18 +993,19 @@ function bestItem(items, scoreFunction) {
 
 
 function effectiveUnlockLevel(item) {
-  return item?.isPremiumClothing ? 10 : Number(item?.level || 0);
+  return Number(item?.displayLevel ?? item?.level ?? 0);
 }
 
 function levelCell(item) {
-  return item?.isPremiumClothing ? '10+' : fmt(item?.level || 0);
+  const level = effectiveUnlockLevel(item);
+  return item?.isPremiumClothing ? `${fmt(level)}+` : fmt(level);
 }
 
 function outfitNameWithTags(item) {
   if (!item) return '';
   const tags = [];
   if (item.isGoldPattern) tags.push('<span class="gold-pattern-tag">Gold Pattern</span>');
-  if (item.isPremiumClothing) tags.push('<span class="premium-pattern-tag">Premium - Level 10+</span>');
+  if (item.isPremiumClothing) tags.push(`<span class="premium-pattern-tag">Premium - Level ${fmt(effectiveUnlockLevel(item))}+</span>`);
   return `${escapeHtml(item.name)}${tags.length ? ' ' + tags.join(' ') : ''}`;
 }
 
@@ -1042,7 +1046,7 @@ function renderTime() {
   if (target > 0) {
     matches = timeAvailableItems(useLabels)
       .filter(i => i.duration >= min && i.duration <= max)
-      .sort((a, b) => a.level - b.level || a.duration - b.duration || a.name.localeCompare(b.name));
+      .sort((a, b) => effectiveUnlockLevel(a) - effectiveUnlockLevel(b) || a.duration - b.duration || a.name.localeCompare(b.name));
   }
 
   const summary = document.getElementById('myTimeWindowSummary');
@@ -1068,7 +1072,7 @@ function renderTime() {
   const allBody = document.getElementById('myTimeAllBody');
   if (allBody) {
     allBody.innerHTML = matches.length
-      ? matches.map(i => `<tr class="row-${timeBucket(i.duration)}"><td>${iconCell(i)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${metricStack('xp.png', 'XP', i.adjXp, i.adjXpPerMin)}</td><td>${metricStack('fashiondollars.png', 'Fashiondollars', i.adjProfit, i.adjProfitPerMin)}</td><td>${unitMetricStack(i.adjUnits, i.adjUnitsPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`).join('')
+      ? matches.map(i => `<tr class="row-${timeBucket(i.duration)}"><td>${iconCell(i)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${levelCell(i)}</td><td>${metricStack('xp.png', 'XP', i.adjXp, i.adjXpPerMin)}</td><td>${metricStack('fashiondollars.png', 'Fashiondollars', i.adjProfit, i.adjProfitPerMin)}</td><td>${unitMetricStack(i.adjUnits, i.adjUnitsPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`).join('')
       : emptyRow(8, target > 0 ? 'No outfits match this time window. Try increasing the margin.' : 'Set a target time above 0.');
   }
 }
@@ -1999,7 +2003,7 @@ function renderLabels() {
       <td class="dish-name">${escapeHtml(i.name)}<div class="dish-type-tag">${escapeHtml(i.category)}</div></td>
       <td>${labelClickSquares(base, level)}${level ? `<button type="button" class="clear-label-button" data-id="${escapeAttr(i.id)}">Clear</button>` : ''}</td>
       <td class="effects-cell">${labelEffectsHtml(base, level)}</td>
-      <td>${fmt(i.level)}</td>
+      <td>${levelCell(i)}</td>
     </tr>`;
   }).join('') : emptyRow(5, 'No outfits match this search.');
 }
@@ -2119,20 +2123,21 @@ function sortValue(item, key) {
   if (key === 'effectiveProfitPerMin') return item.adjProfitPerMin ?? item.profitPerMin;
   if (key === 'effectiveXpPerMin') return item.adjXpPerMin ?? item.xpPerMin;
   if (key === 'effectiveUnitsPerMin') return item.adjUnitsPerMin ?? item.unitsPerMin;
+  if (key === 'level') return effectiveUnlockLevel(item);
   return item[key];
 }
-function filterText(i, q) { return `${i.id} ${i.key} ${i.name} ${i.family} ${i.category} ${i.genderName} ${i.isGoldPattern ? 'Gold Pattern' : ''} ${i.isPremiumClothing ? 'Premium Level 10+' : ''}`.toLowerCase().includes(q); }
+function filterText(i, q) { return `${i.id} ${i.key} ${i.name} ${i.family} ${i.category} ${i.genderName} ${i.isGoldPattern ? 'Gold Pattern' : ''} ${i.isPremiumClothing ? `Premium Level ${effectiveUnlockLevel(i)}+` : ''}`.toLowerCase().includes(q); }
 function uniqueBy(arr, fn) { const seen = new Set(); return arr.filter(x => { const k = fn(x); if (seen.has(k)) return false; seen.add(k); return true; }); }
 function levelLimit(level) { let row = DATA.levels[0] || fallbackLevelLimits(level || 1)[0]; for (const l of DATA.levels) if (l.level <= level) row = l; return row; }
 function effectiveWorkers() { return Math.max(1, Number(userData.workers || levelLimit(userData.level)?.workers || 1)); }
 
 function itemSummaryRow(i, label, rowClass) {
-  return `<tr class="${rowClass}"><td>${iconCell(i)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${metricStack('xp.png', 'XP', i.adjXp, i.adjXpPerMin)}</td><td>${metricStack('fashiondollars.png', 'Fashiondollars', i.adjProfit, i.adjProfitPerMin)}</td><td>${unitMetricStack(i.adjUnits, i.adjUnitsPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
+  return `<tr class="${rowClass}"><td>${iconCell(i)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${levelCell(i)}</td><td>${metricStack('xp.png', 'XP', i.adjXp, i.adjXpPerMin)}</td><td>${metricStack('fashiondollars.png', 'Fashiondollars', i.adjProfit, i.adjProfitPerMin)}</td><td>${unitMetricStack(i.adjUnits, i.adjUnitsPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
 }
 function metricRow(i, label, metric, rowClass) {
-  if (metric === 'xp') return `<tr class="${rowClass}"><td>${iconCell(i)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${metricStack('xp.png', 'XP', i.adjXp, i.adjXpPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
-  if (metric === 'profit') return `<tr class="${rowClass}"><td>${iconCell(i)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${metricStack('fashiondollars.png', 'Fashiondollars', i.adjProfit, i.adjProfitPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
-  return `<tr class="${rowClass}"><td>${iconCell(i)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${i.level}</td><td>${unitMetricStack(i.adjUnits, i.adjUnitsPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
+  if (metric === 'xp') return `<tr class="${rowClass}"><td>${iconCell(i)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${levelCell(i)}</td><td>${metricStack('xp.png', 'XP', i.adjXp, i.adjXpPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
+  if (metric === 'profit') return `<tr class="${rowClass}"><td>${iconCell(i)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${levelCell(i)}</td><td>${metricStack('fashiondollars.png', 'Fashiondollars', i.adjProfit, i.adjProfitPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
+  return `<tr class="${rowClass}"><td>${iconCell(i)}</td><td>${escapeHtml(label)}</td><td class="dish-name">${escapeHtml(i.name)}</td><td>${levelCell(i)}</td><td>${unitMetricStack(i.adjUnits, i.adjUnitsPerMin)}</td><td>${timeFmt(i.duration)}</td><td>${escapeHtml(i.category)}</td></tr>`;
 }
 function metricStack(file, alt, value, perMin) {
   return `<div class="metric-stack"><span>${currencyIcon(file, alt)}<strong>${fmt(value)}</strong></span><small>${decimal(perMin)}/min</small></div>`;
