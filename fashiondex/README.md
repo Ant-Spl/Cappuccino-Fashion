@@ -1,9 +1,3 @@
-# FashionDex FIXED24
+# FashionDex FIXED25
 
-Profile wording and worker autofill update.
-
-- Renamed Workers override to Available Workers.
-- Added Autofill Workers? toggle, on by default.
-- Available Workers updates from FashionLevelXp when level changes.
-- When autofill is off, Available Workers can be edited manually.
-- Worker count is clamped to at least 1.
+My Labels cleanup: simplified sort options, shortened instructions, removed the old Label Summary sidebar, and added a Label Completion progress bar that reaches 100% when every outfit has a Gold Label.

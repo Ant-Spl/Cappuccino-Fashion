@@ -1,4 +1,4 @@
-/* FashionDex/app.js - DishDex-style static GitHub Pages build v24 */
+/* FashionDex/app.js - DishDex-style static GitHub Pages build v25 */
 (() => {
 'use strict';
 
@@ -117,7 +117,7 @@ function defaultUserData() {
     coopTeams: [],
     labelSearch: '',
     labelFamily: 'all',
-    labelSort: 'next',
+    labelSort: 'levelAsc',
     labelSlots: 4,
     labels: {}
   };
@@ -127,6 +127,8 @@ function loadUserData() {
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
     const data = { ...defaultUserData(), ...saved };
+    const legacyLabelSorts = { level: 'levelAsc', name: 'nameAsc', label: 'levelAsc', next: 'levelAsc' };
+    if (legacyLabelSorts[data.labelSort]) data.labelSort = legacyLabelSorts[data.labelSort];
     if (saved.autoWorkers === undefined) data.autoWorkers = !saved.workersOverride;
     if (saved.workersOverride && saved.autoWorkers === undefined) {
       const overrideWorkers = Math.max(1, Math.round(Number(saved.workersOverride || 0)));
@@ -1661,24 +1663,30 @@ function renderProfile() {
   document.getElementById('profileLevelInfo').innerHTML = l ? `<div class="ok-box"><h3>Level ${l.level} Limits:</h3><div class="mini-grid">${metric('Workers', l.workers)}${metric('Shelves', l.counters)}${metric('Mannequins', l.mannequins)}${metric('Cashiers', l.cashdesks)}${metric('Dressing rooms', l.changingrooms)}${metric('Daily instant productions', l.storeSize)}</div></div>` : '<div class="empty">No level data found.</div>';
 }
 
+
+function renderLabelCompletion() {
+  const total = DATA?.clothes?.length || 0;
+  const gold = (DATA?.clothes || []).filter(item => labelLevel(item) >= 3).length;
+  const pct = total ? Math.round((gold / total) * 100) : 0;
+  const fill = document.getElementById('labelCompletionFill');
+  const text = document.getElementById('labelCompletionText');
+  const percent = document.getElementById('labelCompletionPercent');
+  if (fill) fill.style.width = `${pct}%`;
+  if (text) text.textContent = `${fmt(gold)} of ${fmt(total)} outfits have Gold Labels.`;
+  if (percent) percent.textContent = `${pct}%`;
+}
+
 function renderLabels() {
   let items = DATA.clothes.map(i => ({ ...adjusted(i, true), nextInfo: nextLabelInfo(i) }));
   const q = userData.labelSearch.trim().toLowerCase();
   if (q) items = items.filter(i => filterText(i, q));
   if (userData.labelFamily !== 'all') items = items.filter(i => i.family === userData.labelFamily);
-  if (userData.labelSort === 'level') items.sort((a,b)=>a.level-b.level || a.name.localeCompare(b.name));
-  else if (userData.labelSort === 'name') items.sort((a,b)=>a.name.localeCompare(b.name));
-  else if (userData.labelSort === 'label') items.sort((a,b)=>b.labelLevel-a.labelLevel || a.name.localeCompare(b.name));
-  else items.sort((a,b)=>a.nextInfo.remaining-b.nextInfo.remaining || a.level-b.level || a.name.localeCompare(b.name));
+  if (userData.labelSort === 'levelDesc') items.sort((a,b)=>b.level-a.level || a.name.localeCompare(b.name));
+  else if (userData.labelSort === 'nameAsc') items.sort((a,b)=>a.name.localeCompare(b.name) || a.level-b.level);
+  else if (userData.labelSort === 'nameDesc') items.sort((a,b)=>b.name.localeCompare(a.name) || a.level-b.level);
+  else items.sort((a,b)=>a.level-b.level || a.name.localeCompare(b.name));
 
-  const totals = labelTotals();
-  const tracked = Object.values(userData.labels || {}).filter(v => Number(v) > 0).length;
-  document.getElementById('labelStats').innerHTML = [
-    stat('Bronze+ Labels', totals.bronze),
-    stat('Silver+ Labels', totals.silver),
-    stat('Gold Labels', totals.gold),
-    stat('Tracked outfits', tracked)
-  ].join('');
+  renderLabelCompletion();
 
   document.getElementById('labelsBody').innerHTML = items.length ? items.map(i => {
     const base = DATA.clothesById.get(i.id) || i;
