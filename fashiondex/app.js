@@ -1828,7 +1828,7 @@ function selectedManualMannequinItems(rows) {
 
 function mannequinAutoChecked(categoryKey) {
   if (!userData.mannequinAutoSelections || typeof userData.mannequinAutoSelections !== 'object') userData.mannequinAutoSelections = {};
-  return userData.mannequinAutoSelections[categoryKey] !== false;
+  return userData.mannequinAutoSelections[categoryKey] === true;
 }
 
 function mannequinItemScore(item) {

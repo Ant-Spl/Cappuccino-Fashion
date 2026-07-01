@@ -272,8 +272,12 @@ h1 {
 body.dark-theme .danger-button { color: #ff9a91; }
 
 .inputs-panel {
+  position: static;
+}
+
+.mydex-settings-panel {
   position: sticky;
-  top: 0;
+  top: 12px;
   z-index: 5;
 }
 
@@ -785,7 +789,9 @@ td.effects-cell {
   .four-mode-grid { grid-template-columns: 1fr; }
 
   .split-panels { grid-template-columns: 1fr; }
-  .inputs-panel { position: static; }
+  .inputs-panel,
+  .mydex-settings-panel,
+  .mannequin-score-panel { position: static; }
 
   .theme-toggle-row,
   .home-controls {
@@ -4722,6 +4728,16 @@ body.dark-theme .coop-table .dish-type-tag,
 }
 
 /* FIXED28: My Mannequin */
+.mannequin-settings-panel {
+  position: static;
+}
+
+.mannequin-score-panel {
+  position: sticky;
+  top: 12px;
+  z-index: 6;
+}
+
 .mannequin-input-grid {
   grid-template-columns: 1fr 1fr auto;
   align-items: end;
@@ -4788,6 +4804,8 @@ body:not(.dark-theme) .mannequin-score-cards .metric strong {
 }
 
 @media (max-width: 860px) {
+  .mannequin-score-panel { position: static; }
+
   .mannequin-input-grid,
   .mannequin-score-cards {
     grid-template-columns: 1fr;
