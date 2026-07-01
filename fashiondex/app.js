@@ -455,13 +455,15 @@ function normalizeCoop(el, coopLang, clothesById) {
   const requirements = reqs.map(([clothId, amount]) => {
     const cloth = clothesById.get(clothId);
     if (!cloth) return { clothId, amount, missing: true, name: `Unknown #${clothId}`, batches: 0, minutes: 0, cost: 0, level: 0 };
-    const batches = Math.ceil(amount / Math.max(1, cloth.production));
+    // Fashion Co-Op amounts are production runs, not store inventory pieces.
+    // A requirement like 18× Purple Turtleneck means 18 factory productions.
+    const batches = Math.max(0, Math.floor(Number(amount || 0)));
     const minutes = batches * cloth.duration;
     const reqCost = batches * cloth.productionCostCash;
     factoryMinutes += minutes;
     cost += reqCost;
-    revenue += amount * cloth.incomePerUnit;
-    return { clothId, amount, missing: false, name: cloth.name, key: cloth.key, level: cloth.level, production: cloth.production, duration: cloth.duration, batches, minutes, cost: reqCost, category: cloth.category, family: cloth.family };
+    revenue += batches * cloth.production * cloth.incomePerUnit;
+    return { clothId, amount: batches, missing: false, name: cloth.name, key: cloth.key, level: cloth.level, production: cloth.production, duration: cloth.duration, batches, minutes, cost: reqCost, category: cloth.category, family: cloth.family };
   });
   return {
     id: num(el,'id'), key,
@@ -1374,22 +1376,22 @@ function buildCoopAssignment(c) {
   c.requirements.forEach(req => remaining.set(String(req.clothId), Number(req.amount || 0)));
 
   const getAssignment = (member, req) => member.assignments.get(String(req.clothId));
-  const extraDurationForUnits = (member, req, units = 1) => {
-    const current = getAssignment(member, req);
-    const currentUnits = Number(current?.units || 0);
-    const production = Math.max(1, memberProductionUnits(member, req));
-    const oldBatches = currentUnits > 0 ? Math.ceil(currentUnits / production) : 0;
-    const newBatches = currentUnits + units > 0 ? Math.ceil((currentUnits + units) / production) : 0;
-    return Math.max(0, newBatches - oldBatches) * getMemberProductionDuration(member, req);
+  const projectedMemberCompletion = (member, req = null, productions = 0) => {
+    const tasks = memberProductionTasks(member);
+    if (req && productions > 0) {
+      const duration = getMemberProductionDuration(member, req);
+      for (let i = 0; i < productions; i += 1) tasks.push(duration);
+    }
+    return scheduleProductionTasks(tasks, member.workers);
   };
 
   const assignUnits = (member, req, requestedUnits = 1) => {
     const key = String(req.clothId);
     const left = Number(remaining.get(key) || 0);
     if (left <= 0 || member.level < Number(req.level || 0)) return 0;
+    // In Co-Ops this number means production runs/batches, not inventory pieces.
     const units = Math.max(0, Math.min(left, Math.floor(Number(requestedUnits || 0))));
     if (units <= 0) return 0;
-    const production = Math.max(1, memberProductionUnits(member, req));
     const duration = getMemberProductionDuration(member, req);
     const existing = member.assignments.get(key) || {
       req,
@@ -1399,19 +1401,14 @@ function buildCoopAssignment(c) {
       duration,
       goldLabel: memberHasGoldLabel(member, req.clothId)
     };
-    const oldBatches = existing.units > 0 ? Math.ceil(existing.units / production) : 0;
     existing.units += units;
-    const newBatches = existing.units > 0 ? Math.ceil(existing.units / production) : 0;
-    const addedMinutes = Math.max(0, newBatches - oldBatches) * duration;
-    existing.batches = newBatches;
-    existing.minutes = newBatches * duration;
+    existing.batches = existing.units;
+    existing.minutes = existing.batches * duration;
     existing.duration = duration;
     existing.goldLabel = existing.goldLabel || memberHasGoldLabel(member, req.clothId);
     member.assignments.set(key, existing);
-    member.loadMinutes += addedMinutes;
-    // virtualMinutes lets the planner split small Co-Op requirements between designers
-    // instead of letting one oversized production consume a whole requirement alone.
-    member.virtualMinutes = Number(member.virtualMinutes || 0) + (units * duration / production);
+    member.loadMinutes += units * duration;
+    member.virtualMinutes = Number(member.virtualMinutes || 0) + (units * duration);
     remaining.set(key, Math.max(0, left - units));
     return units;
   };
@@ -1453,11 +1450,11 @@ function buildCoopAssignment(c) {
     return candidates.slice().sort((a, b) => {
       const wa = Math.max(0.05, COOP_WORKLOADS[a.workload]?.weight || 1);
       const wb = Math.max(0.05, COOP_WORKLOADS[b.workload]?.weight || 1);
-      const va = (Number(a.virtualMinutes || 0) + (getMemberProductionDuration(a, req) / Math.max(1, memberProductionUnits(a, req)))) / Math.max(1, a.workers) / wa;
-      const vb = (Number(b.virtualMinutes || 0) + (getMemberProductionDuration(b, req) / Math.max(1, memberProductionUnits(b, req)))) / Math.max(1, b.workers) / wb;
-      const ta = (a.loadMinutes + extraDurationForUnits(a, req, 1)) / Math.max(1, a.workers) / wa;
-      const tb = (b.loadMinutes + extraDurationForUnits(b, req, 1)) / Math.max(1, b.workers) / wb;
-      return va - vb || ta - tb || a.slot - b.slot;
+      const pa = projectedMemberCompletion(a, req, 1) / wa;
+      const pb = projectedMemberCompletion(b, req, 1) / wb;
+      const va = Number(a.virtualMinutes || 0) / Math.max(1, a.workers) / wa;
+      const vb = Number(b.virtualMinutes || 0) / Math.max(1, b.workers) / wb;
+      return pa - pb || va - vb || a.slot - b.slot;
     })[0];
   };
 
@@ -1697,10 +1694,10 @@ function renderCoopManualAssignmentEditor() {
   const rows = (coop?.requirements || []).map(req => {
     const canProduce = Number(member.level || 0) >= Number(req.level || 0);
     const value = normalizeManualAssignments(member.manualAssignments)[String(req.clothId)] || 0;
-    return `<div class="manual-assignment-row ${canProduce ? '' : 'disabled'}"><div class="manual-assignment-info">${iconCell(DATA.clothesById.get(req.clothId) || {})}<span><strong>${escapeHtml(req.name)}</strong><small>${fmt(req.amount)} units required · Level ${fmt(req.level)}</small></span></div><input class="manual-assignment-input" data-slot="${slot}" data-cloth-id="${req.clothId}" type="number" min="0" max="${req.amount}" step="1" value="${fmt(value)}" ${canProduce ? '' : 'disabled'}></div>`;
+    return `<div class="manual-assignment-row ${canProduce ? '' : 'disabled'}"><div class="manual-assignment-info">${iconCell(DATA.clothesById.get(req.clothId) || {})}<span><strong>${escapeHtml(req.name)}</strong><small>${fmt(req.amount)} productions required · Level ${fmt(req.level)}</small></span></div><input class="manual-assignment-input" data-slot="${slot}" data-cloth-id="${req.clothId}" type="number" min="0" max="${req.amount}" step="1" value="${fmt(value)}" ${canProduce ? '' : 'disabled'}></div>`;
   }).join('');
   editor.classList.remove('hidden');
-  editor.innerHTML = `<div class="coop-editor-card manual-editor-card"><button type="button" class="close-editor-button" data-close-coop-editor>×</button><h3>Manual assignment: ${escapeHtml(member.name || `Player ${slot}`)}</h3><p>Choose exactly how many required outfit units this player should produce. The planner assigns the remaining outfits after this.</p><div class="manual-assignment-list">${rows || '<div class="empty">Choose a Co-Op first.</div>'}</div></div>`;
+  editor.innerHTML = `<div class="coop-editor-card manual-editor-card"><button type="button" class="close-editor-button" data-close-coop-editor>×</button><h3>Manual assignment: ${escapeHtml(member.name || `Player ${slot}`)}</h3><p>Choose exactly how many required productions this player should make. The planner assigns the remaining outfits after this.</p><div class="manual-assignment-list">${rows || '<div class="empty">Choose a Co-Op first.</div>'}</div></div>`;
 }
 
 function closeCoopEditors() {
