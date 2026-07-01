@@ -5000,3 +5000,31 @@ body.dark-theme .mannequin-preview span,
 body.dark-theme .mannequin-preview small {
   color: #fff4e8 !important;
 }
+
+/* FIXED32: final My Mannequin polish */
+body.dark-theme .mannequin-score-cards .metric strong,
+body.dark-theme .mannequin-score-cards .metric span,
+body.dark-theme .mannequin-score-cards .metric small {
+  color: #fff4e8 !important;
+  text-shadow: none !important;
+}
+body.dark-theme .mannequin-score-cards .metric strong {
+  font-weight: 900;
+}
+.mannequin-manual-heading {
+  align-items: flex-start;
+  gap: 16px;
+}
+.mannequin-manual-heading .secondary-button {
+  margin-left: auto;
+  white-space: nowrap;
+}
+@media (max-width: 760px) {
+  .mannequin-manual-heading {
+    align-items: stretch;
+  }
+  .mannequin-manual-heading .secondary-button {
+    margin-left: 0;
+    width: 100%;
+  }
+}

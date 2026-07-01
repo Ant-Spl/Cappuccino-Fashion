@@ -596,6 +596,10 @@ function bindInputs() {
     if (mannequinPickerClose || e.target?.classList?.contains('mannequin-picker-backdrop')) {
       closeMannequinPicker();
     }
+    const resetMannequinPicksButton = e.target?.closest?.('#resetMannequinPicks, .reset-mannequin-picks');
+    if (resetMannequinPicksButton) {
+      resetMannequinPicks();
+    }
 
     const resetWorkloadsButton = e.target?.closest?.('.reset-coop-workloads');
     if (resetWorkloadsButton) {
@@ -1815,6 +1819,14 @@ function chooseMannequinManualItem(categoryKey, itemId) {
   if (!userData.mannequinManualSelections || typeof userData.mannequinManualSelections !== 'object') userData.mannequinManualSelections = {};
   if (itemId) userData.mannequinManualSelections[categoryKey] = String(itemId);
   else delete userData.mannequinManualSelections[categoryKey];
+  saveUserData();
+  closeMannequinPicker();
+  renderMannequin();
+}
+
+function resetMannequinPicks() {
+  userData.mannequinManualSelections = {};
+  userData.mannequinAutoSelections = {};
   saveUserData();
   closeMannequinPicker();
   renderMannequin();

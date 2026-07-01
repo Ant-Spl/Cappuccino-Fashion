@@ -1,1 +1,1 @@
-FashionDex DishDex-style static GitHub Pages build - FIXED31
+FashionDex DishDex-style build FIXED32.
