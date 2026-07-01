@@ -131,6 +131,8 @@ function defaultUserData() {
     workersOverride: '',
     patternMode: 'cash',
     myDexGender: '0',
+    suggestPremium: false,
+    mannequinSuggestPremium: false,
     useLabels: true,
     myTimeHours: 0,
     myTimeMinutes: 0,
@@ -426,7 +428,7 @@ function normalizeCloth(el, names) {
   return {
     id: num(el, 'id'), n: attr(el,'n'), key, langKey,
     name: names[langKey] || prettify(key),
-    level: num(el,'level'), xp,
+    level: num(el,'level'), displayLevel: (key.startsWith('Premium') && productionCostGold > 0) ? 10 : num(el,'level'), xp,
     patternCash: num(el,'cash'), patternGold: num(el,'gold'), friends: num(el,'friends'), goldNoFriends: num(el,'goldNoFriends'),
     incomePerUnit, production, duration, productSubType: subtype,
     productionCostCash, productionCostGold, revenue, profit,
@@ -436,6 +438,7 @@ function normalizeCloth(el, names) {
     family, category: CATEGORY_BY_SUBTYPE.get(subtype) || `Subtype ${subtype}`,
     gender, genderName: GENDER[gender] || `Gender ${gender}`,
     isPremiumProduction: productionCostGold > 0,
+    isPremiumClothing: key.startsWith('Premium') && productionCostGold > 0,
     isGoldPattern: num(el,'gold') > 0
   };
 }
@@ -481,7 +484,7 @@ function setupSortOptions() {
 }
 
 function bindInputs() {
-  const ids = ['playerLevel','xpNeeded','workerCount','patternMode','myDexGender','useLabelsToggle','fullSearch','fullSort','fullUseLabelsToggle','fullFamily','fullGender','timePlayerLevel','myTimeHours','myTimeMinutes','myTimeMarginPlusHours','myTimeMarginPlusMinutes','myTimeMarginMinusHours','myTimeMarginMinusMinutes','myTimeUseLabelsToggle','coopSearch','coopSort','coopTeamSelect','coopTeamName','mannequinLevel','mannequinGender','mannequinManualMode','profileName','profileLevel','profileWorkers','profileAutoWorkersToggle','labelSearch','labelFamily','labelSort','labelSlots'];
+  const ids = ['playerLevel','xpNeeded','workerCount','patternMode','myDexGender','suggestPremiumToggle','useLabelsToggle','fullSearch','fullSort','fullUseLabelsToggle','fullFamily','fullGender','timePlayerLevel','myTimeHours','myTimeMinutes','myTimeMarginPlusHours','myTimeMarginPlusMinutes','myTimeMarginMinusHours','myTimeMarginMinusMinutes','myTimeUseLabelsToggle','coopSearch','coopSort','coopTeamSelect','coopTeamName','mannequinLevel','mannequinGender','mannequinSuggestPremiumToggle','mannequinManualMode','profileName','profileLevel','profileWorkers','profileAutoWorkersToggle','labelSearch','labelFamily','labelSort','labelSlots'];
   ids.forEach(id => {
     document.getElementById(id)?.addEventListener('input', onInputChange);
     document.getElementById(id)?.addEventListener('change', onInputChange);
@@ -576,6 +579,24 @@ function bindInputs() {
     if (copyButton) {
       copyCoopAssignmentMarkdown();
     }
+
+    const mannequinPickerButton = e.target?.closest?.('.open-mannequin-picker');
+    if (mannequinPickerButton) {
+      openMannequinPicker(String(mannequinPickerButton.dataset.category || ''));
+    }
+    const mannequinPickerChoice = e.target?.closest?.('.mannequin-picker-choice');
+    if (mannequinPickerChoice) {
+      chooseMannequinManualItem(String(mannequinPickerChoice.dataset.category || ''), String(mannequinPickerChoice.dataset.itemId || ''));
+    }
+    const mannequinPickerClear = e.target?.closest?.('.clear-mannequin-picker-choice');
+    if (mannequinPickerClear) {
+      chooseMannequinManualItem(String(mannequinPickerClear.dataset.category || ''), '');
+    }
+    const mannequinPickerClose = e.target?.closest?.('[data-close-mannequin-picker]');
+    if (mannequinPickerClose || e.target?.classList?.contains('mannequin-picker-backdrop')) {
+      closeMannequinPicker();
+    }
+
     const resetWorkloadsButton = e.target?.closest?.('.reset-coop-workloads');
     if (resetWorkloadsButton) {
       resetCoopWorkloads();
@@ -702,6 +723,7 @@ function syncInputs() {
   setValue('workerCount', userData.workers);
   setValue('patternMode', userData.patternMode);
   setValue('myDexGender', userData.myDexGender || '0');
+  setChecked('suggestPremiumToggle', !!userData.suggestPremium);
   setChecked('useLabelsToggle', userData.useLabels);
   setValue('fullSearch', userData.fullSearch);
   setValue('fullSort', userData.fullSort);
@@ -722,6 +744,7 @@ function syncInputs() {
   setValue('coopTeamName', userData.coopTeamName);
   setValue('mannequinLevel', userData.level);
   setValue('mannequinGender', userData.mannequinGender || '1');
+  setChecked('mannequinSuggestPremiumToggle', !!userData.mannequinSuggestPremium);
   setChecked('mannequinManualMode', userData.mannequinManualMode);
   setValue('profileName', userData.profileName);
   setValue('profileLevel', userData.level);
@@ -743,6 +766,7 @@ function readInputs() {
   userData.workers = Math.max(1, intValue('workerCount', userData.workers));
   userData.patternMode = getValue('patternMode', userData.patternMode);
   userData.myDexGender = getValue('myDexGender', userData.myDexGender || '0');
+  userData.suggestPremium = getChecked('suggestPremiumToggle', !!userData.suggestPremium);
   userData.useLabels = getChecked('useLabelsToggle', userData.useLabels);
   userData.fullSearch = getValue('fullSearch', userData.fullSearch);
   userData.fullSort = getValue('fullSort', userData.fullSort);
@@ -761,6 +785,7 @@ function readInputs() {
   userData.coopTeamId = getValue('coopTeamSelect', userData.coopTeamId);
   userData.coopTeamName = getValue('coopTeamName', userData.coopTeamName);
   userData.mannequinGender = getValue('mannequinGender', userData.mannequinGender || '1');
+  userData.mannequinSuggestPremium = getChecked('mannequinSuggestPremiumToggle', !!userData.mannequinSuggestPremium);
   userData.mannequinManualMode = getChecked('mannequinManualMode', userData.mannequinManualMode);
   readCoopTeamInputs();
   userData.profileName = getValue('profileName', userData.profileName);
@@ -959,6 +984,23 @@ function bestItem(items, scoreFunction) {
     .sort((a, b) => Number(scoreFunction(b)) - Number(scoreFunction(a)) || a.level - b.level || a.name.localeCompare(b.name))[0];
 }
 
+
+function effectiveUnlockLevel(item) {
+  return item?.isPremiumClothing ? 10 : Number(item?.level || 0);
+}
+
+function levelCell(item) {
+  return item?.isPremiumClothing ? '10+' : fmt(item?.level || 0);
+}
+
+function outfitNameWithTags(item) {
+  if (!item) return '';
+  const tags = [];
+  if (item.isGoldPattern) tags.push('<span class="gold-pattern-tag">Gold Pattern</span>');
+  if (item.isPremiumClothing) tags.push('<span class="premium-pattern-tag">Premium - Level 10+</span>');
+  return `${escapeHtml(item.name)}${tags.length ? ' ' + tags.join(' ') : ''}`;
+}
+
 function renderFullDex() {
   const useLabels = userData.fullUseLabels !== false;
   let items = DATA.clothes.map(i => adjusted(i, useLabels));
@@ -970,8 +1012,8 @@ function renderFullDex() {
   document.getElementById('fullDexBody').innerHTML = items.length ? items.map(i => `
     <tr class="category-${familyClass(i.family)}">
       <td>${iconCell(i)}</td>
-      <td class="dish-name">${escapeHtml(i.name)}${i.isGoldPattern ? ' <span class="gold-pattern-tag">Gold Pattern</span>' : ''}</td>
-      <td>${i.level}</td>
+      <td class="dish-name">${outfitNameWithTags(i)}</td>
+      <td>${levelCell(i)}</td>
       <td>${metricStack('xp.png', 'XP', i.adjXp, i.adjXpPerMin)}</td>
       <td>${metricStack('fashiondollars.png', 'Fashiondollars', i.adjProfit, i.adjProfitPerMin)}</td>
       <td>${unitMetricStack(i.adjUnits, i.adjUnitsPerMin)}</td>
@@ -1749,6 +1791,35 @@ async function copyCoopAssignmentMarkdown() {
 }
 
 
+
+function openMannequinPicker(categoryKey) {
+  const picker = document.getElementById('mannequinPicker');
+  if (!picker) return;
+  const rows = buildMannequinCategoryRows();
+  const row = rows.find(r => r.key === categoryKey);
+  if (!row) return;
+  const current = String(userData.mannequinManualSelections?.[categoryKey] || '');
+  const items = row.items;
+  picker.classList.remove('hidden');
+  picker.innerHTML = `<div class="mannequin-picker-backdrop"></div><div class="mannequin-picker-card"><button type="button" class="close-editor-button" data-close-mannequin-picker>×</button><h3>Choose ${escapeHtml(row.label)}</h3><p class="section-note">Showing eligible ${genderWord(userData.mannequinGender)} and unisex outfits for level ${fmt(userData.level)}.</p><div class="mannequin-picker-actions"><button class="secondary-button clear-mannequin-picker-choice" data-category="${escapeAttr(categoryKey)}" type="button">Clear selection</button></div><div class="mannequin-picker-grid">${items.length ? items.map(item => `<button type="button" class="mannequin-picker-choice ${String(item.id) === current ? 'selected' : ''}" data-category="${escapeAttr(categoryKey)}" data-item-id="${item.id}">${iconCell(item)}<span><strong>${outfitNameWithTags(item)}</strong><small>Level ${levelCell(item)} · ${escapeHtml(item.category)}</small><small>${mannequinPreviewStack(mannequinDesignAwards([item]))}</small></span></button>`).join('') : '<div class="empty">No eligible outfits for this category.</div>'}</div></div>`;
+}
+
+function closeMannequinPicker() {
+  const picker = document.getElementById('mannequinPicker');
+  if (!picker) return;
+  picker.classList.add('hidden');
+  picker.innerHTML = '';
+}
+
+function chooseMannequinManualItem(categoryKey, itemId) {
+  if (!userData.mannequinManualSelections || typeof userData.mannequinManualSelections !== 'object') userData.mannequinManualSelections = {};
+  if (itemId) userData.mannequinManualSelections[categoryKey] = String(itemId);
+  else delete userData.mannequinManualSelections[categoryKey];
+  saveUserData();
+  closeMannequinPicker();
+  renderMannequin();
+}
+
 function renderMannequin() {
   const autoPanel = document.getElementById('mannequinAutoPanel');
   const manualPanel = document.getElementById('mannequinManualPanel');
@@ -1777,8 +1848,8 @@ function renderMannequin() {
         <td><input class="mannequin-auto-check" data-category="${escapeAttr(row.key)}" type="checkbox" ${checked ? 'checked' : ''}></td>
         <td>${iconCell(item)}</td>
         <td>${escapeHtml(row.label)}</td>
-        <td class="dish-name">${escapeHtml(item.name)}${item.isGoldPattern ? ' <span class="gold-pattern-tag">Gold Pattern</span>' : ''}</td>
-        <td>${fmt(item.level)}</td>
+        <td class="dish-name">${outfitNameWithTags(item)}</td>
+        <td>${levelCell(item)}</td>
         <td>${mannequinPreviewStack(preview)}</td>
       </tr>`;
     }).join('') : emptyRow(6, 'No eligible outfits found.');
@@ -1788,13 +1859,12 @@ function renderMannequin() {
   if (manualBody) {
     manualBody.innerHTML = rows.length ? rows.map(row => {
       const current = String(userData.mannequinManualSelections[row.key] || '');
-      const item = current ? DATA.clothesById.get(Number(current)) : null;
-      const checked = !!current;
-      const options = row.items.map(i => `<option value="${i.id}" ${String(i.id) === current ? 'selected' : ''}>${escapeHtml(i.name)} — Level ${fmt(i.level)}</option>`).join('');
+      const item = current ? row.items.find(i => String(i.id) === current) || null : null;
+      const selectedCell = item ? `<div class="mannequin-manual-choice">${iconCell(item)}<span><strong>${outfitNameWithTags(item)}</strong><small>Level ${levelCell(item)} · ${escapeHtml(item.category)}</small></span></div>` : '<span class="empty">No outfit selected</span>';
       return `<tr>
-        <td><input class="mannequin-auto-check" data-category="${escapeAttr(row.key)}" type="checkbox" ${checked ? 'checked' : ''} disabled></td>
         <td>${escapeHtml(row.label)}</td>
-        <td><select class="mannequin-manual-select" data-category="${escapeAttr(row.key)}"><option value="">None</option>${options}</select></td>
+        <td>${selectedCell}</td>
+        <td><button class="action-button compact-choose-button open-mannequin-picker" data-category="${escapeAttr(row.key)}" type="button">Choose outfit</button></td>
         <td>${item ? mannequinPreviewStack(mannequinDesignAwards([item])) : '<span class="empty">Not selected</span>'}</td>
       </tr>`;
     }).join('') : emptyRow(4, 'No eligible outfits found.');
@@ -1812,8 +1882,10 @@ function buildMannequinCategoryRows() {
 function mannequinEligibleItems(category) {
   const gender = Number(userData.mannequinGender || 1);
   const level = Number(userData.level || 1);
+  const allowPremium = !!userData.mannequinSuggestPremium && level >= 10;
   return DATA.clothes
-    .filter(item => item.level <= level)
+    .filter(item => effectiveUnlockLevel(item) <= level)
+    .filter(item => !item.isPremiumClothing || allowPremium)
     .filter(item => item.gender === 0 || item.gender === gender)
     .filter(item => category.subtypes.includes(Number(item.productSubType)));
 }
@@ -1823,7 +1895,7 @@ function selectedAutoMannequinItems(rows) {
 }
 
 function selectedManualMannequinItems(rows) {
-  return rows.map(row => DATA.clothesById.get(Number(userData.mannequinManualSelections[row.key] || 0))).filter(Boolean);
+  return rows.map(row => row.items.find(item => String(item.id) === String(userData.mannequinManualSelections[row.key] || ''))).filter(Boolean);
 }
 
 function mannequinAutoChecked(categoryKey) {
@@ -1965,11 +2037,13 @@ function masteredDuration(duration) {
 }
 
 function availableItems(useLabels) {
+  const level = Number(userData.level || 0);
+  const allowPremium = !!userData.suggestPremium && level >= 10;
   return DATA.clothes
-    .filter(i => i.level <= Number(userData.level || 0))
+    .filter(i => effectiveUnlockLevel(i) <= level)
     .filter(i => userData.patternMode === 'all' || i.patternGold <= 0)
     .filter(i => String(i.gender) === String(userData.myDexGender || '0'))
-    .filter(i => i.productionCostGold <= 0)
+    .filter(i => !i.isPremiumClothing || allowPremium)
     .map(i => adjusted(i, useLabels && userData.useLabels));
 }
 function adjusted(item, useLabels) {
@@ -2035,7 +2109,7 @@ function sortValue(item, key) {
   if (key === 'effectiveUnitsPerMin') return item.adjUnitsPerMin ?? item.unitsPerMin;
   return item[key];
 }
-function filterText(i, q) { return `${i.id} ${i.key} ${i.name} ${i.family} ${i.category} ${i.genderName} ${i.isGoldPattern ? 'Gold Pattern' : ''}`.toLowerCase().includes(q); }
+function filterText(i, q) { return `${i.id} ${i.key} ${i.name} ${i.family} ${i.category} ${i.genderName} ${i.isGoldPattern ? 'Gold Pattern' : ''} ${i.isPremiumClothing ? 'Premium Level 10+' : ''}`.toLowerCase().includes(q); }
 function uniqueBy(arr, fn) { const seen = new Set(); return arr.filter(x => { const k = fn(x); if (seen.has(k)) return false; seen.add(k); return true; }); }
 function levelLimit(level) { let row = DATA.levels[0] || fallbackLevelLimits(level || 1)[0]; for (const l of DATA.levels) if (l.level <= level) row = l; return row; }
 function effectiveWorkers() { return Math.max(1, Number(userData.workers || levelLimit(userData.level)?.workers || 1)); }

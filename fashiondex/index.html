@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-mannequin-v28">
+  <link rel="stylesheet" href="style.css?v=20260701-fashiondex-premium-v30">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -116,6 +116,7 @@
           <label><span>Available Workers</span><input id="workerCount" type="number" min="1" value="3"></label>
           <label><span>Pattern visibility</span><select id="patternMode"><option value="cash">Cash patterns only</option><option value="all">Include gold patterns</option></select></label>
           <label><span>Recommend outfits</span><select id="myDexGender"><option value="0" selected>Unisex</option><option value="2">Male</option><option value="1">Female</option></select></label>
+          <label class="inline-toggle setting-toggle"><input id="suggestPremiumToggle" type="checkbox"><span>Suggest Premium clothing?</span></label>
           <label class="inline-toggle setting-toggle"><input id="useLabelsToggle" type="checkbox" checked><span>Use my Labels?</span></label>
         </div>
         <p class="hint">Insert your data for personalized outfit recommendations.</p>
@@ -392,6 +393,7 @@
         <div class="input-grid mannequin-input-grid">
           <label><span>Player Level</span><input id="mannequinLevel" type="number" min="0" max="999" value="1"></label>
           <label><span>Mannequin</span><select id="mannequinGender"><option value="1" selected>Female</option><option value="2">Male</option></select></label>
+          <label class="inline-toggle setting-toggle"><input id="mannequinSuggestPremiumToggle" type="checkbox"><span>Suggest Premium clothing?</span></label>
           <label class="inline-toggle setting-toggle"><input id="mannequinManualMode" type="checkbox"><span>Manual mode?</span></label>
         </div>
       </section>
@@ -415,7 +417,7 @@
       <section class="panel hidden" id="mannequinManualPanel">
         <h2>Manual Outfit Picker</h2>
         <p class="section-note">Pick one outfit from each category and compare the reward yourself.</p>
-        <div class="table-wrap"><table><thead><tr><th>Use</th><th>Category</th><th>Outfit</th><th>Preview</th></tr></thead><tbody id="mannequinManualBody"></tbody></table></div>
+        <div class="table-wrap"><table><thead><tr><th>Category</th><th>Selected Outfit</th><th>Choose</th><th>Preview</th></tr></thead><tbody id="mannequinManualBody"></tbody></table></div>
       </section>
     </section>
 
@@ -468,6 +470,7 @@
       </section>
     </section>
   </main>
-  <script src="app.js?v=20260630-fashiondex-mannequin-v29"></script>
+  <div id="mannequinPicker" class="mannequin-picker hidden" aria-live="polite"></div>
+  <script src="app.js?v=20260701-fashiondex-premium-v30"></script>
 </body>
 </html>
