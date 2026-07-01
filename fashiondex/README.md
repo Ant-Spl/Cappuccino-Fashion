@@ -1,3 +1,8 @@
-# FashionDex DishDex Clone FIXED22
+# FashionDex FIXED23
 
-Co-Op estimate fix. Team time now schedules each production batch onto each player's workers/factories instead of dividing total assigned time by worker count. A single 8h production remains at least 8h even when the player has multiple workers; workers only parallelize separate productions.
+Profile wording cleanup.
+
+- Renamed level summary to `Level X Limits:`.
+- Removed internal attribute codes from the profile limit cards.
+- Renamed Workers / Shelves / Cashiers / Daily instant productions.
+- Removed current-level cash and Gold Button reward cards.

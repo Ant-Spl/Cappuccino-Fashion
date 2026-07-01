@@ -1609,7 +1609,7 @@ async function copyCoopAssignmentMarkdown() {
 
 function renderProfile() {
   const l = levelLimit(userData.level);
-  document.getElementById('profileLevelInfo').innerHTML = l ? `<div class="ok-box"><h3>Level ${l.level} limits/rewards</h3><div class="mini-grid">${metric('Workers / factories', l.workers, 'f')}${metric('Shelves / counters', l.counters, 'co')}${metric('Mannequins', l.mannequins, 'm')}${metric('Cash desks', l.cashdesks, 'ca')}${metric('Dressing rooms', l.changingrooms, 'cr')}${metric('Store size / i', l.storeSize, 'i')}${metric('Cash reward', money(l.rewardCash), 'ch')}${metric('Gold reward', goldValue(l.rewardGold), 'g')}</div></div>` : '<div class="empty">No level data found.</div>';
+  document.getElementById('profileLevelInfo').innerHTML = l ? `<div class="ok-box"><h3>Level ${l.level} Limits:</h3><div class="mini-grid">${metric('Workers', l.workers)}${metric('Shelves', l.counters)}${metric('Mannequins', l.mannequins)}${metric('Cashiers', l.cashdesks)}${metric('Dressing rooms', l.changingrooms)}${metric('Daily instant productions', l.storeSize)}</div></div>` : '<div class="empty">No level data found.</div>';
 }
 
 function renderLabels() {
