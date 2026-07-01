@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-labels-v25">
+  <link rel="stylesheet" href="style.css?v=20260630-fashiondex-final-v26">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -16,7 +16,7 @@
       <header class="hero welcome-hero">
         <div class="title-block">
           <div class="title-row">
-            <img src="fulldex.png" alt="FashionDex" class="title-logo" onerror="this.style.display='none'">
+            <img src="cappred.png" alt="Cappuccino Fashion" class="title-logo" onerror="this.style.display='none'">
             <div>
               <p class="eyebrow">Cappuccino Fashion</p>
               <h1>FashionDex</h1>
@@ -24,9 +24,15 @@
           </div>
           <p class="subtitle">Access information about all outfits, labels, workers, and Fashion Co-Ops!</p>
         </div>
-        <div class="status-card">
-          <span id="loadStatus">Loading Fashion data...</span>
-          <small id="dataSummary"></small>
+        <div class="hero-side-stack">
+          <div class="status-card">
+            <span id="loadStatus">Loading Fashion data...</span>
+            <small id="dataSummary"></small>
+          </div>
+          <a class="dishdex-shortcut" href="https://ant-spl.github.io/Cappuccino-Cafe/DishDex/#home">
+            <img src="dishdex.png" alt="" onerror="this.style.display='none'">
+            <span>To DishDex</span>
+          </a>
         </div>
       </header>
 
@@ -48,31 +54,31 @@
           <button id="openMyDex" class="mode-card" type="button">
             <img src="mydex.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title">MyDex</span>
-            <span class="mode-description">Access your personal FashionDex based on your level, workers, labels, and available patterns.</span>
+            <span class="mode-description">Access your personal FashionDex!</span>
           </button>
 
           <button id="openFullFashionDex" class="mode-card" type="button">
             <img src="fulldex.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title">Full FashionDex</span>
-            <span class="mode-description">Access the complete clothing catalog with XP, profit, units, time, type, and unlocks.</span>
+            <span class="mode-description">Access the complete clothing catalog!</span>
           </button>
 
           <button id="openMyTime" class="mode-card" type="button">
             <img src="mytime.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title">My Time</span>
-            <span class="mode-description">Plan outfits according to the time you have and your available workers.</span>
+            <span class="mode-description">Plan outfits according to the time you have.</span>
           </button>
 
           <button id="openCoopPlanner" class="mode-card" type="button">
             <img src="coopplanner.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title">Co-Op Planner</span>
-            <span class="mode-description">Browse Co-Op missions and estimate clothing batches, factory-hours, and rewards.</span>
+            <span class="mode-description">Plan your next Co-Op.</span>
           </button>
 
           <button id="openProfile" class="mode-card" type="button">
             <img src="myprofile.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title">My Profile</span>
-            <span class="mode-description">Save your boutique name, level, workers, and pattern visibility settings.</span>
+            <span class="mode-description">Set, save and load your data.</span>
           </button>
 
           <button id="openLabels" class="mode-card" type="button">
@@ -398,7 +404,7 @@
           <div class="label-completion-header">
             <div>
               <h3>Label Completion</h3>
-              <p id="labelCompletionText">0 of 0 outfits have Gold Labels.</p>
+              <p id="labelCompletionText">0 of 0 Labels collected.</p>
             </div>
             <strong id="labelCompletionPercent">0%</strong>
           </div>
@@ -410,6 +416,6 @@
       </section>
     </section>
   </main>
-  <script src="app.js?v=20260630-fashiondex-labels-v25"></script>
+  <script src="app.js?v=20260630-fashiondex-final-v26"></script>
 </body>
 </html>

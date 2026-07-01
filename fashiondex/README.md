@@ -1,3 +1,9 @@
-# FashionDex FIXED25
+FashionDex FIXED26
 
-My Labels cleanup: simplified sort options, shortened instructions, removed the old Label Summary sidebar, and added a Label Completion progress bar that reaches 100% when every outfit has a Gold Label.
+Changes:
+- Label Completion now counts all Bronze/Silver/Gold labels, not only Gold labels.
+- Added time-of-day backgrounds: morning.png, day.png, sunset.png, night.png.
+- Added browser/back-button hash navigation.
+- Homepage title icon now uses cappred.png.
+- Added To DishDex shortcut using dishdex.png.
+- Simplified homepage mode descriptions.

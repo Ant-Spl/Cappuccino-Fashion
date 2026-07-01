@@ -1,4 +1,4 @@
-/* FashionDex/app.js - DishDex-style static GitHub Pages build v25 */
+/* FashionDex/app.js - DishDex-style static GitHub Pages build v26 */
 (() => {
 'use strict';
 
@@ -84,6 +84,16 @@ const SORT_OPTIONS = [
 let DATA = null;
 let loadInfo = null;
 let currentScreen = 'welcomeScreen';
+const SCREEN_ROUTES = {
+  welcomeScreen: 'home',
+  myDexScreen: 'mydex',
+  fullDexScreen: 'fulldex',
+  myTimeScreen: 'mytime',
+  coopScreen: 'coop',
+  profileScreen: 'profile',
+  labelsScreen: 'labels'
+};
+const ROUTE_SCREENS = Object.fromEntries(Object.entries(SCREEN_ROUTES).map(([screen, route]) => [route, screen]));
 let userData = loadUserData();
 
 function defaultUserData() {
@@ -164,16 +174,42 @@ function setupNavigation() {
     openLabels: 'labelsScreen'
   };
   for (const [id, screen] of Object.entries(routes)) {
-    document.getElementById(id)?.addEventListener('click', () => showScreen(screen));
+    document.getElementById(id)?.addEventListener('click', () => navigateTo(screen));
   }
-  document.querySelectorAll('[data-back]').forEach(btn => btn.addEventListener('click', () => showScreen('welcomeScreen')));
+  document.querySelectorAll('[data-back]').forEach(btn => btn.addEventListener('click', () => navigateTo('welcomeScreen')));
+  window.addEventListener('popstate', () => showScreen(screenFromHash(), { skipHistory: true }));
 }
 
-function showScreen(id) {
-  document.querySelectorAll('.screen').forEach(s => s.classList.toggle('hidden', s.id !== id));
-  currentScreen = id;
+function routeForScreen(id) { return SCREEN_ROUTES[id] || 'home'; }
+function screenFromHash() {
+  const route = String(window.location.hash || '#home').replace(/^#/, '').trim().toLowerCase() || 'home';
+  return ROUTE_SCREENS[route] || 'welcomeScreen';
+}
+function navigateTo(id) { showScreen(id, { skipHistory: false }); }
+
+function showScreen(id, options = {}) {
+  const screenId = SCREEN_ROUTES[id] ? id : 'welcomeScreen';
+  document.querySelectorAll('.screen').forEach(s => s.classList.toggle('hidden', s.id !== screenId));
+  currentScreen = screenId;
+  if (!options.skipHistory) {
+    const route = routeForScreen(screenId);
+    if (window.location.hash !== `#${route}`) {
+      window.history.pushState({ screen: screenId }, '', `#${route}`);
+    }
+  }
   renderAll();
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  window.scrollTo({ top: 0, behavior: options.instant ? 'auto' : 'smooth' });
+}
+
+function applyTimeBackground() {
+  const now = new Date();
+  const minutes = now.getHours() * 60 + now.getMinutes();
+  let cls = 'bg-night';
+  if (minutes >= 5 * 60 && minutes <= 10 * 60) cls = 'bg-morning';
+  else if (minutes >= 10 * 60 + 1 && minutes <= 16 * 60 + 45) cls = 'bg-day';
+  else if (minutes >= 16 * 60 + 46 && minutes <= 18 * 60 + 30) cls = 'bg-sunset';
+  document.body.classList.remove('bg-morning', 'bg-day', 'bg-sunset', 'bg-night');
+  document.body.classList.add(cls);
 }
 
 function setStatus(text, cls='') {
@@ -184,6 +220,9 @@ function setStatus(text, cls='') {
 }
 
 async function main() {
+  applyTimeBackground();
+  window.setInterval(applyTimeBackground, 60 * 1000);
+  if (!window.location.hash) window.history.replaceState({ screen: 'welcomeScreen' }, '', '#home');
   setupTheme();
   setupNavigation();
   setupSortOptions();
@@ -204,7 +243,7 @@ async function main() {
     if (userData.autoWorkers !== false) userData.workers = workersForLevel(userData.level);
     if (!userData.selectedCoopId && DATA.coops.length) userData.selectedCoopId = String(DATA.coops[0].id);
     syncInputs();
-    renderAll();
+    showScreen(screenFromHash(), { skipHistory: true, instant: true });
     setStatus('Fashion data loaded!', 'ok');
   } catch (err) {
     setStatus('Could not load Fashion data.', 'bad');
@@ -1665,14 +1704,16 @@ function renderProfile() {
 
 
 function renderLabelCompletion() {
-  const total = DATA?.clothes?.length || 0;
-  const gold = (DATA?.clothes || []).filter(item => labelLevel(item) >= 3).length;
-  const pct = total ? Math.round((gold / total) * 100) : 0;
+  const totalOutfits = DATA?.clothes?.length || 0;
+  const totalLabels = totalOutfits * 3;
+  const totals = labelTotals();
+  const collected = totals.bronze + totals.silver + totals.gold;
+  const pct = totalLabels ? Math.round((collected / totalLabels) * 100) : 0;
   const fill = document.getElementById('labelCompletionFill');
   const text = document.getElementById('labelCompletionText');
   const percent = document.getElementById('labelCompletionPercent');
   if (fill) fill.style.width = `${pct}%`;
-  if (text) text.textContent = `${fmt(gold)} of ${fmt(total)} outfits have Gold Labels.`;
+  if (text) text.textContent = `${fmt(collected)} of ${fmt(totalLabels)} Labels collected.`;
   if (percent) percent.textContent = `${pct}%`;
 }
 

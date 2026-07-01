@@ -1052,22 +1052,22 @@ body > * {
 
 /* You can adjust background-position later if one image is badly centered. */
 body.bg-morning {
-  --time-bg-image: url("Morning.jpg");
+  --time-bg-image: url("morning.png");
   --time-bg-position: center center;
 }
 
 body.bg-day {
-  --time-bg-image: url("Day.jpg");
+  --time-bg-image: url("day.png");
   --time-bg-position: center center;
 }
 
 body.bg-sunset {
-  --time-bg-image: url("Sunset.jpg");
+  --time-bg-image: url("sunset.png");
   --time-bg-position: center center;
 }
 
 body.bg-night {
-  --time-bg-image: url("Night.jpg");
+  --time-bg-image: url("night.png");
   --time-bg-position: center center;
 }
 
@@ -4638,5 +4638,62 @@ body.dark-theme .coop-table .dish-type-tag,
   .copy-assignment-controls {
     width: 100%;
     justify-content: flex-start;
+  }
+}
+
+
+/* Final homepage/navigation polish v26 */
+.hero-side-stack {
+  display: grid;
+  gap: 10px;
+  justify-items: stretch;
+  align-self: center;
+}
+
+.dishdex-shortcut {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  align-items: center;
+  gap: 10px;
+  min-width: 230px;
+  padding: 10px 14px;
+  border: 2px solid var(--border);
+  border-radius: 18px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.dishdex-shortcut:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.04);
+}
+
+.dishdex-shortcut img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.label-completion-track {
+  overflow: hidden;
+}
+
+#labelCompletionFill {
+  background: linear-gradient(90deg, #27c860, #7ee36f);
+}
+
+@media (max-width: 760px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-side-stack,
+  .status-card,
+  .dishdex-shortcut {
+    width: 100%;
+    min-width: 0;
   }
 }
