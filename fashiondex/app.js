@@ -1,4 +1,4 @@
-/* FashionDex/app.js - DishDex-style static GitHub Pages build v14 */
+/* FashionDex/app.js - DishDex-style static GitHub Pages build v20 */
 (() => {
 'use strict';
 
@@ -46,6 +46,7 @@ const LABEL_CLOTH_COUNT = 4;
 const LABEL_BONUS_PIECES = 1.05;
 const LABEL_BONUS_XP = 1.05;
 const LABEL_BONUS_TIME = 0.70;
+const COOP_REWARD_FACTORS = { gold: 4, silver: 2, bronze: 1 };
 const COOP_WORKLOADS = {
   minimum: { label: 'Minimum', weight: 0 },
   low: { label: 'Low', weight: 0.65 },
@@ -1109,7 +1110,7 @@ function renderCoops() {
   coops.sort((a,b) => {
     if (userData.coopSort === 'time') return a.duration - b.duration;
     if (userData.coopSort === 'factory') return a.factoryMinutes - b.factoryMinutes;
-    if (userData.coopSort === 'reward') return (b.chips + b.xp + b.gold * 1000) - (a.chips + a.xp + a.gold * 1000);
+    if (userData.coopSort === 'reward') return (coopRewardValue(b, userData.level, 'gold') - coopRewardValue(a, userData.level, 'gold'));
     return a.minLevel - b.minLevel || a.id - b.id;
   });
   renderSelectedCoopPlan();
@@ -1129,7 +1130,7 @@ function coopListRow(c) {
     <td>${coopIconCell(c)}</td>
     <td class="dish-name">${escapeHtml(c.title)}<div class="dish-type-tag">${escapeHtml(c.description || `Co-Op ${c.key || c.index}`)}</div></td>
     <td>${timeFmt(c.duration)}</td>
-    <td>${rewardStack(c)}</td>
+    <td>${rewardStack(c, userData.level)}</td>
     <td class="requirements-cell">${c.requirements.map(r => `${escapeHtml(r.name)} × ${fmt(r.amount)}`).join('<br>')}</td>
     <td><button class="action-button plan-coop-button" type="button" data-id="${c.id}">Plan!</button></td>
   </tr>`;
@@ -1143,8 +1144,35 @@ function coopIconCell(c) {
   return `<img class="coop-icon dex-icon" src="${escapeAttr(unique[0] || '')}" data-icons='${escapeAttr(JSON.stringify(unique))}' data-index="0" alt="${escapeAttr(c.title)}">`;
 }
 
-function rewardStack(c) {
-  return `<div class="coop-reward-pills"><span class="coop-reward-pill gold-tier"><strong>Gold</strong> ${money(c.chips)} ${xpValue(c.xp)} ${goldValue(c.gold)}</span><span class="coop-reward-pill silver-tier"><strong>Silver</strong> ${money(Math.floor(c.chips/2))} ${xpValue(Math.floor(c.xp/2))}</span><span class="coop-reward-pill bronze-tier"><strong>Bronze</strong> ${money(Math.floor(c.chips/4))} ${xpValue(Math.floor(c.xp/4))}</span></div>`;
+function coopRewardFactor(tierName) {
+  const key = String(tierName || '').toLowerCase();
+  return COOP_REWARD_FACTORS[key] || 0;
+}
+
+function coopRewardForPlayer(c, tierName, playerLevel) {
+  const level = Math.max(0, Number(playerLevel || 0));
+  const key = String(tierName || '').toLowerCase();
+  const factor = coopRewardFactor(key);
+  const xpLevelMultiplier = Math.max(1, Math.ceil(level / 3));
+  const goldAllowed = key === 'gold' && (!Number(c.maxLevel) || level <= Number(c.maxLevel));
+  return {
+    chips: Math.floor(Number(c.chips || 0) * factor),
+    xp: Math.floor(Number(c.xp || 0) * xpLevelMultiplier * factor),
+    gold: goldAllowed ? Number(c.gold || 0) : 0
+  };
+}
+
+function coopRewardValue(c, playerLevel, tierName='gold') {
+  const r = coopRewardForPlayer(c, tierName, playerLevel);
+  return Number(r.chips || 0) + Number(r.xp || 0) + Number(r.gold || 0) * 1000;
+}
+
+function rewardStack(c, playerLevel = userData.level) {
+  const level = Math.max(0, Number(playerLevel || 0));
+  const gold = coopRewardForPlayer(c, 'gold', level);
+  const silver = coopRewardForPlayer(c, 'silver', level);
+  const bronze = coopRewardForPlayer(c, 'bronze', level);
+  return `<div class="coop-reward-pills"><span class="coop-reward-pill gold-tier"><strong>Gold</strong> ${money(gold.chips)} ${xpValue(gold.xp)} ${goldValue(gold.gold)}</span><span class="coop-reward-pill silver-tier"><strong>Silver</strong> ${money(silver.chips)} ${xpValue(silver.xp)}</span><span class="coop-reward-pill bronze-tier"><strong>Bronze</strong> ${money(bronze.chips)} ${xpValue(bronze.xp)}</span><small class="reward-level-note">XP estimate at level ${fmt(level)}</small></div>`;
 }
 
 function buildCoopAssignment(c) {
@@ -1289,10 +1317,8 @@ function memberHasGoldLabel(member, clothId) {
   return !!member.goldLabels?.[String(clothId)];
 }
 
-function rewardForTier(c, tierName) {
-  const name = String(tierName || '').toLowerCase();
-  const factor = name === 'gold' ? 1 : name === 'silver' ? 0.5 : name === 'bronze' ? 0.25 : 0;
-  return { chips: Math.floor(Number(c.chips || 0) * factor), xp: Math.floor(Number(c.xp || 0) * factor), gold: name === 'gold' ? Number(c.gold || 0) : 0 };
+function rewardForTier(c, tierName, playerLevel = userData.level) {
+  return coopRewardForPlayer(c, tierName, playerLevel);
 }
 
 function coopPlanCard(c) {
@@ -1302,8 +1328,7 @@ function coopPlanCard(c) {
     const item = DATA.clothesById.get(r.clothId) || {};
     return `<div class="coop-requirement-item">${r.missing ? '<div class="missing-img coop-missing-icon">No icon</div>' : iconCell(item)}<div><strong>${fmt(r.amount)}× ${escapeHtml(r.name)}</strong><span>Level ${fmt(r.level)} · ${timeFmt(r.duration || 0)} each · ${fmt(r.batches)} production${r.batches === 1 ? '' : 's'}</span></div></div>`;
   }).join('');
-  const selectedReward = rewardForTier(c, plan.tier.name);
-  const teamRewardRows = coopTeamRewardRows(c, plan, selectedReward);
+  const teamRewardRows = coopTeamRewardRows(c, plan);
   const teamCards = plan.members.map(m => coopMemberPlanCard(m, c)).join('');
   const assignmentCards = plan.members.map(m => coopAssignmentMemberCard(m)).join('');
   const unassigned = plan.unassigned.length ? `<div class="bad-box"><strong>Unassigned:</strong> ${plan.unassigned.map(x => `${escapeHtml(x.req.name)} × ${fmt(x.units)}`).join(', ')}</div>` : '';
@@ -1321,7 +1346,7 @@ function coopPlanCard(c) {
       <div><strong>Total factory-hours</strong><span>${hours(c.factoryHours)}</span></div>
     </div>
     <div class="coop-detail-grid">
-      <section><h4>Reward Details</h4><p class="section-note reward-note">Rewards shown are per contributing player.</p><div class="coop-reward-pills detail-rewards">${rewardStack(c)}</div></section>
+      <section><h4>Reward Details</h4><p class="section-note reward-note">Rewards shown are per contributing player.</p><div class="coop-reward-pills detail-rewards">${rewardStack(c, userData.level)}</div></section>
       <section><h4>Required outfits</h4><div class="coop-requirement-list">${reqCards || '<div class="empty">No requirements listed.</div>'}</div></section>
     </div>
     <section class="coop-team-compact-section">
@@ -1342,9 +1367,10 @@ function coopPlanCard(c) {
   </div>`;
 }
 
-function coopTeamRewardRows(coop, plan, reward) {
+function coopTeamRewardRows(coop, plan) {
   const rows = plan.members.map(member => {
     const hasContribution = member.loadMinutes > 0;
+    const reward = rewardForTier(coop, plan.tier.name, member.level);
     const rewardHtml = hasContribution ? `${money(reward.chips)} ${xpValue(reward.xp)} ${goldValue(reward.gold)}` : '<span class="muted-text">No reward without contribution</span>';
     return `<div class="coop-team-reward-row"><strong>${escapeHtml(member.name)}</strong><span>${rewardHtml}</span></div>`;
   }).join('');
@@ -1514,6 +1540,13 @@ function buildCoopAssignmentMarkdown(coop, plan) {
   const lines = [];
   lines.push(`**${coop.title} — Co-Op ${coop.key || coop.index || coop.id}**`);
   lines.push(`Estimated finish: ${timeFmt(plan.teamMinutes)} · Predicted: ${plan.tier.name}`);
+  lines.push('');
+  lines.push('**Rewards at predicted status**');
+  plan.members.forEach(member => {
+    const reward = rewardForTier(coop, plan.tier.name, member.level);
+    const hasContribution = member.loadMinutes > 0;
+    lines.push(`- ${member.name}: ${hasContribution ? `${fmt(reward.chips)} Fashiondollars, ${fmt(reward.xp)} XP, ${fmt(reward.gold)} Gold Buttons` : 'No reward without contribution'}`);
+  });
   lines.push('');
   lines.push('**Assignment plan**');
   plan.members.forEach(member => {
