@@ -1,4 +1,4 @@
-/* FashionDex/app.js - DishDex-style static GitHub Pages build v26 */
+/* FashionDex/app.js - DishDex-style static GitHub Pages build v28 */
 (() => {
 'use strict';
 
@@ -56,6 +56,30 @@ const COOP_WORKLOADS = {
   manual: { label: 'Manual', weight: 0 }
 };
 
+const MANNEQUIN_VALUE_CASH_FACTOR = 0.04;
+const MANNEQUIN_PROFIT_CASH_FACTOR = 0.22;
+const MANNEQUIN_LEVEL_CASH_BONUS = 6;
+const MANNEQUIN_PIECE_CASH_BONUS = 20;
+const MANNEQUIN_EXTRA_TYPE_CASH_BONUS = 35;
+const MANNEQUIN_VALUE_XP_FACTOR = 0.025;
+const MANNEQUIN_CLOTH_XP_FACTOR = 0.05;
+const MANNEQUIN_LEVEL_XP_BONUS = 1.2;
+const MANNEQUIN_PIECE_XP_BONUS = 4;
+const MANNEQUIN_EXTRA_TYPE_XP_BONUS = 6;
+const MANNEQUIN_CATEGORIES = [
+  { key: 'tops', label: 'Tops', subtypes: [20] },
+  { key: 'bottoms', label: 'Bottoms', subtypes: [21] },
+  { key: 'fullbody', label: 'Full body', subtypes: [22] },
+  { key: 'jackets', label: 'Jackets / Coats', subtypes: [23] },
+  { key: 'sweaters', label: 'Sweaters / Pullovers', subtypes: [24] },
+  { key: 'shoes', label: 'Shoes', subtypes: [10] },
+  { key: 'boots', label: 'Boots', subtypes: [11] },
+  { key: 'jewelry', label: 'Jewelry / Scarves', subtypes: [0] },
+  { key: 'bags', label: 'Bags', subtypes: [1] },
+  { key: 'hats', label: 'Hats', subtypes: [2] },
+  { key: 'watches', label: 'Watches', subtypes: [3] }
+];
+
 const FAMILY_BY_SUBTYPE = new Map([[0,'Accessories'],[1,'Accessories'],[2,'Accessories'],[3,'Accessories'],[10,'Shoes'],[11,'Shoes'],[20,'Clothes'],[21,'Clothes'],[22,'Clothes'],[23,'Clothes'],[24,'Clothes']]);
 const CATEGORY_BY_SUBTYPE = new Map([[0,'Jewelry / Scarves'],[1,'Bags'],[2,'Hats'],[3,'Watches'],[10,'Shoes'],[11,'Boots'],[20,'Tops'],[21,'Bottoms'],[22,'Full body'],[23,'Jackets / Coats'],[24,'Sweaters / Pullovers']]);
 const GENDER = { 0: 'Unisex', 1: 'Female', 2: 'Male' };
@@ -90,6 +114,7 @@ const SCREEN_ROUTES = {
   fullDexScreen: 'fulldex',
   myTimeScreen: 'mytime',
   coopScreen: 'coop',
+  mannequinScreen: 'mannequin',
   profileScreen: 'profile',
   labelsScreen: 'labels'
 };
@@ -105,6 +130,7 @@ function defaultUserData() {
     autoWorkers: true,
     workersOverride: '',
     patternMode: 'cash',
+    myDexGender: '0',
     useLabels: true,
     myTimeHours: 0,
     myTimeMinutes: 0,
@@ -125,6 +151,10 @@ function defaultUserData() {
     coopTeamName: 'New team',
     coopTeamMembers: null,
     coopTeams: [],
+    mannequinGender: '1',
+    mannequinManualMode: false,
+    mannequinAutoSelections: {},
+    mannequinManualSelections: {},
     labelSearch: '',
     labelFamily: 'all',
     labelSort: 'levelAsc',
@@ -170,6 +200,7 @@ function setupNavigation() {
     openFullFashionDex: 'fullDexScreen',
     openMyTime: 'myTimeScreen',
     openCoopPlanner: 'coopScreen',
+    openMannequin: 'mannequinScreen',
     openProfile: 'profileScreen',
     openLabels: 'labelsScreen'
   };
@@ -450,7 +481,7 @@ function setupSortOptions() {
 }
 
 function bindInputs() {
-  const ids = ['playerLevel','xpNeeded','workerCount','patternMode','useLabelsToggle','fullSearch','fullSort','fullUseLabelsToggle','fullFamily','fullGender','timePlayerLevel','myTimeHours','myTimeMinutes','myTimeMarginPlusHours','myTimeMarginPlusMinutes','myTimeMarginMinusHours','myTimeMarginMinusMinutes','myTimeUseLabelsToggle','coopSearch','coopSort','coopTeamSelect','coopTeamName','profileName','profileLevel','profileWorkers','profileAutoWorkersToggle','labelSearch','labelFamily','labelSort','labelSlots'];
+  const ids = ['playerLevel','xpNeeded','workerCount','patternMode','myDexGender','useLabelsToggle','fullSearch','fullSort','fullUseLabelsToggle','fullFamily','fullGender','timePlayerLevel','myTimeHours','myTimeMinutes','myTimeMarginPlusHours','myTimeMarginPlusMinutes','myTimeMarginMinusHours','myTimeMarginMinusMinutes','myTimeUseLabelsToggle','coopSearch','coopSort','coopTeamSelect','coopTeamName','mannequinLevel','mannequinGender','mannequinManualMode','profileName','profileLevel','profileWorkers','profileAutoWorkersToggle','labelSearch','labelFamily','labelSort','labelSlots'];
   ids.forEach(id => {
     document.getElementById(id)?.addEventListener('input', onInputChange);
     document.getElementById(id)?.addEventListener('change', onInputChange);
@@ -573,6 +604,18 @@ function bindInputs() {
       renderSelectedCoopPlan();
       renderCoopManualAssignmentEditor();
     }
+    const mannequinAutoCheck = e.target?.closest?.('.mannequin-auto-check');
+    if (mannequinAutoCheck) {
+      userData.mannequinAutoSelections[String(mannequinAutoCheck.dataset.category || '')] = !!mannequinAutoCheck.checked;
+      saveUserData();
+      renderMannequin();
+    }
+    const mannequinManualSelect = e.target?.closest?.('.mannequin-manual-select');
+    if (mannequinManualSelect) {
+      userData.mannequinManualSelections[String(mannequinManualSelect.dataset.category || '')] = String(mannequinManualSelect.value || '');
+      saveUserData();
+      renderMannequin();
+    }
   });
   document.addEventListener('input', e => {
     const manualInput = e.target?.closest?.('.manual-assignment-input');
@@ -627,8 +670,8 @@ function onInputChange(e) {
     renderCoops();
     return;
   }
-  if (['playerLevel','timePlayerLevel','profileLevel'].includes(id)) {
-    ['playerLevel','timePlayerLevel','profileLevel'].forEach(otherId => setValue(otherId, e.target.value));
+  if (['playerLevel','timePlayerLevel','profileLevel','mannequinLevel'].includes(id)) {
+    ['playerLevel','timePlayerLevel','profileLevel','mannequinLevel'].forEach(otherId => setValue(otherId, e.target.value));
     if (getChecked('profileAutoWorkersToggle', userData.autoWorkers !== false)) {
       const workers = workersForLevel(Number(e.target.value || userData.level || 1));
       setValue('profileWorkers', workers);
@@ -658,6 +701,7 @@ function syncInputs() {
   setValue('xpNeeded', userData.xpNeeded);
   setValue('workerCount', userData.workers);
   setValue('patternMode', userData.patternMode);
+  setValue('myDexGender', userData.myDexGender || '0');
   setChecked('useLabelsToggle', userData.useLabels);
   setValue('fullSearch', userData.fullSearch);
   setValue('fullSort', userData.fullSort);
@@ -676,6 +720,9 @@ function syncInputs() {
   setValue('coopSort', userData.coopSort);
   setValue('coopTeamSelect', userData.coopTeamId);
   setValue('coopTeamName', userData.coopTeamName);
+  setValue('mannequinLevel', userData.level);
+  setValue('mannequinGender', userData.mannequinGender || '1');
+  setChecked('mannequinManualMode', userData.mannequinManualMode);
   setValue('profileName', userData.profileName);
   setValue('profileLevel', userData.level);
   const profileAutoWorkers = userData.autoWorkers !== false;
@@ -691,10 +738,11 @@ function syncInputs() {
   setValue('labelSlots', userData.labelSlots);
 }
 function readInputs() {
-  userData.level = intValue('playerLevel', intValue('timePlayerLevel', intValue('profileLevel', userData.level)));
+  userData.level = intValue('playerLevel', intValue('timePlayerLevel', intValue('profileLevel', intValue('mannequinLevel', userData.level))));
   userData.xpNeeded = intValue('xpNeeded', userData.xpNeeded);
   userData.workers = Math.max(1, intValue('workerCount', userData.workers));
   userData.patternMode = getValue('patternMode', userData.patternMode);
+  userData.myDexGender = getValue('myDexGender', userData.myDexGender || '0');
   userData.useLabels = getChecked('useLabelsToggle', userData.useLabels);
   userData.fullSearch = getValue('fullSearch', userData.fullSearch);
   userData.fullSort = getValue('fullSort', userData.fullSort);
@@ -712,6 +760,8 @@ function readInputs() {
   userData.coopSort = getValue('coopSort', userData.coopSort);
   userData.coopTeamId = getValue('coopTeamSelect', userData.coopTeamId);
   userData.coopTeamName = getValue('coopTeamName', userData.coopTeamName);
+  userData.mannequinGender = getValue('mannequinGender', userData.mannequinGender || '1');
+  userData.mannequinManualMode = getChecked('mannequinManualMode', userData.mannequinManualMode);
   readCoopTeamInputs();
   userData.profileName = getValue('profileName', userData.profileName);
   userData.autoWorkers = getChecked('profileAutoWorkersToggle', userData.autoWorkers !== false);
@@ -727,7 +777,7 @@ function readInputs() {
   userData.labelSlots = intValue('labelSlots', userData.labelSlots);
   syncLevelInputs();
 }
-function syncLevelInputs() { ['playerLevel','timePlayerLevel','profileLevel'].forEach(id => setValue(id, userData.level)); }
+function syncLevelInputs() { ['playerLevel','timePlayerLevel','profileLevel','mannequinLevel'].forEach(id => setValue(id, userData.level)); }
 function setProfileWorkersEditable(editable) {
   const el = document.getElementById('profileWorkers');
   if (el) {
@@ -749,6 +799,7 @@ function renderAll() {
   renderFullDex();
   renderTime();
   renderCoops();
+  renderMannequin();
   renderProfile();
   renderLabels();
 }
@@ -919,7 +970,7 @@ function renderFullDex() {
   document.getElementById('fullDexBody').innerHTML = items.length ? items.map(i => `
     <tr class="category-${familyClass(i.family)}">
       <td>${iconCell(i)}</td>
-      <td class="dish-name">${escapeHtml(i.name)}</td>
+      <td class="dish-name">${escapeHtml(i.name)}${i.isGoldPattern ? ' <span class="gold-pattern-tag">Gold Pattern</span>' : ''}</td>
       <td>${i.level}</td>
       <td>${metricStack('xp.png', 'XP', i.adjXp, i.adjXpPerMin)}</td>
       <td>${metricStack('fashiondollars.png', 'Fashiondollars', i.adjProfit, i.adjProfitPerMin)}</td>
@@ -1697,6 +1748,133 @@ async function copyCoopAssignmentMarkdown() {
   }
 }
 
+
+function renderMannequin() {
+  const autoPanel = document.getElementById('mannequinAutoPanel');
+  const manualPanel = document.getElementById('mannequinManualPanel');
+  const manual = !!userData.mannequinManualMode;
+  autoPanel?.classList.toggle('hidden', manual);
+  manualPanel?.classList.toggle('hidden', !manual);
+
+  const rows = buildMannequinCategoryRows();
+  const selectedItems = manual ? selectedManualMannequinItems(rows) : selectedAutoMannequinItems(rows);
+  const awards = mannequinDesignAwards(selectedItems);
+  const note = document.getElementById('mannequinScoreNote');
+  if (note) note.textContent = selectedItems.length
+    ? `${fmt(selectedItems.length)} outfit categories selected for a ${genderWord(userData.mannequinGender)} mannequin.`
+    : 'Select at least one outfit category to score the mannequin.';
+  const cards = document.getElementById('mannequinScoreCards');
+  if (cards) cards.innerHTML = `${metric('Fashiondollars', money(awards.cash))}${metric('XP', xpValue(awards.xp))}${metric('Selected outfits', fmt(selectedItems.length))}`;
+
+  const autoBody = document.getElementById('mannequinAutoBody');
+  if (autoBody) {
+    autoBody.innerHTML = rows.length ? rows.map(row => {
+      const item = row.best;
+      if (!item) return `<tr><td></td><td></td><td>${escapeHtml(row.label)}</td><td class="empty">No eligible outfit</td><td></td><td></td></tr>`;
+      const checked = mannequinAutoChecked(row.key);
+      const preview = mannequinDesignAwards([item]);
+      return `<tr class="category-${familyClass(item.family)}">
+        <td><input class="mannequin-auto-check" data-category="${escapeAttr(row.key)}" type="checkbox" ${checked ? 'checked' : ''}></td>
+        <td>${iconCell(item)}</td>
+        <td>${escapeHtml(row.label)}</td>
+        <td class="dish-name">${escapeHtml(item.name)}${item.isGoldPattern ? ' <span class="gold-pattern-tag">Gold Pattern</span>' : ''}</td>
+        <td>${fmt(item.level)}</td>
+        <td>${mannequinPreviewStack(preview)}</td>
+      </tr>`;
+    }).join('') : emptyRow(6, 'No eligible outfits found.');
+  }
+
+  const manualBody = document.getElementById('mannequinManualBody');
+  if (manualBody) {
+    manualBody.innerHTML = rows.length ? rows.map(row => {
+      const current = String(userData.mannequinManualSelections[row.key] || '');
+      const item = current ? DATA.clothesById.get(Number(current)) : null;
+      const checked = !!current;
+      const options = row.items.map(i => `<option value="${i.id}" ${String(i.id) === current ? 'selected' : ''}>${escapeHtml(i.name)} — Level ${fmt(i.level)}</option>`).join('');
+      return `<tr>
+        <td><input class="mannequin-auto-check" data-category="${escapeAttr(row.key)}" type="checkbox" ${checked ? 'checked' : ''} disabled></td>
+        <td>${escapeHtml(row.label)}</td>
+        <td><select class="mannequin-manual-select" data-category="${escapeAttr(row.key)}"><option value="">None</option>${options}</select></td>
+        <td>${item ? mannequinPreviewStack(mannequinDesignAwards([item])) : '<span class="empty">Not selected</span>'}</td>
+      </tr>`;
+    }).join('') : emptyRow(4, 'No eligible outfits found.');
+  }
+}
+
+function buildMannequinCategoryRows() {
+  return MANNEQUIN_CATEGORIES.map(category => {
+    const items = mannequinEligibleItems(category)
+      .sort((a, b) => mannequinItemScore(b).total - mannequinItemScore(a).total || b.level - a.level || a.name.localeCompare(b.name));
+    return { ...category, items, best: items[0] || null };
+  });
+}
+
+function mannequinEligibleItems(category) {
+  const gender = Number(userData.mannequinGender || 1);
+  const level = Number(userData.level || 1);
+  return DATA.clothes
+    .filter(item => item.level <= level)
+    .filter(item => item.gender === 0 || item.gender === gender)
+    .filter(item => category.subtypes.includes(Number(item.productSubType)));
+}
+
+function selectedAutoMannequinItems(rows) {
+  return rows.filter(row => row.best && mannequinAutoChecked(row.key)).map(row => row.best);
+}
+
+function selectedManualMannequinItems(rows) {
+  return rows.map(row => DATA.clothesById.get(Number(userData.mannequinManualSelections[row.key] || 0))).filter(Boolean);
+}
+
+function mannequinAutoChecked(categoryKey) {
+  if (!userData.mannequinAutoSelections || typeof userData.mannequinAutoSelections !== 'object') userData.mannequinAutoSelections = {};
+  return userData.mannequinAutoSelections[categoryKey] !== false;
+}
+
+function mannequinItemScore(item) {
+  const awards = mannequinDesignAwards([item]);
+  return { ...awards, total: awards.cash + awards.xp * 10 };
+}
+
+function mannequinDesignAwards(items) {
+  let cashAward = 0;
+  let xpAward = 0;
+  const productTypes = new Set();
+  let validItems = 0;
+  for (const item of items || []) {
+    if (!item) continue;
+    validItems += 1;
+    productTypes.add(Number(item.productSubType || 0));
+    const batchValue = Number(item.incomePerUnit || 0) * Math.max(1, Number(item.production || 0));
+    const profitValue = Math.max(0, batchValue - Number(item.productionCostCash || 0));
+    const level = Math.max(0, Number(item.level || 0));
+    cashAward += batchValue * MANNEQUIN_VALUE_CASH_FACTOR;
+    cashAward += profitValue * MANNEQUIN_PROFIT_CASH_FACTOR;
+    cashAward += level * MANNEQUIN_LEVEL_CASH_BONUS;
+    cashAward += MANNEQUIN_PIECE_CASH_BONUS;
+    xpAward += Number(item.xp || 0) * MANNEQUIN_CLOTH_XP_FACTOR;
+    xpAward += batchValue * MANNEQUIN_VALUE_XP_FACTOR;
+    xpAward += level * MANNEQUIN_LEVEL_XP_BONUS;
+    xpAward += MANNEQUIN_PIECE_XP_BONUS;
+  }
+  const diversityBonus = Math.max(0, productTypes.size - 1);
+  cashAward += diversityBonus * MANNEQUIN_EXTRA_TYPE_CASH_BONUS;
+  xpAward += diversityBonus * MANNEQUIN_EXTRA_TYPE_XP_BONUS;
+  if (validItems >= 4) {
+    cashAward *= 1.08;
+    xpAward *= 1.08;
+  }
+  return { cash: Math.max(0, Math.round(cashAward)), xp: Math.max(0, Math.round(xpAward)) };
+}
+
+function mannequinPreviewStack(awards) {
+  return `<div class="metric-stack mannequin-preview"><span>${money(awards.cash)}</span><small>${xpValue(awards.xp)}</small></div>`;
+}
+
+function genderWord(value) {
+  return String(value) === '2' ? 'male' : 'female';
+}
+
 function renderProfile() {
   const l = levelLimit(userData.level);
   document.getElementById('profileLevelInfo').innerHTML = l ? `<div class="ok-box"><h3>Level ${l.level} Limits:</h3><div class="mini-grid">${metric('Workers', l.workers)}${metric('Shelves', l.counters)}${metric('Mannequins', l.mannequins)}${metric('Cashiers', l.cashdesks)}${metric('Dressing rooms', l.changingrooms)}${metric('Daily instant productions', l.storeSize)}</div></div>` : '<div class="empty">No level data found.</div>';
@@ -1790,6 +1968,7 @@ function availableItems(useLabels) {
   return DATA.clothes
     .filter(i => i.level <= Number(userData.level || 0))
     .filter(i => userData.patternMode === 'all' || i.patternGold <= 0)
+    .filter(i => String(i.gender) === String(userData.myDexGender || '0'))
     .filter(i => i.productionCostGold <= 0)
     .map(i => adjusted(i, useLabels && userData.useLabels));
 }
@@ -1856,7 +2035,7 @@ function sortValue(item, key) {
   if (key === 'effectiveUnitsPerMin') return item.adjUnitsPerMin ?? item.unitsPerMin;
   return item[key];
 }
-function filterText(i, q) { return `${i.id} ${i.key} ${i.name} ${i.family} ${i.category} ${i.genderName}`.toLowerCase().includes(q); }
+function filterText(i, q) { return `${i.id} ${i.key} ${i.name} ${i.family} ${i.category} ${i.genderName} ${i.isGoldPattern ? 'Gold Pattern' : ''}`.toLowerCase().includes(q); }
 function uniqueBy(arr, fn) { const seen = new Set(); return arr.filter(x => { const k = fn(x); if (seen.has(k)) return false; seen.add(k); return true; }); }
 function levelLimit(level) { let row = DATA.levels[0] || fallbackLevelLimits(level || 1)[0]; for (const l of DATA.levels) if (l.level <= level) row = l; return row; }
 function effectiveWorkers() { return Math.max(1, Number(userData.workers || levelLimit(userData.level)?.workers || 1)); }

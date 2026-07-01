@@ -3429,6 +3429,29 @@ body.dark-theme .label-square.filled.silver {
 }
 
 
+/* FashionDex v27 gold pattern tag */
+.gold-pattern-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6px;
+  padding: 2px 7px;
+  border: 1px solid #d8a534;
+  border-radius: 999px;
+  background: #fff2b8;
+  color: #53330a;
+  font-size: 0.76rem;
+  font-weight: 900;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+body.dark-theme .gold-pattern-tag {
+  background: #fff0a8;
+  color: #3b2404;
+  border-color: #f2c44c;
+  text-shadow: none;
+}
+
 /* Full FashionDex refinements v10 */
 .full-fashiondex-options {
   grid-template-columns: repeat(4, minmax(150px, 1fr)) minmax(220px, max-content);
@@ -4695,5 +4718,78 @@ body.dark-theme .coop-table .dish-type-tag,
   .dishdex-shortcut {
     width: 100%;
     min-width: 0;
+  }
+}
+
+/* FIXED28: My Mannequin */
+.mannequin-input-grid {
+  grid-template-columns: 1fr 1fr auto;
+  align-items: end;
+}
+
+.mannequin-score-heading {
+  align-items: center;
+  gap: 18px;
+}
+
+.mannequin-score-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
+  gap: 12px;
+  min-width: min(560px, 100%);
+}
+
+.mannequin-score-cards .metric {
+  background: rgba(255, 242, 178, 0.11);
+  border: 2px solid var(--brown);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.mannequin-score-cards .metric strong {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1.5rem;
+  color: var(--cream);
+}
+
+body:not(.dark-theme) .mannequin-score-cards .metric strong {
+  color: var(--text);
+}
+
+.mannequin-preview {
+  align-items: center;
+  gap: 3px;
+}
+
+.mannequin-preview span,
+.mannequin-preview small {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.mannequin-auto-check {
+  width: 20px;
+  height: 20px;
+  accent-color: #3ac86b;
+}
+
+.mannequin-manual-select {
+  width: 100%;
+  min-width: 260px;
+}
+
+#mannequinAutoBody td,
+#mannequinManualBody td {
+  vertical-align: middle;
+}
+
+@media (max-width: 860px) {
+  .mannequin-input-grid,
+  .mannequin-score-cards {
+    grid-template-columns: 1fr;
   }
 }

@@ -1,9 +1,14 @@
-FashionDex FIXED26
+# FashionDex DishDex-style build — FIXED28
 
-Changes:
-- Label Completion now counts all Bronze/Silver/Gold labels, not only Gold labels.
-- Added time-of-day backgrounds: morning.png, day.png, sunset.png, night.png.
-- Added browser/back-button hash navigation.
-- Homepage title icon now uses cappred.png.
-- Added To DishDex shortcut using dishdex.png.
-- Simplified homepage mode descriptions.
+Adds the My Mannequin feature.
+
+Files expected beside `index.html`:
+
+- `app.js`
+- `style.css`
+- menu icons, including `mymannequin.png`
+- `cappred.png`, `dishdex.png`
+- time backgrounds: `morning.png`, `day.png`, `sunset.png`, `night.png`
+- `coopicons/1.png` through `coopicons/11.png`
+
+Data is loaded from the public Fashion XML files in the repository.
