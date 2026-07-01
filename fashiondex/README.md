@@ -1,11 +1,3 @@
-# FashionDex DishDex Clone FIXED21
+# FashionDex DishDex Clone FIXED22
 
-Co-Op copy/wording cleanup.
-
-- Renamed Total factory-hours to Total production-hours.
-- Changed Reward Details to Your reward estimate.
-- Removed repeated XP estimate notes.
-- Copy assignment now uses clearer estimate wording.
-- Copy assignment no longer includes production-count text in assignment lines.
-- Assignment cards no longer show production-count text.
-- Copy status appears next to the Copy assignment button as “Copied to clipboard”.
+Co-Op estimate fix. Team time now schedules each production batch onto each player's workers/factories instead of dividing total assigned time by worker count. A single 8h production remains at least 8h even when the player has multiple workers; workers only parallelize separate productions.

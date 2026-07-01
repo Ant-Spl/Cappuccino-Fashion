@@ -1283,7 +1283,10 @@ function buildCoopAssignment(c) {
     }
   }
 
-  const teamMinutes = members.length ? Math.max(...members.map(m => m.loadMinutes / Math.max(1, m.workers))) : 0;
+  members.forEach(member => {
+    member.productionMinutes = memberCompletionMinutes(member);
+  });
+  const teamMinutes = members.length ? Math.max(...members.map(m => Number(m.productionMinutes || 0))) : 0;
   const tier = coopTier(c, teamMinutes);
   const noContribution = members.filter(m => m.loadMinutes <= 0 && (m.name || m.level || m.workers));
   if (noContribution.length) warnings.push('Each player must produce at least one required outfit to receive rewards.');
@@ -1296,6 +1299,35 @@ function coopTier(c, teamMinutes) {
   if (teamMinutes <= c.duration * 0.75) return { name: 'Silver', className: 'tier-silver', note: `within ${timeFmt(c.duration * 0.75)} Silver target` };
   if (teamMinutes <= c.duration) return { name: 'Bronze', className: 'tier-bronze', note: `within ${timeFmt(c.duration)} Bronze target` };
   return { name: 'Not doable', className: 'tier-fail', note: `over the ${timeFmt(c.duration)} limit` };
+}
+
+function memberProductionTasks(member) {
+  const tasks = [];
+  [...(member.assignments?.values?.() || [])].forEach(assignment => {
+    const batches = Math.max(0, Math.ceil(Number(assignment.batches || 0)));
+    const duration = Math.max(1, Number(assignment.duration || 0));
+    for (let i = 0; i < batches; i += 1) tasks.push(duration);
+  });
+  return tasks;
+}
+
+function scheduleProductionTasks(tasks, workers) {
+  const cleanTasks = (tasks || []).map(Number).filter(t => t > 0).sort((a, b) => b - a);
+  const workerCount = Math.max(1, Math.floor(Number(workers || 1)));
+  if (!cleanTasks.length) return 0;
+  const lanes = Array(workerCount).fill(0);
+  cleanTasks.forEach(duration => {
+    let slot = 0;
+    for (let i = 1; i < lanes.length; i += 1) {
+      if (lanes[i] < lanes[slot]) slot = i;
+    }
+    lanes[slot] += duration;
+  });
+  return Math.max(...lanes);
+}
+
+function memberCompletionMinutes(member) {
+  return scheduleProductionTasks(memberProductionTasks(member), member.workers);
 }
 
 function getMemberProductionDuration(member, req) {
@@ -1403,7 +1435,7 @@ function coopAssignmentMemberCard(member) {
   const chips = rows.length ? '' : '';
   return `<div class="coop-assignment-card">
     <strong>${escapeHtml(member.name)}</strong>
-    <span>Production time: ${timeFmt(member.loadMinutes)}</span>
+    <span>Production time: ${timeFmt(Number(member.productionMinutes ?? memberCompletionMinutes(member)))}</span>
     ${rows.length ? rows.map(a => `<em>${fmt(a.units)}× ${escapeHtml(a.req.name)}${a.goldLabel ? ' <small>Gold Label time bonus</small>' : ''}</em>`).join('') : '<span class="muted-text">No outfits assigned</span>'}
   </div>`;
 }
