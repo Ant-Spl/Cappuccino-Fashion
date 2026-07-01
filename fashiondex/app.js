@@ -1172,7 +1172,7 @@ function rewardStack(c, playerLevel = userData.level) {
   const gold = coopRewardForPlayer(c, 'gold', level);
   const silver = coopRewardForPlayer(c, 'silver', level);
   const bronze = coopRewardForPlayer(c, 'bronze', level);
-  return `<div class="coop-reward-pills"><span class="coop-reward-pill gold-tier"><strong>Gold</strong> ${money(gold.chips)} ${xpValue(gold.xp)} ${goldValue(gold.gold)}</span><span class="coop-reward-pill silver-tier"><strong>Silver</strong> ${money(silver.chips)} ${xpValue(silver.xp)}</span><span class="coop-reward-pill bronze-tier"><strong>Bronze</strong> ${money(bronze.chips)} ${xpValue(bronze.xp)}</span><small class="reward-level-note">XP estimate at level ${fmt(level)}</small></div>`;
+  return `<div class="coop-reward-pills"><span class="coop-reward-pill gold-tier"><strong>Gold</strong> ${money(gold.chips)} ${xpValue(gold.xp)} ${goldValue(gold.gold)}</span><span class="coop-reward-pill silver-tier"><strong>Silver</strong> ${money(silver.chips)} ${xpValue(silver.xp)}</span><span class="coop-reward-pill bronze-tier"><strong>Bronze</strong> ${money(bronze.chips)} ${xpValue(bronze.xp)}</span></div>`;
 }
 
 function buildCoopAssignment(c) {
@@ -1326,7 +1326,7 @@ function coopPlanCard(c) {
   const activeCount = plan.members.length;
   const reqCards = c.requirements.map(r => {
     const item = DATA.clothesById.get(r.clothId) || {};
-    return `<div class="coop-requirement-item">${r.missing ? '<div class="missing-img coop-missing-icon">No icon</div>' : iconCell(item)}<div><strong>${fmt(r.amount)}× ${escapeHtml(r.name)}</strong><span>Level ${fmt(r.level)} · ${timeFmt(r.duration || 0)} each · ${fmt(r.batches)} production${r.batches === 1 ? '' : 's'}</span></div></div>`;
+    return `<div class="coop-requirement-item">${r.missing ? '<div class="missing-img coop-missing-icon">No icon</div>' : iconCell(item)}<div><strong>${fmt(r.amount)}× ${escapeHtml(r.name)}</strong><span>Level ${fmt(r.level)} · ${timeFmt(r.duration || 0)} each</span></div></div>`;
   }).join('');
   const teamRewardRows = coopTeamRewardRows(c, plan);
   const teamCards = plan.members.map(m => coopMemberPlanCard(m, c)).join('');
@@ -1343,10 +1343,10 @@ function coopPlanCard(c) {
       <div><strong>Gold deadline</strong><span>${timeFmt(Math.floor(c.duration * 0.5))}</span></div>
       <div><strong>Silver deadline</strong><span>${timeFmt(Math.floor(c.duration * 0.75))}</span></div>
       <div><strong>Minimum outfit level</strong><span>${fmt(Math.max(0, ...c.requirements.map(r => Number(r.level || 0))))}</span></div>
-      <div><strong>Total factory-hours</strong><span>${hours(c.factoryHours)}</span></div>
+      <div><strong>Total production-hours</strong><span>${hours(c.factoryHours)}</span></div>
     </div>
     <div class="coop-detail-grid">
-      <section><h4>Reward Details</h4><p class="section-note reward-note">Rewards shown are per contributing player.</p><div class="coop-reward-pills detail-rewards">${rewardStack(c, userData.level)}</div></section>
+      <section><h4>Your reward estimate</h4><div class="coop-reward-pills detail-rewards">${rewardStack(c, userData.level)}</div></section>
       <section><h4>Required outfits</h4><div class="coop-requirement-list">${reqCards || '<div class="empty">No requirements listed.</div>'}</div></section>
     </div>
     <section class="coop-team-compact-section">
@@ -1358,9 +1358,8 @@ function coopPlanCard(c) {
     </section>
     ${unassigned}${warnings}
     <section class="coop-assignment-section">
-      <div class="section-heading-row"><div><h3>Outfit assignment plan</h3><p class="section-note">Split by level, factories, workload, manual assignments, and Gold Label time bonuses.</p></div><button class="copy-coop-assignment action-button" type="button">Copy assignment</button></div>
+      <div class="section-heading-row"><div><h3>Outfit assignment plan</h3><p class="section-note">Split by level, workers/factories, workload, manual assignments, and Gold Label time bonuses.</p></div><div class="copy-assignment-controls"><button class="copy-coop-assignment action-button" type="button">Copy assignment</button><span id="coopCopyStatus" class="copy-status-text" aria-live="polite"></span></div></div>
       <div class="coop-assignment-grid">${assignmentCards || '<div class="empty">No assignments yet.</div>'}</div>
-      <p id="coopCopyStatus" class="hint"></p>
     </section>
     <div id="coopGoldLabelEditor" class="coop-editor-backdrop hidden"></div>
     <div id="coopManualAssignmentEditor" class="coop-editor-backdrop hidden"></div>
@@ -1404,8 +1403,8 @@ function coopAssignmentMemberCard(member) {
   const chips = rows.length ? '' : '';
   return `<div class="coop-assignment-card">
     <strong>${escapeHtml(member.name)}</strong>
-    <span>Factory time: ${timeFmt(member.loadMinutes)}</span>
-    ${rows.length ? rows.map(a => `<em>${fmt(a.units)}× ${escapeHtml(a.req.name)} <small>${fmt(a.batches)} production${a.batches === 1 ? '' : 's'}${a.goldLabel ? ' · Gold Label time bonus' : ''}</small></em>`).join('') : '<span class="muted-text">No outfits assigned</span>'}
+    <span>Production time: ${timeFmt(member.loadMinutes)}</span>
+    ${rows.length ? rows.map(a => `<em>${fmt(a.units)}× ${escapeHtml(a.req.name)}${a.goldLabel ? ' <small>Gold Label time bonus</small>' : ''}</em>`).join('') : '<span class="muted-text">No outfits assigned</span>'}
   </div>`;
 }
 
@@ -1539,7 +1538,8 @@ function setCoopMemberManualAssignment(slot, clothId, value) {
 function buildCoopAssignmentMarkdown(coop, plan) {
   const lines = [];
   lines.push(`**${coop.title} — Co-Op ${coop.key || coop.index || coop.id}**`);
-  lines.push(`Estimated finish: ${timeFmt(plan.teamMinutes)} · Predicted: ${plan.tier.name}`);
+  lines.push(`Estimated team production time: ${timeFmt(plan.teamMinutes)}`);
+  lines.push(`Predicted status: ${plan.tier.name}`);
   lines.push('');
   lines.push('**Rewards at predicted status**');
   plan.members.forEach(member => {
@@ -1553,7 +1553,7 @@ function buildCoopAssignmentMarkdown(coop, plan) {
     const rows = [...member.assignments.values()];
     lines.push(`**${member.name}** — Level ${member.level}, ${member.workers} workers`);
     if (!rows.length) lines.push('- No outfits assigned');
-    rows.forEach(a => lines.push(`- ${fmt(a.units)}× ${a.req.name} (${fmt(a.batches)} production${a.batches === 1 ? '' : 's'})`));
+    rows.forEach(a => lines.push(`- ${fmt(a.units)}× ${a.req.name}`));
   });
   return lines.join('\n');
 }
@@ -1565,7 +1565,11 @@ async function copyCoopAssignmentMarkdown() {
   const text = buildCoopAssignmentMarkdown(coop, buildCoopAssignment(coop));
   try {
     await navigator.clipboard.writeText(text);
-    if (status) status.textContent = 'Assignment copied for Discord.';
+    if (status) {
+      status.textContent = 'Copied to clipboard';
+      window.clearTimeout(window.coopCopyStatusTimer);
+      window.coopCopyStatusTimer = window.setTimeout(() => { if (status) status.textContent = ''; }, 2400);
+    }
   } catch {
     if (status) status.textContent = text;
   }

@@ -4575,3 +4575,35 @@ body.dark-theme .coop-table .dish-type-tag,
     align-items: stretch;
   }
 }
+
+/* FIXED21: Co-Op wording/copy polish */
+.copy-assignment-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.copy-status-text {
+  color: var(--accent-strong, #ffd66b);
+  font-weight: 900;
+  min-width: 0;
+}
+
+.coop-assignment-card em small {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted, #d8c69e);
+}
+
+.coop-reward-pills .reward-level-note {
+  display: none !important;
+}
+
+@media (max-width: 760px) {
+  .copy-assignment-controls {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
