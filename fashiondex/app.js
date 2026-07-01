@@ -764,6 +764,11 @@ function labelSquares(level) {
   }).join('')}</span>`;
 }
 
+
+function labelClass(level) {
+  return ['none', 'bronze', 'silver', 'gold'][Number(level)] || 'none';
+}
+
 function labelBadge(level) {
   const name = labelName(level);
   const cls = String(name || '').toLowerCase();

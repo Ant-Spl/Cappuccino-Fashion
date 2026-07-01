@@ -9,3 +9,6 @@ Co-Op Planner polish pass:
 - Improved dark-mode contrast for Co-Op descriptions and assignment text.
 
 Deploy these files inside `fashiondex/` and hard refresh after upload.
+
+
+FIXED18: Added missing labelClass helper that caused 'Could not load Fashion data' when rendering label effects.
