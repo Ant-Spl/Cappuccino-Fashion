@@ -314,12 +314,12 @@
 <wod id="1607" n="Otherplayer" g="Moving" t="-" />
 <wod id="1608" n="Npcmallguest" g="Moving" t="-" />
 <wod id="1801" n="Basic" g="Expansion" t="0" expansionID="0" sizeX="8" sizeY="8" />
-<wod id="1806" n="Basic" g="Expansion" t="Gold1" cash="0" gold="5" friends="1" goldNoFriends="3" releaseDate="0" world="0" xp="0" level="0" expansionID="1" sizeX="9" sizeY="9" />
-<wod id="1807" n="Basic" g="Expansion" t="Gold2" cash="0" gold="8" friends="3" goldNoFriends="5" releaseDate="0" world="0" xp="0" level="0" expansionID="2" sizeX="10" sizeY="10" />
-<wod id="1808" n="Basic" g="Expansion" t="Gold3" cash="0" gold="11" friends="5" goldNoFriends="10" releaseDate="0" world="0" xp="0" level="0" expansionID="3" sizeX="11" sizeY="11" />
-<wod id="1809" n="Basic" g="Expansion" t="Gold4" cash="0" gold="14" friends="9" goldNoFriends="15" releaseDate="0" world="0" xp="0" level="0" expansionID="4" sizeX="12" sizeY="12" />
-<wod id="1814" n="Basic" g="Expansion" t="Gold5" cash="0" gold="17" friends="15" goldNoFriends="25" releaseDate="0" world="0" xp="0" level="0" expansionID="5" sizeX="13" sizeY="13" />
-<wod id="1816" n="Basic" g="Expansion" t="Gold6" cash="0" gold="20" friends="25" goldNoFriends="35" releaseDate="0" world="0" xp="0" level="0" expansionID="6" sizeX="14" sizeY="14" />
+<wod id="1806" n="Basic" g="Expansion" t="Gold1" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" expansionID="1" sizeX="9" sizeY="9" />
+<wod id="1807" n="Basic" g="Expansion" t="Gold2" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" expansionID="2" sizeX="10" sizeY="10" />
+<wod id="1808" n="Basic" g="Expansion" t="Gold3" cash="30000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" expansionID="3" sizeX="11" sizeY="11" />
+<wod id="1809" n="Basic" g="Expansion" t="Gold4" cash="100000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" expansionID="4" sizeX="12" sizeY="12" />
+<wod id="1814" n="Basic" g="Expansion" t="Gold5" cash="200000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" expansionID="5" sizeX="13" sizeY="13" />
+<wod id="1816" n="Basic" g="Expansion" t="Gold6" cash="1000000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" expansionID="6" sizeX="14" sizeY="14" />
 <wod id="1901" n="Cash" g="Currency" t="-" />
 <wod id="1902" n="Gold" g="Currency" t="-" />
 <wod id="1903" n="Basic" g="Icon" t="Rateup" />
