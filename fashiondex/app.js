@@ -1,4 +1,4 @@
-/* FashionDex/app.js - DishDex-style static GitHub Pages build v28 */
+/* FashionDex/app.js - DishDex-style static GitHub Pages build v29 */
 (() => {
 'use strict';
 
@@ -130,7 +130,7 @@ function defaultUserData() {
     autoWorkers: true,
     workersOverride: '',
     patternMode: 'cash',
-    myDexGender: '0',
+    myDexGender: 'all',
     suggestPremium: false,
     mannequinSuggestPremium: false,
     useLabels: true,
@@ -177,6 +177,7 @@ function loadUserData() {
       if (overrideWorkers > 0) data.workers = overrideWorkers;
     }
     data.workers = Math.max(1, Math.round(Number(data.workers || 1)));
+    data.myDexGender = normalizeMyDexGender(data.myDexGender);
     return data;
   } catch {
     return defaultUserData();
@@ -731,7 +732,7 @@ function syncInputs() {
   setValue('xpNeeded', userData.xpNeeded);
   setValue('workerCount', userData.workers);
   setValue('patternMode', userData.patternMode);
-  setValue('myDexGender', userData.myDexGender || '0');
+  setValue('myDexGender', normalizeMyDexGender(userData.myDexGender));
   setChecked('suggestPremiumToggle', !!userData.suggestPremium);
   setChecked('useLabelsToggle', userData.useLabels);
   setValue('fullSearch', userData.fullSearch);
@@ -774,7 +775,7 @@ function readInputs() {
   userData.xpNeeded = intValue('xpNeeded', userData.xpNeeded);
   userData.workers = Math.max(1, intValue('workerCount', userData.workers));
   userData.patternMode = getValue('patternMode', userData.patternMode);
-  userData.myDexGender = getValue('myDexGender', userData.myDexGender || '0');
+  userData.myDexGender = normalizeMyDexGender(getValue('myDexGender', userData.myDexGender));
   userData.suggestPremium = getChecked('suggestPremiumToggle', !!userData.suggestPremium);
   userData.useLabels = getChecked('useLabelsToggle', userData.useLabels);
   userData.fullSearch = getValue('fullSearch', userData.fullSearch);
@@ -2049,13 +2050,23 @@ function masteredDuration(duration) {
   return Math.max(1, Math.floor(Number(duration || 0) * LABEL_BONUS_TIME));
 }
 
+function normalizeMyDexGender(value) {
+  const gender = String(value ?? 'all');
+  return ['all', '0', '1', '2'].includes(gender) ? gender : 'all';
+}
+
+function matchesMyDexGender(item, value) {
+  const gender = normalizeMyDexGender(value);
+  return gender === 'all' || String(item.gender) === gender;
+}
+
 function availableItems(useLabels) {
   const level = Number(userData.level || 0);
   const allowPremium = !!userData.suggestPremium && level >= 10;
   return DATA.clothes
     .filter(i => effectiveUnlockLevel(i) <= level)
     .filter(i => userData.patternMode === 'all' || i.patternGold <= 0)
-    .filter(i => String(i.gender) === String(userData.myDexGender || '0'))
+    .filter(i => matchesMyDexGender(i, userData.myDexGender))
     .filter(i => !i.isPremiumClothing || allowPremium)
     .map(i => adjusted(i, useLabels && userData.useLabels));
 }
