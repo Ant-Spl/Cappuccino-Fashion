@@ -58,7 +58,7 @@
 		<text id="Basic_Achievement_Stolenproducts" name="Loja desprotegida" />
 		<text id="Basic_Achievement_Stolenproducts_copy" name="Quantidade de mercadorias roubadas" />
 		<text id="Basic_Achievement_Wheeloffortune" name="Rodando a Roda" />
-		<text id="Basic_Achievement_Wheeloffortune_copy" name="Quantidade de vitórias na roleta" />
+		<text id="Basic_Achievement_Wheeloffortune_copy" name="Quantidade de vitórias na Roda da Fortuna" />
 		<text id="Social_Achievement_Friendscout" name="Comprador popular" />
 		<text id="Social_Achievement_Friendscout_copy" name="Quantidade de amigos" />
 	</achievement>
@@ -396,7 +396,7 @@ Você poderá ver o número do item para cada item perto da caixa vazia." />
 		<text id="dialogs_featureUnlocked_decoration" name="Novas decorações foram liberadas para você!" />
 		<text id="dialogs_featureUnlocked_policeman" name="Atenção! A partir de agora as mercadorias podem ser roubadas! É melhor contratar um policial!" />
 		<text id="dialogs_featureUnlocked_ranking" name="Visite outros jogadores através do ranking!" />
-		<text id="dialogs_featureUnlocked_wheeloffortune" name="Tente sua sorte na roleta e ganhe muitos prêmios!" />
+		<text id="dialogs_featureUnlocked_wheeloffortune" name="Tente sua sorte na Roda da Fortuna e ganhe muitos prêmios!" />
 		<text id="dialogs_giftbox_btnclose" name="Fechar" />
 		<text id="dialogs_giftbox_btnsend" name="Presentear" />
 		<text id="dialogs_giftbox_empty_friends" name="Você pode enviar um presente por dia para cada amigo." />
@@ -479,15 +479,15 @@ Para retirá-lo clique no link do E-Mail de boas vindas." />
 		<text id="dialogs_staff_btnfire" name="Demitir" />
 		<text id="dialogs_staff_btnhire" name="Contratar" />
 		<text id="dialogs_staff_title" name="Seu caixa" />
-		<text id="dialogs_wheeloffortune_beforespin" name="Gire a roleta e ganhe ótimos prêmios!" />
+		<text id="dialogs_wheeloffortune_beforespin" name="Gire a Roda da Fortuna e ganhe ótimos prêmios!" />
 		<text id="dialogs_wheeloffortune_btn_go" name="Girar!" />
-		<text id="dialogs_wheeloffortune_btn_towheel" name="Para a roleta" />
-		<text id="dialogs_wheeloffortune_copy1" name="Já girou a roleta hoje?" />
+		<text id="dialogs_wheeloffortune_btn_towheel" name="Para a Roda da Fortuna" />
+		<text id="dialogs_wheeloffortune_copy1" name="Já girou a Roda da Fortuna hoje?" />
 		<text id="dialogs_wheeloffortune_info" name="A primeira rodada do dia é gratuita!" />
-		<text id="dialogs_wheeloffortune_nomoney" name="Você não tem Botões de Ouro suficientes para girar a roleta!" />
-		<text id="dialogs_wheeloffortune_noregister" name="Somente jogadores registrados podem girar a roleta!" />
-		<text id="dialogs_wheeloffortune_nospace" name="Não há espaço na sua caixa de presentes para os seus prêmios! Libere espaço e então você pode girar a roleta!" />
-		<text id="dialogs_wheeloffortune_title" name="A roleta!" />
+		<text id="dialogs_wheeloffortune_nomoney" name="Você não tem Botões de Ouro suficientes para girar a Roda da Fortuna!" />
+		<text id="dialogs_wheeloffortune_noregister" name="Somente jogadores registrados podem girar a Roda da Fortuna!" />
+		<text id="dialogs_wheeloffortune_nospace" name="Não há espaço na sua caixa de presentes para os seus prêmios! Libere espaço e então você pode girar a Roda da Fortuna!" />
+		<text id="dialogs_wheeloffortune_title" name="A Roda da Fortuna!" />
 		<text id="dialogs_wheeloffortune_tryagain" name="Tente mais uma vez!" />
 		<text id="dialogs_wheeloffortune_woncash" name="Parabéns! O seu prêmio já lhe foi creditado!" />
 		<text id="dialogs_wheeloffortune_woncloth" name="Parabéns! O seu prêmio se encontra na sua caixa de presentes!" />
@@ -857,7 +857,7 @@ Clique para detalhes" />
 		<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Expulsar" />
 		<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="Apagar amigo" />
 		<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="Visitar" />
-		<text id="tooltip_wheeloffortune_line1" name="A roleta!" />
+		<text id="tooltip_wheeloffortune_line1" name="A Roda da Fortuna!" />
 		<text id="tooltip_wheeloffortune_line2" name="Clique para jogar!" />
 		<text id="tooltip_wheeloffortune_line3" name="Um jogo grátis" />
 		<text id="tooltip_xofy" name="{0} de {1}" />
