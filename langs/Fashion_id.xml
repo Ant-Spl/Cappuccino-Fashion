@@ -1,1229 +1,1232 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- goodgamestudios FASHION - id - 24 -->
-	<fashion>
-		<achievement>
-			<text id="Basic_Achievement_Boughtdeco" name="Butik Mewah"  />
-			<text id="Basic_Achievement_Boughtdeco_copy" name="Jumlah hiasan yang dibeli"  />
-			<text id="Basic_Achievement_Boughtpatterns" name="Banyak Pilihan Produk"  />
-			<text id="Basic_Achievement_Boughtpatterns_copy" name="Jumlah pola yang dibeli"  />
-			<text id="Basic_Achievement_Earnedchips" name="Merek Terkemuka"  />
-			<text id="Basic_Achievement_Earnedchips_copy" name="Pundi-Pundi Fashiondollar"  />
-			<text id="Basic_Achievement_FinishedCoops" name="Fesyen untuk Semua Orang"  />
-			<text id="Basic_Achievement_FinishedCoops_copy" name="Jumlah Kerja Sama yang dicapai"  />
-			<text id="Basic_Achievement_FinishedGoldCoops" name="Pakaian Emas"  />
-			<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Jumlah Kerja Sama Emas yang dicapai"  />
-			<text id="Basic_Achievement_Mannequindesign" name="Spesialis Etalase Cantik"  />
-			<text id="Basic_Achievement_Mannequindesign_copy" name="Jumlah maneken yang didandani"  />
-			<text id="Basic_Achievement_Masteries" name="Penjahit Sibuk"  />
-			<text id="Basic_Achievement_Masteriesgold" name="Penjahit Emas"  />
-			<text id="Basic_Achievement_Masteriesgold_copy" name="Jumlah Label Emas yang didapatkan"  />
-			<text id="Basic_Achievement_Masteries_copy" name="Jumlah label yang didapatkan"  />
-			<text id="Basic_Achievement_Producedaccessoires" name="Aksesori yang diproduksi"  />
-			<text id="Basic_Achievement_Producedaccessoires_copy" name="Jumlah aksesori yang diproduksi"  />
-			<text id="Basic_Achievement_Producedbags" name="Pedagang Tas Tangan"  />
-			<text id="Basic_Achievement_Producedbags_copy" name="Jumlah tas tangan yang diproduksi"  />
-			<text id="Basic_Achievement_Producedbottoms" name="Spesialis Celana Pria"  />
-			<text id="Basic_Achievement_Producedbottoms_copy" name="Jumlah celana dan rok yang diproduksi"  />
-			<text id="Basic_Achievement_Producedclothes" name="Monopoli Pakaian"  />
-			<text id="Basic_Achievement_Producedclothes_copy" name="Jumlah pakaian yang diproduksi"  />
-			<text id="Basic_Achievement_Produceddifferentaccessoires" name="Aksesori Keren"  />
-			<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="Jumlah aksesori berbeda yang diproduksi"  />
-			<text id="Basic_Achievement_Produceddifferentclothes" name="Pilihan Pakaian"  />
-			<text id="Basic_Achievement_Produceddifferentclothes_copy" name="Jumlah pakaian berbeda yang diproduksi"  />
-			<text id="Basic_Achievement_Produceddifferentitems" name="Spesialis Busana"  />
-			<text id="Basic_Achievement_Produceddifferentitems_copy" name="Jumlah barang berbeda yang diproduksi"  />
-			<text id="Basic_Achievement_Produceddifferentshoes" name="Spesialis Sepatu"  />
-			<text id="Basic_Achievement_Produceddifferentshoes_copy" name="Jumlah sepatu berbeda yang diproduksi"  />
-			<text id="Basic_Achievement_Producedfemaleonly" name="Spesialis Busana Wanita"  />
-			<text id="Basic_Achievement_Producedfemaleonly_copy" name="Jumlah barang untuk wanita yang diproduksi"  />
-			<text id="Basic_Achievement_Producedfullbody" name="Spesialis Setelan dan Gaun"  />
-			<text id="Basic_Achievement_Producedfullbody_copy" name="Jumlah gaun dan setelan yang diproduksi"  />
-			<text id="Basic_Achievement_Producedhats" name="Pembuat Topi"  />
-			<text id="Basic_Achievement_Producedhats_copy" name="Jumlah topi yang diproduksi"  />
-			<text id="Basic_Achievement_Producedjewlery" name="Spesialis Perhiasan"  />
-			<text id="Basic_Achievement_Producedjewlery_copy" name="Jumlah perhiasan yang diproduksi"  />
-			<text id="Basic_Achievement_Producedmaleonly" name="Spesialis Busana Pria"  />
-			<text id="Basic_Achievement_Producedmaleonly_copy" name="Jumlah barang untuk pria yang diproduksi"  />
-			<text id="Basic_Achievement_Producedshoes" name="Bos Sepatu"  />
-			<text id="Basic_Achievement_Producedshoes_copy" name="Jumlah sepatu yang diproduksi"  />
-			<text id="Basic_Achievement_Producedtops" name="Atasan di mana-mana"  />
-			<text id="Basic_Achievement_Producedtops_copy" name="Jumlah atasan yang diproduksi"  />
-			<text id="Basic_Achievement_Soldduringsale" name="Spesialis Penjualan Hebat"  />
-			<text id="Basic_Achievement_Soldduringsale_copy" name="Pakaian Sale yang Terjual"  />
-			<text id="Basic_Achievement_Soldproducts" name="Barang terjual"  />
-			<text id="Basic_Achievement_Soldproducts_copy" name="Jumlah barang yang terjual"  />
-			<text id="Basic_Achievement_Spentchips" name="Penjual Murah Hati"  />
-			<text id="Basic_Achievement_Spentchips_copy" name="Jumlah Fashiondollar yang dibelanjakan"  />
-			<text id="Basic_Achievement_Spentgold" name="Toko Emas"  />
-			<text id="Basic_Achievement_Spentgold_copy" name="Jumlah Kancing Emas yang dibelanjakan"  />
-			<text id="Basic_Achievement_Stolenproducts" name="Motel Pencuri Mungil"  />
-			<text id="Basic_Achievement_Stolenproducts_copy" name="Jumlah barang yang dicuri"  />
-			<text id="Basic_Achievement_Wheeloffortune" name="Spesialis Roda Keberuntungan"  />
-			<text id="Basic_Achievement_Wheeloffortune_copy" name="Jumlah Roda Keberuntungan yang dimenangkan"  />
-			<text id="Social_Achievement_Friendscout" name="Pembelanja Populer"  />
-			<text id="Social_Achievement_Friendscout_copy" name="Jumlah teman jaringan"  />
-		</achievement>
-		<alerts>
-			<text id="alerts_avatarcustomize_goldrequest" name="Ingin ganti pakaian seharga {0} {1}?"  />
-			<text id="alerts_avatarcustom_workingplayer_copy" name="Kamu sedang dalam proses menyelesaikan suatu tindakan dan tidak bisa mengganti pakaian saat ini!"  />
-			<text id="alerts_avatarcustom_workingplayer_title" name="Tunggu sebentar!"  />
-			<text id="alerts_booster_info_copy" name="Satpam mencegah perampokan di tokomu.
-Kamu bisa mempekerjakannya 5 hari dan memperpanjang periodenya."  />
-			<text id="alerts_booster_info_copy_1" name="Jika kamu mendapatkan {0} teman ekstra, perlindunganmu akan bertambah sebesar {1}."  />
-			<text id="alerts_booster_info_title" name="Satpam"  />
-			<text id="alerts_buytiles_copy" name="Ingin membeli {0} ubin seharga {1}?"  />
-			<text id="alerts_buytiles_title" name="Beli ubin?"  />
-			<text id="alerts_customcloth_noshape_copy" name="Pertama, kamu perlu memilih model untuk meletakkan motif di atasnya!"  />
-			<text id="alerts_decoshop_dragtipp_copy" name="Bawa barang ini ke tokomu untuk digunakan."  />
-			<text id="alerts_decoshop_dragtipp_title" name="Hias!"  />
-			<text id="alerts_decoshop_next_Cashdesk_bylevel" name="Kamu harus mencapai level {0} untuk membeli meja kasir tambahan. Kamu juga boleh membawa meja kasir lama dari tokomu ke sini untuk membeli yang baru."  />
-			<text id="alerts_decoshop_next_Changingroom_bylevel" name="Kamu harus mencapai level {0} untuk membeli kamar ganti tambahan. Kamu juga boleh membawa kamar ganti lama dari tokomu ke sini untuk membeli yang baru."  />
-			<text id="alerts_decoshop_next_Counter_bylevel" name="Kamu harus mencapai level {0} untuk membeli rak tambahan. Kamu juga boleh membawa rak lama dari tokomu ke sini untuk membeli yang baru."  />
-			<text id="alerts_decoshop_next_Factory_bylevel" name="Kamu harus mencapai level {0} untuk membeli pekerja tambahan. Kamu juga boleh membawa kamar pekerja dari tokomu ke sini untuk membeli yang baru."  />
-			<text id="alerts_decoshop_next_Mannequin_bylevel" name="Kamu harus mencapai level {0} untuk membeli maneken tambahan. Kamu juga boleh membawa maneken lama dari tokomu ke sini untuk membeli yang baru."  />
-			<text id="alerts_decoshop_nomoreCashdesk" name="Kamu tidak bisa membeli lebih banyak meja kasir saat ini!"  />
-			<text id="alerts_decoshop_nomoreChangingroom" name="Kamu tidak bisa membeli lebih banyak kamar ganti saat ini!"  />
-			<text id="alerts_decoshop_nomoreCounter" name="Kamu tidak bisa membeli lebih banyak rak saat ini!"  />
-			<text id="alerts_decoshop_nomoreExpansion" name="Belum ada perluasan baru yang tersedia."  />
-			<text id="alerts_decoshop_nomoreFactory" name="Kamu tidak bisa membeli lebih banyak pekerja saat ini!"  />
-			<text id="alerts_decoshop_nomoreMannequin" name="Kamu tidak bisa membeli lebih banyak maneken saat ini!"  />
-			<text id="alerts_decoshop_sellitem_copy" name="Benar-benar ingin menjual barang ini seharga {0} per buah?"  />
-			<text id="alerts_decoshop_sellitem_title" name="Jual barang"  />
-			<text id="alerts_decoshop_storeFactory_copy" name="Kamu tidak bisa menghapus perkerja yang tidak puas dari tokomu. Berikan bonus atau jual dia."  />
-			<text id="alerts_decoshop_storeMannequin_copy" name="Kamu tidak bisa menyimpan maneken selama dia masih mengenakan pakaian."  />
-			<text id="alerts_decoshop_store_title" name="Persediaan"  />
-			<text id="alerts_decoshop_workingplayer_copy" name="Sebelum merenovasi toko, kamu harus menyelesaikan tindakan ini dulu!"  />
-			<text id="alerts_decoshop_workingplayer_title" name="Sibuk!"  />
-			<text id="alerts_fashionbook_notarget_copy" name="Pilih pekerja untuk memproduksi barang."  />
-			<text id="alerts_fashionbook_notarget_copy_1" name="Pekerja sudah cukup sibuk.
-Pilih pekerja lain!"  />
-			<text id="alerts_fashionbook_notarget_title" name="Pekerja yang mana?"  />
-			<text id="alerts_fashionbook_notequaltype_copy" name="Kamu hanya bisa memproduksi benda tertentu dengan pekerja ini.
-Pilih satu produk dari koleksi {0}."  />
-			<text id="alerts_fashionbook_notequaltype_title" name="Produk berbeda"  />
-			<text id="alerts_fashionbook_usebooster_title" name="Gunakan booster?"  />
-			<text id="alerts_friend_ask" name="Ingin menambahkan {0} sebagai teman?"  />
-			<text id="alerts_friend_denied" name="{0} menolak undangan bertemanmu"  />
-			<text id="alerts_friend_title" name="Persahabatan"  />
-			<text id="alerts_gift_workingplayer_copy" name="Kamu masih memegang barang. Letakkan barang itu di rak sebelum kamu mengirimkan hadiah."  />
-			<text id="alerts_gift_workingplayer_title" name="Letakkan dulu!"  />
-			<text id="alerts_instantworking_goldrequest" name="Ingin &#039;Selesai sekarang&#039;?
-Masih ada {0} kali kesempatan!"  />
-			<text id="alerts_invitefriend_copy" name="Undanganmu ke {0} telah terkirim!"  />
-			<text id="alerts_invitefriend_title" name="Teman baru!"  />
-			<text id="alerts_isoworld_counter_outofreach_copy" name="Rak tidak bisa dijangkau. Atur ulang sedikit."  />
-			<text id="alerts_isoworld_counter_outofreach_title" name="Tidak bisa diraih!"  />
-			<text id="alerts_isoworld_factory_outofreach_copy" name="Pekerja ini tidak bisa dijangkau. Silakan mengatur ulang sedikit."  />
-			<text id="alerts_isoworld_factory_outofreach_title" name="Tidak bisa diraih!"  />
-			<text id="alerts_isoworld_mannequin_instant" name="Ingin mengganti manekenmu?"  />
-			<text id="alerts_isoworld_marketplace_title" name="Papan Tulis"  />
-			<text id="alerts_kickedbyplayer_copy" name="Toko ditutup oleh pemiliknya."  />
-			<text id="alerts_kickedbyplayer_title" name="Kamu harus pergi!"  />
-			<text id="alerts_kickjobber_copy" name="Kamu tidak bisa beralih ke mode renovasi selama ada pemain lain yang sedang bekerja di tokomu."  />
-			<text id="alerts_kickjobber_title" name="Pekerja di tokomu"  />
-			<text id="alerts_kickplayer_copy" name="Pemain lain masih berada dalam tokomu. Ingin menyuruh mereka keluar untuk beralih ke mode penghiasan ulang?"  />
-			<text id="alerts_kickplayer_title" name="Suruh pemain keluar"  />
-			<text id="alerts_lostpassword_copy" name="Ketikkan alamat emailmu dan kami akan mengirimkan sandi baru kepadamu."  />
-			<text id="alerts_lostpassword_title" name="Lupa sandimu?"  />
-			<text id="alerts_mannequindesign_nocloth_copy" name="Kamu tidak punya barang yang cocok di rak untuk mendandani maneken ini."  />
-			<text id="alerts_mannequindesign_nocloth_title" name="Tidak ada barang!"  />
-			<text id="alerts_marketplace_playerleaved_copy" name="Pemain sudah meninggalkan atrium."  />
-			<text id="alerts_marketplace_playerleaved_title" name="Terlambat!"  />
-			<text id="alerts_placetiles_copy" name="1. Pilih ubin
+<fashion>
+	<achievement>
+		<text id="Basic_Achievement_Boughtdeco" name="Butik Mewah" />
+		<text id="Basic_Achievement_Boughtdeco_copy" name="Jumlah hiasan yang dibeli" />
+		<text id="Basic_Achievement_Boughtpatterns" name="Banyak Pilihan Produk" />
+		<text id="Basic_Achievement_Boughtpatterns_copy" name="Jumlah pola yang dibeli" />
+		<text id="Basic_Achievement_Earnedchips" name="Merek Terkemuka" />
+		<text id="Basic_Achievement_Earnedchips_copy" name="Pundi-Pundi Fashiondollar" />
+		<text id="Basic_Achievement_FinishedCoops" name="Fesyen untuk Semua Orang" />
+		<text id="Basic_Achievement_FinishedCoops_copy" name="Jumlah Kerja Sama yang dicapai" />
+		<text id="Basic_Achievement_FinishedGoldCoops" name="Pakaian Emas" />
+		<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Jumlah Kerja Sama Emas yang dicapai" />
+		<text id="Basic_Achievement_Mannequindesign" name="Spesialis Etalase Cantik" />
+		<text id="Basic_Achievement_Mannequindesign_copy" name="Jumlah maneken yang didandani" />
+		<text id="Basic_Achievement_Masteries" name="Penjahit Sibuk" />
+		<text id="Basic_Achievement_Masteriesgold" name="Penjahit Emas" />
+		<text id="Basic_Achievement_Masteriesgold_copy" name="Jumlah Label Emas yang didapatkan" />
+		<text id="Basic_Achievement_Masteries_copy" name="Jumlah label yang didapatkan" />
+		<text id="Basic_Achievement_Producedaccessoires" name="Aksesori yang diproduksi" />
+		<text id="Basic_Achievement_Producedaccessoires_copy" name="Jumlah aksesori yang diproduksi" />
+		<text id="Basic_Achievement_Producedbags" name="Pedagang Tas Tangan" />
+		<text id="Basic_Achievement_Producedbags_copy" name="Jumlah tas tangan yang diproduksi" />
+		<text id="Basic_Achievement_Producedbottoms" name="Spesialis Celana Pria" />
+		<text id="Basic_Achievement_Producedbottoms_copy" name="Jumlah celana dan rok yang diproduksi" />
+		<text id="Basic_Achievement_Producedclothes" name="Monopoli Pakaian" />
+		<text id="Basic_Achievement_Producedclothes_copy" name="Jumlah pakaian yang diproduksi" />
+		<text id="Basic_Achievement_Produceddifferentaccessoires" name="Aksesori Keren" />
+		<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="Jumlah aksesori berbeda yang diproduksi" />
+		<text id="Basic_Achievement_Produceddifferentclothes" name="Pilihan Pakaian" />
+		<text id="Basic_Achievement_Produceddifferentclothes_copy" name="Jumlah pakaian berbeda yang diproduksi" />
+		<text id="Basic_Achievement_Produceddifferentitems" name="Spesialis Busana" />
+		<text id="Basic_Achievement_Produceddifferentitems_copy" name="Jumlah barang berbeda yang diproduksi" />
+		<text id="Basic_Achievement_Produceddifferentshoes" name="Spesialis Sepatu" />
+		<text id="Basic_Achievement_Produceddifferentshoes_copy" name="Jumlah sepatu berbeda yang diproduksi" />
+		<text id="Basic_Achievement_Producedfemaleonly" name="Spesialis Busana Wanita" />
+		<text id="Basic_Achievement_Producedfemaleonly_copy" name="Jumlah barang untuk wanita yang diproduksi" />
+		<text id="Basic_Achievement_Producedfullbody" name="Spesialis Setelan dan Gaun" />
+		<text id="Basic_Achievement_Producedfullbody_copy" name="Jumlah gaun dan setelan yang diproduksi" />
+		<text id="Basic_Achievement_Producedhats" name="Pembuat Topi" />
+		<text id="Basic_Achievement_Producedhats_copy" name="Jumlah topi yang diproduksi" />
+		<text id="Basic_Achievement_Producedjewlery" name="Spesialis Perhiasan" />
+		<text id="Basic_Achievement_Producedjewlery_copy" name="Jumlah perhiasan yang diproduksi" />
+		<text id="Basic_Achievement_Producedmaleonly" name="Spesialis Busana Pria" />
+		<text id="Basic_Achievement_Producedmaleonly_copy" name="Jumlah barang untuk pria yang diproduksi" />
+		<text id="Basic_Achievement_Producedshoes" name="Bos Sepatu" />
+		<text id="Basic_Achievement_Producedshoes_copy" name="Jumlah sepatu yang diproduksi" />
+		<text id="Basic_Achievement_Producedtops" name="Atasan di mana-mana" />
+		<text id="Basic_Achievement_Producedtops_copy" name="Jumlah atasan yang diproduksi" />
+		<text id="Basic_Achievement_Soldduringsale" name="Spesialis Penjualan Hebat" />
+		<text id="Basic_Achievement_Soldduringsale_copy" name="Pakaian Sale yang Terjual" />
+		<text id="Basic_Achievement_Soldproducts" name="Barang terjual" />
+		<text id="Basic_Achievement_Soldproducts_copy" name="Jumlah barang yang terjual" />
+		<text id="Basic_Achievement_Spentchips" name="Penjual Murah Hati" />
+		<text id="Basic_Achievement_Spentchips_copy" name="Jumlah Fashiondollar yang dibelanjakan" />
+		<text id="Basic_Achievement_Spentgold" name="Toko Emas" />
+		<text id="Basic_Achievement_Spentgold_copy" name="Jumlah Kancing Emas yang dibelanjakan" />
+		<text id="Basic_Achievement_Stolenproducts" name="Motel Pencuri Mungil" />
+		<text id="Basic_Achievement_Stolenproducts_copy" name="Jumlah barang yang dicuri" />
+		<text id="Basic_Achievement_Wheeloffortune" name="Spesialis Roda Keberuntungan" />
+		<text id="Basic_Achievement_Wheeloffortune_copy" name="Jumlah Roda Keberuntungan yang dimenangkan" />
+		<text id="Social_Achievement_Friendscout" name="Pembelanja Populer" />
+		<text id="Social_Achievement_Friendscout_copy" name="Jumlah teman jaringan" />
+	</achievement>
+	<alerts>
+		<text id="alerts_avatarcustomize_goldrequest" name="Ingin ganti pakaian seharga {0} {1}?" />
+		<text id="alerts_avatarcustom_workingplayer_copy" name="Kamu sedang dalam proses menyelesaikan suatu tindakan dan tidak bisa mengganti pakaian saat ini!" />
+		<text id="alerts_avatarcustom_workingplayer_title" name="Tunggu sebentar!" />
+		<text id="alerts_booster_info_copy" name="Satpam mencegah perampokan di tokomu.
+Kamu bisa mempekerjakannya 5 hari dan memperpanjang periodenya." />
+		<text id="alerts_booster_info_copy_1" name="Jika kamu mendapatkan {0} teman ekstra, perlindunganmu akan bertambah sebesar {1}." />
+		<text id="alerts_booster_info_title" name="Satpam" />
+		<text id="alerts_buytiles_copy" name="Ingin membeli {0} ubin seharga {1}?" />
+		<text id="alerts_buytiles_title" name="Beli ubin?" />
+		<text id="alerts_customcloth_noshape_copy" name="Pertama, kamu perlu memilih model untuk meletakkan motif di atasnya!" />
+		<text id="alerts_decoshop_dragtipp_copy" name="Bawa barang ini ke tokomu untuk digunakan." />
+		<text id="alerts_decoshop_dragtipp_title" name="Hias!" />
+		<text id="alerts_decoshop_next_Cashdesk_bylevel" name="Kamu harus mencapai level {0} untuk membeli meja kasir tambahan. Kamu juga boleh membawa meja kasir lama dari tokomu ke sini untuk membeli yang baru." />
+		<text id="alerts_decoshop_next_Changingroom_bylevel" name="Kamu harus mencapai level {0} untuk membeli kamar ganti tambahan. Kamu juga boleh membawa kamar ganti lama dari tokomu ke sini untuk membeli yang baru." />
+		<text id="alerts_decoshop_next_Counter_bylevel" name="Kamu harus mencapai level {0} untuk membeli rak tambahan. Kamu juga boleh membawa rak lama dari tokomu ke sini untuk membeli yang baru." />
+		<text id="alerts_decoshop_next_Factory_bylevel" name="Kamu harus mencapai level {0} untuk membeli pekerja tambahan. Kamu juga boleh membawa kamar pekerja dari tokomu ke sini untuk membeli yang baru." />
+		<text id="alerts_decoshop_next_Mannequin_bylevel" name="Kamu harus mencapai level {0} untuk membeli maneken tambahan. Kamu juga boleh membawa maneken lama dari tokomu ke sini untuk membeli yang baru." />
+		<text id="alerts_decoshop_nomoreCashdesk" name="Kamu tidak bisa membeli lebih banyak meja kasir saat ini!" />
+		<text id="alerts_decoshop_nomoreChangingroom" name="Kamu tidak bisa membeli lebih banyak kamar ganti saat ini!" />
+		<text id="alerts_decoshop_nomoreCounter" name="Kamu tidak bisa membeli lebih banyak rak saat ini!" />
+		<text id="alerts_decoshop_nomoreExpansion" name="Belum ada perluasan baru yang tersedia." />
+		<text id="alerts_decoshop_nomoreFactory" name="Kamu tidak bisa membeli lebih banyak pekerja saat ini!" />
+		<text id="alerts_decoshop_nomoreMannequin" name="Kamu tidak bisa membeli lebih banyak maneken saat ini!" />
+		<text id="alerts_decoshop_sellitem_copy" name="Benar-benar ingin menjual barang ini seharga {0} per buah?" />
+		<text id="alerts_decoshop_sellitem_title" name="Jual barang" />
+		<text id="alerts_decoshop_storeFactory_copy" name="Kamu tidak bisa menghapus perkerja yang tidak puas dari tokomu. Berikan bonus atau jual dia." />
+		<text id="alerts_decoshop_storeMannequin_copy" name="Kamu tidak bisa menyimpan maneken selama dia masih mengenakan pakaian." />
+		<text id="alerts_decoshop_store_title" name="Persediaan" />
+		<text id="alerts_decoshop_workingplayer_copy" name="Sebelum merenovasi toko, kamu harus menyelesaikan tindakan ini dulu!" />
+		<text id="alerts_decoshop_workingplayer_title" name="Sibuk!" />
+		<text id="alerts_fashionbook_notarget_copy" name="Pilih pekerja untuk memproduksi barang." />
+		<text id="alerts_fashionbook_notarget_copy_1" name="Pekerja sudah cukup sibuk.
+Pilih pekerja lain!" />
+		<text id="alerts_fashionbook_notarget_title" name="Pekerja yang mana?" />
+		<text id="alerts_fashionbook_notequaltype_copy" name="Kamu hanya bisa memproduksi benda tertentu dengan pekerja ini.
+Pilih satu produk dari koleksi {0}." />
+		<text id="alerts_fashionbook_notequaltype_title" name="Produk berbeda" />
+		<text id="alerts_fashionbook_usebooster_title" name="Gunakan booster?" />
+		<text id="alerts_friend_ask" name="Ingin menambahkan {0} sebagai teman?" />
+		<text id="alerts_friend_denied" name="{0} menolak undangan bertemanmu" />
+		<text id="alerts_friend_title" name="Persahabatan" />
+		<text id="alerts_gift_workingplayer_copy" name="Kamu masih memegang barang. Letakkan barang itu di rak sebelum kamu mengirimkan hadiah." />
+		<text id="alerts_gift_workingplayer_title" name="Letakkan dulu!" />
+		<text id="alerts_instantworking_goldrequest" name="Ingin &amp;#039;Selesai sekarang&amp;#039;?
+Masih ada {0} kali kesempatan!" />
+		<text id="alerts_invitefriend_copy" name="Undanganmu ke {0} telah terkirim!" />
+		<text id="alerts_invitefriend_title" name="Teman baru!" />
+		<text id="alerts_isoworld_counter_outofreach_copy" name="Rak tidak bisa dijangkau. Atur ulang sedikit." />
+		<text id="alerts_isoworld_counter_outofreach_title" name="Tidak bisa diraih!" />
+		<text id="alerts_isoworld_factory_outofreach_copy" name="Pekerja ini tidak bisa dijangkau. Silakan mengatur ulang sedikit." />
+		<text id="alerts_isoworld_factory_outofreach_title" name="Tidak bisa diraih!" />
+		<text id="alerts_isoworld_mannequin_instant" name="Ingin mengganti manekenmu?" />
+		<text id="alerts_isoworld_marketplace_title" name="Papan Tulis" />
+		<text id="alerts_kickedbyplayer_copy" name="Toko ditutup oleh pemiliknya." />
+		<text id="alerts_kickedbyplayer_title" name="Kamu harus pergi!" />
+		<text id="alerts_kickjobber_copy" name="Kamu tidak bisa beralih ke mode renovasi selama ada pemain lain yang sedang bekerja di tokomu." />
+		<text id="alerts_kickjobber_title" name="Pekerja di tokomu" />
+		<text id="alerts_kickplayer_copy" name="Pemain lain masih berada dalam tokomu. Ingin menyuruh mereka keluar untuk beralih ke mode penghiasan ulang?" />
+		<text id="alerts_kickplayer_title" name="Suruh pemain keluar" />
+		<text id="alerts_lostpassword_copy" name="Ketikkan alamat emailmu dan kami akan mengirimkan sandi baru kepadamu." />
+		<text id="alerts_lostpassword_title" name="Lupa sandimu?" />
+		<text id="alerts_mannequindesign_nocloth_copy" name="Kamu tidak punya barang yang cocok di rak untuk mendandani maneken ini." />
+		<text id="alerts_mannequindesign_nocloth_title" name="Tidak ada barang!" />
+		<text id="alerts_marketplace_playerleaved_copy" name="Pemain sudah meninggalkan atrium." />
+		<text id="alerts_marketplace_playerleaved_title" name="Terlambat!" />
+		<text id="alerts_placetiles_copy" name="1. Pilih ubin
 2. Klik lantai tokomu, tahan tombol mouse dan pilih area yang ingin kamu ubah.
-3. Lepaskan tombol mouse."  />
-			<text id="alerts_placetiles_title" name="Tempatkan ubin?"  />
-			<text id="alerts_register_copy_addgold" name="Kamu perlu mendaftar sebelum bisa berbelanja di sini"  />
-			<text id="alerts_register_copy_advertisement" name="Kamu harus mendaftar dulu untuk bisa mempromosikan tokomu."  />
-			<text id="alerts_register_copy_changeavatar" name="Kamu perlu mendaftar untuk mengubah penampilanmu!"  />
-			<text id="alerts_register_copy_changepassword" name="Hanya pemain terdaftar yang bisa mengubah sandinya!"  />
-			<text id="alerts_register_copy_coop" name="Kamu perlu mendaftar dulu untuk berpartisipasi dalam Kerja Sama!"  />
-			<text id="alerts_register_copy_gifts" name="Kamu perlu mendaftar dulu untuk mengirimkan hadiah."  />
-			<text id="alerts_register_copy_invitefriend" name="Kamu perlu mendaftar sebelum bisa mengundang teman lain."  />
-			<text id="alerts_register_copy_logout" name="Daftar untuk menyimpan kemajuanmu!"  />
-			<text id="alerts_register_title" name="Daftar"  />
-			<text id="alerts_servermsg_10" name="Server sedang dinyalakan kembali, kamu dapat segera melanjutkan.
-Silakan keluar."  />
-			<text id="alerts_servermsg_title" name="Pesan server!"  />
-			<text id="alerts_staff_fire_copy" name="Benar-benar ingin memecat kasirmu?
-Jika kamu belum punya cukup banyak kasir, pelanggan akan antri lebih lama dan tidak puas."  />
-			<text id="alerts_staff_fire_title" name="Pecat kasir?"  />
-			<text id="alerts_staff_hire_copy" name="Ingin mempekerjakan kasir baru?"  />
-			<text id="alerts_staff_hire_title" name="Kasir baru"  />
-			<text id="alerts_versioncheck_copy" name="Silakan segarkan laman untuk memuat versi terbaru."  />
-			<text id="alerts_versioncheck_title" name="Versi lama!"  />
-		</alerts>
-		<cloth>
-			<text id="cloth_blackbowlermale" name="Topi Tinggi"  />
-			<text id="cloth_blackdressfemale" name="Gaun Hitam Mini"  />
-			<text id="cloth_blackhandbagfemale" name="Tas Tangan Hitam Besar"  />
-			<text id="cloth_blackheelsfemale" name="Sepatu Hak Tinggi Hitam"  />
-			<text id="cloth_blackjacketmale" name="Jaket Kulit Sederhana"  />
-			<text id="cloth_blackpant2male" name="Jeans GeeCee"  />
-			<text id="cloth_blackpantfemale" name="Celana Ketat Hitam Cewek"  />
-			<text id="cloth_blackpantmale" name="Celana Ketat Hitam Cowok"  />
-			<text id="cloth_blacksuitmale" name="Setelan Garis Tipis"  />
-			<text id="cloth_blackwatchmale" name="Arloji Hitam"  />
-			<text id="cloth_bluebaggypantsfemale" name="Celana Baggy Cewek jayJay"  />
-			<text id="cloth_blueblousefemale" name="Blus Biru"  />
-			<text id="cloth_bluecapfemale" name="Topi Pet Biru"  />
-			<text id="cloth_bluecapmale" name="Topi Pet Biru"  />
-			<text id="cloth_blueheadphones" name="Headphone JayJay"  />
-			<text id="cloth_bluenecklacefemale" name="Kalung Mutiara Biru"  />
-			<text id="cloth_bluepolomale" name="Kaus Polo Biru"  />
-			<text id="cloth_blueshirtmale" name="T-Shirt Biru"  />
-			<text id="cloth_bluesweatermale" name="Sweater Cowok Biru JayJay"  />
-			<text id="cloth_bootsfemale" name="Sepatu Bot Cewek GeeCee"  />
-			<text id="cloth_brownknitcapfemale" name="Topi Rajut Cokelat"  />
-			<text id="cloth_brownknitcapmale" name="Topi Rajut Cokelat"  />
-			<text id="cloth_cardiganfemale" name="Kardigan Cewek GeeCee"  />
-			<text id="cloth_cardiganmale" name="Kardigan Cowok GeeCee"  />
-			<text id="cloth_charlestonhatfemale" name="Topi Charleston"  />
-			<text id="cloth_checkshirtfemale" name="Kemeja Kotak-Kotak Cewek JayJay"  />
-			<text id="cloth_checkshirtmale" name="Kemeja Kotak-Kotak Cowok JayJay"  />
-			<text id="cloth_customcloth" name="Ciptakan penampilanmu!"  />
-			<text id="cloth_darkbluejeansfemale" name="Jeans Wanita Biru Tua"  />
-			<text id="cloth_darkbluejeansmale" name="Jeans Pria Biru Tua"  />
-			<text id="cloth_dressfemale" name="Gaun Cewek GeeCee"  />
-			<text id="cloth_flowerskirtfemale" name="Rok Bunga GeeDee"  />
-			<text id="cloth_ggsshirtmale" name="T-Shirt GeeCee"  />
-			<text id="cloth_goldnecklacefemale" name="Kalung Emas"  />
-			<text id="cloth_greendressfemale" name="Gaun GeeDee"  />
-			<text id="cloth_greenjacketfemale" name="Jaket Parasut Cewek JayJay"  />
-			<text id="cloth_greenjacketmale" name="Jaket Parasut Cowok JayJay"  />
-			<text id="cloth_greenpulloverfemale" name="Turtleneck Hijau"  />
-			<text id="cloth_greenshirtmale" name="Kemeja Cowok GeeDee"  />
-			<text id="cloth_greysuitmale" name="Setelan Abu-Abu"  />
-			<text id="cloth_lightbluejeansfemale" name="Jeans Biru Wanita"  />
-			<text id="cloth_lightbluejeansmale" name="Jeans Biru Pria"  />
-			<text id="cloth_manblackmale" name="Sepatu Kulit Hitam Mengkilap"  />
-			<text id="cloth_manbrownmale" name="Sepatu Kulit Cokelat"  />
-			<text id="cloth_orangeknitcapfemale" name="Topi Rajut Jingga"  />
-			<text id="cloth_orangeknitcapmale" name="Topi Rajut Jingga"  />
-			<text id="cloth_perlnecklacefemale" name="Kalung Perak Sederhana"  />
-			<text id="cloth_pinkhangbagfemale" name="Tas Tangan Quilt"  />
-			<text id="cloth_pinkshirtfemale" name="Kaus Polo Pink"  />
-			<text id="cloth_premiumbluejacketmale" name="Jaket Musim Semi"  />
-			<text id="cloth_premiumgreenjacketfemale" name="Jas Musim Semi"  />
-			<text id="cloth_premiumjumpsuitfemale" name="Celana Kodok Cewek GeeDee"  />
-			<text id="cloth_premiumshortsmale" name="Celana Pendek Cowok GeeDee"  />
-			<text id="cloth_purplehandbagfemale" name="Tas Tangan GeeCee"  />
-			<text id="cloth_purplepulloverfemale" name="Turtleneck Ungu"  />
-			<text id="cloth_purpletshirtfemale" name="T-Shirt Cewek JayJay"  />
-			<text id="cloth_redcapfemale" name="Topi Pet Merah"  />
-			<text id="cloth_redcapmale" name="Topi Pet Merah"  />
-			<text id="cloth_reddressfemale" name="Gaun Malam Tanpa Tali"  />
-			<text id="cloth_redheelsfemale" name="Sepatu Hak Tinggi Merah"  />
-			<text id="cloth_redskirtfemale" name="Rok Pita Merah"  />
-			<text id="cloth_redsneakermale" name="Pakaian Olahraga Cowok Merah JayJay"  />
-			<text id="cloth_redtopfemale" name="Atasan Gliter Merah"  />
-			<text id="cloth_scraffemale" name="Scarf Polkadot GeeCee"  />
-			<text id="cloth_scrafmale" name="Scarf Cowok GeeCee"  />
-			<text id="cloth_silvernecklacefemale" name="Kalung Perak"  />
-			<text id="cloth_silverwatchmale" name="Arloji Perak"  />
-			<text id="cloth_sneakersfemale" name="Sepatu Kets Putih"  />
-			<text id="cloth_sneakersgreenmale" name="Pakaian Olahraga GeeCee Hijau"  />
-			<text id="cloth_sneakersmale" name="Sepatu Kets Putih"  />
-			<text id="cloth_strawberrysneakerfemale" name="Sepatu Stroberi JayJay"  />
-			<text id="cloth_stripedshirtmale" name="Kemeja Garis Cowok GeeDee"  />
-			<text id="cloth_stripedtopfemale" name="Atasan Musim Panas Cewek GeeDee"  />
-			<text id="cloth_stripedtshirtmale" name="T-Shirt Garis Cowok JayJay"  />
-			<text id="cloth_sweathoodiemale" name="Jumper Cowok GeeDee"  />
-			<text id="cloth_trenchcoatmale" name="Jas Hitam Panjang"  />
-			<text id="cloth_whiteshirtmale" name="Kemeja Putih"  />
-			<text id="cloth_whiteskirtfemale" name="Rok Mini Putih"  />
-			<text id="cloth_yellowdressfemale" name="Gaun Koktail Imut"  />
-		</cloth>
-		<commons>
-			<text id="achievement_rang" name="Peringkat {0}/{1}"  />
-			<text id="comingsoon" name="*Segera hadir*"  />
-			<text id="currency_cash" name="Fashiondollar"  />
-			<text id="currency_gold" name="Kancing Emas"  />
-			<text id="currency_gold_single" name="Kancing Emas"  />
-			<text id="factorytyp_accessories" name="Aksesori"  />
-			<text id="factorytyp_clothes" name="Pakaian"  />
-			<text id="factorytyp_shoes" name="Sepatu"  />
-			<text id="friendscount" name="Teman {0}"  />
-			<text id="levelcount" name="Level {0}"  />
-			<text id="levellabel" name="Level"  />
-			<text id="mastery" name="Level-Label"  />
-			<text id="new" name="Baru!"  />
-			<text id="xplabel" name="XP"  />
-		</commons>
-		<coopmission>
-			<text id="coop_desc_1" name="Pakaian basic cantik untuk piknik!"  />
-			<text id="coop_desc_10" name="Gaun malam cantik untuk pesta dansamu!"  />
-			<text id="coop_desc_11" name="Pilihan klasik bagi pria!"  />
-			<text id="coop_desc_2" name="Dandanan sempurna untuk berolahraga!"  />
-			<text id="coop_desc_3" name="Orang-orang dan musik sepanjang malam!"  />
-			<text id="coop_desc_4" name="Hadiah sempurna untuk segala kesempatan!"  />
-			<text id="coop_desc_5" name="Tidak ada yang mengalahkan setelan yang pas di badan!"  />
-			<text id="coop_desc_6" name="Hujan sepatu!"  />
-			<text id="coop_desc_7" name="Rok, atasan, dan sepatu...serba merah!"  />
-			<text id="coop_desc_8" name="Serba gaun untuk cewek-cewek cantik!"  />
-			<text id="coop_desc_9" name="Sempurna untuk kelas dansa!"  />
-			<text id="coop_title_1" name="Ayo berpiknik!"  />
-			<text id="coop_title_10" name="Pesta Dansa!"  />
-			<text id="coop_title_11" name="Kembali ke hitam!"  />
-			<text id="coop_title_2" name="Serba Olahraga!"  />
-			<text id="coop_title_3" name="Laris!"  />
-			<text id="coop_title_4" name="Hadiah hebat!"  />
-			<text id="coop_title_5" name="Khusus pria!"  />
-			<text id="coop_title_6" name="Sepatu di mana-mana!"  />
-			<text id="coop_title_7" name="Wanita berbusana merah!"  />
-			<text id="coop_title_8" name="Pakaian cewek!"  />
-			<text id="coop_title_9" name="Kelas Dansa!"  />
-		</coopmission>
-		<coop_msg>
-			<text id="coop_msg_0" name="{0} memulai Kerja Sama ini."  />
-			<text id="coop_msg_1" name="{0} bergabung dengan Kerja Sama ini."  />
-			<text id="coop_msg_2" name="{0} meninggalkan Kerja Sama ini."  />
-			<text id="coop_msg_3" name="{0} ingin memproduksi {1} {2} kali."  />
-			<text id="coop_msg_4" name="{0} memproduksi {1}."  />
-			<text id="coop_msg_5" name="{0} memperpanjang Kerja Sama."  />
-		</coop_msg>
-		<dialogs>
-			<text id="dialogs_achievement_title" name="Prestasi"  />
-			<text id="dialogs_advertisementfinal_copy" name="Promosimu sudah berakhir! Lihat hasilnya! Bagaimana promosi selanjutnya akan berlangsung?"  />
-			<text id="dialogs_advertisementfinal_title" name="Selamat!"  />
-			<text id="dialogs_advertisementrunning_copy" name="Promosinya tengah berlangsung saat ini. Kamu bisa melihat perkembangannya di sini."  />
-			<text id="dialogs_advertisementrunning_time" name="Waktu yang Tersisa:"  />
-			<text id="dialogs_advertisementrunning_title" name="Promosi sedang berlangsung"  />
-			<text id="dialogs_advertisement_btn_start" name="Mulai"  />
-			<text id="dialogs_advertisement_flyer_copy" name="Tingkatkan popularitasmu!"  />
-			<text id="dialogs_advertisement_flyer_reward" name="{0} Poin"  />
-			<text id="dialogs_advertisement_flyer_title" name="Pamflet Promosi"  />
-			<text id="dialogs_advertisement_magazine_copy" name="Setiap pelanggan membeli dua kali lipat banyaknya!"  />
-			<text id="dialogs_advertisement_magazine_reward" name="x {0}"  />
-			<text id="dialogs_advertisement_magazine_title" name="Iklan Majalah"  />
-			<text id="dialogs_advertisement_title" name="Promosi"  />
-			<text id="dialogs_advertisement_tv_copy" name="Untuk tiap pelanggan yang belanja, kamu mendapatkan XP!"  />
-			<text id="dialogs_advertisement_tv_title" name="Iklan TV"  />
-			<text id="dialogs_avatarselection_copy" name="Nama itu sudah digunakan. Bagaimana dengan:"  />
-			<text id="dialogs_avatarselection_title" name="Ups"  />
-			<text id="dialogs_avatar_female" name="Cewek"  />
-			<text id="dialogs_avatar_male" name="Cowok"  />
-			<text id="dialogs_avatar_name" name="Nama:"  />
-			<text id="dialogs_avatar_randombtn" name="Pilihan acak"  />
-			<text id="dialogs_avatar_title" name="Ciptakan tokohmu"  />
-			<text id="dialogs_bonus_cashdesk_copy" name="Sekarang kamu bisa menempatkan meja kasir dan kasir baru di tokomu!"  />
-			<text id="dialogs_bonus_cashdesk_title" name="Meja kasir baru"  />
-			<text id="dialogs_bonus_changingroom_copy" name="Kamar ganti baru terbuka."  />
-			<text id="dialogs_bonus_changingroom_title" name="Kamar ganti baru"  />
-			<text id="dialogs_bonus_counter_copy" name="Kamu bisa membeli rak tambahan!"  />
-			<text id="dialogs_bonus_counter_title" name="Rak baru"  />
-			<text id="dialogs_bonus_expand_copy" name="Kamu sudah memperluas dan mendapat ruang lebih untuk pelanggan, hiasan, dan lainnya, sekarang!"  />
-			<text id="dialogs_bonus_expand_title" name="Perluasan!"  />
-			<text id="dialogs_bonus_factory_copy" name="Sekarang kamu bisa menambah pekerja tokomu untuk memproduksi lebih banyak barang."  />
-			<text id="dialogs_bonus_factory_title" name="Pekerja baru"  />
-			<text id="dialogs_bonus_level2_copy" name="Kamu tahu? Kamu bisa memperluas tokomu untuk ruang lebih bagi pelanggan dan barang baru."  />
-			<text id="dialogs_bonus_level5_copy" name="Kamu tahu? Kamu bisa mempromosikan tokomu agar makin populer, beli lebih banyak merchandise atau dapatkan XP ekstra."  />
-			<text id="dialogs_bonus_levelUp_copy" name="Selamat! Kamu mencapai level baru."  />
-			<text id="dialogs_bonus_levelUp_title" name="NAIK LEVEL!"  />
-			<text id="dialogs_bonus_level_title" name="Perhatian!"  />
-			<text id="dialogs_bonus_login_copy" name="Ini terjadi di tokomu saat kamu pergi:"  />
-			<text id="dialogs_bonus_login_copy2" name="BONUS MASUK"  />
-			<text id="dialogs_bonus_login_title" name="Kamu kembali!"  />
-			<text id="dialogs_bonus_pattern_copy" name="Kamu telah membuka kunci pola baru:"  />
-			<text id="dialogs_bonus_pattern_title" name="Pola baru"  />
-			<text id="dialogs_booster_btnbuypolice" name="Pekerjakan/Perpanjang"  />
-			<text id="dialogs_booster_policeman_notime" name="tidak aktif"  />
-			<text id="dialogs_booster_title" name="Booster"  />
-			<text id="dialogs_changepassword_newpassword" name="Sandi baru:"  />
-			<text id="dialogs_changepassword_oldpassword" name="Sandi lama:"  />
-			<text id="dialogs_changepassword_title" name="Ubah sandi"  />
-			<text id="dialogs_coopreward_finish_0" name="Emas"  />
-			<text id="dialogs_coopreward_finish_1" name="Perak"  />
-			<text id="dialogs_coopreward_finish_2" name="Perunggu"  />
-			<text id="dialogs_coopreward_title_fail" name="Kerja Sama gagal!"  />
-			<text id="dialogs_coopreward_title_success" name="Kerja Sama diselesaikan dengan {0}"  />
-			<text id="dialogs_coopshelp_copy" name="Kamu bisa mengerjakan pekerjaan bersama temanmu dan mendapatkan XP ekstra dan Fashiondollar.
+3. Lepaskan tombol mouse." />
+		<text id="alerts_placetiles_title" name="Tempatkan ubin?" />
+		<text id="alerts_register_copy_addgold" name="Kamu perlu mendaftar sebelum bisa berbelanja di sini" />
+		<text id="alerts_register_copy_advertisement" name="Kamu harus mendaftar dulu untuk bisa mempromosikan tokomu." />
+		<text id="alerts_register_copy_changeavatar" name="Kamu perlu mendaftar untuk mengubah penampilanmu!" />
+		<text id="alerts_register_copy_changepassword" name="Hanya pemain terdaftar yang bisa mengubah sandinya!" />
+		<text id="alerts_register_copy_coop" name="Kamu perlu mendaftar dulu untuk berpartisipasi dalam Kerja Sama!" />
+		<text id="alerts_register_copy_gifts" name="Kamu perlu mendaftar dulu untuk mengirimkan hadiah." />
+		<text id="alerts_register_copy_invitefriend" name="Kamu perlu mendaftar sebelum bisa mengundang teman lain." />
+		<text id="alerts_register_copy_logout" name="Daftar untuk menyimpan kemajuanmu!" />
+		<text id="alerts_register_title" name="Daftar" />
+		<text id="alerts_servermsg_10" name="Server sedang dinyalakan kembali, kamu dapat segera melanjutkan.
+Silakan keluar." />
+		<text id="alerts_servermsg_title" name="Pesan server!" />
+		<text id="alerts_staff_fire_copy" name="Benar-benar ingin memecat kasirmu?
+Jika kamu belum punya cukup banyak kasir, pelanggan akan antri lebih lama dan tidak puas." />
+		<text id="alerts_staff_fire_title" name="Pecat kasir?" />
+		<text id="alerts_staff_hire_copy" name="Ingin mempekerjakan kasir baru?" />
+		<text id="alerts_staff_hire_title" name="Kasir baru" />
+		<text id="alerts_versioncheck_copy" name="Silakan segarkan laman untuk memuat versi terbaru." />
+		<text id="alerts_versioncheck_title" name="Versi lama!" />
+	</alerts>
+	<cloth>
+		<text id="cloth_blackbowlermale" name="Topi Tinggi" />
+		<text id="cloth_blackdressfemale" name="Gaun Hitam Mini" />
+		<text id="cloth_blackhandbagfemale" name="Tas Tangan Hitam Besar" />
+		<text id="cloth_blackheelsfemale" name="Sepatu Hak Tinggi Hitam" />
+		<text id="cloth_blackjacketmale" name="Jaket Kulit Sederhana" />
+		<text id="cloth_blackpant2male" name="Jeans GeeCee" />
+		<text id="cloth_blackpantfemale" name="Celana Ketat Hitam Cewek" />
+		<text id="cloth_blackpantmale" name="Celana Ketat Hitam Cowok" />
+		<text id="cloth_blacksuitmale" name="Setelan Garis Tipis" />
+		<text id="cloth_blackwatchmale" name="Arloji Hitam" />
+		<text id="cloth_bluebaggypantsfemale" name="Celana Baggy Cewek jayJay" />
+		<text id="cloth_blueblousefemale" name="Blus Biru" />
+		<text id="cloth_bluecapfemale" name="Topi Pet Biru" />
+		<text id="cloth_bluecapmale" name="Topi Pet Biru" />
+		<text id="cloth_blueheadphones" name="Headphone JayJay" />
+		<text id="cloth_bluenecklacefemale" name="Kalung Mutiara Biru" />
+		<text id="cloth_bluepolomale" name="Kaus Polo Biru" />
+		<text id="cloth_blueshirtmale" name="T-Shirt Biru" />
+		<text id="cloth_bluesweatermale" name="Sweater Cowok Biru JayJay" />
+		<text id="cloth_bootsfemale" name="Sepatu Bot Cewek GeeCee" />
+		<text id="cloth_brownknitcapfemale" name="Topi Rajut Cokelat" />
+		<text id="cloth_brownknitcapmale" name="Topi Rajut Cokelat" />
+		<text id="cloth_cardiganfemale" name="Kardigan Cewek GeeCee" />
+		<text id="cloth_cardiganmale" name="Kardigan Cowok GeeCee" />
+		<text id="cloth_charlestonhatfemale" name="Topi Charleston" />
+		<text id="cloth_checkshirtfemale" name="Kemeja Kotak-Kotak Cewek JayJay" />
+		<text id="cloth_checkshirtmale" name="Kemeja Kotak-Kotak Cowok JayJay" />
+		<text id="cloth_customcloth" name="Ciptakan penampilanmu!" />
+		<text id="cloth_darkbluejeansfemale" name="Jeans Wanita Biru Tua" />
+		<text id="cloth_darkbluejeansmale" name="Jeans Pria Biru Tua" />
+		<text id="cloth_dressfemale" name="Gaun Cewek GeeCee" />
+		<text id="cloth_flowerskirtfemale" name="Rok Bunga GeeDee" />
+		<text id="cloth_ggsshirtmale" name="T-Shirt GeeCee" />
+		<text id="cloth_goldnecklacefemale" name="Kalung Emas" />
+		<text id="cloth_greendressfemale" name="Gaun GeeDee" />
+		<text id="cloth_greenjacketfemale" name="Jaket Parasut Cewek JayJay" />
+		<text id="cloth_greenjacketmale" name="Jaket Parasut Cowok JayJay" />
+		<text id="cloth_greenpulloverfemale" name="Turtleneck Hijau" />
+		<text id="cloth_greenshirtmale" name="Kemeja Cowok GeeDee" />
+		<text id="cloth_greysuitmale" name="Setelan Abu-Abu" />
+		<text id="cloth_lightbluejeansfemale" name="Jeans Biru Wanita" />
+		<text id="cloth_lightbluejeansmale" name="Jeans Biru Pria" />
+		<text id="cloth_manblackmale" name="Sepatu Kulit Hitam Mengkilap" />
+		<text id="cloth_manbrownmale" name="Sepatu Kulit Cokelat" />
+		<text id="cloth_orangeknitcapfemale" name="Topi Rajut Jingga" />
+		<text id="cloth_orangeknitcapmale" name="Topi Rajut Jingga" />
+		<text id="cloth_perlnecklacefemale" name="Kalung Perak Sederhana" />
+		<text id="cloth_pinkhangbagfemale" name="Tas Tangan Quilt" />
+		<text id="cloth_pinkshirtfemale" name="Kaus Polo Pink" />
+		<text id="cloth_premiumbluejacketmale" name="Jaket Musim Semi" />
+		<text id="cloth_premiumgreenjacketfemale" name="Jas Musim Semi" />
+		<text id="cloth_premiumjumpsuitfemale" name="Celana Kodok Cewek GeeDee" />
+		<text id="cloth_premiumshortsmale" name="Celana Pendek Cowok GeeDee" />
+		<text id="cloth_purplehandbagfemale" name="Tas Tangan GeeCee" />
+		<text id="cloth_purplepulloverfemale" name="Turtleneck Ungu" />
+		<text id="cloth_purpletshirtfemale" name="T-Shirt Cewek JayJay" />
+		<text id="cloth_redcapfemale" name="Topi Pet Merah" />
+		<text id="cloth_redcapmale" name="Topi Pet Merah" />
+		<text id="cloth_reddressfemale" name="Gaun Malam Tanpa Tali" />
+		<text id="cloth_redheelsfemale" name="Sepatu Hak Tinggi Merah" />
+		<text id="cloth_redskirtfemale" name="Rok Pita Merah" />
+		<text id="cloth_redsneakermale" name="Pakaian Olahraga Cowok Merah JayJay" />
+		<text id="cloth_redtopfemale" name="Atasan Gliter Merah" />
+		<text id="cloth_scraffemale" name="Scarf Polkadot GeeCee" />
+		<text id="cloth_scrafmale" name="Scarf Cowok GeeCee" />
+		<text id="cloth_silvernecklacefemale" name="Kalung Perak" />
+		<text id="cloth_silverwatchmale" name="Arloji Perak" />
+		<text id="cloth_sneakersfemale" name="Sepatu Kets Putih" />
+		<text id="cloth_sneakersgreenmale" name="Pakaian Olahraga GeeCee Hijau" />
+		<text id="cloth_sneakersmale" name="Sepatu Kets Putih" />
+		<text id="cloth_strawberrysneakerfemale" name="Sepatu Stroberi JayJay" />
+		<text id="cloth_stripedshirtmale" name="Kemeja Garis Cowok GeeDee" />
+		<text id="cloth_stripedtopfemale" name="Atasan Musim Panas Cewek GeeDee" />
+		<text id="cloth_stripedtshirtmale" name="T-Shirt Garis Cowok JayJay" />
+		<text id="cloth_sweathoodiemale" name="Jumper Cowok GeeDee" />
+		<text id="cloth_trenchcoatmale" name="Jas Hitam Panjang" />
+		<text id="cloth_whiteshirtmale" name="Kemeja Putih" />
+		<text id="cloth_whiteskirtfemale" name="Rok Mini Putih" />
+		<text id="cloth_yellowdressfemale" name="Gaun Koktail Imut" />
+		<text id="cloth_omelettesweatermale" name="Omelette Icon Sweater" />
+		<text id="cloth_omelettedressfemale" name="Omelette Diva Dress" />
+		<text id="cloth_dancingchefdress" name="Dancing Chef Dress" />
+		<text id="cloth_dancingchefsweater" name="Dancing Chef Sweater" />
+	</cloth>
+	<commons>
+		<text id="achievement_rang" name="Peringkat {0}/{1}" />
+		<text id="comingsoon" name="*Segera hadir*" />
+		<text id="currency_cash" name="Fashiondollar" />
+		<text id="currency_gold" name="Kancing Emas" />
+		<text id="currency_gold_single" name="Kancing Emas" />
+		<text id="factorytyp_accessories" name="Aksesori" />
+		<text id="factorytyp_clothes" name="Pakaian" />
+		<text id="factorytyp_shoes" name="Sepatu" />
+		<text id="friendscount" name="Teman {0}" />
+		<text id="levelcount" name="Level {0}" />
+		<text id="levellabel" name="Level" />
+		<text id="mastery" name="Level-Label" />
+		<text id="new" name="Baru!" />
+		<text id="xplabel" name="XP" />
+	</commons>
+	<coopmission>
+		<text id="coop_desc_1" name="Pakaian basic cantik untuk piknik!" />
+		<text id="coop_desc_10" name="Gaun malam cantik untuk pesta dansamu!" />
+		<text id="coop_desc_11" name="Pilihan klasik bagi pria!" />
+		<text id="coop_desc_2" name="Dandanan sempurna untuk berolahraga!" />
+		<text id="coop_desc_3" name="Orang-orang dan musik sepanjang malam!" />
+		<text id="coop_desc_4" name="Hadiah sempurna untuk segala kesempatan!" />
+		<text id="coop_desc_5" name="Tidak ada yang mengalahkan setelan yang pas di badan!" />
+		<text id="coop_desc_6" name="Hujan sepatu!" />
+		<text id="coop_desc_7" name="Rok, atasan, dan sepatu...serba merah!" />
+		<text id="coop_desc_8" name="Serba gaun untuk cewek-cewek cantik!" />
+		<text id="coop_desc_9" name="Sempurna untuk kelas dansa!" />
+		<text id="coop_title_1" name="Ayo berpiknik!" />
+		<text id="coop_title_10" name="Pesta Dansa!" />
+		<text id="coop_title_11" name="Kembali ke hitam!" />
+		<text id="coop_title_2" name="Serba Olahraga!" />
+		<text id="coop_title_3" name="Laris!" />
+		<text id="coop_title_4" name="Hadiah hebat!" />
+		<text id="coop_title_5" name="Khusus pria!" />
+		<text id="coop_title_6" name="Sepatu di mana-mana!" />
+		<text id="coop_title_7" name="Wanita berbusana merah!" />
+		<text id="coop_title_8" name="Pakaian cewek!" />
+		<text id="coop_title_9" name="Kelas Dansa!" />
+	</coopmission>
+	<coop_msg>
+		<text id="coop_msg_0" name="{0} memulai Kerja Sama ini." />
+		<text id="coop_msg_1" name="{0} bergabung dengan Kerja Sama ini." />
+		<text id="coop_msg_2" name="{0} meninggalkan Kerja Sama ini." />
+		<text id="coop_msg_3" name="{0} ingin memproduksi {1} {2} kali." />
+		<text id="coop_msg_4" name="{0} memproduksi {1}." />
+		<text id="coop_msg_5" name="{0} memperpanjang Kerja Sama." />
+	</coop_msg>
+	<dialogs>
+		<text id="dialogs_achievement_title" name="Prestasi" />
+		<text id="dialogs_advertisementfinal_copy" name="Promosimu sudah berakhir! Lihat hasilnya! Bagaimana promosi selanjutnya akan berlangsung?" />
+		<text id="dialogs_advertisementfinal_title" name="Selamat!" />
+		<text id="dialogs_advertisementrunning_copy" name="Promosinya tengah berlangsung saat ini. Kamu bisa melihat perkembangannya di sini." />
+		<text id="dialogs_advertisementrunning_time" name="Waktu yang Tersisa:" />
+		<text id="dialogs_advertisementrunning_title" name="Promosi sedang berlangsung" />
+		<text id="dialogs_advertisement_btn_start" name="Mulai" />
+		<text id="dialogs_advertisement_flyer_copy" name="Tingkatkan popularitasmu!" />
+		<text id="dialogs_advertisement_flyer_reward" name="{0} Poin" />
+		<text id="dialogs_advertisement_flyer_title" name="Pamflet Promosi" />
+		<text id="dialogs_advertisement_magazine_copy" name="Setiap pelanggan membeli dua kali lipat banyaknya!" />
+		<text id="dialogs_advertisement_magazine_reward" name="x {0}" />
+		<text id="dialogs_advertisement_magazine_title" name="Iklan Majalah" />
+		<text id="dialogs_advertisement_title" name="Promosi" />
+		<text id="dialogs_advertisement_tv_copy" name="Untuk tiap pelanggan yang belanja, kamu mendapatkan XP!" />
+		<text id="dialogs_advertisement_tv_title" name="Iklan TV" />
+		<text id="dialogs_avatarselection_copy" name="Nama itu sudah digunakan. Bagaimana dengan:" />
+		<text id="dialogs_avatarselection_title" name="Ups" />
+		<text id="dialogs_avatar_female" name="Cewek" />
+		<text id="dialogs_avatar_male" name="Cowok" />
+		<text id="dialogs_avatar_name" name="Nama:" />
+		<text id="dialogs_avatar_randombtn" name="Pilihan acak" />
+		<text id="dialogs_avatar_title" name="Ciptakan tokohmu" />
+		<text id="dialogs_bonus_cashdesk_copy" name="Sekarang kamu bisa menempatkan meja kasir dan kasir baru di tokomu!" />
+		<text id="dialogs_bonus_cashdesk_title" name="Meja kasir baru" />
+		<text id="dialogs_bonus_changingroom_copy" name="Kamar ganti baru terbuka." />
+		<text id="dialogs_bonus_changingroom_title" name="Kamar ganti baru" />
+		<text id="dialogs_bonus_counter_copy" name="Kamu bisa membeli rak tambahan!" />
+		<text id="dialogs_bonus_counter_title" name="Rak baru" />
+		<text id="dialogs_bonus_expand_copy" name="Kamu sudah memperluas dan mendapat ruang lebih untuk pelanggan, hiasan, dan lainnya, sekarang!" />
+		<text id="dialogs_bonus_expand_title" name="Perluasan!" />
+		<text id="dialogs_bonus_factory_copy" name="Sekarang kamu bisa menambah pekerja tokomu untuk memproduksi lebih banyak barang." />
+		<text id="dialogs_bonus_factory_title" name="Pekerja baru" />
+		<text id="dialogs_bonus_level2_copy" name="Kamu tahu? Kamu bisa memperluas tokomu untuk ruang lebih bagi pelanggan dan barang baru." />
+		<text id="dialogs_bonus_level5_copy" name="Kamu tahu? Kamu bisa mempromosikan tokomu agar makin populer, beli lebih banyak merchandise atau dapatkan XP ekstra." />
+		<text id="dialogs_bonus_levelUp_copy" name="Selamat! Kamu mencapai level baru." />
+		<text id="dialogs_bonus_levelUp_title" name="NAIK LEVEL!" />
+		<text id="dialogs_bonus_level_title" name="Perhatian!" />
+		<text id="dialogs_bonus_login_copy" name="Ini terjadi di tokomu saat kamu pergi:" />
+		<text id="dialogs_bonus_login_copy2" name="BONUS MASUK" />
+		<text id="dialogs_bonus_login_title" name="Kamu kembali!" />
+		<text id="dialogs_bonus_pattern_copy" name="Kamu telah membuka kunci pola baru:" />
+		<text id="dialogs_bonus_pattern_title" name="Pola baru" />
+		<text id="dialogs_booster_btnbuypolice" name="Pekerjakan/Perpanjang" />
+		<text id="dialogs_booster_policeman_notime" name="tidak aktif" />
+		<text id="dialogs_booster_title" name="Booster" />
+		<text id="dialogs_changepassword_newpassword" name="Sandi baru:" />
+		<text id="dialogs_changepassword_oldpassword" name="Sandi lama:" />
+		<text id="dialogs_changepassword_title" name="Ubah sandi" />
+		<text id="dialogs_coopreward_finish_0" name="Emas" />
+		<text id="dialogs_coopreward_finish_1" name="Perak" />
+		<text id="dialogs_coopreward_finish_2" name="Perunggu" />
+		<text id="dialogs_coopreward_title_fail" name="Kerja Sama gagal!" />
+		<text id="dialogs_coopreward_title_success" name="Kerja Sama diselesaikan dengan {0}" />
+		<text id="dialogs_coopshelp_copy" name="Kamu bisa mengerjakan pekerjaan bersama temanmu dan mendapatkan XP ekstra dan Fashiondollar.
 Semakin cepat kamu, semakin tinggi imbalanmu!
 
 Jika kamu kehabisan waktu, perpanjang saja!!
 
-Tetapi ingatlah, kamu hanya akan menerima imbalannya jika kamu berkontribusi!"  />
-			<text id="dialogs_coopshelp_title" name="Apa itu Kerja Sama?"  />
-			<text id="dialogs_coop_btn_action" name="Detail"  />
-			<text id="dialogs_coop_btn_activecoops" name="Aktif"  />
-			<text id="dialogs_coop_btn_join" name="Bergabunglah"  />
-			<text id="dialogs_coop_btn_newcoop" name="Mulai Kerja Sama"  />
-			<text id="dialogs_coop_btn_progress" name="Kemajuan"  />
-			<text id="dialogs_coop_btn_protocol" name="Protokol"  />
-			<text id="dialogs_coop_btn_quit" name="Tutup"  />
-			<text id="dialogs_coop_extendtime_copy" name="Ingin memperpanjang Kerja Samamu seharga {0} Kancing Emas?
+Tetapi ingatlah, kamu hanya akan menerima imbalannya jika kamu berkontribusi!" />
+		<text id="dialogs_coopshelp_title" name="Apa itu Kerja Sama?" />
+		<text id="dialogs_coop_btn_action" name="Detail" />
+		<text id="dialogs_coop_btn_activecoops" name="Aktif" />
+		<text id="dialogs_coop_btn_join" name="Bergabunglah" />
+		<text id="dialogs_coop_btn_newcoop" name="Mulai Kerja Sama" />
+		<text id="dialogs_coop_btn_progress" name="Kemajuan" />
+		<text id="dialogs_coop_btn_protocol" name="Protokol" />
+		<text id="dialogs_coop_btn_quit" name="Tutup" />
+		<text id="dialogs_coop_extendtime_copy" name="Ingin memperpanjang Kerja Samamu seharga {0} Kancing Emas?
 Waktu Emas: {1}
 Waktu Perak: {2}
-Waktu Perunggu: {3}"  />
-			<text id="dialogs_coop_extendtime_title" name="Lebih banyak waktu?"  />
-			<text id="dialogs_coop_maxuser" name="Peserta maks.: {0}"  />
-			<text id="dialogs_coop_member" name="Anggota Kerja Sama:"  />
-			<text id="dialogs_coop_minlevel" name="Level maks. untuk bergabung dengan Kerja Sama: {0}"  />
-			<text id="dialogs_coop_minlevel_short" name="Level Min: {0}"  />
-			<text id="dialogs_coop_produce_copy" name="Seberapa sering kamu ingin memproduksi {0} untuk Kerja Sama ini?"  />
-			<text id="dialogs_coop_produce_title" name="Produksi untuk Kerja Sama?"  />
-			<text id="dialogs_coop_quit_copy" name="Benar-benar ingin meninggalkan Kerja Sama ini?"  />
-			<text id="dialogs_coop_subtitle" name="Kamu perlu memproduksi:"  />
-			<text id="dialogs_coop_timeInfo" name="Tercapai dalam:"  />
-			<text id="dialogs_coop_timeleft" name="Waktu yang tersisa:"  />
-			<text id="dialogs_coop_txt_noactive" name="Tidak ada Kerja Sama aktif saat ini.
-Mulai Kerja Sama baru!"  />
-			<text id="dialogs_coop_txt_title" name="Kerja Sama"  />
-			<text id="dialogs_counterclick_btndonate" name="Sumbangkan"  />
-			<text id="dialogs_counterclick_copy" name="Barang-barang berikut ada di rak ini."  />
-			<text id="dialogs_counterclick_title" name="Rak"  />
-			<text id="dialogs_customclothbuy_copy" name="Ingin menambahkan {0} secara permanen ke katalogmu seharga {1} Kancing Emas?"  />
-			<text id="dialogs_customclothbuy_title" name="Beli pola!"  />
-			<text id="dialogs_customclothhelp_copy" name="Kamu bisa menciptakan dan memproduksi pakaian sendiri di sini!
+Waktu Perunggu: {3}" />
+		<text id="dialogs_coop_extendtime_title" name="Lebih banyak waktu?" />
+		<text id="dialogs_coop_maxuser" name="Peserta maks.: {0}" />
+		<text id="dialogs_coop_member" name="Anggota Kerja Sama:" />
+		<text id="dialogs_coop_minlevel" name="Level maks. untuk bergabung dengan Kerja Sama: {0}" />
+		<text id="dialogs_coop_minlevel_short" name="Level Min: {0}" />
+		<text id="dialogs_coop_produce_copy" name="Seberapa sering kamu ingin memproduksi {0} untuk Kerja Sama ini?" />
+		<text id="dialogs_coop_produce_title" name="Produksi untuk Kerja Sama?" />
+		<text id="dialogs_coop_quit_copy" name="Benar-benar ingin meninggalkan Kerja Sama ini?" />
+		<text id="dialogs_coop_subtitle" name="Kamu perlu memproduksi:" />
+		<text id="dialogs_coop_timeInfo" name="Tercapai dalam:" />
+		<text id="dialogs_coop_timeleft" name="Waktu yang tersisa:" />
+		<text id="dialogs_coop_txt_noactive" name="Tidak ada Kerja Sama aktif saat ini.
+Mulai Kerja Sama baru!" />
+		<text id="dialogs_coop_txt_title" name="Kerja Sama" />
+		<text id="dialogs_counterclick_btndonate" name="Sumbangkan" />
+		<text id="dialogs_counterclick_copy" name="Barang-barang berikut ada di rak ini." />
+		<text id="dialogs_counterclick_title" name="Rak" />
+		<text id="dialogs_customclothbuy_copy" name="Ingin menambahkan {0} secara permanen ke katalogmu seharga {1} Kancing Emas?" />
+		<text id="dialogs_customclothbuy_title" name="Beli pola!" />
+		<text id="dialogs_customclothhelp_copy" name="Kamu bisa menciptakan dan memproduksi pakaian sendiri di sini!
 Pilih model dan warna!
 Model menentukan waktu produksi dan penghasilanmu.
 Polanya akan tersedia 24 jam.
-Jika kamu ingin menyimpan pola tersebut, kamu bisa menambahkannya secara permanen ke katalogmu."  />
-			<text id="dialogs_customclothinfo_title" name="Gayamu sendiri!"  />
-			<text id="dialogs_customcloth_btn_choose" name="Pilih"  />
-			<text id="dialogs_customcloth_entername" name="Namai aku!"  />
-			<text id="dialogs_customcloth_icon" name="Motif"  />
-			<text id="dialogs_customcloth_shape" name="Model"  />
-			<text id="dialogs_customcloth_title" name="Rancanganmu menentukan tren!"  />
-			<text id="dialogs_decoshophelp_copy" name="Jika kamu memindahkan perabotan atau hiasan ke tab ini dan bukan ke mesin kasir, mereka akan masuk ke tempat penyimpanan.
+Jika kamu ingin menyimpan pola tersebut, kamu bisa menambahkannya secara permanen ke katalogmu." />
+		<text id="dialogs_customclothinfo_title" name="Gayamu sendiri!" />
+		<text id="dialogs_customcloth_btn_choose" name="Pilih" />
+		<text id="dialogs_customcloth_entername" name="Namai aku!" />
+		<text id="dialogs_customcloth_icon" name="Motif" />
+		<text id="dialogs_customcloth_shape" name="Model" />
+		<text id="dialogs_customcloth_title" name="Rancanganmu menentukan tren!" />
+		<text id="dialogs_decoshophelp_copy" name="Jika kamu memindahkan perabotan atau hiasan ke tab ini dan bukan ke mesin kasir, mereka akan masuk ke tempat penyimpanan.
 Jika kamu membawa mereka kembali ke toko, kamu tidak akan kena biaya.
-Kamu bisa melihat jumlah setiap jenis barang di sebelah kotak kosong."  />
-			<text id="dialogs_decoshophelp_copy_1" name="Perabotan dan hiasan memiliki nilai kemewahan, yang, saat ditambahkan, membuat tokomu memiliki nilai kemewahan! Seberapa mewah tokomu?"  />
-			<text id="dialogs_decoshophelp_title" name="Letakkan rak/hiasan di penyimpanan?"  />
-			<text id="dialogs_decoshophelp_title_1" name="Nilai kemewahan?"  />
-			<text id="dialogs_factoryclick_btn_cancel" name="Berhenti memproduksi"  />
-			<text id="dialogs_factoryclick_copy" name="Ingin &#039;Selesai sekarang&#039;? Kamu bisa melakukannya {0} kali lagi hari ini"  />
-			<text id="dialogs_factoryclick_title" name="Menjalankan produksi!"  />
-			<text id="dialogs_fashionbook_durationtime" name="Durasi: {0}"  />
-			<text id="dialogs_fashionbook_emptypattern" name="Belum ada pola baru yang tersedia."  />
-			<text id="dialogs_fashionbook_emptypatterncustomcloth" name="Di sini kamu bisa menemukan pola pilihanmu sendiri!"  />
-			<text id="dialogs_fashionbook_emptyproducts" name="Kamu membutuhkan pola untuk memproduksi barang.
+Kamu bisa melihat jumlah setiap jenis barang di sebelah kotak kosong." />
+		<text id="dialogs_decoshophelp_copy_1" name="Perabotan dan hiasan memiliki nilai kemewahan, yang, saat ditambahkan, membuat tokomu memiliki nilai kemewahan! Seberapa mewah tokomu?" />
+		<text id="dialogs_decoshophelp_title" name="Letakkan rak/hiasan di penyimpanan?" />
+		<text id="dialogs_decoshophelp_title_1" name="Nilai kemewahan?" />
+		<text id="dialogs_factoryclick_btn_cancel" name="Berhenti memproduksi" />
+		<text id="dialogs_factoryclick_copy" name="Ingin &amp;#039;Selesai sekarang&amp;#039;? Kamu bisa melakukannya {0} kali lagi hari ini" />
+		<text id="dialogs_factoryclick_title" name="Menjalankan produksi!" />
+		<text id="dialogs_fashionbook_durationtime" name="Durasi: {0}" />
+		<text id="dialogs_fashionbook_emptypattern" name="Belum ada pola baru yang tersedia." />
+		<text id="dialogs_fashionbook_emptypatterncustomcloth" name="Di sini kamu bisa menemukan pola pilihanmu sendiri!" />
+		<text id="dialogs_fashionbook_emptyproducts" name="Kamu membutuhkan pola untuk memproduksi barang.
 
-Belilah beberapa pola dari katalog."  />
-			<text id="dialogs_fashionbook_pieces" name="Jumlah:"  />
-			<text id="dialogs_fashionbook_productionPrice" name="{0} biaya produksi"  />
-			<text id="dialogs_fashionbook_saleprice" name="/ buah:"  />
-			<text id="dialogs_featureUnlocked_advertisement" name="Manfaatkan iklan untuk mendongkrak tokomu!"  />
-			<text id="dialogs_featureUnlocked_arcades" name="Temukan teman baru di atrium!"  />
-			<text id="dialogs_featureUnlocked_coop" name="Mulai Kerja Sama dengan teman!"  />
-			<text id="dialogs_featureUnlocked_custompattern" name="Mulai sekarang rancang polamu sendiri!"  />
-			<text id="dialogs_featureUnlocked_decoration" name="Hiasan baru telah diaktifkan untukmu!"  />
-			<text id="dialogs_featureUnlocked_policeman" name="Perhatian! Mulai sekarang barang bisa dicuri! Sebaiknya mempekerjakan polisi!"  />
-			<text id="dialogs_featureUnlocked_ranking" name="Kunjungi pemain lain melalui peringkat!"  />
-			<text id="dialogs_featureUnlocked_wheeloffortune" name="Uji keberuntunganmu di Roda Keberuntungan dan menangkan hadiah besar!"  />
-			<text id="dialogs_giftbox_btnclose" name="Tutup"  />
-			<text id="dialogs_giftbox_btnsend" name="kirimkan sebagai hadiah"  />
-			<text id="dialogs_giftbox_empty_friends" name="Kamu bisa mengirim satu hadiah/hari pada tiap teman."  />
-			<text id="dialogs_giftbox_empty_mygifts" name="Kotak hadiahmu kosong. Kirim hadiah pada temanmu, mungkin mereka akan mengirim hadiah balasan."  />
-			<text id="dialogs_giftbox_empty_sendablegifts" name="Tidak ada hadiah hari ini."  />
-			<text id="dialogs_giftbox_friendstitle" name="Kirimkan ke teman"  />
-			<text id="dialogs_giftbox_mygiftstitle" name="Hadiahku"  />
-			<text id="dialogs_giftbox_sendablegiftstitle" name="Kirimkan hadiah"  />
-			<text id="dialogs_highscore_name" name="Nama"  />
-			<text id="dialogs_highscore_rank" name="Peringkat"  />
-			<text id="dialogs_highscore_search" name="Cari Nama/Peringkat"  />
-			<text id="dialogs_highscore_title" name="Memberi Peringkat"  />
-			<text id="dialogs_info_goldsmith_copy" name="Perajin emas hanya memproduksi aksesori."  />
-			<text id="dialogs_info_goldsmith_title" name="Perajin Emas"  />
-			<text id="dialogs_info_sewer_copy" name="Penjahit hanya memproduksi pakaian."  />
-			<text id="dialogs_info_sewer_title" name="Penjahit"  />
-			<text id="dialogs_info_shoemaker_copy" name="Pembuat sepatu hanya memproduksi sepatu."  />
-			<text id="dialogs_info_shoemaker_title" name="Pembuat Sepatu"  />
-			<text id="dialogs_invitefriend_copy" name="Ketikkan nama dan alamat email temanmu untuk mengundangnya."  />
-			<text id="dialogs_invitefriend_emptyparam" name="Kamu harus mengisi semua kotak teks."  />
-			<text id="dialogs_invitefriend_friendname" name="Nama teman:"  />
-			<text id="dialogs_invitefriend_mail" name="Alamat email temanmu:"  />
-			<text id="dialogs_invitefriend_myname" name="Namamu:"  />
-			<text id="dialogs_invitefriend_title" name="Undangan"  />
-			<text id="dialogs_lonelycash_copy" name="Seseorang meninggalkan dompet di kantor barang hilang!
+Belilah beberapa pola dari katalog." />
+		<text id="dialogs_fashionbook_pieces" name="Jumlah:" />
+		<text id="dialogs_fashionbook_productionPrice" name="{0} biaya produksi" />
+		<text id="dialogs_fashionbook_saleprice" name="/ buah:" />
+		<text id="dialogs_featureUnlocked_advertisement" name="Manfaatkan iklan untuk mendongkrak tokomu!" />
+		<text id="dialogs_featureUnlocked_arcades" name="Temukan teman baru di atrium!" />
+		<text id="dialogs_featureUnlocked_coop" name="Mulai Kerja Sama dengan teman!" />
+		<text id="dialogs_featureUnlocked_custompattern" name="Mulai sekarang rancang polamu sendiri!" />
+		<text id="dialogs_featureUnlocked_decoration" name="Hiasan baru telah diaktifkan untukmu!" />
+		<text id="dialogs_featureUnlocked_policeman" name="Perhatian! Mulai sekarang barang bisa dicuri! Sebaiknya mempekerjakan polisi!" />
+		<text id="dialogs_featureUnlocked_ranking" name="Kunjungi pemain lain melalui peringkat!" />
+		<text id="dialogs_featureUnlocked_wheeloffortune" name="Uji keberuntunganmu di Roda Keberuntungan dan menangkan hadiah besar!" />
+		<text id="dialogs_giftbox_btnclose" name="Tutup" />
+		<text id="dialogs_giftbox_btnsend" name="kirimkan sebagai hadiah" />
+		<text id="dialogs_giftbox_empty_friends" name="Kamu bisa mengirim satu hadiah/hari pada tiap teman." />
+		<text id="dialogs_giftbox_empty_mygifts" name="Kotak hadiahmu kosong. Kirim hadiah pada temanmu, mungkin mereka akan mengirim hadiah balasan." />
+		<text id="dialogs_giftbox_empty_sendablegifts" name="Tidak ada hadiah hari ini." />
+		<text id="dialogs_giftbox_friendstitle" name="Kirimkan ke teman" />
+		<text id="dialogs_giftbox_mygiftstitle" name="Hadiahku" />
+		<text id="dialogs_giftbox_sendablegiftstitle" name="Kirimkan hadiah" />
+		<text id="dialogs_highscore_name" name="Nama" />
+		<text id="dialogs_highscore_rank" name="Peringkat" />
+		<text id="dialogs_highscore_search" name="Cari Nama/Peringkat" />
+		<text id="dialogs_highscore_title" name="Memberi Peringkat" />
+		<text id="dialogs_info_goldsmith_copy" name="Perajin emas hanya memproduksi aksesori." />
+		<text id="dialogs_info_goldsmith_title" name="Perajin Emas" />
+		<text id="dialogs_info_sewer_copy" name="Penjahit hanya memproduksi pakaian." />
+		<text id="dialogs_info_sewer_title" name="Penjahit" />
+		<text id="dialogs_info_shoemaker_copy" name="Pembuat sepatu hanya memproduksi sepatu." />
+		<text id="dialogs_info_shoemaker_title" name="Pembuat Sepatu" />
+		<text id="dialogs_invitefriend_copy" name="Ketikkan nama dan alamat email temanmu untuk mengundangnya." />
+		<text id="dialogs_invitefriend_emptyparam" name="Kamu harus mengisi semua kotak teks." />
+		<text id="dialogs_invitefriend_friendname" name="Nama teman:" />
+		<text id="dialogs_invitefriend_mail" name="Alamat email temanmu:" />
+		<text id="dialogs_invitefriend_myname" name="Namamu:" />
+		<text id="dialogs_invitefriend_title" name="Undangan" />
+		<text id="dialogs_lonelycash_copy" name="Seseorang meninggalkan dompet di kantor barang hilang!
 
-Barangkali itu milik salah satu temanmu?"  />
-			<text id="dialogs_lonelycash_title" name="Ditemukan!"  />
-			<text id="dialogs_lonelycop_copy" name="Kepala keamanan mencari pekerjaan bagi pekerja magangnya!
-Mungkin temanmu mau mempekerjakannya!"  />
-			<text id="dialogs_lonelycop_title" name="Permintaan!"  />
-			<text id="dialogs_lonelypants_copy" name="Kasirmu menemukan sebuah kotak dengan pakaian ekstra!
-Bagikan dengan temanmu!"  />
-			<text id="dialogs_lonelypants_title" name="Apa ini?"  />
-			<text id="dialogs_mannequindesign_empty" name="Kamu tidak punya apa pun dalam kategori ini untuk dipilih."  />
-			<text id="dialogs_mannequindesign_title" name="Maneken"  />
-			<text id="dialogs_mannequinpaycheck_copy" name="Gunakan beragam pakaian dan padukan sebanyak mungkin bagian pada manekenmu untuk mengesankan pelangganmu!"  />
-			<text id="dialogs_mannequinpaycheck_title" name="Peringkat"  />
-			<text id="dialogs_mastery_copy_0" name="Kamu mendapatkan label untuk {0}!"  />
-			<text id="dialogs_mastery_copy_1" name="Bagikan beberapa barang ekstra kepada temanmu!"  />
-			<text id="dialogs_mastery_info" name="Tiap label yang kamu dapatkan menjadikan barangmu lebih baik!"  />
-			<text id="dialogs_mastery_title" name="Label baru!"  />
-			<text id="dialogs_noreward_copy" name="Pemain lain lebih cepat darimu!"  />
-			<text id="dialogs_noreward_title" name="Maaf!"  />
-			<text id="dialogs_payment_copy" name="Beli Fashiondollar/Kancing Emas di sini."  />
-			<text id="dialogs_payment_title" name="Gerai Pembayaran"  />
-			<text id="dialogs_perfectpants_copy" name="Kamu memproduksi {0} dengan sempurna hari ini!
-Beri temanmu kelebihan produksimu!"  />
-			<text id="dialogs_perfectpants_title" name="Sempurna!"  />
-			<text id="dialogs_pesentreceived_text" name="Hadiah selamat datang sebesar {0} Kancing Emas telah ditambahkan ke akunmu."  />
-			<text id="dialogs_pesentreceived_title" name="Hore!"  />
-			<text id="dialogs_pesentreminder_send" name="Kirim"  />
-			<text id="dialogs_pesentreminder_text1" name="{0} Kancing Emas menunggumu sebagai hadiah selamat datang kembali. Klik tautan di email selamat datang untuk mendapatkannya."  />
-			<text id="dialogs_pesentreminder_text2" name="Kamu bisa meminta email itu dikirimkan lagi."  />
-			<text id="dialogs_pesentreminder_title" name="Hadiah Selamat Datang!"  />
-			<text id="dialogs_receivecomeback_copy_0" name="Sebagai hadiah selamat datang kembali, kamu menerima {0} Kancing Emas dan booster keren!"  />
-			<text id="dialogs_receivecomeback_copy_1" name="Sebagai hadiah selamat datang kembali, kamu menerima {0} Kancing Emas dan Satpam untuk {1}!"  />
-			<text id="dialogs_receivecomeback_title" name="Kamu kembali!"  />
-			<text id="dialogs_receivecop_copy" name="Pekerja magang itu sudah mulai bekerja dan memperpanjang waktu kerja satpam-mu selama 1 jam!"  />
-			<text id="dialogs_receivecop_title" name="Dipekerjakan!"  />
-			<text id="dialogs_receiveitem_copy" name="Imbalanmu ada di kotak hadiahmu!"  />
-			<text id="dialogs_receiveitem_title" name="Hore!"  />
-			<text id="dialogs_receivemoney_copy" name="Imbalanmu sudah ditambahkan!"  />
-			<text id="dialogs_receivemoney_title" name="Hore!"  />
-			<text id="dialogs_register_agb" name="Menerima Syarat dan Ketentuan Penggunaan"  />
-			<text id="dialogs_register_btnsave" name="Simpan"  />
-			<text id="dialogs_register_copy_0" name="Daftar gratis sekarang!"  />
-			<text id="dialogs_register_copy_1" name="Simpan skormu!"  />
-			<text id="dialogs_register_copy_2" name="Setelah terdaftar, kamu akan menerima {0} Kancing Emas sebagai hadiah selamat datang lewat surat."  />
-			<text id="dialogs_register_email" name="Email"  />
-			<text id="dialogs_register_forfree" name="GRATIS!"  />
-			<text id="dialogs_register_password" name="Sandi"  />
-			<text id="dialogs_register_title" name="Daftar"  />
-			<text id="dialogs_robberyall_copy" name="Semua barangmu dicuri."  />
-			<text id="dialogs_robbery_copy" name="Sebagian barangmu dirampok."  />
-			<text id="dialogs_robbery_copy2" name="Tampilkan barang yang diproduksi di rak atau pekerjakan satpam untuk menghindari perampokan."  />
-			<text id="dialogs_robbery_title" name="Perampokan!"  />
-			<text id="dialogs_sale_copy" name="Klik sebuah rak menggunakan tanda &quot;sale&quot; untuk menandai pakaian yang akan dijual. 
+Barangkali itu milik salah satu temanmu?" />
+		<text id="dialogs_lonelycash_title" name="Ditemukan!" />
+		<text id="dialogs_lonelycop_copy" name="Kepala keamanan mencari pekerjaan bagi pekerja magangnya!
+Mungkin temanmu mau mempekerjakannya!" />
+		<text id="dialogs_lonelycop_title" name="Permintaan!" />
+		<text id="dialogs_lonelypants_copy" name="Kasirmu menemukan sebuah kotak dengan pakaian ekstra!
+Bagikan dengan temanmu!" />
+		<text id="dialogs_lonelypants_title" name="Apa ini?" />
+		<text id="dialogs_mannequindesign_empty" name="Kamu tidak punya apa pun dalam kategori ini untuk dipilih." />
+		<text id="dialogs_mannequindesign_title" name="Maneken" />
+		<text id="dialogs_mannequinpaycheck_copy" name="Gunakan beragam pakaian dan padukan sebanyak mungkin bagian pada manekenmu untuk mengesankan pelangganmu!" />
+		<text id="dialogs_mannequinpaycheck_title" name="Peringkat" />
+		<text id="dialogs_mastery_copy_0" name="Kamu mendapatkan label untuk {0}!" />
+		<text id="dialogs_mastery_copy_1" name="Bagikan beberapa barang ekstra kepada temanmu!" />
+		<text id="dialogs_mastery_info" name="Tiap label yang kamu dapatkan menjadikan barangmu lebih baik!" />
+		<text id="dialogs_mastery_title" name="Label baru!" />
+		<text id="dialogs_noreward_copy" name="Pemain lain lebih cepat darimu!" />
+		<text id="dialogs_noreward_title" name="Maaf!" />
+		<text id="dialogs_payment_copy" name="Beli Fashiondollar/Kancing Emas di sini." />
+		<text id="dialogs_payment_title" name="Gerai Pembayaran" />
+		<text id="dialogs_perfectpants_copy" name="Kamu memproduksi {0} dengan sempurna hari ini!
+Beri temanmu kelebihan produksimu!" />
+		<text id="dialogs_perfectpants_title" name="Sempurna!" />
+		<text id="dialogs_pesentreceived_text" name="Hadiah selamat datang sebesar {0} Kancing Emas telah ditambahkan ke akunmu." />
+		<text id="dialogs_pesentreceived_title" name="Hore!" />
+		<text id="dialogs_pesentreminder_send" name="Kirim" />
+		<text id="dialogs_pesentreminder_text1" name="{0} Kancing Emas menunggumu sebagai hadiah selamat datang kembali. Klik tautan di email selamat datang untuk mendapatkannya." />
+		<text id="dialogs_pesentreminder_text2" name="Kamu bisa meminta email itu dikirimkan lagi." />
+		<text id="dialogs_pesentreminder_title" name="Hadiah Selamat Datang!" />
+		<text id="dialogs_receivecomeback_copy_0" name="Sebagai hadiah selamat datang kembali, kamu menerima {0} Kancing Emas dan booster keren!" />
+		<text id="dialogs_receivecomeback_copy_1" name="Sebagai hadiah selamat datang kembali, kamu menerima {0} Kancing Emas dan Satpam untuk {1}!" />
+		<text id="dialogs_receivecomeback_title" name="Kamu kembali!" />
+		<text id="dialogs_receivecop_copy" name="Pekerja magang itu sudah mulai bekerja dan memperpanjang waktu kerja satpam-mu selama 1 jam!" />
+		<text id="dialogs_receivecop_title" name="Dipekerjakan!" />
+		<text id="dialogs_receiveitem_copy" name="Imbalanmu ada di kotak hadiahmu!" />
+		<text id="dialogs_receiveitem_title" name="Hore!" />
+		<text id="dialogs_receivemoney_copy" name="Imbalanmu sudah ditambahkan!" />
+		<text id="dialogs_receivemoney_title" name="Hore!" />
+		<text id="dialogs_register_agb" name="Menerima Syarat dan Ketentuan Penggunaan" />
+		<text id="dialogs_register_btnsave" name="Simpan" />
+		<text id="dialogs_register_copy_0" name="Daftar gratis sekarang!" />
+		<text id="dialogs_register_copy_1" name="Simpan skormu!" />
+		<text id="dialogs_register_copy_2" name="Setelah terdaftar, kamu akan menerima {0} Kancing Emas sebagai hadiah selamat datang lewat surat." />
+		<text id="dialogs_register_email" name="Email" />
+		<text id="dialogs_register_forfree" name="GRATIS!" />
+		<text id="dialogs_register_password" name="Sandi" />
+		<text id="dialogs_register_title" name="Daftar" />
+		<text id="dialogs_robberyall_copy" name="Semua barangmu dicuri." />
+		<text id="dialogs_robbery_copy" name="Sebagian barangmu dirampok." />
+		<text id="dialogs_robbery_copy2" name="Tampilkan barang yang diproduksi di rak atau pekerjakan satpam untuk menghindari perampokan." />
+		<text id="dialogs_robbery_title" name="Perampokan!" />
+		<text id="dialogs_sale_copy" name="Klik sebuah rak menggunakan tanda &quot;sale&quot; untuk menandai pakaian yang akan dijual. 
 Harga-harga diturunkan dan tokomu semakin populer. 
-Sale ini berakhir saat rak kosong."  />
-			<text id="dialogs_sale_title" name="Untuk Dijual"  />
-			<text id="dialogs_shippingconfirmation_send" name="Kami baru saja mengirimkan hadiah selamat datangmu.
+Sale ini berakhir saat rak kosong." />
+		<text id="dialogs_sale_title" name="Untuk Dijual" />
+		<text id="dialogs_shippingconfirmation_send" name="Kami baru saja mengirimkan hadiah selamat datangmu.
 
-Untuk mengumpulkannya, klik saja tautan di email selamat datang."  />
-			<text id="dialogs_shippingconfirmation_titel" name="Hadiah!"  />
-			<text id="dialogs_staff_btnfire" name="Pecat"  />
-			<text id="dialogs_staff_btnhire" name="Pekerjakan"  />
-			<text id="dialogs_staff_title" name="Kasirmu"  />
-			<text id="dialogs_wheeloffortune_beforespin" name="Putar Roda Keberuntungan dan menangkan hadiah keren!"  />
-			<text id="dialogs_wheeloffortune_btn_go" name="Putar!"  />
-			<text id="dialogs_wheeloffortune_btn_towheel" name="Pergi ke Roda Keberuntungan!"  />
-			<text id="dialogs_wheeloffortune_copy1" name="Sudah memutar Roda Keberuntungan hari ini?"  />
-			<text id="dialogs_wheeloffortune_info" name="Putaran pertama gratis!"  />
-			<text id="dialogs_wheeloffortune_nomoney" name="Kamu tidak punya cukup kancing emas untuk memutar Roda Keberuntungan!"  />
-			<text id="dialogs_wheeloffortune_noregister" name="Hanya pemain terdaftar yang bisa memutar Roda Keberuntungan!"  />
-			<text id="dialogs_wheeloffortune_nospace" name="Tidak ada cukup tempat dalam kotak hadiah untuk semua hadiahmu! Aturlah tempatnya, lalu kamu bisa memutar Roda Keberuntungan!"  />
-			<text id="dialogs_wheeloffortune_title" name="Roda Keberuntungan!"  />
-			<text id="dialogs_wheeloffortune_tryagain" name="Coba lagi?"  />
-			<text id="dialogs_wheeloffortune_woncash" name="Selamat! Kami telah mengirimkan hadiahmu!"  />
-			<text id="dialogs_wheeloffortune_woncloth" name="Selamat! Temukan hadiahmu di kotak hadiah!"  />
-			<text id="dialogs_wheeloffortune_wonitem" name="Selamat! Kamu bisa menemukan hadiahmu di ruang penyimpanan."  />
-		</dialogs>
-		<error_codes>
-			<text id="error_advertisement_nolevel" name="Setidaknya kamu harus mencapai level {0} untuk ambil bagian dalam promosi."  />
-			<text id="error_advertisement_nomoney" name="Kamu tidak punya cukup Kancing Emas/Fashiondollar untuk ambil bagian dalam promosi ini!"  />
-			<text id="error_avatar_12" name="Nama itu sudah digunakan."  />
-			<text id="error_avatar_15" name="Pengguna ini sudah punya karakter."  />
-			<text id="error_avatar_genderempty" name="Silakan pilih karakter!"  />
-			<text id="error_avatar_nameinvalide" name="Nama penggunamu tidak boleh dikosongkan atau mengandung karakter tertentu."  />
-			<text id="error_avatar_standardname" name="Silakan masukkan nama pengguna."  />
-			<text id="error_boost_nomoney" name="Kamu tidak mampu membeli booster ini."  />
-			<text id="error_cancleproduction_36" name="Rak tidak bisa dijangkau! Silakan mengatur ulang beberapa barang."  />
-			<text id="error_changepassword_0" name="Sandi berhasil diganti!"  />
-			<text id="error_changepassword_10" name="Ini bukan sandi lamamu!"  />
-			<text id="error_changepassword_copy" name="Sandi barumu harus terdiri lebih dari 3 karakter. Sandi lama perlu dimasukkan dengan benar."  />
-			<text id="error_changepassword_title" name="Ubah sandi"  />
-			<text id="error_chat_23" name="Fungsi ruang obrolanmu untuk sementara dinonaktifkan oleh administrator!"  />
-			<text id="error_chat_24" name="Jangan menulis pesan yang tidak diinginkan di ruang obrolan!"  />
-			<text id="error_common_1" name="Pesan Error
-Server {0}"  />
-			<text id="error_common_3" name="- DEBUG: Level terlalu rendah -"  />
-			<text id="error_common_30" name="-DEBUG: Tidak ada pekerja/rak-"  />
-			<text id="error_common_38" name="-DEBUG: Dalam mode renovasi-"  />
-			<text id="error_common_5" name="- DEBUG: WodId tak dikenal -"  />
-			<text id="error_common_80" name="-DEBUG: Menghitung rute. Penundaan terlalu lama-"  />
-			<text id="error_common_81" name="-DEBUG: Menghitung rute. Penundaan negatif-"  />
-			<text id="error_common_title" name="Perhatian!"  />
-			<text id="error_coop_3" name="Kamu perlu level lebih tinggi untuk bergabung dalam Kerja Sama ini.Kamu perlu membuka setidaknya satu kunci pola yang diperlukan."  />
-			<text id="error_coop_90" name="Kamu sudah bergabung dalam Kerja Sama!"  />
-			<text id="error_coop_91" name="Jumlah peserta untuk Kerja Sama ini sudah maks."  />
-			<text id="error_coop_92" name="Kerja Sama ini sudah selesai!"  />
-			<text id="error_coop_93" name="Kamu sudah memulai Kerja Sama hari ini! Kamu bisa memulai Kerja Sama lain besok!"  />
-			<text id="error_coop_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk memperpanjang Kerja Sama ini."  />
-			<text id="error_coop_title" name="KERJA SAMA"  />
-			<text id="error_customclothbuy_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk membeli pola ini!"  />
-			<text id="error_customclothproduce_nomoney" name="Kamu tidak punya cukup Fashiondollar untuk memproduksi pola ini."  />
-			<text id="error_customclothunlock_nomoney" name="Kamu tidak punya cukup Fashiondollar atau Kancing Emas untuk membuka kunci barang ini!"  />
-			<text id="error_customize_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk mengubah avatarmu."  />
-			<text id="error_custom_nameinvalide" name="Kamu tidak diizinkan menggunakan {0}!"  />
-			<text id="error_deliverinfo_33" name="-DEBUG: Barangmu belum diproduksi"  />
-			<text id="error_deliverinfo_35" name="-DEBUG: Pekerja belum memproduksi apa pun-"  />
-			<text id="error_deliverinfo_36" name="Kamu tidak bisa mencapai pekerja ini. Atur ulang barang tokomu agar bisa menjangkaunya setidaknya dari satu sisi."  />
-			<text id="error_deliverinfo_37" name="Sayangnya, tidak ada rak tersedia untuk menampilkan barangmu."  />
-			<text id="error_deliver_33" name="-DEBUG: Barangmu belum diproduksi-"  />
-			<text id="error_deliver_35" name="-DEBUG:Pekerja belum memproduksi apa pun-"  />
-			<text id="error_deliver_36" name="Rak ini tidak bisa dijangkau. Atur ulang barang di tokomu supaya kamu bisa meraih setidaknya satu sisi rak."  />
-			<text id="error_deliver_37" name="Rak ini penuh. Pilih yang lain untuk menampilkan barang itu."  />
-			<text id="error_deliver_46" name="Kamu tidak bisa menggantung barang ini. Pilih rak tempat kamu bisa meletakkannya."  />
-			<text id="error_deliver_title" name="Itu tidak berhasil..."  />
-			<text id="error_editmode_3" name="-DEBUG: Level minimal tidak tercapai-"  />
-			<text id="error_editmode_31" name="-DEBUG: Objek tidak bisa diklik-"  />
-			<text id="error_editmode_32" name="-DEBUG: Barang tidak ada dalam persediaan-"  />
-			<text id="error_editmode_37" name="-DEBUG: Masih ada barang di rak ini-"  />
-			<text id="error_editmode_39" name="-DEBUG: Posisi tak dikenal-"  />
-			<text id="error_editmode_48" name="-DEBUG: Pekerja tanpa motivasi tidak bisa disimpan-"  />
-			<text id="error_editmode_50" name="-DEBUG: Posisi terblok-"  />
-			<text id="error_editmode_51" name="-DEBUG: Posisi kosong-"  />
-			<text id="error_editmode_52" name="-DEBUG: Objek tidak bisa dirotasi-"  />
-			<text id="error_editmode_53" name="-DEBUG: Kamu sudah mendapatkan perluasan ini-"  />
-			<text id="error_editmode_54" name="-DEBUG: Kamu belum bisa membeli perluasan ini-"  />
-			<text id="error_editmode_55" name="-DEBUG: Maneken tidak bisa dijual/disimpan-"  />
-			<text id="error_editmode_nomoney" name="Kamu tidak mampu membeli barang ini."  />
-			<text id="error_editmode_removeMannequin" name="Kamu tidak bisa menjual maneken selama dia masih mengenakan pakaian."  />
-			<text id="error_editmode_removeminCashdesk" name="Kamu membutuhkan setidaknya satu meja kasir supaya pelanggan bisa membayar barang yang mereka beli."  />
-			<text id="error_editmode_removeminChangingroom" name="Kamu membutuhkan setidaknya satu kamar ganti supaya pelangganmu bisa mencoba barang."  />
-			<text id="error_editmode_removeminCounter" name="Kamu membutuhkan setidaknya satu rak untuk menampilkan barang-barangmu."  />
-			<text id="error_editmode_removeminFactory" name="Kamu perlu setidaknya satu pekerja untuk memproduksi barang baru."  />
-			<text id="error_editmode_removeminMannequin" name="Kamu membutuhkan setidaknya satu maneken supaya kamu bisa menampilkan barangmu dengan lebih baik."  />
-			<text id="error_editmode_removenotallowedCounter" name="Masih ada pakaian di rak!"  />
-			<text id="error_editmode_removenotallowedDoor" name="Kamu membutuhkan pintu! Untuk mengubah pintu, pertama-tama, bawa pintu lain ke tokomu."  />
-			<text id="error_editmode_removenotallowedFactory" name="Pekerja ini masih memproduksi!"  />
-			<text id="error_editmode_title" name="Error saat menghias ulang"  />
-			<text id="error_fashiongame_1" name="Kami tidak bisa memuat tokomu. Silakan menghubungi layanan pendukung Goodgame Studios."  />
-			<text id="error_fashiongame_title" name="Kesalahan fatal"  />
-			<text id="error_forgotpassword_101" name="Kamu telah mengeblok penerimaan email. Silakan hubungi layanan pendukung"  />
-			<text id="error_fullscreen_copy" name="Mode layar penuh tidak tersedia."  />
-			<text id="error_fullscreen_title" name="Mode layar penuh"  />
-			<text id="error_gift_20" name="Tidak ada tempat untuk hadiah ini di rak."  />
-			<text id="error_gift_34" name="Kamu sudah mencapai batas hadiah.
-Ingin menggunakan {0} lagi seharga {1} Kancing Emas?"  />
-			<text id="error_gift_37" name="Tidak ada tempat untuk hadiah ini di rak."  />
-			<text id="error_gift_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk menggunakan lebih banyak hadiah!"  />
-			<text id="error_gift_title" name="Hadiah"  />
-			<text id="error_instantdesign_34" name="- DEBUG: Batas Harian tercapai -"  />
-			<text id="error_instantdesign_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk mengubah gaya manekenmu sekarang."  />
-			<text id="error_instantdesign_nomoreinstant" name="Kamu bisa mendandani manekenmu segera hanya beberapa kali. Besok kamu bisa mendandani mereka lagi."  />
-			<text id="error_instantdesign_title" name="Etalase"  />
-			<text id="error_instantwork_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk menyelesaikan produksi sekarang."  />
-			<text id="error_invitefriend_11" name="Pemain ini tidak sedang online saat ini. Silakan coba lagi nanti!"  />
-			<text id="error_invitefriend_13" name="Temanmu sudah terdaftar di Fashion!"  />
-			<text id="error_invitefriend_14" name="Alamat email ini tidak valid."  />
-			<text id="error_invitefriend_70" name="Kamu sudah mencapai batas jumlah teman yang diizinkan!"  />
-			<text id="error_invitefriend_71" name="Pemain tidak bisa mendapatkan lebih banyak teman!"  />
-			<text id="error_invitefriend_title" name="Undangan gagal"  />
-			<text id="error_job_2" name="Saatnya beristirahat! Kamu sudah cukup bekerja."  />
-			<text id="error_join_20" name="Toko ini penuh. Silakan coba lagi nanti."  />
-			<text id="error_join_21" name="-DEBUG: Sudah berada di dalam toko-"  />
-			<text id="error_join_22" name="-DEBUG: Toko tidak dikenal-"  />
-			<text id="error_join_title" name="Masuk ke Toko"  />
-			<text id="error_login_10" name="Sandi atau nama pengguna salah!"  />
-			<text id="error_login_11" name="Sandi atau nama pengguna salah!"  />
-			<text id="error_login_12" name="Pengguna ini sudah masuk."  />
-			<text id="error_login_13" name="Pengguna ini sudah masuk."  />
-			<text id="error_login_14" name="Sandi atau nama pengguna salah!"  />
-			<text id="error_login_15" name="Kamu sudah masuk"  />
-			<text id="error_login_16" name="Avatarmu rusak. Silakan hubungi layanan pendukung."  />
-			<text id="error_lostpassword_101" name="Kamu telah mengeblok penerimaan email. Klik ok untuk memperbolehkan penerimaan email."  />
-			<text id="error_lostpassword_11" name="Tidak ada pengguna yang terdaftar di alamat ini!"  />
-			<text id="error_marketplace_20" name="-DEBUG: Atrium penuh-"  />
-			<text id="error_marketplace_21" name="-DEBUG: Kamu sudah berada di atrium-"  />
-			<text id="error_marketplace_title" name="Atrium Goodgames"  />
-			<text id="error_nocustomclothselected" name="Jika kamu ingin memproduksi sesuatu, pilihlah modelnya dulu!"  />
-			<text id="error_nomoney_copy" name="Maaf, kamu belum mampu membelinya."  />
-			<text id="error_nomoney_guest_copy" name="Uangmu habis?Daftar dan kamu akan mendapatkan {0} Fashiondollar!"  />
-			<text id="error_nomoney_title" name="Kekurangan uang"  />
-			<text id="error_npchire_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk mempekerjakan kasir baru."  />
-			<text id="error_patternshop_44" name="Kamu sudah membeli pola ini."  />
-			<text id="error_patternshop_5" name="-DEBUG: WOD unknown-"  />
-			<text id="error_patternshop_nomoney" name="Kamu tidak mampu membeli pola baru itu."  />
-			<text id="error_patternshop_title" name="Masalah pola"  />
-			<text id="error_police_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk mempekerjakan satpam."  />
-			<text id="error_register_10" name="Sandi terlalu pendek."  />
-			<text id="error_register_102" name="Alamat email yang kamu masukkan tidak valid."  />
-			<text id="error_register_13" name="Sudah ada pengguna yang terdaftar dengan alamat ini!"  />
-			<text id="error_register_14" name="Alamat email yang kamu ketikkan tidak benar!"  />
-			<text id="error_register_19" name="Alamat emailmu terlalu panjang."  />
-			<text id="error_register_2" name="Kamu telah mengkonfirmasi emailmu."  />
-			<text id="error_register_agb" name="Kamu harus membaca dan menerima syarat dan ketentuan penggunaan dulu! Konfirmasikan dengan mengeklik tombol di sebelah kiri. 
-Selesai."  />
-			<text id="error_register_emailinvalide" name="Alamat email tidak boleh dikosongkan atau mengandung karakter tertentu."  />
-			<text id="error_register_passwordinvalide" name="Sandimu tidak boleh dikosongkan atau mengandung karakter tertentu."  />
-			<text id="error_register_title" name="Kesalahan registrasi"  />
-			<text id="error_repair_36" name="-DEBUG: Pekerja tidak bisa dijangkau-"  />
-			<text id="error_repair_48" name="-DEBUG: Pekerja sudah 100% termotivasi-"  />
-			<text id="error_repair_nomoney" name="Kamu tidak punya cukup Fashiondollar untuk membayar bonus."  />
-			<text id="error_repair_title" name="Perbaiki"  />
-			<text id="error_sale_47" name="Tidak ada barang di rak ini!"  />
-			<text id="error_sale_title" name="SALE"  />
-			<text id="error_walk_23" name="-DEBUG: Posisi ini tidak memungkinkan untuk berjalan-"  />
-			<text id="error_work_31" name="-DEBUG: Pekerja sudah bekerja!-"  />
-			<text id="error_work_32" name="-DEBUG: Kamu tidak punya pola untuk produk ini  -"  />
-			<text id="error_work_36" name="Jalan menuju pekerja terhalang. Cobalah menghias ulang."  />
-			<text id="error_work_41" name="- DEBUG: Tidak ada booster dalam persediaan -"  />
-			<text id="error_work_45" name="-DEBUG: Jenis produk dan jenis pekerja tidak kompatibel-"  />
-			<text id="error_work_49" name="- DEBUG: Booster yang salah untuk pekerja ini -"  />
-			<text id="error_work_67" name="Polamu tidak lagi tersedia. Buat yang baru!"  />
-			<text id="error_work_nomoney" name="Kamu tidak punya cukup Fashiondollar untuk memulai produksi."  />
-			<text id="error_work_title" name="Penolakan kerja"  />
-		</error_codes>
-		<feature>
-			<text id="feature_0_text_0" name="Ini saatnya!
+Untuk mengumpulkannya, klik saja tautan di email selamat datang." />
+		<text id="dialogs_shippingconfirmation_titel" name="Hadiah!" />
+		<text id="dialogs_staff_btnfire" name="Pecat" />
+		<text id="dialogs_staff_btnhire" name="Pekerjakan" />
+		<text id="dialogs_staff_title" name="Kasirmu" />
+		<text id="dialogs_wheeloffortune_beforespin" name="Putar Roda Keberuntungan dan menangkan hadiah keren!" />
+		<text id="dialogs_wheeloffortune_btn_go" name="Putar!" />
+		<text id="dialogs_wheeloffortune_btn_towheel" name="Pergi ke Roda Keberuntungan!" />
+		<text id="dialogs_wheeloffortune_copy1" name="Sudah memutar Roda Keberuntungan hari ini?" />
+		<text id="dialogs_wheeloffortune_info" name="Putaran pertama gratis!" />
+		<text id="dialogs_wheeloffortune_nomoney" name="Kamu tidak punya cukup kancing emas untuk memutar Roda Keberuntungan!" />
+		<text id="dialogs_wheeloffortune_noregister" name="Hanya pemain terdaftar yang bisa memutar Roda Keberuntungan!" />
+		<text id="dialogs_wheeloffortune_nospace" name="Tidak ada cukup tempat dalam kotak hadiah untuk semua hadiahmu! Aturlah tempatnya, lalu kamu bisa memutar Roda Keberuntungan!" />
+		<text id="dialogs_wheeloffortune_title" name="Roda Keberuntungan!" />
+		<text id="dialogs_wheeloffortune_tryagain" name="Coba lagi?" />
+		<text id="dialogs_wheeloffortune_woncash" name="Selamat! Kami telah mengirimkan hadiahmu!" />
+		<text id="dialogs_wheeloffortune_woncloth" name="Selamat! Temukan hadiahmu di kotak hadiah!" />
+		<text id="dialogs_wheeloffortune_wonitem" name="Selamat! Kamu bisa menemukan hadiahmu di ruang penyimpanan." />
+	</dialogs>
+	<error_codes>
+		<text id="error_advertisement_nolevel" name="Setidaknya kamu harus mencapai level {0} untuk ambil bagian dalam promosi." />
+		<text id="error_advertisement_nomoney" name="Kamu tidak punya cukup Kancing Emas/Fashiondollar untuk ambil bagian dalam promosi ini!" />
+		<text id="error_avatar_12" name="Nama itu sudah digunakan." />
+		<text id="error_avatar_15" name="Pengguna ini sudah punya karakter." />
+		<text id="error_avatar_genderempty" name="Silakan pilih karakter!" />
+		<text id="error_avatar_nameinvalide" name="Nama penggunamu tidak boleh dikosongkan atau mengandung karakter tertentu." />
+		<text id="error_avatar_standardname" name="Silakan masukkan nama pengguna." />
+		<text id="error_boost_nomoney" name="Kamu tidak mampu membeli booster ini." />
+		<text id="error_cancleproduction_36" name="Rak tidak bisa dijangkau! Silakan mengatur ulang beberapa barang." />
+		<text id="error_changepassword_0" name="Sandi berhasil diganti!" />
+		<text id="error_changepassword_10" name="Ini bukan sandi lamamu!" />
+		<text id="error_changepassword_copy" name="Sandi barumu harus terdiri lebih dari 3 karakter. Sandi lama perlu dimasukkan dengan benar." />
+		<text id="error_changepassword_title" name="Ubah sandi" />
+		<text id="error_chat_23" name="Fungsi ruang obrolanmu untuk sementara dinonaktifkan oleh administrator!" />
+		<text id="error_chat_24" name="Jangan menulis pesan yang tidak diinginkan di ruang obrolan!" />
+		<text id="error_common_1" name="Pesan Error
+Server {0}" />
+		<text id="error_common_3" name="- DEBUG: Level terlalu rendah -" />
+		<text id="error_common_30" name="-DEBUG: Tidak ada pekerja/rak-" />
+		<text id="error_common_38" name="-DEBUG: Dalam mode renovasi-" />
+		<text id="error_common_5" name="- DEBUG: WodId tak dikenal -" />
+		<text id="error_common_80" name="-DEBUG: Menghitung rute. Penundaan terlalu lama-" />
+		<text id="error_common_81" name="-DEBUG: Menghitung rute. Penundaan negatif-" />
+		<text id="error_common_title" name="Perhatian!" />
+		<text id="error_coop_3" name="Kamu perlu level lebih tinggi untuk bergabung dalam Kerja Sama ini.Kamu perlu membuka setidaknya satu kunci pola yang diperlukan." />
+		<text id="error_coop_90" name="Kamu sudah bergabung dalam Kerja Sama!" />
+		<text id="error_coop_91" name="Jumlah peserta untuk Kerja Sama ini sudah maks." />
+		<text id="error_coop_92" name="Kerja Sama ini sudah selesai!" />
+		<text id="error_coop_93" name="Kamu sudah memulai Kerja Sama hari ini! Kamu bisa memulai Kerja Sama lain besok!" />
+		<text id="error_coop_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk memperpanjang Kerja Sama ini." />
+		<text id="error_coop_title" name="KERJA SAMA" />
+		<text id="error_customclothbuy_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk membeli pola ini!" />
+		<text id="error_customclothproduce_nomoney" name="Kamu tidak punya cukup Fashiondollar untuk memproduksi pola ini." />
+		<text id="error_customclothunlock_nomoney" name="Kamu tidak punya cukup Fashiondollar atau Kancing Emas untuk membuka kunci barang ini!" />
+		<text id="error_customize_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk mengubah avatarmu." />
+		<text id="error_custom_nameinvalide" name="Kamu tidak diizinkan menggunakan {0}!" />
+		<text id="error_deliverinfo_33" name="-DEBUG: Barangmu belum diproduksi" />
+		<text id="error_deliverinfo_35" name="-DEBUG: Pekerja belum memproduksi apa pun-" />
+		<text id="error_deliverinfo_36" name="Kamu tidak bisa mencapai pekerja ini. Atur ulang barang tokomu agar bisa menjangkaunya setidaknya dari satu sisi." />
+		<text id="error_deliverinfo_37" name="Sayangnya, tidak ada rak tersedia untuk menampilkan barangmu." />
+		<text id="error_deliver_33" name="-DEBUG: Barangmu belum diproduksi-" />
+		<text id="error_deliver_35" name="-DEBUG:Pekerja belum memproduksi apa pun-" />
+		<text id="error_deliver_36" name="Rak ini tidak bisa dijangkau. Atur ulang barang di tokomu supaya kamu bisa meraih setidaknya satu sisi rak." />
+		<text id="error_deliver_37" name="Rak ini penuh. Pilih yang lain untuk menampilkan barang itu." />
+		<text id="error_deliver_46" name="Kamu tidak bisa menggantung barang ini. Pilih rak tempat kamu bisa meletakkannya." />
+		<text id="error_deliver_title" name="Itu tidak berhasil..." />
+		<text id="error_editmode_3" name="-DEBUG: Level minimal tidak tercapai-" />
+		<text id="error_editmode_31" name="-DEBUG: Objek tidak bisa diklik-" />
+		<text id="error_editmode_32" name="-DEBUG: Barang tidak ada dalam persediaan-" />
+		<text id="error_editmode_37" name="-DEBUG: Masih ada barang di rak ini-" />
+		<text id="error_editmode_39" name="-DEBUG: Posisi tak dikenal-" />
+		<text id="error_editmode_48" name="-DEBUG: Pekerja tanpa motivasi tidak bisa disimpan-" />
+		<text id="error_editmode_50" name="-DEBUG: Posisi terblok-" />
+		<text id="error_editmode_51" name="-DEBUG: Posisi kosong-" />
+		<text id="error_editmode_52" name="-DEBUG: Objek tidak bisa dirotasi-" />
+		<text id="error_editmode_53" name="-DEBUG: Kamu sudah mendapatkan perluasan ini-" />
+		<text id="error_editmode_54" name="-DEBUG: Kamu belum bisa membeli perluasan ini-" />
+		<text id="error_editmode_55" name="-DEBUG: Maneken tidak bisa dijual/disimpan-" />
+		<text id="error_editmode_nomoney" name="Kamu tidak mampu membeli barang ini." />
+		<text id="error_editmode_removeMannequin" name="Kamu tidak bisa menjual maneken selama dia masih mengenakan pakaian." />
+		<text id="error_editmode_removeminCashdesk" name="Kamu membutuhkan setidaknya satu meja kasir supaya pelanggan bisa membayar barang yang mereka beli." />
+		<text id="error_editmode_removeminChangingroom" name="Kamu membutuhkan setidaknya satu kamar ganti supaya pelangganmu bisa mencoba barang." />
+		<text id="error_editmode_removeminCounter" name="Kamu membutuhkan setidaknya satu rak untuk menampilkan barang-barangmu." />
+		<text id="error_editmode_removeminFactory" name="Kamu perlu setidaknya satu pekerja untuk memproduksi barang baru." />
+		<text id="error_editmode_removeminMannequin" name="Kamu membutuhkan setidaknya satu maneken supaya kamu bisa menampilkan barangmu dengan lebih baik." />
+		<text id="error_editmode_removenotallowedCounter" name="Masih ada pakaian di rak!" />
+		<text id="error_editmode_removenotallowedDoor" name="Kamu membutuhkan pintu! Untuk mengubah pintu, pertama-tama, bawa pintu lain ke tokomu." />
+		<text id="error_editmode_removenotallowedFactory" name="Pekerja ini masih memproduksi!" />
+		<text id="error_editmode_title" name="Error saat menghias ulang" />
+		<text id="error_fashiongame_1" name="Kami tidak bisa memuat tokomu. Silakan menghubungi layanan pendukung Goodgame Studios." />
+		<text id="error_fashiongame_title" name="Kesalahan fatal" />
+		<text id="error_forgotpassword_101" name="Kamu telah mengeblok penerimaan email. Silakan hubungi layanan pendukung" />
+		<text id="error_fullscreen_copy" name="Mode layar penuh tidak tersedia." />
+		<text id="error_fullscreen_title" name="Mode layar penuh" />
+		<text id="error_gift_20" name="Tidak ada tempat untuk hadiah ini di rak." />
+		<text id="error_gift_34" name="Kamu sudah mencapai batas hadiah.
+Ingin menggunakan {0} lagi seharga {1} Kancing Emas?" />
+		<text id="error_gift_37" name="Tidak ada tempat untuk hadiah ini di rak." />
+		<text id="error_gift_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk menggunakan lebih banyak hadiah!" />
+		<text id="error_gift_title" name="Hadiah" />
+		<text id="error_instantdesign_34" name="- DEBUG: Batas Harian tercapai -" />
+		<text id="error_instantdesign_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk mengubah gaya manekenmu sekarang." />
+		<text id="error_instantdesign_nomoreinstant" name="Kamu bisa mendandani manekenmu segera hanya beberapa kali. Besok kamu bisa mendandani mereka lagi." />
+		<text id="error_instantdesign_title" name="Etalase" />
+		<text id="error_instantwork_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk menyelesaikan produksi sekarang." />
+		<text id="error_invitefriend_11" name="Pemain ini tidak sedang online saat ini. Silakan coba lagi nanti!" />
+		<text id="error_invitefriend_13" name="Temanmu sudah terdaftar di Fashion!" />
+		<text id="error_invitefriend_14" name="Alamat email ini tidak valid." />
+		<text id="error_invitefriend_70" name="Kamu sudah mencapai batas jumlah teman yang diizinkan!" />
+		<text id="error_invitefriend_71" name="Pemain tidak bisa mendapatkan lebih banyak teman!" />
+		<text id="error_invitefriend_title" name="Undangan gagal" />
+		<text id="error_job_2" name="Saatnya beristirahat! Kamu sudah cukup bekerja." />
+		<text id="error_join_20" name="Toko ini penuh. Silakan coba lagi nanti." />
+		<text id="error_join_21" name="-DEBUG: Sudah berada di dalam toko-" />
+		<text id="error_join_22" name="-DEBUG: Toko tidak dikenal-" />
+		<text id="error_join_title" name="Masuk ke Toko" />
+		<text id="error_login_10" name="Sandi atau nama pengguna salah!" />
+		<text id="error_login_11" name="Sandi atau nama pengguna salah!" />
+		<text id="error_login_12" name="Pengguna ini sudah masuk." />
+		<text id="error_login_13" name="Pengguna ini sudah masuk." />
+		<text id="error_login_14" name="Sandi atau nama pengguna salah!" />
+		<text id="error_login_15" name="Kamu sudah masuk" />
+		<text id="error_login_16" name="Avatarmu rusak. Silakan hubungi layanan pendukung." />
+		<text id="error_lostpassword_101" name="Kamu telah mengeblok penerimaan email. Klik ok untuk memperbolehkan penerimaan email." />
+		<text id="error_lostpassword_11" name="Tidak ada pengguna yang terdaftar di alamat ini!" />
+		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
+		<text id="error_marketplace_20" name="-DEBUG: Atrium penuh-" />
+		<text id="error_marketplace_21" name="-DEBUG: Kamu sudah berada di atrium-" />
+		<text id="error_marketplace_title" name="Atrium Goodgames" />
+		<text id="error_nocustomclothselected" name="Jika kamu ingin memproduksi sesuatu, pilihlah modelnya dulu!" />
+		<text id="error_nomoney_copy" name="Maaf, kamu belum mampu membelinya." />
+		<text id="error_nomoney_guest_copy" name="Uangmu habis?Daftar dan kamu akan mendapatkan {0} Fashiondollar!" />
+		<text id="error_nomoney_title" name="Kekurangan uang" />
+		<text id="error_npchire_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk mempekerjakan kasir baru." />
+		<text id="error_patternshop_44" name="Kamu sudah membeli pola ini." />
+		<text id="error_patternshop_5" name="-DEBUG: WOD unknown-" />
+		<text id="error_patternshop_nomoney" name="Kamu tidak mampu membeli pola baru itu." />
+		<text id="error_patternshop_title" name="Masalah pola" />
+		<text id="error_police_nomoney" name="Kamu tidak punya cukup Kancing Emas untuk mempekerjakan satpam." />
+		<text id="error_register_10" name="Sandi terlalu pendek." />
+		<text id="error_register_102" name="Alamat email yang kamu masukkan tidak valid." />
+		<text id="error_register_13" name="Sudah ada pengguna yang terdaftar dengan alamat ini!" />
+		<text id="error_register_14" name="Alamat email yang kamu ketikkan tidak benar!" />
+		<text id="error_register_19" name="Alamat emailmu terlalu panjang." />
+		<text id="error_register_2" name="Kamu telah mengkonfirmasi emailmu." />
+		<text id="error_register_agb" name="Kamu harus membaca dan menerima syarat dan ketentuan penggunaan dulu! Konfirmasikan dengan mengeklik tombol di sebelah kiri. 
+Selesai." />
+		<text id="error_register_emailinvalide" name="Alamat email tidak boleh dikosongkan atau mengandung karakter tertentu." />
+		<text id="error_register_passwordinvalide" name="Sandimu tidak boleh dikosongkan atau mengandung karakter tertentu." />
+		<text id="error_register_title" name="Kesalahan registrasi" />
+		<text id="error_repair_36" name="-DEBUG: Pekerja tidak bisa dijangkau-" />
+		<text id="error_repair_48" name="-DEBUG: Pekerja sudah 100% termotivasi-" />
+		<text id="error_repair_nomoney" name="Kamu tidak punya cukup Fashiondollar untuk membayar bonus." />
+		<text id="error_repair_title" name="Perbaiki" />
+		<text id="error_sale_47" name="Tidak ada barang di rak ini!" />
+		<text id="error_sale_title" name="SALE" />
+		<text id="error_walk_23" name="-DEBUG: Posisi ini tidak memungkinkan untuk berjalan-" />
+		<text id="error_work_31" name="-DEBUG: Pekerja sudah bekerja!-" />
+		<text id="error_work_32" name="-DEBUG: Kamu tidak punya pola untuk produk ini  -" />
+		<text id="error_work_36" name="Jalan menuju pekerja terhalang. Cobalah menghias ulang." />
+		<text id="error_work_41" name="- DEBUG: Tidak ada booster dalam persediaan -" />
+		<text id="error_work_45" name="-DEBUG: Jenis produk dan jenis pekerja tidak kompatibel-" />
+		<text id="error_work_49" name="- DEBUG: Booster yang salah untuk pekerja ini -" />
+		<text id="error_work_67" name="Polamu tidak lagi tersedia. Buat yang baru!" />
+		<text id="error_work_nomoney" name="Kamu tidak punya cukup Fashiondollar untuk memulai produksi." />
+		<text id="error_work_title" name="Penolakan kerja" />
+	</error_codes>
+	<feature>
+		<text id="feature_0_text_0" name="Ini saatnya!
 
 Beta resmi Goodgame Fashion hadir di sini!
  Tiap orang akan memulai lagi dari level 1, tapi dengan Kancing Emas yang sudah dibeli sebelumnya dan tambahan 10 Kancing Emas.
 
-Silakan menikmati Goodgame Fashion!"  />
-			<text id="feature_0_title" name="Permulaan resmi!"  />
-			<text id="feature_10_text_0" name="Musim panas tiba!
-Koleksi terbaru GeeDee telah tersedia!"  />
-			<text id="feature_1_text_0" name="Carilah emas bersama temanmu!
-Temukan Kerja Sama yang baru!"  />
-			<text id="feature_2_text_0" name="Temukan rak, kamar ganti, dan meja kasir baru!"  />
-			<text id="feature_2_text_1" name="Mengubah penampilan belum pernah semudah ini! Cukup klik karaktermu!"  />
-			<text id="feature_2_text_2" name="Sekarang, kamu bisa menikmati mode dengan musik!"  />
-			<text id="feature_3_text_0" name="Musim semi segera tiba! Periksa pola baru dan meriahkan tokomu!"  />
-			<text id="feature_3_text_1" name="Label baru akan menambah keuntungan barangmu!"  />
-			<text id="feature_4_text_0" name="Warna-warni bertaburan!
-Intip Koleksi baru JayJay!"  />
-			<text id="feature_4_text_1" name="Temukan rak, kamar ganti, dan meja kasir baru!"  />
-			<text id="feature_4_text_2" name="Jaket musim semi yang baru itu keren!"  />
-			<text id="feature_4_text_3" name="Pekerjaan baru menanti! Bantu teman-temanmu dan dapatkan imbalan!"  />
-			<text id="feature_5_text_0" name="Warnai hidupmu! Koleksi baru JayJay sekarang hadir di tokomu!"  />
-			<text id="feature_5_text_1" name="Temukan rak, kamar ganti, dan mesin kasir baru!"  />
-			<text id="feature_5_text_2" name="Jaket Musim Semi baru sudah tiba untuk mengguncangkan tokomu!"  />
-			<text id="feature_5_text_3" name="Bantu temanmu keluar dan dapatkan imbalan!"  />
-			<text id="feature_6_text_0" name="Jadilah perancang mode dan ciptakan polamu sendiri!"  />
-			<text id="feature_6_text_1" name="Temukan jendela display baru untuk tokomu!"  />
-			<text id="feature_7_text_0" name="Seberapa beruntungkah kamu? 
-Putar Roda Keberuntungan dan cari tahu!"  />
-			<text id="feature_8_text_0" name="Jadikan tokomu lebih populer dan glamor dengan nilai kemewahan baru perabotan dan hiasan!"  />
-			<text id="feature_8_text_1" name="Buat pelangganmu lebih bersemangat dengan rak, kamar ganti, dan mesin kasir baru!"  />
-			<text id="feature_9_text_0" name="Promosikan tokomu untuk memperoleh popularitas lebih tinggi dan mendapatkan XP ekstra!"  />
-			<text id="feature_9_text_1" name="Tempatkan lebih banyak hadiah di rakmu!"  />
-			<text id="feature_title" name="Fitur baru"  />
-		</feature>
-		<feeds>
-			<text id="descriptionfashionfeed" name="Aku baru saja menginstal Goodgame Fashion. Apakah kamu juga ingin membuka toko busanamu sendiri dan menjadi perancang mode? Datang dan lihatlah!"  />
-			<text id="descriptionlongfashion" name="Buka toko busanamu sendiri dengan Goodgame Fashion.
-Jadilah perancang mode, beli kain keren, dan produksi busanamu sendiri. Berkembanglah bersama popularitas tokomu dan jadikan tokomu tempat mode terkeren di kota."  />
-		</feeds>
-		<forumaction>
-			<text id="forumaction_copy_1" name="Rancang pakaian renangmu dan jadilah pemenang! Kancing Emas menanti pemenang dan polanya akan muncul di area pola!
+Silakan menikmati Goodgame Fashion!" />
+		<text id="feature_0_title" name="Permulaan resmi!" />
+		<text id="feature_10_text_0" name="Musim panas tiba!
+Koleksi terbaru GeeDee telah tersedia!" />
+		<text id="feature_1_text_0" name="Carilah emas bersama temanmu!
+Temukan Kerja Sama yang baru!" />
+		<text id="feature_2_text_0" name="Temukan rak, kamar ganti, dan meja kasir baru!" />
+		<text id="feature_2_text_1" name="Mengubah penampilan belum pernah semudah ini! Cukup klik karaktermu!" />
+		<text id="feature_2_text_2" name="Sekarang, kamu bisa menikmati mode dengan musik!" />
+		<text id="feature_3_text_0" name="Musim semi segera tiba! Periksa pola baru dan meriahkan tokomu!" />
+		<text id="feature_3_text_1" name="Label baru akan menambah keuntungan barangmu!" />
+		<text id="feature_4_text_0" name="Warna-warni bertaburan!
+Intip Koleksi baru JayJay!" />
+		<text id="feature_4_text_1" name="Temukan rak, kamar ganti, dan meja kasir baru!" />
+		<text id="feature_4_text_2" name="Jaket musim semi yang baru itu keren!" />
+		<text id="feature_4_text_3" name="Pekerjaan baru menanti! Bantu teman-temanmu dan dapatkan imbalan!" />
+		<text id="feature_5_text_0" name="Warnai hidupmu! Koleksi baru JayJay sekarang hadir di tokomu!" />
+		<text id="feature_5_text_1" name="Temukan rak, kamar ganti, dan mesin kasir baru!" />
+		<text id="feature_5_text_2" name="Jaket Musim Semi baru sudah tiba untuk mengguncangkan tokomu!" />
+		<text id="feature_5_text_3" name="Bantu temanmu keluar dan dapatkan imbalan!" />
+		<text id="feature_6_text_0" name="Jadilah perancang mode dan ciptakan polamu sendiri!" />
+		<text id="feature_6_text_1" name="Temukan jendela display baru untuk tokomu!" />
+		<text id="feature_7_text_0" name="Seberapa beruntungkah kamu? 
+Putar Roda Keberuntungan dan cari tahu!" />
+		<text id="feature_8_text_0" name="Jadikan tokomu lebih populer dan glamor dengan nilai kemewahan baru perabotan dan hiasan!" />
+		<text id="feature_8_text_1" name="Buat pelangganmu lebih bersemangat dengan rak, kamar ganti, dan mesin kasir baru!" />
+		<text id="feature_9_text_0" name="Promosikan tokomu untuk memperoleh popularitas lebih tinggi dan mendapatkan XP ekstra!" />
+		<text id="feature_9_text_1" name="Tempatkan lebih banyak hadiah di rakmu!" />
+		<text id="feature_title" name="Fitur baru" />
+	</feature>
+	<feeds>
+		<text id="descriptionfashionfeed" name="Aku baru saja menginstal Goodgame Fashion. Apakah kamu juga ingin membuka toko busanamu sendiri dan menjadi perancang mode? Datang dan lihatlah!" />
+		<text id="descriptionlongfashion" name="Buka toko busanamu sendiri dengan Goodgame Fashion.
+Jadilah perancang mode, beli kain keren, dan produksi busanamu sendiri. Berkembanglah bersama popularitas tokomu dan jadikan tokomu tempat mode terkeren di kota." />
+	</feeds>
+	<forumaction>
+		<text id="forumaction_copy_1" name="Rancang pakaian renangmu dan jadilah pemenang! Kancing Emas menanti pemenang dan polanya akan muncul di area pola!
 
-Pergi ke forum dan bergabung dalam kompetisi!"  />
-			<text id="forumaction_title_1" name="Kreatiflah!"  />
-		</forumaction>
-		<loggedin_msg id=""  />
-		<panels>
-			<text id="panels_buddylist_morefriends" name="Lebih banyak teman"  />
-			<text id="panels_login_email" name="Nama Pengguna/Email"  />
-			<text id="panels_login_loginbtn" name="MASUK"  />
-			<text id="panels_login_lostpassword" name="Lupa sandimu?"  />
-			<text id="panels_login_password" name="Sandi"  />
-			<text id="panels_login_playbtn" name="MAIN SEKARANG"  />
-			<text id="panels_login_registerbtn" name="DAFTAR"  />
-			<text id="panels_login_rememberpassword" name="Simpan Sandi"  />
-			<text id="panels_social_alone" name="Saat ini kamu sendirian"  />
-			<text id="panels_social_bot" name="Obrolan Fesyen"  />
-			<text id="panels_social_chatblocked" name="Hanya pemain terdaftar yang memulai dari level 1 yang diizinkan menggunakan ruang obrolan!"  />
-			<text id="panels_social_come_in" name="telah memasuki toko."  />
-			<text id="panels_social_go_out" name="telah meninggalkan toko."  />
-			<text id="panels_social_nofriends" name="Kamu belum punya teman."  />
-			<text id="panels_social_welcome_market" name="Selamat Datang di Atrium Goodgame"  />
-			<text id="panels_social_welcome_myshop" name="Selamat Datang"  />
-		</panels>
-		<server>
-			<mail>
-				<text id="mail_invite_friend" name="Hai %s!!&lt;br /&gt;&lt;br /&gt;Aku baru saja menemukan game online hebat ini &quot;Goodgame Fashion&quot;.!&lt;br /&gt;&lt;br /&gt;Dengan tautan ini kamu akan langsung masuk game:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Daftar menggunakan tautan ini untuk menciptakan Toko Busanamu sendiri, gratis di &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Rasakan memiliki Toko Busana sendiri. Buatlah pakaian, aksesori, dan sepatu luar biasa, jual di tokomu, dan hias sesuka hati!&lt;br /&gt;&lt;br /&gt;Selamat bersenang-senang, Salam %s"  />
-				<text id="mail_lost_pw" name="Halo %s!&lt;br /&gt;&lt;br /&gt;
+Pergi ke forum dan bergabung dalam kompetisi!" />
+		<text id="forumaction_title_1" name="Kreatiflah!" />
+	</forumaction>
+	<loggedin_msg id="" />
+	<panels>
+		<text id="panels_buddylist_morefriends" name="Lebih banyak teman" />
+		<text id="panels_login_email" name="Nama Pengguna/Email" />
+		<text id="panels_login_loginbtn" name="MASUK" />
+		<text id="panels_login_lostpassword" name="Lupa sandimu?" />
+		<text id="panels_login_password" name="Sandi" />
+		<text id="panels_login_playbtn" name="MAIN SEKARANG" />
+		<text id="panels_login_registerbtn" name="DAFTAR" />
+		<text id="panels_login_rememberpassword" name="Simpan Sandi" />
+		<text id="panels_social_alone" name="Saat ini kamu sendirian" />
+		<text id="panels_social_bot" name="Obrolan Fesyen" />
+		<text id="panels_social_chatblocked" name="Hanya pemain terdaftar yang memulai dari level 1 yang diizinkan menggunakan ruang obrolan!" />
+		<text id="panels_social_come_in" name="telah memasuki toko." />
+		<text id="panels_social_go_out" name="telah meninggalkan toko." />
+		<text id="panels_social_nofriends" name="Kamu belum punya teman." />
+		<text id="panels_social_welcome_market" name="Selamat Datang di Atrium Goodgame" />
+		<text id="panels_social_welcome_myshop" name="Selamat Datang" />
+	</panels>
+	<server>
+		<mail>
+			<text id="mail_invite_friend" name="Hai %s!!&lt;br /&gt;&lt;br /&gt;Aku baru saja menemukan game online hebat ini &quot;Goodgame Fashion&quot;.!&lt;br /&gt;&lt;br /&gt;Dengan tautan ini kamu akan langsung masuk game:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Daftar menggunakan tautan ini untuk menciptakan Toko Busanamu sendiri, gratis di &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Rasakan memiliki Toko Busana sendiri. Buatlah pakaian, aksesori, dan sepatu luar biasa, jual di tokomu, dan hias sesuka hati!&lt;br /&gt;&lt;br /&gt;Selamat bersenang-senang, Salam %s" />
+			<text id="mail_lost_pw" name="Halo %s!&lt;br /&gt;&lt;br /&gt;
 Kamu menerima email otomatis ini karena kamu meminta sandi baru.&lt;br /&gt;
 Sandi barumu adalah: %s &lt;br /&gt;&lt;br /&gt;
 Kamu bisa masuk melalui laman ini:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;
 Silakan hubungi support@goodgamestudios.com jika ada pertanyaan atau kesulitan lebih lanjut. &lt;br /&gt;&lt;br /&gt;
 
 Selamat bersenang-senang!&lt;br /&gt;&lt;br /&gt;
-Tim &lt;br /&gt;Goodgamestudios.com"  />
-				<text id="mail_registration" name="Halo,&lt;br /&gt;&lt;br /&gt; terima kasih atas registrasimu dan selamat datang di &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Kamu bisa masuk setiap saat dengan data berikut:&lt;br /&gt;Email: %s&lt;br /&gt;Sandi: %s&lt;br /&gt;&lt;br /&gt;Tautan ini akan membawamu langsung masuk game:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Silakan hubungi support@goodgamestudios.com jika ada pertanyaan atau kesulitan lebih lanjut. &lt;br /&gt;&lt;br /&gt;Selamat bersenang-senang!&lt;br /&gt;&lt;br /&gt;Tim-mu di&lt;br /&gt;Goodgamestudios.com"  />
-			</mail>
-			<misc>
-				<text id="marketplace" name="Atrium Goodgames"  />
-			</misc>
-		</server>
-		<server_msg>
-			<text id="server_msg_10" name="Server sedang dinyalakan kembali. Kami akan segera kembali.
-Tekan F5 untuk menyegarkan situs."  />
-			<text id="server_msg_title" name="Pesan Server"  />
-		</server_msg>
-		<std_buttons>
-			<text id="btn_addcurrency" name="Beli Fashiondollar/Kancing Emas"  />
-			<text id="btn_payment" name="Beli Fashiondollar/Kancing Emas"  />
-			<text id="btn_policeman" name="Satpam"  />
-			<text id="btn_register" name="Daftar"  />
-			<text id="btn_superrewardChips" name="Dapatkan Fashiondollar"  />
-			<text id="btn_superrewardGold" name="Dapatkan Kancing Emas"  />
-		</std_buttons>
-		<tooltips>
-			<text id="tooltip_Basic_Factory_Basicaccessoire" name="Perajin Emas"  />
-			<text id="tooltip_Basic_Factory_Basiccloth" name="Penjahit"  />
-			<text id="tooltip_Basic_Factory_Basicshoes" name="Pembuat sepatu"  />
-			<text id="tooltip_counter_pieces" name="Kuantitas: {0}"  />
-			<text id="tooltip_customcloth_icon" name="Motif"  />
-			<text id="tooltip_customcloth_shape" name="Model"  />
-			<text id="tooltip_customcloth_unlock" name="Buka kunci"  />
-			<text id="tooltip_factory_empty" name="Produksi barang baru!"  />
-			<text id="tooltip_factory_preparestep1" name="Perintahkan pekerja"  />
-			<text id="tooltip_factory_preparetitle" name="Klik untuk"  />
-			<text id="tooltip_factory_readytoserv" name="Tampilkan barang"  />
-			<text id="tooltip_factory_readytoserv_amount" name="Kuantitas: {0}"  />
-			<text id="tooltip_factory_wear" name="Motivasi: {0}%"  />
-			<text id="tooltip_FashionActionPanel_btn_achievements" name="Prestasi"  />
-			<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Tambahkan Kancing Emas/
-Fashiondollar"  />
-			<text id="tooltip_FashionActionPanel_btn_advertisement" name="Promosi"  />
-			<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="mulai level {0}, kamu bisa beriklan"  />
-			<text id="tooltip_FashionActionPanel_btn_booster" name="Booster"  />
-			<text id="tooltip_FashionActionPanel_btn_coop" name="Kerja Sama"  />
-			<text id="tooltip_FashionActionPanel_btn_decoshop" name="Hias ulang"  />
-			<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="Promosikan tokomu!"  />
-			<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalog"  />
-			<text id="tooltip_FashionActionPanel_btn_gifts" name="Hadiah"  />
-			<text id="tooltip_FashionActionPanel_btn_highscore" name="Memberi Peringkat"  />
-			<text id="tooltip_FashionActionPanel_btn_market" name="Atrium Goodgames"  />
-			<text id="tooltip_FashionActionPanel_btn_openclose" name="Buka/Tutup Toko"  />
-			<text id="tooltip_FashionActionPanel_btn_ownshop" name="Tokoku"  />
-			<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Promosi sedang berlangsung
-Klik untuk hasil awal"  />
-			<text id="tooltip_FashionActionPanel_btn_sale" name="Turunkan harga"  />
-			<text id="tooltip_FashionActionPanel_btn_staff" name="Kasir"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="Bawahan"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="Rambut"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="Warna kulit"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="Atasan"  />
-			<text id="tooltip_FashionBookDialog_btn_all" name="Semua"  />
-			<text id="tooltip_FashionBookDialog_btn_buy" name="Beli pola"  />
-			<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="Rancang pola"  />
-			<text id="tooltip_FashionBookDialog_btn_mastery" name="masih {0} hingga level label {1}
-Klik untuk rincian lebih lanjut"  />
-			<text id="tooltip_FashionBookDialog_btn_produce" name="Produksi"  />
-			<text id="tooltip_FashionBookDialog_customcloth" name="Pilih Pola"  />
-			<text id="tooltip_FashionBookDialog_female" name="Untuk cewek"  />
-			<text id="tooltip_FashionBookDialog_info" name="Ingatlah untuk selalu menyediakan pakaian 
+Tim &lt;br /&gt;Goodgamestudios.com" />
+			<text id="mail_registration" name="Halo,&lt;br /&gt;&lt;br /&gt; terima kasih atas registrasimu dan selamat datang di &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Kamu bisa masuk setiap saat dengan data berikut:&lt;br /&gt;Email: %s&lt;br /&gt;Sandi: %s&lt;br /&gt;&lt;br /&gt;Tautan ini akan membawamu langsung masuk game:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Silakan hubungi support@goodgamestudios.com jika ada pertanyaan atau kesulitan lebih lanjut. &lt;br /&gt;&lt;br /&gt;Selamat bersenang-senang!&lt;br /&gt;&lt;br /&gt;Tim-mu di&lt;br /&gt;Goodgamestudios.com" />
+		</mail>
+		<misc>
+			<text id="marketplace" name="Atrium Goodgames" />
+		</misc>
+	</server>
+	<server_msg>
+		<text id="server_msg_10" name="Server sedang dinyalakan kembali. Kami akan segera kembali.
+Tekan F5 untuk menyegarkan situs." />
+		<text id="server_msg_title" name="Pesan Server" />
+	</server_msg>
+	<std_buttons>
+		<text id="btn_addcurrency" name="Beli Fashiondollar/Kancing Emas" />
+		<text id="btn_payment" name="Beli Fashiondollar/Kancing Emas" />
+		<text id="btn_policeman" name="Satpam" />
+		<text id="btn_register" name="Daftar" />
+		<text id="btn_superrewardChips" name="Dapatkan Fashiondollar" />
+		<text id="btn_superrewardGold" name="Dapatkan Kancing Emas" />
+	</std_buttons>
+	<tooltips>
+		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Perajin Emas" />
+		<text id="tooltip_Basic_Factory_Basiccloth" name="Penjahit" />
+		<text id="tooltip_Basic_Factory_Basicshoes" name="Pembuat sepatu" />
+		<text id="tooltip_counter_pieces" name="Kuantitas: {0}" />
+		<text id="tooltip_customcloth_icon" name="Motif" />
+		<text id="tooltip_customcloth_shape" name="Model" />
+		<text id="tooltip_customcloth_unlock" name="Buka kunci" />
+		<text id="tooltip_factory_empty" name="Produksi barang baru!" />
+		<text id="tooltip_factory_preparestep1" name="Perintahkan pekerja" />
+		<text id="tooltip_factory_preparetitle" name="Klik untuk" />
+		<text id="tooltip_factory_readytoserv" name="Tampilkan barang" />
+		<text id="tooltip_factory_readytoserv_amount" name="Kuantitas: {0}" />
+		<text id="tooltip_factory_wear" name="Motivasi: {0}%" />
+		<text id="tooltip_FashionActionPanel_btn_achievements" name="Prestasi" />
+		<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Tambahkan Kancing Emas/
+Fashiondollar" />
+		<text id="tooltip_FashionActionPanel_btn_advertisement" name="Promosi" />
+		<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="mulai level {0}, kamu bisa beriklan" />
+		<text id="tooltip_FashionActionPanel_btn_booster" name="Booster" />
+		<text id="tooltip_FashionActionPanel_btn_coop" name="Kerja Sama" />
+		<text id="tooltip_FashionActionPanel_btn_decoshop" name="Hias ulang" />
+		<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="Promosikan tokomu!" />
+		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalog" />
+		<text id="tooltip_FashionActionPanel_btn_gifts" name="Hadiah" />
+		<text id="tooltip_FashionActionPanel_btn_highscore" name="Memberi Peringkat" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Atrium Goodgames" />
+		<text id="tooltip_FashionActionPanel_btn_openclose" name="Buka/Tutup Toko" />
+		<text id="tooltip_FashionActionPanel_btn_ownshop" name="Tokoku" />
+		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Promosi sedang berlangsung
+Klik untuk hasil awal" />
+		<text id="tooltip_FashionActionPanel_btn_sale" name="Turunkan harga" />
+		<text id="tooltip_FashionActionPanel_btn_staff" name="Kasir" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="Bawahan" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="Rambut" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="Warna kulit" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="Atasan" />
+		<text id="tooltip_FashionBookDialog_btn_all" name="Semua" />
+		<text id="tooltip_FashionBookDialog_btn_buy" name="Beli pola" />
+		<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="Rancang pola" />
+		<text id="tooltip_FashionBookDialog_btn_mastery" name="masih {0} hingga level label {1}
+Klik untuk rincian lebih lanjut" />
+		<text id="tooltip_FashionBookDialog_btn_produce" name="Produksi" />
+		<text id="tooltip_FashionBookDialog_customcloth" name="Pilih Pola" />
+		<text id="tooltip_FashionBookDialog_female" name="Untuk cewek" />
+		<text id="tooltip_FashionBookDialog_info" name="Ingatlah untuk selalu menyediakan pakaian 
 cewek dan cowok 
-di tokomu!"  />
-			<text id="tooltip_FashionBookDialog_male" name="Untuk cowok"  />
-			<text id="tooltip_FashionBookDialog_unisex" name="Untuk cowok &amp; cewek"  />
-			<text id="tooltip_FashionBoosterDialog_addAmount" name="Barang per pembelian"  />
-			<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="Perpanjangan waktu"  />
-			<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="Perpanjangan waktu
-+ {0} dengan {1} teman lagi"  />
-			<text id="tooltip_FashionBoosterDialog_btn_buy" name="Beli"  />
-			<text id="tooltip_FashionBoosterDialog_btn_info" name="Info"  />
-			<text id="tooltip_FashionBoosterDialog_coffee" name="Kopi meningkatkan efisiensi Penjahit sebesar 20%!"  />
-			<text id="tooltip_FashionBoosterDialog_currentAmount" name="Dalam persediaan"  />
-			<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="Perlindungan pencurian saat ini"  />
-			<text id="tooltip_FashionBoosterDialog_energy" name="Minuman energi
-Efisiensi pembuat sepatumu melejit sebesar 20%!"  />
-			<text id="tooltip_FashionBoosterDialog_police" name="Satpam"  />
-			<text id="tooltip_FashionBoosterDialog_price" name="Harga"  />
-			<text id="tooltip_FashionBoosterDialog_shake" name="Minuman Protein
-Minuman ini meningkatkan efisiensi perajin emasmu hingga 20%!"  />
-			<text id="tooltip_FashionCoopDialog_btn_extend" name="Perpanjang Kerja Sama"  />
-			<text id="tooltip_FashionCounterDialog_btn_sale" name="Harganya akan turun"  />
-			<text id="tooltip_FashionCounterDialog_btn_spend" name="Sumbangkan semua barang"  />
-			<text id="tooltip_FashionCounterDialog_btn_unsale" name="Batalkan Sale"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="Beli"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_close" name="Akhiri penghiasan ulang"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko" name="Renovasi"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="Hiasan"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="Jendela Display"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="Pintu"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="Lantai"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="Dinding"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="Hiasan Dinding"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="Perluasan"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Tambahkan lantai"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="Perluas Toko"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional" name="Fungsional"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Meja kasir"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="Kamar ganti"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="Rak"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="Pekerja"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="Maneken"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="Pola"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_sell" name="Jual"  />
-			<text id="tooltip_FashionExpansionFriends" name="Kamu masih perlu {0} teman untuk membuka perluasan ini"  />
-			<text id="tooltip_FashionFactoryDialog_btn_instant" name="Selesaikan sekarang!"  />
-			<text id="tooltip_FashionGiftboxDialog_btn_remove" name="Hapus"  />
-			<text id="tooltip_FashionGiftboxDialog_btn_use" name="Gunakan"  />
-			<text id="tooltip_FashionGiftboxDialog_mygifts" name="Hadiahku"  />
-			<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="Kirimkan hadiah"  />
-			<text id="tooltip_FashionHighscoreDialog_luxury" name="Pilah berdasarkan Nilai Kemewahan"  />
-			<text id="tooltip_FashionHighscoreDialog_offline" name="Offline"  />
-			<text id="tooltip_FashionHighscoreDialog_online" name="Online"  />
-			<text id="tooltip_FashionHighscoreDialog_xp" name="Pilah berdasarkan XP"  />
-			<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="Aksesori"  />
-			<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="Pakaian"  />
-			<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="Sepatu"  />
-			<text id="tooltip_FashionMasteryInfoDialog_bronce" name="Produksi lebih banyak!"  />
-			<text id="tooltip_FashionMasteryInfoDialog_gold" name="Produksi lebih cepat!"  />
-			<text id="tooltip_FashionMasteryInfoDialog_silver" name="Dapatkan lebih banyak XP!"  />
-			<text id="tooltip_FashionNamePanel_mc_luxury" name="Nilai Kemewahan Tokomu"  />
-			<text id="tooltip_FashionNamePanel_mc_rating" name="Popularitas tokomu"  />
-			<text id="tooltip_FashionOptionPanel_btn_allowemails" name="Perbolehkan email"  />
-			<text id="tooltip_FashionOptionPanel_btn_blockemails" name="Blok email"  />
-			<text id="tooltip_FashionOptionPanel_btn_bugreport" name="Laporkan bug"  />
-			<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Ubah pakaian tokoh"  />
-			<text id="tooltip_FashionOptionPanel_btn_changePass" name="Ubah sandi"  />
-			<text id="tooltip_FashionOptionPanel_btn_faq" name="FAQ"  />
-			<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="Layar Penuh"  />
-			<text id="tooltip_FashionOptionPanel_btn_help" name="Bantuan"  />
-			<text id="tooltip_FashionOptionPanel_btn_logout" name="Keluar"  />
-			<text id="tooltip_FashionOptionPanel_btn_music" name="Musik on/off"  />
-			<text id="tooltip_FashionOptionPanel_btn_news" name="Forum GGS"  />
-			<text id="tooltip_FashionOptionPanel_btn_options" name="Pilihan"  />
-			<text id="tooltip_FashionOptionPanel_btn_register" name="Daftar"  />
-			<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="Suara on/off"  />
-			<text id="tooltip_FashionOptionPanel_btn_support" name="Kirimkan email ke Layanan Pendukung"  />
-			<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="Kumpulkan hadiah selamat datang"  />
-			<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="+ Perbesar"  />
-			<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- Perbesar"  />
-			<text id="tooltip_FashionOptionPanel_mc_floors" name="Lantai"  />
-			<text id="tooltip_FashionOptionPanel_mc_ranking" name="Memberi Peringkat"  />
-			<text id="tooltip_FashionPatternFriends" name="Kamu masih perlu {0} teman untuk membuka perluasan ini"  />
-			<text id="tooltip_FashionSocialPanel_btn_buddies" name="Teman"  />
-			<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="Pemain yang hadir"  />
-			<text id="tooltip_FashionSocialPanel_btn_chat" name="Ngobrol"  />
-			<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="Undang teman"  />
-			<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Tambahkan Fashiondollar/Kancing Emas"  />
-			<text id="tooltip_FashionUserStatePanel_jobs" name="Jumlah tindakan"  />
-			<text id="tooltip_FashionUserStatePanel_xp" name="{0} XP hingga level berikutnya"  />
-			<text id="tooltip_Fashion_btnclose" name="Tutup"  />
-			<text id="tooltip_levelx" name="Tersedia di Level {0}"  />
-			<text id="tooltip_marketplace" name="Papan Tulis"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Prestasi"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="Tambahkan teman"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="Informasi"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Suruh keluar"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="Hapus teman"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="Kunjungi"  />
-			<text id="tooltip_wheeloffortune_line1" name="Roda Keberuntungan!"  />
-			<text id="tooltip_wheeloffortune_line2" name="Klik untuk main!"  />
-			<text id="tooltip_wheeloffortune_line3" name="Satu putaran gratis"  />
-			<text id="tooltip_xofy" name="{0} dari {1}"  />
-		</tooltips>
-		<tutorial>
-			<text id="tut_buypattern_copy" name="Ini katalognya, di sini kamu bisa beli pola baru.
-Setelah membelinya, kamu bisa menggunakannya berkali-kali untuk memproduksi barang. Klik untuk beli pola baru. Ingatlah untuk menyediakan pakaian pria maupun wanita di tokomu!"  />
-			<text id="tut_choosemannequin_copy" name="Barang-barangmu akan menarik perhatian jika kamu menggunakannya untuk mendandani manekenmu. Klik maneken yang sedang tidak digunakan."  />
-			<text id="tut_delivercounter_copy" name="... lalu letakkan di rak kosong!"  />
-			<text id="tut_emptyfactory_copy" name="Penjahit memproduksi pakaian, nanti kamu akan mampu mempekerjakan pekerja tambahan untuk memproduksi barang lain.
-Klik Penjahit."  />
-			<text id="tut_instantwork_copy" name="Klik tombolnya dan pakaianmu akan segera siap."  />
-			<text id="tut_lastscreen_copy" name="Hebat! Kamu baru menyelesaikan langkah awal untuk memperkenalkan labelmu, pelanggan pertama berdatangan! Jelajahi bagian lain dunia mode kami. Banyak yang bisa ditemukan. 
+di tokomu!" />
+		<text id="tooltip_FashionBookDialog_male" name="Untuk cowok" />
+		<text id="tooltip_FashionBookDialog_unisex" name="Untuk cowok &amp; cewek" />
+		<text id="tooltip_FashionBoosterDialog_addAmount" name="Barang per pembelian" />
+		<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="Perpanjangan waktu" />
+		<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="Perpanjangan waktu
++ {0} dengan {1} teman lagi" />
+		<text id="tooltip_FashionBoosterDialog_btn_buy" name="Beli" />
+		<text id="tooltip_FashionBoosterDialog_btn_info" name="Info" />
+		<text id="tooltip_FashionBoosterDialog_coffee" name="Kopi meningkatkan efisiensi Penjahit sebesar 20%!" />
+		<text id="tooltip_FashionBoosterDialog_currentAmount" name="Dalam persediaan" />
+		<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="Perlindungan pencurian saat ini" />
+		<text id="tooltip_FashionBoosterDialog_energy" name="Minuman energi
+Efisiensi pembuat sepatumu melejit sebesar 20%!" />
+		<text id="tooltip_FashionBoosterDialog_police" name="Satpam" />
+		<text id="tooltip_FashionBoosterDialog_price" name="Harga" />
+		<text id="tooltip_FashionBoosterDialog_shake" name="Minuman Protein
+Minuman ini meningkatkan efisiensi perajin emasmu hingga 20%!" />
+		<text id="tooltip_FashionCoopDialog_btn_extend" name="Perpanjang Kerja Sama" />
+		<text id="tooltip_FashionCounterDialog_btn_sale" name="Harganya akan turun" />
+		<text id="tooltip_FashionCounterDialog_btn_spend" name="Sumbangkan semua barang" />
+		<text id="tooltip_FashionCounterDialog_btn_unsale" name="Batalkan Sale" />
+		<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="Beli" />
+		<text id="tooltip_FashionDekoShopPanel_btn_close" name="Akhiri penghiasan ulang" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko" name="Renovasi" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="Hiasan" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="Jendela Display" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="Pintu" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="Lantai" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="Dinding" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="Hiasan Dinding" />
+		<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="Perluasan" />
+		<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Tambahkan lantai" />
+		<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="Perluas Toko" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional" name="Fungsional" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Meja kasir" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="Kamar ganti" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="Rak" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="Pekerja" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="Maneken" />
+		<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="Pola" />
+		<text id="tooltip_FashionDekoShopPanel_btn_sell" name="Jual" />
+		<text id="tooltip_FashionExpansionFriends" name="Kamu masih perlu {0} teman untuk membuka perluasan ini" />
+		<text id="tooltip_FashionFactoryDialog_btn_instant" name="Selesaikan sekarang!" />
+		<text id="tooltip_FashionGiftboxDialog_btn_remove" name="Hapus" />
+		<text id="tooltip_FashionGiftboxDialog_btn_use" name="Gunakan" />
+		<text id="tooltip_FashionGiftboxDialog_mygifts" name="Hadiahku" />
+		<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="Kirimkan hadiah" />
+		<text id="tooltip_FashionHighscoreDialog_luxury" name="Pilah berdasarkan Nilai Kemewahan" />
+		<text id="tooltip_FashionHighscoreDialog_offline" name="Offline" />
+		<text id="tooltip_FashionHighscoreDialog_online" name="Online" />
+		<text id="tooltip_FashionHighscoreDialog_xp" name="Pilah berdasarkan XP" />
+		<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="Aksesori" />
+		<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="Pakaian" />
+		<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="Sepatu" />
+		<text id="tooltip_FashionMasteryInfoDialog_bronce" name="Produksi lebih banyak!" />
+		<text id="tooltip_FashionMasteryInfoDialog_gold" name="Produksi lebih cepat!" />
+		<text id="tooltip_FashionMasteryInfoDialog_silver" name="Dapatkan lebih banyak XP!" />
+		<text id="tooltip_FashionNamePanel_mc_luxury" name="Nilai Kemewahan Tokomu" />
+		<text id="tooltip_FashionNamePanel_mc_rating" name="Popularitas tokomu" />
+		<text id="tooltip_FashionOptionPanel_btn_allowemails" name="Perbolehkan email" />
+		<text id="tooltip_FashionOptionPanel_btn_blockemails" name="Blok email" />
+		<text id="tooltip_FashionOptionPanel_btn_bugreport" name="Laporkan bug" />
+		<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Ubah pakaian tokoh" />
+		<text id="tooltip_FashionOptionPanel_btn_changePass" name="Ubah sandi" />
+		<text id="tooltip_FashionOptionPanel_btn_faq" name="FAQ" />
+		<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="Layar Penuh" />
+		<text id="tooltip_FashionOptionPanel_btn_help" name="Bantuan" />
+		<text id="tooltip_FashionOptionPanel_btn_logout" name="Keluar" />
+		<text id="tooltip_FashionOptionPanel_btn_music" name="Musik on/off" />
+		<text id="tooltip_FashionOptionPanel_btn_news" name="Forum GGS" />
+		<text id="tooltip_FashionOptionPanel_btn_options" name="Pilihan" />
+		<text id="tooltip_FashionOptionPanel_btn_register" name="Daftar" />
+		<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="Suara on/off" />
+		<text id="tooltip_FashionOptionPanel_btn_support" name="Kirimkan email ke Layanan Pendukung" />
+		<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="Kumpulkan hadiah selamat datang" />
+		<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="+ Perbesar" />
+		<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- Perbesar" />
+		<text id="tooltip_FashionOptionPanel_mc_floors" name="Lantai" />
+		<text id="tooltip_FashionOptionPanel_mc_ranking" name="Memberi Peringkat" />
+		<text id="tooltip_FashionPatternFriends" name="Kamu masih perlu {0} teman untuk membuka perluasan ini" />
+		<text id="tooltip_FashionSocialPanel_btn_buddies" name="Teman" />
+		<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="Pemain yang hadir" />
+		<text id="tooltip_FashionSocialPanel_btn_chat" name="Ngobrol" />
+		<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="Undang teman" />
+		<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Tambahkan Fashiondollar/Kancing Emas" />
+		<text id="tooltip_FashionUserStatePanel_jobs" name="Jumlah tindakan" />
+		<text id="tooltip_FashionUserStatePanel_xp" name="{0} XP hingga level berikutnya" />
+		<text id="tooltip_Fashion_btnclose" name="Tutup" />
+		<text id="tooltip_levelx" name="Tersedia di Level {0}" />
+		<text id="tooltip_marketplace" name="Papan Tulis" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Prestasi" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="Tambahkan teman" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="Informasi" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Suruh keluar" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="Hapus teman" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="Kunjungi" />
+		<text id="tooltip_wheeloffortune_line1" name="Roda Keberuntungan!" />
+		<text id="tooltip_wheeloffortune_line2" name="Klik untuk main!" />
+		<text id="tooltip_wheeloffortune_line3" name="Satu putaran gratis" />
+		<text id="tooltip_xofy" name="{0} dari {1}" />
+	</tooltips>
+	<tutorial>
+		<text id="tut_buypattern_copy" name="Ini katalognya, di sini kamu bisa beli pola baru.
+Setelah membelinya, kamu bisa menggunakannya berkali-kali untuk memproduksi barang. Klik untuk beli pola baru. Ingatlah untuk menyediakan pakaian pria maupun wanita di tokomu!" />
+		<text id="tut_choosemannequin_copy" name="Barang-barangmu akan menarik perhatian jika kamu menggunakannya untuk mendandani manekenmu. Klik maneken yang sedang tidak digunakan." />
+		<text id="tut_delivercounter_copy" name="... lalu letakkan di rak kosong!" />
+		<text id="tut_emptyfactory_copy" name="Penjahit memproduksi pakaian, nanti kamu akan mampu mempekerjakan pekerja tambahan untuk memproduksi barang lain.
+Klik Penjahit." />
+		<text id="tut_instantwork_copy" name="Klik tombolnya dan pakaianmu akan segera siap." />
+		<text id="tut_lastscreen_copy" name="Hebat! Kamu baru menyelesaikan langkah awal untuk memperkenalkan labelmu, pelanggan pertama berdatangan! Jelajahi bagian lain dunia mode kami. Banyak yang bisa ditemukan. 
 
-Selamat bersenang-senang!"  />
-			<text id="tut_mannequinaccept_copy" name="Tidak sabar melihat reaksi pelangganmu? Klik Terima untuk melihat peringkat yang kamu dapatkan."  />
-			<text id="tut_mannequincategory_copy" name="Tergantung jenis maneken yang ingin kamu dandani, kamu hanya bisa menggunakan pakaian tertentu. Kamu bisa mendandani torso hanya dengan atasan. Klik ikon pakaian untuk melihat pilihannya."  />
-			<text id="tut_mannequinclose_copy" name="Ini tampak hebat! Klik tombol tutup untuk kembali ke tokomu."  />
-			<text id="tut_mannequinclothes_copy" name="Kamu hanya menjual kaus polo biru. Silakan klik maneken untuk mendandaninya."  />
-			<text id="tut_openproducebook_copy" name="Kamu sudah membeli pola itu. Kembalilah ke Buku Produksi untuk melihat barang yang bisa kamu produksi."  />
-			<text id="tut_preparesteps_copy" name="Sekarang, klik penjahit untuk memberikannya perintah produksi."  />
-			<text id="tut_producefactory_copy" name="Dengan Kancing Emas kamu bisa segera menyelesaikan barang. Untuk menyelesaikannya sekarang, klik penjahit."  />
-			<text id="tut_produce_copy" name="Sekarang kamu bisa memulai produksi."  />
-			<text id="tut_readyfactory_copy" name="Kamu perlu meletakkan pakaianmu di rak supaya pelanggan bisa membelinya. Silakan klik pekerja dengan barang yang sudah diproduksi..."  />
-			<text id="tut_start_copy" name="Selamat datang di tokomu, {0}!
-Tutorial cepat ini akan membantumu menemukan jalan menuju dunia mode."  />
-			<text id="tut_title" name="Tutorial!"  />
-		</tutorial>
-		<generic_flash>
-			<alert>
-				<text id="generic_alert_bug" name="Error"  />
-				<text id="generic_alert_connection_failed_copy" name="Sedang dalam pemeliharaan. Silakan coba lagi nanti!"  />
-				<text id="generic_alert_connection_failed_title" name="Pekerjaan sedang dilakukan!"  />
-				<text id="generic_alert_connection_lost_copy" name="Koneksi ke server gagal. Silakan coba lagi."  />
-				<text id="generic_alert_connection_lost_description" name="Saat ini kami sedang melakukan pemeliharaa yang perlu dilakukan dari waktu ke waktu. Untuk mengaktifkan update atau fitur baru, atau untuk mengoreksi kesalahan. &lt;br&gt;&lt;br&gt;
-Kami bekerja secepatnya, sehingga kamu bisa bermain kembali secepat mungkin."  />
-				<text id="generic_alert_connection_lost_promo" name="Sementara itu, silakan coba salah satu game kami yang lain?"  />
-				<text id="generic_alert_connection_lost_thanks" name="Terima kasih untuk pengertianmu!"  />
-				<text id="generic_alert_connection_lost_title" name="Koneksi terputus!"  />
-				<text id="generic_alert_error" name="Error"  />
-				<text id="generic_alert_information" name="Peringatan"  />
-				<text id="generic_alert_loggedout_copy" name="Kamu telah berhasil keluar. Jangan lupa: Bonus masuk menantimu setiap hari!"  />
-				<text id="generic_alert_loggedout_title" name="Sampai nanti!"  />
-				<text id="generic_alert_warning" name="Peringatan"  />
-				<text id="generic_alert_watchout" name="Perhatian!"  />
-				<text id="generic_invalid_email_provider" name="An e-mail address from this supplier is not allowed!"  />
-				<text id="generic_js_alert_firstsessiontracking_loading" name="Tampaknya, saat ini koneksi internetmu lambat. Silakan coba lagi nanti!"  />
-				<text id="generic_js_alert_firstsessiontracking_registered" name="Apa yang kamu suka dari game ini dan bagaimana kami bisa membuatnya lebih bagus?
-Sampaikan pendapatmu pada kami di Forum atau grup Goodgame."  />
-				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Perhatian: Kemajuanmu hanya disimpan jika mendaftar!"  />
-				<text id="generic_register_error_invalidemail" name="Alamat email yang kamu masukkan tidak benar."  />
-				<text id="generic_report_muted_chattry" name="Kamu tidak bisa menggunakan fungsi ruang obrolan karena sedang diblok."  />
-			</alert>
-			<button>
-				<text id="generic_btn_accept" name="Menerima"  />
-				<text id="generic_btn_cancel" name="Batal"  />
-				<text id="generic_btn_close" name="Tutup"  />
-				<text id="generic_btn_continue" name="Lanjutkan"  />
-				<text id="generic_btn_end" name="Mengakhiri"  />
-				<text id="generic_btn_endnow" name="Selesaikan Sekarang"  />
-				<text id="generic_btn_goback" name="Kembali"  />
-				<text id="generic_btn_no" name="Tidak"  />
-				<text id="generic_btn_noshare" name="Tidak apa-apa!"  />
-				<text id="generic_btn_notaccept" name="Menolak"  />
-				<text id="generic_btn_okay" name="Oke"  />
-				<text id="generic_btn_reconnect" name="Sambungkan kembali"  />
-				<text id="generic_btn_refresh" name="Segarkan"  />
-				<text id="generic_btn_report" name="Laporkan"  />
-				<text id="generic_btn_search" name="Cari"  />
-				<text id="generic_btn_share" name="Bagikan!"  />
-				<text id="generic_btn_skip" name="Lewati"  />
-				<text id="generic_btn_start" name="Mulai"  />
-				<text id="generic_btn_topayment" name="Berikan padaku!"  />
-				<text id="generic_btn_yes" name="Ya"  />
-			</button>
-			<chat>
-				<text id="generic_chat_writeable" name="Kamu perlu mendaftar dan mencapai level 1 untuk menggunakan ruang obrolan."  />
-			</chat>
-			<common>
-				<text id="generic_admin" name="Admin"  />
-				<text id="generic_animation" name="Show animations"  />
-				<text id="generic_bugreport" name="Beri Tahu Kami Tentang Error"  />
-				<text id="generic_changePass" name="Ubah sandi"  />
-				<text id="generic_comma" name="Rp"  />
-				<text id="generic_conningsoon" name="*Segera hadir*"  />
-				<text id="generic_date" name="Date"  />
-				<text id="generic_day" name="Hari"  />
-				<text id="generic_dayformat" name="{1}/{0}"  />
-				<text id="generic_days" name="Hari"  />
-				<text id="generic_day_short" name="D"  />
-				<text id="generic_decimalseparator" name="."  />
-				<text id="generic_email" name="Email"  />
-				<text id="generic_faq" name="FAQ"  />
-				<text id="generic_forum" name="Forum"  />
-				<text id="generic_friend" name="Friend"  />
-				<text id="generic_friends" name="Friends"  />
-				<text id="generic_general" name="General settings"  />
-				<text id="generic_ggs" name="Goodgame Studios"  />
-				<text id="generic_group" name="Grup"  />
-				<text id="generic_guest" name="Tamu"  />
-				<text id="generic_help" name="Bantuan"  />
-				<text id="generic_high" name="High"  />
-				<text id="generic_hour" name="Jam"  />
-				<text id="generic_hours" name="Jam"  />
-				<text id="generic_hour_short" name="Hr"  />
-				<text id="generic_limited" name="Terbatas"  />
-				<text id="generic_logout" name="Keluar"  />
-				<text id="generic_low" name="Low"  />
-				<text id="generic_medium" name="Medium"  />
-				<text id="generic_minute" name="Menit"  />
-				<text id="generic_minutes" name="Menit"  />
-				<text id="generic_minute_short" name="Men"  />
-				<text id="generic_moderator" name="Mod"  />
-				<text id="generic_music" name="Musik on/off"  />
-				<text id="generic_name" name="Nama"  />
-				<text id="generic_news" name="Newsflash"  />
-				<text id="generic_options" name="Pilihan"  />
-				<text id="generic_quality" name="Quality"  />
-				<text id="generic_register" name="Simpan dan Daftar"  />
-				<text id="generic_second" name="Detik"  />
-				<text id="generic_seconds" name="Detik"  />
-				<text id="generic_second_short" name="Det"  />
-				<text id="generic_sound" name="Suara on/off"  />
-				<text id="generic_support" name="Dukunglah"  />
-				<text id="generic_today" name="Hari ini"  />
-				<text id="generic_tomorrow" name="Hari ini"  />
-				<text id="generic_tutorial" name="Tutorial"  />
-				<text id="generic_username" name="Nama pemain"  />
-				<text id="generic_xp" name="XP"  />
-				<text id="generic_yesterday" name="Kemarin"  />
-			</common>
-			<error>
-				<text id="generic_versioncheck_error" name="Versi lama!"  />
-				<text id="generic_versioncheck_errorcode_1" name="Update laman ini."  />
-			</error>
-			<feeds id=""  />
-			<friends>
-				<text id="generic_friends_add_copy" name="Kamu ingin menambahkan {0} sebagai teman?"  />
-				<text id="generic_friends_add_title" name="Permintaan berteman"  />
-				<text id="generic_friends_buddy_btn_morefriends" name="Lebih Banyak Teman!"  />
-				<text id="generic_friends_denied_copy" name="{0} telah menolak permintaanmu."  />
-				<text id="generic_friends_denied_title" name="Permintaan ditolak!"  />
-				<text id="generic_friends_invite_badword_copy" name="Nama yang kamu pilih tidak diizinkan!"  />
-				<text id="generic_friends_invite_badword_title" name="Awas!"  />
-				<text id="generic_friends_invite_error_copy" name="Untuk mengundang teman, kamu perlu mendaftar dahulu."  />
-				<text id="generic_friends_invite_error_title" name="Daftar dahulu"  />
-			</friends>
-			<fullscreen>
-				<text id="generic_fullscreen_error_copy" name="Mode layar penuh tidak dimungkinkan"  />
-			</fullscreen>
-			<languages>
-				<text id="generic_language_cs" name="Bahasa Ceko"  />
-				<text id="generic_language_da" name="Bahasa Denmark"  />
-				<text id="generic_language_de" name="Bahasa Jerman"  />
-				<text id="generic_language_el" name="Bahasa Yunani"  />
-				<text id="generic_language_en" name="Bahasa Inggris"  />
-				<text id="generic_language_es" name="Bahasa Spanyol"  />
-				<text id="generic_language_fi" name="Bahasa Finlandia"  />
-				<text id="generic_language_fr" name="Bahasa Perancis"  />
-				<text id="generic_language_hu" name="Bahasa Hungaria"  />
-				<text id="generic_language_id" name="Bahasa Indonesia"  />
-				<text id="generic_language_it" name="Bahasa Italia"  />
-				<text id="generic_language_ja" name="Bahasa Jepang"  />
-				<text id="generic_language_ko" name="Bahasa Korea"  />
-				<text id="generic_language_nl" name="Bahasa Belanda"  />
-				<text id="generic_language_no" name="Bahasa Norwegia"  />
-				<text id="generic_language_pl" name="Bahasa Polandia"  />
-				<text id="generic_language_pt" name="Bahasa Portugis"  />
-				<text id="generic_language_pt_BR" name="Brazilian"  />
-				<text id="generic_language_ru" name="Bahasa Rusia"  />
-				<text id="generic_language_sv" name="Bahasa Swedia"  />
-				<text id="generic_language_tr" name="Bahasa Turki"  />
-				<text id="generic_language_zh_CN" name="Bahasa China (sederhana)"  />
-				<text id="generic_language_zh_TW" name="Bahasa China (tradisional)"  />
-			</languages>
-			<login>
-				<text id="generic_login_banned" name="Akunmu telah diblok! Silakan hubungi dukungan pelanggan!"  />
-				<text id="generic_login_banned_2" name="Your account has been deactivated!
+Selamat bersenang-senang!" />
+		<text id="tut_mannequinaccept_copy" name="Tidak sabar melihat reaksi pelangganmu? Klik Terima untuk melihat peringkat yang kamu dapatkan." />
+		<text id="tut_mannequincategory_copy" name="Tergantung jenis maneken yang ingin kamu dandani, kamu hanya bisa menggunakan pakaian tertentu. Kamu bisa mendandani torso hanya dengan atasan. Klik ikon pakaian untuk melihat pilihannya." />
+		<text id="tut_mannequinclose_copy" name="Ini tampak hebat! Klik tombol tutup untuk kembali ke tokomu." />
+		<text id="tut_mannequinclothes_copy" name="Kamu hanya menjual kaus polo biru. Silakan klik maneken untuk mendandaninya." />
+		<text id="tut_openproducebook_copy" name="Kamu sudah membeli pola itu. Kembalilah ke Buku Produksi untuk melihat barang yang bisa kamu produksi." />
+		<text id="tut_preparesteps_copy" name="Sekarang, klik penjahit untuk memberikannya perintah produksi." />
+		<text id="tut_producefactory_copy" name="Dengan Kancing Emas kamu bisa segera menyelesaikan barang. Untuk menyelesaikannya sekarang, klik penjahit." />
+		<text id="tut_produce_copy" name="Sekarang kamu bisa memulai produksi." />
+		<text id="tut_readyfactory_copy" name="Kamu perlu meletakkan pakaianmu di rak supaya pelanggan bisa membelinya. Silakan klik pekerja dengan barang yang sudah diproduksi..." />
+		<text id="tut_start_copy" name="Selamat datang di tokomu, {0}!
+Tutorial cepat ini akan membantumu menemukan jalan menuju dunia mode." />
+		<text id="tut_title" name="Tutorial!" />
+	</tutorial>
+	<generic_flash>
+		<alert>
+			<text id="generic_alert_bug" name="Error" />
+			<text id="generic_alert_connection_failed_copy" name="Sedang dalam pemeliharaan. Silakan coba lagi nanti!" />
+			<text id="generic_alert_connection_failed_title" name="Pekerjaan sedang dilakukan!" />
+			<text id="generic_alert_connection_lost_copy" name="Koneksi ke server gagal. Silakan coba lagi." />
+			<text id="generic_alert_connection_lost_description" name="Saat ini kami sedang melakukan pemeliharaa yang perlu dilakukan dari waktu ke waktu. Untuk mengaktifkan update atau fitur baru, atau untuk mengoreksi kesalahan. &lt;br&gt;&lt;br&gt;
+Kami bekerja secepatnya, sehingga kamu bisa bermain kembali secepat mungkin." />
+			<text id="generic_alert_connection_lost_promo" name="Sementara itu, silakan coba salah satu game kami yang lain?" />
+			<text id="generic_alert_connection_lost_thanks" name="Terima kasih untuk pengertianmu!" />
+			<text id="generic_alert_connection_lost_title" name="Koneksi terputus!" />
+			<text id="generic_alert_error" name="Error" />
+			<text id="generic_alert_information" name="Peringatan" />
+			<text id="generic_alert_loggedout_copy" name="Kamu telah berhasil keluar. Jangan lupa: Bonus masuk menantimu setiap hari!" />
+			<text id="generic_alert_loggedout_title" name="Sampai nanti!" />
+			<text id="generic_alert_warning" name="Peringatan" />
+			<text id="generic_alert_watchout" name="Perhatian!" />
+			<text id="generic_invalid_email_provider" name="An e-mail address from this supplier is not allowed!" />
+			<text id="generic_js_alert_firstsessiontracking_loading" name="Tampaknya, saat ini koneksi internetmu lambat. Silakan coba lagi nanti!" />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="Apa yang kamu suka dari game ini dan bagaimana kami bisa membuatnya lebih bagus?
+Sampaikan pendapatmu pada kami di Forum atau grup Goodgame." />
+			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Perhatian: Kemajuanmu hanya disimpan jika mendaftar!" />
+			<text id="generic_register_error_invalidemail" name="Alamat email yang kamu masukkan tidak benar." />
+			<text id="generic_report_muted_chattry" name="Kamu tidak bisa menggunakan fungsi ruang obrolan karena sedang diblok." />
+		</alert>
+		<button>
+			<text id="generic_btn_accept" name="Menerima" />
+			<text id="generic_btn_cancel" name="Batal" />
+			<text id="generic_btn_close" name="Tutup" />
+			<text id="generic_btn_continue" name="Lanjutkan" />
+			<text id="generic_btn_end" name="Mengakhiri" />
+			<text id="generic_btn_endnow" name="Selesaikan Sekarang" />
+			<text id="generic_btn_goback" name="Kembali" />
+			<text id="generic_btn_no" name="Tidak" />
+			<text id="generic_btn_noshare" name="Tidak apa-apa!" />
+			<text id="generic_btn_notaccept" name="Menolak" />
+			<text id="generic_btn_okay" name="Oke" />
+			<text id="generic_btn_reconnect" name="Sambungkan kembali" />
+			<text id="generic_btn_refresh" name="Segarkan" />
+			<text id="generic_btn_report" name="Laporkan" />
+			<text id="generic_btn_search" name="Cari" />
+			<text id="generic_btn_share" name="Bagikan!" />
+			<text id="generic_btn_skip" name="Lewati" />
+			<text id="generic_btn_start" name="Mulai" />
+			<text id="generic_btn_topayment" name="Berikan padaku!" />
+			<text id="generic_btn_yes" name="Ya" />
+		</button>
+		<chat>
+			<text id="generic_chat_writeable" name="Kamu perlu mendaftar dan mencapai level 1 untuk menggunakan ruang obrolan." />
+		</chat>
+		<common>
+			<text id="generic_admin" name="Admin" />
+			<text id="generic_animation" name="Show animations" />
+			<text id="generic_bugreport" name="Beri Tahu Kami Tentang Error" />
+			<text id="generic_changePass" name="Ubah sandi" />
+			<text id="generic_comma" name="Rp" />
+			<text id="generic_conningsoon" name="*Segera hadir*" />
+			<text id="generic_date" name="Date" />
+			<text id="generic_day" name="Hari" />
+			<text id="generic_dayformat" name="{1}/{0}" />
+			<text id="generic_days" name="Hari" />
+			<text id="generic_day_short" name="D" />
+			<text id="generic_decimalseparator" name="." />
+			<text id="generic_email" name="Email" />
+			<text id="generic_faq" name="FAQ" />
+			<text id="generic_forum" name="Forum" />
+			<text id="generic_friend" name="Friend" />
+			<text id="generic_friends" name="Friends" />
+			<text id="generic_general" name="General settings" />
+			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_group" name="Grup" />
+			<text id="generic_guest" name="Tamu" />
+			<text id="generic_help" name="Bantuan" />
+			<text id="generic_high" name="High" />
+			<text id="generic_hour" name="Jam" />
+			<text id="generic_hours" name="Jam" />
+			<text id="generic_hour_short" name="Hr" />
+			<text id="generic_limited" name="Terbatas" />
+			<text id="generic_logout" name="Keluar" />
+			<text id="generic_low" name="Low" />
+			<text id="generic_medium" name="Medium" />
+			<text id="generic_minute" name="Menit" />
+			<text id="generic_minutes" name="Menit" />
+			<text id="generic_minute_short" name="Men" />
+			<text id="generic_moderator" name="Mod" />
+			<text id="generic_music" name="Musik on/off" />
+			<text id="generic_name" name="Nama" />
+			<text id="generic_news" name="Newsflash" />
+			<text id="generic_options" name="Pilihan" />
+			<text id="generic_quality" name="Quality" />
+			<text id="generic_register" name="Simpan dan Daftar" />
+			<text id="generic_second" name="Detik" />
+			<text id="generic_seconds" name="Detik" />
+			<text id="generic_second_short" name="Det" />
+			<text id="generic_sound" name="Suara on/off" />
+			<text id="generic_support" name="Dukunglah" />
+			<text id="generic_today" name="Hari ini" />
+			<text id="generic_tomorrow" name="Hari ini" />
+			<text id="generic_tutorial" name="Tutorial" />
+			<text id="generic_username" name="Nama pemain" />
+			<text id="generic_xp" name="XP" />
+			<text id="generic_yesterday" name="Kemarin" />
+		</common>
+		<error>
+			<text id="generic_versioncheck_error" name="Versi lama!" />
+			<text id="generic_versioncheck_errorcode_1" name="Update laman ini." />
+		</error>
+		<feeds id="" />
+		<friends>
+			<text id="generic_friends_add_copy" name="Kamu ingin menambahkan {0} sebagai teman?" />
+			<text id="generic_friends_add_title" name="Permintaan berteman" />
+			<text id="generic_friends_buddy_btn_morefriends" name="Lebih Banyak Teman!" />
+			<text id="generic_friends_denied_copy" name="{0} telah menolak permintaanmu." />
+			<text id="generic_friends_denied_title" name="Permintaan ditolak!" />
+			<text id="generic_friends_invite_badword_copy" name="Nama yang kamu pilih tidak diizinkan!" />
+			<text id="generic_friends_invite_badword_title" name="Awas!" />
+			<text id="generic_friends_invite_error_copy" name="Untuk mengundang teman, kamu perlu mendaftar dahulu." />
+			<text id="generic_friends_invite_error_title" name="Daftar dahulu" />
+		</friends>
+		<fullscreen>
+			<text id="generic_fullscreen_error_copy" name="Mode layar penuh tidak dimungkinkan" />
+		</fullscreen>
+		<languages>
+			<text id="generic_language_cs" name="Bahasa Ceko" />
+			<text id="generic_language_da" name="Bahasa Denmark" />
+			<text id="generic_language_de" name="Bahasa Jerman" />
+			<text id="generic_language_el" name="Bahasa Yunani" />
+			<text id="generic_language_en" name="Bahasa Inggris" />
+			<text id="generic_language_es" name="Bahasa Spanyol" />
+			<text id="generic_language_fi" name="Bahasa Finlandia" />
+			<text id="generic_language_fr" name="Bahasa Perancis" />
+			<text id="generic_language_hu" name="Bahasa Hungaria" />
+			<text id="generic_language_id" name="Bahasa Indonesia" />
+			<text id="generic_language_it" name="Bahasa Italia" />
+			<text id="generic_language_ja" name="Bahasa Jepang" />
+			<text id="generic_language_ko" name="Bahasa Korea" />
+			<text id="generic_language_nl" name="Bahasa Belanda" />
+			<text id="generic_language_no" name="Bahasa Norwegia" />
+			<text id="generic_language_pl" name="Bahasa Polandia" />
+			<text id="generic_language_pt" name="Bahasa Portugis" />
+			<text id="generic_language_pt_BR" name="Brazilian" />
+			<text id="generic_language_ru" name="Bahasa Rusia" />
+			<text id="generic_language_sv" name="Bahasa Swedia" />
+			<text id="generic_language_tr" name="Bahasa Turki" />
+			<text id="generic_language_zh_CN" name="Bahasa China (sederhana)" />
+			<text id="generic_language_zh_TW" name="Bahasa China (tradisional)" />
+		</languages>
+		<login>
+			<text id="generic_login_banned" name="Akunmu telah diblok! Silakan hubungi dukungan pelanggan!" />
+			<text id="generic_login_banned_2" name="Your account has been deactivated!
 
 Deactivation until: {0}
 
-If you have questions about the deactivation, please contact support."  />
-				<text id="generic_login_banned_3" name="Your account has been frozen permanently.
+If you have questions about the deactivation, please contact support." />
+			<text id="generic_login_banned_3" name="Your account has been frozen permanently.
 
-If you have any questions about this blockage, please contact support."  />
-				<text id="generic_login_banned_permanent" name="permanent"  />
-				<text id="generic_login_facebook" name="Masuk melalui Facebook"  />
-				<text id="generic_login_login" name="MASUK"  />
-				<text id="generic_login_loginname" name="Nama pengguna/Email"  />
-				<text id="generic_login_lostpassword" name="Lupa sandimu?"  />
-				<text id="generic_login_lostpassword_copy" name="Masukkan alamat emailmu dan kami akan mengirimkan sandimu."  />
-				<text id="generic_login_lostpassword_title" name="Lupa sandimu?"  />
-				<text id="generic_login_newplayer" name="Kamu pemain baru?"  />
-				<text id="generic_login_password" name="Sandi"  />
-				<text id="generic_login_play" name="MAINKAN SEKARANG"  />
-				<text id="generic_login_playnow" name="Mainkan sekarang!"  />
-				<text id="generic_login_register" name="Daftar"  />
-				<text id="generic_login_rememberpassword" name="Simpan sandi"  />
-				<text id="generic_login_wronglogin" name="Nama pengguna atau sandi salah!"  />
-			</login>
-			<logout>
-				<text id="generic_logout_guest_copy" name="Daftar untuk menyimpan skor game-mu!"  />
-				<text id="generic_logout_guest_title" name="Daftar"  />
-			</logout>
-			<notification>
-				<text id="servershutdownpremonition_backin_copy" name="Ketenaran akan tersedia kembali maksimal dalam {0}."  />
-				<text id="servershutdownpremonition_copy" name="Server game tidak akan mati dalam {0}. Silakan keluar atau mendaftar untuk menyimpan data cadangan skormu."  />
-				<text id="servershutdownpremonition_registered_copy" name="Kami mematikan server game dalam {0} dikarenakan pemeliharaan."  />
-				<text id="servershutdown_copy" name="Server game sedang mematikan diri. Dalam beberapa menit, kamu bisa masuk lagi."  />
-				<text id="welcomeback_copy" name="Senang melihatmu lagi! Ini hadiah kecil untuk membantumu kembali beraksi!"  />
-				<text id="welcomeback_title" name="Kamu kembali!"  />
-			</notification>
-			<password>
-				<text id="generic_change_password_copy_newpass" name="Sandi baru:"  />
-				<text id="generic_change_password_copy_oldpass" name="Sandi lama:"  />
-				<text id="generic_change_password_copy_send" name="Sandi barumu telah dikirimkan ke alamat emailmu."  />
-				<text id="generic_change_password_error_failed" name="Maaf, tapi ini bukan sandi lamamu."  />
-				<text id="generic_change_password_error_success" name="Sandimu telah berhasil diubah!"  />
-				<text id="generic_change_password_faild_copy" name="Sandi barumu harus memiliki lebih dari 2 huruf dan sandi lamamu harus dimasukkan dengan benar!"  />
-				<text id="generic_change_password_faild_specialcharacters" name="Sandimu tidak boleh dikosongkan atau mengandung karakter tertentu."  />
-				<text id="generic_change_password_faild_title" name="Masukkan sandi"  />
-				<text id="generic_change_password_title" name="Perubahan sandi"  />
-				<text id="generic_guest_change_password_faild_copy" name="Kamu bisa mengubah sandi hanya jika terdaftar sebagai pengguna!"  />
-				<text id="generic_guest_change_password_faild_title" name="Daftar dahulu"  />
-			</password>
-			<payment>
-				<text id="generic_payment_48hdiscount_button" name="Lebih banyak emas dalam 48 jam pertama"  />
-				<text id="generic_payment_48hdiscount_button_general" name="Lebih banyak {0} dalam 48 jam pertama"  />
-				<text id="generic_payment_48hdiscount_copy" name="Hanya 48 jam setelah pendaftaranmu - Beli paket emas terpilih dan dapatkan {0}% Emas ekstra gratis!"  />
-				<text id="generic_payment_48hdiscount_copy_1" name="Hanya 48 jam setelah pendaftaranmu - Beli paket emas dan dapatkan {0}% Emas ekstra gratis!"  />
-				<text id="generic_payment_48hdiscount_copy_1_general" name="Hanya 48 jam setelah pendaftaranmu - Beli paket {0} dan dapatkan {1}% ekstra gratis!"  />
-				<text id="generic_payment_48hdiscount_copy_general" name="Hanya 48 jam setelah pendaftaranmu - Beli paket {0}terpilih dan dapatkan {1}% ekstra gratis!"  />
-				<text id="generic_payment_copy" name="Kamu sedang dipindahkan ke gerai pembayaran."  />
-				<text id="generic_payment_discount_button" name="Sekarang {0}% lebih banyak emas!"  />
-				<text id="generic_payment_discount_copy" name="Beli emas sekarang dan dapatkan {0}% bonus!"  />
-				<text id="generic_payment_discount_copy_general" name="Beli {0} sekarang dan dapatkan {1} % bonus!"  />
-				<text id="generic_payment_discount_general" name="Dapatkan sekarang {0}% lebih banyak {1} untuk uangmu!"  />
-				<text id="generic_payment_discount_generalshort" name="Dapatkan {0}% lebih banyak untuk uangmu!"  />
-				<text id="generic_payment_discount_time" name="tinggal {0}!"  />
-				<text id="generic_payment_discount_title" name="Lebih banyak emas untuk uangmu!"  />
-				<text id="generic_payment_newPrices" name="Mulailah segera! Harga-harga turun permanen di gerai pembayaran kami! Hemat uangmu!"  />
-				<text id="generic_payment_title" name="Gerai pembayaran"  />
-			</payment>
-			<progressbar>
-				<text id="loading_text_1" name="Search for a tunnel through cyber space"  />
-				<text id="loading_text_10" name="Distribute items in the world"  />
-				<text id="loading_text_11" name="Draw graphics"  />
-				<text id="loading_text_12" name="Color the buttons"  />
-				<text id="loading_text_13" name="Hide easter eggs"  />
-				<text id="loading_text_14" name="Look up user information"  />
-				<text id="loading_text_15" name="Scare off bugs"  />
-				<text id="loading_text_16" name="Feed the programmers"  />
-				<text id="loading_text_17" name="Experiment with the client"  />
-				<text id="loading_text_18" name="Turn the hour glass"  />
-				<text id="loading_text_19" name="Cool the system"  />
-				<text id="loading_text_2" name="Oil the cog wheels"  />
-				<text id="loading_text_20" name="Be done soon"  />
-				<text id="loading_text_3" name="Spin the hamster wheel"  />
-				<text id="loading_text_4" name="Warm up the server"  />
-				<text id="loading_text_5" name="Hope that everything goes well"  />
-				<text id="loading_text_6" name="Call for the exterminator"  />
-				<text id="loading_text_7" name="Calculate complicated algorithms"  />
-				<text id="loading_text_8" name="Calibrate flux capacitor"  />
-				<text id="loading_text_9" name="Tinker items"  />
-				<text id="loading_text_default" name="Initialization"  />
-				<text id="loading_text_itemXML" name="Load game elements"  />
-				<text id="progress_loadfiles" name="Load assets..."  />
-				<text id="progress_serverconnection" name="Connect to Server..."  />
-			</progressbar>
-			<register>
-				<text id="generic_register_agb_copy" name="Kamu harus membaca dan menerima syarat dan ketentuannya dahulu! Konfirmasikan dengan menekan tombol di kiri dan kamu siap bermain!"  />
-				<text id="generic_register_agb_read" name="Baca Syarat dan Ketentuan Penggunaan"  />
-				<text id="generic_register_alreadyavatar" name="Pengguna ini sudah punya avatar."  />
-				<text id="generic_register_badword" name="Kamu tidak diizinkan menggunakan {0} dalam namamu."  />
-				<text id="generic_register_btn_agb" name="Menerima Syarat dan Ketentuan Penggunaan"  />
-				<text id="generic_register_btn_later" name="Nanti"  />
-				<text id="generic_register_btn_next" name="Lanjutkan"  />
-				<text id="generic_register_btn_save" name="Simpan"  />
-				<text id="generic_register_character" name="Ciptakan karaktermu"  />
-				<text id="generic_register_copy_0" name="Daftar gratis sekarang!"  />
-				<text id="generic_register_copy_1" name="Simpan kemajuan permainanmu!"  />
-				<text id="generic_register_emaillong_copy" name="Sayang sekali, alamat emailmu terlalu panjang."  />
-				<text id="generic_register_emailwrong_copy" name="Alamat email yang kamu masukkan salah."  />
-				<text id="generic_register_email_copy" name="Alamat emailmu tidak boleh dikosongkan atau mengandung karakter tertentu."  />
-				<text id="generic_register_error" name="Pendaftaran gagal"  />
-				<text id="generic_register_errormistake" name="Error"  />
-				<text id="generic_register_error_accountalreadyexists" name="Maaf, pemain lain telah mendaftar dengan alamat email ini."  />
-				<text id="generic_register_forfree" name="Daftar gratis!"  />
-				<text id="generic_register_forfree1" name="Gratis!"  />
-				<text id="generic_register_letsgo" name="Ini dia!"  />
-				<text id="generic_register_namealreadyused" name="Nama ini sudah digunakan."  />
-				<text id="generic_register_namenotvalid" name="Nama yang kamu masukkan salah."  />
-				<text id="generic_register_passwordshort_copy" name="Sandi yang kamu masukkan terlalu pendek. Seharusnya terdiri dari minimal 4 huruf."  />
-				<text id="generic_register_passwordwrong_copy" name="Sandi yang kamu masukkan salah."  />
-				<text id="generic_register_password_copy" name="Sandimu tidak boleh dikosongkan atau mengandung karakter tertentu."  />
-				<text id="generic_register_rememberdata" name="Ingat data"  />
-				<text id="generic_register_reward" name="Berlangganan gratis dan dapatkan {0} {1}!"  />
-				<text id="generic_register_subscribe" name="Daftar"  />
-				<text id="generic_register_success" name="Kamu telah berhasil terdaftar."  />
-				<text id="generic_register_title" name="Error Pendaftaran"  />
-				<text id="generic_register_unlock" name="Buka fungsi ini!"  />
-			</register>
-			<report>
-				<text id="generic_report_muted_badword1_copy" name="Harap hati-hati dengan caramu berekspresi. Jika tidak, kamu akan diblok dari ruang obrolan atau akunmu akan ditutup sementara. Alasan: {0}"  />
-				<text id="generic_report_muted_badword2_copy" name="Kamu tidak bisa menggunakan fungsi ruang obrolan untuk {0} berikutnya karena perilaku buruk berulang. Alasan: {1}"  />
-				<text id="generic_report_muted_domain1" name="Jangan menuliskan URL apa pun di ruang obrolan!"  />
-				<text id="generic_report_muted_reported_copy" name="Beberapa pemain mengeluhkanmu. Kamu diblok dari ruang obrolan untuk {0} depan. Alasan: {1}"  />
-				<text id="generic_report_player_copy" name="Kamu benar-benar ingin melaporkan pemain {0}?
- Perhatian! Penyalahgunaan fungsi ini bisa berakibat akunmu diblok."  />
-				<text id="generic_report_player_reason_0" name="Menyinggung"  />
-				<text id="generic_report_player_reason_1" name="pelecehan seksual"  />
-				<text id="generic_report_player_reason_2" name="tanda rasis"  />
-				<text id="generic_report_player_reason_3" name="Mengancam/memeras"  />
-				<text id="generic_report_player_reason_title" name="Alasan laporan:"  />
-				<text id="generic_report_player_title" name="Laporkan pemain?"  />
-				<text id="generic_report_reported_copy" name="Kamu dilaporkan ke administrator oleh pemain lain. Alasan: {0}"  />
-			</report>
-			<worlds>
-				<text id="generic_connect" name="Sambungkan"  />
-				<text id="generic_select_world" name="Pilih dunia:"  />
-				<text id="generic_world" name="Dunia: {0}"  />
-				<text id="generic_world_international" name="Internasional: {0}"  />
-			</worlds>
-		</generic_flash>
-	</fashion>
- 
+If you have any questions about this blockage, please contact support." />
+			<text id="generic_login_banned_permanent" name="permanent" />
+			<text id="generic_login_facebook" name="Masuk melalui Facebook" />
+			<text id="generic_login_login" name="MASUK" />
+			<text id="generic_login_loginname" name="Nama pengguna/Email" />
+			<text id="generic_login_lostpassword" name="Lupa sandimu?" />
+			<text id="generic_login_lostpassword_copy" name="Masukkan alamat emailmu dan kami akan mengirimkan sandimu." />
+			<text id="generic_login_lostpassword_title" name="Lupa sandimu?" />
+			<text id="generic_login_newplayer" name="Kamu pemain baru?" />
+			<text id="generic_login_password" name="Sandi" />
+			<text id="generic_login_play" name="MAINKAN SEKARANG" />
+			<text id="generic_login_playnow" name="Mainkan sekarang!" />
+			<text id="generic_login_register" name="Daftar" />
+			<text id="generic_login_rememberpassword" name="Simpan sandi" />
+			<text id="generic_login_wronglogin" name="Nama pengguna atau sandi salah!" />
+		</login>
+		<logout>
+			<text id="generic_logout_guest_copy" name="Daftar untuk menyimpan skor game-mu!" />
+			<text id="generic_logout_guest_title" name="Daftar" />
+		</logout>
+		<notification>
+			<text id="servershutdownpremonition_backin_copy" name="Ketenaran akan tersedia kembali maksimal dalam {0}." />
+			<text id="servershutdownpremonition_copy" name="Server game tidak akan mati dalam {0}. Silakan keluar atau mendaftar untuk menyimpan data cadangan skormu." />
+			<text id="servershutdownpremonition_registered_copy" name="Kami mematikan server game dalam {0} dikarenakan pemeliharaan." />
+			<text id="servershutdown_copy" name="Server game sedang mematikan diri. Dalam beberapa menit, kamu bisa masuk lagi." />
+			<text id="welcomeback_copy" name="Senang melihatmu lagi! Ini hadiah kecil untuk membantumu kembali beraksi!" />
+			<text id="welcomeback_title" name="Kamu kembali!" />
+		</notification>
+		<password>
+			<text id="generic_change_password_copy_newpass" name="Sandi baru:" />
+			<text id="generic_change_password_copy_oldpass" name="Sandi lama:" />
+			<text id="generic_change_password_copy_send" name="Sandi barumu telah dikirimkan ke alamat emailmu." />
+			<text id="generic_change_password_error_failed" name="Maaf, tapi ini bukan sandi lamamu." />
+			<text id="generic_change_password_error_success" name="Sandimu telah berhasil diubah!" />
+			<text id="generic_change_password_faild_copy" name="Sandi barumu harus memiliki lebih dari 2 huruf dan sandi lamamu harus dimasukkan dengan benar!" />
+			<text id="generic_change_password_faild_specialcharacters" name="Sandimu tidak boleh dikosongkan atau mengandung karakter tertentu." />
+			<text id="generic_change_password_faild_title" name="Masukkan sandi" />
+			<text id="generic_change_password_title" name="Perubahan sandi" />
+			<text id="generic_guest_change_password_faild_copy" name="Kamu bisa mengubah sandi hanya jika terdaftar sebagai pengguna!" />
+			<text id="generic_guest_change_password_faild_title" name="Daftar dahulu" />
+		</password>
+		<payment>
+			<text id="generic_payment_48hdiscount_button" name="Lebih banyak emas dalam 48 jam pertama" />
+			<text id="generic_payment_48hdiscount_button_general" name="Lebih banyak {0} dalam 48 jam pertama" />
+			<text id="generic_payment_48hdiscount_copy" name="Hanya 48 jam setelah pendaftaranmu - Beli paket emas terpilih dan dapatkan {0}% Emas ekstra gratis!" />
+			<text id="generic_payment_48hdiscount_copy_1" name="Hanya 48 jam setelah pendaftaranmu - Beli paket emas dan dapatkan {0}% Emas ekstra gratis!" />
+			<text id="generic_payment_48hdiscount_copy_1_general" name="Hanya 48 jam setelah pendaftaranmu - Beli paket {0} dan dapatkan {1}% ekstra gratis!" />
+			<text id="generic_payment_48hdiscount_copy_general" name="Hanya 48 jam setelah pendaftaranmu - Beli paket {0}terpilih dan dapatkan {1}% ekstra gratis!" />
+			<text id="generic_payment_copy" name="Kamu sedang dipindahkan ke gerai pembayaran." />
+			<text id="generic_payment_discount_button" name="Sekarang {0}% lebih banyak emas!" />
+			<text id="generic_payment_discount_copy" name="Beli emas sekarang dan dapatkan {0}% bonus!" />
+			<text id="generic_payment_discount_copy_general" name="Beli {0} sekarang dan dapatkan {1} % bonus!" />
+			<text id="generic_payment_discount_general" name="Dapatkan sekarang {0}% lebih banyak {1} untuk uangmu!" />
+			<text id="generic_payment_discount_generalshort" name="Dapatkan {0}% lebih banyak untuk uangmu!" />
+			<text id="generic_payment_discount_time" name="tinggal {0}!" />
+			<text id="generic_payment_discount_title" name="Lebih banyak emas untuk uangmu!" />
+			<text id="generic_payment_newPrices" name="Mulailah segera! Harga-harga turun permanen di gerai pembayaran kami! Hemat uangmu!" />
+			<text id="generic_payment_title" name="Gerai pembayaran" />
+		</payment>
+		<progressbar>
+			<text id="loading_text_1" name="Search for a tunnel through cyber space" />
+			<text id="loading_text_10" name="Distribute items in the world" />
+			<text id="loading_text_11" name="Draw graphics" />
+			<text id="loading_text_12" name="Color the buttons" />
+			<text id="loading_text_13" name="Hide easter eggs" />
+			<text id="loading_text_14" name="Look up user information" />
+			<text id="loading_text_15" name="Scare off bugs" />
+			<text id="loading_text_16" name="Feed the programmers" />
+			<text id="loading_text_17" name="Experiment with the client" />
+			<text id="loading_text_18" name="Turn the hour glass" />
+			<text id="loading_text_19" name="Cool the system" />
+			<text id="loading_text_2" name="Oil the cog wheels" />
+			<text id="loading_text_20" name="Be done soon" />
+			<text id="loading_text_3" name="Spin the hamster wheel" />
+			<text id="loading_text_4" name="Warm up the server" />
+			<text id="loading_text_5" name="Hope that everything goes well" />
+			<text id="loading_text_6" name="Call for the exterminator" />
+			<text id="loading_text_7" name="Calculate complicated algorithms" />
+			<text id="loading_text_8" name="Calibrate flux capacitor" />
+			<text id="loading_text_9" name="Tinker items" />
+			<text id="loading_text_default" name="Initialization" />
+			<text id="loading_text_itemXML" name="Load game elements" />
+			<text id="progress_loadfiles" name="Load assets..." />
+			<text id="progress_serverconnection" name="Connect to Server..." />
+		</progressbar>
+		<register>
+			<text id="generic_register_agb_copy" name="Kamu harus membaca dan menerima syarat dan ketentuannya dahulu! Konfirmasikan dengan menekan tombol di kiri dan kamu siap bermain!" />
+			<text id="generic_register_agb_read" name="Baca Syarat dan Ketentuan Penggunaan" />
+			<text id="generic_register_alreadyavatar" name="Pengguna ini sudah punya avatar." />
+			<text id="generic_register_badword" name="Kamu tidak diizinkan menggunakan {0} dalam namamu." />
+			<text id="generic_register_btn_agb" name="Menerima Syarat dan Ketentuan Penggunaan" />
+			<text id="generic_register_btn_later" name="Nanti" />
+			<text id="generic_register_btn_next" name="Lanjutkan" />
+			<text id="generic_register_btn_save" name="Simpan" />
+			<text id="generic_register_character" name="Ciptakan karaktermu" />
+			<text id="generic_register_copy_0" name="Daftar gratis sekarang!" />
+			<text id="generic_register_copy_1" name="Simpan kemajuan permainanmu!" />
+			<text id="generic_register_emaillong_copy" name="Sayang sekali, alamat emailmu terlalu panjang." />
+			<text id="generic_register_emailwrong_copy" name="Alamat email yang kamu masukkan salah." />
+			<text id="generic_register_email_copy" name="Alamat emailmu tidak boleh dikosongkan atau mengandung karakter tertentu." />
+			<text id="generic_register_error" name="Pendaftaran gagal" />
+			<text id="generic_register_errormistake" name="Error" />
+			<text id="generic_register_error_accountalreadyexists" name="Maaf, pemain lain telah mendaftar dengan alamat email ini." />
+			<text id="generic_register_forfree" name="Daftar gratis!" />
+			<text id="generic_register_forfree1" name="Gratis!" />
+			<text id="generic_register_letsgo" name="Ini dia!" />
+			<text id="generic_register_namealreadyused" name="Nama ini sudah digunakan." />
+			<text id="generic_register_namenotvalid" name="Nama yang kamu masukkan salah." />
+			<text id="generic_register_passwordshort_copy" name="Sandi yang kamu masukkan terlalu pendek. Seharusnya terdiri dari minimal 4 huruf." />
+			<text id="generic_register_passwordwrong_copy" name="Sandi yang kamu masukkan salah." />
+			<text id="generic_register_password_copy" name="Sandimu tidak boleh dikosongkan atau mengandung karakter tertentu." />
+			<text id="generic_register_rememberdata" name="Ingat data" />
+			<text id="generic_register_reward" name="Berlangganan gratis dan dapatkan {0} {1}!" />
+			<text id="generic_register_subscribe" name="Daftar" />
+			<text id="generic_register_success" name="Kamu telah berhasil terdaftar." />
+			<text id="generic_register_title" name="Error Pendaftaran" />
+			<text id="generic_register_unlock" name="Buka fungsi ini!" />
+		</register>
+		<report>
+			<text id="generic_report_muted_badword1_copy" name="Harap hati-hati dengan caramu berekspresi. Jika tidak, kamu akan diblok dari ruang obrolan atau akunmu akan ditutup sementara. Alasan: {0}" />
+			<text id="generic_report_muted_badword2_copy" name="Kamu tidak bisa menggunakan fungsi ruang obrolan untuk {0} berikutnya karena perilaku buruk berulang. Alasan: {1}" />
+			<text id="generic_report_muted_domain1" name="Jangan menuliskan URL apa pun di ruang obrolan!" />
+			<text id="generic_report_muted_reported_copy" name="Beberapa pemain mengeluhkanmu. Kamu diblok dari ruang obrolan untuk {0} depan. Alasan: {1}" />
+			<text id="generic_report_player_copy" name="Kamu benar-benar ingin melaporkan pemain {0}?
+ Perhatian! Penyalahgunaan fungsi ini bisa berakibat akunmu diblok." />
+			<text id="generic_report_player_reason_0" name="Menyinggung" />
+			<text id="generic_report_player_reason_1" name="pelecehan seksual" />
+			<text id="generic_report_player_reason_2" name="tanda rasis" />
+			<text id="generic_report_player_reason_3" name="Mengancam/memeras" />
+			<text id="generic_report_player_reason_title" name="Alasan laporan:" />
+			<text id="generic_report_player_title" name="Laporkan pemain?" />
+			<text id="generic_report_reported_copy" name="Kamu dilaporkan ke administrator oleh pemain lain. Alasan: {0}" />
+		</report>
+		<worlds>
+			<text id="generic_connect" name="Sambungkan" />
+			<text id="generic_select_world" name="Pilih dunia:" />
+			<text id="generic_world" name="Dunia: {0}" />
+			<text id="generic_world_international" name="Internasional: {0}" />
+		</worlds>
+	</generic_flash>
+</fashion>

@@ -1,1226 +1,1229 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- goodgamestudios FASHION - nl - 8 -->
-	<fashion>
-		<achievement>
-			<text id="Basic_Achievement_Boughtdeco" name="Luxe boetiek"  />
-			<text id="Basic_Achievement_Boughtdeco_copy" name="Aantal gekochte decoraties"  />
-			<text id="Basic_Achievement_Boughtpatterns" name="Groot productaanbod"  />
-			<text id="Basic_Achievement_Boughtpatterns_copy" name="Aantal gekochte patronen"  />
-			<text id="Basic_Achievement_Earnedchips" name="Marktleider"  />
-			<text id="Basic_Achievement_Earnedchips_copy" name="Verdiende Fashiondollars"  />
-			<text id="Basic_Achievement_FinishedCoops" name="Mode voor iedereen"  />
-			<text id="Basic_Achievement_FinishedCoops_copy" name="Aantal bereikte Co-Ops"  />
-			<text id="Basic_Achievement_FinishedGoldCoops" name="Gouden ontwerper"  />
-			<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Aantal Co-Ops met Goud bereikt"  />
-			<text id="Basic_Achievement_Mannequindesign" name="Chique boetiek"  />
-			<text id="Basic_Achievement_Mannequindesign_copy" name="Aantal aangeklede paspoppen"  />
-			<text id="Basic_Achievement_Masteries" name="Drukke naaister"  />
-			<text id="Basic_Achievement_Masteriesgold" name="Gouden naaister"  />
-			<text id="Basic_Achievement_Masteriesgold_copy" name="Aantal verdiende Gouden Labels"  />
-			<text id="Basic_Achievement_Masteries_copy" name="Aantal verdiende labels"  />
-			<text id="Basic_Achievement_Producedaccessoires" name="Geproduceerde accessoires"  />
-			<text id="Basic_Achievement_Producedaccessoires_copy" name="Aantal geproduceerde accessoires"  />
-			<text id="Basic_Achievement_Producedbags" name="Handelaar in handtassen"  />
-			<text id="Basic_Achievement_Producedbags_copy" name="Aantal geproduceerde handtassen"  />
-			<text id="Basic_Achievement_Producedbottoms" name="Alles voor het been"  />
-			<text id="Basic_Achievement_Producedbottoms_copy" name="Aantal geprodceerde broeken en rokken"  />
-			<text id="Basic_Achievement_Producedclothes" name="Kledingmonopolie"  />
-			<text id="Basic_Achievement_Producedclothes_copy" name="Hoeveelheid geproduceerde kleding"  />
-			<text id="Basic_Achievement_Produceddifferentaccessoires" name="Awesome accessoires"  />
-			<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="Aantal verschillende accessoires geproduceerd"  />
-			<text id="Basic_Achievement_Produceddifferentclothes" name="Kledingassortiment"  />
-			<text id="Basic_Achievement_Produceddifferentclothes_copy" name="Hoeveelheid verschillende kleding geproduceerd"  />
-			<text id="Basic_Achievement_Produceddifferentitems" name="Allround ontwerper"  />
-			<text id="Basic_Achievement_Produceddifferentitems_copy" name="Aantal verschillende spullen geproduceerd"  />
-			<text id="Basic_Achievement_Produceddifferentshoes" name="Schoenenwalhalla"  />
-			<text id="Basic_Achievement_Produceddifferentshoes_copy" name="Aantal verschillende schoenen geproduceerd"  />
-			<text id="Basic_Achievement_Producedfemaleonly" name="Alleen voor dames"  />
-			<text id="Basic_Achievement_Producedfemaleonly_copy" name="Aantal spullen voor dames geproduceerd"  />
-			<text id="Basic_Achievement_Producedfullbody" name="Kraag en stropdas"  />
-			<text id="Basic_Achievement_Producedfullbody_copy" name="Aantal geproduceerde jurken en pakken"  />
-			<text id="Basic_Achievement_Producedhats" name="Hoedenmaker"  />
-			<text id="Basic_Achievement_Producedhats_copy" name="Aantal geproduceerde hoeden"  />
-			<text id="Basic_Achievement_Producedjewlery" name="Sieradenkistje"  />
-			<text id="Basic_Achievement_Producedjewlery_copy" name="Aantal geproduceerde sieraden"  />
-			<text id="Basic_Achievement_Producedmaleonly" name="Alleen voor mannen"  />
-			<text id="Basic_Achievement_Producedmaleonly_copy" name="Aantal spullen voor heren geproduceerd"  />
-			<text id="Basic_Achievement_Producedshoes" name="Schoenenmagnaat"  />
-			<text id="Basic_Achievement_Producedshoes_copy" name="Aantal geproduceerde schoenen"  />
-			<text id="Basic_Achievement_Producedtops" name="Overal topjes"  />
-			<text id="Basic_Achievement_Producedtops_copy" name="Aantal geproduceerde tops"  />
-			<text id="Basic_Achievement_Soldduringsale" name="Koopjesdief"  />
-			<text id="Basic_Achievement_Soldduringsale_copy" name="Verkochte kleding in de aanbieding"  />
-			<text id="Basic_Achievement_Soldproducts" name="Verkochte spullen"  />
-			<text id="Basic_Achievement_Soldproducts_copy" name="Aantal verkochte spullen"  />
-			<text id="Basic_Achievement_Spentchips" name="Gulle verkoper"  />
-			<text id="Basic_Achievement_Spentchips_copy" name="Aantal uitgegeven Fashiondollars"  />
-			<text id="Basic_Achievement_Spentgold" name="Gouden boetiek"  />
-			<text id="Basic_Achievement_Spentgold_copy" name="Aantal uitgegeven Gouden Knopen"  />
-			<text id="Basic_Achievement_Stolenproducts" name="Motel de Kleine Dief"  />
-			<text id="Basic_Achievement_Stolenproducts_copy" name="Aantal gestolen spullen"  />
-			<text id="Basic_Achievement_Wheeloffortune" name="Draaiwijzer"  />
-			<text id="Basic_Achievement_Wheeloffortune_copy" name="Aantal keer gewonnen met het Rad van Fortuin"  />
-			<text id="Social_Achievement_Friendscout" name="Populaire shopper"  />
-			<text id="Social_Achievement_Friendscout_copy" name="Aantal netwerkvrienden"  />
-		</achievement>
-		<alerts>
-			<text id="alerts_avatarcustomize_goldrequest" name="Wil je je kleding veranderen voor {0} {1}?"  />
-			<text id="alerts_avatarcustom_workingplayer_copy" name="Je bent in het midden van een actie en kunt nu niet van kleding verwisselen!"  />
-			<text id="alerts_avatarcustom_workingplayer_title" name="Momentje geduld!"  />
-			<text id="alerts_booster_info_copy" name="De bewaker voorkomt dat er wordt gestolen in je boetiek. Je kunt hem voor 5 dagen inhuren en de tijd daarna verlengen."  />
-			<text id="alerts_booster_info_copy_1" name="Met {0} extra vrienden wordt je bescherming uitgebreid met {1}."  />
-			<text id="alerts_booster_info_title" name="Bewaker"  />
-			<text id="alerts_buytiles_copy" name="Wil je {0} tegels kopen voor {1}?"  />
-			<text id="alerts_buytiles_title" name="Tegels kopen?"  />
-			<text id="alerts_customcloth_noshape_copy" name="Je moet eerst een vorm kiezen om de print erop te zetten!"  />
-			<text id="alerts_decoshop_dragtipp_copy" name="Sleep dit voorwerp naar je boetiek om het te gebruiken."  />
-			<text id="alerts_decoshop_dragtipp_title" name="Opfleuren!"  />
-			<text id="alerts_decoshop_next_Cashdesk_bylevel" name="Je moet level {0} hebben bereikt om een extra kassa te kopen. Je kunt ook een oude kassa uit je boetiek hier naartoe slepen om een nieuwe te kopen."  />
-			<text id="alerts_decoshop_next_Changingroom_bylevel" name="Je moet level {0} hebben bereikt om een extra pashokje te kopen. Je kunt ook een oud pashokje uit je boetiek hier naartoe slepen om een nieuwe te kopen."  />
-			<text id="alerts_decoshop_next_Counter_bylevel" name="Je moet level {0} hebben bereikt om een extra schap te kopen. Je kunt ook een oud schap uit je boetiek hier naartoe slepen om een nieuwe te kopen."  />
-			<text id="alerts_decoshop_next_Factory_bylevel" name="Je moet level {0} hebben bereikt om een extra werkkracht te kopen. Je kunt ook een oude werkkracht uit je boetiek hier naartoe slepen om een nieuwe te kopen."  />
-			<text id="alerts_decoshop_next_Mannequin_bylevel" name="Je moet level {0} hebben bereikt om een extra paspop te kopen. Je kunt ook een oude paspop uit je boetiek hier naartoe slepen om een nieuwe te kopen."  />
-			<text id="alerts_decoshop_nomoreCashdesk" name="Je kunt even geen nieuwe kassa&#039;s meer kopen!"  />
-			<text id="alerts_decoshop_nomoreChangingroom" name="Je kunt even geen pashokjes meer kopen!"  />
-			<text id="alerts_decoshop_nomoreCounter" name="Je kunt even geen schappen meer kopen!"  />
-			<text id="alerts_decoshop_nomoreExpansion" name="Er zijn nog geen nieuwe uitbreidingen beschikbaar."  />
-			<text id="alerts_decoshop_nomoreFactory" name="Je kunt even geen werkkrachten meer aannemen!"  />
-			<text id="alerts_decoshop_nomoreMannequin" name="Je kunt even geen paspoppen meer kopen!"  />
-			<text id="alerts_decoshop_sellitem_copy" name="Weet je zeker dat je dit wilt verkopen voor {0}?"  />
-			<text id="alerts_decoshop_sellitem_title" name="Voorwerp verkopen"  />
-			<text id="alerts_decoshop_storeFactory_copy" name="Je kunt een ontevreden werkkracht niet uit je boetiek verwijderen. Betaal een bonus of verkoop hem of haar."  />
-			<text id="alerts_decoshop_storeMannequin_copy" name="Zolang de paspop kleding draagt, kun je de pop niet opbergen."  />
-			<text id="alerts_decoshop_store_title" name="Voorraad"  />
-			<text id="alerts_decoshop_workingplayer_copy" name="Je moet deze actie eerst voltooien voordat je de boetiek renoveert!"  />
-			<text id="alerts_decoshop_workingplayer_title" name="Druk!"  />
-			<text id="alerts_fashionbook_notarget_copy" name="Kies een werkkracht om spullen te produceren"  />
-			<text id="alerts_fashionbook_notarget_copy_1" name="De werkkracht is al bezig.
-Kies een andere!"  />
-			<text id="alerts_fashionbook_notarget_title" name="Welke werkkracht?"  />
-			<text id="alerts_fashionbook_notequaltype_copy" name="Je kunt met deze werkkracht maar een bepaald aantal dingen produceren. 
-Kies een product uit de {0} collectie."  />
-			<text id="alerts_fashionbook_notequaltype_title" name="Ander product"  />
-			<text id="alerts_fashionbook_usebooster_title" name="Booster inzetten?"  />
-			<text id="alerts_friend_ask" name="Wil je {0} als vriend toevoegen?"  />
-			<text id="alerts_friend_denied" name="{0} heeft je vriendenverzoek geweigerd"  />
-			<text id="alerts_friend_title" name="Vriendschap"  />
-			<text id="alerts_gift_workingplayer_copy" name="Je hebt nog steeds spullen in je handen. Leg ze eerst op een schap voordat je cadeaus verstuurt."  />
-			<text id="alerts_gift_workingplayer_title" name="Leg het eerst neer!"  />
-			<text id="alerts_instantworking_goldrequest" name="Wil je &#039;Nu klaar zijn&#039;? Nog {0} keer mogelijk!"  />
-			<text id="alerts_invitefriend_copy" name="Je uitnodiging naar {0} is verstuurd!"  />
-			<text id="alerts_invitefriend_title" name="Nieuwe vrienden!"  />
-			<text id="alerts_isoworld_counter_outofreach_copy" name="Het schap is niet toegankelijk. Herorganiseer een beetje."  />
-			<text id="alerts_isoworld_counter_outofreach_title" name="Niet te bereiken!"  />
-			<text id="alerts_isoworld_factory_outofreach_copy" name="Je kunt de werkkracht niet bereiken. Reorganiseer je boetiek een beetje."  />
-			<text id="alerts_isoworld_factory_outofreach_title" name="Niet te bereiken!"  />
-			<text id="alerts_isoworld_mannequin_instant" name="Wil je de paspop anders aankleden?"  />
-			<text id="alerts_isoworld_marketplace_title" name="Krijtbord"  />
-			<text id="alerts_kickedbyplayer_copy" name="De boetiek is door de eigenaar gesloten."  />
-			<text id="alerts_kickedbyplayer_title" name="Je moet gaan!"  />
-			<text id="alerts_kickjobber_copy" name="Je kunt je boetiek niet renoveren als er nog andere spelers in je boetiek zijn."  />
-			<text id="alerts_kickjobber_title" name="Werkkrachten in je boetiek"  />
-			<text id="alerts_kickplayer_copy" name="Er zijn nog andere spelers in je boetiek. Wil je ze eruit schoppen om naar de decoratiemodus over te schakelen?"  />
-			<text id="alerts_kickplayer_title" name="Speler verwijderen"  />
-			<text id="alerts_lostpassword_copy" name="Typ je e-mailadres hier in en we sturen je een nieuw wachtwoord toe."  />
-			<text id="alerts_lostpassword_title" name="Wachtwoord vergeten?"  />
-			<text id="alerts_mannequindesign_nocloth_copy" name="Je hebt niet de juiste spullen op de schappen liggen om deze paspop mee aan te kleden."  />
-			<text id="alerts_mannequindesign_nocloth_title" name="Geen spullen!"  />
-			<text id="alerts_marketplace_playerleaved_copy" name="De speler heeft de winkelgalerij verlaten."  />
-			<text id="alerts_marketplace_playerleaved_title" name="Te laat!"  />
-			<text id="alerts_placetiles_copy" name="1. Selecteer de tegel
+<fashion>
+	<achievement>
+		<text id="Basic_Achievement_Boughtdeco" name="Luxe boetiek" />
+		<text id="Basic_Achievement_Boughtdeco_copy" name="Aantal gekochte decoraties" />
+		<text id="Basic_Achievement_Boughtpatterns" name="Groot productaanbod" />
+		<text id="Basic_Achievement_Boughtpatterns_copy" name="Aantal gekochte patronen" />
+		<text id="Basic_Achievement_Earnedchips" name="Marktleider" />
+		<text id="Basic_Achievement_Earnedchips_copy" name="Verdiende Fashiondollars" />
+		<text id="Basic_Achievement_FinishedCoops" name="Mode voor iedereen" />
+		<text id="Basic_Achievement_FinishedCoops_copy" name="Aantal bereikte Co-Ops" />
+		<text id="Basic_Achievement_FinishedGoldCoops" name="Gouden ontwerper" />
+		<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Aantal Co-Ops met Goud bereikt" />
+		<text id="Basic_Achievement_Mannequindesign" name="Chique boetiek" />
+		<text id="Basic_Achievement_Mannequindesign_copy" name="Aantal aangeklede paspoppen" />
+		<text id="Basic_Achievement_Masteries" name="Drukke naaister" />
+		<text id="Basic_Achievement_Masteriesgold" name="Gouden naaister" />
+		<text id="Basic_Achievement_Masteriesgold_copy" name="Aantal verdiende Gouden Labels" />
+		<text id="Basic_Achievement_Masteries_copy" name="Aantal verdiende labels" />
+		<text id="Basic_Achievement_Producedaccessoires" name="Geproduceerde accessoires" />
+		<text id="Basic_Achievement_Producedaccessoires_copy" name="Aantal geproduceerde accessoires" />
+		<text id="Basic_Achievement_Producedbags" name="Handelaar in handtassen" />
+		<text id="Basic_Achievement_Producedbags_copy" name="Aantal geproduceerde handtassen" />
+		<text id="Basic_Achievement_Producedbottoms" name="Alles voor het been" />
+		<text id="Basic_Achievement_Producedbottoms_copy" name="Aantal geprodceerde broeken en rokken" />
+		<text id="Basic_Achievement_Producedclothes" name="Kledingmonopolie" />
+		<text id="Basic_Achievement_Producedclothes_copy" name="Hoeveelheid geproduceerde kleding" />
+		<text id="Basic_Achievement_Produceddifferentaccessoires" name="Awesome accessoires" />
+		<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="Aantal verschillende accessoires geproduceerd" />
+		<text id="Basic_Achievement_Produceddifferentclothes" name="Kledingassortiment" />
+		<text id="Basic_Achievement_Produceddifferentclothes_copy" name="Hoeveelheid verschillende kleding geproduceerd" />
+		<text id="Basic_Achievement_Produceddifferentitems" name="Allround ontwerper" />
+		<text id="Basic_Achievement_Produceddifferentitems_copy" name="Aantal verschillende spullen geproduceerd" />
+		<text id="Basic_Achievement_Produceddifferentshoes" name="Schoenenwalhalla" />
+		<text id="Basic_Achievement_Produceddifferentshoes_copy" name="Aantal verschillende schoenen geproduceerd" />
+		<text id="Basic_Achievement_Producedfemaleonly" name="Alleen voor dames" />
+		<text id="Basic_Achievement_Producedfemaleonly_copy" name="Aantal spullen voor dames geproduceerd" />
+		<text id="Basic_Achievement_Producedfullbody" name="Kraag en stropdas" />
+		<text id="Basic_Achievement_Producedfullbody_copy" name="Aantal geproduceerde jurken en pakken" />
+		<text id="Basic_Achievement_Producedhats" name="Hoedenmaker" />
+		<text id="Basic_Achievement_Producedhats_copy" name="Aantal geproduceerde hoeden" />
+		<text id="Basic_Achievement_Producedjewlery" name="Sieradenkistje" />
+		<text id="Basic_Achievement_Producedjewlery_copy" name="Aantal geproduceerde sieraden" />
+		<text id="Basic_Achievement_Producedmaleonly" name="Alleen voor mannen" />
+		<text id="Basic_Achievement_Producedmaleonly_copy" name="Aantal spullen voor heren geproduceerd" />
+		<text id="Basic_Achievement_Producedshoes" name="Schoenenmagnaat" />
+		<text id="Basic_Achievement_Producedshoes_copy" name="Aantal geproduceerde schoenen" />
+		<text id="Basic_Achievement_Producedtops" name="Overal topjes" />
+		<text id="Basic_Achievement_Producedtops_copy" name="Aantal geproduceerde tops" />
+		<text id="Basic_Achievement_Soldduringsale" name="Koopjesdief" />
+		<text id="Basic_Achievement_Soldduringsale_copy" name="Verkochte kleding in de aanbieding" />
+		<text id="Basic_Achievement_Soldproducts" name="Verkochte spullen" />
+		<text id="Basic_Achievement_Soldproducts_copy" name="Aantal verkochte spullen" />
+		<text id="Basic_Achievement_Spentchips" name="Gulle verkoper" />
+		<text id="Basic_Achievement_Spentchips_copy" name="Aantal uitgegeven Fashiondollars" />
+		<text id="Basic_Achievement_Spentgold" name="Gouden boetiek" />
+		<text id="Basic_Achievement_Spentgold_copy" name="Aantal uitgegeven Gouden Knopen" />
+		<text id="Basic_Achievement_Stolenproducts" name="Motel de Kleine Dief" />
+		<text id="Basic_Achievement_Stolenproducts_copy" name="Aantal gestolen spullen" />
+		<text id="Basic_Achievement_Wheeloffortune" name="Draaiwijzer" />
+		<text id="Basic_Achievement_Wheeloffortune_copy" name="Aantal keer gewonnen met het Rad van Fortuin" />
+		<text id="Social_Achievement_Friendscout" name="Populaire shopper" />
+		<text id="Social_Achievement_Friendscout_copy" name="Aantal netwerkvrienden" />
+	</achievement>
+	<alerts>
+		<text id="alerts_avatarcustomize_goldrequest" name="Wil je je kleding veranderen voor {0} {1}?" />
+		<text id="alerts_avatarcustom_workingplayer_copy" name="Je bent in het midden van een actie en kunt nu niet van kleding verwisselen!" />
+		<text id="alerts_avatarcustom_workingplayer_title" name="Momentje geduld!" />
+		<text id="alerts_booster_info_copy" name="De bewaker voorkomt dat er wordt gestolen in je boetiek. Je kunt hem voor 5 dagen inhuren en de tijd daarna verlengen." />
+		<text id="alerts_booster_info_copy_1" name="Met {0} extra vrienden wordt je bescherming uitgebreid met {1}." />
+		<text id="alerts_booster_info_title" name="Bewaker" />
+		<text id="alerts_buytiles_copy" name="Wil je {0} tegels kopen voor {1}?" />
+		<text id="alerts_buytiles_title" name="Tegels kopen?" />
+		<text id="alerts_customcloth_noshape_copy" name="Je moet eerst een vorm kiezen om de print erop te zetten!" />
+		<text id="alerts_decoshop_dragtipp_copy" name="Sleep dit voorwerp naar je boetiek om het te gebruiken." />
+		<text id="alerts_decoshop_dragtipp_title" name="Opfleuren!" />
+		<text id="alerts_decoshop_next_Cashdesk_bylevel" name="Je moet level {0} hebben bereikt om een extra kassa te kopen. Je kunt ook een oude kassa uit je boetiek hier naartoe slepen om een nieuwe te kopen." />
+		<text id="alerts_decoshop_next_Changingroom_bylevel" name="Je moet level {0} hebben bereikt om een extra pashokje te kopen. Je kunt ook een oud pashokje uit je boetiek hier naartoe slepen om een nieuwe te kopen." />
+		<text id="alerts_decoshop_next_Counter_bylevel" name="Je moet level {0} hebben bereikt om een extra schap te kopen. Je kunt ook een oud schap uit je boetiek hier naartoe slepen om een nieuwe te kopen." />
+		<text id="alerts_decoshop_next_Factory_bylevel" name="Je moet level {0} hebben bereikt om een extra werkkracht te kopen. Je kunt ook een oude werkkracht uit je boetiek hier naartoe slepen om een nieuwe te kopen." />
+		<text id="alerts_decoshop_next_Mannequin_bylevel" name="Je moet level {0} hebben bereikt om een extra paspop te kopen. Je kunt ook een oude paspop uit je boetiek hier naartoe slepen om een nieuwe te kopen." />
+		<text id="alerts_decoshop_nomoreCashdesk" name="Je kunt even geen nieuwe kassa&amp;#039;s meer kopen!" />
+		<text id="alerts_decoshop_nomoreChangingroom" name="Je kunt even geen pashokjes meer kopen!" />
+		<text id="alerts_decoshop_nomoreCounter" name="Je kunt even geen schappen meer kopen!" />
+		<text id="alerts_decoshop_nomoreExpansion" name="Er zijn nog geen nieuwe uitbreidingen beschikbaar." />
+		<text id="alerts_decoshop_nomoreFactory" name="Je kunt even geen werkkrachten meer aannemen!" />
+		<text id="alerts_decoshop_nomoreMannequin" name="Je kunt even geen paspoppen meer kopen!" />
+		<text id="alerts_decoshop_sellitem_copy" name="Weet je zeker dat je dit wilt verkopen voor {0}?" />
+		<text id="alerts_decoshop_sellitem_title" name="Voorwerp verkopen" />
+		<text id="alerts_decoshop_storeFactory_copy" name="Je kunt een ontevreden werkkracht niet uit je boetiek verwijderen. Betaal een bonus of verkoop hem of haar." />
+		<text id="alerts_decoshop_storeMannequin_copy" name="Zolang de paspop kleding draagt, kun je de pop niet opbergen." />
+		<text id="alerts_decoshop_store_title" name="Voorraad" />
+		<text id="alerts_decoshop_workingplayer_copy" name="Je moet deze actie eerst voltooien voordat je de boetiek renoveert!" />
+		<text id="alerts_decoshop_workingplayer_title" name="Druk!" />
+		<text id="alerts_fashionbook_notarget_copy" name="Kies een werkkracht om spullen te produceren" />
+		<text id="alerts_fashionbook_notarget_copy_1" name="De werkkracht is al bezig.
+Kies een andere!" />
+		<text id="alerts_fashionbook_notarget_title" name="Welke werkkracht?" />
+		<text id="alerts_fashionbook_notequaltype_copy" name="Je kunt met deze werkkracht maar een bepaald aantal dingen produceren. 
+Kies een product uit de {0} collectie." />
+		<text id="alerts_fashionbook_notequaltype_title" name="Ander product" />
+		<text id="alerts_fashionbook_usebooster_title" name="Booster inzetten?" />
+		<text id="alerts_friend_ask" name="Wil je {0} als vriend toevoegen?" />
+		<text id="alerts_friend_denied" name="{0} heeft je vriendenverzoek geweigerd" />
+		<text id="alerts_friend_title" name="Vriendschap" />
+		<text id="alerts_gift_workingplayer_copy" name="Je hebt nog steeds spullen in je handen. Leg ze eerst op een schap voordat je cadeaus verstuurt." />
+		<text id="alerts_gift_workingplayer_title" name="Leg het eerst neer!" />
+		<text id="alerts_instantworking_goldrequest" name="Wil je &amp;#039;Nu klaar zijn&amp;#039;? Nog {0} keer mogelijk!" />
+		<text id="alerts_invitefriend_copy" name="Je uitnodiging naar {0} is verstuurd!" />
+		<text id="alerts_invitefriend_title" name="Nieuwe vrienden!" />
+		<text id="alerts_isoworld_counter_outofreach_copy" name="Het schap is niet toegankelijk. Herorganiseer een beetje." />
+		<text id="alerts_isoworld_counter_outofreach_title" name="Niet te bereiken!" />
+		<text id="alerts_isoworld_factory_outofreach_copy" name="Je kunt de werkkracht niet bereiken. Reorganiseer je boetiek een beetje." />
+		<text id="alerts_isoworld_factory_outofreach_title" name="Niet te bereiken!" />
+		<text id="alerts_isoworld_mannequin_instant" name="Wil je de paspop anders aankleden?" />
+		<text id="alerts_isoworld_marketplace_title" name="Krijtbord" />
+		<text id="alerts_kickedbyplayer_copy" name="De boetiek is door de eigenaar gesloten." />
+		<text id="alerts_kickedbyplayer_title" name="Je moet gaan!" />
+		<text id="alerts_kickjobber_copy" name="Je kunt je boetiek niet renoveren als er nog andere spelers in je boetiek zijn." />
+		<text id="alerts_kickjobber_title" name="Werkkrachten in je boetiek" />
+		<text id="alerts_kickplayer_copy" name="Er zijn nog andere spelers in je boetiek. Wil je ze eruit schoppen om naar de decoratiemodus over te schakelen?" />
+		<text id="alerts_kickplayer_title" name="Speler verwijderen" />
+		<text id="alerts_lostpassword_copy" name="Typ je e-mailadres hier in en we sturen je een nieuw wachtwoord toe." />
+		<text id="alerts_lostpassword_title" name="Wachtwoord vergeten?" />
+		<text id="alerts_mannequindesign_nocloth_copy" name="Je hebt niet de juiste spullen op de schappen liggen om deze paspop mee aan te kleden." />
+		<text id="alerts_mannequindesign_nocloth_title" name="Geen spullen!" />
+		<text id="alerts_marketplace_playerleaved_copy" name="De speler heeft de winkelgalerij verlaten." />
+		<text id="alerts_marketplace_playerleaved_title" name="Te laat!" />
+		<text id="alerts_placetiles_copy" name="1. Selecteer de tegel
 2. Klik op de vloer van je boetiek, houd de muisknop ingedrukt en selecteer het te veranderen gebied.
-3. Laat de muisknop weer los."  />
-			<text id="alerts_placetiles_title" name="Tegels plaatsen?"  />
-			<text id="alerts_register_copy_addgold" name="Je moet je eerst registreren voor je hier kunt winkelen."  />
-			<text id="alerts_register_copy_advertisement" name="Je moet je eerst registreren om reclame voor je boetiek te kunnen maken."  />
-			<text id="alerts_register_copy_changeavatar" name="Je moet je eerst registreren om je look te kunnen veranderen!"  />
-			<text id="alerts_register_copy_changepassword" name="Alleen geregistreerde gebruikers kunnen hun wachtwoord veranderen!"  />
-			<text id="alerts_register_copy_coop" name="Je moet je eerst registreren voor je deel kunt nemen aan een Co-Op!"  />
-			<text id="alerts_register_copy_gifts" name="Je moet je eerst registreren om cadeaus te kunnen versturen."  />
-			<text id="alerts_register_copy_invitefriend" name="Je moet je eerst registreren voor je andere vrienden kunt uitnodigen."  />
-			<text id="alerts_register_copy_logout" name="Registreer je om je voortgang op te slaan!"  />
-			<text id="alerts_register_title" name="Registreren"  />
-			<text id="alerts_servermsg_10" name="De server wordt opnieuw opgestart. Je kunt zo weer verder.
-Meld je af."  />
-			<text id="alerts_servermsg_title" name="Serverbericht!"  />
-			<text id="alerts_staff_fire_copy" name="Weet je zeker dat je je kassière wilt ontslaan? 
-Als je niet genoeg kassières hebt, moeten je klanten langer wachten."  />
-			<text id="alerts_staff_fire_title" name="Kassahulp ontslaan?"  />
-			<text id="alerts_staff_hire_copy" name="Wil je een nieuwe kassière inhuren?"  />
-			<text id="alerts_staff_hire_title" name="Nieuwe kassa"  />
-			<text id="alerts_versioncheck_copy" name="Vernieuw de pagina om de nieuwste versie te laden."  />
-			<text id="alerts_versioncheck_title" name="Oude versie!"  />
-		</alerts>
-		<cloth>
-			<text id="cloth_blackbowlermale" name="Hoge hoed"  />
-			<text id="cloth_blackdressfemale" name="Zwart jurkje"  />
-			<text id="cloth_blackhandbagfemale" name="Zwarte shopper"  />
-			<text id="cloth_blackheelsfemale" name="Zwarte pumps"  />
-			<text id="cloth_blackjacketmale" name="Eenvoudig leren jack"  />
-			<text id="cloth_blackpant2male" name="GeeCee spijkerbroek"  />
-			<text id="cloth_blackpantfemale" name="Zwarte skinnybroek voor meisjes"  />
-			<text id="cloth_blackpantmale" name="Zwarte skinny broek voor jongens"  />
-			<text id="cloth_blacksuitmale" name="Gestreept pak"  />
-			<text id="cloth_blackwatchmale" name="Zwart horloge"  />
-			<text id="cloth_bluebaggypantsfemale" name="JayJay baggy broek voor meisjes"  />
-			<text id="cloth_blueblousefemale" name="Blauwe blouse"  />
-			<text id="cloth_bluecapfemale" name="Blauwe honkbalpet"  />
-			<text id="cloth_bluecapmale" name="Blauwe honkbalpet"  />
-			<text id="cloth_blueheadphones" name="JayJay koptelefoons"  />
-			<text id="cloth_bluenecklacefemale" name="Blauwe parelketting"  />
-			<text id="cloth_bluepolomale" name="Blauw poloshirt"  />
-			<text id="cloth_blueshirtmale" name="Blauw T-shirt"  />
-			<text id="cloth_bluesweatermale" name="JayJay blauwe jongenstrui"  />
-			<text id="cloth_bootsfemale" name="GeeCee meisjeslaarzen"  />
-			<text id="cloth_brownknitcapfemale" name="Bruine handtas"  />
-			<text id="cloth_brownknitcapmale" name="Bruine handtas"  />
-			<text id="cloth_cardiganfemale" name="GeeCee meisjesvest"  />
-			<text id="cloth_cardiganmale" name="GeeCee jongensvest"  />
-			<text id="cloth_charlestonhatfemale" name="Ouderwetse hoed"  />
-			<text id="cloth_checkshirtfemale" name="JayJay geruit shirt voor meisjes"  />
-			<text id="cloth_checkshirtmale" name="JayJay geruit hemd voor jongens"  />
-			<text id="cloth_customcloth" name="Bepaal je look!"  />
-			<text id="cloth_darkbluejeansfemale" name="Donkerblauwe damesspijkerbroek"  />
-			<text id="cloth_darkbluejeansmale" name="Donkerblauwe mannenspijkerbroek"  />
-			<text id="cloth_dressfemale" name="GeeCee meisjesjurk"  />
-			<text id="cloth_flowerskirtfemale" name="GeeDee bloemetjesrok"  />
-			<text id="cloth_ggsshirtmale" name="GeeCee T-shirt"  />
-			<text id="cloth_goldnecklacefemale" name="Gouden ketting"  />
-			<text id="cloth_greendressfemale" name="GeeDee jurk"  />
-			<text id="cloth_greenjacketfemale" name="JayJay windjack voor meisjes"  />
-			<text id="cloth_greenjacketmale" name="JayJay windjack voor jongens"  />
-			<text id="cloth_greenpulloverfemale" name="Groene koltrui"  />
-			<text id="cloth_greenshirtmale" name="GeeDee jongenshemd"  />
-			<text id="cloth_greysuitmale" name="Grijs pak"  />
-			<text id="cloth_lightbluejeansfemale" name="Blauwe spijkerbroek voor dames"  />
-			<text id="cloth_lightbluejeansmale" name="Blauwe spijkerbroek voor mannen"  />
-			<text id="cloth_manblackmale" name="Zwarte lakschoenen"  />
-			<text id="cloth_manbrownmale" name="Bruine leren schoenen"  />
-			<text id="cloth_orangeknitcapfemale" name="Oranje beanie"  />
-			<text id="cloth_orangeknitcapmale" name="Oranje beanie"  />
-			<text id="cloth_perlnecklacefemale" name="Eenvoudige parelketting"  />
-			<text id="cloth_pinkhangbagfemale" name="Lapjestas"  />
-			<text id="cloth_pinkshirtfemale" name="Roze poloshirt"  />
-			<text id="cloth_premiumbluejacketmale" name="Lentejasje"  />
-			<text id="cloth_premiumgreenjacketfemale" name="Lentejas"  />
-			<text id="cloth_premiumjumpsuitfemale" name="GeeDee jumpsuit voor meisjes"  />
-			<text id="cloth_premiumshortsmale" name="GeeDee korte broek voor jongens"  />
-			<text id="cloth_purplehandbagfemale" name="GeeCee handtas"  />
-			<text id="cloth_purplepulloverfemale" name="Paarse koltrui"  />
-			<text id="cloth_purpletshirtfemale" name="JayJay T-shirt voor meisjes"  />
-			<text id="cloth_redcapfemale" name="Rode honkbalpet"  />
-			<text id="cloth_redcapmale" name="Rode honkbalpet"  />
-			<text id="cloth_reddressfemale" name="Strapless avondjurk"  />
-			<text id="cloth_redheelsfemale" name="Rode pumps"  />
-			<text id="cloth_redskirtfemale" name="Rode rok met strik"  />
-			<text id="cloth_redsneakermale" name="JayJay rode gympies voor jongens"  />
-			<text id="cloth_redtopfemale" name="Rode glittertop"  />
-			<text id="cloth_scraffemale" name="GeeCee stippelsjaal"  />
-			<text id="cloth_scrafmale" name="GeeCee jongenssjaal"  />
-			<text id="cloth_silvernecklacefemale" name="Zilveren ketting"  />
-			<text id="cloth_silverwatchmale" name="Zilveren horloge"  />
-			<text id="cloth_sneakersfemale" name="Witte sneaker"  />
-			<text id="cloth_sneakersgreenmale" name="GeeCee groene gympies"  />
-			<text id="cloth_sneakersmale" name="Witte sneaker"  />
-			<text id="cloth_strawberrysneakerfemale" name="JayJay aardbeischoenen"  />
-			<text id="cloth_stripedshirtmale" name="GeeDee gestreept jongenshemd"  />
-			<text id="cloth_stripedtopfemale" name="GeeDee zomertopje voor meisjes"  />
-			<text id="cloth_stripedtshirtmale" name="JayJay gestreept T-shirt voor jongens"  />
-			<text id="cloth_sweathoodiemale" name="GeeDee hoodie voor jongens"  />
-			<text id="cloth_trenchcoatmale" name="Zwarte regenjas"  />
-			<text id="cloth_whiteshirtmale" name="Wit hemd"  />
-			<text id="cloth_whiteskirtfemale" name="Witte minirok"  />
-			<text id="cloth_yellowdressfemale" name="Schattige cocktailjurk"  />
-		</cloth>
-		<commons>
-			<text id="achievement_rang" name="Rang {0}/{1}"  />
-			<text id="comingsoon" name="*Binnenkort beschikbaar*"  />
-			<text id="currency_cash" name="Fashiondollars"  />
-			<text id="currency_gold" name="Gouden Knopen"  />
-			<text id="currency_gold_single" name="Gouden Knoop"  />
-			<text id="factorytyp_accessories" name="Accessoires"  />
-			<text id="factorytyp_clothes" name="Kleding"  />
-			<text id="factorytyp_shoes" name="Schoenen"  />
-			<text id="friendscount" name="Vrienden {0}"  />
-			<text id="levelcount" name="Level {0}"  />
-			<text id="levellabel" name="Level"  />
-			<text id="mastery" name="Merkniveau"  />
-			<text id="new" name="Nieuw!"  />
-			<text id="xplabel" name="XP"  />
-		</commons>
-		<coopmission>
-			<text id="coop_desc_1" name="Wat leuke basisdingen voor een picknick!"  />
-			<text id="coop_desc_10" name="Het belooft een mooie avond te worden voor je eindfeest!"  />
-			<text id="coop_desc_11" name="Klassiekers voor mannen!"  />
-			<text id="coop_desc_2" name="Perfecte outfit voor een sporttoernooi!"  />
-			<text id="coop_desc_3" name="Mensen en muziek de hele nacht lang!"  />
-			<text id="coop_desc_4" name="Het perfecte cadeau voor elke gelegenheid!"  />
-			<text id="coop_desc_5" name="Er gaat niets boven een goed zittend pak!"  />
-			<text id="coop_desc_6" name="Schoenen in overvloed!"  />
-			<text id="coop_desc_7" name="Rokjes, tops en schoenen... allemaal in rood!"  />
-			<text id="coop_desc_8" name="Jurken, jurken en nog eens jurken voor onze meisjes!"  />
-			<text id="coop_desc_9" name="Perfect voor danslessen!"  />
-			<text id="coop_title_1" name="Picnicktijd!"  />
-			<text id="coop_title_10" name="Gala!"  />
-			<text id="coop_title_11" name="Zwart is het nieuwe zwart"  />
-			<text id="coop_title_2" name="Alle sporten!"  />
-			<text id="coop_title_3" name="Uitverkocht!"  />
-			<text id="coop_title_4" name="Geweldige cadeaus!"  />
-			<text id="coop_title_5" name="Alleen voor mannen!"  />
-			<text id="coop_title_6" name="Overal schoenen!"  />
-			<text id="coop_title_7" name="Dame in het rood!"  />
-			<text id="coop_title_8" name="Meisjesmode!"  />
-			<text id="coop_title_9" name="Danslessen!"  />
-		</coopmission>
-		<coop_msg>
-			<text id="coop_msg_0" name="{0} is deze Co-Op begonnen."  />
-			<text id="coop_msg_1" name="{0} heeft zich aangesloten bij de Co-Op."  />
-			<text id="coop_msg_2" name="{0} heeft de Co-Op verlaten."  />
-			<text id="coop_msg_3" name="{0} wil {1} {2} keer produceren."  />
-			<text id="coop_msg_4" name="{0} heeft {1} geproduceerd"  />
-			<text id="coop_msg_5" name="{0} heeft de Co-Op uitgebreid."  />
-		</coop_msg>
-		<dialogs>
-			<text id="dialogs_achievement_title" name="Mijlpalen"  />
-			<text id="dialogs_advertisementfinal_copy" name="Je promotie is afgelopen! Moet je de resulaten eens zien! Hoe zal de volgende promotie verlopen?"  />
-			<text id="dialogs_advertisementfinal_title" name="Gefeliciteerd!"  />
-			<text id="dialogs_advertisementrunning_copy" name="De promotie loopt op dit moment. Je kunt hier kijken hoe het ervoor staat."  />
-			<text id="dialogs_advertisementrunning_time" name="Resterende tijd"  />
-			<text id="dialogs_advertisementrunning_title" name="Lopende promotie"  />
-			<text id="dialogs_advertisement_btn_start" name="Beginnen"  />
-			<text id="dialogs_advertisement_flyer_copy" name="Verhoog je populariteit!"  />
-			<text id="dialogs_advertisement_flyer_reward" name="{0} punten"  />
-			<text id="dialogs_advertisement_flyer_title" name="Reclamepamflet"  />
-			<text id="dialogs_advertisement_magazine_copy" name="Elke klant koopt twee keer zoveel!"  />
-			<text id="dialogs_advertisement_magazine_reward" name="x {0}"  />
-			<text id="dialogs_advertisement_magazine_title" name="Tijdschriftadvertentie"  />
-			<text id="dialogs_advertisement_title" name="Promotie"  />
-			<text id="dialogs_advertisement_tv_copy" name="Elke klant die bij je winkelt levert je XP op!"  />
-			<text id="dialogs_advertisement_tv_title" name="Televisiereclame"  />
-			<text id="dialogs_avatarselection_copy" name="Die naam is al in gebruik. Wat dacht je van:"  />
-			<text id="dialogs_avatarselection_title" name="Oeps"  />
-			<text id="dialogs_avatar_female" name="Meisje"  />
-			<text id="dialogs_avatar_male" name="Jongen"  />
-			<text id="dialogs_avatar_name" name="Naam:"  />
-			<text id="dialogs_avatar_randombtn" name="Willekeurige outfit"  />
-			<text id="dialogs_avatar_title" name="Creëer je karakter."  />
-			<text id="dialogs_bonus_cashdesk_copy" name="Je kunt nu een nieuwe kassa in je boetiek plaatsen!"  />
-			<text id="dialogs_bonus_cashdesk_title" name="Nieuwe kassa"  />
-			<text id="dialogs_bonus_changingroom_copy" name="Je hebt een nieuw pashokje vrijgespeeld"  />
-			<text id="dialogs_bonus_changingroom_title" name="Nieuw pashokje"  />
-			<text id="dialogs_bonus_counter_copy" name="Je kunt een extra schap kopen!"  />
-			<text id="dialogs_bonus_counter_title" name="Nieuw schap"  />
-			<text id="dialogs_bonus_expand_copy" name="Je hebt uitgebreid en hebt nu veel meer ruimte voor je klanten, decoraties en meer!"  />
-			<text id="dialogs_bonus_expand_title" name="Uitbreiding!"  />
-			<text id="dialogs_bonus_factory_copy" name="Je kunt nu nog een kracht aan je boetiek toevoegen om meer spullen te produceren."  />
-			<text id="dialogs_bonus_factory_title" name="Nieuwe krachten"  />
-			<text id="dialogs_bonus_level2_copy" name="Wist je dat je de boetiek kunt vergroten om zo meer ruimte te maken voor klanten en spullen?"  />
-			<text id="dialogs_bonus_level5_copy" name="Koop meer spullen of verdien extra XP om je boetiek nog populairder te maken."  />
-			<text id="dialogs_bonus_levelUp_copy" name="Gefeliciteerd! Je hebt een nieuw level bereikt!"  />
-			<text id="dialogs_bonus_levelUp_title" name="LEVEL UP!"  />
-			<text id="dialogs_bonus_level_title" name="Let op!"  />
-			<text id="dialogs_bonus_login_copy" name="Dit is er in je boetiek gebeurd toen je er niet was:"  />
-			<text id="dialogs_bonus_login_copy2" name="LOGIN BONUS"  />
-			<text id="dialogs_bonus_login_title" name="Daar ben je weer!"  />
-			<text id="dialogs_bonus_pattern_copy" name="Je hebt nieuwe patronen vrijgespeeld:"  />
-			<text id="dialogs_bonus_pattern_title" name="Nieuwe patronen"  />
-			<text id="dialogs_booster_btnbuypolice" name="Aannemen/Verlengen"  />
-			<text id="dialogs_booster_policeman_notime" name="inactief"  />
-			<text id="dialogs_booster_title" name="Versneller"  />
-			<text id="dialogs_changepassword_newpassword" name="Nieuw wachtwoord:"  />
-			<text id="dialogs_changepassword_oldpassword" name="Oud wachtwoord:"  />
-			<text id="dialogs_changepassword_title" name="Wachtwoord wijzigen"  />
-			<text id="dialogs_coopreward_finish_0" name="Goud"  />
-			<text id="dialogs_coopreward_finish_1" name="Zilver"  />
-			<text id="dialogs_coopreward_finish_2" name="Bronzen"  />
-			<text id="dialogs_coopreward_title_fail" name="Voordeelpakket mislukt!"  />
-			<text id="dialogs_coopreward_title_success" name="Voordeelpakket bereikt met {0}"  />
-			<text id="dialogs_coopshelp_copy" name="Hier kun je pdrachten samen met je vrienden uitvoeren en extra XP en Fashiondollars verdienen.
+3. Laat de muisknop weer los." />
+		<text id="alerts_placetiles_title" name="Tegels plaatsen?" />
+		<text id="alerts_register_copy_addgold" name="Je moet je eerst registreren voor je hier kunt winkelen." />
+		<text id="alerts_register_copy_advertisement" name="Je moet je eerst registreren om reclame voor je boetiek te kunnen maken." />
+		<text id="alerts_register_copy_changeavatar" name="Je moet je eerst registreren om je look te kunnen veranderen!" />
+		<text id="alerts_register_copy_changepassword" name="Alleen geregistreerde gebruikers kunnen hun wachtwoord veranderen!" />
+		<text id="alerts_register_copy_coop" name="Je moet je eerst registreren voor je deel kunt nemen aan een Co-Op!" />
+		<text id="alerts_register_copy_gifts" name="Je moet je eerst registreren om cadeaus te kunnen versturen." />
+		<text id="alerts_register_copy_invitefriend" name="Je moet je eerst registreren voor je andere vrienden kunt uitnodigen." />
+		<text id="alerts_register_copy_logout" name="Registreer je om je voortgang op te slaan!" />
+		<text id="alerts_register_title" name="Registreren" />
+		<text id="alerts_servermsg_10" name="De server wordt opnieuw opgestart. Je kunt zo weer verder.
+Meld je af." />
+		<text id="alerts_servermsg_title" name="Serverbericht!" />
+		<text id="alerts_staff_fire_copy" name="Weet je zeker dat je je kassière wilt ontslaan? 
+Als je niet genoeg kassières hebt, moeten je klanten langer wachten." />
+		<text id="alerts_staff_fire_title" name="Kassahulp ontslaan?" />
+		<text id="alerts_staff_hire_copy" name="Wil je een nieuwe kassière inhuren?" />
+		<text id="alerts_staff_hire_title" name="Nieuwe kassa" />
+		<text id="alerts_versioncheck_copy" name="Vernieuw de pagina om de nieuwste versie te laden." />
+		<text id="alerts_versioncheck_title" name="Oude versie!" />
+	</alerts>
+	<cloth>
+		<text id="cloth_blackbowlermale" name="Hoge hoed" />
+		<text id="cloth_blackdressfemale" name="Zwart jurkje" />
+		<text id="cloth_blackhandbagfemale" name="Zwarte shopper" />
+		<text id="cloth_blackheelsfemale" name="Zwarte pumps" />
+		<text id="cloth_blackjacketmale" name="Eenvoudig leren jack" />
+		<text id="cloth_blackpant2male" name="GeeCee spijkerbroek" />
+		<text id="cloth_blackpantfemale" name="Zwarte skinnybroek voor meisjes" />
+		<text id="cloth_blackpantmale" name="Zwarte skinny broek voor jongens" />
+		<text id="cloth_blacksuitmale" name="Gestreept pak" />
+		<text id="cloth_blackwatchmale" name="Zwart horloge" />
+		<text id="cloth_bluebaggypantsfemale" name="JayJay baggy broek voor meisjes" />
+		<text id="cloth_blueblousefemale" name="Blauwe blouse" />
+		<text id="cloth_bluecapfemale" name="Blauwe honkbalpet" />
+		<text id="cloth_bluecapmale" name="Blauwe honkbalpet" />
+		<text id="cloth_blueheadphones" name="JayJay koptelefoons" />
+		<text id="cloth_bluenecklacefemale" name="Blauwe parelketting" />
+		<text id="cloth_bluepolomale" name="Blauw poloshirt" />
+		<text id="cloth_blueshirtmale" name="Blauw T-shirt" />
+		<text id="cloth_bluesweatermale" name="JayJay blauwe jongenstrui" />
+		<text id="cloth_bootsfemale" name="GeeCee meisjeslaarzen" />
+		<text id="cloth_brownknitcapfemale" name="Bruine handtas" />
+		<text id="cloth_brownknitcapmale" name="Bruine handtas" />
+		<text id="cloth_cardiganfemale" name="GeeCee meisjesvest" />
+		<text id="cloth_cardiganmale" name="GeeCee jongensvest" />
+		<text id="cloth_charlestonhatfemale" name="Ouderwetse hoed" />
+		<text id="cloth_checkshirtfemale" name="JayJay geruit shirt voor meisjes" />
+		<text id="cloth_checkshirtmale" name="JayJay geruit hemd voor jongens" />
+		<text id="cloth_customcloth" name="Bepaal je look!" />
+		<text id="cloth_darkbluejeansfemale" name="Donkerblauwe damesspijkerbroek" />
+		<text id="cloth_darkbluejeansmale" name="Donkerblauwe mannenspijkerbroek" />
+		<text id="cloth_dressfemale" name="GeeCee meisjesjurk" />
+		<text id="cloth_flowerskirtfemale" name="GeeDee bloemetjesrok" />
+		<text id="cloth_ggsshirtmale" name="GeeCee T-shirt" />
+		<text id="cloth_goldnecklacefemale" name="Gouden ketting" />
+		<text id="cloth_greendressfemale" name="GeeDee jurk" />
+		<text id="cloth_greenjacketfemale" name="JayJay windjack voor meisjes" />
+		<text id="cloth_greenjacketmale" name="JayJay windjack voor jongens" />
+		<text id="cloth_greenpulloverfemale" name="Groene koltrui" />
+		<text id="cloth_greenshirtmale" name="GeeDee jongenshemd" />
+		<text id="cloth_greysuitmale" name="Grijs pak" />
+		<text id="cloth_lightbluejeansfemale" name="Blauwe spijkerbroek voor dames" />
+		<text id="cloth_lightbluejeansmale" name="Blauwe spijkerbroek voor mannen" />
+		<text id="cloth_manblackmale" name="Zwarte lakschoenen" />
+		<text id="cloth_manbrownmale" name="Bruine leren schoenen" />
+		<text id="cloth_orangeknitcapfemale" name="Oranje beanie" />
+		<text id="cloth_orangeknitcapmale" name="Oranje beanie" />
+		<text id="cloth_perlnecklacefemale" name="Eenvoudige parelketting" />
+		<text id="cloth_pinkhangbagfemale" name="Lapjestas" />
+		<text id="cloth_pinkshirtfemale" name="Roze poloshirt" />
+		<text id="cloth_premiumbluejacketmale" name="Lentejasje" />
+		<text id="cloth_premiumgreenjacketfemale" name="Lentejas" />
+		<text id="cloth_premiumjumpsuitfemale" name="GeeDee jumpsuit voor meisjes" />
+		<text id="cloth_premiumshortsmale" name="GeeDee korte broek voor jongens" />
+		<text id="cloth_purplehandbagfemale" name="GeeCee handtas" />
+		<text id="cloth_purplepulloverfemale" name="Paarse koltrui" />
+		<text id="cloth_purpletshirtfemale" name="JayJay T-shirt voor meisjes" />
+		<text id="cloth_redcapfemale" name="Rode honkbalpet" />
+		<text id="cloth_redcapmale" name="Rode honkbalpet" />
+		<text id="cloth_reddressfemale" name="Strapless avondjurk" />
+		<text id="cloth_redheelsfemale" name="Rode pumps" />
+		<text id="cloth_redskirtfemale" name="Rode rok met strik" />
+		<text id="cloth_redsneakermale" name="JayJay rode gympies voor jongens" />
+		<text id="cloth_redtopfemale" name="Rode glittertop" />
+		<text id="cloth_scraffemale" name="GeeCee stippelsjaal" />
+		<text id="cloth_scrafmale" name="GeeCee jongenssjaal" />
+		<text id="cloth_silvernecklacefemale" name="Zilveren ketting" />
+		<text id="cloth_silverwatchmale" name="Zilveren horloge" />
+		<text id="cloth_sneakersfemale" name="Witte sneaker" />
+		<text id="cloth_sneakersgreenmale" name="GeeCee groene gympies" />
+		<text id="cloth_sneakersmale" name="Witte sneaker" />
+		<text id="cloth_strawberrysneakerfemale" name="JayJay aardbeischoenen" />
+		<text id="cloth_stripedshirtmale" name="GeeDee gestreept jongenshemd" />
+		<text id="cloth_stripedtopfemale" name="GeeDee zomertopje voor meisjes" />
+		<text id="cloth_stripedtshirtmale" name="JayJay gestreept T-shirt voor jongens" />
+		<text id="cloth_sweathoodiemale" name="GeeDee hoodie voor jongens" />
+		<text id="cloth_trenchcoatmale" name="Zwarte regenjas" />
+		<text id="cloth_whiteshirtmale" name="Wit hemd" />
+		<text id="cloth_whiteskirtfemale" name="Witte minirok" />
+		<text id="cloth_yellowdressfemale" name="Schattige cocktailjurk" />
+		<text id="cloth_omelettesweatermale" name="Omelette Icon Sweater" />
+		<text id="cloth_omelettedressfemale" name="Omelette Diva Dress" />
+		<text id="cloth_dancingchefdress" name="Dancing Chef Dress" />
+		<text id="cloth_dancingchefsweater" name="Dancing Chef Sweater" />
+	</cloth>
+	<commons>
+		<text id="achievement_rang" name="Rang {0}/{1}" />
+		<text id="comingsoon" name="*Binnenkort beschikbaar*" />
+		<text id="currency_cash" name="Fashiondollars" />
+		<text id="currency_gold" name="Gouden Knopen" />
+		<text id="currency_gold_single" name="Gouden Knoop" />
+		<text id="factorytyp_accessories" name="Accessoires" />
+		<text id="factorytyp_clothes" name="Kleding" />
+		<text id="factorytyp_shoes" name="Schoenen" />
+		<text id="friendscount" name="Vrienden {0}" />
+		<text id="levelcount" name="Level {0}" />
+		<text id="levellabel" name="Level" />
+		<text id="mastery" name="Merkniveau" />
+		<text id="new" name="Nieuw!" />
+		<text id="xplabel" name="XP" />
+	</commons>
+	<coopmission>
+		<text id="coop_desc_1" name="Wat leuke basisdingen voor een picknick!" />
+		<text id="coop_desc_10" name="Het belooft een mooie avond te worden voor je eindfeest!" />
+		<text id="coop_desc_11" name="Klassiekers voor mannen!" />
+		<text id="coop_desc_2" name="Perfecte outfit voor een sporttoernooi!" />
+		<text id="coop_desc_3" name="Mensen en muziek de hele nacht lang!" />
+		<text id="coop_desc_4" name="Het perfecte cadeau voor elke gelegenheid!" />
+		<text id="coop_desc_5" name="Er gaat niets boven een goed zittend pak!" />
+		<text id="coop_desc_6" name="Schoenen in overvloed!" />
+		<text id="coop_desc_7" name="Rokjes, tops en schoenen... allemaal in rood!" />
+		<text id="coop_desc_8" name="Jurken, jurken en nog eens jurken voor onze meisjes!" />
+		<text id="coop_desc_9" name="Perfect voor danslessen!" />
+		<text id="coop_title_1" name="Picnicktijd!" />
+		<text id="coop_title_10" name="Gala!" />
+		<text id="coop_title_11" name="Zwart is het nieuwe zwart" />
+		<text id="coop_title_2" name="Alle sporten!" />
+		<text id="coop_title_3" name="Uitverkocht!" />
+		<text id="coop_title_4" name="Geweldige cadeaus!" />
+		<text id="coop_title_5" name="Alleen voor mannen!" />
+		<text id="coop_title_6" name="Overal schoenen!" />
+		<text id="coop_title_7" name="Dame in het rood!" />
+		<text id="coop_title_8" name="Meisjesmode!" />
+		<text id="coop_title_9" name="Danslessen!" />
+	</coopmission>
+	<coop_msg>
+		<text id="coop_msg_0" name="{0} is deze Co-Op begonnen." />
+		<text id="coop_msg_1" name="{0} heeft zich aangesloten bij de Co-Op." />
+		<text id="coop_msg_2" name="{0} heeft de Co-Op verlaten." />
+		<text id="coop_msg_3" name="{0} wil {1} {2} keer produceren." />
+		<text id="coop_msg_4" name="{0} heeft {1} geproduceerd" />
+		<text id="coop_msg_5" name="{0} heeft de Co-Op uitgebreid." />
+	</coop_msg>
+	<dialogs>
+		<text id="dialogs_achievement_title" name="Mijlpalen" />
+		<text id="dialogs_advertisementfinal_copy" name="Je promotie is afgelopen! Moet je de resulaten eens zien! Hoe zal de volgende promotie verlopen?" />
+		<text id="dialogs_advertisementfinal_title" name="Gefeliciteerd!" />
+		<text id="dialogs_advertisementrunning_copy" name="De promotie loopt op dit moment. Je kunt hier kijken hoe het ervoor staat." />
+		<text id="dialogs_advertisementrunning_time" name="Resterende tijd" />
+		<text id="dialogs_advertisementrunning_title" name="Lopende promotie" />
+		<text id="dialogs_advertisement_btn_start" name="Beginnen" />
+		<text id="dialogs_advertisement_flyer_copy" name="Verhoog je populariteit!" />
+		<text id="dialogs_advertisement_flyer_reward" name="{0} punten" />
+		<text id="dialogs_advertisement_flyer_title" name="Reclamepamflet" />
+		<text id="dialogs_advertisement_magazine_copy" name="Elke klant koopt twee keer zoveel!" />
+		<text id="dialogs_advertisement_magazine_reward" name="x {0}" />
+		<text id="dialogs_advertisement_magazine_title" name="Tijdschriftadvertentie" />
+		<text id="dialogs_advertisement_title" name="Promotie" />
+		<text id="dialogs_advertisement_tv_copy" name="Elke klant die bij je winkelt levert je XP op!" />
+		<text id="dialogs_advertisement_tv_title" name="Televisiereclame" />
+		<text id="dialogs_avatarselection_copy" name="Die naam is al in gebruik. Wat dacht je van:" />
+		<text id="dialogs_avatarselection_title" name="Oeps" />
+		<text id="dialogs_avatar_female" name="Meisje" />
+		<text id="dialogs_avatar_male" name="Jongen" />
+		<text id="dialogs_avatar_name" name="Naam:" />
+		<text id="dialogs_avatar_randombtn" name="Willekeurige outfit" />
+		<text id="dialogs_avatar_title" name="Creëer je karakter." />
+		<text id="dialogs_bonus_cashdesk_copy" name="Je kunt nu een nieuwe kassa in je boetiek plaatsen!" />
+		<text id="dialogs_bonus_cashdesk_title" name="Nieuwe kassa" />
+		<text id="dialogs_bonus_changingroom_copy" name="Je hebt een nieuw pashokje vrijgespeeld" />
+		<text id="dialogs_bonus_changingroom_title" name="Nieuw pashokje" />
+		<text id="dialogs_bonus_counter_copy" name="Je kunt een extra schap kopen!" />
+		<text id="dialogs_bonus_counter_title" name="Nieuw schap" />
+		<text id="dialogs_bonus_expand_copy" name="Je hebt uitgebreid en hebt nu veel meer ruimte voor je klanten, decoraties en meer!" />
+		<text id="dialogs_bonus_expand_title" name="Uitbreiding!" />
+		<text id="dialogs_bonus_factory_copy" name="Je kunt nu nog een kracht aan je boetiek toevoegen om meer spullen te produceren." />
+		<text id="dialogs_bonus_factory_title" name="Nieuwe krachten" />
+		<text id="dialogs_bonus_level2_copy" name="Wist je dat je de boetiek kunt vergroten om zo meer ruimte te maken voor klanten en spullen?" />
+		<text id="dialogs_bonus_level5_copy" name="Koop meer spullen of verdien extra XP om je boetiek nog populairder te maken." />
+		<text id="dialogs_bonus_levelUp_copy" name="Gefeliciteerd! Je hebt een nieuw level bereikt!" />
+		<text id="dialogs_bonus_levelUp_title" name="LEVEL UP!" />
+		<text id="dialogs_bonus_level_title" name="Let op!" />
+		<text id="dialogs_bonus_login_copy" name="Dit is er in je boetiek gebeurd toen je er niet was:" />
+		<text id="dialogs_bonus_login_copy2" name="LOGIN BONUS" />
+		<text id="dialogs_bonus_login_title" name="Daar ben je weer!" />
+		<text id="dialogs_bonus_pattern_copy" name="Je hebt nieuwe patronen vrijgespeeld:" />
+		<text id="dialogs_bonus_pattern_title" name="Nieuwe patronen" />
+		<text id="dialogs_booster_btnbuypolice" name="Aannemen/Verlengen" />
+		<text id="dialogs_booster_policeman_notime" name="inactief" />
+		<text id="dialogs_booster_title" name="Versneller" />
+		<text id="dialogs_changepassword_newpassword" name="Nieuw wachtwoord:" />
+		<text id="dialogs_changepassword_oldpassword" name="Oud wachtwoord:" />
+		<text id="dialogs_changepassword_title" name="Wachtwoord wijzigen" />
+		<text id="dialogs_coopreward_finish_0" name="Goud" />
+		<text id="dialogs_coopreward_finish_1" name="Zilver" />
+		<text id="dialogs_coopreward_finish_2" name="Bronzen" />
+		<text id="dialogs_coopreward_title_fail" name="Voordeelpakket mislukt!" />
+		<text id="dialogs_coopreward_title_success" name="Voordeelpakket bereikt met {0}" />
+		<text id="dialogs_coopshelp_copy" name="Hier kun je pdrachten samen met je vrienden uitvoeren en extra XP en Fashiondollars verdienen.
 Hoe sneller je bent, des te hoger je beloning.
 
 En als je tijd tekort komt, verleng je de tijd gewoon!
 
-Vergeet niet dat je de beloning alleen ontvangt als je een bijdrage levert!"  />
-			<text id="dialogs_coopshelp_title" name="Wat zijn Co-Ops?"  />
-			<text id="dialogs_coop_btn_action" name="Details"  />
-			<text id="dialogs_coop_btn_activecoops" name="Actief"  />
-			<text id="dialogs_coop_btn_join" name="Deelnemen"  />
-			<text id="dialogs_coop_btn_newcoop" name="Co-Op beginnen"  />
-			<text id="dialogs_coop_btn_progress" name="Voortgang"  />
-			<text id="dialogs_coop_btn_protocol" name="Protocol"  />
-			<text id="dialogs_coop_btn_quit" name="Verlaten"  />
-			<text id="dialogs_coop_extendtime_copy" name="Wil je je Co-Op uitbreiden voor {0} Gouden Knopen?
+Vergeet niet dat je de beloning alleen ontvangt als je een bijdrage levert!" />
+		<text id="dialogs_coopshelp_title" name="Wat zijn Co-Ops?" />
+		<text id="dialogs_coop_btn_action" name="Details" />
+		<text id="dialogs_coop_btn_activecoops" name="Actief" />
+		<text id="dialogs_coop_btn_join" name="Deelnemen" />
+		<text id="dialogs_coop_btn_newcoop" name="Co-Op beginnen" />
+		<text id="dialogs_coop_btn_progress" name="Voortgang" />
+		<text id="dialogs_coop_btn_protocol" name="Protocol" />
+		<text id="dialogs_coop_btn_quit" name="Verlaten" />
+		<text id="dialogs_coop_extendtime_copy" name="Wil je je Co-Op uitbreiden voor {0} Gouden Knopen?
 Gouden tijd: {1}Zilveren tjd: {2}
-Bronzen tijd: {3}"  />
-			<text id="dialogs_coop_extendtime_title" name="Meer tijd?"  />
-			<text id="dialogs_coop_maxuser" name="Max. deelnemers: {0}"  />
-			<text id="dialogs_coop_member" name="Voordeelpakket leden:"  />
-			<text id="dialogs_coop_minlevel" name="Max. level voor deelname aan Co-Op: {0}"  />
-			<text id="dialogs_coop_minlevel_short" name="Min level: {0}"  />
-			<text id="dialogs_coop_produce_copy" name="Hoe vaak wil je {0} produceren voor deze Co-Op?"  />
-			<text id="dialogs_coop_produce_title" name="Voor Co-Op produceren?"  />
-			<text id="dialogs_coop_quit_copy" name="Weet je zeker dat je deze Co-Op wilt verlaten?"  />
-			<text id="dialogs_coop_subtitle" name="Te produceren:"  />
-			<text id="dialogs_coop_timeInfo" name="Bereikt in:"  />
-			<text id="dialogs_coop_timeleft" name="Resterende tijd:"  />
-			<text id="dialogs_coop_txt_noactive" name="Geen actieve Co-Ops op dit moment.
-Begin een nieuwe!"  />
-			<text id="dialogs_coop_txt_title" name="Voordeelpakketten"  />
-			<text id="dialogs_counterclick_btndonate" name="Doneer"  />
-			<text id="dialogs_counterclick_copy" name="De volgende spullen liggen op dit schap."  />
-			<text id="dialogs_counterclick_title" name="Schap"  />
-			<text id="dialogs_customclothbuy_copy" name="Weet je zeker dat je {0} permanent aan je catalogus wilt toevoegen voor {1} Gouden Knopen?"  />
-			<text id="dialogs_customclothbuy_title" name="Koop ontwerp"  />
-			<text id="dialogs_customclothhelp_copy" name="Hier kun je je eigen kleding maken!
+Bronzen tijd: {3}" />
+		<text id="dialogs_coop_extendtime_title" name="Meer tijd?" />
+		<text id="dialogs_coop_maxuser" name="Max. deelnemers: {0}" />
+		<text id="dialogs_coop_member" name="Voordeelpakket leden:" />
+		<text id="dialogs_coop_minlevel" name="Max. level voor deelname aan Co-Op: {0}" />
+		<text id="dialogs_coop_minlevel_short" name="Min level: {0}" />
+		<text id="dialogs_coop_produce_copy" name="Hoe vaak wil je {0} produceren voor deze Co-Op?" />
+		<text id="dialogs_coop_produce_title" name="Voor Co-Op produceren?" />
+		<text id="dialogs_coop_quit_copy" name="Weet je zeker dat je deze Co-Op wilt verlaten?" />
+		<text id="dialogs_coop_subtitle" name="Te produceren:" />
+		<text id="dialogs_coop_timeInfo" name="Bereikt in:" />
+		<text id="dialogs_coop_timeleft" name="Resterende tijd:" />
+		<text id="dialogs_coop_txt_noactive" name="Geen actieve Co-Ops op dit moment.
+Begin een nieuwe!" />
+		<text id="dialogs_coop_txt_title" name="Voordeelpakketten" />
+		<text id="dialogs_counterclick_btndonate" name="Doneer" />
+		<text id="dialogs_counterclick_copy" name="De volgende spullen liggen op dit schap." />
+		<text id="dialogs_counterclick_title" name="Schap" />
+		<text id="dialogs_customclothbuy_copy" name="Weet je zeker dat je {0} permanent aan je catalogus wilt toevoegen voor {1} Gouden Knopen?" />
+		<text id="dialogs_customclothbuy_title" name="Koop ontwerp" />
+		<text id="dialogs_customclothhelp_copy" name="Hier kun je je eigen kleding maken!
 Kies de vorm en de kleur!
 De vorm bepaalt de productietijd en je winst.
 Het patroon is vervolgens 24 uur beschikbaar.
-Als je het patroon wilt houden, kun je het permanent aan je catalogus toevoegen!"  />
-			<text id="dialogs_customclothinfo_title" name="Je eigen stijl!"  />
-			<text id="dialogs_customcloth_btn_choose" name="Kies"  />
-			<text id="dialogs_customcloth_entername" name="Geef mij een naam!"  />
-			<text id="dialogs_customcloth_icon" name="Print"  />
-			<text id="dialogs_customcloth_shape" name="Vorm"  />
-			<text id="dialogs_customcloth_title" name="Je ontwerp bepaalt de stijl!"  />
-			<text id="dialogs_decoshophelp_copy" name="Als je meubels en decoraties naar dit tabblad verplaatst en NIET naar de kassa, dan worden de spullen in de opslag geplaatst.
+Als je het patroon wilt houden, kun je het permanent aan je catalogus toevoegen!" />
+		<text id="dialogs_customclothinfo_title" name="Je eigen stijl!" />
+		<text id="dialogs_customcloth_btn_choose" name="Kies" />
+		<text id="dialogs_customcloth_entername" name="Geef mij een naam!" />
+		<text id="dialogs_customcloth_icon" name="Print" />
+		<text id="dialogs_customcloth_shape" name="Vorm" />
+		<text id="dialogs_customcloth_title" name="Je ontwerp bepaalt de stijl!" />
+		<text id="dialogs_decoshophelp_copy" name="Als je meubels en decoraties naar dit tabblad verplaatst en NIET naar de kassa, dan worden de spullen in de opslag geplaatst.
 Als je ze terug naar de boetiek sleept, kost je dat geld.
-Naast het lege veld kun je het nummer voor elk voorwerp bekijken."  />
-			<text id="dialogs_decoshophelp_copy_1" name="De meubels en decoraties hebben een luxewaarde die, als je alles bij elkaar optelt, de luxewaarde van je boetiek vergroten! Hoe luxe is jouw boetiek?"  />
-			<text id="dialogs_decoshophelp_title" name="Schappen of decoraties in je opslag plaatsen?"  />
-			<text id="dialogs_decoshophelp_title_1" name="Luxewaarde?"  />
-			<text id="dialogs_factoryclick_btn_cancel" name="Productie stoppen"  />
-			<text id="dialogs_factoryclick_copy" name="Wil je &#039;Nu klaar zijn&#039;? Je kan dat nog {0} keer doen vandaag."  />
-			<text id="dialogs_factoryclick_title" name="Lopende productie!"  />
-			<text id="dialogs_fashionbook_durationtime" name="Duur: {0}"  />
-			<text id="dialogs_fashionbook_emptypattern" name="Er zijn nog geen nieuwe patronen beschikbaar."  />
-			<text id="dialogs_fashionbook_emptypatterncustomcloth" name="Hier vind je je eigen aangepaste patronen!"  />
-			<text id="dialogs_fashionbook_emptyproducts" name="Je hebt patronen nodig om spullen te kunnen produren.
+Naast het lege veld kun je het nummer voor elk voorwerp bekijken." />
+		<text id="dialogs_decoshophelp_copy_1" name="De meubels en decoraties hebben een luxewaarde die, als je alles bij elkaar optelt, de luxewaarde van je boetiek vergroten! Hoe luxe is jouw boetiek?" />
+		<text id="dialogs_decoshophelp_title" name="Schappen of decoraties in je opslag plaatsen?" />
+		<text id="dialogs_decoshophelp_title_1" name="Luxewaarde?" />
+		<text id="dialogs_factoryclick_btn_cancel" name="Productie stoppen" />
+		<text id="dialogs_factoryclick_copy" name="Wil je &amp;#039;Nu klaar zijn&amp;#039;? Je kan dat nog {0} keer doen vandaag." />
+		<text id="dialogs_factoryclick_title" name="Lopende productie!" />
+		<text id="dialogs_fashionbook_durationtime" name="Duur: {0}" />
+		<text id="dialogs_fashionbook_emptypattern" name="Er zijn nog geen nieuwe patronen beschikbaar." />
+		<text id="dialogs_fashionbook_emptypatterncustomcloth" name="Hier vind je je eigen aangepaste patronen!" />
+		<text id="dialogs_fashionbook_emptyproducts" name="Je hebt patronen nodig om spullen te kunnen produren.
 
-Kies er een paar uit de catalogus."  />
-			<text id="dialogs_fashionbook_pieces" name="Aantal:"  />
-			<text id="dialogs_fashionbook_productionPrice" name="{0} productiekosten"  />
-			<text id="dialogs_fashionbook_saleprice" name="per stuk"  />
-			<text id="dialogs_featureUnlocked_advertisement" name="Zet je boetiek in de kijker met reclame!"  />
-			<text id="dialogs_featureUnlocked_arcades" name="Zoek nieuwe vrienden in de winkelgalerij!"  />
-			<text id="dialogs_featureUnlocked_coop" name="Begin samen met je vrienden een Co-Op!"  />
-			<text id="dialogs_featureUnlocked_custompattern" name="Ontwerp vanaf nu je eigen patronen!"  />
-			<text id="dialogs_featureUnlocked_decoration" name="Er wordt nieuwe decoratie voor je vrijgespeeld!"  />
-			<text id="dialogs_featureUnlocked_policeman" name="Let op! Spullen kunnen vanaf nu gestolen worden! Het is verstandig om een bewaker in te huren!"  />
-			<text id="dialogs_featureUnlocked_ranking" name="Bezoek andere spelers op de ranglijst!"  />
-			<text id="dialogs_featureUnlocked_wheeloffortune" name="Beproef je geluk bij het Rad van Fortuin en win mooie prijzen!"  />
-			<text id="dialogs_giftbox_btnclose" name="Sluiten"  />
-			<text id="dialogs_giftbox_btnsend" name="als cadeau versturen"  />
-			<text id="dialogs_giftbox_empty_friends" name="Je kunt maar één cadeau per dag naar je vrienden sturen."  />
-			<text id="dialogs_giftbox_empty_mygifts" name="Je cadeaukist is leeg.
-Stuur wat cadeaus naar je vrienden, misschien sturen ze je er wel een paar terug."  />
-			<text id="dialogs_giftbox_empty_sendablegifts" name="Geen cadeaus vandaag."  />
-			<text id="dialogs_giftbox_friendstitle" name="Naar vrienden versturen"  />
-			<text id="dialogs_giftbox_mygiftstitle" name="Mijn cadeaus"  />
-			<text id="dialogs_giftbox_sendablegiftstitle" name="Cadeautjes versturen"  />
-			<text id="dialogs_highscore_name" name="Naam"  />
-			<text id="dialogs_highscore_rank" name="Rang"  />
-			<text id="dialogs_highscore_search" name="Naam /rang zoeken"  />
-			<text id="dialogs_highscore_title" name="Rang"  />
-			<text id="dialogs_info_goldsmith_copy" name="De goudsmid produceert alleen accessoires."  />
-			<text id="dialogs_info_goldsmith_title" name="De goudsmid"  />
-			<text id="dialogs_info_sewer_copy" name="De naaister produceert alleen kleding."  />
-			<text id="dialogs_info_sewer_title" name="De naaister"  />
-			<text id="dialogs_info_shoemaker_copy" name="De schoenmaker produceert alleen schoenen."  />
-			<text id="dialogs_info_shoemaker_title" name="De schoenmaker"  />
-			<text id="dialogs_invitefriend_copy" name="Typ de naam en het e-mailadres van je vriend(in) hier in om hem of haar uit te nodigen."  />
-			<text id="dialogs_invitefriend_emptyparam" name="Je moet elk testveld invullen."  />
-			<text id="dialogs_invitefriend_friendname" name="Naam vriend(in):"  />
-			<text id="dialogs_invitefriend_mail" name="E-mailadres van je vriend(in):"  />
-			<text id="dialogs_invitefriend_myname" name="Jouw naam:"  />
-			<text id="dialogs_invitefriend_title" name="Uitnodiging"  />
-			<text id="dialogs_lonelycash_copy" name="Iemand heeft een portemonnee achtergelaten bij Gevonden Voorwerpen!
+Kies er een paar uit de catalogus." />
+		<text id="dialogs_fashionbook_pieces" name="Aantal:" />
+		<text id="dialogs_fashionbook_productionPrice" name="{0} productiekosten" />
+		<text id="dialogs_fashionbook_saleprice" name="per stuk" />
+		<text id="dialogs_featureUnlocked_advertisement" name="Zet je boetiek in de kijker met reclame!" />
+		<text id="dialogs_featureUnlocked_arcades" name="Zoek nieuwe vrienden in de winkelgalerij!" />
+		<text id="dialogs_featureUnlocked_coop" name="Begin samen met je vrienden een Co-Op!" />
+		<text id="dialogs_featureUnlocked_custompattern" name="Ontwerp vanaf nu je eigen patronen!" />
+		<text id="dialogs_featureUnlocked_decoration" name="Er wordt nieuwe decoratie voor je vrijgespeeld!" />
+		<text id="dialogs_featureUnlocked_policeman" name="Let op! Spullen kunnen vanaf nu gestolen worden! Het is verstandig om een bewaker in te huren!" />
+		<text id="dialogs_featureUnlocked_ranking" name="Bezoek andere spelers op de ranglijst!" />
+		<text id="dialogs_featureUnlocked_wheeloffortune" name="Beproef je geluk bij het Rad van Fortuin en win mooie prijzen!" />
+		<text id="dialogs_giftbox_btnclose" name="Sluiten" />
+		<text id="dialogs_giftbox_btnsend" name="als cadeau versturen" />
+		<text id="dialogs_giftbox_empty_friends" name="Je kunt maar één cadeau per dag naar je vrienden sturen." />
+		<text id="dialogs_giftbox_empty_mygifts" name="Je cadeaukist is leeg.
+Stuur wat cadeaus naar je vrienden, misschien sturen ze je er wel een paar terug." />
+		<text id="dialogs_giftbox_empty_sendablegifts" name="Geen cadeaus vandaag." />
+		<text id="dialogs_giftbox_friendstitle" name="Naar vrienden versturen" />
+		<text id="dialogs_giftbox_mygiftstitle" name="Mijn cadeaus" />
+		<text id="dialogs_giftbox_sendablegiftstitle" name="Cadeautjes versturen" />
+		<text id="dialogs_highscore_name" name="Naam" />
+		<text id="dialogs_highscore_rank" name="Rang" />
+		<text id="dialogs_highscore_search" name="Naam /rang zoeken" />
+		<text id="dialogs_highscore_title" name="Rang" />
+		<text id="dialogs_info_goldsmith_copy" name="De goudsmid produceert alleen accessoires." />
+		<text id="dialogs_info_goldsmith_title" name="De goudsmid" />
+		<text id="dialogs_info_sewer_copy" name="De naaister produceert alleen kleding." />
+		<text id="dialogs_info_sewer_title" name="De naaister" />
+		<text id="dialogs_info_shoemaker_copy" name="De schoenmaker produceert alleen schoenen." />
+		<text id="dialogs_info_shoemaker_title" name="De schoenmaker" />
+		<text id="dialogs_invitefriend_copy" name="Typ de naam en het e-mailadres van je vriend(in) hier in om hem of haar uit te nodigen." />
+		<text id="dialogs_invitefriend_emptyparam" name="Je moet elk testveld invullen." />
+		<text id="dialogs_invitefriend_friendname" name="Naam vriend(in):" />
+		<text id="dialogs_invitefriend_mail" name="E-mailadres van je vriend(in):" />
+		<text id="dialogs_invitefriend_myname" name="Jouw naam:" />
+		<text id="dialogs_invitefriend_title" name="Uitnodiging" />
+		<text id="dialogs_lonelycash_copy" name="Iemand heeft een portemonnee achtergelaten bij Gevonden Voorwerpen!
 
-Misschien is hij van een van je vrienden?"  />
-			<text id="dialogs_lonelycash_title" name="Gevonden!"  />
-			<text id="dialogs_lonelycop_copy" name="Het hoofd van beveiliging zoekt een baan voor zijn stagiair!
-Misschien willen je vrienden hem wil inhuren!"  />
-			<text id="dialogs_lonelycop_title" name="Verzoek!"  />
-			<text id="dialogs_lonelypants_copy" name="Je kassière heeft een doos met extra kleding gevonden!
-Deel ze met je vrienden!"  />
-			<text id="dialogs_lonelypants_title" name="Wat is dat?"  />
-			<text id="dialogs_mannequindesign_empty" name="Je hebt niets in deze categorie om uit te kiezen."  />
-			<text id="dialogs_mannequindesign_title" name="Paspop"  />
-			<text id="dialogs_mannequinpaycheck_copy" name="Maak indruk op je klanten met je aanbod en combineer zoveel mogelijk kledingstukken op de paspoppen!"  />
-			<text id="dialogs_mannequinpaycheck_title" name="Waardering"  />
-			<text id="dialogs_mastery_copy_0" name="Je hebt een label verdiend voor {0}!"  />
-			<text id="dialogs_mastery_copy_1" name="Deel wat extra spulletjes met je vrienden!"  />
-			<text id="dialogs_mastery_info" name="Elk merk dat je verdient verbetert je spullen!"  />
-			<text id="dialogs_mastery_title" name="Een nieuw merk!"  />
-			<text id="dialogs_noreward_copy" name="Een andere speler was je te snel af!"  />
-			<text id="dialogs_noreward_title" name="Sorry!"  />
-			<text id="dialogs_payment_copy" name="Koop hier Gouden Knopen of Fashiondollars"  />
-			<text id="dialogs_payment_title" name="Betalingswinkel"  />
-			<text id="dialogs_perfectpants_copy" name="Je hebt vandaag {0} perfect geproduceerd!
-Geef je vrienden de overgebleven spullen!"  />
-			<text id="dialogs_perfectpants_title" name="Perfect!"  />
-			<text id="dialogs_pesentreceived_text" name="Je welkomstcadeau van {0} Gouden Knopen is aan je account toegevoegd."  />
-			<text id="dialogs_pesentreceived_title" name="Hoera!"  />
-			<text id="dialogs_pesentreminder_send" name="Versturen"  />
-			<text id="dialogs_pesentreminder_text1" name="Er liggen {0} Gouden Knopen voor je klaar als welkom terug-cadeau.
-Klik op de link in het welkomstbericht om ze op te halen."  />
-			<text id="dialogs_pesentreminder_text2" name="Je kunt deze e-mail opnieuw laten versturen."  />
-			<text id="dialogs_pesentreminder_title" name="Welkomstcadeau!"  />
-			<text id="dialogs_receivecomeback_copy_0" name="Als welkom terug-cadeau krijg je
-{0} Gouden Knopen en een coole booster!"  />
-			<text id="dialogs_receivecomeback_copy_1" name="Als welkom terug-cadeau krijg je
-{0} Gouden Knopen en de bewaker voor {1}!"  />
-			<text id="dialogs_receivecomeback_title" name="Daar ben je weer!"  />
-			<text id="dialogs_receivecop_copy" name="De stagiair is zojuist begonnen en heeft de tijd voor je bewaker met 1 uur verlengd!"  />
-			<text id="dialogs_receivecop_title" name="Aangenomen!"  />
-			<text id="dialogs_receiveitem_copy" name="Je beloning ligt in je cadeaukist!"  />
-			<text id="dialogs_receiveitem_title" name="Hoera!"  />
-			<text id="dialogs_receivemoney_copy" name="Je beloning is toegevoegd!"  />
-			<text id="dialogs_receivemoney_title" name="Hoera!"  />
-			<text id="dialogs_register_agb" name="Accepteer de gebruikersvoorwaarden"  />
-			<text id="dialogs_register_btnsave" name="Opslaan"  />
-			<text id="dialogs_register_copy_0" name="Registreer je nu gratis en voor niets!"  />
-			<text id="dialogs_register_copy_1" name="Sla je score op!"  />
-			<text id="dialogs_register_copy_2" name="Nadat je je hebt geregistreerd, ontvang je {0} Gouden Knopen als welkomstcadeau via de post."  />
-			<text id="dialogs_register_email" name="E-mail"  />
-			<text id="dialogs_register_forfree" name="GRATIS!"  />
-			<text id="dialogs_register_password" name="Wachtwoord"  />
-			<text id="dialogs_register_title" name="Registreren"  />
-			<text id="dialogs_robberyall_copy" name="Al je spullen zijn gestolen!"  />
-			<text id="dialogs_robbery_copy" name="Sommige van je spullen zijn gestolen."  />
-			<text id="dialogs_robbery_copy2" name="Leg de spullen op een schap of neem een bewaker in dienst om te voorkomen dat je wordt beroofd."  />
-			<text id="dialogs_robbery_title" name="Diefstal!"  />
-			<text id="dialogs_sale_copy" name="Klik op een schap en gebruik het uitverkoop-bord om de kleding in de uitverkoop te doen.
+Misschien is hij van een van je vrienden?" />
+		<text id="dialogs_lonelycash_title" name="Gevonden!" />
+		<text id="dialogs_lonelycop_copy" name="Het hoofd van beveiliging zoekt een baan voor zijn stagiair!
+Misschien willen je vrienden hem wil inhuren!" />
+		<text id="dialogs_lonelycop_title" name="Verzoek!" />
+		<text id="dialogs_lonelypants_copy" name="Je kassière heeft een doos met extra kleding gevonden!
+Deel ze met je vrienden!" />
+		<text id="dialogs_lonelypants_title" name="Wat is dat?" />
+		<text id="dialogs_mannequindesign_empty" name="Je hebt niets in deze categorie om uit te kiezen." />
+		<text id="dialogs_mannequindesign_title" name="Paspop" />
+		<text id="dialogs_mannequinpaycheck_copy" name="Maak indruk op je klanten met je aanbod en combineer zoveel mogelijk kledingstukken op de paspoppen!" />
+		<text id="dialogs_mannequinpaycheck_title" name="Waardering" />
+		<text id="dialogs_mastery_copy_0" name="Je hebt een label verdiend voor {0}!" />
+		<text id="dialogs_mastery_copy_1" name="Deel wat extra spulletjes met je vrienden!" />
+		<text id="dialogs_mastery_info" name="Elk merk dat je verdient verbetert je spullen!" />
+		<text id="dialogs_mastery_title" name="Een nieuw merk!" />
+		<text id="dialogs_noreward_copy" name="Een andere speler was je te snel af!" />
+		<text id="dialogs_noreward_title" name="Sorry!" />
+		<text id="dialogs_payment_copy" name="Koop hier Gouden Knopen of Fashiondollars" />
+		<text id="dialogs_payment_title" name="Betalingswinkel" />
+		<text id="dialogs_perfectpants_copy" name="Je hebt vandaag {0} perfect geproduceerd!
+Geef je vrienden de overgebleven spullen!" />
+		<text id="dialogs_perfectpants_title" name="Perfect!" />
+		<text id="dialogs_pesentreceived_text" name="Je welkomstcadeau van {0} Gouden Knopen is aan je account toegevoegd." />
+		<text id="dialogs_pesentreceived_title" name="Hoera!" />
+		<text id="dialogs_pesentreminder_send" name="Versturen" />
+		<text id="dialogs_pesentreminder_text1" name="Er liggen {0} Gouden Knopen voor je klaar als welkom terug-cadeau.
+Klik op de link in het welkomstbericht om ze op te halen." />
+		<text id="dialogs_pesentreminder_text2" name="Je kunt deze e-mail opnieuw laten versturen." />
+		<text id="dialogs_pesentreminder_title" name="Welkomstcadeau!" />
+		<text id="dialogs_receivecomeback_copy_0" name="Als welkom terug-cadeau krijg je
+{0} Gouden Knopen en een coole booster!" />
+		<text id="dialogs_receivecomeback_copy_1" name="Als welkom terug-cadeau krijg je
+{0} Gouden Knopen en de bewaker voor {1}!" />
+		<text id="dialogs_receivecomeback_title" name="Daar ben je weer!" />
+		<text id="dialogs_receivecop_copy" name="De stagiair is zojuist begonnen en heeft de tijd voor je bewaker met 1 uur verlengd!" />
+		<text id="dialogs_receivecop_title" name="Aangenomen!" />
+		<text id="dialogs_receiveitem_copy" name="Je beloning ligt in je cadeaukist!" />
+		<text id="dialogs_receiveitem_title" name="Hoera!" />
+		<text id="dialogs_receivemoney_copy" name="Je beloning is toegevoegd!" />
+		<text id="dialogs_receivemoney_title" name="Hoera!" />
+		<text id="dialogs_register_agb" name="Accepteer de gebruikersvoorwaarden" />
+		<text id="dialogs_register_btnsave" name="Opslaan" />
+		<text id="dialogs_register_copy_0" name="Registreer je nu gratis en voor niets!" />
+		<text id="dialogs_register_copy_1" name="Sla je score op!" />
+		<text id="dialogs_register_copy_2" name="Nadat je je hebt geregistreerd, ontvang je {0} Gouden Knopen als welkomstcadeau via de post." />
+		<text id="dialogs_register_email" name="E-mail" />
+		<text id="dialogs_register_forfree" name="GRATIS!" />
+		<text id="dialogs_register_password" name="Wachtwoord" />
+		<text id="dialogs_register_title" name="Registreren" />
+		<text id="dialogs_robberyall_copy" name="Al je spullen zijn gestolen!" />
+		<text id="dialogs_robbery_copy" name="Sommige van je spullen zijn gestolen." />
+		<text id="dialogs_robbery_copy2" name="Leg de spullen op een schap of neem een bewaker in dienst om te voorkomen dat je wordt beroofd." />
+		<text id="dialogs_robbery_title" name="Diefstal!" />
+		<text id="dialogs_sale_copy" name="Klik op een schap en gebruik het uitverkoop-bord om de kleding in de uitverkoop te doen.
 De prijzen gaan omlaag en de populariteit van je boetiek stijgt.
-De uitverkoop eindigt als je schap leeg is."  />
-			<text id="dialogs_sale_title" name="Uitverkoop"  />
-			<text id="dialogs_shippingconfirmation_send" name="We hebben je zojuist een welkomstcadeau gestuurd.
+De uitverkoop eindigt als je schap leeg is." />
+		<text id="dialogs_sale_title" name="Uitverkoop" />
+		<text id="dialogs_shippingconfirmation_send" name="We hebben je zojuist een welkomstcadeau gestuurd.
 
-Klik in de link in je welkomstbericht om het cadeau op te halen."  />
-			<text id="dialogs_shippingconfirmation_titel" name="Cadeautje!"  />
-			<text id="dialogs_staff_btnfire" name="Ontslaan"  />
-			<text id="dialogs_staff_btnhire" name="Aannemen"  />
-			<text id="dialogs_staff_title" name="Jouw kassières"  />
-			<text id="dialogs_wheeloffortune_beforespin" name="Geef een draai aan het Rad van Fortuin en win geweldige prijzen!"  />
-			<text id="dialogs_wheeloffortune_btn_go" name="Draaien maar!"  />
-			<text id="dialogs_wheeloffortune_btn_towheel" name="Ga naar het Rad van Fortuin!"  />
-			<text id="dialogs_wheeloffortune_copy1" name="Heb je vandaag al aan het Rad van Fortuin gedraaid?"  />
-			<text id="dialogs_wheeloffortune_info" name="De eerste draai is gratis!"  />
-			<text id="dialogs_wheeloffortune_nomoney" name="Je hebt te weining Gouden Knopen om aan het Rad van Fortuin te draaien!"  />
-			<text id="dialogs_wheeloffortune_noregister" name="Alleen geregistreerde spelers kunnen aan het Rad van Fortuin draaien!"  />
-			<text id="dialogs_wheeloffortune_nospace" name="Er is te weinig ruimte in de cadeaukist voor al je prijzen! Maak wat ruimte en geef dan een slinger aan het Rad van Fortuin!"  />
-			<text id="dialogs_wheeloffortune_title" name="Het Rad van Fortuin!"  />
-			<text id="dialogs_wheeloffortune_tryagain" name="Waarom probeer je het niet nog eens?"  />
-			<text id="dialogs_wheeloffortune_woncash" name="Gefeliciteerd! We hebben je al een prijs toegestuurd!"  />
-			<text id="dialogs_wheeloffortune_woncloth" name="Gefeliciteerd! Je vindt je prijs in de cadeaukist."  />
-			<text id="dialogs_wheeloffortune_wonitem" name="Gefeliciteerd! Je vindt je prijs in de cadeaukist."  />
-		</dialogs>
-		<error_codes>
-			<text id="error_advertisement_nolevel" name="Je moet minimaal level {0} hebben bereikt om een promotie op te kunnen zetten."  />
-			<text id="error_advertisement_nomoney" name="Je hebt te weining Gouden Knopen / Fashiondollars om aan deze promotie deel te nemen!"  />
-			<text id="error_avatar_12" name="Die naam is al in gebruik."  />
-			<text id="error_avatar_15" name="Deze gebruiker heeft al een personage."  />
-			<text id="error_avatar_genderempty" name="Kies een personage!"  />
-			<text id="error_avatar_nameinvalide" name="Je gebruikersnaam mag niet leeg zijn of speciale tekens bevatten."  />
-			<text id="error_avatar_standardname" name="Voer een gebruikersnaam in."  />
-			<text id="error_boost_nomoney" name="Je hebt te weinig geld voor deze booster."  />
-			<text id="error_cancleproduction_36" name="Je hebt geen toegang tot dit schap! Herschik wat voorwerpen."  />
-			<text id="error_changepassword_0" name="Je wachtwoord is met succes veranderd!"  />
-			<text id="error_changepassword_10" name="Dit is je oude wachtwoord niet!"  />
-			<text id="error_changepassword_copy" name="Je nieuwe wachtwoord moet meer dan twee letters bevatten en je oude wachtwoord moet correct worden ingevoerd!"  />
-			<text id="error_changepassword_title" name="Wachtwoord wijzigen"  />
-			<text id="error_chat_23" name="Je chatfunctie is tijdelijk door de beheerder uitgeschakeld!"  />
-			<text id="error_chat_24" name="Geen spam op de chat alsjeblieft!"  />
-			<text id="error_common_1" name="Fout
- Serverbericht {0}"  />
-			<text id="error_common_3" name="- DEBUG: Level te laag -"  />
-			<text id="error_common_30" name="-DEBUG: Er is geen werkkracht of schap in de boetiek-"  />
-			<text id="error_common_38" name="-DEBUG: Boetiek wordt gerenoveerd -"  />
-			<text id="error_common_5" name="- DEBUG: Onbekende WodId -"  />
-			<text id="error_common_80" name="-DEBUG: Wegberekening, vertraging te lang -"  />
-			<text id="error_common_81" name="-DEBUG: Wegberekening, negatieve vertraging-"  />
-			<text id="error_common_title" name="Let op!"  />
-			<text id="error_coop_3" name="Je moet een hoger level hebben om aan deze Co-Op deel te nemen.Je moet minimaal één patroon vrijspelen om deel te kunnen nemen."  />
-			<text id="error_coop_90" name="Je zit al bij een Co-Op!"  />
-			<text id="error_coop_91" name="Het maximum aantal deelnemer voor deze Co-Op is bereikt."  />
-			<text id="error_coop_92" name="Deze Co-Op is al gedaan!"  />
-			<text id="error_coop_93" name="Je bent vandaag al een Co-Op gestart! Je kunt er morgen nog eentje beginnen!"  />
-			<text id="error_coop_nomoney" name="Je hebt te weinig Gouden Knopen om deze Co-Op uit te breiden."  />
-			<text id="error_coop_title" name="Voordeelpakket"  />
-			<text id="error_customclothbuy_nomoney" name="Je hebt te weinig Gouden Knopen om dit patroon te kopen!"  />
-			<text id="error_customclothproduce_nomoney" name="Je hebt te weinig Fashiondollars om dit patroon te produceren!"  />
-			<text id="error_customclothunlock_nomoney" name="Je hebt te weinig Fashiondollars of Gouden Knopen om dit voorwerpen vrij te spelen!"  />
-			<text id="error_customize_nomoney" name="Je hebt te weinig Gouden Knopen om je speelfiguur te veranderen."  />
-			<text id="error_custom_nameinvalide" name="Je mag {0} niet gebruiken!"  />
-			<text id="error_deliverinfo_33" name="-DEBUG: Je spullen zijn nog niet geproduceerd-"  />
-			<text id="error_deliverinfo_35" name="-DEBUG: De werkkracht heeft niks geproduceerd-"  />
-			<text id="error_deliverinfo_36" name="Je kunt deze werkkracht niet bereiken. Ruim je boetiek een beetje op zodat je de werkkracht in ieder geval van één kant kunt bereiken."  />
-			<text id="error_deliverinfo_37" name="Er is helaas geen schap beschikbaar om je spullen op uit te stallen."  />
-			<text id="error_deliver_33" name="-DEBUG: Je spullen zijn nog niet geproduceerd-"  />
-			<text id="error_deliver_35" name="-DEBUG: De werkkracht heeft niks geproduceerd-"  />
-			<text id="error_deliver_36" name="Je hebt geen toegang tot het schap. Reorganiseer de spullen in je winkel zodat je in ieder geval één kant van het schap kunt bereiken."  />
-			<text id="error_deliver_37" name="Het schap is vol. Kies een ander schap om je spullen op uit te stallen."  />
-			<text id="error_deliver_46" name="Je kunt deze spullen niet ophangen. Kies een schap om de spullen op uit te stallen."  />
-			<text id="error_deliver_title" name="Dat gaat niet..."  />
-			<text id="error_editmode_3" name="-DEBUG: Minimum level is niet bereikt -"  />
-			<text id="error_editmode_31" name="-DEBUG: Dit object kan niet geselecteerd worden-"  />
-			<text id="error_editmode_32" name="-DEBUG: Dit artikel is niet op voorraad-"  />
-			<text id="error_editmode_37" name="-DEBUG: Er staan nog spullen op dit schap-"  />
-			<text id="error_editmode_39" name="-DEBUG: Onbekende positie-"  />
-			<text id="error_editmode_48" name="-DEBUG: Ongemotiveerde werkkrachten kunnen niet opgeslagen worden-"  />
-			<text id="error_editmode_50" name="-DEBUG: De positie is geblokkeerd-"  />
-			<text id="error_editmode_51" name="-DEBUG: Deze positie is leeg-"  />
-			<text id="error_editmode_52" name="-DEBUG: Dit object kan niet gedraaid worden-"  />
-			<text id="error_editmode_53" name="-DEBUG: Deze uitbreiding heb je al-"  />
-			<text id="error_editmode_54" name="-DEBUG: Je kunt deze uitbreiding nog niet kopen-"  />
-			<text id="error_editmode_55" name="-DEBUG: De paspop kan niet verkocht of opgeborgen worden-"  />
-			<text id="error_editmode_nomoney" name="Je hebt te weinig geld voor dit voorwerp."  />
-			<text id="error_editmode_removeMannequin" name="Zolang de paspop kleding draagt, kun je de pop niet verkopen."  />
-			<text id="error_editmode_removeminCashdesk" name="Je moet minimaal één kassa hebben zodat de klanten voor hun spullen kunnen betalen."  />
-			<text id="error_editmode_removeminChangingroom" name="Je moet minimaal één pashokje hebben zodat je klanten de kleding kunnen passen."  />
-			<text id="error_editmode_removeminCounter" name="Je hebt minimaal één schap nodig om je spullen te kunnen presenteren."  />
-			<text id="error_editmode_removeminFactory" name="Je hebt minimaal één werkkracht nodig om nieuwe spullen te kunnen produceren."  />
-			<text id="error_editmode_removeminMannequin" name="Je hebt minimaal één paspop nodig om je spullen beter te kunnen presenteren."  />
-			<text id="error_editmode_removenotallowedCounter" name="Er ligt nog kleding op dit schap!"  />
-			<text id="error_editmode_removenotallowedDoor" name="Je hebt een deur nodig! Om de deur te veranderen, moet je er eerst eentje naar je boetiek slepen."  />
-			<text id="error_editmode_removenotallowedFactory" name="Deze werkkracht produceert nog steeds!"  />
-			<text id="error_editmode_title" name="Fout bij het opfleuren"  />
-			<text id="error_fashiongame_1" name="We konden je boetiek niet downloaden. Neem contact op met de supportafdeling van Goodgame Studios."  />
-			<text id="error_fashiongame_title" name="Stomme vergissing"  />
-			<text id="error_forgotpassword_101" name="Je hebt de ontvangst van e-mailberichten geblokkeerd. Neem contact op met Support."  />
-			<text id="error_fullscreen_copy" name="Volledig scherm is niet mogelijk."  />
-			<text id="error_fullscreen_title" name="Volledig scherm"  />
-			<text id="error_gift_20" name="Er is geen ruimte op het schap voor het cadeau."  />
-			<text id="error_gift_34" name="Je hebt je cadeaulimiet bereikt.
-Wil je {0} gebruiken voor nog meer {1} Gouden Knopen?"  />
-			<text id="error_gift_37" name="Er is geen ruimte op het schap voor je cadeau."  />
-			<text id="error_gift_nomoney" name="Je hebt te weinig Gouden Knopen om nog meer cadeaus te gebruiken!"  />
-			<text id="error_gift_title" name="Cadeaus"  />
-			<text id="error_instantdesign_34" name="- DEBUG: Dagelijkse limiet bereikt -"  />
-			<text id="error_instantdesign_nomoney" name="Je hebt te weinig Gouden Knopen om de stijl van de paspop nu te veranderen."  />
-			<text id="error_instantdesign_nomoreinstant" name="Je kunt je paspoppen maar een bepaald aantal keren aankleden. Morgen kun je de paspoppen iets nieuws aantrekken."  />
-			<text id="error_instantdesign_title" name="Etalage"  />
-			<text id="error_instantwork_nomoney" name="Je hebt te weinig Gouden Knopen om de productie nu af te maken."  />
-			<text id="error_invitefriend_11" name="Deze speler is op dit moment niet online. Probeer het later nog eens!"  />
-			<text id="error_invitefriend_13" name="Je vriend(in) is al geregistreerd bij Fashion!"  />
-			<text id="error_invitefriend_14" name="Dit e-mailadres is ongeldig."  />
-			<text id="error_invitefriend_70" name="Je hebt de limiet van mogelijke vrienden bereikt!"  />
-			<text id="error_invitefriend_71" name="Maximum aantal vrienden bereikt!"  />
-			<text id="error_invitefriend_title" name="Uitnodiging mislukt"  />
-			<text id="error_job_2" name="Tijd om te stoppen! Je hebt genoeg gewerkt voor nu."  />
-			<text id="error_join_20" name="Deze boetiek is vol. Probeer het later nog eens."  />
-			<text id="error_join_21" name="-DEBUG: Al in de boetiek -"  />
-			<text id="error_join_22" name="-DEBUG: Onbekende boetiek-"  />
-			<text id="error_join_title" name="Ga de boetiek binnen"  />
-			<text id="error_login_10" name="Gebruikersnaam of wachtwoord verkeerd!"  />
-			<text id="error_login_11" name="Gebruikersnaam of wachtwoord verkeerd!"  />
-			<text id="error_login_12" name="Deze gebruiker is al aangemeld."  />
-			<text id="error_login_13" name="Deze gebruiker is al aangemeld."  />
-			<text id="error_login_14" name="Gebruikersnaam of wachtwoord verkeerd!"  />
-			<text id="error_login_15" name="Je bent al aangemeld"  />
-			<text id="error_login_16" name="Er is een fout met je speelfiguur. Neem contact op met Support."  />
-			<text id="error_lostpassword_101" name="Je hebt de ontvangst van e-mailberichten geblokkeerd. Klik op OK om e-mails te ontvangen."  />
-			<text id="error_lostpassword_11" name="Er is geen gebruiker geregistreerd op dit adres!"  />
-			<text id="error_marketplace_20" name="-DEBUG: De winkelgangen zijn vol-"  />
-			<text id="error_marketplace_21" name="-DEBUG: Je bevindt je al in de winkelgang -"  />
-			<text id="error_marketplace_title" name="Goodgame Arcades"  />
-			<text id="error_nocustomclothselected" name="Kies eerst de vorm als je iets wilt produceren!"  />
-			<text id="error_nomoney_copy" name="Sorry, dat kun je nog niet betalen."  />
-			<text id="error_nomoney_guest_copy" name="Geen geld meer?Registeer je en je verdient {0} Fashiondollars!"  />
-			<text id="error_nomoney_title" name="Gebrek aan geld"  />
-			<text id="error_npchire_nomoney" name="Je hebt te weinig Gouden Knopen om een nieuwe kassière aan te nemen."  />
-			<text id="error_patternshop_44" name="Je hebt dit patroon al gekocht."  />
-			<text id="error_patternshop_5" name="-DEBUG: Onbekende WOD-"  />
-			<text id="error_patternshop_nomoney" name="Je hebt te weinig geld voor het nieuwe patroon."  />
-			<text id="error_patternshop_title" name="Patroonprobleem"  />
-			<text id="error_police_nomoney" name="Je hebt te weinig Gouden Knopen om de bewaker in dienst te nemen."  />
-			<text id="error_register_10" name="Het wachtwoord is te kort."  />
-			<text id="error_register_102" name="Het ingevoerde e-mailadres is niet geldig."  />
-			<text id="error_register_13" name="Er is al een geregistreerde gebruiker met dit adres!"  />
-			<text id="error_register_14" name="Het ingevoerd e-mailadres klopt niet!"  />
-			<text id="error_register_19" name="Je e-mailadres is te lang."  />
-			<text id="error_register_2" name="Je hebt je e-mailadres al bevestigd."  />
-			<text id="error_register_agb" name="Je moet eerst de Algemene Voorwaarden lezen en accepteren door op de knop aan de linkerkant te klikken. Nu kun je aan de slag!"  />
-			<text id="error_register_emailinvalide" name="Het e-mailadres mag niet leeg zijn of speciale lettertekens bevatten."  />
-			<text id="error_register_passwordinvalide" name="Je wachtwoord mag niet leeg zijn of speciale karakters bevatten."  />
-			<text id="error_register_title" name="Registratiefout"  />
-			<text id="error_repair_36" name="-DEBUG: De werkkracht is niet beschikbaar-"  />
-			<text id="error_repair_48" name="-DEBUG: Werkkracht heeft al 100% motivatie-"  />
-			<text id="error_repair_nomoney" name="Je hebt te weinig Fashiondollars om de bonus te betalen."  />
-			<text id="error_repair_title" name="Repareren"  />
-			<text id="error_sale_47" name="Er liggen geen spullen op dit schap!"  />
-			<text id="error_sale_title" name="UITVERKOOP"  />
-			<text id="error_walk_23" name="-DEBUG: Je kan hier niet naartoe lopen-"  />
-			<text id="error_work_31" name="-DEBUG: De werkkracht is al aan het werk!-"  />
-			<text id="error_work_32" name="-DEBUG: Voor dit product ontbreekt het patroon-"  />
-			<text id="error_work_36" name="De weg naar de werkkracht is geblokkeerd. Probeer de boetiek opnieuw in te richten."  />
-			<text id="error_work_41" name="- DEBUG: Geen booster in de invertaris -"  />
-			<text id="error_work_45" name="-DEBUG: De productie en type werkkracht komen niet overeen-"  />
-			<text id="error_work_49" name="- DEBUG: Verkeerde booster voor deze werkkracht -"  />
-			<text id="error_work_67" name="Je patroon is niet langer beschikbaar.
-Maak een nieuwe!"  />
-			<text id="error_work_nomoney" name="Je hebt te weinig Fashiondollars om de productie te starten."  />
-			<text id="error_work_title" name="Werkweigering"  />
-		</error_codes>
-		<feature>
-			<text id="feature_0_text_0" name="Het is zover! 
+Klik in de link in je welkomstbericht om het cadeau op te halen." />
+		<text id="dialogs_shippingconfirmation_titel" name="Cadeautje!" />
+		<text id="dialogs_staff_btnfire" name="Ontslaan" />
+		<text id="dialogs_staff_btnhire" name="Aannemen" />
+		<text id="dialogs_staff_title" name="Jouw kassières" />
+		<text id="dialogs_wheeloffortune_beforespin" name="Geef een draai aan het Rad van Fortuin en win geweldige prijzen!" />
+		<text id="dialogs_wheeloffortune_btn_go" name="Draaien maar!" />
+		<text id="dialogs_wheeloffortune_btn_towheel" name="Ga naar het Rad van Fortuin!" />
+		<text id="dialogs_wheeloffortune_copy1" name="Heb je vandaag al aan het Rad van Fortuin gedraaid?" />
+		<text id="dialogs_wheeloffortune_info" name="De eerste draai is gratis!" />
+		<text id="dialogs_wheeloffortune_nomoney" name="Je hebt te weining Gouden Knopen om aan het Rad van Fortuin te draaien!" />
+		<text id="dialogs_wheeloffortune_noregister" name="Alleen geregistreerde spelers kunnen aan het Rad van Fortuin draaien!" />
+		<text id="dialogs_wheeloffortune_nospace" name="Er is te weinig ruimte in de cadeaukist voor al je prijzen! Maak wat ruimte en geef dan een slinger aan het Rad van Fortuin!" />
+		<text id="dialogs_wheeloffortune_title" name="Het Rad van Fortuin!" />
+		<text id="dialogs_wheeloffortune_tryagain" name="Waarom probeer je het niet nog eens?" />
+		<text id="dialogs_wheeloffortune_woncash" name="Gefeliciteerd! We hebben je al een prijs toegestuurd!" />
+		<text id="dialogs_wheeloffortune_woncloth" name="Gefeliciteerd! Je vindt je prijs in de cadeaukist." />
+		<text id="dialogs_wheeloffortune_wonitem" name="Gefeliciteerd! Je vindt je prijs in de cadeaukist." />
+	</dialogs>
+	<error_codes>
+		<text id="error_advertisement_nolevel" name="Je moet minimaal level {0} hebben bereikt om een promotie op te kunnen zetten." />
+		<text id="error_advertisement_nomoney" name="Je hebt te weining Gouden Knopen / Fashiondollars om aan deze promotie deel te nemen!" />
+		<text id="error_avatar_12" name="Die naam is al in gebruik." />
+		<text id="error_avatar_15" name="Deze gebruiker heeft al een personage." />
+		<text id="error_avatar_genderempty" name="Kies een personage!" />
+		<text id="error_avatar_nameinvalide" name="Je gebruikersnaam mag niet leeg zijn of speciale tekens bevatten." />
+		<text id="error_avatar_standardname" name="Voer een gebruikersnaam in." />
+		<text id="error_boost_nomoney" name="Je hebt te weinig geld voor deze booster." />
+		<text id="error_cancleproduction_36" name="Je hebt geen toegang tot dit schap! Herschik wat voorwerpen." />
+		<text id="error_changepassword_0" name="Je wachtwoord is met succes veranderd!" />
+		<text id="error_changepassword_10" name="Dit is je oude wachtwoord niet!" />
+		<text id="error_changepassword_copy" name="Je nieuwe wachtwoord moet meer dan twee letters bevatten en je oude wachtwoord moet correct worden ingevoerd!" />
+		<text id="error_changepassword_title" name="Wachtwoord wijzigen" />
+		<text id="error_chat_23" name="Je chatfunctie is tijdelijk door de beheerder uitgeschakeld!" />
+		<text id="error_chat_24" name="Geen spam op de chat alsjeblieft!" />
+		<text id="error_common_1" name="Fout
+ Serverbericht {0}" />
+		<text id="error_common_3" name="- DEBUG: Level te laag -" />
+		<text id="error_common_30" name="-DEBUG: Er is geen werkkracht of schap in de boetiek-" />
+		<text id="error_common_38" name="-DEBUG: Boetiek wordt gerenoveerd -" />
+		<text id="error_common_5" name="- DEBUG: Onbekende WodId -" />
+		<text id="error_common_80" name="-DEBUG: Wegberekening, vertraging te lang -" />
+		<text id="error_common_81" name="-DEBUG: Wegberekening, negatieve vertraging-" />
+		<text id="error_common_title" name="Let op!" />
+		<text id="error_coop_3" name="Je moet een hoger level hebben om aan deze Co-Op deel te nemen.Je moet minimaal één patroon vrijspelen om deel te kunnen nemen." />
+		<text id="error_coop_90" name="Je zit al bij een Co-Op!" />
+		<text id="error_coop_91" name="Het maximum aantal deelnemer voor deze Co-Op is bereikt." />
+		<text id="error_coop_92" name="Deze Co-Op is al gedaan!" />
+		<text id="error_coop_93" name="Je bent vandaag al een Co-Op gestart! Je kunt er morgen nog eentje beginnen!" />
+		<text id="error_coop_nomoney" name="Je hebt te weinig Gouden Knopen om deze Co-Op uit te breiden." />
+		<text id="error_coop_title" name="Voordeelpakket" />
+		<text id="error_customclothbuy_nomoney" name="Je hebt te weinig Gouden Knopen om dit patroon te kopen!" />
+		<text id="error_customclothproduce_nomoney" name="Je hebt te weinig Fashiondollars om dit patroon te produceren!" />
+		<text id="error_customclothunlock_nomoney" name="Je hebt te weinig Fashiondollars of Gouden Knopen om dit voorwerpen vrij te spelen!" />
+		<text id="error_customize_nomoney" name="Je hebt te weinig Gouden Knopen om je speelfiguur te veranderen." />
+		<text id="error_custom_nameinvalide" name="Je mag {0} niet gebruiken!" />
+		<text id="error_deliverinfo_33" name="-DEBUG: Je spullen zijn nog niet geproduceerd-" />
+		<text id="error_deliverinfo_35" name="-DEBUG: De werkkracht heeft niks geproduceerd-" />
+		<text id="error_deliverinfo_36" name="Je kunt deze werkkracht niet bereiken. Ruim je boetiek een beetje op zodat je de werkkracht in ieder geval van één kant kunt bereiken." />
+		<text id="error_deliverinfo_37" name="Er is helaas geen schap beschikbaar om je spullen op uit te stallen." />
+		<text id="error_deliver_33" name="-DEBUG: Je spullen zijn nog niet geproduceerd-" />
+		<text id="error_deliver_35" name="-DEBUG: De werkkracht heeft niks geproduceerd-" />
+		<text id="error_deliver_36" name="Je hebt geen toegang tot het schap. Reorganiseer de spullen in je winkel zodat je in ieder geval één kant van het schap kunt bereiken." />
+		<text id="error_deliver_37" name="Het schap is vol. Kies een ander schap om je spullen op uit te stallen." />
+		<text id="error_deliver_46" name="Je kunt deze spullen niet ophangen. Kies een schap om de spullen op uit te stallen." />
+		<text id="error_deliver_title" name="Dat gaat niet..." />
+		<text id="error_editmode_3" name="-DEBUG: Minimum level is niet bereikt -" />
+		<text id="error_editmode_31" name="-DEBUG: Dit object kan niet geselecteerd worden-" />
+		<text id="error_editmode_32" name="-DEBUG: Dit artikel is niet op voorraad-" />
+		<text id="error_editmode_37" name="-DEBUG: Er staan nog spullen op dit schap-" />
+		<text id="error_editmode_39" name="-DEBUG: Onbekende positie-" />
+		<text id="error_editmode_48" name="-DEBUG: Ongemotiveerde werkkrachten kunnen niet opgeslagen worden-" />
+		<text id="error_editmode_50" name="-DEBUG: De positie is geblokkeerd-" />
+		<text id="error_editmode_51" name="-DEBUG: Deze positie is leeg-" />
+		<text id="error_editmode_52" name="-DEBUG: Dit object kan niet gedraaid worden-" />
+		<text id="error_editmode_53" name="-DEBUG: Deze uitbreiding heb je al-" />
+		<text id="error_editmode_54" name="-DEBUG: Je kunt deze uitbreiding nog niet kopen-" />
+		<text id="error_editmode_55" name="-DEBUG: De paspop kan niet verkocht of opgeborgen worden-" />
+		<text id="error_editmode_nomoney" name="Je hebt te weinig geld voor dit voorwerp." />
+		<text id="error_editmode_removeMannequin" name="Zolang de paspop kleding draagt, kun je de pop niet verkopen." />
+		<text id="error_editmode_removeminCashdesk" name="Je moet minimaal één kassa hebben zodat de klanten voor hun spullen kunnen betalen." />
+		<text id="error_editmode_removeminChangingroom" name="Je moet minimaal één pashokje hebben zodat je klanten de kleding kunnen passen." />
+		<text id="error_editmode_removeminCounter" name="Je hebt minimaal één schap nodig om je spullen te kunnen presenteren." />
+		<text id="error_editmode_removeminFactory" name="Je hebt minimaal één werkkracht nodig om nieuwe spullen te kunnen produceren." />
+		<text id="error_editmode_removeminMannequin" name="Je hebt minimaal één paspop nodig om je spullen beter te kunnen presenteren." />
+		<text id="error_editmode_removenotallowedCounter" name="Er ligt nog kleding op dit schap!" />
+		<text id="error_editmode_removenotallowedDoor" name="Je hebt een deur nodig! Om de deur te veranderen, moet je er eerst eentje naar je boetiek slepen." />
+		<text id="error_editmode_removenotallowedFactory" name="Deze werkkracht produceert nog steeds!" />
+		<text id="error_editmode_title" name="Fout bij het opfleuren" />
+		<text id="error_fashiongame_1" name="We konden je boetiek niet downloaden. Neem contact op met de supportafdeling van Goodgame Studios." />
+		<text id="error_fashiongame_title" name="Stomme vergissing" />
+		<text id="error_forgotpassword_101" name="Je hebt de ontvangst van e-mailberichten geblokkeerd. Neem contact op met Support." />
+		<text id="error_fullscreen_copy" name="Volledig scherm is niet mogelijk." />
+		<text id="error_fullscreen_title" name="Volledig scherm" />
+		<text id="error_gift_20" name="Er is geen ruimte op het schap voor het cadeau." />
+		<text id="error_gift_34" name="Je hebt je cadeaulimiet bereikt.
+Wil je {0} gebruiken voor nog meer {1} Gouden Knopen?" />
+		<text id="error_gift_37" name="Er is geen ruimte op het schap voor je cadeau." />
+		<text id="error_gift_nomoney" name="Je hebt te weinig Gouden Knopen om nog meer cadeaus te gebruiken!" />
+		<text id="error_gift_title" name="Cadeaus" />
+		<text id="error_instantdesign_34" name="- DEBUG: Dagelijkse limiet bereikt -" />
+		<text id="error_instantdesign_nomoney" name="Je hebt te weinig Gouden Knopen om de stijl van de paspop nu te veranderen." />
+		<text id="error_instantdesign_nomoreinstant" name="Je kunt je paspoppen maar een bepaald aantal keren aankleden. Morgen kun je de paspoppen iets nieuws aantrekken." />
+		<text id="error_instantdesign_title" name="Etalage" />
+		<text id="error_instantwork_nomoney" name="Je hebt te weinig Gouden Knopen om de productie nu af te maken." />
+		<text id="error_invitefriend_11" name="Deze speler is op dit moment niet online. Probeer het later nog eens!" />
+		<text id="error_invitefriend_13" name="Je vriend(in) is al geregistreerd bij Fashion!" />
+		<text id="error_invitefriend_14" name="Dit e-mailadres is ongeldig." />
+		<text id="error_invitefriend_70" name="Je hebt de limiet van mogelijke vrienden bereikt!" />
+		<text id="error_invitefriend_71" name="Maximum aantal vrienden bereikt!" />
+		<text id="error_invitefriend_title" name="Uitnodiging mislukt" />
+		<text id="error_job_2" name="Tijd om te stoppen! Je hebt genoeg gewerkt voor nu." />
+		<text id="error_join_20" name="Deze boetiek is vol. Probeer het later nog eens." />
+		<text id="error_join_21" name="-DEBUG: Al in de boetiek -" />
+		<text id="error_join_22" name="-DEBUG: Onbekende boetiek-" />
+		<text id="error_join_title" name="Ga de boetiek binnen" />
+		<text id="error_login_10" name="Gebruikersnaam of wachtwoord verkeerd!" />
+		<text id="error_login_11" name="Gebruikersnaam of wachtwoord verkeerd!" />
+		<text id="error_login_12" name="Deze gebruiker is al aangemeld." />
+		<text id="error_login_13" name="Deze gebruiker is al aangemeld." />
+		<text id="error_login_14" name="Gebruikersnaam of wachtwoord verkeerd!" />
+		<text id="error_login_15" name="Je bent al aangemeld" />
+		<text id="error_login_16" name="Er is een fout met je speelfiguur. Neem contact op met Support." />
+		<text id="error_lostpassword_101" name="Je hebt de ontvangst van e-mailberichten geblokkeerd. Klik op OK om e-mails te ontvangen." />
+		<text id="error_lostpassword_11" name="Er is geen gebruiker geregistreerd op dit adres!" />
+		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
+		<text id="error_marketplace_20" name="-DEBUG: De winkelgangen zijn vol-" />
+		<text id="error_marketplace_21" name="-DEBUG: Je bevindt je al in de winkelgang -" />
+		<text id="error_marketplace_title" name="Goodgame Arcades" />
+		<text id="error_nocustomclothselected" name="Kies eerst de vorm als je iets wilt produceren!" />
+		<text id="error_nomoney_copy" name="Sorry, dat kun je nog niet betalen." />
+		<text id="error_nomoney_guest_copy" name="Geen geld meer?Registeer je en je verdient {0} Fashiondollars!" />
+		<text id="error_nomoney_title" name="Gebrek aan geld" />
+		<text id="error_npchire_nomoney" name="Je hebt te weinig Gouden Knopen om een nieuwe kassière aan te nemen." />
+		<text id="error_patternshop_44" name="Je hebt dit patroon al gekocht." />
+		<text id="error_patternshop_5" name="-DEBUG: Onbekende WOD-" />
+		<text id="error_patternshop_nomoney" name="Je hebt te weinig geld voor het nieuwe patroon." />
+		<text id="error_patternshop_title" name="Patroonprobleem" />
+		<text id="error_police_nomoney" name="Je hebt te weinig Gouden Knopen om de bewaker in dienst te nemen." />
+		<text id="error_register_10" name="Het wachtwoord is te kort." />
+		<text id="error_register_102" name="Het ingevoerde e-mailadres is niet geldig." />
+		<text id="error_register_13" name="Er is al een geregistreerde gebruiker met dit adres!" />
+		<text id="error_register_14" name="Het ingevoerd e-mailadres klopt niet!" />
+		<text id="error_register_19" name="Je e-mailadres is te lang." />
+		<text id="error_register_2" name="Je hebt je e-mailadres al bevestigd." />
+		<text id="error_register_agb" name="Je moet eerst de Algemene Voorwaarden lezen en accepteren door op de knop aan de linkerkant te klikken. Nu kun je aan de slag!" />
+		<text id="error_register_emailinvalide" name="Het e-mailadres mag niet leeg zijn of speciale lettertekens bevatten." />
+		<text id="error_register_passwordinvalide" name="Je wachtwoord mag niet leeg zijn of speciale karakters bevatten." />
+		<text id="error_register_title" name="Registratiefout" />
+		<text id="error_repair_36" name="-DEBUG: De werkkracht is niet beschikbaar-" />
+		<text id="error_repair_48" name="-DEBUG: Werkkracht heeft al 100% motivatie-" />
+		<text id="error_repair_nomoney" name="Je hebt te weinig Fashiondollars om de bonus te betalen." />
+		<text id="error_repair_title" name="Repareren" />
+		<text id="error_sale_47" name="Er liggen geen spullen op dit schap!" />
+		<text id="error_sale_title" name="UITVERKOOP" />
+		<text id="error_walk_23" name="-DEBUG: Je kan hier niet naartoe lopen-" />
+		<text id="error_work_31" name="-DEBUG: De werkkracht is al aan het werk!-" />
+		<text id="error_work_32" name="-DEBUG: Voor dit product ontbreekt het patroon-" />
+		<text id="error_work_36" name="De weg naar de werkkracht is geblokkeerd. Probeer de boetiek opnieuw in te richten." />
+		<text id="error_work_41" name="- DEBUG: Geen booster in de invertaris -" />
+		<text id="error_work_45" name="-DEBUG: De productie en type werkkracht komen niet overeen-" />
+		<text id="error_work_49" name="- DEBUG: Verkeerde booster voor deze werkkracht -" />
+		<text id="error_work_67" name="Je patroon is niet langer beschikbaar.
+Maak een nieuwe!" />
+		<text id="error_work_nomoney" name="Je hebt te weinig Fashiondollars om de productie te starten." />
+		<text id="error_work_title" name="Werkweigering" />
+	</error_codes>
+	<feature>
+		<text id="feature_0_text_0" name="Het is zover! 
 
 De bètaversie van Goodgame Fashion staat klaar! 
  Iedereen begint opnieuw op level 1 maar je krijgt wel je eerder gekochte Gouden Knopen en nog eens 10 extra Gouden knopen terug. 
 
-Veel plezier met Goodgame Fashion!"  />
-			<text id="feature_0_title" name="Officieel begin!"  />
-			<text id="feature_10_text_0" name="De zomer is hier!
-De nieuwe GeeDee Collectie is binnen!"  />
-			<text id="feature_1_text_0" name="Zoek samen met je vrienden naar goud!
-Ontdek de nieuwe Co-Ops!"  />
-			<text id="feature_2_text_0" name="Ontdek de nieuwe schappen, pashokjes en kassa&#039;s!"  />
-			<text id="feature_2_text_1" name="Het is nog nooit zo makkelijk geweest om je look te veranderen! Klik gewoon op je personage!"  />
-			<text id="feature_2_text_2" name="Geniet nu van Fashion met geluid!"  />
-			<text id="feature_3_text_0" name="De lente staat weer voor de deur! Bekijk de nieuwe patronen en fleur je boetiek op!"  />
-			<text id="feature_3_text_1" name="De nieuwe labels zullen nog meer winst opleveren!"  />
-			<text id="feature_4_text_0" name="Overal kleuren! 
-Bekijk de nieuwe collectie van JayJay"  />
-			<text id="feature_4_text_1" name="Ontdek de nieuwe schappen, pashokjes en kassa&#039;s!"  />
-			<text id="feature_4_text_2" name="De nieuwe lentejasjes zijn geweldig!"  />
-			<text id="feature_4_text_3" name="Help je vrienden een handje en ontvang een beloning!"  />
-			<text id="feature_5_text_0" name="Breng wat kleur in je leven! De nieuwe collectie van JayJay is nu verkrijgbaar voor je boetiek!"  />
-			<text id="feature_5_text_1" name="Ontdek de nieuwe rekken, pashokjes en kassa&#039;s!"  />
-			<text id="feature_5_text_2" name="De nieuwe lentejasjes zullen een run op je boetiek veroorzaken!"  />
-			<text id="feature_5_text_3" name="Help je vrienden een handje en ontvang een beloning!"  />
-			<text id="feature_6_text_0" name="Word modeontwerper en ontwerp je eigen patronen!"  />
-			<text id="feature_6_text_1" name="Ontdek de nieuwe etalages voor je boetiek!"  />
-			<text id="feature_7_text_0" name="Hoeveel geluk heb jij?
-Draai aan het Rad van Fortuin!"  />
-			<text id="feature_8_text_0" name="Maak je boetiek populairder en stijlvoller met luxe meubels en decoraties!"  />
-			<text id="feature_8_text_1" name="Verras je klanten met nieuwe schappen, pashokjes en kassa&#039;s!"  />
-			<text id="feature_9_text_0" name="Maak reclame voor je boetiek om meer populariteit en extra XP te verdienen!"  />
-			<text id="feature_9_text_1" name="Zet meer cadeautjes op de schappen!"  />
-			<text id="feature_title" name="Nieuwe functies"  />
-		</feature>
-		<feeds>
-			<text id="descriptionfashionfeed" name="Ik heb net Goodgame Fashion geïnstalleerd. Wil jij ook je eigen boetiek openen en een modeontwerper worden? Kom eens kijken!"  />
-			<text id="descriptionlongfashion" name="Open je eigen boetiek bij Goodgame Fashion. Word een modeontwerper, koop mooie stoffen, ontwerp je eigen lijn en zet nieuwe trends. Zorg ervoor dat jouw boetiek de coolste shop van de stad wordt!"  />
-		</feeds>
-		<forumaction>
-			<text id="forumaction_copy_1" name="Ontwerp je eigen badkleding en win!
+Veel plezier met Goodgame Fashion!" />
+		<text id="feature_0_title" name="Officieel begin!" />
+		<text id="feature_10_text_0" name="De zomer is hier!
+De nieuwe GeeDee Collectie is binnen!" />
+		<text id="feature_1_text_0" name="Zoek samen met je vrienden naar goud!
+Ontdek de nieuwe Co-Ops!" />
+		<text id="feature_2_text_0" name="Ontdek de nieuwe schappen, pashokjes en kassa&amp;#039;s!" />
+		<text id="feature_2_text_1" name="Het is nog nooit zo makkelijk geweest om je look te veranderen! Klik gewoon op je personage!" />
+		<text id="feature_2_text_2" name="Geniet nu van Fashion met geluid!" />
+		<text id="feature_3_text_0" name="De lente staat weer voor de deur! Bekijk de nieuwe patronen en fleur je boetiek op!" />
+		<text id="feature_3_text_1" name="De nieuwe labels zullen nog meer winst opleveren!" />
+		<text id="feature_4_text_0" name="Overal kleuren! 
+Bekijk de nieuwe collectie van JayJay" />
+		<text id="feature_4_text_1" name="Ontdek de nieuwe schappen, pashokjes en kassa&amp;#039;s!" />
+		<text id="feature_4_text_2" name="De nieuwe lentejasjes zijn geweldig!" />
+		<text id="feature_4_text_3" name="Help je vrienden een handje en ontvang een beloning!" />
+		<text id="feature_5_text_0" name="Breng wat kleur in je leven! De nieuwe collectie van JayJay is nu verkrijgbaar voor je boetiek!" />
+		<text id="feature_5_text_1" name="Ontdek de nieuwe rekken, pashokjes en kassa&amp;#039;s!" />
+		<text id="feature_5_text_2" name="De nieuwe lentejasjes zullen een run op je boetiek veroorzaken!" />
+		<text id="feature_5_text_3" name="Help je vrienden een handje en ontvang een beloning!" />
+		<text id="feature_6_text_0" name="Word modeontwerper en ontwerp je eigen patronen!" />
+		<text id="feature_6_text_1" name="Ontdek de nieuwe etalages voor je boetiek!" />
+		<text id="feature_7_text_0" name="Hoeveel geluk heb jij?
+Draai aan het Rad van Fortuin!" />
+		<text id="feature_8_text_0" name="Maak je boetiek populairder en stijlvoller met luxe meubels en decoraties!" />
+		<text id="feature_8_text_1" name="Verras je klanten met nieuwe schappen, pashokjes en kassa&amp;#039;s!" />
+		<text id="feature_9_text_0" name="Maak reclame voor je boetiek om meer populariteit en extra XP te verdienen!" />
+		<text id="feature_9_text_1" name="Zet meer cadeautjes op de schappen!" />
+		<text id="feature_title" name="Nieuwe functies" />
+	</feature>
+	<feeds>
+		<text id="descriptionfashionfeed" name="Ik heb net Goodgame Fashion geïnstalleerd. Wil jij ook je eigen boetiek openen en een modeontwerper worden? Kom eens kijken!" />
+		<text id="descriptionlongfashion" name="Open je eigen boetiek bij Goodgame Fashion. Word een modeontwerper, koop mooie stoffen, ontwerp je eigen lijn en zet nieuwe trends. Zorg ervoor dat jouw boetiek de coolste shop van de stad wordt!" />
+	</feeds>
+	<forumaction>
+		<text id="forumaction_copy_1" name="Ontwerp je eigen badkleding en win!
 De winnaar ontvangt Gouden Knopen en het patroon wordt aan het Patroonboek toegevoegd!
 
-Ga nu naar het forum en doe mee aan de wedstrijd!"  />
-			<text id="forumaction_title_1" name="Wees creatief!"  />
-		</forumaction>
-		<loggedin_msg id=""  />
-		<panels>
-			<text id="panels_buddylist_morefriends" name="Meer vrienden"  />
-			<text id="panels_login_email" name="Gebruikersnaam / e-mail"  />
-			<text id="panels_login_loginbtn" name="LOGIN"  />
-			<text id="panels_login_lostpassword" name="Wachtwoord vergeten?"  />
-			<text id="panels_login_password" name="Wachtwoord"  />
-			<text id="panels_login_playbtn" name="NU SPELEN"  />
-			<text id="panels_login_registerbtn" name="REGISTREREN"  />
-			<text id="panels_login_rememberpassword" name="Wachtwoord bewaren"  />
-			<text id="panels_social_alone" name="Je bent op dit moment alleen!"  />
-			<text id="panels_social_bot" name="Modebabbels"  />
-			<text id="panels_social_chatblocked" name="Alleen geregistreerde spelers die op level 1 beginnen kunnen de chatfunctie gebruiken!"  />
-			<text id="panels_social_come_in" name="is de boetiek binnengekomen."  />
-			<text id="panels_social_go_out" name="heeft de boetiek verlaten."  />
-			<text id="panels_social_nofriends" name="Je hebt nog geen vrienden."  />
-			<text id="panels_social_welcome_market" name="Welkom bij Goodgame Arcades"  />
-			<text id="panels_social_welcome_myshop" name="Welkom"  />
-		</panels>
-		<server>
-			<mail>
-				<text id="mail_invite_friend" name="Hoi %s!&lt;br /&gt;&lt;br /&gt;Ik heb net deze geweldige online game ontdekt:Goodgame Fashion.&lt;br /&gt;&lt;br /&gt;Met deze link word je direct naar de game geleid:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Registeer je via deze links om gratis je eigen boetik op te zetten in Goodgame Fashion.&lt;br /&gt;&lt;br /&gt;Ontdek hoe het is om je eigen boetiek te hebben. Produceer de mooiste kleding, accessoires en schoenen en verkoop ze in je boetiek!&lt;br /&gt;&lt;br /&gt;We wensen je nog veel plezier bij het spelen %s"  />
-				<text id="mail_lost_pw" name="Hallo %s!&lt;br /&gt;&lt;br /&gt;
+Ga nu naar het forum en doe mee aan de wedstrijd!" />
+		<text id="forumaction_title_1" name="Wees creatief!" />
+	</forumaction>
+	<loggedin_msg id="" />
+	<panels>
+		<text id="panels_buddylist_morefriends" name="Meer vrienden" />
+		<text id="panels_login_email" name="Gebruikersnaam / e-mail" />
+		<text id="panels_login_loginbtn" name="LOGIN" />
+		<text id="panels_login_lostpassword" name="Wachtwoord vergeten?" />
+		<text id="panels_login_password" name="Wachtwoord" />
+		<text id="panels_login_playbtn" name="NU SPELEN" />
+		<text id="panels_login_registerbtn" name="REGISTREREN" />
+		<text id="panels_login_rememberpassword" name="Wachtwoord bewaren" />
+		<text id="panels_social_alone" name="Je bent op dit moment alleen!" />
+		<text id="panels_social_bot" name="Modebabbels" />
+		<text id="panels_social_chatblocked" name="Alleen geregistreerde spelers die op level 1 beginnen kunnen de chatfunctie gebruiken!" />
+		<text id="panels_social_come_in" name="is de boetiek binnengekomen." />
+		<text id="panels_social_go_out" name="heeft de boetiek verlaten." />
+		<text id="panels_social_nofriends" name="Je hebt nog geen vrienden." />
+		<text id="panels_social_welcome_market" name="Welkom bij Goodgame Arcades" />
+		<text id="panels_social_welcome_myshop" name="Welkom" />
+	</panels>
+	<server>
+		<mail>
+			<text id="mail_invite_friend" name="Hoi %s!&lt;br /&gt;&lt;br /&gt;Ik heb net deze geweldige online game ontdekt:Goodgame Fashion.&lt;br /&gt;&lt;br /&gt;Met deze link word je direct naar de game geleid:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Registeer je via deze links om gratis je eigen boetik op te zetten in Goodgame Fashion.&lt;br /&gt;&lt;br /&gt;Ontdek hoe het is om je eigen boetiek te hebben. Produceer de mooiste kleding, accessoires en schoenen en verkoop ze in je boetiek!&lt;br /&gt;&lt;br /&gt;We wensen je nog veel plezier bij het spelen %s" />
+			<text id="mail_lost_pw" name="Hallo %s!&lt;br /&gt;&lt;br /&gt;
 Je hebt dit automatische e-mailbericht ontvangen omdat je een nieuw wachtwoord hebt verzocht.&lt;br /&gt;
 Je nieuwe wachtwoord is: %s &lt;br /&gt;&lt;br /&gt;
 Je kunt via deze pagina inloggen:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;
 Neem contact op met support@goodgamestudios.com als je nog meer vragen of problemen hebt. &lt;br /&gt;&lt;br /&gt;
 
 We wensen je nog veel plezier bij het spelen!&lt;br /&gt;&lt;br /&gt;
-Jouw team bij&lt;br /&gt;Goodgamestudios.com"  />
-				<text id="mail_registration" name="Hallo,&lt;br /&gt;&lt;br /&gt;bedankt voor je registratie en welkom bij Goodgame Fashion.&lt;br /&gt;&lt;br /&gt;Je kunt je op elk willekeurig moment aanmelden met de volgende gegevens:&lt;br /&gt;E-mail: %s&lt;br /&gt;Wachtwoord: %s&lt;br /&gt;&lt;br /&gt;Deze link leidt je direct naar de game:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Neem contact op met support@goodgamestudios.com als je nog meer vragen of problemen hebt. &lt;br /&gt;&lt;br /&gt;Veel plezier!&lt;br /&gt;&lt;br /&gt;Jouw team bij&lt;br /&gt;Goodgamestudios.com"  />
-			</mail>
-			<misc>
-				<text id="marketplace" name="Goodgame Arcades"  />
-			</misc>
-		</server>
-		<server_msg>
-			<text id="server_msg_10" name="De server wordt opnieuw opgestart. We zijn over een munuut weer terug.
-Druk op F5 om de site te vernieuwen."  />
-			<text id="server_msg_title" name="Serverbericht"  />
-		</server_msg>
-		<std_buttons>
-			<text id="btn_addcurrency" name="Koop Gouden Knopen of Fashiondollars"  />
-			<text id="btn_payment" name="Koop Gouden Knopen of Fashiondollars"  />
-			<text id="btn_policeman" name="Bewaker"  />
-			<text id="btn_register" name="Registreer je nu gratis!"  />
-			<text id="btn_superrewardChips" name="Verdien Fashiondollars"  />
-			<text id="btn_superrewardGold" name="Verdien Gouden Knopen"  />
-		</std_buttons>
-		<tooltips>
-			<text id="tooltip_Basic_Factory_Basicaccessoire" name="Goudsmid"  />
-			<text id="tooltip_Basic_Factory_Basiccloth" name="Naaister"  />
-			<text id="tooltip_Basic_Factory_Basicshoes" name="Schoenmaker"  />
-			<text id="tooltip_counter_pieces" name="Hoeveelheid: {0}"  />
-			<text id="tooltip_customcloth_icon" name="Prints"  />
-			<text id="tooltip_customcloth_shape" name="Vormen"  />
-			<text id="tooltip_customcloth_unlock" name="Ontgrendelen"  />
-			<text id="tooltip_factory_empty" name="Produceer nieuwe spullen!"  />
-			<text id="tooltip_factory_preparestep1" name="Werkkracht instrueren"  />
-			<text id="tooltip_factory_preparetitle" name="Klik om"  />
-			<text id="tooltip_factory_readytoserv" name="Spullen neerleggen"  />
-			<text id="tooltip_factory_readytoserv_amount" name="Hoeveelheid: {0}"  />
-			<text id="tooltip_factory_wear" name="Motivatie: {0}%"  />
-			<text id="tooltip_FashionActionPanel_btn_achievements" name="Mijlpalen"  />
-			<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Gouden Knopen of Fashiondollars verdienen"  />
-			<text id="tooltip_FashionActionPanel_btn_advertisement" name="Promotie"  />
-			<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="vanaf level {0} kun je reclame maken"  />
-			<text id="tooltip_FashionActionPanel_btn_booster" name="Versneller"  />
-			<text id="tooltip_FashionActionPanel_btn_coop" name="Voordeelpakketten"  />
-			<text id="tooltip_FashionActionPanel_btn_decoshop" name="Opnieuw inrichten"  />
-			<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="Maak reclame voor je boetiek!"  />
-			<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Catalogus"  />
-			<text id="tooltip_FashionActionPanel_btn_gifts" name="Cadeaus"  />
-			<text id="tooltip_FashionActionPanel_btn_highscore" name="Rang"  />
-			<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame Arcades"  />
-			<text id="tooltip_FashionActionPanel_btn_openclose" name="Boetiek openen/sluiten"  />
-			<text id="tooltip_FashionActionPanel_btn_ownshop" name="Mijn boetiek"  />
-			<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Lopende promotie
-Klik om de voorlopige resultaten te bekijken"  />
-			<text id="tooltip_FashionActionPanel_btn_sale" name="Prijzen verlagen"  />
-			<text id="tooltip_FashionActionPanel_btn_staff" name="Caissières"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="Broeken"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="Haar"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="Huidskleur"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="Topjes"  />
-			<text id="tooltip_FashionBookDialog_btn_all" name="Alles"  />
-			<text id="tooltip_FashionBookDialog_btn_buy" name="Koop patronen"  />
-			<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="Ontwerppatroon"  />
-			<text id="tooltip_FashionBookDialog_btn_mastery" name="nog {0} over tot merkniveau {1}
-Klik voor meer details"  />
-			<text id="tooltip_FashionBookDialog_btn_produce" name="Produceren"  />
-			<text id="tooltip_FashionBookDialog_customcloth" name="Eigen patronen"  />
-			<text id="tooltip_FashionBookDialog_female" name="Voor meisjes"  />
-			<text id="tooltip_FashionBookDialog_info" name="Vergeet niet om altijd kleding voor jongens en meisjes in je boetiek te hebben!"  />
-			<text id="tooltip_FashionBookDialog_male" name="Voor jongens"  />
-			<text id="tooltip_FashionBookDialog_unisex" name="Voor jongens en meisjes"  />
-			<text id="tooltip_FashionBoosterDialog_addAmount" name="Aantal per aankoop"  />
-			<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="Extra tijd"  />
-			<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="Extra tijd
-+ {0} met {1} extra vrienden"  />
-			<text id="tooltip_FashionBoosterDialog_btn_buy" name="Koop"  />
-			<text id="tooltip_FashionBoosterDialog_btn_info" name="Info"  />
-			<text id="tooltip_FashionBoosterDialog_coffee" name="Koffie
- verhoogt de efficiëntie van je naaister met 20%!"  />
-			<text id="tooltip_FashionBoosterDialog_currentAmount" name="Op voorraad"  />
-			<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="Huidige diefstalbescherming."  />
-			<text id="tooltip_FashionBoosterDialog_energy" name="Energiedrank
-De efficiëntie van je schoenmaker neemt toe met 20%!"  />
-			<text id="tooltip_FashionBoosterDialog_police" name="Bewaker"  />
-			<text id="tooltip_FashionBoosterDialog_price" name="Prijs"  />
-			<text id="tooltip_FashionBoosterDialog_shake" name="Proteïneshake
-Verbetert de effectiviteit van je goudsmid met 20%"  />
-			<text id="tooltip_FashionCoopDialog_btn_extend" name="Co-Op uitbreiden"  />
-			<text id="tooltip_FashionCounterDialog_btn_sale" name="De prijs wordt verlaagd"  />
-			<text id="tooltip_FashionCounterDialog_btn_spend" name="Doneer spullen zonder er iets voor te vragen"  />
-			<text id="tooltip_FashionCounterDialog_btn_unsale" name="Annuleer verkoop"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="Koop"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_close" name="Ombouwen beëindigen"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko" name="Renovatie"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="Decoraties"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="Etalage"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="Deuren"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="Verdiepingen"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="Muren"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="Muurdecoraties"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="Uitbreidingen"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Voeg verdiepingen toe"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="Boetiek uitbreiden"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional" name="De basis"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Kassa&#039;s"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="Pashokje"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="Schappen"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="Werkkrachten"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="Paspoppen"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="Patroon"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_sell" name="Verkopen"  />
-			<text id="tooltip_FashionExpansionFriends" name="Je hebt nog {0} vrienden nodig
-om deze uitbreiding vrij te spelen"  />
-			<text id="tooltip_FashionFactoryDialog_btn_instant" name="Maak het nu af!"  />
-			<text id="tooltip_FashionGiftboxDialog_btn_remove" name="Verwijder"  />
-			<text id="tooltip_FashionGiftboxDialog_btn_use" name="Gebruiken"  />
-			<text id="tooltip_FashionGiftboxDialog_mygifts" name="Mijn cadeaus"  />
-			<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="Cadeautjes versturen"  />
-			<text id="tooltip_FashionHighscoreDialog_luxury" name="Op luxewaarde sorteren"  />
-			<text id="tooltip_FashionHighscoreDialog_offline" name="Offline"  />
-			<text id="tooltip_FashionHighscoreDialog_online" name="Online"  />
-			<text id="tooltip_FashionHighscoreDialog_xp" name="Op XP sorteren"  />
-			<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="Accessoires"  />
-			<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="Kleding"  />
-			<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="Schoenen"  />
-			<text id="tooltip_FashionMasteryInfoDialog_bronce" name="Meer produceren!"  />
-			<text id="tooltip_FashionMasteryInfoDialog_gold" name="Sneller produceren!"  />
-			<text id="tooltip_FashionMasteryInfoDialog_silver" name="Verdien meer XP!"  />
-			<text id="tooltip_FashionNamePanel_mc_luxury" name="De luxewaarde van je boetiek"  />
-			<text id="tooltip_FashionNamePanel_mc_rating" name="Populariteit van je boetiek"  />
-			<text id="tooltip_FashionOptionPanel_btn_allowemails" name="E-mails toestaan"  />
-			<text id="tooltip_FashionOptionPanel_btn_blockemails" name="E-mails blokkeren"  />
-			<text id="tooltip_FashionOptionPanel_btn_bugreport" name="Fout rapporteren"  />
-			<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Verander de outfit van je personage"  />
-			<text id="tooltip_FashionOptionPanel_btn_changePass" name="Wachtwoord wijzigen"  />
-			<text id="tooltip_FashionOptionPanel_btn_faq" name="Veelgestelde vragen"  />
-			<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="Volledig scherm"  />
-			<text id="tooltip_FashionOptionPanel_btn_help" name="Hulp"  />
-			<text id="tooltip_FashionOptionPanel_btn_logout" name="Uitloggen"  />
-			<text id="tooltip_FashionOptionPanel_btn_music" name="Muziek aan/uit"  />
-			<text id="tooltip_FashionOptionPanel_btn_news" name="GGS Forum"  />
-			<text id="tooltip_FashionOptionPanel_btn_options" name="Opties"  />
-			<text id="tooltip_FashionOptionPanel_btn_register" name="Registreren"  />
-			<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="Geluid aan/uit"  />
-			<text id="tooltip_FashionOptionPanel_btn_support" name="Stuur een e-mail naar Support"  />
-			<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="Welkomstcadeau ophalen"  />
-			<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="Inzoomen"  />
-			<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- Uitzoomen"  />
-			<text id="tooltip_FashionOptionPanel_mc_floors" name="Vloeren"  />
-			<text id="tooltip_FashionOptionPanel_mc_ranking" name="Rang"  />
-			<text id="tooltip_FashionPatternFriends" name="Je hebt nog {0} vrienden nodig
-om dit patroon vrij te spelen"  />
-			<text id="tooltip_FashionSocialPanel_btn_buddies" name="Vrienden"  />
-			<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="Aanwezige spelers"  />
-			<text id="tooltip_FashionSocialPanel_btn_chat" name="Chat"  />
-			<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="Nodig vrienden uit"  />
-			<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Koop Gouden Knopen of Fashiondollars"  />
-			<text id="tooltip_FashionUserStatePanel_jobs" name="Aantal acties"  />
-			<text id="tooltip_FashionUserStatePanel_xp" name="{0} XP tot volgende level up"  />
-			<text id="tooltip_Fashion_btnclose" name="Sluiten"  />
-			<text id="tooltip_levelx" name="Beschikbaar op level {0}"  />
-			<text id="tooltip_marketplace" name="Krijtbord"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Mijlpalen"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="Voeg vriend(in) toe"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="Informatie"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Verwijderen"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="Verwijder vriend"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="Bezoeken"  />
-			<text id="tooltip_wheeloffortune_line1" name="Het Rad van Fortuin!"  />
-			<text id="tooltip_wheeloffortune_line2" name="Klik om te spelen!"  />
-			<text id="tooltip_wheeloffortune_line3" name="Eén spel is gratis"  />
-			<text id="tooltip_xofy" name="{0} van {1}"  />
-		</tooltips>
-		<tutorial>
-			<text id="tut_buypattern_copy" name="Dit is de catologus. Hier kun je nieuwe patronen kopen. Nadat je een patroon hebt gekocht, kun je het keer op keer gebruiken om spullen mee te produceren. Klik om een nieuw patroon te kopen. Vergeet niet om kleding voor zowel mannen als vrouwen in je boetiek te hebben!"  />
-			<text id="tut_choosemannequin_copy" name="Als je de paspoppen met je ontwerpen aankleedt, vallen ze wat meer op. Klik op een paspop die nog niet in gebruik is."  />
-			<text id="tut_delivercounter_copy" name="... en leg het dan op een leeg schap!"  />
-			<text id="tut_emptyfactory_copy" name="De naaister produceert kleding. Later kun je ook extra werkkrachten inhuren om andere spullen te produceren. Klik op de naaister."  />
-			<text id="tut_instantwork_copy" name="Klik op de knop en je kleding is gelijk klaar."  />
-			<text id="tut_lastscreen_copy" name="Geweldig! Je hebt net de eerste stappen afgerond om je eigen modemerk op te zetten, de eerste klanten druppelen al binnen! Verken de rest van de modewereld in je eentje. Er valt nog veel meer te ontdekken. 
+Jouw team bij&lt;br /&gt;Goodgamestudios.com" />
+			<text id="mail_registration" name="Hallo,&lt;br /&gt;&lt;br /&gt;bedankt voor je registratie en welkom bij Goodgame Fashion.&lt;br /&gt;&lt;br /&gt;Je kunt je op elk willekeurig moment aanmelden met de volgende gegevens:&lt;br /&gt;E-mail: %s&lt;br /&gt;Wachtwoord: %s&lt;br /&gt;&lt;br /&gt;Deze link leidt je direct naar de game:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Neem contact op met support@goodgamestudios.com als je nog meer vragen of problemen hebt. &lt;br /&gt;&lt;br /&gt;Veel plezier!&lt;br /&gt;&lt;br /&gt;Jouw team bij&lt;br /&gt;Goodgamestudios.com" />
+		</mail>
+		<misc>
+			<text id="marketplace" name="Goodgame Arcades" />
+		</misc>
+	</server>
+	<server_msg>
+		<text id="server_msg_10" name="De server wordt opnieuw opgestart. We zijn over een munuut weer terug.
+Druk op F5 om de site te vernieuwen." />
+		<text id="server_msg_title" name="Serverbericht" />
+	</server_msg>
+	<std_buttons>
+		<text id="btn_addcurrency" name="Koop Gouden Knopen of Fashiondollars" />
+		<text id="btn_payment" name="Koop Gouden Knopen of Fashiondollars" />
+		<text id="btn_policeman" name="Bewaker" />
+		<text id="btn_register" name="Registreer je nu gratis!" />
+		<text id="btn_superrewardChips" name="Verdien Fashiondollars" />
+		<text id="btn_superrewardGold" name="Verdien Gouden Knopen" />
+	</std_buttons>
+	<tooltips>
+		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Goudsmid" />
+		<text id="tooltip_Basic_Factory_Basiccloth" name="Naaister" />
+		<text id="tooltip_Basic_Factory_Basicshoes" name="Schoenmaker" />
+		<text id="tooltip_counter_pieces" name="Hoeveelheid: {0}" />
+		<text id="tooltip_customcloth_icon" name="Prints" />
+		<text id="tooltip_customcloth_shape" name="Vormen" />
+		<text id="tooltip_customcloth_unlock" name="Ontgrendelen" />
+		<text id="tooltip_factory_empty" name="Produceer nieuwe spullen!" />
+		<text id="tooltip_factory_preparestep1" name="Werkkracht instrueren" />
+		<text id="tooltip_factory_preparetitle" name="Klik om" />
+		<text id="tooltip_factory_readytoserv" name="Spullen neerleggen" />
+		<text id="tooltip_factory_readytoserv_amount" name="Hoeveelheid: {0}" />
+		<text id="tooltip_factory_wear" name="Motivatie: {0}%" />
+		<text id="tooltip_FashionActionPanel_btn_achievements" name="Mijlpalen" />
+		<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Gouden Knopen of Fashiondollars verdienen" />
+		<text id="tooltip_FashionActionPanel_btn_advertisement" name="Promotie" />
+		<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="vanaf level {0} kun je reclame maken" />
+		<text id="tooltip_FashionActionPanel_btn_booster" name="Versneller" />
+		<text id="tooltip_FashionActionPanel_btn_coop" name="Voordeelpakketten" />
+		<text id="tooltip_FashionActionPanel_btn_decoshop" name="Opnieuw inrichten" />
+		<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="Maak reclame voor je boetiek!" />
+		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Catalogus" />
+		<text id="tooltip_FashionActionPanel_btn_gifts" name="Cadeaus" />
+		<text id="tooltip_FashionActionPanel_btn_highscore" name="Rang" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame Arcades" />
+		<text id="tooltip_FashionActionPanel_btn_openclose" name="Boetiek openen/sluiten" />
+		<text id="tooltip_FashionActionPanel_btn_ownshop" name="Mijn boetiek" />
+		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Lopende promotie
+Klik om de voorlopige resultaten te bekijken" />
+		<text id="tooltip_FashionActionPanel_btn_sale" name="Prijzen verlagen" />
+		<text id="tooltip_FashionActionPanel_btn_staff" name="Caissières" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="Broeken" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="Haar" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="Huidskleur" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="Topjes" />
+		<text id="tooltip_FashionBookDialog_btn_all" name="Alles" />
+		<text id="tooltip_FashionBookDialog_btn_buy" name="Koop patronen" />
+		<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="Ontwerppatroon" />
+		<text id="tooltip_FashionBookDialog_btn_mastery" name="nog {0} over tot merkniveau {1}
+Klik voor meer details" />
+		<text id="tooltip_FashionBookDialog_btn_produce" name="Produceren" />
+		<text id="tooltip_FashionBookDialog_customcloth" name="Eigen patronen" />
+		<text id="tooltip_FashionBookDialog_female" name="Voor meisjes" />
+		<text id="tooltip_FashionBookDialog_info" name="Vergeet niet om altijd kleding voor jongens en meisjes in je boetiek te hebben!" />
+		<text id="tooltip_FashionBookDialog_male" name="Voor jongens" />
+		<text id="tooltip_FashionBookDialog_unisex" name="Voor jongens en meisjes" />
+		<text id="tooltip_FashionBoosterDialog_addAmount" name="Aantal per aankoop" />
+		<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="Extra tijd" />
+		<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="Extra tijd
++ {0} met {1} extra vrienden" />
+		<text id="tooltip_FashionBoosterDialog_btn_buy" name="Koop" />
+		<text id="tooltip_FashionBoosterDialog_btn_info" name="Info" />
+		<text id="tooltip_FashionBoosterDialog_coffee" name="Koffie
+ verhoogt de efficiëntie van je naaister met 20%!" />
+		<text id="tooltip_FashionBoosterDialog_currentAmount" name="Op voorraad" />
+		<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="Huidige diefstalbescherming." />
+		<text id="tooltip_FashionBoosterDialog_energy" name="Energiedrank
+De efficiëntie van je schoenmaker neemt toe met 20%!" />
+		<text id="tooltip_FashionBoosterDialog_police" name="Bewaker" />
+		<text id="tooltip_FashionBoosterDialog_price" name="Prijs" />
+		<text id="tooltip_FashionBoosterDialog_shake" name="Proteïneshake
+Verbetert de effectiviteit van je goudsmid met 20%" />
+		<text id="tooltip_FashionCoopDialog_btn_extend" name="Co-Op uitbreiden" />
+		<text id="tooltip_FashionCounterDialog_btn_sale" name="De prijs wordt verlaagd" />
+		<text id="tooltip_FashionCounterDialog_btn_spend" name="Doneer spullen zonder er iets voor te vragen" />
+		<text id="tooltip_FashionCounterDialog_btn_unsale" name="Annuleer verkoop" />
+		<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="Koop" />
+		<text id="tooltip_FashionDekoShopPanel_btn_close" name="Ombouwen beëindigen" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko" name="Renovatie" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="Decoraties" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="Etalage" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="Deuren" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="Verdiepingen" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="Muren" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="Muurdecoraties" />
+		<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="Uitbreidingen" />
+		<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Voeg verdiepingen toe" />
+		<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="Boetiek uitbreiden" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional" name="De basis" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Kassa&amp;#039;s" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="Pashokje" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="Schappen" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="Werkkrachten" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="Paspoppen" />
+		<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="Patroon" />
+		<text id="tooltip_FashionDekoShopPanel_btn_sell" name="Verkopen" />
+		<text id="tooltip_FashionExpansionFriends" name="Je hebt nog {0} vrienden nodig
+om deze uitbreiding vrij te spelen" />
+		<text id="tooltip_FashionFactoryDialog_btn_instant" name="Maak het nu af!" />
+		<text id="tooltip_FashionGiftboxDialog_btn_remove" name="Verwijder" />
+		<text id="tooltip_FashionGiftboxDialog_btn_use" name="Gebruiken" />
+		<text id="tooltip_FashionGiftboxDialog_mygifts" name="Mijn cadeaus" />
+		<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="Cadeautjes versturen" />
+		<text id="tooltip_FashionHighscoreDialog_luxury" name="Op luxewaarde sorteren" />
+		<text id="tooltip_FashionHighscoreDialog_offline" name="Offline" />
+		<text id="tooltip_FashionHighscoreDialog_online" name="Online" />
+		<text id="tooltip_FashionHighscoreDialog_xp" name="Op XP sorteren" />
+		<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="Accessoires" />
+		<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="Kleding" />
+		<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="Schoenen" />
+		<text id="tooltip_FashionMasteryInfoDialog_bronce" name="Meer produceren!" />
+		<text id="tooltip_FashionMasteryInfoDialog_gold" name="Sneller produceren!" />
+		<text id="tooltip_FashionMasteryInfoDialog_silver" name="Verdien meer XP!" />
+		<text id="tooltip_FashionNamePanel_mc_luxury" name="De luxewaarde van je boetiek" />
+		<text id="tooltip_FashionNamePanel_mc_rating" name="Populariteit van je boetiek" />
+		<text id="tooltip_FashionOptionPanel_btn_allowemails" name="E-mails toestaan" />
+		<text id="tooltip_FashionOptionPanel_btn_blockemails" name="E-mails blokkeren" />
+		<text id="tooltip_FashionOptionPanel_btn_bugreport" name="Fout rapporteren" />
+		<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Verander de outfit van je personage" />
+		<text id="tooltip_FashionOptionPanel_btn_changePass" name="Wachtwoord wijzigen" />
+		<text id="tooltip_FashionOptionPanel_btn_faq" name="Veelgestelde vragen" />
+		<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="Volledig scherm" />
+		<text id="tooltip_FashionOptionPanel_btn_help" name="Hulp" />
+		<text id="tooltip_FashionOptionPanel_btn_logout" name="Uitloggen" />
+		<text id="tooltip_FashionOptionPanel_btn_music" name="Muziek aan/uit" />
+		<text id="tooltip_FashionOptionPanel_btn_news" name="GGS Forum" />
+		<text id="tooltip_FashionOptionPanel_btn_options" name="Opties" />
+		<text id="tooltip_FashionOptionPanel_btn_register" name="Registreren" />
+		<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="Geluid aan/uit" />
+		<text id="tooltip_FashionOptionPanel_btn_support" name="Stuur een e-mail naar Support" />
+		<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="Welkomstcadeau ophalen" />
+		<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="Inzoomen" />
+		<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- Uitzoomen" />
+		<text id="tooltip_FashionOptionPanel_mc_floors" name="Vloeren" />
+		<text id="tooltip_FashionOptionPanel_mc_ranking" name="Rang" />
+		<text id="tooltip_FashionPatternFriends" name="Je hebt nog {0} vrienden nodig
+om dit patroon vrij te spelen" />
+		<text id="tooltip_FashionSocialPanel_btn_buddies" name="Vrienden" />
+		<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="Aanwezige spelers" />
+		<text id="tooltip_FashionSocialPanel_btn_chat" name="Chat" />
+		<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="Nodig vrienden uit" />
+		<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Koop Gouden Knopen of Fashiondollars" />
+		<text id="tooltip_FashionUserStatePanel_jobs" name="Aantal acties" />
+		<text id="tooltip_FashionUserStatePanel_xp" name="{0} XP tot volgende level up" />
+		<text id="tooltip_Fashion_btnclose" name="Sluiten" />
+		<text id="tooltip_levelx" name="Beschikbaar op level {0}" />
+		<text id="tooltip_marketplace" name="Krijtbord" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Mijlpalen" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="Voeg vriend(in) toe" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="Informatie" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Verwijderen" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="Verwijder vriend" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="Bezoeken" />
+		<text id="tooltip_wheeloffortune_line1" name="Het Rad van Fortuin!" />
+		<text id="tooltip_wheeloffortune_line2" name="Klik om te spelen!" />
+		<text id="tooltip_wheeloffortune_line3" name="Eén spel is gratis" />
+		<text id="tooltip_xofy" name="{0} van {1}" />
+	</tooltips>
+	<tutorial>
+		<text id="tut_buypattern_copy" name="Dit is de catologus. Hier kun je nieuwe patronen kopen. Nadat je een patroon hebt gekocht, kun je het keer op keer gebruiken om spullen mee te produceren. Klik om een nieuw patroon te kopen. Vergeet niet om kleding voor zowel mannen als vrouwen in je boetiek te hebben!" />
+		<text id="tut_choosemannequin_copy" name="Als je de paspoppen met je ontwerpen aankleedt, vallen ze wat meer op. Klik op een paspop die nog niet in gebruik is." />
+		<text id="tut_delivercounter_copy" name="... en leg het dan op een leeg schap!" />
+		<text id="tut_emptyfactory_copy" name="De naaister produceert kleding. Later kun je ook extra werkkrachten inhuren om andere spullen te produceren. Klik op de naaister." />
+		<text id="tut_instantwork_copy" name="Klik op de knop en je kleding is gelijk klaar." />
+		<text id="tut_lastscreen_copy" name="Geweldig! Je hebt net de eerste stappen afgerond om je eigen modemerk op te zetten, de eerste klanten druppelen al binnen! Verken de rest van de modewereld in je eentje. Er valt nog veel meer te ontdekken. 
 
-Veel plezier!"  />
-			<text id="tut_mannequinaccept_copy" name="Ben je benieuwd naar de reacties van je klanten? Klik op Accepteren om de beoordelingen te bekijken."  />
-			<text id="tut_mannequincategory_copy" name="Afhankelijk van de soort paspop die je hebt staan kan je de pop uitrusten met bepaalde soorten kleding. Torso&#039;s kunnen bijvoorbeeld alleen met bovenkleding worden uitgerust. Klik op het kledingicoontje om te zien wat je de pop aan kunt trekken"  />
-			<text id="tut_mannequinclose_copy" name="Dit ziet er geweldig uit! Klik op Sluiten om terug te gaan naar je boetiek."  />
-			<text id="tut_mannequinclothes_copy" name="Je verkoopt op dit moment aleen blauwe poloshirts. Klik op het poloshirt om je paspop daarmee aan te kleden."  />
-			<text id="tut_openproducebook_copy" name="Je hebt het patroon gekocht. Keer terug naar het Productieboek om te kijken welke spullen je kunt prodcueren."  />
-			<text id="tut_preparesteps_copy" name="Klik nu op de naaister om haar de instructies voor de productie te geven."  />
-			<text id="tut_producefactory_copy" name="Met Goude Knopen kun je de spullen onmiddellijk afmaken. Klik op de naaister om ze nu gelijk af te maken."  />
-			<text id="tut_produce_copy" name="Je kunt nu met de productie beginnen."  />
-			<text id="tut_readyfactory_copy" name="Je moet je kleding op schappen leggen zodat de klanten ze kunnen kopen. Klik op de werkkracht met de geproduceerde spullen..."  />
-			<text id="tut_start_copy" name="Welkom in je boetiek, {0}!
-Deze korte uitleg helpt je om je snel je weg in de modewereld te vinden."  />
-			<text id="tut_title" name="Lessen!"  />
-		</tutorial>
-		<generic_flash>
-			<alert>
-				<text id="generic_alert_bug" name="Fout"  />
-				<text id="generic_alert_connection_failed_copy" name="Onderhoud. Probeer het later nog eens!"  />
-				<text id="generic_alert_connection_failed_title" name="Werk in uitvoering!"  />
-				<text id="generic_alert_connection_lost_copy" name="De server-verbinding doet het niet. Probeer het a.u.b. nog eens."  />
-				<text id="generic_alert_connection_lost_description" name="We zijn op dit moment bezig met onderhoudswerk dat af en toe nodig is. Dit doen we om updates of nieuwe features te installeren of fouten te corrigeren. &lt;br&gt;&lt;br&gt; 
-We werken zo snel we kunnen zodat je niet te lang hoeft te wachten om weer terug te keren naar je spel."  />
-				<text id="generic_alert_connection_lost_promo" name="Waarom probeer je ondertussen niet een van onze andere spelletjes?"  />
-				<text id="generic_alert_connection_lost_thanks" name="Bedankt voor je begrip!"  />
-				<text id="generic_alert_connection_lost_title" name="Verbinding verbroken!"  />
-				<text id="generic_alert_error" name="Fout"  />
-				<text id="generic_alert_information" name="Melding"  />
-				<text id="generic_alert_loggedout_copy" name="Je bent nu uitgelogd. Vergeet niet: Elke dag is er een log-in bonus voor jou!"  />
-				<text id="generic_alert_loggedout_title" name="Tot straks!"  />
-				<text id="generic_alert_warning" name="Waarschuwing"  />
-				<text id="generic_alert_watchout" name="Let op!"  />
-				<text id="generic_invalid_email_provider" name="Een e-mail adres van deze provider is niet toegestaan!"  />
-				<text id="generic_js_alert_firstsessiontracking_loading" name="Je internet verbinding lijkt nogal langzaam op het moment. Probeer het a.u.b. later nog eens!"  />
-				<text id="generic_js_alert_firstsessiontracking_registered" name="Wat vind je van het spel en wat kan nog verbeterd worden? Schrijf je opmerkingen a.u.b. in het Goodgame Forum of de Groep."  />
-				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Let op: Je vooruitgang wordt alleen geregistreerd als je je hebt aangemeld!"  />
-				<text id="generic_register_error_invalidemail" name="Het ingevoerde e-mail adres is niet correct."  />
-				<text id="generic_report_muted_chattry" name="Je kunt de chat functie niet gebruiken omdat je geblokkeerd bent."  />
-			</alert>
-			<button>
-				<text id="generic_btn_accept" name="Accepteren"  />
-				<text id="generic_btn_cancel" name="Annuleren"  />
-				<text id="generic_btn_close" name="Sluiten"  />
-				<text id="generic_btn_continue" name="Doorgaan"  />
-				<text id="generic_btn_end" name="Einde"  />
-				<text id="generic_btn_endnow" name="Nu eindigen"  />
-				<text id="generic_btn_goback" name="Terug"  />
-				<text id="generic_btn_no" name="Nee"  />
-				<text id="generic_btn_noshare" name="Niet draaien"  />
-				<text id="generic_btn_notaccept" name="Afwijzen"  />
-				<text id="generic_btn_okay" name="OK"  />
-				<text id="generic_btn_reconnect" name="Verbind opnieuw"  />
-				<text id="generic_btn_refresh" name="Refresh"  />
-				<text id="generic_btn_report" name="Melden"  />
-				<text id="generic_btn_search" name="Zoeken"  />
-				<text id="generic_btn_share" name="Delen!"  />
-				<text id="generic_btn_skip" name="Overslaan"  />
-				<text id="generic_btn_start" name="Beginnen"  />
-				<text id="generic_btn_topayment" name="Geef het aan mij!"  />
-				<text id="generic_btn_yes" name="Ja"  />
-			</button>
-			<chat>
-				<text id="generic_chat_writeable" name="Je moet je aanmelden en level 1 bereikt hebben om de chat te kunnen gebruiken."  />
-			</chat>
-			<common>
-				<text id="generic_admin" name="Admin"  />
-				<text id="generic_animation" name="Animaties weergeven"  />
-				<text id="generic_bugreport" name="Vertel ons over Fouten"  />
-				<text id="generic_changePass" name="Wachtwoord veranderen"  />
-				<text id="generic_comma" name=","  />
-				<text id="generic_conningsoon" name="*Binnenkort uit*"  />
-				<text id="generic_date" name="Datum"  />
-				<text id="generic_day" name="Dag"  />
-				<text id="generic_dayformat" name="{1}/{0}"  />
-				<text id="generic_days" name="Dagen"  />
-				<text id="generic_day_short" name="D"  />
-				<text id="generic_decimalseparator" name="."  />
-				<text id="generic_email" name="E-mail"  />
-				<text id="generic_faq" name="Veel Gestelde Vragen"  />
-				<text id="generic_forum" name="Forum"  />
-				<text id="generic_friend" name="Vriend"  />
-				<text id="generic_friends" name="Vrienden"  />
-				<text id="generic_general" name="Algemene settings"  />
-				<text id="generic_ggs" name="Goodgame Studios"  />
-				<text id="generic_group" name="Groep"  />
-				<text id="generic_guest" name="Gast"  />
-				<text id="generic_help" name="Help"  />
-				<text id="generic_high" name="Hoog"  />
-				<text id="generic_hour" name="Uur"  />
-				<text id="generic_hours" name="Uur"  />
-				<text id="generic_hour_short" name="U"  />
-				<text id="generic_limited" name="Limited"  />
-				<text id="generic_logout" name="Log-out"  />
-				<text id="generic_low" name="Laag"  />
-				<text id="generic_medium" name="Medium"  />
-				<text id="generic_minute" name="Minuut"  />
-				<text id="generic_minutes" name="Minuten"  />
-				<text id="generic_minute_short" name="Min"  />
-				<text id="generic_moderator" name="Mod"  />
-				<text id="generic_music" name="Muziek aan/uit"  />
-				<text id="generic_name" name="Naam"  />
-				<text id="generic_news" name="Nieuwe verhalen"  />
-				<text id="generic_options" name="Opties"  />
-				<text id="generic_quality" name="Kwaliteit"  />
-				<text id="generic_register" name="Bewaren en Aanmelden"  />
-				<text id="generic_second" name="Seconde"  />
-				<text id="generic_seconds" name="Seconden"  />
-				<text id="generic_second_short" name="Sec"  />
-				<text id="generic_sound" name="Geluid aan/uit"  />
-				<text id="generic_support" name="Support"  />
-				<text id="generic_today" name="Vandaag"  />
-				<text id="generic_tomorrow" name="Vandaag"  />
-				<text id="generic_tutorial" name="Tutorial"  />
-				<text id="generic_username" name="Spelernaam"  />
-				<text id="generic_xp" name="XP"  />
-				<text id="generic_yesterday" name="Gisteren"  />
-			</common>
-			<error>
-				<text id="generic_versioncheck_error" name="Oude versie!"  />
-				<text id="generic_versioncheck_errorcode_1" name="Pagina updaten."  />
-			</error>
-			<feeds id=""  />
-			<friends>
-				<text id="generic_friends_add_copy" name="Wil je {0} als vriend toevoegen?"  />
-				<text id="generic_friends_add_title" name="Vriendschapsverzoek"  />
-				<text id="generic_friends_buddy_btn_morefriends" name="Meer Vrienden!"  />
-				<text id="generic_friends_denied_copy" name="{0} heeft je verzoek afgewezen."  />
-				<text id="generic_friends_denied_title" name="Verzoek afgewezen!"  />
-				<text id="generic_friends_invite_badword_copy" name="De naam die je hebt gekozen is niet toegestaan!"  />
-				<text id="generic_friends_invite_badword_title" name="Kijk uit!"  />
-				<text id="generic_friends_invite_error_copy" name="Om vrienden te kunnen uitnodigen, moet je je eerst aanmelden."  />
-				<text id="generic_friends_invite_error_title" name="Meld je eerst aan"  />
-			</friends>
-			<fullscreen>
-				<text id="generic_fullscreen_error_copy" name="Fullscreen niet mogelijk"  />
-			</fullscreen>
-			<languages>
-				<text id="generic_language_cs" name="Tsjechisch"  />
-				<text id="generic_language_da" name="Deens"  />
-				<text id="generic_language_de" name="Duits"  />
-				<text id="generic_language_el" name="Grieks"  />
-				<text id="generic_language_en" name="Engels"  />
-				<text id="generic_language_es" name="Spaans"  />
-				<text id="generic_language_fi" name="Fins"  />
-				<text id="generic_language_fr" name="Frans"  />
-				<text id="generic_language_hu" name="Hongaars"  />
-				<text id="generic_language_id" name="Indonesisch"  />
-				<text id="generic_language_it" name="Italiaans"  />
-				<text id="generic_language_ja" name="Japans"  />
-				<text id="generic_language_ko" name="Koreaans"  />
-				<text id="generic_language_nl" name="Nederlands"  />
-				<text id="generic_language_no" name="Noors"  />
-				<text id="generic_language_pl" name="Pools"  />
-				<text id="generic_language_pt" name="Portugees"  />
-				<text id="generic_language_pt_BR" name="Braziliaans"  />
-				<text id="generic_language_ru" name="Russisch"  />
-				<text id="generic_language_sv" name="Zweeds"  />
-				<text id="generic_language_tr" name="Turks"  />
-				<text id="generic_language_zh_CN" name="Chinees (vereenvoudigd)"  />
-				<text id="generic_language_zh_TW" name="Chinees (traditioneel)"  />
-			</languages>
-			<login>
-				<text id="generic_login_banned" name="Je account is geblokkeerd! Contacteer het support-team!"  />
-				<text id="generic_login_banned_2" name="Je account is gedeactiveerd!
+Veel plezier!" />
+		<text id="tut_mannequinaccept_copy" name="Ben je benieuwd naar de reacties van je klanten? Klik op Accepteren om de beoordelingen te bekijken." />
+		<text id="tut_mannequincategory_copy" name="Afhankelijk van de soort paspop die je hebt staan kan je de pop uitrusten met bepaalde soorten kleding. Torso&amp;#039;s kunnen bijvoorbeeld alleen met bovenkleding worden uitgerust. Klik op het kledingicoontje om te zien wat je de pop aan kunt trekken" />
+		<text id="tut_mannequinclose_copy" name="Dit ziet er geweldig uit! Klik op Sluiten om terug te gaan naar je boetiek." />
+		<text id="tut_mannequinclothes_copy" name="Je verkoopt op dit moment aleen blauwe poloshirts. Klik op het poloshirt om je paspop daarmee aan te kleden." />
+		<text id="tut_openproducebook_copy" name="Je hebt het patroon gekocht. Keer terug naar het Productieboek om te kijken welke spullen je kunt prodcueren." />
+		<text id="tut_preparesteps_copy" name="Klik nu op de naaister om haar de instructies voor de productie te geven." />
+		<text id="tut_producefactory_copy" name="Met Goude Knopen kun je de spullen onmiddellijk afmaken. Klik op de naaister om ze nu gelijk af te maken." />
+		<text id="tut_produce_copy" name="Je kunt nu met de productie beginnen." />
+		<text id="tut_readyfactory_copy" name="Je moet je kleding op schappen leggen zodat de klanten ze kunnen kopen. Klik op de werkkracht met de geproduceerde spullen..." />
+		<text id="tut_start_copy" name="Welkom in je boetiek, {0}!
+Deze korte uitleg helpt je om je snel je weg in de modewereld te vinden." />
+		<text id="tut_title" name="Lessen!" />
+	</tutorial>
+	<generic_flash>
+		<alert>
+			<text id="generic_alert_bug" name="Fout" />
+			<text id="generic_alert_connection_failed_copy" name="Onderhoud. Probeer het later nog eens!" />
+			<text id="generic_alert_connection_failed_title" name="Werk in uitvoering!" />
+			<text id="generic_alert_connection_lost_copy" name="De server-verbinding doet het niet. Probeer het a.u.b. nog eens." />
+			<text id="generic_alert_connection_lost_description" name="We zijn op dit moment bezig met onderhoudswerk dat af en toe nodig is. Dit doen we om updates of nieuwe features te installeren of fouten te corrigeren. &lt;br&gt;&lt;br&gt; 
+We werken zo snel we kunnen zodat je niet te lang hoeft te wachten om weer terug te keren naar je spel." />
+			<text id="generic_alert_connection_lost_promo" name="Waarom probeer je ondertussen niet een van onze andere spelletjes?" />
+			<text id="generic_alert_connection_lost_thanks" name="Bedankt voor je begrip!" />
+			<text id="generic_alert_connection_lost_title" name="Verbinding verbroken!" />
+			<text id="generic_alert_error" name="Fout" />
+			<text id="generic_alert_information" name="Melding" />
+			<text id="generic_alert_loggedout_copy" name="Je bent nu uitgelogd. Vergeet niet: Elke dag is er een log-in bonus voor jou!" />
+			<text id="generic_alert_loggedout_title" name="Tot straks!" />
+			<text id="generic_alert_warning" name="Waarschuwing" />
+			<text id="generic_alert_watchout" name="Let op!" />
+			<text id="generic_invalid_email_provider" name="Een e-mail adres van deze provider is niet toegestaan!" />
+			<text id="generic_js_alert_firstsessiontracking_loading" name="Je internet verbinding lijkt nogal langzaam op het moment. Probeer het a.u.b. later nog eens!" />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="Wat vind je van het spel en wat kan nog verbeterd worden? Schrijf je opmerkingen a.u.b. in het Goodgame Forum of de Groep." />
+			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Let op: Je vooruitgang wordt alleen geregistreerd als je je hebt aangemeld!" />
+			<text id="generic_register_error_invalidemail" name="Het ingevoerde e-mail adres is niet correct." />
+			<text id="generic_report_muted_chattry" name="Je kunt de chat functie niet gebruiken omdat je geblokkeerd bent." />
+		</alert>
+		<button>
+			<text id="generic_btn_accept" name="Accepteren" />
+			<text id="generic_btn_cancel" name="Annuleren" />
+			<text id="generic_btn_close" name="Sluiten" />
+			<text id="generic_btn_continue" name="Doorgaan" />
+			<text id="generic_btn_end" name="Einde" />
+			<text id="generic_btn_endnow" name="Nu eindigen" />
+			<text id="generic_btn_goback" name="Terug" />
+			<text id="generic_btn_no" name="Nee" />
+			<text id="generic_btn_noshare" name="Niet draaien" />
+			<text id="generic_btn_notaccept" name="Afwijzen" />
+			<text id="generic_btn_okay" name="OK" />
+			<text id="generic_btn_reconnect" name="Verbind opnieuw" />
+			<text id="generic_btn_refresh" name="Refresh" />
+			<text id="generic_btn_report" name="Melden" />
+			<text id="generic_btn_search" name="Zoeken" />
+			<text id="generic_btn_share" name="Delen!" />
+			<text id="generic_btn_skip" name="Overslaan" />
+			<text id="generic_btn_start" name="Beginnen" />
+			<text id="generic_btn_topayment" name="Geef het aan mij!" />
+			<text id="generic_btn_yes" name="Ja" />
+		</button>
+		<chat>
+			<text id="generic_chat_writeable" name="Je moet je aanmelden en level 1 bereikt hebben om de chat te kunnen gebruiken." />
+		</chat>
+		<common>
+			<text id="generic_admin" name="Admin" />
+			<text id="generic_animation" name="Animaties weergeven" />
+			<text id="generic_bugreport" name="Vertel ons over Fouten" />
+			<text id="generic_changePass" name="Wachtwoord veranderen" />
+			<text id="generic_comma" name="," />
+			<text id="generic_conningsoon" name="*Binnenkort uit*" />
+			<text id="generic_date" name="Datum" />
+			<text id="generic_day" name="Dag" />
+			<text id="generic_dayformat" name="{1}/{0}" />
+			<text id="generic_days" name="Dagen" />
+			<text id="generic_day_short" name="D" />
+			<text id="generic_decimalseparator" name="." />
+			<text id="generic_email" name="E-mail" />
+			<text id="generic_faq" name="Veel Gestelde Vragen" />
+			<text id="generic_forum" name="Forum" />
+			<text id="generic_friend" name="Vriend" />
+			<text id="generic_friends" name="Vrienden" />
+			<text id="generic_general" name="Algemene settings" />
+			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_group" name="Groep" />
+			<text id="generic_guest" name="Gast" />
+			<text id="generic_help" name="Help" />
+			<text id="generic_high" name="Hoog" />
+			<text id="generic_hour" name="Uur" />
+			<text id="generic_hours" name="Uur" />
+			<text id="generic_hour_short" name="U" />
+			<text id="generic_limited" name="Limited" />
+			<text id="generic_logout" name="Log-out" />
+			<text id="generic_low" name="Laag" />
+			<text id="generic_medium" name="Medium" />
+			<text id="generic_minute" name="Minuut" />
+			<text id="generic_minutes" name="Minuten" />
+			<text id="generic_minute_short" name="Min" />
+			<text id="generic_moderator" name="Mod" />
+			<text id="generic_music" name="Muziek aan/uit" />
+			<text id="generic_name" name="Naam" />
+			<text id="generic_news" name="Nieuwe verhalen" />
+			<text id="generic_options" name="Opties" />
+			<text id="generic_quality" name="Kwaliteit" />
+			<text id="generic_register" name="Bewaren en Aanmelden" />
+			<text id="generic_second" name="Seconde" />
+			<text id="generic_seconds" name="Seconden" />
+			<text id="generic_second_short" name="Sec" />
+			<text id="generic_sound" name="Geluid aan/uit" />
+			<text id="generic_support" name="Support" />
+			<text id="generic_today" name="Vandaag" />
+			<text id="generic_tomorrow" name="Vandaag" />
+			<text id="generic_tutorial" name="Tutorial" />
+			<text id="generic_username" name="Spelernaam" />
+			<text id="generic_xp" name="XP" />
+			<text id="generic_yesterday" name="Gisteren" />
+		</common>
+		<error>
+			<text id="generic_versioncheck_error" name="Oude versie!" />
+			<text id="generic_versioncheck_errorcode_1" name="Pagina updaten." />
+		</error>
+		<feeds id="" />
+		<friends>
+			<text id="generic_friends_add_copy" name="Wil je {0} als vriend toevoegen?" />
+			<text id="generic_friends_add_title" name="Vriendschapsverzoek" />
+			<text id="generic_friends_buddy_btn_morefriends" name="Meer Vrienden!" />
+			<text id="generic_friends_denied_copy" name="{0} heeft je verzoek afgewezen." />
+			<text id="generic_friends_denied_title" name="Verzoek afgewezen!" />
+			<text id="generic_friends_invite_badword_copy" name="De naam die je hebt gekozen is niet toegestaan!" />
+			<text id="generic_friends_invite_badword_title" name="Kijk uit!" />
+			<text id="generic_friends_invite_error_copy" name="Om vrienden te kunnen uitnodigen, moet je je eerst aanmelden." />
+			<text id="generic_friends_invite_error_title" name="Meld je eerst aan" />
+		</friends>
+		<fullscreen>
+			<text id="generic_fullscreen_error_copy" name="Fullscreen niet mogelijk" />
+		</fullscreen>
+		<languages>
+			<text id="generic_language_cs" name="Tsjechisch" />
+			<text id="generic_language_da" name="Deens" />
+			<text id="generic_language_de" name="Duits" />
+			<text id="generic_language_el" name="Grieks" />
+			<text id="generic_language_en" name="Engels" />
+			<text id="generic_language_es" name="Spaans" />
+			<text id="generic_language_fi" name="Fins" />
+			<text id="generic_language_fr" name="Frans" />
+			<text id="generic_language_hu" name="Hongaars" />
+			<text id="generic_language_id" name="Indonesisch" />
+			<text id="generic_language_it" name="Italiaans" />
+			<text id="generic_language_ja" name="Japans" />
+			<text id="generic_language_ko" name="Koreaans" />
+			<text id="generic_language_nl" name="Nederlands" />
+			<text id="generic_language_no" name="Noors" />
+			<text id="generic_language_pl" name="Pools" />
+			<text id="generic_language_pt" name="Portugees" />
+			<text id="generic_language_pt_BR" name="Braziliaans" />
+			<text id="generic_language_ru" name="Russisch" />
+			<text id="generic_language_sv" name="Zweeds" />
+			<text id="generic_language_tr" name="Turks" />
+			<text id="generic_language_zh_CN" name="Chinees (vereenvoudigd)" />
+			<text id="generic_language_zh_TW" name="Chinees (traditioneel)" />
+		</languages>
+		<login>
+			<text id="generic_login_banned" name="Je account is geblokkeerd! Contacteer het support-team!" />
+			<text id="generic_login_banned_2" name="Je account is gedeactiveerd!
 
 Deactivatie tot: {0}
 
-Als je vragen hebt over je deactivatie, contacteer dan onze helpdesk."  />
-				<text id="generic_login_banned_3" name="Je account is voorgoed geblokkeerd. 
+Als je vragen hebt over je deactivatie, contacteer dan onze helpdesk." />
+			<text id="generic_login_banned_3" name="Je account is voorgoed geblokkeerd. 
 
-Als je vragen hebt over deze actie, neem dan contact op met support."  />
-				<text id="generic_login_banned_permanent" name="permanent"  />
-				<text id="generic_login_facebook" name="Login via Facebook"  />
-				<text id="generic_login_login" name="LOG-IN"  />
-				<text id="generic_login_loginname" name="Gebruikersnaam / E-mail"  />
-				<text id="generic_login_lostpassword" name="Wachtwoord vergeten?"  />
-				<text id="generic_login_lostpassword_copy" name="Voer je E-mailadres in en dan sturen we je je wachtwoord."  />
-				<text id="generic_login_lostpassword_title" name="Wachtwoord vergeten?"  />
-				<text id="generic_login_newplayer" name="Ben jij nieuw?"  />
-				<text id="generic_login_password" name="Wachtwoord"  />
-				<text id="generic_login_play" name="NU SPELEN"  />
-				<text id="generic_login_playnow" name="Nu spelen!"  />
-				<text id="generic_login_register" name="Aanmelden"  />
-				<text id="generic_login_rememberpassword" name="Wachtwoord bewaren"  />
-				<text id="generic_login_wronglogin" name="Gebruikersnaam of wachtwoord verkeerd!"  />
-			</login>
-			<logout>
-				<text id="generic_logout_guest_copy" name="Meld je aan om je score te bewaren!"  />
-				<text id="generic_logout_guest_title" name="Aanmelden"  />
-			</logout>
-			<notification>
-				<text id="servershutdownpremonition_backin_copy" name="Het spel zal binnen {0} zeker weer beschikbaar zijn."  />
-				<text id="servershutdownpremonition_copy" name="De spelserver is nu even niet bruikbaar {0}. Kun je uitloggen of jezelf aanmelden om je score op te slaan?"  />
-				<text id="servershutdownpremonition_registered_copy" name="Wij stoppen de server binnen {0} omwille van onderhoudswerken."  />
-				<text id="servershutdown_copy" name="De spelserver is nu even niet bruikbaar. Over een paar minuten kun je inloggen."  />
-				<text id="welcomeback_copy" name="Leuk om je weer te zien! Hier is een kleinigheidje om je weer op gang te krijgen!"  />
-				<text id="welcomeback_title" name="Je bent er weer!"  />
-			</notification>
-			<password>
-				<text id="generic_change_password_copy_newpass" name="Nieuw wachtwoord:"  />
-				<text id="generic_change_password_copy_oldpass" name="Oud wachtwoord:"  />
-				<text id="generic_change_password_copy_send" name="Je nieuwe wachtwoord is naar je e-mail adres gestuurd."  />
-				<text id="generic_change_password_error_failed" name="Sorry, maar dit is niet je oude wachtwoord."  />
-				<text id="generic_change_password_error_success" name="Je wachtwoord is met succes veranderd!"  />
-				<text id="generic_change_password_faild_copy" name="Je nieuwe wachtwoord moet meer dan twee letters bevatten en je oude wachtwoord moet correct worden ingevoerd!"  />
-				<text id="generic_change_password_faild_specialcharacters" name="Je wachtwoord mag niet leeg zijn of speciale tekens bevatten."  />
-				<text id="generic_change_password_faild_title" name="Wachtwoord invoeren"  />
-				<text id="generic_change_password_title" name="Verander wachtwoord"  />
-				<text id="generic_guest_change_password_faild_copy" name="Je kunt je wachtwoord alleen wijzigen als je een geregistreerd speler bent!"  />
-				<text id="generic_guest_change_password_faild_title" name="Meld je eerst aan"  />
-			</password>
-			<payment>
-				<text id="generic_payment_48hdiscount_button" name="Meer Goud in de eerste 48 uur"  />
-				<text id="generic_payment_48hdiscount_button_general" name="Meer {0} in de eerste 48 uur"  />
-				<text id="generic_payment_48hdiscount_copy" name="Alleen 48 uur na je registratie - Koop geselecteerde goud pakketten en ontvang {0}% Goud gratis!"  />
-				<text id="generic_payment_48hdiscount_copy_1" name="Alleen 48 uur na je aanmelding - Koop goud pakketten en ontvang {0}% extra Goud gratis!"  />
-				<text id="generic_payment_48hdiscount_copy_1_general" name="Alleen 48 uur na je registratie - Koop {0} pakketten en ontvang gratis {1}% extra!"  />
-				<text id="generic_payment_48hdiscount_copy_general" name="Alleen 48 uur na je aanmelding - Koop geselecteerde {0} pakketten en ontvang gratis {1}% extra!"  />
-				<text id="generic_payment_copy" name="Je wordt doorgestuurd naar de betaling shop"  />
-				<text id="generic_payment_discount_button" name="Nu {0}% meer goud!"  />
-				<text id="generic_payment_discount_copy" name="Koop nu goud en ontvang een bonus van {0}%!"  />
-				<text id="generic_payment_discount_copy_general" name="Koop nu {0} en ontvang een {1} % bonus!"  />
-				<text id="generic_payment_discount_general" name="Krijg nu {0}% meer {1} voor je geld!"  />
-				<text id="generic_payment_discount_generalshort" name="Ontvang {0}% meer voor je geld!"  />
-				<text id="generic_payment_discount_time" name="{0} resterende!"  />
-				<text id="generic_payment_discount_title" name="Meer goud voor je geld!"  />
-				<text id="generic_payment_newPrices" name="Vanaf nu! Permanent verlaagde prijzen in onze betalings-shop! Bespaar echt geld!"  />
-				<text id="generic_payment_title" name="Betaling shop"  />
-			</payment>
-			<progressbar>
-				<text id="loading_text_1" name="Grafieken voorbereiden"  />
-				<text id="loading_text_10" name="Items in de wereld verspreiden"  />
-				<text id="loading_text_11" name="Grafieken tekenen"  />
-				<text id="loading_text_12" name="De knoppen inkleuren"  />
-				<text id="loading_text_13" name="Paaseieren verstoppen"  />
-				<text id="loading_text_14" name="Zoek gebruikersinformatie op"  />
-				<text id="loading_text_15" name="Insecten wegjagen"  />
-				<text id="loading_text_16" name="De programmeur voeren"  />
-				<text id="loading_text_17" name="Experimenteer met de klant"  />
-				<text id="loading_text_18" name="De zandloper omdraaien"  />
-				<text id="loading_text_19" name="Het systeem afkoelen"  />
-				<text id="loading_text_2" name="Spelmecahniek berekenen"  />
-				<text id="loading_text_20" name="Bijna klaar"  />
-				<text id="loading_text_3" name="Het hamsterwiel doen draaien"  />
-				<text id="loading_text_4" name="De server opwarmen"  />
-				<text id="loading_text_5" name="Hopen dat alles goed gaat"  />
-				<text id="loading_text_6" name="De verdelger roepen"  />
-				<text id="loading_text_7" name="Calculeer gecompliceerde algoritmes"  />
-				<text id="loading_text_8" name="Flux capacitor kalibreren"  />
-				<text id="loading_text_9" name="Prutserige items"  />
-				<text id="loading_text_default" name="Initialisering"  />
-				<text id="loading_text_itemXML" name="Spelelementen laden"  />
-				<text id="progress_loadfiles" name="Spelgrafieken worden geladen..."  />
-				<text id="progress_serverconnection" name="Verbinden met server..."  />
-			</progressbar>
-			<register>
-				<text id="generic_register_agb_copy" name="Je moet eerst de Algemene Voorwaarden lezen en accepteren! Bevestigen met de linkerknop en je bent er klaar voor!"  />
-				<text id="generic_register_agb_read" name="Lees de Algemene Voorwaarden"  />
-				<text id="generic_register_alreadyavatar" name="Deze gebruiker heeft al een avatar."  />
-				<text id="generic_register_badword" name="Het is niet toegestaan om {0} te gebruiken in je naam."  />
-				<text id="generic_register_btn_agb" name="Algemene Voorwaarden aanvaarden"  />
-				<text id="generic_register_btn_later" name="Later"  />
-				<text id="generic_register_btn_next" name="Doorgaan"  />
-				<text id="generic_register_btn_save" name="Bewaren"  />
-				<text id="generic_register_character" name="Creëer je speelfiguur"  />
-				<text id="generic_register_copy_0" name="Meld je nu gratis aan!"  />
-				<text id="generic_register_copy_1" name="Bewaar je vooruitgang!"  />
-				<text id="generic_register_emaillong_copy" name="Je e-mailadres is helaas te lang."  />
-				<text id="generic_register_emailwrong_copy" name="Het e-mailadres dat je hebt opgegeven, is niet correct."  />
-				<text id="generic_register_email_copy" name="Het E-mailadres mag niet leeg zijn of spaties bevatten."  />
-				<text id="generic_register_error" name="Aanmelding mislukt"  />
-				<text id="generic_register_errormistake" name="Fout"  />
-				<text id="generic_register_error_accountalreadyexists" name="Een andere speler heeft zich al geregistreerd met dit e-mail adres, sorry."  />
-				<text id="generic_register_forfree" name="Meld je gratis aan!"  />
-				<text id="generic_register_forfree1" name="Gratis!"  />
-				<text id="generic_register_letsgo" name="Hier gaan we!"  />
-				<text id="generic_register_namealreadyused" name="Deze naam is al in gebruik."  />
-				<text id="generic_register_namenotvalid" name="De naam die je hebt opgegeven, is niet juist."  />
-				<text id="generic_register_passwordshort_copy" name="Je wachtwoord is te kort. Het moet tenminste 4 letters bevatten."  />
-				<text id="generic_register_passwordwrong_copy" name="Het wachtwoord dat je hebt opgegeven, is niet juist."  />
-				<text id="generic_register_password_copy" name="Je wachtwoord mag niet leeg zijn of speciale karakters bevatten."  />
-				<text id="generic_register_rememberdata" name="Onthoud gegevens"  />
-				<text id="generic_register_reward" name="Meld je gratis aan en ontvang {0} {1}!"  />
-				<text id="generic_register_subscribe" name="Aanmelden"  />
-				<text id="generic_register_success" name="Je hebt je met succes aangemeld."  />
-				<text id="generic_register_title" name="Registratie fout"  />
-				<text id="generic_register_unlock" name="Unlock deze functie!"  />
-			</register>
-			<report>
-				<text id="generic_report_muted_badword1_copy" name="Let op je taal en manieren. Anders word je geblokkeerd van de chat en zal je account tijdelijk worden afgesloten. Reden: {0}"  />
-				<text id="generic_report_muted_badword2_copy" name="Je kunt de chat functie de volgende {0} niet gebruiken omwille van herhaaldelijk misbruik. Reden:  {1}"  />
-				<text id="generic_report_muted_domain1" name="Schrijf geen URL&#039;s in de chat!"  />
-				<text id="generic_report_muted_reported_copy" name="Sommige spelers hebben over je geklaagd. Je wordt op de chat geblokkeerd voor de volgende{0}. Reden:  {1}"  />
-				<text id="generic_report_player_copy" name="Wil je de speler {0} echt melden? Kijk uit! Misbruik maken van deze functie kan tot gevolg hebben dat je account geblokkeerd wordt."  />
-				<text id="generic_report_player_reason_0" name="Belediging"  />
-				<text id="generic_report_player_reason_1" name="opmerkingen m.b.t. sex"  />
-				<text id="generic_report_player_reason_2" name="racistische opmerking"  />
-				<text id="generic_report_player_reason_3" name="Bedreiging / blackmail"  />
-				<text id="generic_report_player_reason_title" name="reden van melding"  />
-				<text id="generic_report_player_title" name="Speler melden?"  />
-				<text id="generic_report_reported_copy" name="Een andere speler heeft jou gemeld bij de administrator. Reden:  {0}"  />
-			</report>
-			<worlds>
-				<text id="generic_connect" name="Connect"  />
-				<text id="generic_select_world" name="Selecteer wereld:"  />
-				<text id="generic_world" name="Wereld: {0}"  />
-				<text id="generic_world_international" name="Internationaal: {0}"  />
-			</worlds>
-		</generic_flash>
-	</fashion>
- 
+Als je vragen hebt over deze actie, neem dan contact op met support." />
+			<text id="generic_login_banned_permanent" name="permanent" />
+			<text id="generic_login_facebook" name="Login via Facebook" />
+			<text id="generic_login_login" name="LOG-IN" />
+			<text id="generic_login_loginname" name="Gebruikersnaam / E-mail" />
+			<text id="generic_login_lostpassword" name="Wachtwoord vergeten?" />
+			<text id="generic_login_lostpassword_copy" name="Voer je E-mailadres in en dan sturen we je je wachtwoord." />
+			<text id="generic_login_lostpassword_title" name="Wachtwoord vergeten?" />
+			<text id="generic_login_newplayer" name="Ben jij nieuw?" />
+			<text id="generic_login_password" name="Wachtwoord" />
+			<text id="generic_login_play" name="NU SPELEN" />
+			<text id="generic_login_playnow" name="Nu spelen!" />
+			<text id="generic_login_register" name="Aanmelden" />
+			<text id="generic_login_rememberpassword" name="Wachtwoord bewaren" />
+			<text id="generic_login_wronglogin" name="Gebruikersnaam of wachtwoord verkeerd!" />
+		</login>
+		<logout>
+			<text id="generic_logout_guest_copy" name="Meld je aan om je score te bewaren!" />
+			<text id="generic_logout_guest_title" name="Aanmelden" />
+		</logout>
+		<notification>
+			<text id="servershutdownpremonition_backin_copy" name="Het spel zal binnen {0} zeker weer beschikbaar zijn." />
+			<text id="servershutdownpremonition_copy" name="De spelserver is nu even niet bruikbaar {0}. Kun je uitloggen of jezelf aanmelden om je score op te slaan?" />
+			<text id="servershutdownpremonition_registered_copy" name="Wij stoppen de server binnen {0} omwille van onderhoudswerken." />
+			<text id="servershutdown_copy" name="De spelserver is nu even niet bruikbaar. Over een paar minuten kun je inloggen." />
+			<text id="welcomeback_copy" name="Leuk om je weer te zien! Hier is een kleinigheidje om je weer op gang te krijgen!" />
+			<text id="welcomeback_title" name="Je bent er weer!" />
+		</notification>
+		<password>
+			<text id="generic_change_password_copy_newpass" name="Nieuw wachtwoord:" />
+			<text id="generic_change_password_copy_oldpass" name="Oud wachtwoord:" />
+			<text id="generic_change_password_copy_send" name="Je nieuwe wachtwoord is naar je e-mail adres gestuurd." />
+			<text id="generic_change_password_error_failed" name="Sorry, maar dit is niet je oude wachtwoord." />
+			<text id="generic_change_password_error_success" name="Je wachtwoord is met succes veranderd!" />
+			<text id="generic_change_password_faild_copy" name="Je nieuwe wachtwoord moet meer dan twee letters bevatten en je oude wachtwoord moet correct worden ingevoerd!" />
+			<text id="generic_change_password_faild_specialcharacters" name="Je wachtwoord mag niet leeg zijn of speciale tekens bevatten." />
+			<text id="generic_change_password_faild_title" name="Wachtwoord invoeren" />
+			<text id="generic_change_password_title" name="Verander wachtwoord" />
+			<text id="generic_guest_change_password_faild_copy" name="Je kunt je wachtwoord alleen wijzigen als je een geregistreerd speler bent!" />
+			<text id="generic_guest_change_password_faild_title" name="Meld je eerst aan" />
+		</password>
+		<payment>
+			<text id="generic_payment_48hdiscount_button" name="Meer Goud in de eerste 48 uur" />
+			<text id="generic_payment_48hdiscount_button_general" name="Meer {0} in de eerste 48 uur" />
+			<text id="generic_payment_48hdiscount_copy" name="Alleen 48 uur na je registratie - Koop geselecteerde goud pakketten en ontvang {0}% Goud gratis!" />
+			<text id="generic_payment_48hdiscount_copy_1" name="Alleen 48 uur na je aanmelding - Koop goud pakketten en ontvang {0}% extra Goud gratis!" />
+			<text id="generic_payment_48hdiscount_copy_1_general" name="Alleen 48 uur na je registratie - Koop {0} pakketten en ontvang gratis {1}% extra!" />
+			<text id="generic_payment_48hdiscount_copy_general" name="Alleen 48 uur na je aanmelding - Koop geselecteerde {0} pakketten en ontvang gratis {1}% extra!" />
+			<text id="generic_payment_copy" name="Je wordt doorgestuurd naar de betaling shop" />
+			<text id="generic_payment_discount_button" name="Nu {0}% meer goud!" />
+			<text id="generic_payment_discount_copy" name="Koop nu goud en ontvang een bonus van {0}%!" />
+			<text id="generic_payment_discount_copy_general" name="Koop nu {0} en ontvang een {1} % bonus!" />
+			<text id="generic_payment_discount_general" name="Krijg nu {0}% meer {1} voor je geld!" />
+			<text id="generic_payment_discount_generalshort" name="Ontvang {0}% meer voor je geld!" />
+			<text id="generic_payment_discount_time" name="{0} resterende!" />
+			<text id="generic_payment_discount_title" name="Meer goud voor je geld!" />
+			<text id="generic_payment_newPrices" name="Vanaf nu! Permanent verlaagde prijzen in onze betalings-shop! Bespaar echt geld!" />
+			<text id="generic_payment_title" name="Betaling shop" />
+		</payment>
+		<progressbar>
+			<text id="loading_text_1" name="Grafieken voorbereiden" />
+			<text id="loading_text_10" name="Items in de wereld verspreiden" />
+			<text id="loading_text_11" name="Grafieken tekenen" />
+			<text id="loading_text_12" name="De knoppen inkleuren" />
+			<text id="loading_text_13" name="Paaseieren verstoppen" />
+			<text id="loading_text_14" name="Zoek gebruikersinformatie op" />
+			<text id="loading_text_15" name="Insecten wegjagen" />
+			<text id="loading_text_16" name="De programmeur voeren" />
+			<text id="loading_text_17" name="Experimenteer met de klant" />
+			<text id="loading_text_18" name="De zandloper omdraaien" />
+			<text id="loading_text_19" name="Het systeem afkoelen" />
+			<text id="loading_text_2" name="Spelmecahniek berekenen" />
+			<text id="loading_text_20" name="Bijna klaar" />
+			<text id="loading_text_3" name="Het hamsterwiel doen draaien" />
+			<text id="loading_text_4" name="De server opwarmen" />
+			<text id="loading_text_5" name="Hopen dat alles goed gaat" />
+			<text id="loading_text_6" name="De verdelger roepen" />
+			<text id="loading_text_7" name="Calculeer gecompliceerde algoritmes" />
+			<text id="loading_text_8" name="Flux capacitor kalibreren" />
+			<text id="loading_text_9" name="Prutserige items" />
+			<text id="loading_text_default" name="Initialisering" />
+			<text id="loading_text_itemXML" name="Spelelementen laden" />
+			<text id="progress_loadfiles" name="Spelgrafieken worden geladen..." />
+			<text id="progress_serverconnection" name="Verbinden met server..." />
+		</progressbar>
+		<register>
+			<text id="generic_register_agb_copy" name="Je moet eerst de Algemene Voorwaarden lezen en accepteren! Bevestigen met de linkerknop en je bent er klaar voor!" />
+			<text id="generic_register_agb_read" name="Lees de Algemene Voorwaarden" />
+			<text id="generic_register_alreadyavatar" name="Deze gebruiker heeft al een avatar." />
+			<text id="generic_register_badword" name="Het is niet toegestaan om {0} te gebruiken in je naam." />
+			<text id="generic_register_btn_agb" name="Algemene Voorwaarden aanvaarden" />
+			<text id="generic_register_btn_later" name="Later" />
+			<text id="generic_register_btn_next" name="Doorgaan" />
+			<text id="generic_register_btn_save" name="Bewaren" />
+			<text id="generic_register_character" name="Creëer je speelfiguur" />
+			<text id="generic_register_copy_0" name="Meld je nu gratis aan!" />
+			<text id="generic_register_copy_1" name="Bewaar je vooruitgang!" />
+			<text id="generic_register_emaillong_copy" name="Je e-mailadres is helaas te lang." />
+			<text id="generic_register_emailwrong_copy" name="Het e-mailadres dat je hebt opgegeven, is niet correct." />
+			<text id="generic_register_email_copy" name="Het E-mailadres mag niet leeg zijn of spaties bevatten." />
+			<text id="generic_register_error" name="Aanmelding mislukt" />
+			<text id="generic_register_errormistake" name="Fout" />
+			<text id="generic_register_error_accountalreadyexists" name="Een andere speler heeft zich al geregistreerd met dit e-mail adres, sorry." />
+			<text id="generic_register_forfree" name="Meld je gratis aan!" />
+			<text id="generic_register_forfree1" name="Gratis!" />
+			<text id="generic_register_letsgo" name="Hier gaan we!" />
+			<text id="generic_register_namealreadyused" name="Deze naam is al in gebruik." />
+			<text id="generic_register_namenotvalid" name="De naam die je hebt opgegeven, is niet juist." />
+			<text id="generic_register_passwordshort_copy" name="Je wachtwoord is te kort. Het moet tenminste 4 letters bevatten." />
+			<text id="generic_register_passwordwrong_copy" name="Het wachtwoord dat je hebt opgegeven, is niet juist." />
+			<text id="generic_register_password_copy" name="Je wachtwoord mag niet leeg zijn of speciale karakters bevatten." />
+			<text id="generic_register_rememberdata" name="Onthoud gegevens" />
+			<text id="generic_register_reward" name="Meld je gratis aan en ontvang {0} {1}!" />
+			<text id="generic_register_subscribe" name="Aanmelden" />
+			<text id="generic_register_success" name="Je hebt je met succes aangemeld." />
+			<text id="generic_register_title" name="Registratie fout" />
+			<text id="generic_register_unlock" name="Unlock deze functie!" />
+		</register>
+		<report>
+			<text id="generic_report_muted_badword1_copy" name="Let op je taal en manieren. Anders word je geblokkeerd van de chat en zal je account tijdelijk worden afgesloten. Reden: {0}" />
+			<text id="generic_report_muted_badword2_copy" name="Je kunt de chat functie de volgende {0} niet gebruiken omwille van herhaaldelijk misbruik. Reden:  {1}" />
+			<text id="generic_report_muted_domain1" name="Schrijf geen URL&amp;#039;s in de chat!" />
+			<text id="generic_report_muted_reported_copy" name="Sommige spelers hebben over je geklaagd. Je wordt op de chat geblokkeerd voor de volgende{0}. Reden:  {1}" />
+			<text id="generic_report_player_copy" name="Wil je de speler {0} echt melden? Kijk uit! Misbruik maken van deze functie kan tot gevolg hebben dat je account geblokkeerd wordt." />
+			<text id="generic_report_player_reason_0" name="Belediging" />
+			<text id="generic_report_player_reason_1" name="opmerkingen m.b.t. sex" />
+			<text id="generic_report_player_reason_2" name="racistische opmerking" />
+			<text id="generic_report_player_reason_3" name="Bedreiging / blackmail" />
+			<text id="generic_report_player_reason_title" name="reden van melding" />
+			<text id="generic_report_player_title" name="Speler melden?" />
+			<text id="generic_report_reported_copy" name="Een andere speler heeft jou gemeld bij de administrator. Reden:  {0}" />
+		</report>
+		<worlds>
+			<text id="generic_connect" name="Connect" />
+			<text id="generic_select_world" name="Selecteer wereld:" />
+			<text id="generic_world" name="Wereld: {0}" />
+			<text id="generic_world_international" name="Internationaal: {0}" />
+		</worlds>
+	</generic_flash>
+</fashion>
