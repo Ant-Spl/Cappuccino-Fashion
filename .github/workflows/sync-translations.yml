@@ -21,18 +21,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
-      # The Fashion repository does not need a root package.json for these tools.
-      # Install the parser temporarily, run the script, and remove node_modules
-      # before creating the pull request.
-      - name: Install XML parser
-        run: npm install --no-save --no-package-lock --ignore-scripts --no-audit --no-fund fast-xml-parser@5.10.1
-
       - name: Sync translations
+        env:
+          # Keep the generated report outside the repository working tree.
+          SYNC_TRANSLATIONS_REPORT_PATH: ${{ runner.temp }}/translation-sync-summary.md
         run: node scripts/sync-translations.mjs
-
-      - name: Remove temporary dependencies
-        if: always()
-        run: rm -rf node_modules
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
@@ -44,6 +37,6 @@ jobs:
           body: |
             This PR was generated automatically by the translation sync workflow.
 
-            Missing keys and sections were copied from `Fashion_en.xml` into the other Fashion language files as English fallbacks.
+            Missing keys and sections were copied from `Fashion_en.xml` into the other Fashion language files as English fallbacks. Existing XML formatting and translations were preserved.
           add-paths: |
             langs/Fashion_*.xml

@@ -588,7 +588,7 @@ Sunucu mesajı{0}" />
 		<text id="error_editmode_removenotallowedDoor" name="Bir kapıya ihtiyacın var! Kapıyı değiştirmek için, önce başka bir kapıyı mağazana sürükle." />
 		<text id="error_editmode_removenotallowedFactory" name="Bu işçi hala üretiyor!" />
 		<text id="error_editmode_title" name="Yeniden süslendirmede hata" />
-		<text id="error_fashiongame_1" name="Mağazanı yükleyemedik. Lütfen Goodgame Studios destek bölümü ile irtibata geç." />
+		<text id="error_fashiongame_1" name="Mağazanı yükleyemedik. Lütfen Cappuccino Studios destek bölümü ile irtibata geç." />
 		<text id="error_fashiongame_title" name="Kötü bir hata" />
 		<text id="error_forgotpassword_101" name="E-posta alımını engelledin. Lütfen destek birimi ile irtibata geç" />
 		<text id="error_fullscreen_copy" name="tam ekran modunda mümkün değildir." />
@@ -627,7 +627,7 @@ Sunucu mesajı{0}" />
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="-DUBUG: eğlencelerle dolu" />
 		<text id="error_marketplace_21" name="-DEBUG: Zaten atari salonundasınız-" />
-		<text id="error_marketplace_title" name="Goodgame Atari Salonu" />
+		<text id="error_marketplace_title" name="Cappuccino Atari Salonu" />
 		<text id="error_nocustomclothselected" name="Bir şey üretmek istiyorsan önce bir şekil seç!" />
 		<text id="error_nomoney_copy" name="Üzgünüz, buna paran yetmiyor." />
 		<text id="error_nomoney_guest_copy" name="Paran mı bitti?Kayıt ol ve {0} Fashiondollar kazan!" />
@@ -669,10 +669,10 @@ Yeni bir desen yarat!" />
 	<feature>
 		<text id="feature_0_text_0" name="Zamanı geldi!
 
-Goodgame Fashion beta sürümüyle karşında!
+Cappuccino Fashion beta sürümüyle karşında!
  Herkes 1. Seviyeden başlayacak, fakat önceden satın alınan Altın Düğmeler ve buna ilaven 10 tane Altın Düğme geri verilecek.
 
-Goodgame Fashion&amp;#039;ın tadını çıkar!" />
+Cappuccino Fashion&amp;#039;ın tadını çıkar!" />
 		<text id="feature_0_title" name="Resmi başlangıç!" />
 		<text id="feature_10_text_0" name="Yaz geldi!
 Yeni GeeDee koleksiyonu da geldi!" />
@@ -703,8 +703,8 @@ Yeni JayJay Koleksiyonuna göz atın!" />
 		<text id="feature_title" name="Yeni özellikler" />
 	</feature>
 	<feeds>
-		<text id="descriptionfashionfeed" name="Goodgame Moda&amp;#039;yı henüz yükledim. Kendi butiğini açıp ünlü bir modacı haline gelmek ister misin? Gel ve bir göz at!" />
-		<text id="descriptionlongfashion" name="Goodgame Moda ile kendi mağazanı aç. Ünlü bir modacıya dönüş, canlı kumaşlar satın al ve kendi tarzını yarat. Mağazanın popülaritesini arttır ve şehrin en ünlü ve canlı mağazasını sen aç." />
+		<text id="descriptionfashionfeed" name="Cappuccino Moda&amp;#039;yı henüz yükledim. Kendi butiğini açıp ünlü bir modacı haline gelmek ister misin? Gel ve bir göz at!" />
+		<text id="descriptionlongfashion" name="Cappuccino Moda ile kendi mağazanı aç. Ünlü bir modacıya dönüş, canlı kumaşlar satın al ve kendi tarzını yarat. Mağazanın popülaritesini arttır ve şehrin en ünlü ve canlı mağazasını sen aç." />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="Kendi mayo tasarımlarını kendin yarat ve kazan!
@@ -729,30 +729,30 @@ Haydi forumlara gir ve sen de katıl!" />
 		<text id="panels_social_come_in" name="mağazaya girdi." />
 		<text id="panels_social_go_out" name="mağazadan çıktı." />
 		<text id="panels_social_nofriends" name="Henüz hiç arkadaşın yok." />
-		<text id="panels_social_welcome_market" name="Goodgame Atari Salonuna hoşgeldin" />
+		<text id="panels_social_welcome_market" name="Cappuccino Atari Salonuna hoşgeldin" />
 		<text id="panels_social_welcome_myshop" name="Hoşgeldin" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Selam %s!&lt;br /&gt;&lt;br /&gt;&quot;Goodgame Fashion&quot; adında harika bir online oyun keşfettim.&lt;br /&gt;&lt;br /&gt;Bu linkle oyuna doğrudan gidebilirsin:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Bu link ile &quot;Goodgame Fashion&quot;a üye olarak, oyunda kendi Moda Mağazanı ücretsiz yaratabilirsin.&lt;br /&gt;&lt;br /&gt;Kendi Moda Mağazana sahip olmanın nasıl bir deneyim olduğunu keşfet. Kendi mağazanda harika giysiler, aksesuarlar ve ayakkabılar üret, sat ve mağazanı istediğin gibi süsle!&lt;br /&gt;&lt;br /&gt;İyi eğlenceler, görüşmek üzere %s" />
+			<text id="mail_invite_friend" name="Selam %s!&lt;br /&gt;&lt;br /&gt;&quot;Cappuccino Fashion&quot; adında harika bir online oyun keşfettim.&lt;br /&gt;&lt;br /&gt;Bu linkle oyuna doğrudan gidebilirsin:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Bu link ile &quot;Cappuccino Fashion&quot;a üye olarak, oyunda kendi Moda Mağazanı ücretsiz yaratabilirsin.&lt;br /&gt;&lt;br /&gt;Kendi Moda Mağazana sahip olmanın nasıl bir deneyim olduğunu keşfet. Kendi mağazanda harika giysiler, aksesuarlar ve ayakkabılar üret, sat ve mağazanı istediğin gibi süsle!&lt;br /&gt;&lt;br /&gt;İyi eğlenceler, görüşmek üzere %s" />
 			<text id="mail_lost_pw" name="Selam %s!
 
 Yeni bir şifre talebinde bulunduğun için bu otomatik E-postayı aldın
 Yeni şifren: %s 
 
 Bu sayfadan oturum açabilirsin:
-http://www.goodgamestudios.com/fashion/
+http://www.Cappuccinostudios.com/fashion/
 
-Başka soru veya problemlerin için lütfen support@goodgamestudios.com adresine E-posta yolla.
+Başka soru veya problemlerin için lütfen support@Cappuccinostudios.com adresine E-posta yolla.
 
 İyi eğlenceler!
 
-Goodgamestudios.com
+Cappuccinostudios.com
 Takımı" />
-			<text id="mail_registration" name="Merhaba,&lt;br /&gt;&lt;br /&gt;kayıt olduğun için teşekkürler ve &quot;Goodgame Fashion&quot; dünyasına hoşgeldin.&lt;br /&gt;&lt;br /&gt;İstediğin zaman aşağıdaki bilgilerle oturum açabilirsin:&lt;br /&gt;E-posta: %s&lt;br /&gt;Şifre: %s&lt;br /&gt;&lt;br /&gt;Bu link seni doğrudan oyuna götürecek:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Başka soru veya problemlerin için lütfen support@goodgamestudios.com adresine E-posta yolla. &lt;br /&gt;&lt;br /&gt;İyi eğlenceler! &lt;br /&gt;&lt;br /&gt;Goodgamestudios.com&lt;br /&gt;Takımı" />
+			<text id="mail_registration" name="Merhaba,&lt;br /&gt;&lt;br /&gt;kayıt olduğun için teşekkürler ve &quot;Cappuccino Fashion&quot; dünyasına hoşgeldin.&lt;br /&gt;&lt;br /&gt;İstediğin zaman aşağıdaki bilgilerle oturum açabilirsin:&lt;br /&gt;E-posta: %s&lt;br /&gt;Şifre: %s&lt;br /&gt;&lt;br /&gt;Bu link seni doğrudan oyuna götürecek:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Başka soru veya problemlerin için lütfen support@Cappuccinostudios.com adresine E-posta yolla. &lt;br /&gt;&lt;br /&gt;İyi eğlenceler! &lt;br /&gt;&lt;br /&gt;Cappuccinostudios.com&lt;br /&gt;Takımı" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Goodgame Atari Salonu" />
+			<text id="marketplace" name="Cappuccino Atari Salonu" />
 		</misc>
 	</server>
 	<server_msg>
@@ -795,7 +795,7 @@ reklam yapabilirsin" />
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalog" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="Hediyeler" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="Sıralama" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame Atari Salonu" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Cappuccino Atari Salonu" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="Mağazayı Aç/Kapat" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="Mağazam" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Devam eden promosyon
@@ -960,7 +960,7 @@ Olabildiğince hızlı çalışıyoruz, dolayısıyla en kısa zamanda oyuna dö
 			<text id="generic_alert_watchout" name="Dikkat!" />
 			<text id="generic_invalid_email_provider" name="Bu servis sağlayıcısının sunduğu e-posta adresleri kabul edilmemekte!" />
 			<text id="generic_js_alert_firstsessiontracking_loading" name="İnternet bağlantın şu anda çok yavaş. Lütfen daha sonra tekrar dene!" />
-			<text id="generic_js_alert_firstsessiontracking_registered" name="Oyun hakkındaki düşüncelerini ve önerilerini bizimle paylaşır mısın? Lütfen, Goodgame forum veya Grup&amp;#039;a katıl." />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="Oyun hakkındaki düşüncelerini ve önerilerini bizimle paylaşır mısın? Lütfen, Cappuccino forum veya Grup&amp;#039;a katıl." />
 			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Dikkat: Oyununu sadece kaydolduğunda saklayabilirsin!" />
 			<text id="generic_register_error_invalidemail" name="Girilen e-posta adresi yanlış." />
 			<text id="generic_report_muted_chattry" name="Bloke olduğundan dolayı sohbet fonksiyonunu kullanamazsın." />
@@ -1009,7 +1009,7 @@ Olabildiğince hızlı çalışıyoruz, dolayısıyla en kısa zamanda oyuna dö
 			<text id="generic_friend" name="Arkadaş" />
 			<text id="generic_friends" name="Arkadaşlar" />
 			<text id="generic_general" name="General settings" />
-			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_ggs" name="Cappuccino Studios" />
 			<text id="generic_group" name="Grup" />
 			<text id="generic_guest" name="Ziyaretçi" />
 			<text id="generic_help" name="Yardım" />

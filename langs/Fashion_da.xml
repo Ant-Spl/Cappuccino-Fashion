@@ -568,7 +568,7 @@ For afhentning klik bare på linket i velkomst-mailen." />
 		<text id="error_editmode_removenotallowedDoor" name="Du har brug for en dør! For at skifte døren træk en anden ind i din shop." />
 		<text id="error_editmode_removenotallowedFactory" name="Arbejderen er stadig i indsats!" />
 		<text id="error_editmode_title" name="Fejl ved ombygningen" />
-		<text id="error_fashiongame_1" name="Shoppen kunne ikke lades. Henvend dig venligst til Goodgame Studios-Support." />
+		<text id="error_fashiongame_1" name="Shoppen kunne ikke lades. Henvend dig venligst til Cappuccino Studios-Support." />
 		<text id="error_fashiongame_title" name="Grov fejl" />
 		<text id="error_forgotpassword_101" name="Du har blokeret modtagelsen af e-mails. Henvend dig venligst til supporten." />
 		<text id="error_fullscreen_copy" name="Fuldbilledmodussen er desværre ikke mulig." />
@@ -607,7 +607,7 @@ For afhentning klik bare på linket i velkomst-mailen." />
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="-DEBUG: Arkaderne er desværre fulde-" />
 		<text id="error_marketplace_21" name="-DEBUG: Du befinder dig allerede i arkaderne-" />
-		<text id="error_marketplace_title" name="Goodgame arkader" />
+		<text id="error_marketplace_title" name="Cappuccino arkader" />
 		<text id="error_nocustomclothselected" name="Vælg først en form, når du vil producere noget!" />
 		<text id="error_nomoney_copy" name="Det har du desværre ikke råd til." />
 		<text id="error_nomoney_guest_copy" name="Du er fallit?\nSå registrer dig hurtigt og kasser {0} fashiondollar!" />
@@ -647,7 +647,7 @@ Kreer dog et nyt et!" />
 		<text id="error_work_title" name="Arbejdsvægring" />
 	</error_codes>
 	<feature>
-		<text id="feature_0_text_0" name="Det er så vidt!\n\nGoodgame Fashion starter officielt i BETA-fasen.\nEnhver starter igen med Level 1, får tilgodeskrevet sine købte guldknapper og ydermere 10 bonus-guldknapper som tak. \n\nRigtig god fornøjelse hos Goodgame Fashion!" />
+		<text id="feature_0_text_0" name="Det er så vidt!\n\nCappuccino Fashion starter officielt i BETA-fasen.\nEnhver starter igen med Level 1, får tilgodeskrevet sine købte guldknapper og ydermere 10 bonus-guldknapper som tak. \n\nRigtig god fornøjelse hos Cappuccino Fashion!" />
 		<text id="feature_0_title" name="Officiel start!" />
 		<text id="feature_10_text_0" name="Det bliver sommerligt!
 Den nye GeeDee kollektion er kommet!" />
@@ -678,8 +678,8 @@ Find ud af det hos det nye lykkehjul i arkaderne!" />
 		<text id="feature_title" name="Nye features" />
 	</feature>
 	<feeds>
-		<text id="descriptionfashionfeed" name="Jeg har lige installeret Goodgame Fashion. Vil du også åbne en Fashion Shop og blive modedesigner? Så kig da ind!" />
-		<text id="descriptionlongfashion" name="Åben din egen shop hos Goodgame Fashion. Bliv til den  foretrukne modedesigner, køb nye snitmønstre, producer din egen beklædning og skab nye trends. Dekorer din shop og bliv den nye star på modescenen!" />
+		<text id="descriptionfashionfeed" name="Jeg har lige installeret Cappuccino Fashion. Vil du også åbne en Fashion Shop og blive modedesigner? Så kig da ind!" />
+		<text id="descriptionlongfashion" name="Åben din egen shop hos Cappuccino Fashion. Bliv til den  foretrukne modedesigner, køb nye snitmønstre, producer din egen beklædning og skab nye trends. Dekorer din shop og bliv den nye star på modescenen!" />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="Design din egen bademode og vind!
@@ -704,25 +704,25 @@ Altså ind forummet og spil med!" />
 		<text id="panels_social_come_in" name="har betrådt shoppen" />
 		<text id="panels_social_go_out" name="har forladt shoppen" />
 		<text id="panels_social_nofriends" name="Du har ikke nogen venner endnu!" />
-		<text id="panels_social_welcome_market" name="Velkommen i Goodgame Arkaderne!" />
+		<text id="panels_social_welcome_market" name="Velkommen i Cappuccino Arkaderne!" />
 		<text id="panels_social_welcome_myshop" name="Velkommen" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Hi %s!&lt;br /&gt;&lt;br /&gt;Jeg har lige opdaget det smarte onlinespil &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br
+			<text id="mail_invite_friend" name="Hi %s!&lt;br /&gt;&lt;br /&gt;Jeg har lige opdaget det smarte onlinespil &quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br
 /&gt;via dette link kommer du direkte til spillet:&lt;br
-/&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br
+/&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br
 /&gt;Tilmeld dig vialinket, for at" />
 			<text id="mail_lost_pw" name="Hallo %s!&lt;br /&gt;&lt;br /&gt;Du modtager denne automatiske e-mail, fordi du har søgt om et nyt password.&lt;br/&gt;dit password er: %s&lt;br /&gt;&lt;br /&gt;via dette link kommer du direkte til spillet:&lt;br /&gt;http:
-//www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;ved spørgsmål og problemer henvend dig venligst til support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;vi ønsker dig viderehen rigtig god fornøjelse med at spille!&lt;br /&gt;&lt;br /&gt;dit team fra&lt;br /&gt;Goodgamestudios.com" />
-			<text id="mail_registration" name="Hallo,&lt;br /&gt;&lt;br /&gt;mange tak for din tilmelding og hjerteligt velkommen hos &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br
+//www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;ved spørgsmål og problemer henvend dig venligst til support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;vi ønsker dig viderehen rigtig god fornøjelse med at spille!&lt;br /&gt;&lt;br /&gt;dit team fra&lt;br /&gt;Cappuccinostudios.com" />
+			<text id="mail_registration" name="Hallo,&lt;br /&gt;&lt;br /&gt;mange tak for din tilmelding og hjerteligt velkommen hos &quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br
 /&gt;Du kan tilenhver tid logge dig på med følgende data:&lt;br /&gt;E-mail: %s&lt;br /&gt;Password: %s&lt;br /&gt;&lt;br
 /&gt;via dette link kommer du direkte til spillet:&lt;br
-/&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br
-/&gt;Ved spørgsmål og problemer henvend dig venligst til support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;Vi ønsker dig rigtig god fornøjelse med at spille!&lt;br /&gt;&lt;br /&gt;Dit team fra&lt;br /&gt;Goodgamestudios.com" />
+/&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br
+/&gt;Ved spørgsmål og problemer henvend dig venligst til support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;Vi ønsker dig rigtig god fornøjelse med at spille!&lt;br /&gt;&lt;br /&gt;Dit team fra&lt;br /&gt;Cappuccinostudios.com" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Goodgame arkader" />
+			<text id="marketplace" name="Cappuccino arkader" />
 		</misc>
 	</server>
 	<server_msg>
@@ -763,7 +763,7 @@ guldknapper/fashiondollar" />
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalog" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="Gaver" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="Rangliste" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame arkader" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Cappuccino arkader" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="Åben/luk shop" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="Min shop" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Aktionen er i gang
@@ -921,7 +921,7 @@ Vi arbejder på højtryk, så I hurtigst muligt kan spille igen." />
 			<text id="generic_invalid_email_provider" name="En e-mailadresse fra denne tilbyder er ikke tilladt!" />
 			<text id="generic_js_alert_firstsessiontracking_loading" name="Din internetforbindelse lader til at være meget langsom for tide. Prøv igen senere!" />
 			<text id="generic_js_alert_firstsessiontracking_registered" name="Hvad synes du om spillet og hvad kan gøres bedre?
-Skriv din mening i vores Goodgame-Forum henholdsvis gruppe!" />
+Skriv din mening i vores Cappuccino-Forum henholdsvis gruppe!" />
 			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Attention: Din spillestand bliver kun lagret, når du lader dig registrere!" />
 			<text id="generic_register_error_invalidemail" name="E-mailadressen, du har indtastet, er ikke korrekt." />
 			<text id="generic_report_muted_chattry" name="Du kan desværre ikke benytte chatten i øjeblikket på grund af din spærring." />
@@ -970,7 +970,7 @@ Skriv din mening i vores Goodgame-Forum henholdsvis gruppe!" />
 			<text id="generic_friend" name="Ven" />
 			<text id="generic_friends" name="Venner" />
 			<text id="generic_general" name="Generelt" />
-			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_ggs" name="Cappuccino Studios" />
 			<text id="generic_group" name="Gruppe" />
 			<text id="generic_guest" name="Gæst" />
 			<text id="generic_help" name="Hjælp" />

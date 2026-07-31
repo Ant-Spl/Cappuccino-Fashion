@@ -562,7 +562,7 @@ Para retirá-lo clique no link do E-Mail de boas vindas." />
 		<text id="error_editmode_removenotallowedDoor" name="Você precisa de uma porta! Para trocar a porta posicione uma outra na sua loja." />
 		<text id="error_editmode_removenotallowedFactory" name="O funcionário ainda está trabalhando!" />
 		<text id="error_editmode_title" name="Erro na construção" />
-		<text id="error_fashiongame_1" name="Não foi possível carregar a loja. Favor dirigir-se ao suporte da Goodgame Studios." />
+		<text id="error_fashiongame_1" name="Não foi possível carregar a loja. Favor dirigir-se ao suporte da Cappuccino Studios." />
 		<text id="error_fashiongame_title" name="Erro grave" />
 		<text id="error_forgotpassword_101" name="Você bloqueou o recebimento de e-mails. Dirija-se ao suporte." />
 		<text id="error_fullscreen_copy" name="O modo de tela cheia não é possível." />
@@ -600,7 +600,7 @@ Para retirá-lo clique no link do E-Mail de boas vindas." />
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="-DEBUG: O Boulevard já está cheio-" />
 		<text id="error_marketplace_21" name="-DEBUG: Você já se encontra no Boulevard-" />
-		<text id="error_marketplace_title" name="Boulevard Goodgame" />
+		<text id="error_marketplace_title" name="Boulevard Cappuccino" />
 		<text id="error_nocustomclothselected" name="Primeiro escolha uma forma se quizer produzir algo!" />
 		<text id="error_nomoney_copy" name="Você não tem dinheiro para comprar isso." />
 		<text id="error_nomoney_guest_copy" name="Você está duro?\nEntão registre-se logo ganhe {0}dólares Fashion!" />
@@ -639,7 +639,7 @@ Para retirá-lo clique no link do E-Mail de boas vindas." />
 		<text id="error_work_title" name="Rejeição de trabalho" />
 	</error_codes>
 	<feature>
-		<text id="feature_0_text_0" name="Chegou a hora!\nGoodgame Fashion está iniciando oficialmente a fase BETA. Todos recomeçam no nível 1, recebem seus botões de ouro comprados acreditados e um bônus de 10 botões de ouro como agradecimento. \n\nDivirta-se no Goodgame Fashion!" />
+		<text id="feature_0_text_0" name="Chegou a hora!\nCappuccino Fashion está iniciando oficialmente a fase BETA. Todos recomeçam no nível 1, recebem seus botões de ouro comprados acreditados e um bônus de 10 botões de ouro como agradecimento. \n\nDivirta-se no Cappuccino Fashion!" />
 		<text id="feature_0_title" name="Início oficial!" />
 		<text id="feature_10_text_0" name="O verão está chegando!
 A nova coleção GeeDee já chegou!" />
@@ -668,8 +668,8 @@ Gire a roda da fortuna e descubra!" />
 		<text id="feature_title" name="Novas características" />
 	</feature>
 	<feeds>
-		<text id="descriptionfashionfeed" name="Eu acabei de instalar o Goodgame Fashion. Você também gostaria de abrir sua própria loja e tornar-se um designer de moda? Entre e dê uma olhada!" />
-		<text id="descriptionlongfashion" name="Abra sua própria loja com o Goodgame Fashion. Torne-se um designer de moda, compre tecidos especiais, crie seu próprio vestuário e estabeleça novas tendências. Decore sua loja e torne-se a nova estrela da cena da moda!" />
+		<text id="descriptionfashionfeed" name="Eu acabei de instalar o Cappuccino Fashion. Você também gostaria de abrir sua própria loja e tornar-se um designer de moda? Entre e dê uma olhada!" />
+		<text id="descriptionlongfashion" name="Abra sua própria loja com o Cappuccino Fashion. Torne-se um designer de moda, compre tecidos especiais, crie seu próprio vestuário e estabeleça novas tendências. Decore sua loja e torne-se a nova estrela da cena da moda!" />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="Crie sue própria coleção de praia e ganhe!
@@ -694,17 +694,17 @@ Vá ao forum e participe!" />
 		<text id="panels_social_come_in" name="Entrou na loja" />
 		<text id="panels_social_go_out" name="Deixou a loja." />
 		<text id="panels_social_nofriends" name="Você não tem amigos suficientes!" />
-		<text id="panels_social_welcome_market" name="Bem vindo ao Boulevard Goodgame!" />
+		<text id="panels_social_welcome_market" name="Bem vindo ao Boulevard Cappuccino!" />
 		<text id="panels_social_welcome_myshop" name="Bem vindo" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Olá %s!&lt;br /&gt;&lt;br /&gt;Eu acabei de descobrir o jogo online &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Através dess link você chega diretamente no jogo:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Registre-se através do link para criar sua própria loja em &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Descubra como é ter sua própria loja. Produza lindas roupas, acessórios e sapatos, venda-os na sua loja e decore-a a seu gosto!&lt;br /&gt;&lt;br /&gt;Divirta-se jogando, %s" />
-			<text id="mail_lost_pw" name="Olá %s!&lt;br /&gt;&lt;br /&gt;Você está recebendo esse e-mail automático porque você pediu por uma nova senha.&lt;br /&gt;Sua senha é: %s&lt;br /&gt;&lt;br /&gt;Através desse link você chega diretamente no jogo:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Em caso de perguntas ou problemas dirija-se a support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;Nós desejamos muita diversão jogando!&lt;br /&gt;&lt;br /&gt;Seu time da&lt;br /&gt;Goodgamestudios.com" />
-			<text id="mail_registration" name="Olá,&lt;br /&gt;&lt;br /&gt;obrigado pela sua inscrição e seja bem vindo ao &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Você poderá fazer login a qualquer momento através desse link:&lt;br /&gt;E-Mail: %s&lt;br /&gt;Senha: %s&lt;br /&gt;&lt;br /&gt;Através desse link você chega diretamente no jogo:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br&gt;Em caso de perguntas ou problemas dirija-se a support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;Nós desejamos muita diversão jogando!&lt;br /&gt;&lt;br /&gt;Seu time da&lt;br /&gt;Goodgamestudios.com" />
+			<text id="mail_invite_friend" name="Olá %s!&lt;br /&gt;&lt;br /&gt;Eu acabei de descobrir o jogo online &quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Através dess link você chega diretamente no jogo:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Registre-se através do link para criar sua própria loja em &quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Descubra como é ter sua própria loja. Produza lindas roupas, acessórios e sapatos, venda-os na sua loja e decore-a a seu gosto!&lt;br /&gt;&lt;br /&gt;Divirta-se jogando, %s" />
+			<text id="mail_lost_pw" name="Olá %s!&lt;br /&gt;&lt;br /&gt;Você está recebendo esse e-mail automático porque você pediu por uma nova senha.&lt;br /&gt;Sua senha é: %s&lt;br /&gt;&lt;br /&gt;Através desse link você chega diretamente no jogo:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Em caso de perguntas ou problemas dirija-se a support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;Nós desejamos muita diversão jogando!&lt;br /&gt;&lt;br /&gt;Seu time da&lt;br /&gt;Cappuccinostudios.com" />
+			<text id="mail_registration" name="Olá,&lt;br /&gt;&lt;br /&gt;obrigado pela sua inscrição e seja bem vindo ao &quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Você poderá fazer login a qualquer momento através desse link:&lt;br /&gt;E-Mail: %s&lt;br /&gt;Senha: %s&lt;br /&gt;&lt;br /&gt;Através desse link você chega diretamente no jogo:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br&gt;Em caso de perguntas ou problemas dirija-se a support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;Nós desejamos muita diversão jogando!&lt;br /&gt;&lt;br /&gt;Seu time da&lt;br /&gt;Cappuccinostudios.com" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Boulevard Goodgame" />
+			<text id="marketplace" name="Boulevard Cappuccino" />
 		</misc>
 	</server>
 	<server_msg>
@@ -744,7 +744,7 @@ Vá ao forum e participe!" />
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Catálogo" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="Presentes" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="Ranking" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Boulevard Goodgame" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Boulevard Cappuccino" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="Abrir/fechar loja" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="Minha loja" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Promoção em andamento
@@ -900,7 +900,7 @@ Estamos trabalhando a todo o vapor para que você possa voltar a jogar o mais r�
 			<text id="generic_alert_watchout" name="Atenção!" />
 			<text id="generic_invalid_email_provider" name="Um endereço de e-mail desse provedor não é permitido!" />
 			<text id="generic_js_alert_firstsessiontracking_loading" name="A sua conexão a internet parece estar muito lenta no momento. Tente novamente mais tarde!" />
-			<text id="generic_js_alert_firstsessiontracking_registered" name="O que você achou do jogo e o que ainda poderia ser melhorado? Por favor, dê sua opinião no fórum do Goodgame ou no Grupo." />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="O que você achou do jogo e o que ainda poderia ser melhorado? Por favor, dê sua opinião no fórum do Cappuccino ou no Grupo." />
 			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Atenção: O seu jogo será salvo apenas quando você se cadastrar!" />
 			<text id="generic_register_error_invalidemail" name="O e-mail informado está incorreto." />
 			<text id="generic_report_muted_chattry" name="Você está impedido de utilizar o bate-papo no momento." />
@@ -949,7 +949,7 @@ Estamos trabalhando a todo o vapor para que você possa voltar a jogar o mais r�
 			<text id="generic_friend" name="Amigo" />
 			<text id="generic_friends" name="Amigos" />
 			<text id="generic_general" name="Geral" />
-			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_ggs" name="Cappuccino Studios" />
 			<text id="generic_group" name="Grupo" />
 			<text id="generic_guest" name="Cliente" />
 			<text id="generic_help" name="Ajuda" />

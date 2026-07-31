@@ -577,7 +577,7 @@
 		<text id="error_editmode_removenotallowedDoor" name="Χρειάζεσαι μία πόρτα!Για ν&amp;#039;αλλάξεις την πόρτα, σύρε μία άλλη μέσα στο κατάστημά σου πρώτα." />
 		<text id="error_editmode_removenotallowedFactory" name="Ο εργάτης αυτός παράγει ακόμα!" />
 		<text id="error_editmode_title" name="Λάθος κατά τη διακόσμηση" />
-		<text id="error_fashiongame_1" name="Δεν μπορέσαμα να φορτώσουμε το κατάστημά σας. Παρακαλώ επικοινωνήστε με την υποστήριξη της Goodgame Studios." />
+		<text id="error_fashiongame_1" name="Δεν μπορέσαμα να φορτώσουμε το κατάστημά σας. Παρακαλώ επικοινωνήστε με την υποστήριξη της Cappuccino Studios." />
 		<text id="error_fashiongame_title" name="Άσχημο λάθος" />
 		<text id="error_forgotpassword_101" name="Έχεις μπλοκάρει τη λήψη e-mails. Παρακαλώ επικοινώνησε με την υποστήριξη" />
 		<text id="error_fullscreen_copy" name="Η λειτουργία πλήρους οθόνης δεν είναι δυνατή." />
@@ -616,7 +616,7 @@
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="-DEBUG: Οι στοές είναι γεμάτες-" />
 		<text id="error_marketplace_21" name="-DEBUG: Βρίσκεσαι ήδη στις στοές-" />
-		<text id="error_marketplace_title" name="Στοά Goodgame" />
+		<text id="error_marketplace_title" name="Στοά Cappuccino" />
 		<text id="error_nocustomclothselected" name="Αν θέλεις να παράγεις κάτι πρέπει να διαλέξεις πρώτα το σχήμα!" />
 		<text id="error_nomoney_copy" name="Συγγνώμη, δε μπορείτε να το αγοράσετε ακόμα." />
 		<text id="error_nomoney_guest_copy" name="Έχουν τελειώσει τα χρήματα?\Κάνε εγγραφή και θα κερδίσεις {0} Δολλάρια Μόδας!" />
@@ -658,10 +658,10 @@
 	<feature>
 		<text id="feature_0_text_0" name="Έφτασε η ώρα!
 
-Η επίσημη beta έκδοση της Μόδας Goodgame είναι εδώ!
+Η επίσημη beta έκδοση της Μόδας Cappuccino είναι εδώ!
 Όλοι θα ξεκινήσουν πάλι από το επίπεδο 1 αλλά θα λάβουν πίσω τα χρυσά κουμπιά που είχαν αγοράσει προηγούμενως και επιπλέον 10 χρυσά κουμπιά. 
 
-Παρακαλούμε όπως απολαύσετε τη Μόδα Goodgame!" />
+Παρακαλούμε όπως απολαύσετε τη Μόδα Cappuccino!" />
 		<text id="feature_0_title" name="Επίσημη έναρξη!" />
 		<text id="feature_10_text_0" name="Το καλοκαίρι είναι εδώ!
 Η νέα συλλογή GeeDee έφτασε!" />
@@ -691,8 +691,8 @@
 		<text id="feature_title" name="Νέα χαρακτηριστικά" />
 	</feature>
 	<feeds>
-		<text id="descriptionfashionfeed" name="Μόλις έκανα εγκατάσταση τη Μόδα Goodgame. Θα ήθελες και εσύ να ανοίξεις το δικό σου μαγαζί μόδας και να γίνεις ένας σχεδιαστής μόδας? Έλα και ρίξε μια ματιά!" />
-		<text id="descriptionlongfashion" name="Άνοιξε το δικό σου κατάστημα μόδας στο Goodgame Fashion. Γίνε ένα διάσημος σχεδιαστής, αγόρασε μοναδικά υφάσματα και φτιάξε τη δική σου ενδυμασία και δημιούργησε καινούργιες τάσεις στη μόδα. Διακόσμησε το κατάστημά σου και γίνε ο καινούργιος αστέρας της μόδας!" />
+		<text id="descriptionfashionfeed" name="Μόλις έκανα εγκατάσταση τη Μόδα Cappuccino. Θα ήθελες και εσύ να ανοίξεις το δικό σου μαγαζί μόδας και να γίνεις ένας σχεδιαστής μόδας? Έλα και ρίξε μια ματιά!" />
+		<text id="descriptionlongfashion" name="Άνοιξε το δικό σου κατάστημα μόδας στο Cappuccino Fashion. Γίνε ένα διάσημος σχεδιαστής, αγόρασε μοναδικά υφάσματα και φτιάξε τη δική σου ενδυμασία και δημιούργησε καινούργιες τάσεις στη μόδα. Διακόσμησε το κατάστημά σου και γίνε ο καινούργιος αστέρας της μόδας!" />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="Σχεδίασε το δικό σου μαγιό και κέρδισε!
@@ -717,26 +717,26 @@
 		<text id="panels_social_come_in" name="μπήκε στο κατάστημα." />
 		<text id="panels_social_go_out" name="έφυγε από το κατάστημα." />
 		<text id="panels_social_nofriends" name="Δεν έχεις καθόλου φίλους προς το παρόν." />
-		<text id="panels_social_welcome_market" name="Καλώς ήρθες στις στοές Goodgame" />
+		<text id="panels_social_welcome_market" name="Καλώς ήρθες στις στοές Cappuccino" />
 		<text id="panels_social_welcome_myshop" name="Καλώς ήρθες" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Γειά σου %s!&lt;br /&gt;&lt;br /&gt;Μόλις ανακάλυψα αυτό το σπουδαίο online παιχνίδι &quot;Μόδα Goodgame&quot;.&lt;br /&gt;&lt;br /&gt;Με αυτό τον σύνδεσμο θα μεταβείς απευθείας στο παιχνίδι:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Κάνε εγγραφή με αυτόν το σύνδεσμο για να δημιουργήσεις το δικό σου κατάστημα μόδας δωρεάν στην &quot;Μόδα Goodgame&quot;.&lt;br /&gt;&lt;br /&gt;Ανακάλυψε πως είναι να έχεις το δικό σου κατάστημα μόδας.Φτιάξε θαυμάσια ρούχα, αξεσουάρ και παπούτσια, πούλησέ τα στο κατάστημά σου και διακόσμησέ το όπως επιθυμείς!&lt;br /&gt;&lt;br /&gt;Καλή διασκέδαση, %s" />
+			<text id="mail_invite_friend" name="Γειά σου %s!&lt;br /&gt;&lt;br /&gt;Μόλις ανακάλυψα αυτό το σπουδαίο online παιχνίδι &quot;Μόδα Cappuccino&quot;.&lt;br /&gt;&lt;br /&gt;Με αυτό τον σύνδεσμο θα μεταβείς απευθείας στο παιχνίδι:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Κάνε εγγραφή με αυτόν το σύνδεσμο για να δημιουργήσεις το δικό σου κατάστημα μόδας δωρεάν στην &quot;Μόδα Cappuccino&quot;.&lt;br /&gt;&lt;br /&gt;Ανακάλυψε πως είναι να έχεις το δικό σου κατάστημα μόδας.Φτιάξε θαυμάσια ρούχα, αξεσουάρ και παπούτσια, πούλησέ τα στο κατάστημά σου και διακόσμησέ το όπως επιθυμείς!&lt;br /&gt;&lt;br /&gt;Καλή διασκέδαση, %s" />
 			<text id="mail_lost_pw" name="Γειά σου %s!&lt;br /&gt;&lt;br /&gt;
 Έχεις λάβει αυτό το αυτόματο e-mail επειδή ζήτησες ένα νέο κωδικό.&lt;br /&gt;
 Ο νέος κωδικός σου είναι: %s &lt;br /&gt;&lt;br /&gt;
 Μπορείς να συνδεθείς μέσω αυτής της σελίδας:
-&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br 
+&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br 
 /&gt;
-Παρακαλώ επικοινώνησε με το support@goodgamestudios.com αν έχεις περισσότερες ερωτήσεις ή προβλήματα. &lt;br /&gt;&lt;br /&gt;
+Παρακαλώ επικοινώνησε με το support@Cappuccinostudios.com αν έχεις περισσότερες ερωτήσεις ή προβλήματα. &lt;br /&gt;&lt;br /&gt;
 
 Καλή διασκέδαση!&lt;br /&gt;&lt;br /&gt;
-Η ομάδα της &lt;br /&gt;Goodgamestudios.com" />
-			<text id="mail_registration" name="Γειά σου,&lt;br /&gt;&lt;br /&gt;Ευχαριστούμε για την εγγραφή σου και καλώς ήρθες στη &quot;Μόδα Goodgame&quot;.&lt;br /&gt;&lt;br /&gt;Μπορείς να συνδεθείς όλη την ώρα με τα ακόλουθα δεδομένα:&lt;br /&gt;Email: %s&lt;br /&gt;Κωδικός: %s&lt;br /&gt;&lt;br /&gt;Με αυτόν τον σύνδεσμο μπαίνεις στο παιχνίδι απευθείας:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Παρακαλούμε όπως επικοινωνήσετε με την support@goodgamestudios.com εάν έχετε άλλες ερωτήσεις ή προβλήματα. &lt;br /&gt;&lt;br /&gt;Καλή διασκέδαση!&lt;br /&gt;&lt;br /&gt;Η ομάδα της &lt;br /&gt;Goodgamestudios.com" />
+Η ομάδα της &lt;br /&gt;Cappuccinostudios.com" />
+			<text id="mail_registration" name="Γειά σου,&lt;br /&gt;&lt;br /&gt;Ευχαριστούμε για την εγγραφή σου και καλώς ήρθες στη &quot;Μόδα Cappuccino&quot;.&lt;br /&gt;&lt;br /&gt;Μπορείς να συνδεθείς όλη την ώρα με τα ακόλουθα δεδομένα:&lt;br /&gt;Email: %s&lt;br /&gt;Κωδικός: %s&lt;br /&gt;&lt;br /&gt;Με αυτόν τον σύνδεσμο μπαίνεις στο παιχνίδι απευθείας:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Παρακαλούμε όπως επικοινωνήσετε με την support@Cappuccinostudios.com εάν έχετε άλλες ερωτήσεις ή προβλήματα. &lt;br /&gt;&lt;br /&gt;Καλή διασκέδαση!&lt;br /&gt;&lt;br /&gt;Η ομάδα της &lt;br /&gt;Cappuccinostudios.com" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Στοές Goodgame" />
+			<text id="marketplace" name="Στοές Cappuccino" />
 		</misc>
 	</server>
 	<server_msg>
@@ -776,7 +776,7 @@
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Κατάλογος" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="Δώρα" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="Κατάταξη" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Στοές Goodgame" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Στοές Cappuccino" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="Άνοιγμα/Κλείσιμο καταστήματος" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="Το Κατάστημά μου" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Προώθηση σε εξέλιξη
@@ -938,7 +938,7 @@
 			<text id="generic_alert_watchout" name="Προσοχή!" />
 			<text id="generic_invalid_email_provider" name="Δεν επιτρέπονται διευθύνσεις e-mail από αυτόν τον προμηθευτή!" />
 			<text id="generic_js_alert_firstsessiontracking_loading" name="Η ταχύτητα της σύνδεσής σας δείχνει να είναι πολύ αργή αυτή τη στιγμή. Παρακαλώ δοκιμάστε αργότερα!" />
-			<text id="generic_js_alert_firstsessiontracking_registered" name="Πώς σας φαίνεται το παιχνίδι και τι μπορεί ακόμα να βελτιωθεί; Παρακαλώ, γράψτε τη γνώμη σας στο Goodgame Φόρουμ ή στην Ομάδα." />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="Πώς σας φαίνεται το παιχνίδι και τι μπορεί ακόμα να βελτιωθεί; Παρακαλώ, γράψτε τη γνώμη σας στο Cappuccino Φόρουμ ή στην Ομάδα." />
 			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Προσοχή: Η πρόοδός σου αποθηκεύεται μόνο αν εγγραφείς!" />
 			<text id="generic_register_error_invalidemail" name="Η διεύθυνση e-mail που έβαλες δεν είναι σωστή." />
 			<text id="generic_report_muted_chattry" name="Δε μπορείς να χρησιμοποιήσεις την υπηρεσία του chat γιατί έχεις αποκλειστεί." />
@@ -987,7 +987,7 @@
 			<text id="generic_friend" name="Φίλος" />
 			<text id="generic_friends" name="Φίλοι" />
 			<text id="generic_general" name="Γενικά" />
-			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_ggs" name="Cappuccino Studios" />
 			<text id="generic_group" name="Ομάδα" />
 			<text id="generic_guest" name="Επισκέπτης" />
 			<text id="generic_help" name="Βοήθεια" />

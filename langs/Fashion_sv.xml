@@ -561,7 +561,7 @@ Klicka på länken i ditt välkommen tillbaka e-post för att kunna få dem." />
 		<text id="error_editmode_removenotallowedDoor" name="Du behöver en dörr! För att byta dörr, först drag en annan till din affär." />
 		<text id="error_editmode_removenotallowedFactory" name="Denna arbetare producerar fortfarande!" />
 		<text id="error_editmode_title" name="Fel vid omdekoreringen" />
-		<text id="error_fashiongame_1" name="Vi klarar inte av att ladda din affär. Var god och kontakta Goodgame Studios-Support." />
+		<text id="error_fashiongame_1" name="Vi klarar inte av att ladda din affär. Var god och kontakta Cappuccino Studios-Support." />
 		<text id="error_fashiongame_title" name="Dumt misstag" />
 		<text id="error_forgotpassword_101" name="Du har blockerat mottagandet av e-post. Var god kontakta supporten" />
 		<text id="error_fullscreen_copy" name="Helskärmsläget är inte möjligt." />
@@ -599,7 +599,7 @@ Klicka på länken i ditt välkommen tillbaka e-post för att kunna få dem." />
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="-DEBUG: Arkaderna är fulla-" />
 		<text id="error_marketplace_21" name="-DEBUG: Du är redan på arkaderna-" />
-		<text id="error_marketplace_title" name="Goodgame Arkader" />
+		<text id="error_marketplace_title" name="Cappuccino Arkader" />
 		<text id="error_nocustomclothselected" name="Om du vill producera nånting ska du välja form först!" />
 		<text id="error_nomoney_copy" name="Förlåt, du har ännu inte råd med den." />
 		<text id="error_nomoney_guest_copy" name="Har du slut pengar?\nRegistrera dig och du kommer att tjäna {0} Fashiondollar!" />
@@ -639,7 +639,7 @@ Klart!" />
 		<text id="error_work_title" name="Avslå Arbete" />
 	</error_codes>
 	<feature>
-		<text id="feature_0_text_0" name="Det är dags! \n\Goodgame Fashions officiella beta är här!\n Alla kommer att starta från nivå 1, men får de tidigare inköpta guldknapparna och dessutom 10 extra guldknappar. \n\Vänligen njut av Goodgame Fashion!" />
+		<text id="feature_0_text_0" name="Det är dags! \n\Cappuccino Fashions officiella beta är här!\n Alla kommer att starta från nivå 1, men får de tidigare inköpta guldknapparna och dessutom 10 extra guldknappar. \n\Vänligen njut av Cappuccino Fashion!" />
 		<text id="feature_0_title" name="Officiell Start!" />
 		<text id="feature_10_text_0" name="Sommaren är här!
 Den nya GeeDee Kollektionen har kommit!" />
@@ -670,7 +670,7 @@ Snurra Lyckohjulet och ta reda på det!" />
 	</feature>
 	<feeds>
 		<text id="descriptionfashionfeed" name="Jag har just installerat Goodgme Fashion. Vill du också öppna dörrarna till din egna fashionbutik och bli en kläddesigner? Kom och kolla!" />
-		<text id="descriptionlongfashion" name="Öppna upp dina egen modebutik med Goodgame Fashion. Bli en berömd modedesigner, köp heta tyger och producera ditt egna märke. Väx med din affärs popularitet och gör din affär till den hetaste modebutiken i stan." />
+		<text id="descriptionlongfashion" name="Öppna upp dina egen modebutik med Cappuccino Fashion. Bli en berömd modedesigner, köp heta tyger och producera ditt egna märke. Väx med din affärs popularitet och gör din affär till den hetaste modebutiken i stan." />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="Designa din egen simdräkt och vinn!
@@ -695,25 +695,25 @@ Gå till forumet och gå med i tävlingen!" />
 		<text id="panels_social_come_in" name="har gått in i affären." />
 		<text id="panels_social_go_out" name="har lämnat affären." />
 		<text id="panels_social_nofriends" name="För tillfället har du inga vänner." />
-		<text id="panels_social_welcome_market" name="Välkommen till Goodgame Arkaderna" />
+		<text id="panels_social_welcome_market" name="Välkommen till Cappuccino Arkaderna" />
 		<text id="panels_social_welcome_myshop" name="Välkommen" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Hej %s!&lt;br /&gt;&lt;br /&gt;Jag har just upptäckt detta roliga online spel &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Med denna länk kommer du direkt till spelet:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Registrera dig med denna länk för att skapa ditt egna Fashionaffär. Producera underbara kläder, accessoarer och skor, sälj dem i din affär! Dekorera den precis som du vill!&lt;br /&gt;&lt;br /&gt;Ha så kul, med vänliga hälsningar %s" />
+			<text id="mail_invite_friend" name="Hej %s!&lt;br /&gt;&lt;br /&gt;Jag har just upptäckt detta roliga online spel &quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Med denna länk kommer du direkt till spelet:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Registrera dig med denna länk för att skapa ditt egna Fashionaffär. Producera underbara kläder, accessoarer och skor, sälj dem i din affär! Dekorera den precis som du vill!&lt;br /&gt;&lt;br /&gt;Ha så kul, med vänliga hälsningar %s" />
 			<text id="mail_lost_pw" name="Hejsan %s!&lt;br /&gt;&lt;br /&gt;
 Du har fått det här automatiska e-postmeddelande eftersom du begärt ett nytt lösenord.&lt;br /&gt;
 Ditt nya lösenord är: %s &lt;br /&gt;&lt;br /&gt;
 Du kan logga in via:
-br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;
-Vänligen kontakta support@goodgamestudios.com om du har ytterligare frågor eller problem. &lt;br /&gt;&lt;br /&gt;
+br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;
+Vänligen kontakta support@Cappuccinostudios.com om du har ytterligare frågor eller problem. &lt;br /&gt;&lt;br /&gt;
 
 Ha kul!&lt;br /&gt;&lt;br /&gt;
-Ditt team på&lt;br /&gt;Goodgamestudios.com" />
-			<text id="mail_registration" name="Hejsan,&lt;br /&gt;&lt;br /&gt;Tack för din registrering och välkommen till &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Du kan alltid logga in med följande data:&lt;br /&gt;E-post: %s&lt;br /&gt;Lösenord: %s&lt;br /&gt;&lt;br /&gt;Med denna länk kommer du direkt till:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Var god och kontakta support@goodgamestudios.com om du har några frågor eller problem.&lt;br /&gt;&lt;br /&gt;Ha kul!&lt;br /&gt;&lt;br /&gt;Ditt team på&lt;br /&gt;Goodgamestudios.com" />
+Ditt team på&lt;br /&gt;Cappuccinostudios.com" />
+			<text id="mail_registration" name="Hejsan,&lt;br /&gt;&lt;br /&gt;Tack för din registrering och välkommen till &quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Du kan alltid logga in med följande data:&lt;br /&gt;E-post: %s&lt;br /&gt;Lösenord: %s&lt;br /&gt;&lt;br /&gt;Med denna länk kommer du direkt till:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Var god och kontakta support@Cappuccinostudios.com om du har några frågor eller problem.&lt;br /&gt;&lt;br /&gt;Ha kul!&lt;br /&gt;&lt;br /&gt;Ditt team på&lt;br /&gt;Cappuccinostudios.com" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Goodgame Arkader" />
+			<text id="marketplace" name="Cappuccino Arkader" />
 		</misc>
 	</server>
 	<server_msg>
@@ -753,7 +753,7 @@ Ditt team på&lt;br /&gt;Goodgamestudios.com" />
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalog" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="Gåvor" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="Ranking" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame Arkader" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Cappuccino Arkader" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="Öppen/Stängd Affär" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="Min Affär" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Reklam pågående
@@ -911,7 +911,7 @@ Vi arbetar så fort vi kan så att du ska kunna spela igen så snart som möjlig
 			<text id="generic_alert_watchout" name="Var uppmärksam!" />
 			<text id="generic_invalid_email_provider" name="En e-postadress från den här leverantören är inte tillåten!" />
 			<text id="generic_js_alert_firstsessiontracking_loading" name="Din uppkoppling till internet tycks vara långsam för tillfället. Var god försök senare!" />
-			<text id="generic_js_alert_firstsessiontracking_registered" name="Var tycker du om spelet, och vad kan förbättras? Låt oss veta om dina åsikter genom Goodgame Forum, eller Gruppen!" />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="Var tycker du om spelet, och vad kan förbättras? Låt oss veta om dina åsikter genom Cappuccino Forum, eller Gruppen!" />
 			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Varning: Dina framsteg sparas bara om du registrerar dig!" />
 			<text id="generic_register_error_invalidemail" name="Angiven mail-adress inkorrekt." />
 			<text id="generic_report_muted_chattry" name="Du kan inte använda chat-funktionen på grund av blockering." />
@@ -960,7 +960,7 @@ Vi arbetar så fort vi kan så att du ska kunna spela igen så snart som möjlig
 			<text id="generic_friend" name="Vän" />
 			<text id="generic_friends" name="Vänner" />
 			<text id="generic_general" name="General settings" />
-			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_ggs" name="Cappuccino Studios" />
 			<text id="generic_group" name="Grupp" />
 			<text id="generic_guest" name="Gäst" />
 			<text id="generic_help" name="Hjälp" />

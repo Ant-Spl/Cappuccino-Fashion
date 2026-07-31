@@ -595,7 +595,7 @@
 		<text id="error_editmode_removenotallowedDoor" name="ドアが必要です！　ドアを交換するには他のドアをお店にドラッグしてください。" />
 		<text id="error_editmode_removenotallowedFactory" name="この従業員はまだ作成中です！" />
 		<text id="error_editmode_title" name="改装中にエラーが発生しました" />
-		<text id="error_fashiongame_1" name="ショップが読み込めません。Goodgame Studiosサポートまでご連絡ください。" />
+		<text id="error_fashiongame_1" name="ショップが読み込めません。Cappuccino Studiosサポートまでご連絡ください。" />
 		<text id="error_fashiongame_title" name="エラー" />
 		<text id="error_forgotpassword_101" name="あなたはEメールの受信をブロックしました。サポートに連絡してください。" />
 		<text id="error_fullscreen_copy" name="フルスクリーンモードは利用できません。" />
@@ -634,7 +634,7 @@
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="-DEBUG: アーケードはすでにいっぱいです-" />
 		<text id="error_marketplace_21" name="-DEBUG: すでにアーケードに居ます-" />
-		<text id="error_marketplace_title" name="Goodgameアーケード" />
+		<text id="error_marketplace_title" name="Cappuccinoアーケード" />
 		<text id="error_nocustomclothselected" name="作成を始めるためには、まずは形を選択してください！" />
 		<text id="error_nomoney_copy" name="お金が足りないので買えません。" />
 		<text id="error_nomoney_guest_copy" name="お金が無くなりましたか？
@@ -676,10 +676,10 @@
 	<feature>
 		<text id="feature_0_text_0" name="ついに！
 
-Goodgame Fashionの公式ベータテストが開始されます！
+Cappuccino Fashionの公式ベータテストが開始されます！
 全員がレベル1からのスタートとなります。これまで購入した分のゴールドボタンは引き継げます。それに加え、更に10個ゴールドボタンがボーナスとしてプレゼントされます。
 
-Goodgame Fashionを楽しんでくださいね！" />
+Cappuccino Fashionを楽しんでくださいね！" />
 		<text id="feature_0_title" name="オフィシャルスタート！" />
 		<text id="feature_10_text_0" name="夏です!
 新しいGeeDeeコレクション到来!" />
@@ -711,8 +711,8 @@ JayJayコレクション、華麗に新登場！" />
 		<text id="feature_title" name="新しいフィーチャー" />
 	</feature>
 	<feeds>
-		<text id="descriptionfashionfeed" name="Goodgame Fashionをインストールしました。あなたもファッションショップをオープンしてモードデザイナーになりませんか? 是非一度ご覧下さい!" />
-		<text id="descriptionlongfashion" name="Goodgame Fashionで自分のショップをオープンしましょう。人気のモードデザイナーになったら、新しい型紙を買って、オリジナルの服を作って新しいトレンドを作りましょう。世界中の人たちと新たに知り合って、お店に招待して、チャットで最新のトレンドについて発言しましょう。お客さんをひきつけるために、ショーウィンドウとショップをを飾り付けしたら、すぐにもうお店が大きくなってモードシーンの新しいスターになれるでしょう、" />
+		<text id="descriptionfashionfeed" name="Cappuccino Fashionをインストールしました。あなたもファッションショップをオープンしてモードデザイナーになりませんか? 是非一度ご覧下さい!" />
+		<text id="descriptionlongfashion" name="Cappuccino Fashionで自分のショップをオープンしましょう。人気のモードデザイナーになったら、新しい型紙を買って、オリジナルの服を作って新しいトレンドを作りましょう。世界中の人たちと新たに知り合って、お店に招待して、チャットで最新のトレンドについて発言しましょう。お客さんをひきつけるために、ショーウィンドウとショップをを飾り付けしたら、すぐにもうお店が大きくなってモードシーンの新しいスターになれるでしょう、" />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="オリジナル水着をデザインして、入賞を目指そう!
@@ -737,17 +737,17 @@ JayJayコレクション、華麗に新登場！" />
 		<text id="panels_social_come_in" name="が入店しました。" />
 		<text id="panels_social_go_out" name="がお店を去りました。" />
 		<text id="panels_social_nofriends" name="まだ友達がいません！" />
-		<text id="panels_social_welcome_market" name="Goodgameアーケードにようこそ" />
+		<text id="panels_social_welcome_market" name="Cappuccinoアーケードにようこそ" />
 		<text id="panels_social_welcome_myshop" name="ようこそ" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="こんにちわ%s!&lt;br /&gt;&lt;br /&gt;今日&quot;Goodgame Fashion&quot; という面白いオンラインゲームを発見しました。&lt;br /&gt;&lt;br /&gt;このリンクをクリックするとゲームのページに移ります:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;このゲームに登録して&quot;Goodgame Fashion&quot;を試してみてください&lt;br /&gt;&lt;br /&gt;綺麗な服を、アクセサリーや靴を作成し、店を自分の好みに改装して、ファッションショップ経営者の気分を味わってみませんか?&lt;br /&gt;&lt;br /&gt;ではゲームを楽しんでください！%s" />
-			<text id="mail_lost_pw" name="こんにちわ%s!&lt;br /&gt;&lt;br /&gt;新しいパスワードの再設定のためのメールです。&lt;br /&gt;新しいパスワード: %s&lt;br /&gt;&lt;br /&gt;このリンクをクリックするとゲームの画面に戻ります:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;質問、問題等ありましたらこちらにご連絡ください。support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;引き続きゲームをお楽しみください！&lt;br /&gt;&lt;br /&gt;Goodgamestudios.com&lt;br /&gt;チーム一同" />
-			<text id="mail_registration" name="こんにちわ,&lt;br /&gt;&lt;br /&gt;ご登録ありがとうございます。そして&quot;Goodgame Fashion&quot;へようこそ。&lt;br /&gt;&lt;br /&gt;いつでも次のログインデータでゲームが出来ます:&lt;br /&gt;Eメール: %s&lt;br /&gt;パスワード: %s&lt;br /&gt;&lt;br /&gt;このリンクをクリックするとゲーム画面に移ります:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;質問、問題等ありましたらこちらにご連絡くださいsupport@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;では、引き続きゲームをお楽しみください！&lt;br /&gt;&lt;br /&gt;Goodgamestudios.com&lt;br /&gt;チーム一同" />
+			<text id="mail_invite_friend" name="こんにちわ%s!&lt;br /&gt;&lt;br /&gt;今日&quot;Cappuccino Fashion&quot; という面白いオンラインゲームを発見しました。&lt;br /&gt;&lt;br /&gt;このリンクをクリックするとゲームのページに移ります:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;このゲームに登録して&quot;Cappuccino Fashion&quot;を試してみてください&lt;br /&gt;&lt;br /&gt;綺麗な服を、アクセサリーや靴を作成し、店を自分の好みに改装して、ファッションショップ経営者の気分を味わってみませんか?&lt;br /&gt;&lt;br /&gt;ではゲームを楽しんでください！%s" />
+			<text id="mail_lost_pw" name="こんにちわ%s!&lt;br /&gt;&lt;br /&gt;新しいパスワードの再設定のためのメールです。&lt;br /&gt;新しいパスワード: %s&lt;br /&gt;&lt;br /&gt;このリンクをクリックするとゲームの画面に戻ります:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;質問、問題等ありましたらこちらにご連絡ください。support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;引き続きゲームをお楽しみください！&lt;br /&gt;&lt;br /&gt;Cappuccinostudios.com&lt;br /&gt;チーム一同" />
+			<text id="mail_registration" name="こんにちわ,&lt;br /&gt;&lt;br /&gt;ご登録ありがとうございます。そして&quot;Cappuccino Fashion&quot;へようこそ。&lt;br /&gt;&lt;br /&gt;いつでも次のログインデータでゲームが出来ます:&lt;br /&gt;Eメール: %s&lt;br /&gt;パスワード: %s&lt;br /&gt;&lt;br /&gt;このリンクをクリックするとゲーム画面に移ります:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;質問、問題等ありましたらこちらにご連絡くださいsupport@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;では、引き続きゲームをお楽しみください！&lt;br /&gt;&lt;br /&gt;Cappuccinostudios.com&lt;br /&gt;チーム一同" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Goodgameアーケード" />
+			<text id="marketplace" name="Cappuccinoアーケード" />
 		</misc>
 	</server>
 	<server_msg>
@@ -792,7 +792,7 @@ F5キーを押してページを再読み込みしてください。" />
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="カタログ" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="ギフト" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="ランキング" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Goodgameアーケード" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Cappuccinoアーケード" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="ショップを開く/閉める" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="マイショップ" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="アクション進行中
@@ -1006,7 +1006,7 @@ F5キーを押してページを再読み込みしてください。" />
 			<text id="generic_friend" name="友だち" />
 			<text id="generic_friends" name="友だち" />
 			<text id="generic_general" name="全般" />
-			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_ggs" name="Cappuccino Studios" />
 			<text id="generic_group" name="グループ" />
 			<text id="generic_guest" name="ゲスト" />
 			<text id="generic_help" name="ヘルプ" />

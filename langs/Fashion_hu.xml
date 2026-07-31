@@ -565,7 +565,7 @@ Az üdvözlő mailre kattintva a tied lehet!" />
 		<text id="error_editmode_removenotallowedDoor" name="Szükséged van egy ajtóra! Az ajtó cseréjéhez húzz be egy másikat a boltodba." />
 		<text id="error_editmode_removenotallowedFactory" name="A kolléga még nincs kész!" />
 		<text id="error_editmode_title" name="Átépítésnél hiba történt" />
-		<text id="error_fashiongame_1" name="Az üzletet nem lehetett letölteni. Kérlek fordulj a Goodgame Studio Supportjához." />
+		<text id="error_fashiongame_1" name="Az üzletet nem lehetett letölteni. Kérlek fordulj a Cappuccino Studio Supportjához." />
 		<text id="error_fashiongame_title" name="Komoly hiba" />
 		<text id="error_forgotpassword_101" name="Az e-mailek fogadását leállítottad. Jelentkezz a supportnál." />
 		<text id="error_fullscreen_copy" name="A teljes képernyő mód sajnos nem lehetséges." />
@@ -603,7 +603,7 @@ Az üdvözlő mailre kattintva a tied lehet!" />
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="-DEBUG: Az árkád sajnos már tele van-" />
 		<text id="error_marketplace_21" name="-DEBUG: Már az árkádban vagy-" />
-		<text id="error_marketplace_title" name="Goodgame árkád" />
+		<text id="error_marketplace_title" name="Cappuccino árkád" />
 		<text id="error_nocustomclothselected" name="Először válassz ki egy formát, ha készíteni akarsz valamit." />
 		<text id="error_nomoney_copy" name="Ezt sajnos nem engedheted meg magadnak." />
 		<text id="error_nomoney_guest_copy" name="Le vagy égve?\nAkkor gyorsan regisztrálj és  szerezz {0} Fashiondollárt!" />
@@ -642,7 +642,7 @@ Az üdvözlő mailre kattintva a tied lehet!" />
 		<text id="error_work_title" name="Munkakerülés" />
 	</error_codes>
 	<feature>
-		<text id="feature_0_text_0" name="Itt az idő!\n\nGoodgame Fashion hivatalosan is elindult BETA verzióban.\nMindenki az első szintről indul, megkapja a jóváírt aranygombjait és további 10 bónusz aranygombot köszönetképp.\n\nJó szórakozást a Goodgame Fashionnel!" />
+		<text id="feature_0_text_0" name="Itt az idő!\n\nCappuccino Fashion hivatalosan is elindult BETA verzióban.\nMindenki az első szintről indul, megkapja a jóváírt aranygombjait és további 10 bónusz aranygombot köszönetképp.\n\nJó szórakozást a Cappuccino Fashionnel!" />
 		<text id="feature_0_title" name="Hivatalos kezdés!" />
 		<text id="feature_10_text_0" name="Legyél nyáriasan könnyed!
 Itt az új GeeDee kollekció!" />
@@ -673,8 +673,8 @@ Az árkádban a szerencsekeréken kipróbálhatod." />
 		<text id="feature_title" name="Új lehetőségek" />
 	</feature>
 	<feeds>
-		<text id="descriptionfashionfeed" name="Éppen most telepítettem a Goodgame Fashiont. Szeretnél te is egy Fashion boltot nyitni és divattervező lenni? Gyere és nézz be hozzám!" />
-		<text id="descriptionlongfashion" name="Nyiss saját üzletet a Goodgame Fashionben. Légy elismert divattervező, vásárolj új snitteket, készíts egyéni ruhákat és irányítsd a divatot. Rendezd be az üzletedet és légy a divatvilág újabb sztárja." />
+		<text id="descriptionfashionfeed" name="Éppen most telepítettem a Cappuccino Fashiont. Szeretnél te is egy Fashion boltot nyitni és divattervező lenni? Gyere és nézz be hozzám!" />
+		<text id="descriptionlongfashion" name="Nyiss saját üzletet a Cappuccino Fashionben. Légy elismert divattervező, vásárolj új snitteket, készíts egyéni ruhákat és irányítsd a divatot. Rendezd be az üzletedet és légy a divatvilág újabb sztárja." />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="Tervezd meg a saját fürdőruhádat és nyerj!
@@ -699,17 +699,17 @@ Irány a fórum és nyerj!" />
 		<text id="panels_social_come_in" name="belépett a boltba." />
 		<text id="panels_social_go_out" name="elhagyta a boltot." />
 		<text id="panels_social_nofriends" name="Még nincsenek barátaid!" />
-		<text id="panels_social_welcome_market" name="Üdv a Goodgame árkádban!" />
+		<text id="panels_social_welcome_market" name="Üdv a Cappuccino árkádban!" />
 		<text id="panels_social_welcome_myshop" name="Üdvözlet" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Szia, %s!&lt;br /&gt;&lt;br /&gt;Éppen most fedeztem fel ezt remek online játékot, a &quot;Goodgame Fashion&quot;t.&lt;br /&gt;&lt;br /&gt;Ezen a linken közvetlenül eléred a játékot:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Jelentkezz be ezen a linken, hogy ingyenesen létrehozd a &quot;Goodgame Fashion&quot; boltodat.&lt;br /&gt;&lt;br /&gt;Megismerheted, hogy milyen érzés egy butikot vezetni. Készíts csinos ruhákat, kiegészítőket és cipőket, és add el őket a boltodban, amelyet a saját ízlésednek megfelelően rendezhetsz be.&lt;br /&gt;&lt;br /&gt;Jó szórakozást a  játékhoz. Üdv, %s" />
-			<text id="mail_lost_pw" name="Szia, %s!&lt;br /&gt;&lt;br /&gt;Automatikus e-mailt kapsz, mivel egy új jelszót igényeltél.&lt;br /&gt;A jelszavad: %s&lt;br /&gt;&lt;br /&gt;Ezen a linken közvetlenül eléred a játékot:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Kérdéseddel, problémáddal fordulj hozzánk: support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;További jó szórakozást kívánunk a játékhoz!&lt;br /&gt;&lt;br /&gt;Abr /&gt;Goodgamestudios.com csapata" />
-			<text id="mail_registration" name="Szia,&lt;br /&gt;&lt;br /&gt;Köszönjük a jelentkezésedet, üdvözlünk a &quot;Goodgame Fashion&quot; játékban.&lt;br /&gt;&lt;br /&gt;Bármikor  bejelentkezhetsz a következő adatokkal:&lt;br /&gt;E-mail: %s&lt;br /&gt;Jelszó: %s&lt;br /&gt;&lt;br /&gt;Ezen a linken közvetlenül eljuthatsz a játékhoz:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Kérdéseddel, problémáddal fordulj hozzánk: support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;További jó szórakozást kívánunk a játékhoz!&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Goodgamestudios.com csapata" />
+			<text id="mail_invite_friend" name="Szia, %s!&lt;br /&gt;&lt;br /&gt;Éppen most fedeztem fel ezt remek online játékot, a &quot;Cappuccino Fashion&quot;t.&lt;br /&gt;&lt;br /&gt;Ezen a linken közvetlenül eléred a játékot:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Jelentkezz be ezen a linken, hogy ingyenesen létrehozd a &quot;Cappuccino Fashion&quot; boltodat.&lt;br /&gt;&lt;br /&gt;Megismerheted, hogy milyen érzés egy butikot vezetni. Készíts csinos ruhákat, kiegészítőket és cipőket, és add el őket a boltodban, amelyet a saját ízlésednek megfelelően rendezhetsz be.&lt;br /&gt;&lt;br /&gt;Jó szórakozást a  játékhoz. Üdv, %s" />
+			<text id="mail_lost_pw" name="Szia, %s!&lt;br /&gt;&lt;br /&gt;Automatikus e-mailt kapsz, mivel egy új jelszót igényeltél.&lt;br /&gt;A jelszavad: %s&lt;br /&gt;&lt;br /&gt;Ezen a linken közvetlenül eléred a játékot:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Kérdéseddel, problémáddal fordulj hozzánk: support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;További jó szórakozást kívánunk a játékhoz!&lt;br /&gt;&lt;br /&gt;Abr /&gt;Cappuccinostudios.com csapata" />
+			<text id="mail_registration" name="Szia,&lt;br /&gt;&lt;br /&gt;Köszönjük a jelentkezésedet, üdvözlünk a &quot;Cappuccino Fashion&quot; játékban.&lt;br /&gt;&lt;br /&gt;Bármikor  bejelentkezhetsz a következő adatokkal:&lt;br /&gt;E-mail: %s&lt;br /&gt;Jelszó: %s&lt;br /&gt;&lt;br /&gt;Ezen a linken közvetlenül eljuthatsz a játékhoz:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Kérdéseddel, problémáddal fordulj hozzánk: support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;További jó szórakozást kívánunk a játékhoz!&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Cappuccinostudios.com csapata" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Goodgame árkád" />
+			<text id="marketplace" name="Cappuccino árkád" />
 		</misc>
 	</server>
 	<server_msg>
@@ -749,7 +749,7 @@ Irány a fórum és nyerj!" />
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalógus" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="Ajándékok" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="Helyezések" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame árkád" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Cappuccino árkád" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="Bolt nyitás/zárás" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="A boltom" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Akció fut
@@ -906,7 +906,7 @@ Belehúzunk, hogy mielőbb játszhass!" />
 			<text id="generic_alert_watchout" name="Figyelem!" />
 			<text id="generic_invalid_email_provider" name="A kiszolgáló e-mail címe nem engedélyezett!" />
 			<text id="generic_js_alert_firstsessiontracking_loading" name="Az internet kapcsolatod éppen elég lassúnak tűnik. Próbáld újra később!" />
-			<text id="generic_js_alert_firstsessiontracking_registered" name="Tetszik a játék, vagy lehetne valamit javítani rajta? Írd meg a véleményedet a Goodgame fórumra vagy a csapatnak!" />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="Tetszik a játék, vagy lehetne valamit javítani rajta? Írd meg a véleményedet a Cappuccino fórumra vagy a csapatnak!" />
 			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Figyelem! A játékodat akkor mentheted csak, ha regisztrálsz!" />
 			<text id="generic_register_error_invalidemail" name="A megadott e-mail cím nem helyes." />
 			<text id="generic_report_muted_chattry" name="A felfüggesztésed miatt jelenleg nem cseveghetsz." />
@@ -955,7 +955,7 @@ Belehúzunk, hogy mielőbb játszhass!" />
 			<text id="generic_friend" name="Barát" />
 			<text id="generic_friends" name="Barát" />
 			<text id="generic_general" name="Általános" />
-			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_ggs" name="Cappuccino Studios" />
 			<text id="generic_group" name="Csoport" />
 			<text id="generic_guest" name="Vendég" />
 			<text id="generic_help" name="Súgó" />

@@ -20,9 +20,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install XML parser
-        run: npm install --no-save --no-package-lock --ignore-scripts --no-audit --no-fund fast-xml-parser@5.10.1
-
       - name: Get changed language files
         id: changed-files
         shell: bash
@@ -55,7 +52,3 @@ jobs:
         env:
           CHANGED_FILES: ${{ steps.changed-files.outputs.files }}
         run: node scripts/check-duplicates-keys.mjs
-
-      - name: Remove temporary dependencies
-        if: always()
-        run: rm -rf node_modules

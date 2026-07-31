@@ -582,7 +582,7 @@
 		<text id="error_editmode_removenotallowedDoor" name="你需要一扇门！　请拖动选中的门到你的商店里．" />
 		<text id="error_editmode_removenotallowedFactory" name="员工现在正在工作中！" />
 		<text id="error_editmode_title" name="装修错误" />
-		<text id="error_fashiongame_1" name="无法加载你的商店，请Goodgame Studios的技术支持。" />
+		<text id="error_fashiongame_1" name="无法加载你的商店，请Cappuccino Studios的技术支持。" />
 		<text id="error_fashiongame_title" name="严重错误" />
 		<text id="error_forgotpassword_101" name="你阻止了邮件收取，请联系支持人员" />
 		<text id="error_fullscreen_copy" name="抱歉，不能执行全凭模式。" />
@@ -621,7 +621,7 @@
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="-DEBUG: 走廊已经满了-" />
 		<text id="error_marketplace_21" name="-DEBUG: 你已经在走廊里了-" />
-		<text id="error_marketplace_title" name="Goodgame　商场" />
+		<text id="error_marketplace_title" name="Cappuccino　商场" />
 		<text id="error_nocustomclothselected" name="制作之前请选择一个模式!" />
 		<text id="error_nomoney_copy" name="可惜这个价格你不能承受." />
 		<text id="error_nomoney_guest_copy" name="已经破产了？
@@ -664,10 +664,10 @@
 	<feature>
 		<text id="feature_0_text_0" name="时间到了！
 
-Goodgame Fashion官方beta版发布！
+Cappuccino Fashion官方beta版发布！
  每个人都将从级别1开始，但可拿回前期购买的金纽扣和额外的10个金纽扣。
 
-祝你从Goodgame Fashion中获得快乐！" />
+祝你从Cappuccino Fashion中获得快乐！" />
 		<text id="feature_0_title" name="正式开始！" />
 		<text id="feature_10_text_0" name="夏天来了！
 新上市的GeeDee系列已到货！" />
@@ -698,8 +698,8 @@ Goodgame Fashion官方beta版发布！
 		<text id="feature_title" name="新专题" />
 	</feature>
 	<feeds>
-		<text id="descriptionfashionfeed" name="我刚刚安装下载了Goodgame潮流时尚。您也想要创建您自己的时尚潮店并且成为一名时尚设计师么？快来看看吧！" />
-		<text id="descriptionlongfashion" name="在Goodgame潮流时尚游戏里建立您自己的时尚潮店。在这里您能结识世界各地的好友，访问他们的店铺，和他们一起来交流最新的流行时尚。您还能成为一位时装设计师，购买独特高档的布料来制造自己的服饰装扮。拥有自己的橱窗，并且经常变换不一样的摆设来吸引其它的顾客。狂热且热爱时尚的顾客能帮助您增加销量从而获得店铺升级的资本。快来想办法提高您潮店的知名度，让它成为城里最火爆的地方吧！" />
+		<text id="descriptionfashionfeed" name="我刚刚安装下载了Cappuccino潮流时尚。您也想要创建您自己的时尚潮店并且成为一名时尚设计师么？快来看看吧！" />
+		<text id="descriptionlongfashion" name="在Cappuccino潮流时尚游戏里建立您自己的时尚潮店。在这里您能结识世界各地的好友，访问他们的店铺，和他们一起来交流最新的流行时尚。您还能成为一位时装设计师，购买独特高档的布料来制造自己的服饰装扮。拥有自己的橱窗，并且经常变换不一样的摆设来吸引其它的顾客。狂热且热爱时尚的顾客能帮助您增加销量从而获得店铺升级的资本。快来想办法提高您潮店的知名度，让它成为城里最火爆的地方吧！" />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="设计自己的泳装和并获胜！
@@ -724,23 +724,23 @@ Goodgame Fashion官方beta版发布！
 		<text id="panels_social_come_in" name="已经进入商店" />
 		<text id="panels_social_go_out" name="已经离开商店" />
 		<text id="panels_social_nofriends" name="你还没有好友！" />
-		<text id="panels_social_welcome_market" name="欢迎来到Goodgame 商场！" />
+		<text id="panels_social_welcome_market" name="欢迎来到Cappuccino 商场！" />
 		<text id="panels_social_welcome_myshop" name="欢迎" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Hi %s!&lt;br /&gt;&lt;br /&gt;我刚刚发现了一个特别棒的游戏&quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;点击该连接直接进入游戏:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;快来&quot;Goodgame Fashion&quot;免费注册你自己的商店吧。&lt;br /&gt;&lt;br /&gt;不同种类的配饰品，最in装扮，打造一个属于你自己的时尚王国吧&lt;br /&gt;&lt;br /&gt;祝贺你游戏愉快 %s" />
+			<text id="mail_invite_friend" name="Hi %s!&lt;br /&gt;&lt;br /&gt;我刚刚发现了一个特别棒的游戏&quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br /&gt;点击该连接直接进入游戏:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;快来&quot;Cappuccino Fashion&quot;免费注册你自己的商店吧。&lt;br /&gt;&lt;br /&gt;不同种类的配饰品，最in装扮，打造一个属于你自己的时尚王国吧&lt;br /&gt;&lt;br /&gt;祝贺你游戏愉快 %s" />
 			<text id="mail_lost_pw" name="你好 %s!&lt;br /&gt;&lt;br /&gt;
 这是一封关于密码更改的系统邮件。&lt;br /&gt;
 你的新密码是：%s&lt;br /&gt;&lt;br /&gt;
-点击该连接直接进入游戏：&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;如果有技术问题请联系support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;
+点击该连接直接进入游戏：&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;如果有技术问题请联系support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;
 
 祝你游戏愉快！&lt;br /&gt;&lt;br /&gt;
-你的团队&lt;br /&gt;Goodgamestudios.com" />
-			<text id="mail_registration" name="你好,&lt;br /&gt;&lt;br /&gt;非常感谢你的注册，欢迎来到&quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;你随时可以用下列信息登陆我们的游戏:&lt;br /&gt;E-Mail: %s&lt;br /&gt;Passwort: %s&lt;br /&gt;&lt;br /&gt;点击该连接直接进入游戏:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;如有技术问题请联系support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;祝你游戏愉快!&lt;br /&gt;&lt;br /&gt;你的团队&lt;br /&gt;Goodgamestudios.com" />
+你的团队&lt;br /&gt;Cappuccinostudios.com" />
+			<text id="mail_registration" name="你好,&lt;br /&gt;&lt;br /&gt;非常感谢你的注册，欢迎来到&quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br /&gt;你随时可以用下列信息登陆我们的游戏:&lt;br /&gt;E-Mail: %s&lt;br /&gt;Passwort: %s&lt;br /&gt;&lt;br /&gt;点击该连接直接进入游戏:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;如有技术问题请联系support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;祝你游戏愉快!&lt;br /&gt;&lt;br /&gt;你的团队&lt;br /&gt;Cappuccinostudios.com" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Goodgame　商场" />
+			<text id="marketplace" name="Cappuccino　商场" />
 		</misc>
 	</server>
 	<server_msg>
@@ -780,7 +780,7 @@ Goodgame Fashion官方beta版发布！
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="产品目录" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="礼物" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="排名榜" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame　商场" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Cappuccino　商场" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="关/开店" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="我的店" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="促销正在进行
@@ -942,7 +942,7 @@ Goodgame Fashion官方beta版发布！
 			<text id="generic_alert_watchout" name="请注意！" />
 			<text id="generic_invalid_email_provider" name="An e-mail address from this supplier is not allowed!" />
 			<text id="generic_js_alert_firstsessiontracking_loading" name="目前，您的网络速度不是很理想。请稍后再试！" />
-			<text id="generic_js_alert_firstsessiontracking_registered" name="您对游戏有什么看法和建议么？请在Goodgame论坛或群组里面留下您宝贵的意见。" />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="您对游戏有什么看法和建议么？请在Cappuccino论坛或群组里面留下您宝贵的意见。" />
 			<text id="generic_js_alert_firstsessiontracking_unregistered" name="请注意:您的游戏进程只有注册之后才能被保存！" />
 			<text id="generic_register_error_invalidemail" name="您输入的邮箱地址不正确" />
 			<text id="generic_report_muted_chattry" name="由于被禁用聊天功能，您将无法进行对话" />
@@ -991,7 +991,7 @@ Goodgame Fashion官方beta版发布！
 			<text id="generic_friend" name="好友" />
 			<text id="generic_friends" name="朋友" />
 			<text id="generic_general" name="General settings" />
-			<text id="generic_ggs" name="Goodgame 游戏工作室" />
+			<text id="generic_ggs" name="Cappuccino 游戏工作室" />
 			<text id="generic_group" name="群组" />
 			<text id="generic_guest" name="客人" />
 			<text id="generic_help" name="帮助" />

@@ -580,7 +580,7 @@ Jos haluat saada sen, sinun tarvitsee vain klikata linkkiä tervetuloa-sähköpo
 		<text id="error_editmode_removenotallowedDoor" name="Tarvitset oven! Vaihtaaksesi oven raahaa ovi liikkeeseesi ensin." />
 		<text id="error_editmode_removenotallowedFactory" name="Tämä työntekijä on edelleen valmistamassa tuotteita!" />
 		<text id="error_editmode_title" name="Virhe sisustamisessa" />
-		<text id="error_fashiongame_1" name="Emme pystyneet latamaan liikettäsi. Ole hyvä ja ota yhteyttä Goodgame Studios -tukeen." />
+		<text id="error_fashiongame_1" name="Emme pystyneet latamaan liikettäsi. Ole hyvä ja ota yhteyttä Cappuccino Studios -tukeen." />
 		<text id="error_fashiongame_title" name="Paha virhe" />
 		<text id="error_forgotpassword_101" name="Olet estänyt sähköpostien vastaanottamisen. Ole hyvä ja ota yhteyttä tukeen" />
 		<text id="error_fullscreen_copy" name="Kokonäyttö-tila ei ole mahdollinen." />
@@ -619,7 +619,7 @@ Haluaisitko käyttää {0} lisää {1} Kultanapin hinnalla?" />
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="-DEBUG: Kauppakuja on täynnä-" />
 		<text id="error_marketplace_21" name="-DEBUG: Olet jo kauppakujalla-" />
-		<text id="error_marketplace_title" name="Goodgame Kauppakuja" />
+		<text id="error_marketplace_title" name="Cappuccino Kauppakuja" />
 		<text id="error_nocustomclothselected" name="Jos haluat valmistaa jotai valitse ensin muoto!" />
 		<text id="error_nomoney_copy" name="Sinulla ei ole tähän vielä varaa." />
 		<text id="error_nomoney_guest_copy" name="Onko rahat lopussa?\Rekisteröidy ja ansaitset {0} Fashiondollaria!" />
@@ -661,10 +661,10 @@ Luo uusi kaava!" />
 	<feature>
 		<text id="feature_0_text_0" name="Aika on koittanut!
 
-Goodgame Fashion virallinen beta on täällä!
+Cappuccino Fashion virallinen beta on täällä!
 Jokainen aloittaa uudelleen tasolta 1, mutta saa juuri hankitut Kultanapit ja 10 Kultanappia lisää takaisin.
 
-Nauti Goodgame Fashion -pelistä!" />
+Nauti Cappuccino Fashion -pelistä!" />
 		<text id="feature_0_title" name="Virallinen aloitus!" />
 		<text id="feature_10_text_0" name="Kesä on täällä!
 Uusi GeeDee-kokoelma on saapunut!" />
@@ -694,8 +694,8 @@ Pyöritä Onnenpyörää ja ota siitä selvää!" />
 		<text id="feature_title" name="Uudet toiminnot" />
 	</feature>
 	<feeds>
-		<text id="descriptionfashionfeed" name="Asensin juuri Goodgame Fashion -pelin. Haluaisitko myös avata oman muotikauppasi ja tulla muotisuunnittelijaksi? Tule katsomaan!" />
-		<text id="descriptionlongfashion" name="Avaa oma muotiliikkeesi Goodgame Fashion -pelissä. Tule muotisuunnittelijaksi, osta hienoja kankaita ja tuota oma mallisto. Kasvata oman liikkeesi suosiota ja tee liikkeestäsi kaupungin kuumin." />
+		<text id="descriptionfashionfeed" name="Asensin juuri Cappuccino Fashion -pelin. Haluaisitko myös avata oman muotikauppasi ja tulla muotisuunnittelijaksi? Tule katsomaan!" />
+		<text id="descriptionlongfashion" name="Avaa oma muotiliikkeesi Cappuccino Fashion -pelissä. Tule muotisuunnittelijaksi, osta hienoja kankaita ja tuota oma mallisto. Kasvata oman liikkeesi suosiota ja tee liikkeestäsi kaupungin kuumin." />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="Suunnittele oma uima-asu ja voita!
@@ -722,24 +722,24 @@ Forumille siis osallistumaan kilpailuun!" />
 		<text id="panels_social_come_in" name="tuli liikkeeseen." />
 		<text id="panels_social_go_out" name="lähti liikkeestä" />
 		<text id="panels_social_nofriends" name="Sinulla ei ole vielä yhtään ystävää." />
-		<text id="panels_social_welcome_market" name="Tervetuloa Goodgame Kauppakujalle" />
+		<text id="panels_social_welcome_market" name="Tervetuloa Cappuccino Kauppakujalle" />
 		<text id="panels_social_welcome_myshop" name="Tervetuloa" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Hei %s!&lt;br /&gt;&lt;br /&gt;Löysin juuri tämän upean online-pelin &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Tämän linkin kautta pääset suoraan peliin:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Rekisteröidy tämän linkin kautta perustaaksesi oma muotiliike pelissä &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Selvitä millaista on pyörittää omaa muotibisnestä. Tuota upeita vaatteita, asusteita ja kenkiä sekä myy niitä liikkeessä ja sisusta liikkeesi niin kuin itse haluat!&lt;br /&gt;&lt;br /&gt;Pidä hauskaa, terveisin %s" />
+			<text id="mail_invite_friend" name="Hei %s!&lt;br /&gt;&lt;br /&gt;Löysin juuri tämän upean online-pelin &quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Tämän linkin kautta pääset suoraan peliin:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Rekisteröidy tämän linkin kautta perustaaksesi oma muotiliike pelissä &quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Selvitä millaista on pyörittää omaa muotibisnestä. Tuota upeita vaatteita, asusteita ja kenkiä sekä myy niitä liikkeessä ja sisusta liikkeesi niin kuin itse haluat!&lt;br /&gt;&lt;br /&gt;Pidä hauskaa, terveisin %s" />
 			<text id="mail_lost_pw" name="Hei %s!&lt;br /&gt;&lt;br /&gt;
 Sait tämän automaattisen sähköpostin, koska pyysit uutta salasanaa.&lt;br /&gt;
 Uusi salasanasi on: %s &lt;br /&gt;&lt;br /&gt;
-Voit kirjautua sisään tämän sivun kautta:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;
-Ole hyvä ja ota yhteyttä sähköpostiosoitteeseen support@goodgamestudios.com, jos sinulla on lisäkysymyksiä tai ongelmia. &lt;br /&gt;&lt;br /&gt;
+Voit kirjautua sisään tämän sivun kautta:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;
+Ole hyvä ja ota yhteyttä sähköpostiosoitteeseen support@Cappuccinostudios.com, jos sinulla on lisäkysymyksiä tai ongelmia. &lt;br /&gt;&lt;br /&gt;
 
 Pidä hauskaa!&lt;br /&gt;&lt;br /&gt;
-Tiimisi&lt;br /&gt;Goodgamestudios.com" />
-			<text id="mail_registration" name="Hei,&lt;br /&gt;&lt;br /&gt;Kiitos rekisteröitymisestäsi ja tervetuloa peliin &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Voit kirjautua sisään milloin tahansa seuraavien tietojen avulla:&lt;br /&gt;Sähköposti: %s&lt;br /&gt;Salasana: %s&lt;br /&gt;&lt;br /&gt;Tämän linkin kautta pääset suoraan peliin:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Ole hyvä ja ota yhteyttä sähköpostiosoitteeseen support@goodgamestudios.com, jos sinulla on kysyttävää tai  ongelmia. &lt;br /&gt;&lt;br /&gt;Pidä hauskaa!&lt;br /&gt;&lt;br /&gt;Tiimisi&lt;br /&gt;Goodgamestudios.com" />
+Tiimisi&lt;br /&gt;Cappuccinostudios.com" />
+			<text id="mail_registration" name="Hei,&lt;br /&gt;&lt;br /&gt;Kiitos rekisteröitymisestäsi ja tervetuloa peliin &quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Voit kirjautua sisään milloin tahansa seuraavien tietojen avulla:&lt;br /&gt;Sähköposti: %s&lt;br /&gt;Salasana: %s&lt;br /&gt;&lt;br /&gt;Tämän linkin kautta pääset suoraan peliin:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Ole hyvä ja ota yhteyttä sähköpostiosoitteeseen support@Cappuccinostudios.com, jos sinulla on kysyttävää tai  ongelmia. &lt;br /&gt;&lt;br /&gt;Pidä hauskaa!&lt;br /&gt;&lt;br /&gt;Tiimisi&lt;br /&gt;Cappuccinostudios.com" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Goodgame Kauppakuja" />
+			<text id="marketplace" name="Cappuccino Kauppakuja" />
 		</misc>
 	</server>
 	<server_msg>
@@ -780,7 +780,7 @@ mainostaa" />
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalogi" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="Lahjat" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="Ranking" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame Kauppakuja" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Cappuccino Kauppakuja" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="Avaa/Sulje liike" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="Minun liikkeeni" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Mainostaminen meneillään
@@ -944,7 +944,7 @@ Työskentelemme niin nopeasti kuin mahdollista, jotta pääset pelaamaan mahdoll
 			<text id="generic_alert_watchout" name="Huomio!" />
 			<text id="generic_invalid_email_provider" name="Tämän hankkijan sähköpostiosoite ei ole sallittu!" />
 			<text id="generic_js_alert_firstsessiontracking_loading" name="Internet-yhteytesi vaikuttaa hitaalta tällä hetkellä. Ole hyvä ja yritä myöhemmin uudelleen!" />
-			<text id="generic_js_alert_firstsessiontracking_registered" name="Mitä pidät pelistämme? Mitä voisimme vielä parantaa? Ole hyvä ja kirjoita mielipiteesi Goodgame forumiin tai ryhmään." />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="Mitä pidät pelistämme? Mitä voisimme vielä parantaa? Ole hyvä ja kirjoita mielipiteesi Cappuccino forumiin tai ryhmään." />
 			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Huomio: Kehityksesi tallennetaan vain kun olet rekisteröitynyt!" />
 			<text id="generic_register_error_invalidemail" name="Annettu sähköpostiosoite ei ole oikea." />
 			<text id="generic_report_muted_chattry" name="Et voi käyttää chat-toimintoa, koska se on poistettu väliaikaisesti." />
@@ -993,7 +993,7 @@ Työskentelemme niin nopeasti kuin mahdollista, jotta pääset pelaamaan mahdoll
 			<text id="generic_friend" name="Ystävä" />
 			<text id="generic_friends" name="Ystävät" />
 			<text id="generic_general" name="General settings" />
-			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_ggs" name="Cappuccino Studios" />
 			<text id="generic_group" name="Ryhmä" />
 			<text id="generic_guest" name="Vieras" />
 			<text id="generic_help" name="Apu" />

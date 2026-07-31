@@ -1,4 +1,3 @@
-import { XMLParser } from "fast-xml-parser";
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
@@ -7,11 +6,6 @@ const FILE_PREFIX = "Fashion";
 const ROOT_TAG = "fashion";
 const LANG_DIR = "./langs";
 const LANG_FILE_PATTERN = /^Fashion_([a-z]{2}(?:_[A-Z]{2})?)\.xml$/;
-
-const parser = new XMLParser({
-  ignoreAttributes: false,
-  preserveOrder: true,
-});
 
 function getFilePath(fileName) {
   return path.join(LANG_DIR, fileName);
@@ -25,26 +19,145 @@ function getLang(fileName) {
   return fileName.match(LANG_FILE_PATTERN)?.[1];
 }
 
-function getNodeKey(node) {
-  return Object.keys(node).find((key) => key !== ":@");
+function findMarkupEnd(xml, start, terminator) {
+  const end = xml.indexOf(terminator, start);
+  if (end === -1) {
+    throw new Error(`Unterminated XML markup beginning at character ${start}`);
+  }
+  return end + terminator.length;
 }
 
-function getRootNodes(parsed, fileName) {
-  const root = parsed.find(
-    (node) => node && Array.isArray(node[ROOT_TAG]),
-  )?.[ROOT_TAG];
+function findTagEnd(xml, start) {
+  let quote = null;
 
+  for (let index = start + 1; index < xml.length; index += 1) {
+    const char = xml[index];
+
+    if (quote) {
+      if (char === quote) {
+        quote = null;
+      }
+      continue;
+    }
+
+    if (char === '"' || char === "'") {
+      quote = char;
+      continue;
+    }
+
+    if (char === ">") {
+      return index + 1;
+    }
+  }
+
+  throw new Error(`Unterminated XML tag beginning at character ${start}`);
+}
+
+function parseAttributes(openingTag) {
+  const attributes = new Map();
+  const attributePattern = /([^\s=/>]+)\s*=\s*(?:"([^"]*)"|'([^']*)')/gu;
+  let match;
+
+  while ((match = attributePattern.exec(openingTag)) !== null) {
+    attributes.set(match[1], match[2] ?? match[3] ?? "");
+  }
+
+  return attributes;
+}
+
+function parseXmlTree(xml, fileName) {
+  const roots = [];
+  const stack = [];
+  let cursor = 0;
+
+  while (cursor < xml.length) {
+    const start = xml.indexOf("<", cursor);
+    if (start === -1) {
+      break;
+    }
+
+    if (xml.startsWith("<!--", start)) {
+      cursor = findMarkupEnd(xml, start + 4, "-->");
+      continue;
+    }
+
+    if (xml.startsWith("<![CDATA[", start)) {
+      cursor = findMarkupEnd(xml, start + 9, "]]>");
+      continue;
+    }
+
+    if (xml.startsWith("<?", start)) {
+      cursor = findMarkupEnd(xml, start + 2, "?>");
+      continue;
+    }
+
+    if (xml.startsWith("<!", start)) {
+      cursor = findTagEnd(xml, start);
+      continue;
+    }
+
+    const end = findTagEnd(xml, start);
+    const rawTag = xml.slice(start, end);
+
+    if (/^<\s*\//u.test(rawTag)) {
+      const name = rawTag.match(/^<\s*\/\s*([^\s>]+)/u)?.[1];
+      const node = stack.pop();
+
+      if (!node || !name || node.name !== name) {
+        throw new Error(
+          `${fileName} has mismatched closing tag ${rawTag.trim()}`,
+        );
+      }
+
+      cursor = end;
+      continue;
+    }
+
+    const name = rawTag.match(/^<\s*([^\s/>]+)/u)?.[1];
+    if (!name) {
+      throw new Error(`${fileName} contains an unreadable tag near character ${start}`);
+    }
+
+    const selfClosing = /\/\s*>$/u.test(rawTag);
+    const parent = stack.at(-1) ?? null;
+    const node = {
+      name,
+      attributes: parseAttributes(rawTag),
+      parent,
+      children: [],
+    };
+
+    if (parent) {
+      parent.children.push(node);
+    } else {
+      roots.push(node);
+    }
+
+    if (!selfClosing) {
+      stack.push(node);
+    }
+
+    cursor = end;
+  }
+
+  if (stack.length > 0) {
+    throw new Error(`${fileName} contains unclosed <${stack.at(-1).name}> markup`);
+  }
+
+  return roots;
+}
+
+function findRoot(roots, fileName) {
+  const root = roots.find((node) => node.name === ROOT_TAG);
   if (!root) {
     throw new Error(`${fileName} does not contain a <${ROOT_TAG}> root element`);
   }
-
   return root;
 }
 
 function collectIds(nodes, occurrences, sectionPath = []) {
   nodes.forEach((node) => {
-    const id = node[":@"]?.["@_id"];
-    const key = getNodeKey(node);
+    const id = node.attributes.get("id");
 
     if (id) {
       const locations = occurrences.get(id) ?? [];
@@ -53,30 +166,28 @@ function collectIds(nodes, occurrences, sectionPath = []) {
       return;
     }
 
-    if (key && Array.isArray(node[key])) {
-      collectIds(node[key], occurrences, [...sectionPath, key]);
-    }
+    collectIds(node.children, occurrences, [...sectionPath, node.name]);
   });
 }
 
 function checkFile(fileName) {
   const xml = readXmlFile(fileName);
-  const parsed = parser.parse(xml);
-  const root = getRootNodes(parsed, fileName);
+  const roots = parseXmlTree(xml, fileName);
+  const root = findRoot(roots, fileName);
   const occurrences = new Map();
 
-  collectIds(root, occurrences);
+  collectIds(root.children, occurrences);
 
   const duplicates = [...occurrences.entries()]
     .filter(([, locations]) => locations.length > 1)
-    .sort(([a], [b]) => a.localeCompare(b));
+    .sort(([left], [right]) => left.localeCompare(right));
+
+  const duplicateOccurrences = duplicates.reduce(
+    (total, [, locations]) => total + locations.length - 1,
+    0,
+  );
 
   if (duplicates.length > 0) {
-    const duplicateOccurrences = duplicates.reduce(
-      (total, [, locations]) => total + locations.length - 1,
-      0,
-    );
-
     console.log(
       `✖  ${fileName} — ${duplicates.length} duplicated key(s), ${duplicateOccurrences} extra occurrence(s):`,
     );
@@ -94,10 +205,7 @@ function checkFile(fileName) {
 
   return {
     duplicateKeys: duplicates.length,
-    duplicateOccurrences: duplicates.reduce(
-      (total, [, locations]) => total + locations.length - 1,
-      0,
-    ),
+    duplicateOccurrences,
   };
 }
 
@@ -106,7 +214,7 @@ function checkFile(fileName) {
     throw new Error(`Language directory not found: ${LANG_DIR}`);
   }
 
-  const files = fs.readdirSync(LANG_DIR).sort((a, b) => a.localeCompare(b));
+  const files = fs.readdirSync(LANG_DIR).sort((left, right) => left.localeCompare(right));
   const changedFiles = process.env.CHANGED_FILES
     ? new Set(
         process.env.CHANGED_FILES

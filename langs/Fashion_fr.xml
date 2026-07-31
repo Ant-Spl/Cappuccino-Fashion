@@ -586,7 +586,7 @@ tu dois au besoin libérer un patron" />
 		<text id="error_editmode_removenotallowedDoor" name="Tu as besoin d&amp;#039;une porte, pour changer la porte, glisses-en une  dans ton magasin" />
 		<text id="error_editmode_removenotallowedFactory" name="L&amp;#039;ouvrière est toujours occupée" />
 		<text id="error_editmode_title" name="Erreur de rénovation" />
-		<text id="error_fashiongame_1" name="Le magasin n&amp;#039;a pas pu être réapprovisionné. S&amp;#039;il te plaît adresse-toi au suport de &quot;Goodgames&quot;" />
+		<text id="error_fashiongame_1" name="Le magasin n&amp;#039;a pas pu être réapprovisionné. S&amp;#039;il te plaît adresse-toi au suport de &quot;Cappuccinos&quot;" />
 		<text id="error_fashiongame_title" name="Grosse erreur" />
 		<text id="error_forgotpassword_101" name="Vous avez bloqué la réception des e-mails. S&amp;#039;il vous plaît contacter le support" />
 		<text id="error_fullscreen_copy" name="Le mode plein écran n&amp;#039;est pas possible" />
@@ -625,7 +625,7 @@ Veux-tu utiliser {0} pour {1} boutons d&amp;#039;or suplémentaires?" />
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="Les arcades sont pleines, malheureusement" />
 		<text id="error_marketplace_21" name="Tu te trouves déjà dans les arcades" />
-		<text id="error_marketplace_title" name="Arcades Goodgame" />
+		<text id="error_marketplace_title" name="Arcades Cappuccino" />
 		<text id="error_nocustomclothselected" name="Choisis une forme quand tu veux produir quelque chose." />
 		<text id="error_nomoney_copy" name="Malheureusement, tu ne peux pas te permettre cela" />
 		<text id="error_nomoney_guest_copy" name="Tu es fauché(e)?
@@ -668,10 +668,10 @@ Présentes en un nouveau" />
 	<feature>
 		<text id="feature_0_text_0" name="Enfin!
 
-Goodgame Fashion démarre dans sa version beta,
+Cappuccino Fashion démarre dans sa version beta,
 Chaque joueur démarre au niveau1 et recevra un bon d&amp;#039;achat en bouton d&amp;#039;or et un bonus de 10 boutons d&amp;#039;or comme cadeaux de bienvenue,
 
-ammusez vous bien avec Goodgames Fashion." />
+ammusez vous bien avec Cappuccinos Fashion." />
 		<text id="feature_0_title" name="Ouverture officielle" />
 		<text id="feature_10_text_0" name="L&amp;#039;été est là! La nouvelle collection GeeDee est arrivé!" />
 		<text id="feature_1_text_0" name="Démarres avec tous tes amis 
@@ -702,8 +702,8 @@ La nouvelle roue de la Fortune se trouve dehors dans les arcades!" />
 		<text id="feature_title" name="Nouvelles fonctions" />
 	</feature>
 	<feeds>
-		<text id="descriptionfashionfeed" name="Je viens d&amp;#039;installer Goodgame Fashion. Veux-tu  aussi ouvrir ta propre boutique et travailler dans l&amp;#039;univers de la haute couture? Ça se passe ici!" />
-		<text id="descriptionlongfashion" name="Ouvre ta propre boutique sur Goodgames Fashion. Deviens le designer en vogue, achète de nouveaux patrons, produis tes propres vêtements et crée de nouvelles tendances! Fais la connaissance de nouveaux amis du monde entier, invite-les dans ta boutique et chatte sur tout ce qui a trait à la mode. Décore ta vitrine et ton magasin pour attirer les clients: bientôt, tu pourras développer ton entreprise et devenir une star de la mode!" />
+		<text id="descriptionfashionfeed" name="Je viens d&amp;#039;installer Cappuccino Fashion. Veux-tu  aussi ouvrir ta propre boutique et travailler dans l&amp;#039;univers de la haute couture? Ça se passe ici!" />
+		<text id="descriptionlongfashion" name="Ouvre ta propre boutique sur Cappuccinos Fashion. Deviens le designer en vogue, achète de nouveaux patrons, produis tes propres vêtements et crée de nouvelles tendances! Fais la connaissance de nouveaux amis du monde entier, invite-les dans ta boutique et chatte sur tout ce qui a trait à la mode. Décore ta vitrine et ton magasin pour attirer les clients: bientôt, tu pourras développer ton entreprise et devenir une star de la mode!" />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="Concevez vos propres vêtements de bain et gagnez! Goldbuttons attendent le vainqueur et le modèle apparaîtra dans la zone de motif! Arrêt sur ​​le forum et entrer dans la compétition!" />
@@ -725,22 +725,22 @@ La nouvelle roue de la Fortune se trouve dehors dans les arcades!" />
 		<text id="panels_social_come_in" name="est entré dans le magasin." />
 		<text id="panels_social_go_out" name="est sorti du magasin" />
 		<text id="panels_social_nofriends" name="Tu n&amp;#039;as pas encore d&amp;#039;amis" />
-		<text id="panels_social_welcome_market" name="Bienvenue chez Goodgames Arcades" />
+		<text id="panels_social_welcome_market" name="Bienvenue chez Cappuccinos Arcades" />
 		<text id="panels_social_welcome_myshop" name="Bienvenue" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Salut %s!&lt;br /&gt;&lt;br /&gt;Je viens de découvrir le super jeu en ligne&quot;Goodgames Fashion&quot;.&lt;br /&gt;&lt;br /&gt;avec ce link tu arrives directement au jeu
-http://www.goodgamestudios.com/fashion/&lt;br/&gt;&lt;br /&gt;Annonces-toi sur ce link pour construire gratuitement ton propre magasin chez &quot;Goodgame Fashion&quot;&lt;br /&gt;&lt;br /&gt;comment imagines-tu ta boutique de mode.Tu vas concevoir et réaliser de beaux vêtements, des accessoires ainsi que des chaussures que tu vas exposer, décorer selon ton gout et vendre dans ton propre magasin.&lt;br /&gt;&lt;br /&gt; Amitié et amuses toi bien., %s" />
-			<text id="mail_lost_pw" name="Bonjour %s&lt;br /&gt;&lt;br /&gt;Tu reçois ce courriel automatiquement car tu as demandé un nouveau mot de passe&lt;br /&gt;Ton mot de passe est au nom de %s&lt;br /&gt;&lt;br /&gt;avec ce link tu accèderas directement au jeu:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Si tu as des questions ou des problèmes adresses-toi à support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;
-Amuses-toi bien&lt;br /&gt;&lt;br /&gt;l&amp;#039;équipe de&lt;br /&gt;Goodgamestudios.com" />
-			<text id="mail_registration" name="Bonjour,&lt;br /&gt;&lt;br /&gt;Merci beaucoup pour ton inscription et bienvenu à &quot;Goodgames Fashion&quot;&lt;br /&gt;&lt;br /&gt;Tu peux te connecter à tous moments avec les données suivantes:/&gt;Passwort: %s&lt;br /&gt;&lt;br /&gt;avec ce link tu arrives directement au jeu&lt;br/&gt;
-http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Si tu as des questions ou des problèmes adresses-toi à support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;Amuses-toi bien
+			<text id="mail_invite_friend" name="Salut %s!&lt;br /&gt;&lt;br /&gt;Je viens de découvrir le super jeu en ligne&quot;Cappuccinos Fashion&quot;.&lt;br /&gt;&lt;br /&gt;avec ce link tu arrives directement au jeu
+http://www.Cappuccinostudios.com/fashion/&lt;br/&gt;&lt;br /&gt;Annonces-toi sur ce link pour construire gratuitement ton propre magasin chez &quot;Cappuccino Fashion&quot;&lt;br /&gt;&lt;br /&gt;comment imagines-tu ta boutique de mode.Tu vas concevoir et réaliser de beaux vêtements, des accessoires ainsi que des chaussures que tu vas exposer, décorer selon ton gout et vendre dans ton propre magasin.&lt;br /&gt;&lt;br /&gt; Amitié et amuses toi bien., %s" />
+			<text id="mail_lost_pw" name="Bonjour %s&lt;br /&gt;&lt;br /&gt;Tu reçois ce courriel automatiquement car tu as demandé un nouveau mot de passe&lt;br /&gt;Ton mot de passe est au nom de %s&lt;br /&gt;&lt;br /&gt;avec ce link tu accèderas directement au jeu:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Si tu as des questions ou des problèmes adresses-toi à support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;
+Amuses-toi bien&lt;br /&gt;&lt;br /&gt;l&amp;#039;équipe de&lt;br /&gt;Cappuccinostudios.com" />
+			<text id="mail_registration" name="Bonjour,&lt;br /&gt;&lt;br /&gt;Merci beaucoup pour ton inscription et bienvenu à &quot;Cappuccinos Fashion&quot;&lt;br /&gt;&lt;br /&gt;Tu peux te connecter à tous moments avec les données suivantes:/&gt;Passwort: %s&lt;br /&gt;&lt;br /&gt;avec ce link tu arrives directement au jeu&lt;br/&gt;
+http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Si tu as des questions ou des problèmes adresses-toi à support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;Amuses-toi bien
 &lt;br /&gt;&lt;br /&gt;
-Ton équipe de&lt;br /&gt;Goodgamestudios.com" />
+Ton équipe de&lt;br /&gt;Cappuccinostudios.com" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Arcades Goodgame" />
+			<text id="marketplace" name="Arcades Cappuccino" />
 		</misc>
 	</server>
 	<server_msg>
@@ -782,7 +782,7 @@ Boutons d&amp;#039;or / Dollars-Fashion" />
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Catalogue" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="Cadeaux" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="Liste des Classements" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Arcades Goodgame" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Arcades Cappuccino" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="Ouvrir/fermer la boutique" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="Ma boutique" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Action en cours
@@ -948,7 +948,7 @@ Nous travaillons aussi vite que possible pour de te permettre de jouer à nouvea
 			<text id="generic_invalid_email_provider" name="Les adresses mail de ce fournisseur ne sont pas autorisées." />
 			<text id="generic_js_alert_firstsessiontracking_loading" name="Ta connexion internet semble être plutôt lente actuellement. Essaye un peu plus tard s&amp;#039;il te plaît !" />
 			<text id="generic_js_alert_firstsessiontracking_registered" name="Comment trouves-tu le jeu, et qu&amp;#039;est-ce qui pourrait être amélioré ?
-Donne-nous ton avis sur notre forum ou notre groupe Goodgame." />
+Donne-nous ton avis sur notre forum ou notre groupe Cappuccino." />
 			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Attention ! Ton avancement est uniquement sauvegardé lorsque tu es inscrit !" />
 			<text id="generic_register_error_invalidemail" name="L&amp;#039;adresse mail que tu as entré est incorrecte." />
 			<text id="generic_report_muted_chattry" name="Tu ne peux utiliser le chat pour le moment car tu es bloqué." />
@@ -997,7 +997,7 @@ Donne-nous ton avis sur notre forum ou notre groupe Goodgame." />
 			<text id="generic_friend" name="Ami" />
 			<text id="generic_friends" name="Amis" />
 			<text id="generic_general" name="General settings" />
-			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_ggs" name="Cappuccino Studios" />
 			<text id="generic_group" name="Groupe" />
 			<text id="generic_guest" name="Invité" />
 			<text id="generic_help" name="Aide" />

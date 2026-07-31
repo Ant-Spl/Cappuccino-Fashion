@@ -586,7 +586,7 @@ Server beskjed {0}" />
 		<text id="error_editmode_removenotallowedDoor" name="Du trenger en dør! For å skifte døren, dra en annen inn i butikken din først." />
 		<text id="error_editmode_removenotallowedFactory" name="Arbeideren produserer fortsatt!" />
 		<text id="error_editmode_title" name="Feil ved dekorering" />
-		<text id="error_fashiongame_1" name="Vi kunne ikke laste din butikk. Vennligst kontakt Goodgame Studios støtte." />
+		<text id="error_fashiongame_1" name="Vi kunne ikke laste din butikk. Vennligst kontakt Cappuccino Studios støtte." />
 		<text id="error_fashiongame_title" name="Uheldig misforståelse" />
 		<text id="error_forgotpassword_101" name="Du har blokkert mottak av e-poster. Vennligst kontakt support" />
 		<text id="error_fullscreen_copy" name="Fullskjerm modus er ikke tilgjengelig." />
@@ -625,7 +625,7 @@ Server beskjed {0}" />
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="-Feilretting: Butikk-gatene er fulle-" />
 		<text id="error_marketplace_21" name="-Feilretting: Du er allerede ved butikkgaten-" />
-		<text id="error_marketplace_title" name="Goodgame Butikkgate" />
+		<text id="error_marketplace_title" name="Cappuccino Butikkgate" />
 		<text id="error_nocustomclothselected" name="Hvis du ønsker å produsere no, velg form først!" />
 		<text id="error_nomoney_copy" name="Beklager, du har ikke råd til den enda." />
 		<text id="error_nomoney_guest_copy" name="Er du tom for penger?Registrer deg og du vil tjene {0} Motedollar" />
@@ -667,10 +667,10 @@ Lag et nytt!" />
 	<feature>
 		<text id="feature_0_text_0" name="Det er på tide!
 
-Goodgame Mote&amp;#039;s offisielle beta er her!
+Cappuccino Mote&amp;#039;s offisielle beta er her!
 Alle vil starte på nytt fra nivå 1 men får med seg tidligere kjøpte Gull Knapper pluss 10 ekstra Gull Knapper.
 
-Vær så god å nyt Goodgame Mote!" />
+Vær så god å nyt Cappuccino Mote!" />
 		<text id="feature_0_title" name="Offisiel start!" />
 		<text id="feature_10_text_0" name="Sommeren er her!
 Den nye GeeDee Kolleksjonen har kommet!" />
@@ -701,8 +701,8 @@ Spinn Lykkehjulet og finn det ut nå!" />
 		<text id="feature_title" name="Nye innslag" />
 	</feature>
 	<feeds>
-		<text id="descriptionfashionfeed" name="Jeg har akkurat installert Goodgame Mote. Vil du også åpne dine egen Motebutikk og bli en motedesigner? Kom å ta en titt!" />
-		<text id="descriptionlongfashion" name="Start din egen motebutikk med Goodgame Fashion. Bli en motedesigner, kjøp kjent tøy og produser ditt eget utseende. Utvid butikken din etter popularitet og gjør din butikk til det til en storfavoritt for mote i byen." />
+		<text id="descriptionfashionfeed" name="Jeg har akkurat installert Cappuccino Mote. Vil du også åpne dine egen Motebutikk og bli en motedesigner? Kom å ta en titt!" />
+		<text id="descriptionlongfashion" name="Start din egen motebutikk med Cappuccino Fashion. Bli en motedesigner, kjøp kjent tøy og produser ditt eget utseende. Utvid butikken din etter popularitet og gjør din butikk til det til en storfavoritt for mote i byen." />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="Design dine egne bade klær og vinn!
@@ -727,21 +727,21 @@ Av gårde til forumet og bli med i konkurransen!" />
 		<text id="panels_social_come_in" name="har ankommet butikken." />
 		<text id="panels_social_go_out" name="har forlatt butikken." />
 		<text id="panels_social_nofriends" name="Du har ikken noen venner enda." />
-		<text id="panels_social_welcome_market" name="Velkommen til Goodgame Butikkgate" />
+		<text id="panels_social_welcome_market" name="Velkommen til Cappuccino Butikkgate" />
 		<text id="panels_social_welcome_myshop" name="Velkommen" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Hei%s!&lt;br /&gt;&lt;br /&gt;Jeg har akkurat funnet dette artige online spillet &quot;Goodgame Mote&quot;.&lt;br /&gt;&lt;br /&gt;Med denne lenken kommer du deg direkte til spillet:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Registrer deg med denne lenken og lag din egen Motebutikk gratis ved &quot;Goodgame Mote&quot;.&lt;br /&gt;&lt;br /&gt;Finn ut hvordan det er å ha din egen Motebutikk. Produser vidunderlige klær, tilbehør og sko, selg dei i din butikk og dekorer den akkurat som du ønsker!&lt;br /&gt;&lt;br /&gt;Ha det gøy, ditt %s" />
+			<text id="mail_invite_friend" name="Hei%s!&lt;br /&gt;&lt;br /&gt;Jeg har akkurat funnet dette artige online spillet &quot;Cappuccino Mote&quot;.&lt;br /&gt;&lt;br /&gt;Med denne lenken kommer du deg direkte til spillet:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Registrer deg med denne lenken og lag din egen Motebutikk gratis ved &quot;Cappuccino Mote&quot;.&lt;br /&gt;&lt;br /&gt;Finn ut hvordan det er å ha din egen Motebutikk. Produser vidunderlige klær, tilbehør og sko, selg dei i din butikk og dekorer den akkurat som du ønsker!&lt;br /&gt;&lt;br /&gt;Ha det gøy, ditt %s" />
 			<text id="mail_lost_pw" name="Hei %s!&lt;br /&gt;&lt;br /&gt;
 Du har mottat denne automatiske e-posten fordi du har bedt om nytt passord.&lt;br /&gt;
 Ditt nye passord er: %s &lt;br /&gt;&lt;br /&gt;
-Du kan logge deg in ved hjelp av denne siden:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;
-Vennligst kontakt støtte support@goodgamestudios.com hvis du har noen spørsmål eller problemer. &lt;br /&gt;&lt;br /&gt;" />
-			<text id="mail_registration" name="Hei,&lt;br /&gt;&lt;br /&gt;takk for at du registrerte deg og velkommen til &quot;Goodgame Mote&quot;.&lt;br /&gt;&lt;br /&gt;Du kan logge deg inn hele tiden med følgende data:&lt;br /&gt;Epost: %s&lt;br /&gt;Passord: %s&lt;br /&gt;&lt;br /&gt;Denne lenken vil ta deg direkte til spillet:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Vennligst kontakt støtte support@goodgamestudios.com hvis du har noen spørsmål eller problemer.&lt;br /&gt;&lt;br /&gt;Ha det gøy!&lt;br /&gt;&lt;br /&gt;Ditt lag ved&lt;br /&gt;Goodgamestudios.com" />
+Du kan logge deg in ved hjelp av denne siden:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;
+Vennligst kontakt støtte support@Cappuccinostudios.com hvis du har noen spørsmål eller problemer. &lt;br /&gt;&lt;br /&gt;" />
+			<text id="mail_registration" name="Hei,&lt;br /&gt;&lt;br /&gt;takk for at du registrerte deg og velkommen til &quot;Cappuccino Mote&quot;.&lt;br /&gt;&lt;br /&gt;Du kan logge deg inn hele tiden med følgende data:&lt;br /&gt;Epost: %s&lt;br /&gt;Passord: %s&lt;br /&gt;&lt;br /&gt;Denne lenken vil ta deg direkte til spillet:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Vennligst kontakt støtte support@Cappuccinostudios.com hvis du har noen spørsmål eller problemer.&lt;br /&gt;&lt;br /&gt;Ha det gøy!&lt;br /&gt;&lt;br /&gt;Ditt lag ved&lt;br /&gt;Cappuccinostudios.com" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Goodgame Butikkgate" />
+			<text id="marketplace" name="Cappuccino Butikkgate" />
 		</misc>
 	</server>
 	<server_msg>
@@ -783,7 +783,7 @@ Motedollar" />
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalog" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="Gaver" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="Rangering" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame Butikkgate" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Cappuccino Butikkgate" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="Åpne/Stenge Butikk" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="Min Butikk" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Promotering pågår
@@ -949,7 +949,7 @@ Vi jobbber så fort vi kan så du kan spille igjen så fort som mulig." />
 			<text id="generic_alert_watchout" name="Merk!" />
 			<text id="generic_invalid_email_provider" name="En e-post adresse fra denne leverandøren er ikke tillatt!" />
 			<text id="generic_js_alert_firstsessiontracking_loading" name="Din internett-forbindelse ser ut til å være veldig treg på nåværende tidspunkt. Vennligst prøv igjen senere!" />
-			<text id="generic_js_alert_firstsessiontracking_registered" name="Hvordan liker du spillet og hva kan vi gjøre for å forbedre oss? Vennligst, gi oss din tilbakemelding i Goodgame Forumet eller Gruppen." />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="Hvordan liker du spillet og hva kan vi gjøre for å forbedre oss? Vennligst, gi oss din tilbakemelding i Cappuccino Forumet eller Gruppen." />
 			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Merk: Din utvikling blir bare lagret når du registrerer deg!" />
 			<text id="generic_register_error_invalidemail" name="E-post adressen er ikke korrekt." />
 			<text id="generic_report_muted_chattry" name="Du kan ikke bruke prat-funksjonen på grunn av at du er utestengt." />
@@ -998,7 +998,7 @@ Vi jobbber så fort vi kan så du kan spille igjen så fort som mulig." />
 			<text id="generic_friend" name="Venn" />
 			<text id="generic_friends" name="Venner" />
 			<text id="generic_general" name="Generelle innstillinger" />
-			<text id="generic_ggs" name="Goodgame Studio" />
+			<text id="generic_ggs" name="Cappuccino Studio" />
 			<text id="generic_group" name="Gruppe" />
 			<text id="generic_guest" name="Gjest" />
 			<text id="generic_help" name="Hjelp" />

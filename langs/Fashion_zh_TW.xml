@@ -561,7 +561,7 @@
 		<text id="error_editmode_removenotallowedDoor" name="你需要一個門!要更換請將其它的門拖曳至你的商店內" />
 		<text id="error_editmode_removenotallowedFactory" name="工人還在忙呢!" />
 		<text id="error_editmode_title" name="裝潢時出現錯誤" />
-		<text id="error_fashiongame_1" name="無法載入商店，請與Goodgame技術支援部門聯絡" />
+		<text id="error_fashiongame_1" name="無法載入商店，請與Cappuccino技術支援部門聯絡" />
 		<text id="error_fashiongame_title" name="嚴重的錯誤" />
 		<text id="error_forgotpassword_101" name="你已封鎖電子郵件接收，請與技術支援部聯繫" />
 		<text id="error_fullscreen_copy" name="無法切換全螢幕模式" />
@@ -599,7 +599,7 @@
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="-DEBUG:拱廊已無位置-" />
 		<text id="error_marketplace_21" name="-DEBUG:你已經在拱廊了-" />
-		<text id="error_marketplace_title" name="Goodgame拱廊" />
+		<text id="error_marketplace_title" name="Cappuccino拱廊" />
 		<text id="error_nocustomclothselected" name="如果你想製作新商品，請先選擇一個服裝樣式!" />
 		<text id="error_nomoney_copy" name="你無法支付此物品" />
 		<text id="error_nomoney_guest_copy" name="你破產了嗎?\n趕快註冊就可得到{0}時尚金喔!" />
@@ -638,7 +638,7 @@
 		<text id="error_work_title" name="拒絕工作" />
 	</error_codes>
 	<feature>
-		<text id="feature_0_text_0" name="是時候啦!\n\nGoodgame Fashion開始正式進入BETA階段囉\n玩家重新由等級1開始遊戲，之前購買的金紐扣仍會退回帳戶中，另外還可額外獲得10個金紐扣作為謝禮喔!\n\n希望你在Goodgame Fashion裡樂趣多多!" />
+		<text id="feature_0_text_0" name="是時候啦!\n\nCappuccino Fashion開始正式進入BETA階段囉\n玩家重新由等級1開始遊戲，之前購買的金紐扣仍會退回帳戶中，另外還可額外獲得10個金紐扣作為謝禮喔!\n\n希望你在Cappuccino Fashion裡樂趣多多!" />
 		<text id="feature_0_title" name="正式開始!" />
 		<text id="feature_10_text_0" name="新的GeeDee系列來啦!快讓店裡洋溢著夏日的度假風情吧!" />
 		<text id="feature_1_text_0" name="和你的朋友們一起合作!\n快來發掘新的共同任務吧!" />
@@ -666,7 +666,7 @@
 	</feature>
 	<feeds>
 		<text id="descriptionfashionfeed" name="我剛安裝了時尚教主這款遊戲。你也想成立一間精品店且成為時尚設計師嗎? 進來看看吧!" />
-		<text id="descriptionlongfashion" name="在Goodgame Fashion開間自己的服飾店吧!成為出名的時尚設計師、購買新的服飾樣版、製作專屬風格的衣裳及創造最新的時尚潮流，打造你獨一無二的店面，成為時尚界的明日之星吧!" />
+		<text id="descriptionlongfashion" name="在Cappuccino Fashion開間自己的服飾店吧!成為出名的時尚設計師、購買新的服飾樣版、製作專屬風格的衣裳及創造最新的時尚潮流，打造你獨一無二的店面，成為時尚界的明日之星吧!" />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="自己設計專屬的泳裝去參加比賽吧!優勝者將獲得金紐扣，設計樣版還能放到商品型錄中喔!快上論壇加入吧!" />
@@ -688,17 +688,17 @@
 		<text id="panels_social_come_in" name="已進入商店" />
 		<text id="panels_social_go_out" name="已離開商店" />
 		<text id="panels_social_nofriends" name="你還沒有好友喔!" />
-		<text id="panels_social_welcome_market" name="歡迎來到Goodgame拱廊!" />
+		<text id="panels_social_welcome_market" name="歡迎來到Cappuccino拱廊!" />
 		<text id="panels_social_welcome_myshop" name="歡迎光臨" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Hi %s!&lt;br /&gt;&lt;br /&gt;我剛剛發現一個超酷的線上遊戲&quot;Goodgame Fashion&quot;喔!&lt;br /&gt;&lt;br /&gt;由此連結可直接進入遊戲:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;由上面連結登入，在&quot;Goodgame Fashion&quot;免費開一間屬於你的商店!&lt;br /&gt;&lt;br /&gt;看看如何擁有自己專屬的服飾店吧!製作美麗的衣裳，配件和鞋子，在你的商店裡販賣它們，快來用個人品味打造獨一無二的服飾店吧!&lt;br /&gt;&lt;br /&gt;祝你玩的愉快，%s" />
-			<text id="mail_lost_pw" name="Hallo %s!&lt;br /&gt;&lt;br /&gt;因為你向我們要求一個新密碼，所以你收到這封自動回覆的電子郵件。&lt;br /&gt;你的密碼為: %s&lt;br /&gt;&lt;br /&gt;由此連結可直接進入遊戲:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;任何問題及疑難請寫信至support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;我們誠摯地希望你繼續玩的愉快!&lt;br /&gt;&lt;br /&gt;你的Goodgamestudios.com服務團隊" />
-			<text id="mail_registration" name="Hallo,&lt;br /&gt;&lt;br /&gt;非常感謝你的加入，我們誠摯的歡迎你來到&quot;Goodgame Fashion&quot;。&lt;br /&gt;&lt;br /&gt;你可以隨時以下列資料登入:&lt;br /&gt;電子郵件: %s&lt;br /&gt;密碼: %s&lt;br /&gt;&lt;br /&gt;由此連結可直接進入遊戲:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;任何問題及疑難請寫信至support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;希望你會從遊戲中得到很多樂趣!&lt;br /&gt;&lt;br /&gt;你的Goodgamestudios.com服務團隊" />
+			<text id="mail_invite_friend" name="Hi %s!&lt;br /&gt;&lt;br /&gt;我剛剛發現一個超酷的線上遊戲&quot;Cappuccino Fashion&quot;喔!&lt;br /&gt;&lt;br /&gt;由此連結可直接進入遊戲:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;由上面連結登入，在&quot;Cappuccino Fashion&quot;免費開一間屬於你的商店!&lt;br /&gt;&lt;br /&gt;看看如何擁有自己專屬的服飾店吧!製作美麗的衣裳，配件和鞋子，在你的商店裡販賣它們，快來用個人品味打造獨一無二的服飾店吧!&lt;br /&gt;&lt;br /&gt;祝你玩的愉快，%s" />
+			<text id="mail_lost_pw" name="Hallo %s!&lt;br /&gt;&lt;br /&gt;因為你向我們要求一個新密碼，所以你收到這封自動回覆的電子郵件。&lt;br /&gt;你的密碼為: %s&lt;br /&gt;&lt;br /&gt;由此連結可直接進入遊戲:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;任何問題及疑難請寫信至support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;我們誠摯地希望你繼續玩的愉快!&lt;br /&gt;&lt;br /&gt;你的Cappuccinostudios.com服務團隊" />
+			<text id="mail_registration" name="Hallo,&lt;br /&gt;&lt;br /&gt;非常感謝你的加入，我們誠摯的歡迎你來到&quot;Cappuccino Fashion&quot;。&lt;br /&gt;&lt;br /&gt;你可以隨時以下列資料登入:&lt;br /&gt;電子郵件: %s&lt;br /&gt;密碼: %s&lt;br /&gt;&lt;br /&gt;由此連結可直接進入遊戲:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;任何問題及疑難請寫信至support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;希望你會從遊戲中得到很多樂趣!&lt;br /&gt;&lt;br /&gt;你的Cappuccinostudios.com服務團隊" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Goodgame拱廊" />
+			<text id="marketplace" name="Cappuccino拱廊" />
 		</misc>
 	</server>
 	<server_msg>
@@ -738,7 +738,7 @@
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="商品型錄" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="禮物" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="名次表" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame拱廊" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Cappuccino拱廊" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="開/關閉商店" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="我的商店" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="宣傳活動正在進行，點選查看初步結果" />

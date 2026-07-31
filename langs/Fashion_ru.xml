@@ -709,9 +709,9 @@
 		<text id="feature_title" name="Новые свойства" />
 	</feature>
 	<feeds>
-		<text id="descriptionfashionfeed" name="Привет. А я пишу тебе из своего собственного ателье в Goodgame Fashion! Да-да! Готовлюсь к показу... эй! ну кто ж так стежок кладёт!?
+		<text id="descriptionfashionfeed" name="Привет. А я пишу тебе из своего собственного ателье в Cappuccino Fashion! Да-да! Готовлюсь к показу... эй! ну кто ж так стежок кладёт!?
 Совсем без меня обалдели. Ну всё, убегаю, приходи скорей!" />
-		<text id="descriptionlongfashion" name="Откройте своё собственное ателье в Goodgame Fashion. Станьте кутюрье, выбирайте модные материалы и создавайте свой стиль. Заботьтесь о популярности своего ателье и сделайте его самым шикарным заведением в мире высокой моды." />
+		<text id="descriptionlongfashion" name="Откройте своё собственное ателье в Cappuccino Fashion. Станьте кутюрье, выбирайте модные материалы и создавайте свой стиль. Заботьтесь о популярности своего ателье и сделайте его самым шикарным заведением в мире высокой моды." />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="Создайте дизайн своих купaльников и победите!
@@ -741,9 +741,9 @@
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Привет, %s!&lt;br /&gt;&lt;br /&gt;Я только что наткнулся на классную онлайн-игру &quot;Гудгейм Мода&quot;&lt;br /&gt;&lt;br /&gt;По этой ссылке ты можешь перейти прямо к игре:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Зарегистрируйся через эту ссылку и создай бесплатно свой собственный магазин в &quot;Гудгейм Мода&quot;&lt;br /&gt;&lt;br /&gt;Узнай что значит иметь свой собственный бутик. Создай красивую одежду, аксессуары и обувь, продай их в своём магазине и сделай интерьер на свой вкус!&lt;br /&gt;&lt;br /&gt;Наслаждайся игрой и сердечный тебе привет, %s" />
-			<text id="mail_lost_pw" name="Привет, %s!&lt;br /&gt;&lt;br /&gt;Ты получил это автоматическое письмо, потому что ты послал запрос на новый пароль.&lt;br /&gt;Твой новый пароль: %s&lt;br /&gt;&lt;br /&gt;По этой ссылке ты можешь перейти к игре:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Если возникнут вопросы или проблемы обратись в support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;Наслаждайся игрой!&lt;br /&gt;&lt;br /&gt;Твоя команда&lt;br /&gt;Goodgamestudios.com" />
-			<text id="mail_registration" name="Привет,&lt;br /&gt;&lt;br /&gt;большое спасибо за твою регистрацию. Мы приветствуем тебя в игре &quot;Гудгейм Мода&quot;.&lt;br /&gt;&lt;br /&gt;Ты можешь в любое время войти в игру набрав:&lt;br /&gt;E-Mail: %s&lt;br /&gt;Пароль: %s&lt;br /&gt;&lt;br /&gt;По этой ссылке ты можешь перейти к игре:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Если возникнут вопросы или проблемы обратись в support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;Наслаждайся игрой!&lt;br /&gt;&lt;br /&gt;Твоя команда&lt;br /&gt;Goodgamestudios.com" />
+			<text id="mail_invite_friend" name="Привет, %s!&lt;br /&gt;&lt;br /&gt;Я только что наткнулся на классную онлайн-игру &quot;Гудгейм Мода&quot;&lt;br /&gt;&lt;br /&gt;По этой ссылке ты можешь перейти прямо к игре:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Зарегистрируйся через эту ссылку и создай бесплатно свой собственный магазин в &quot;Гудгейм Мода&quot;&lt;br /&gt;&lt;br /&gt;Узнай что значит иметь свой собственный бутик. Создай красивую одежду, аксессуары и обувь, продай их в своём магазине и сделай интерьер на свой вкус!&lt;br /&gt;&lt;br /&gt;Наслаждайся игрой и сердечный тебе привет, %s" />
+			<text id="mail_lost_pw" name="Привет, %s!&lt;br /&gt;&lt;br /&gt;Ты получил это автоматическое письмо, потому что ты послал запрос на новый пароль.&lt;br /&gt;Твой новый пароль: %s&lt;br /&gt;&lt;br /&gt;По этой ссылке ты можешь перейти к игре:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Если возникнут вопросы или проблемы обратись в support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;Наслаждайся игрой!&lt;br /&gt;&lt;br /&gt;Твоя команда&lt;br /&gt;Cappuccinostudios.com" />
+			<text id="mail_registration" name="Привет,&lt;br /&gt;&lt;br /&gt;большое спасибо за твою регистрацию. Мы приветствуем тебя в игре &quot;Гудгейм Мода&quot;.&lt;br /&gt;&lt;br /&gt;Ты можешь в любое время войти в игру набрав:&lt;br /&gt;E-Mail: %s&lt;br /&gt;Пароль: %s&lt;br /&gt;&lt;br /&gt;По этой ссылке ты можешь перейти к игре:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Если возникнут вопросы или проблемы обратись в support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;Наслаждайся игрой!&lt;br /&gt;&lt;br /&gt;Твоя команда&lt;br /&gt;Cappuccinostudios.com" />
 		</mail>
 		<misc>
 			<text id="marketplace" name="Гудгейм Аркады" />
@@ -1002,7 +1002,7 @@
 			<text id="generic_friend" name="Друг" />
 			<text id="generic_friends" name="Друзья" />
 			<text id="generic_general" name="Общие установки" />
-			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_ggs" name="Cappuccino Studios" />
 			<text id="generic_group" name="Группа" />
 			<text id="generic_guest" name="Гость" />
 			<text id="generic_help" name="Помощь" />

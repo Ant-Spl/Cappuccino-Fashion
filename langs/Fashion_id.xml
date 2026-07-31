@@ -586,7 +586,7 @@ Server {0}" />
 		<text id="error_editmode_removenotallowedDoor" name="Kamu membutuhkan pintu! Untuk mengubah pintu, pertama-tama, bawa pintu lain ke tokomu." />
 		<text id="error_editmode_removenotallowedFactory" name="Pekerja ini masih memproduksi!" />
 		<text id="error_editmode_title" name="Error saat menghias ulang" />
-		<text id="error_fashiongame_1" name="Kami tidak bisa memuat tokomu. Silakan menghubungi layanan pendukung Goodgame Studios." />
+		<text id="error_fashiongame_1" name="Kami tidak bisa memuat tokomu. Silakan menghubungi layanan pendukung Cappuccino Studios." />
 		<text id="error_fashiongame_title" name="Kesalahan fatal" />
 		<text id="error_forgotpassword_101" name="Kamu telah mengeblok penerimaan email. Silakan hubungi layanan pendukung" />
 		<text id="error_fullscreen_copy" name="Mode layar penuh tidak tersedia." />
@@ -625,7 +625,7 @@ Ingin menggunakan {0} lagi seharga {1} Kancing Emas?" />
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="-DEBUG: Atrium penuh-" />
 		<text id="error_marketplace_21" name="-DEBUG: Kamu sudah berada di atrium-" />
-		<text id="error_marketplace_title" name="Atrium Goodgames" />
+		<text id="error_marketplace_title" name="Atrium Cappuccinos" />
 		<text id="error_nocustomclothselected" name="Jika kamu ingin memproduksi sesuatu, pilihlah modelnya dulu!" />
 		<text id="error_nomoney_copy" name="Maaf, kamu belum mampu membelinya." />
 		<text id="error_nomoney_guest_copy" name="Uangmu habis?Daftar dan kamu akan mendapatkan {0} Fashiondollar!" />
@@ -667,10 +667,10 @@ Selesai." />
 	<feature>
 		<text id="feature_0_text_0" name="Ini saatnya!
 
-Beta resmi Goodgame Fashion hadir di sini!
+Beta resmi Cappuccino Fashion hadir di sini!
  Tiap orang akan memulai lagi dari level 1, tapi dengan Kancing Emas yang sudah dibeli sebelumnya dan tambahan 10 Kancing Emas.
 
-Silakan menikmati Goodgame Fashion!" />
+Silakan menikmati Cappuccino Fashion!" />
 		<text id="feature_0_title" name="Permulaan resmi!" />
 		<text id="feature_10_text_0" name="Musim panas tiba!
 Koleksi terbaru GeeDee telah tersedia!" />
@@ -701,8 +701,8 @@ Putar Roda Keberuntungan dan cari tahu!" />
 		<text id="feature_title" name="Fitur baru" />
 	</feature>
 	<feeds>
-		<text id="descriptionfashionfeed" name="Aku baru saja menginstal Goodgame Fashion. Apakah kamu juga ingin membuka toko busanamu sendiri dan menjadi perancang mode? Datang dan lihatlah!" />
-		<text id="descriptionlongfashion" name="Buka toko busanamu sendiri dengan Goodgame Fashion.
+		<text id="descriptionfashionfeed" name="Aku baru saja menginstal Cappuccino Fashion. Apakah kamu juga ingin membuka toko busanamu sendiri dan menjadi perancang mode? Datang dan lihatlah!" />
+		<text id="descriptionlongfashion" name="Buka toko busanamu sendiri dengan Cappuccino Fashion.
 Jadilah perancang mode, beli kain keren, dan produksi busanamu sendiri. Berkembanglah bersama popularitas tokomu dan jadikan tokomu tempat mode terkeren di kota." />
 	</feeds>
 	<forumaction>
@@ -727,24 +727,24 @@ Pergi ke forum dan bergabung dalam kompetisi!" />
 		<text id="panels_social_come_in" name="telah memasuki toko." />
 		<text id="panels_social_go_out" name="telah meninggalkan toko." />
 		<text id="panels_social_nofriends" name="Kamu belum punya teman." />
-		<text id="panels_social_welcome_market" name="Selamat Datang di Atrium Goodgame" />
+		<text id="panels_social_welcome_market" name="Selamat Datang di Atrium Cappuccino" />
 		<text id="panels_social_welcome_myshop" name="Selamat Datang" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Hai %s!!&lt;br /&gt;&lt;br /&gt;Aku baru saja menemukan game online hebat ini &quot;Goodgame Fashion&quot;.!&lt;br /&gt;&lt;br /&gt;Dengan tautan ini kamu akan langsung masuk game:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Daftar menggunakan tautan ini untuk menciptakan Toko Busanamu sendiri, gratis di &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Rasakan memiliki Toko Busana sendiri. Buatlah pakaian, aksesori, dan sepatu luar biasa, jual di tokomu, dan hias sesuka hati!&lt;br /&gt;&lt;br /&gt;Selamat bersenang-senang, Salam %s" />
+			<text id="mail_invite_friend" name="Hai %s!!&lt;br /&gt;&lt;br /&gt;Aku baru saja menemukan game online hebat ini &quot;Cappuccino Fashion&quot;.!&lt;br /&gt;&lt;br /&gt;Dengan tautan ini kamu akan langsung masuk game:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Daftar menggunakan tautan ini untuk menciptakan Toko Busanamu sendiri, gratis di &quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Rasakan memiliki Toko Busana sendiri. Buatlah pakaian, aksesori, dan sepatu luar biasa, jual di tokomu, dan hias sesuka hati!&lt;br /&gt;&lt;br /&gt;Selamat bersenang-senang, Salam %s" />
 			<text id="mail_lost_pw" name="Halo %s!&lt;br /&gt;&lt;br /&gt;
 Kamu menerima email otomatis ini karena kamu meminta sandi baru.&lt;br /&gt;
 Sandi barumu adalah: %s &lt;br /&gt;&lt;br /&gt;
-Kamu bisa masuk melalui laman ini:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;
-Silakan hubungi support@goodgamestudios.com jika ada pertanyaan atau kesulitan lebih lanjut. &lt;br /&gt;&lt;br /&gt;
+Kamu bisa masuk melalui laman ini:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;
+Silakan hubungi support@Cappuccinostudios.com jika ada pertanyaan atau kesulitan lebih lanjut. &lt;br /&gt;&lt;br /&gt;
 
 Selamat bersenang-senang!&lt;br /&gt;&lt;br /&gt;
-Tim &lt;br /&gt;Goodgamestudios.com" />
-			<text id="mail_registration" name="Halo,&lt;br /&gt;&lt;br /&gt; terima kasih atas registrasimu dan selamat datang di &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Kamu bisa masuk setiap saat dengan data berikut:&lt;br /&gt;Email: %s&lt;br /&gt;Sandi: %s&lt;br /&gt;&lt;br /&gt;Tautan ini akan membawamu langsung masuk game:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Silakan hubungi support@goodgamestudios.com jika ada pertanyaan atau kesulitan lebih lanjut. &lt;br /&gt;&lt;br /&gt;Selamat bersenang-senang!&lt;br /&gt;&lt;br /&gt;Tim-mu di&lt;br /&gt;Goodgamestudios.com" />
+Tim &lt;br /&gt;Cappuccinostudios.com" />
+			<text id="mail_registration" name="Halo,&lt;br /&gt;&lt;br /&gt; terima kasih atas registrasimu dan selamat datang di &quot;Cappuccino Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Kamu bisa masuk setiap saat dengan data berikut:&lt;br /&gt;Email: %s&lt;br /&gt;Sandi: %s&lt;br /&gt;&lt;br /&gt;Tautan ini akan membawamu langsung masuk game:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Silakan hubungi support@Cappuccinostudios.com jika ada pertanyaan atau kesulitan lebih lanjut. &lt;br /&gt;&lt;br /&gt;Selamat bersenang-senang!&lt;br /&gt;&lt;br /&gt;Tim-mu di&lt;br /&gt;Cappuccinostudios.com" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Atrium Goodgames" />
+			<text id="marketplace" name="Atrium Cappuccinos" />
 		</misc>
 	</server>
 	<server_msg>
@@ -786,7 +786,7 @@ Fashiondollar" />
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalog" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="Hadiah" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="Memberi Peringkat" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Atrium Goodgames" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Atrium Cappuccinos" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="Buka/Tutup Toko" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="Tokoku" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Promosi sedang berlangsung
@@ -953,7 +953,7 @@ Kami bekerja secepatnya, sehingga kamu bisa bermain kembali secepat mungkin." />
 			<text id="generic_invalid_email_provider" name="An e-mail address from this supplier is not allowed!" />
 			<text id="generic_js_alert_firstsessiontracking_loading" name="Tampaknya, saat ini koneksi internetmu lambat. Silakan coba lagi nanti!" />
 			<text id="generic_js_alert_firstsessiontracking_registered" name="Apa yang kamu suka dari game ini dan bagaimana kami bisa membuatnya lebih bagus?
-Sampaikan pendapatmu pada kami di Forum atau grup Goodgame." />
+Sampaikan pendapatmu pada kami di Forum atau grup Cappuccino." />
 			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Perhatian: Kemajuanmu hanya disimpan jika mendaftar!" />
 			<text id="generic_register_error_invalidemail" name="Alamat email yang kamu masukkan tidak benar." />
 			<text id="generic_report_muted_chattry" name="Kamu tidak bisa menggunakan fungsi ruang obrolan karena sedang diblok." />
@@ -1002,7 +1002,7 @@ Sampaikan pendapatmu pada kami di Forum atau grup Goodgame." />
 			<text id="generic_friend" name="Friend" />
 			<text id="generic_friends" name="Friends" />
 			<text id="generic_general" name="General settings" />
-			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_ggs" name="Cappuccino Studios" />
 			<text id="generic_group" name="Grup" />
 			<text id="generic_guest" name="Tamu" />
 			<text id="generic_help" name="Bantuan" />

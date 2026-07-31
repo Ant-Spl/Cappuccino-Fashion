@@ -587,7 +587,7 @@ Klik in de link in je welkomstbericht om het cadeau op te halen." />
 		<text id="error_editmode_removenotallowedDoor" name="Je hebt een deur nodig! Om de deur te veranderen, moet je er eerst eentje naar je boetiek slepen." />
 		<text id="error_editmode_removenotallowedFactory" name="Deze werkkracht produceert nog steeds!" />
 		<text id="error_editmode_title" name="Fout bij het opfleuren" />
-		<text id="error_fashiongame_1" name="We konden je boetiek niet downloaden. Neem contact op met de supportafdeling van Goodgame Studios." />
+		<text id="error_fashiongame_1" name="We konden je boetiek niet downloaden. Neem contact op met de supportafdeling van Cappuccino Studios." />
 		<text id="error_fashiongame_title" name="Stomme vergissing" />
 		<text id="error_forgotpassword_101" name="Je hebt de ontvangst van e-mailberichten geblokkeerd. Neem contact op met Support." />
 		<text id="error_fullscreen_copy" name="Volledig scherm is niet mogelijk." />
@@ -626,7 +626,7 @@ Wil je {0} gebruiken voor nog meer {1} Gouden Knopen?" />
 		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
 		<text id="error_marketplace_20" name="-DEBUG: De winkelgangen zijn vol-" />
 		<text id="error_marketplace_21" name="-DEBUG: Je bevindt je al in de winkelgang -" />
-		<text id="error_marketplace_title" name="Goodgame Arcades" />
+		<text id="error_marketplace_title" name="Cappuccino Arcades" />
 		<text id="error_nocustomclothselected" name="Kies eerst de vorm als je iets wilt produceren!" />
 		<text id="error_nomoney_copy" name="Sorry, dat kun je nog niet betalen." />
 		<text id="error_nomoney_guest_copy" name="Geen geld meer?Registeer je en je verdient {0} Fashiondollars!" />
@@ -668,10 +668,10 @@ Maak een nieuwe!" />
 	<feature>
 		<text id="feature_0_text_0" name="Het is zover! 
 
-De bètaversie van Goodgame Fashion staat klaar! 
+De bètaversie van Cappuccino Fashion staat klaar! 
  Iedereen begint opnieuw op level 1 maar je krijgt wel je eerder gekochte Gouden Knopen en nog eens 10 extra Gouden knopen terug. 
 
-Veel plezier met Goodgame Fashion!" />
+Veel plezier met Cappuccino Fashion!" />
 		<text id="feature_0_title" name="Officieel begin!" />
 		<text id="feature_10_text_0" name="De zomer is hier!
 De nieuwe GeeDee Collectie is binnen!" />
@@ -702,8 +702,8 @@ Draai aan het Rad van Fortuin!" />
 		<text id="feature_title" name="Nieuwe functies" />
 	</feature>
 	<feeds>
-		<text id="descriptionfashionfeed" name="Ik heb net Goodgame Fashion geïnstalleerd. Wil jij ook je eigen boetiek openen en een modeontwerper worden? Kom eens kijken!" />
-		<text id="descriptionlongfashion" name="Open je eigen boetiek bij Goodgame Fashion. Word een modeontwerper, koop mooie stoffen, ontwerp je eigen lijn en zet nieuwe trends. Zorg ervoor dat jouw boetiek de coolste shop van de stad wordt!" />
+		<text id="descriptionfashionfeed" name="Ik heb net Cappuccino Fashion geïnstalleerd. Wil jij ook je eigen boetiek openen en een modeontwerper worden? Kom eens kijken!" />
+		<text id="descriptionlongfashion" name="Open je eigen boetiek bij Cappuccino Fashion. Word een modeontwerper, koop mooie stoffen, ontwerp je eigen lijn en zet nieuwe trends. Zorg ervoor dat jouw boetiek de coolste shop van de stad wordt!" />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="Ontwerp je eigen badkleding en win!
@@ -728,24 +728,24 @@ Ga nu naar het forum en doe mee aan de wedstrijd!" />
 		<text id="panels_social_come_in" name="is de boetiek binnengekomen." />
 		<text id="panels_social_go_out" name="heeft de boetiek verlaten." />
 		<text id="panels_social_nofriends" name="Je hebt nog geen vrienden." />
-		<text id="panels_social_welcome_market" name="Welkom bij Goodgame Arcades" />
+		<text id="panels_social_welcome_market" name="Welkom bij Cappuccino Arcades" />
 		<text id="panels_social_welcome_myshop" name="Welkom" />
 	</panels>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Hoi %s!&lt;br /&gt;&lt;br /&gt;Ik heb net deze geweldige online game ontdekt:Goodgame Fashion.&lt;br /&gt;&lt;br /&gt;Met deze link word je direct naar de game geleid:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Registeer je via deze links om gratis je eigen boetik op te zetten in Goodgame Fashion.&lt;br /&gt;&lt;br /&gt;Ontdek hoe het is om je eigen boetiek te hebben. Produceer de mooiste kleding, accessoires en schoenen en verkoop ze in je boetiek!&lt;br /&gt;&lt;br /&gt;We wensen je nog veel plezier bij het spelen %s" />
+			<text id="mail_invite_friend" name="Hoi %s!&lt;br /&gt;&lt;br /&gt;Ik heb net deze geweldige online game ontdekt:Cappuccino Fashion.&lt;br /&gt;&lt;br /&gt;Met deze link word je direct naar de game geleid:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Registeer je via deze links om gratis je eigen boetik op te zetten in Cappuccino Fashion.&lt;br /&gt;&lt;br /&gt;Ontdek hoe het is om je eigen boetiek te hebben. Produceer de mooiste kleding, accessoires en schoenen en verkoop ze in je boetiek!&lt;br /&gt;&lt;br /&gt;We wensen je nog veel plezier bij het spelen %s" />
 			<text id="mail_lost_pw" name="Hallo %s!&lt;br /&gt;&lt;br /&gt;
 Je hebt dit automatische e-mailbericht ontvangen omdat je een nieuw wachtwoord hebt verzocht.&lt;br /&gt;
 Je nieuwe wachtwoord is: %s &lt;br /&gt;&lt;br /&gt;
-Je kunt via deze pagina inloggen:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;
-Neem contact op met support@goodgamestudios.com als je nog meer vragen of problemen hebt. &lt;br /&gt;&lt;br /&gt;
+Je kunt via deze pagina inloggen:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;
+Neem contact op met support@Cappuccinostudios.com als je nog meer vragen of problemen hebt. &lt;br /&gt;&lt;br /&gt;
 
 We wensen je nog veel plezier bij het spelen!&lt;br /&gt;&lt;br /&gt;
-Jouw team bij&lt;br /&gt;Goodgamestudios.com" />
-			<text id="mail_registration" name="Hallo,&lt;br /&gt;&lt;br /&gt;bedankt voor je registratie en welkom bij Goodgame Fashion.&lt;br /&gt;&lt;br /&gt;Je kunt je op elk willekeurig moment aanmelden met de volgende gegevens:&lt;br /&gt;E-mail: %s&lt;br /&gt;Wachtwoord: %s&lt;br /&gt;&lt;br /&gt;Deze link leidt je direct naar de game:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Neem contact op met support@goodgamestudios.com als je nog meer vragen of problemen hebt. &lt;br /&gt;&lt;br /&gt;Veel plezier!&lt;br /&gt;&lt;br /&gt;Jouw team bij&lt;br /&gt;Goodgamestudios.com" />
+Jouw team bij&lt;br /&gt;Cappuccinostudios.com" />
+			<text id="mail_registration" name="Hallo,&lt;br /&gt;&lt;br /&gt;bedankt voor je registratie en welkom bij Cappuccino Fashion.&lt;br /&gt;&lt;br /&gt;Je kunt je op elk willekeurig moment aanmelden met de volgende gegevens:&lt;br /&gt;E-mail: %s&lt;br /&gt;Wachtwoord: %s&lt;br /&gt;&lt;br /&gt;Deze link leidt je direct naar de game:&lt;br /&gt;http://www.Cappuccinostudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Neem contact op met support@Cappuccinostudios.com als je nog meer vragen of problemen hebt. &lt;br /&gt;&lt;br /&gt;Veel plezier!&lt;br /&gt;&lt;br /&gt;Jouw team bij&lt;br /&gt;Cappuccinostudios.com" />
 		</mail>
 		<misc>
-			<text id="marketplace" name="Goodgame Arcades" />
+			<text id="marketplace" name="Cappuccino Arcades" />
 		</misc>
 	</server>
 	<server_msg>
@@ -786,7 +786,7 @@ Druk op F5 om de site te vernieuwen." />
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Catalogus" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="Cadeaus" />
 		<text id="tooltip_FashionActionPanel_btn_highscore" name="Rang" />
-		<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame Arcades" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Cappuccino Arcades" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="Boetiek openen/sluiten" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="Mijn boetiek" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Lopende promotie
@@ -951,7 +951,7 @@ We werken zo snel we kunnen zodat je niet te lang hoeft te wachten om weer terug
 			<text id="generic_alert_watchout" name="Let op!" />
 			<text id="generic_invalid_email_provider" name="Een e-mail adres van deze provider is niet toegestaan!" />
 			<text id="generic_js_alert_firstsessiontracking_loading" name="Je internet verbinding lijkt nogal langzaam op het moment. Probeer het a.u.b. later nog eens!" />
-			<text id="generic_js_alert_firstsessiontracking_registered" name="Wat vind je van het spel en wat kan nog verbeterd worden? Schrijf je opmerkingen a.u.b. in het Goodgame Forum of de Groep." />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="Wat vind je van het spel en wat kan nog verbeterd worden? Schrijf je opmerkingen a.u.b. in het Cappuccino Forum of de Groep." />
 			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Let op: Je vooruitgang wordt alleen geregistreerd als je je hebt aangemeld!" />
 			<text id="generic_register_error_invalidemail" name="Het ingevoerde e-mail adres is niet correct." />
 			<text id="generic_report_muted_chattry" name="Je kunt de chat functie niet gebruiken omdat je geblokkeerd bent." />
@@ -1000,7 +1000,7 @@ We werken zo snel we kunnen zodat je niet te lang hoeft te wachten om weer terug
 			<text id="generic_friend" name="Vriend" />
 			<text id="generic_friends" name="Vrienden" />
 			<text id="generic_general" name="Algemene settings" />
-			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_ggs" name="Cappuccino Studios" />
 			<text id="generic_group" name="Groep" />
 			<text id="generic_guest" name="Gast" />
 			<text id="generic_help" name="Help" />
