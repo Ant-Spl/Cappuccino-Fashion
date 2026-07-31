@@ -371,7 +371,7 @@ Bronzetime: {3}"  />
 			<text id="dialogs_counterclick_title" name="Shelf"  />
 			<text id="dialogs_customclothbuy_copy" name="Do you want add {0} permanently to your catalogue for {1} Gold Buttons?"  />
 			<text id="dialogs_customclothbuy_title" name="Buy pattern!"  />
-			<text id="dialogs_customclothhelp_copy" name="You can create and produce your own cloths here!
+			<text id="dialogs_customclothhelp_copy" name="You can create and produce your own clothes here!
 Choose shape and color!
 The shape defines the production time and your earnings.
 The pattern will then be available for 24 hours.
