@@ -5,8 +5,8 @@
 		<text id="Basic_Achievement_Boughtdeco_copy" name="Quantidade de decorações compradas" />
 		<text id="Basic_Achievement_Boughtpatterns" name="Grande oferta" />
 		<text id="Basic_Achievement_Boughtpatterns_copy" name="Quantidade de moldes comprados" />
-		<text id="Basic_Achievement_Earnedchips" name="Campeão de mercado" />
-		<text id="Basic_Achievement_Earnedchips_copy" name="Dólares Fashion ganhos" />
+		<text id="Basic_Achievement_Earnedchips" name="Top de mercado" />
+		<text id="Basic_Achievement_Earnedchips_copy" name="Fashiondólares ganhos" />
 		<text id="Basic_Achievement_FinishedCoops" name="Tudo para todo mundo" />
 		<text id="Basic_Achievement_FinishedCoops_copy" name="Quantidade de cooperações realizadas" />
 		<text id="Basic_Achievement_FinishedGoldCoops" name="Outfitter de ouro" />
@@ -25,7 +25,7 @@
 		<text id="Basic_Achievement_Producedbottoms_copy" name="Quantidade de calças e saias produzidas" />
 		<text id="Basic_Achievement_Producedclothes" name="Monopólio de roupas" />
 		<text id="Basic_Achievement_Producedclothes_copy" name="Quantidade de roupas produzidas" />
-		<text id="Basic_Achievement_Produceddifferentaccessoires" name="Acessório fashion" />
+		<text id="Basic_Achievement_Produceddifferentaccessoires" name="Acessórios fashion" />
 		<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="Quantidade de acessórios variados produzidos" />
 		<text id="Basic_Achievement_Produceddifferentclothes" name="Variedade de roupas" />
 		<text id="Basic_Achievement_Produceddifferentclothes_copy" name="Quantidade de roupas variadas produzidas" />
@@ -35,9 +35,9 @@
 		<text id="Basic_Achievement_Produceddifferentshoes_copy" name="Quantidade de sapatos variados produzidos" />
 		<text id="Basic_Achievement_Producedfemaleonly" name="Só para mulheres" />
 		<text id="Basic_Achievement_Producedfemaleonly_copy" name="Quantidade de mercadorias produzidas para mulheres" />
-		<text id="Basic_Achievement_Producedfullbody" name="Gravatas e golas" />
+		<text id="Basic_Achievement_Producedfullbody" name="Gravatas e Golas" />
 		<text id="Basic_Achievement_Producedfullbody_copy" name="Quantidade de vestidos e ternos produzidos" />
-		<text id="Basic_Achievement_Producedhats" name="Chapeleiro" />
+		<text id="Basic_Achievement_Producedhats" name="Chapelaria" />
 		<text id="Basic_Achievement_Producedhats_copy" name="Quantidade de chapéus produzidos" />
 		<text id="Basic_Achievement_Producedjewlery" name="Caixinha de jóias" />
 		<text id="Basic_Achievement_Producedjewlery_copy" name="Quantidade de jóias produzidas" />
@@ -47,17 +47,17 @@
 		<text id="Basic_Achievement_Producedshoes_copy" name="Quantidade de sapatos produzidos" />
 		<text id="Basic_Achievement_Producedtops" name="Blusas em todo lugar" />
 		<text id="Basic_Achievement_Producedtops_copy" name="Quantidade de blusas produzidas" />
-		<text id="Basic_Achievement_Soldduringsale" name="Caçador de ofertas" />
+		<text id="Basic_Achievement_Soldduringsale" name="Divulgação de ofertas" />
 		<text id="Basic_Achievement_Soldduringsale_copy" name="Mercadorias vendidas na liquidação" />
 		<text id="Basic_Achievement_Soldproducts" name="Mercadoria vendida" />
 		<text id="Basic_Achievement_Soldproducts_copy" name="Quantidade de mercadorias vendidas" />
-		<text id="Basic_Achievement_Spentchips" name="Vendedor generoso" />
-		<text id="Basic_Achievement_Spentchips_copy" name="Quantia de dólarares Fashion gastos" />
+		<text id="Basic_Achievement_Spentchips" name="Loja generosa" />
+		<text id="Basic_Achievement_Spentchips_copy" name="Quantia de Fashiondólares gastos" />
 		<text id="Basic_Achievement_Spentgold" name="Loja de ouro" />
-		<text id="Basic_Achievement_Spentgold_copy" name="Quantidade de botões de ouro gastos" />
-		<text id="Basic_Achievement_Stolenproducts" name="Albergue de pilantras" />
+		<text id="Basic_Achievement_Spentgold_copy" name="Quantidade de Botões de Ouro gastos" />
+		<text id="Basic_Achievement_Stolenproducts" name="Loja desprotegida" />
 		<text id="Basic_Achievement_Stolenproducts_copy" name="Quantidade de mercadorias roubadas" />
-		<text id="Basic_Achievement_Wheeloffortune" name="Jogo de agulhas de rodar" />
+		<text id="Basic_Achievement_Wheeloffortune" name="Rodando a Roda" />
 		<text id="Basic_Achievement_Wheeloffortune_copy" name="Quantidade de vitórias na roleta" />
 		<text id="Social_Achievement_Friendscout" name="Comprador popular" />
 		<text id="Social_Achievement_Friendscout_copy" name="Quantidade de amigos" />
@@ -145,7 +145,7 @@
 		<text id="alerts_versioncheck_title" name="Versão antiga!" />
 	</alerts>
 	<cloth>
-		<text id="cloth_blackbowlermale" name="Chapéu" />
+		<text id="cloth_blackbowlermale" name="Chapéu Bowler" />
 		<text id="cloth_blackdressfemale" name="Vestido Preto Curto" />
 		<text id="cloth_blackhandbagfemale" name="Bolsa Preta" />
 		<text id="cloth_blackheelsfemale" name="Sapatos Pretos" />
@@ -173,9 +173,9 @@
 		<text id="cloth_checkshirtfemale" name="Camisa Xadrez Feminina JayJay" />
 		<text id="cloth_checkshirtmale" name="Camisa Xadrez Masculina JayJay" />
 		<text id="cloth_customcloth" name="Crie o seu visual!" />
-		<text id="cloth_darkbluejeansfemale" name="Jeans azul escura feminina" />
-		<text id="cloth_darkbluejeansmale" name="Jeans azul escura para meninos" />
-		<text id="cloth_dressfemale" name="Vestidos GeeCee" />
+		<text id="cloth_darkbluejeansfemale" name="Jeans Azul Escuro Feminina" />
+		<text id="cloth_darkbluejeansmale" name="Jeans Azul Escuro Masculina" />
+		<text id="cloth_dressfemale" name="Vestido GeeCee" />
 		<text id="cloth_flowerskirtfemale" name="Saia Florida GeeDee" />
 		<text id="cloth_ggsshirtmale" name="Camiseta GeeCee" />
 		<text id="cloth_goldnecklacefemale" name="Colar de Ouro" />
@@ -255,7 +255,7 @@
 		<text id="coop_desc_5" name="Nada é tão bom como um terno sob medida!" />
 		<text id="coop_desc_6" name="Sapatos até onde a vista alcança!" />
 		<text id="coop_desc_7" name="Saias, Tops e Sapatos... tudo em vermelho!" />
-		<text id="coop_desc_8" name="Vestidos, vestidos, vestidos para nossas meninas!" />
+		<text id="coop_desc_8" name="Vestidos, vestidos, vestidos para nossas mulheres!" />
 		<text id="coop_desc_9" name="A coisa certa para o curso de dança!" />
 		<text id="coop_title_1" name="Ao piquenique!" />
 		<text id="coop_title_10" name="Baile de debutantes!" />
@@ -263,10 +263,10 @@
 		<text id="coop_title_2" name="Esportivo Esportivo!" />
 		<text id="coop_title_3" name="Show esgotado!" />
 		<text id="coop_title_4" name="Lindos presentes!" />
-		<text id="coop_title_5" name="Tudo para o homen!" />
+		<text id="coop_title_5" name="Tudo para o homem!" />
 		<text id="coop_title_6" name="Sapatos por todo lugar!" />
 		<text id="coop_title_7" name="Um sonho em vermelho!" />
-		<text id="coop_title_8" name="Só para meninas!" />
+		<text id="coop_title_8" name="Só para mulheres!" />
 		<text id="coop_title_9" name="Curso de dança!" />
 	</coopmission>
 	<coop_msg>
@@ -333,7 +333,7 @@ O que lhe trará a próxima?" />
 		<text id="dialogs_coopreward_finish_2" name="Bronze" />
 		<text id="dialogs_coopreward_title_fail" name="Cooperação fracassada!" />
 		<text id="dialogs_coopreward_title_success" name="Cooperação realizada com {0}" />
-		<text id="dialogs_coopshelp_copy" name="Aqui você pode realizar tarefas junto com seus amigos e assim ganhar pontos XP e dólares Fashion extra.\nQuanto mais rápido a tarefa é realizada maior é a recompensa! Se o tempo ficar apertado você pode prolongá-lo a qualquer momento!\nMas lembre-se, você só recebe a recompensa se você contribuir!" />
+		<text id="dialogs_coopshelp_copy" name="Aqui você pode realizar tarefas junto com seus amigos e assim ganhar pontos XP e Fashiondólares extra.\nQuanto mais rápido a tarefa é realizada maior é a recompensa! Se o tempo ficar apertado você pode prolongá-lo a qualquer momento!\nMas lembre-se, você só recebe a recompensa se você contribuir!" />
 		<text id="dialogs_coopshelp_title" name="O que são cooperações?" />
 		<text id="dialogs_coop_btn_action" name="Detalhes" />
 		<text id="dialogs_coop_btn_activecoops" name="Ativas" />
@@ -342,7 +342,7 @@ O que lhe trará a próxima?" />
 		<text id="dialogs_coop_btn_progress" name="Avanço" />
 		<text id="dialogs_coop_btn_protocol" name="Protocolo" />
 		<text id="dialogs_coop_btn_quit" name="Sair" />
-		<text id="dialogs_coop_extendtime_copy" name="Você gostaria de prolongar a cooperação por {0} botões de ouro?
+		<text id="dialogs_coop_extendtime_copy" name="Você gostaria de prolongar a cooperação por {0} Botões de Ouro?
 Tempo de ouro: {1}
 Tempo de prata: {2}
 Tempo de bronze: {3}" />
@@ -362,7 +362,7 @@ Tempo de bronze: {3}" />
 		<text id="dialogs_counterclick_btndonate" name="Doar" />
 		<text id="dialogs_counterclick_copy" name="As seguintes mercadorias encontram-se nessa prateleira." />
 		<text id="dialogs_counterclick_title" name="Prateleira" />
-		<text id="dialogs_customclothbuy_copy" name="Você gostaria de colocar {0} permanentemente em seu catálogo por {1} botões de ouro?" />
+		<text id="dialogs_customclothbuy_copy" name="Você gostaria de colocar {0} permanentemente em seu catálogo por {1} Botões de Ouro?" />
 		<text id="dialogs_customclothbuy_title" name="Comprar molde!" />
 		<text id="dialogs_customclothhelp_copy" name="Aqui você pode criar e produzir roupas individuais!
 Escolha uma forma e cor!
@@ -437,19 +437,19 @@ Você poderá ver o número do item para cada item perto da caixa vazia." />
 		<text id="dialogs_mastery_title" name="Uma nova etiqueta!" />
 		<text id="dialogs_noreward_copy" name="A recompensa já foi retirada por um outro jogador!" />
 		<text id="dialogs_noreward_title" name="Que pena!" />
-		<text id="dialogs_payment_copy" name="Compre aqui botões de ouro e dólares Fashion." />
+		<text id="dialogs_payment_copy" name="Compre aqui Botões de Ouro e Fashiondólares." />
 		<text id="dialogs_payment_title" name="Pagamento" />
 		<text id="dialogs_perfectpants_copy" name="Você produziu hoje {0} perfeitamente!\nDê aos seus amigos o excesso da produção!" />
 		<text id="dialogs_perfectpants_title" name="Perfeito!" />
-		<text id="dialogs_pesentreceived_text" name="Seu presente de boas vindas de {0} botões de ouro foi creditado em sua conta." />
+		<text id="dialogs_pesentreceived_text" name="Seu presente de boas vindas de {0} Botões de Ouro foi creditado em sua conta." />
 		<text id="dialogs_pesentreceived_title" name="Viva!" />
 		<text id="dialogs_pesentreminder_send" name="Enviar" />
-		<text id="dialogs_pesentreminder_text1" name="Como presente de boas vindas há {0} botões de ouro esperando por você.
+		<text id="dialogs_pesentreminder_text1" name="Como presente de boas vindas há {0} Botões de Ouro esperando por você.
 Para buscá-los clique no link do e-mail de boas vindas." />
 		<text id="dialogs_pesentreminder_text2" name="Você pode solicitar esse e-mail mais uma vez." />
 		<text id="dialogs_pesentreminder_title" name="Presente de boas vindas!" />
-		<text id="dialogs_receivecomeback_copy_0" name="Como presente de boas vindas você recebe {0} botões de ouro e um booster!" />
-		<text id="dialogs_receivecomeback_copy_1" name="Como presente de boas vindas você recebe {0} botões de ouro e um segurança de loja por {1}!" />
+		<text id="dialogs_receivecomeback_copy_0" name="Como presente de boas vindas você recebe {0} Botões de Ouro e um booster!" />
+		<text id="dialogs_receivecomeback_copy_1" name="Como presente de boas vindas você recebe {0} Botões de Ouro e um segurança de loja por {1}!" />
 		<text id="dialogs_receivecomeback_title" name="Você voltou!" />
 		<text id="dialogs_receivecop_copy" name="O estagiário começou a trabalhar e prolonga o tempo do seu segurança em \n1hora!" />
 		<text id="dialogs_receivecop_title" name="Contratado!" />
@@ -461,7 +461,7 @@ Para buscá-los clique no link do e-mail de boas vindas." />
 		<text id="dialogs_register_btnsave" name="Salvar" />
 		<text id="dialogs_register_copy_0" name="Registre-se gratuitamente!" />
 		<text id="dialogs_register_copy_1" name="Salve seu jogo!" />
-		<text id="dialogs_register_copy_2" name="Depois de se registrar você recebe {0} botões de ouro como presente de boas vindas por e-mail." />
+		<text id="dialogs_register_copy_2" name="Depois de se registrar você recebe {0} Botões de Ouro como presente de boas vindas por e-mail." />
 		<text id="dialogs_register_email" name="E-Mail" />
 		<text id="dialogs_register_forfree" name="GRATUITO!" />
 		<text id="dialogs_register_password" name="Senha" />
@@ -484,7 +484,7 @@ Para retirá-lo clique no link do E-Mail de boas vindas." />
 		<text id="dialogs_wheeloffortune_btn_towheel" name="Para a roleta" />
 		<text id="dialogs_wheeloffortune_copy1" name="Já girou a roleta hoje?" />
 		<text id="dialogs_wheeloffortune_info" name="A primeira rodada do dia é gratuita!" />
-		<text id="dialogs_wheeloffortune_nomoney" name="Você não tem botões de ouro suficientes para girar a roleta!" />
+		<text id="dialogs_wheeloffortune_nomoney" name="Você não tem Botões de Ouro suficientes para girar a roleta!" />
 		<text id="dialogs_wheeloffortune_noregister" name="Somente jogadores registrados podem girar a roleta!" />
 		<text id="dialogs_wheeloffortune_nospace" name="Não há espaço na sua caixa de presentes para os seus prêmios! Libere espaço e então você pode girar a roleta!" />
 		<text id="dialogs_wheeloffortune_title" name="A roleta!" />
@@ -495,7 +495,7 @@ Para retirá-lo clique no link do E-Mail de boas vindas." />
 	</dialogs>
 	<error_codes>
 		<text id="error_advertisement_nolevel" name="Você deve ter atingido no mínimo o nível {0} para fazer propaganda." />
-		<text id="error_advertisement_nomoney" name="Você não possui botões de ouro/dólares Fashion suficientes para essa campanha de propaganda!" />
+		<text id="error_advertisement_nomoney" name="Você não possui Botões de Ouro/Fashiondólares suficientes para essa campanha de propaganda!" />
 		<text id="error_avatar_12" name="Esse nome já existe." />
 		<text id="error_avatar_15" name="O usuário já possui um Avatar." />
 		<text id="error_avatar_genderempty" name="Favor escolher um personagem!" />
@@ -522,12 +522,12 @@ Para retirá-lo clique no link do E-Mail de boas vindas." />
 		<text id="error_coop_91" name="O número máximo de participantes de cooperações já foi atingido." />
 		<text id="error_coop_92" name="Essa cooperação já está completada!" />
 		<text id="error_coop_93" name="Você já iniciou uma cooperação hoje! Você só pode começar uma outra amanhã!" />
-		<text id="error_coop_nomoney" name="Você não possui botões de ouro suficientes para prolongar essa cooperação." />
+		<text id="error_coop_nomoney" name="Você não possui Botões de Ouro suficientes para prolongar essa cooperação." />
 		<text id="error_coop_title" name="Cooperação" />
-		<text id="error_customclothbuy_nomoney" name="Você não tem dólares fashion suficientes para comprar esse molde!" />
-		<text id="error_customclothproduce_nomoney" name="Você não tem dólares fashion suficientes para produzir esse molde!" />
-		<text id="error_customclothunlock_nomoney" name="Você não tem dólares fashion suficientes para liberar esse objeto!" />
-		<text id="error_customize_nomoney" name="Você não possui botões de ouro suficientes para vestir seu Avatar." />
+		<text id="error_customclothbuy_nomoney" name="Você não tem Fashiondólares suficientes para comprar esse molde!" />
+		<text id="error_customclothproduce_nomoney" name="Você não tem Fashiondólares suficientes para produzir esse molde!" />
+		<text id="error_customclothunlock_nomoney" name="Você não tem Fashiondólares suficientes para liberar esse objeto!" />
+		<text id="error_customize_nomoney" name="Você não possui Botões de Ouro suficientes para vestir seu Avatar." />
 		<text id="error_custom_nameinvalide" name="Você não tem permissão para usar {0}!" />
 		<text id="error_deliverinfo_33" name="-DEBUG: Mercadoria não está pronta-" />
 		<text id="error_deliverinfo_35" name="-DEBUG: O funcionário não produziu nada-" />
@@ -568,15 +568,15 @@ Para retirá-lo clique no link do E-Mail de boas vindas." />
 		<text id="error_fullscreen_copy" name="O modo de tela cheia não é possível." />
 		<text id="error_fullscreen_title" name="Modo de tela cheia" />
 		<text id="error_gift_20" name="A prateleira não está livre para utilizar o presente." />
-		<text id="error_gift_34" name="Você já atingiu seu limete de presentes. Você gostaria de utilizar {0} outros por {1}Botões de ouro?" />
+		<text id="error_gift_34" name="Você já atingiu seu limete de presentes. Você gostaria de utilizar {0} outros por {1}Botões de Ouro?" />
 		<text id="error_gift_37" name="A prateleira não está livre para utilizar o presente." />
-		<text id="error_gift_nomoney" name="Você não possui botões de ouro suficientes para utilizar mais presentes!" />
+		<text id="error_gift_nomoney" name="Você não possui Botões de Ouro suficientes para utilizar mais presentes!" />
 		<text id="error_gift_title" name="Presentes" />
 		<text id="error_instantdesign_34" name="- DEBUG: Limite diário atingido -" />
-		<text id="error_instantdesign_nomoney" name="Você não possui botões de ouro suficientes para vestir esse manequim novamente." />
+		<text id="error_instantdesign_nomoney" name="Você não possui Botões de Ouro suficientes para vestir esse manequim novamente." />
 		<text id="error_instantdesign_nomoreinstant" name="Você só pode vestir seu manequim novamente por vezes limitadas. Amanhã você pode vestir seu manequim de novo." />
 		<text id="error_instantdesign_title" name="Vitrine" />
-		<text id="error_instantwork_nomoney" name="Você não possui botões de ouro suficientes para terminar de produzir imediatamente." />
+		<text id="error_instantwork_nomoney" name="Você não possui Botões de Ouro suficientes para terminar de produzir imediatamente." />
 		<text id="error_invitefriend_11" name="O jogador não está online no momento. Tente novamente mais tarde!" />
 		<text id="error_invitefriend_13" name="Seu amigo já está registrado para Fashion!" />
 		<text id="error_invitefriend_14" name="O endereço de e-mail não é válido" />
@@ -603,14 +603,14 @@ Para retirá-lo clique no link do E-Mail de boas vindas." />
 		<text id="error_marketplace_title" name="Boulevard Cappuccino" />
 		<text id="error_nocustomclothselected" name="Primeiro escolha uma forma se quizer produzir algo!" />
 		<text id="error_nomoney_copy" name="Você não tem dinheiro para comprar isso." />
-		<text id="error_nomoney_guest_copy" name="Você está duro?\nEntão registre-se logo ganhe {0}dólares Fashion!" />
+		<text id="error_nomoney_guest_copy" name="Você está duro?\nEntão registre-se logo ganhe {0}Fashiondólares!" />
 		<text id="error_nomoney_title" name="Falta de dinheiro" />
-		<text id="error_npchire_nomoney" name="Você não possui botões de ouro suficientes para contratar um caixa." />
+		<text id="error_npchire_nomoney" name="Você não possui Botões de Ouro suficientes para contratar um caixa." />
 		<text id="error_patternshop_44" name="Você já possui esse molde." />
 		<text id="error_patternshop_5" name="-DEBUG: WOD unknown-" />
 		<text id="error_patternshop_nomoney" name="Você não tem dinheiro para comprar o molde." />
 		<text id="error_patternshop_title" name="Problema com molde" />
-		<text id="error_police_nomoney" name="Você não possui botões de ouro suficientes para contratar o segurança." />
+		<text id="error_police_nomoney" name="Você não possui Botões de Ouro suficientes para contratar o segurança." />
 		<text id="error_register_10" name="O endereço de e-mail digitado não é válido." />
 		<text id="error_register_102" name="O endereço de e-mail não é válido." />
 		<text id="error_register_13" name="Já existe um jogador registrado sob esse endereço de E-Mail!" />
@@ -623,7 +623,7 @@ Para retirá-lo clique no link do E-Mail de boas vindas." />
 		<text id="error_register_title" name="Erro de registro" />
 		<text id="error_repair_36" name="-DEBUG: O funcionário está fora de alcance-" />
 		<text id="error_repair_48" name="-DEBUG: Funcionário já está com 100% de motivação-" />
-		<text id="error_repair_nomoney" name="Você não possui dólares Fashion suficientes para pagar um bônus." />
+		<text id="error_repair_nomoney" name="Você não possui Fashiondólares suficientes para pagar um bônus." />
 		<text id="error_repair_title" name="Concerto" />
 		<text id="error_sale_47" name="Nessa prateleira não existe mercadoria!" />
 		<text id="error_sale_title" name="Promoção especial" />
@@ -635,11 +635,11 @@ Para retirá-lo clique no link do E-Mail de boas vindas." />
 		<text id="error_work_45" name="-DEBUG: Tipo de produto e de funcionário não combinam-" />
 		<text id="error_work_49" name="- DEBUG: Booster errado para esse funcionário -" />
 		<text id="error_work_67" name="Seu molde não está mais á disposição. Crie um novo!" />
-		<text id="error_work_nomoney" name="Você não possui dólares Fashion suficientes para iniciar a produção." />
+		<text id="error_work_nomoney" name="Você não possui Fashiondólares suficientes para iniciar a produção." />
 		<text id="error_work_title" name="Rejeição de trabalho" />
 	</error_codes>
 	<feature>
-		<text id="feature_0_text_0" name="Chegou a hora!\nCappuccino Fashion está iniciando oficialmente a fase BETA. Todos recomeçam no nível 1, recebem seus botões de ouro comprados acreditados e um bônus de 10 botões de ouro como agradecimento. \n\nDivirta-se no Cappuccino Fashion!" />
+		<text id="feature_0_text_0" name="Chegou a hora!\nCappuccino Fashion está iniciando oficialmente a fase BETA. Todos recomeçam no nível 1, recebem seus Botões de Ouro comprados acreditados e um bônus de 10 Botões de Ouro como agradecimento. \n\nDivirta-se no Cappuccino Fashion!" />
 		<text id="feature_0_title" name="Início oficial!" />
 		<text id="feature_10_text_0" name="O verão está chegando!
 A nova coleção GeeDee já chegou!" />
@@ -673,7 +673,7 @@ Gire a roda da fortuna e descubra!" />
 	</feeds>
 	<forumaction>
 		<text id="forumaction_copy_1" name="Crie sue própria coleção de praia e ganhe!
-O vencedor receberá botões de ouro e o molde aparecerá no livro de moldes!
+O vencedor receberá Botões de Ouro e o molde aparecerá no livro de moldes!
 
 Vá ao forum e participe!" />
 		<text id="forumaction_title_1" name="Seja criativo!" />
@@ -688,14 +688,14 @@ Vá ao forum e participe!" />
 		<text id="panels_login_playbtn" name="JOGAR AGORA" />
 		<text id="panels_login_registerbtn" name="REGISTRAR" />
 		<text id="panels_login_rememberpassword" name="Salvar senha" />
-		<text id="panels_social_alone" name="No momento você está sozinho aqui!" />
-		<text id="panels_social_bot" name="Bate papo Fashion" />
+		<text id="panels_social_alone" name="No momento só você está aqui!" />
+		<text id="panels_social_bot" name="Jogo" />
 		<text id="panels_social_chatblocked" name="Só jogadores registrados a partir do nível 1 podem utilizar o bate papo." />
-		<text id="panels_social_come_in" name="Entrou na loja" />
+		<text id="panels_social_come_in" name="Entrou na loja." />
 		<text id="panels_social_go_out" name="Deixou a loja." />
 		<text id="panels_social_nofriends" name="Você não tem amigos suficientes!" />
-		<text id="panels_social_welcome_market" name="Bem vindo ao Boulevard Cappuccino!" />
-		<text id="panels_social_welcome_myshop" name="Bem vindo" />
+		<text id="panels_social_welcome_market" name="Você está no Boulevard Cappuccino! Lembre-se de tratar bem os colegas!" />
+		<text id="panels_social_welcome_myshop" name="Boas vindas. Esperamos que seu dia seja ótimo!" />
 	</panels>
 	<server>
 		<mail>
@@ -712,12 +712,12 @@ Vá ao forum e participe!" />
 		<text id="server_msg_title" name="Mensagem do servidor:" />
 	</server_msg>
 	<std_buttons>
-		<text id="btn_addcurrency" name="Comprar dólares Fashion/botões de ouro" />
-		<text id="btn_payment" name="Comprar dólares Fashion/botões de ouro" />
+		<text id="btn_addcurrency" name="Comprar Fashiondólares/Botões de Ouro" />
+		<text id="btn_payment" name="Comprar Fashiondólares/Botões de Ouro" />
 		<text id="btn_policeman" name="Segurança" />
 		<text id="btn_register" name="Registrar" />
-		<text id="btn_superrewardChips" name="Receber dólares Fashion" />
-		<text id="btn_superrewardGold" name="Receber botões de ouro" />
+		<text id="btn_superrewardChips" name="Receber Fashiondólares" />
+		<text id="btn_superrewardGold" name="Receber Botões de Ouro" />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Ourives" />
@@ -734,12 +734,12 @@ Vá ao forum e participe!" />
 		<text id="tooltip_factory_readytoserv_amount" name="Quantidade: {0}" />
 		<text id="tooltip_factory_wear" name="Motivação: {0}%" />
 		<text id="tooltip_FashionActionPanel_btn_achievements" name="Premiações" />
-		<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Acrescentar Botões de ouro/dólares Fashion" />
+		<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Acrescentar Botões de Ouro/Fashiondólares" />
 		<text id="tooltip_FashionActionPanel_btn_advertisement" name="Propaganda" />
 		<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="A partir do nível {0} você pode fazer propaganda" />
 		<text id="tooltip_FashionActionPanel_btn_booster" name="Booster" />
-		<text id="tooltip_FashionActionPanel_btn_coop" name="Cooperações" />
-		<text id="tooltip_FashionActionPanel_btn_decoshop" name="Reformar" />
+		<text id="tooltip_FashionActionPanel_btn_coop" name="Co-Op" />
+		<text id="tooltip_FashionActionPanel_btn_decoshop" name="Modo Decoração" />
 		<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="Faça propaganda!" />
 		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Catálogo" />
 		<text id="tooltip_FashionActionPanel_btn_gifts" name="Presentes" />
@@ -762,10 +762,10 @@ Clique para resultado" />
 Clique para detalhes" />
 		<text id="tooltip_FashionBookDialog_btn_produce" name="Produzir" />
 		<text id="tooltip_FashionBookDialog_customcloth" name="Moldes próprios" />
-		<text id="tooltip_FashionBookDialog_female" name="Para meninas" />
-		<text id="tooltip_FashionBookDialog_info" name="Lembre-se sempre de ter roupas \npara meninas e meninos\n na loja!" />
-		<text id="tooltip_FashionBookDialog_male" name="Para meninos" />
-		<text id="tooltip_FashionBookDialog_unisex" name="Para meninos &amp; meninas" />
+		<text id="tooltip_FashionBookDialog_female" name="Para mulheres" />
+		<text id="tooltip_FashionBookDialog_info" name="Lembre-se sempre de ter roupas \npara mulheres e homens\n na loja!" />
+		<text id="tooltip_FashionBookDialog_male" name="Para homens" />
+		<text id="tooltip_FashionBookDialog_unisex" name="Unisex" />
 		<text id="tooltip_FashionBoosterDialog_addAmount" name="Unidades por venda" />
 		<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="Tempo de prolongação" />
 		<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="Tempo de prolongação\n+ {0} para {1} outros amigos" />
@@ -783,7 +783,7 @@ Clique para detalhes" />
 		<text id="tooltip_FashionCounterDialog_btn_spend" name="Doar mercadoria sem fins lucrativos" />
 		<text id="tooltip_FashionCounterDialog_btn_unsale" name="Cancelar redução" />
 		<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="Comprar" />
-		<text id="tooltip_FashionDekoShopPanel_btn_close" name="Terminar reforma" />
+		<text id="tooltip_FashionDekoShopPanel_btn_close" name="Terminar alterações" />
 		<text id="tooltip_FashionDekoShopPanel_btn_deko" name="Reforma" />
 		<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="Decoração" />
 		<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="Vitrine" />
@@ -792,7 +792,7 @@ Clique para detalhes" />
 		<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="Paredes" />
 		<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="Janelas" />
 		<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="Ampliações" />
-		<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Apliar andar" />
+		<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Ampliar andar" />
 		<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="Ampliar loja" />
 		<text id="tooltip_FashionDekoShopPanel_btn_functional" name="Utilidades" />
 		<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Caixas" />
@@ -823,14 +823,14 @@ Clique para detalhes" />
 		<text id="tooltip_FashionOptionPanel_btn_allowemails" name="Autorizar e-mails" />
 		<text id="tooltip_FashionOptionPanel_btn_blockemails" name="Bloquear e-mails" />
 		<text id="tooltip_FashionOptionPanel_btn_bugreport" name="Reportar erro" />
-		<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Trocar roupas de personagem" />
+		<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Trocar roupas do personagem" />
 		<text id="tooltip_FashionOptionPanel_btn_changePass" name="Mudar senha" />
 		<text id="tooltip_FashionOptionPanel_btn_faq" name="Perguntas" />
 		<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="Tela cheia" />
 		<text id="tooltip_FashionOptionPanel_btn_help" name="Ajuda" />
 		<text id="tooltip_FashionOptionPanel_btn_logout" name="Logout" />
 		<text id="tooltip_FashionOptionPanel_btn_music" name="Ligar/desligar música" />
-		<text id="tooltip_FashionOptionPanel_btn_news" name="Forum GGs" />
+		<text id="tooltip_FashionOptionPanel_btn_news" name="Forum CAPC" />
 		<text id="tooltip_FashionOptionPanel_btn_options" name="Opções" />
 		<text id="tooltip_FashionOptionPanel_btn_register" name="Registrar" />
 		<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="Liga/desliga som" />
@@ -845,13 +845,13 @@ Clique para detalhes" />
 		<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="Jogadores presentes" />
 		<text id="tooltip_FashionSocialPanel_btn_chat" name="Bate-papo" />
 		<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="Convidar amigos" />
-		<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Acrescentar dólares Fashion/botões de ouro" />
+		<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Acrescentar Fashiondólares/Botões de Ouro" />
 		<text id="tooltip_FashionUserStatePanel_jobs" name="Número de ações" />
 		<text id="tooltip_FashionUserStatePanel_xp" name="{0} XP até o próximo nível" />
 		<text id="tooltip_Fashion_btnclose" name="Fechar" />
 		<text id="tooltip_levelx" name="Disponível a partir do nível {0}" />
 		<text id="tooltip_marketplace" name="Quadro negro" />
-		<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Premiações" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Conquistas" />
 		<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="Acrescentar amigo" />
 		<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="Informação" />
 		<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Expulsar" />
@@ -875,7 +875,7 @@ Clique para detalhes" />
 		<text id="tut_mannequinclothes_copy" name="No momento você só está oferecendo camisas Pólo azuis. Clique nelas para vestir os manequins." />
 		<text id="tut_openproducebook_copy" name="Você comprou o molde. Vá agora ao livro de produção para visualizar as mercadorias a serem produzidas." />
 		<text id="tut_preparesteps_copy" name="Clique na costureira para dar-lhe instruções de produção." />
-		<text id="tut_producefactory_copy" name="Com botões de ouro você pode terminar de produzir as mercadorias. Para isso clique de novo na costureira." />
+		<text id="tut_producefactory_copy" name="Com Botões de Ouro você pode terminar de produzir as mercadorias. Para isso clique de novo na costureira." />
 		<text id="tut_produce_copy" name="Agora você pode iniciar a produção." />
 		<text id="tut_readyfactory_copy" name="Para que os clientes possam comprar sua mercadoria você deve colocá-la em uma prateleira. Para isso clique no funcionário com a mercadoria pronta..." />
 		<text id="tut_start_copy" name="Bem vindo á sua loja, {0}!\nEssa curta introdução vai te ajudar a se encontrar rapidamente no mundo da moda." />
@@ -914,7 +914,7 @@ Estamos trabalhando a todo o vapor para que você possa voltar a jogar o mais r�
 			<text id="generic_btn_endnow" name="Terminar agora" />
 			<text id="generic_btn_goback" name="Voltar" />
 			<text id="generic_btn_no" name="Não" />
-			<text id="generic_btn_noshare" name="Não Compartilhar" />
+			<text id="generic_btn_noshare" name="Não" />
 			<text id="generic_btn_notaccept" name="Rejeitar" />
 			<text id="generic_btn_okay" name="Okay" />
 			<text id="generic_btn_reconnect" name="Reconectar" />

@@ -718,13 +718,13 @@ Off to the forum and enter the competition!"  />
 			<text id="panels_login_registerbtn" name="REGISTER"  />
 			<text id="panels_login_rememberpassword" name="Save password"  />
 			<text id="panels_social_alone" name="You are currently alone!"  />
-			<text id="panels_social_bot" name="Fashion"  />
+			<text id="panels_social_bot" name="Game"  />
 			<text id="panels_social_chatblocked" name="Only registered players starting at level 1 are allowed to use the chat!"  />
 			<text id="panels_social_come_in" name="has entered the shop."  />
 			<text id="panels_social_go_out" name="has left the shop."  />
 			<text id="panels_social_nofriends" name="You don&#039;t have any friends yet."  />
-			<text id="panels_social_welcome_market" name="Welcome"  />
-			<text id="panels_social_welcome_myshop" name="Welcome"  />
+			<text id="panels_social_welcome_market" name="Welcome to the Arcades! Please be kind and respectful to other players!"  />
+			<text id="panels_social_welcome_myshop" name="Hey there! We hope you have a great time!"  />
 		</panels>
 		<server>
 			<mail>
