@@ -146,120 +146,120 @@
 	</alerts>
 	<cloth>
 		<text id="cloth_blackbowlermale" name="Chapéu" />
-		<text id="cloth_blackdressfemale" name="Vestido preto curto" />
-		<text id="cloth_blackhandbagfemale" name="Bolsa preta" />
-		<text id="cloth_blackheelsfemale" name="Sapatos pretos" />
-		<text id="cloth_blackjacketmale" name="Jaqueta de couro simples" />
+		<text id="cloth_blackdressfemale" name="Vestido Preto Curto" />
+		<text id="cloth_blackhandbagfemale" name="Bolsa Preta" />
+		<text id="cloth_blackheelsfemale" name="Sapatos Pretos" />
+		<text id="cloth_blackjacketmale" name="Jaqueta de Couro Simples" />
 		<text id="cloth_blackpant2male" name="Jeans GeeCee" />
-		<text id="cloth_blackpantfemale" name="Calça tubo preta" />
-		<text id="cloth_blackpantmale" name="Calça masculina preta" />
-		<text id="cloth_blacksuitmale" name="Terno risca de giz" />
-		<text id="cloth_blackwatchmale" name="Relógio preto" />
-		<text id="cloth_bluebaggypantsfemale" name="Calça Baggy para meninas JayJay" />
-		<text id="cloth_blueblousefemale" name="Blusa feminina azul" />
-		<text id="cloth_bluecapfemale" name="Boné azul" />
-		<text id="cloth_bluecapmale" name="Boné azul" />
-		<text id="cloth_blueheadphones" name="Fone de ouvido JayJay" />
-		<text id="cloth_bluenecklacefemale" name="Colar de pérolas azul" />
-		<text id="cloth_bluepolomale" name="Camisa pólo azul" />
-		<text id="cloth_blueshirtmale" name="Camiseta azul" />
-		<text id="cloth_bluesweatermale" name="Blusa azul para meninos JayJay" />
-		<text id="cloth_bootsfemale" name="Botas para meninas GeeCee" />
-		<text id="cloth_brownknitcapfemale" name="Touca marrom" />
-		<text id="cloth_brownknitcapmale" name="Touca marrom" />
-		<text id="cloth_cardiganfemale" name="Cardigan para meninas GeeCee" />
-		<text id="cloth_cardiganmale" name="Cardigans para meninos GeeCee" />
+		<text id="cloth_blackpantfemale" name="Calça Tubo Preta" />
+		<text id="cloth_blackpantmale" name="Calça Masculina Preta" />
+		<text id="cloth_blacksuitmale" name="Terno Risca de Giz" />
+		<text id="cloth_blackwatchmale" name="Relógio Preto" />
+		<text id="cloth_bluebaggypantsfemale" name="Calça Baggy Feminina JayJay" />
+		<text id="cloth_blueblousefemale" name="Blusa Feminina Azul" />
+		<text id="cloth_bluecapfemale" name="Boné Azul" />
+		<text id="cloth_bluecapmale" name="Boné Azul" />
+		<text id="cloth_blueheadphones" name="Fone de Ouvido JayJay" />
+		<text id="cloth_bluenecklacefemale" name="Colar de Pérolas Azuis" />
+		<text id="cloth_bluepolomale" name="Camisa Polo Azul" />
+		<text id="cloth_blueshirtmale" name="Camiseta Azul" />
+		<text id="cloth_bluesweatermale" name="Blusa Azul Feminina JayJay" />
+		<text id="cloth_bootsfemale" name="Botas Femininas GeeCee" />
+		<text id="cloth_brownknitcapfemale" name="Touca Marrom" />
+		<text id="cloth_brownknitcapmale" name="Touca Marrom" />
+		<text id="cloth_cardiganfemale" name="Cardigan Feminino GeeCee" />
+		<text id="cloth_cardiganmale" name="Cardigan Masculino GeeCee" />
 		<text id="cloth_charlestonhatfemale" name="Chapéu Charleston" />
-		<text id="cloth_checkshirtfemale" name="Camisa xadrez para meninas JayJay" />
-		<text id="cloth_checkshirtmale" name="Camisa xadrez para meninos JayJay" />
+		<text id="cloth_checkshirtfemale" name="Camisa Xadrez Feminina JayJay" />
+		<text id="cloth_checkshirtmale" name="Camisa Xadrez Masculina JayJay" />
 		<text id="cloth_customcloth" name="Crie o seu visual!" />
 		<text id="cloth_darkbluejeansfemale" name="Jeans azul escura feminina" />
 		<text id="cloth_darkbluejeansmale" name="Jeans azul escura para meninos" />
 		<text id="cloth_dressfemale" name="Vestidos GeeCee" />
-		<text id="cloth_flowerskirtfemale" name="Saia florida GeeDee" />
+		<text id="cloth_flowerskirtfemale" name="Saia Florida GeeDee" />
 		<text id="cloth_ggsshirtmale" name="Camiseta GeeCee" />
-		<text id="cloth_goldnecklacefemale" name="Colar de ouro" />
+		<text id="cloth_goldnecklacefemale" name="Colar de Ouro" />
 		<text id="cloth_greendressfemale" name="Vestidinho GeeDee" />
-		<text id="cloth_greenjacketfemale" name="Jaqueta para meninas JayJay" />
-		<text id="cloth_greenjacketmale" name="Jaqueta para meninos JayJay" />
-		<text id="cloth_greenpulloverfemale" name="Blusa de gola alta verde" />
-		<text id="cloth_greenshirtmale" name="Camiseta para meninos GeeDee" />
-		<text id="cloth_greysuitmale" name="Terno cinza" />
-		<text id="cloth_lightbluejeansfemale" name="Jeans azul clara feminina" />
-		<text id="cloth_lightbluejeansmale" name="Jeans azul clara masculina" />
-		<text id="cloth_manblackmale" name="Sapatos pretos de verniz" />
-		<text id="cloth_manbrownmale" name="Sapatos de couro marrom" />
-		<text id="cloth_orangeknitcapfemale" name="Touca laranja" />
-		<text id="cloth_orangeknitcapmale" name="Touca laranja" />
-		<text id="cloth_perlnecklacefemale" name="Colar de pérolas simples" />
-		<text id="cloth_pinkhangbagfemale" name="Bolsa forrada" />
-		<text id="cloth_pinkshirtfemale" name="Camisa Pólo rosa" />
-		<text id="cloth_premiumbluejacketmale" name="Jaqueta de primavera" />
-		<text id="cloth_premiumgreenjacketfemale" name="Casaco de primavera" />
-		<text id="cloth_premiumjumpsuitfemale" name="Macacão para meninas GeeDee" />
-		<text id="cloth_premiumshortsmale" name="Shorts para meninos" />
+		<text id="cloth_greenjacketfemale" name="Jaqueta Feminina JayJay" />
+		<text id="cloth_greenjacketmale" name="Jaqueta Masculina JayJay" />
+		<text id="cloth_greenpulloverfemale" name="Blusa de Gola Alta Verde" />
+		<text id="cloth_greenshirtmale" name="Camiseta Masculina GeeDee" />
+		<text id="cloth_greysuitmale" name="Terno Cinza" />
+		<text id="cloth_lightbluejeansfemale" name="Jeans Azul Claro Feminino" />
+		<text id="cloth_lightbluejeansmale" name="Jeans Azul Claro Masculino" />
+		<text id="cloth_manblackmale" name="Sapatos Pretos de Verniz" />
+		<text id="cloth_manbrownmale" name="Sapatos de Couro Marrom" />
+		<text id="cloth_orangeknitcapfemale" name="Touca Laranja" />
+		<text id="cloth_orangeknitcapmale" name="Touca Laranja" />
+		<text id="cloth_perlnecklacefemale" name="Colar de Pérolas Simples" />
+		<text id="cloth_pinkhangbagfemale" name="Bolsa Rosa" />
+		<text id="cloth_pinkshirtfemale" name="Camisa Polo Rosa" />
+		<text id="cloth_premiumbluejacketmale" name="Jaqueta de Primavera" />
+		<text id="cloth_premiumgreenjacketfemale" name="Casaco de Primavera" />
+		<text id="cloth_premiumjumpsuitfemale" name="Macacão Feminino GeeDee" />
+		<text id="cloth_premiumshortsmale" name="Shorts Masculinhos" />
 		<text id="cloth_purplehandbagfemale" name="Bolsa GeeCee" />
-		<text id="cloth_purplepulloverfemale" name="Blusa de gola alta lilás" />
-		<text id="cloth_purpletshirtfemale" name="Camiseta para meninas JayJay" />
-		<text id="cloth_redcapfemale" name="Boné vermelho" />
-		<text id="cloth_redcapmale" name="Boné vermelho" />
-		<text id="cloth_reddressfemale" name="Vestido tomara-que-caia" />
-		<text id="cloth_redheelsfemale" name="Sapatos vermelhos" />
-		<text id="cloth_redskirtfemale" name="Saia vermelha com laço" />
-		<text id="cloth_redsneakermale" name="Sapatos para meninos vermelhos JayJay" />
-		<text id="cloth_redtopfemale" name="Top vermelho com brilho" />
-		<text id="cloth_scraffemale" name="Cachecol de bolinhas GeeCee" />
-		<text id="cloth_scrafmale" name="Cachecol quadriculado GeeCee" />
-		<text id="cloth_silvernecklacefemale" name="Colar de prata" />
-		<text id="cloth_silverwatchmale" name="Relógio prateado" />
-		<text id="cloth_sneakersfemale" name="Tênis branco" />
-		<text id="cloth_sneakersgreenmale" name="Sapatos GeeCee verdes" />
-		<text id="cloth_sneakersmale" name="Tênis branco" />
-		<text id="cloth_strawberrysneakerfemale" name="Blusa azul para meninos JayJay" />
-		<text id="cloth_stripedshirtmale" name="Camiseta listrada para meninos GeeDee" />
-		<text id="cloth_stripedtopfemale" name="Top de verão GeeDee" />
-		<text id="cloth_stripedtshirtmale" name="Camiseta listrada para meninos JayJay" />
-		<text id="cloth_sweathoodiemale" name="Jaqueta com capuz GeeDee" />
-		<text id="cloth_trenchcoatmale" name="Casaco preto" />
-		<text id="cloth_whiteshirtmale" name="Camisa branca" />
-		<text id="cloth_whiteskirtfemale" name="Mini-saia branca" />
-		<text id="cloth_yellowdressfemale" name="Vestido de festa dourado" />
-		<text id="cloth_omelettesweatermale" name="Omelette Icon Sweater" />
-		<text id="cloth_omelettedressfemale" name="Omelette Diva Dress" />
-		<text id="cloth_dancingchefdress" name="Dancing Chef Dress" />
-		<text id="cloth_dancingchefsweater" name="Dancing Chef Sweater" />
+		<text id="cloth_purplepulloverfemale" name="Blusa de Gola Alta Lilás" />
+		<text id="cloth_purpletshirtfemale" name="Camiseta Feminina JayJay" />
+		<text id="cloth_redcapfemale" name="Boné Vermelho" />
+		<text id="cloth_redcapmale" name="Boné Vermelho" />
+		<text id="cloth_reddressfemale" name="Vestido Tomara-Que-Caia" />
+		<text id="cloth_redheelsfemale" name="Sapatos Vermelhos" />
+		<text id="cloth_redskirtfemale" name="Saia Vermelha com Laço" />
+		<text id="cloth_redsneakermale" name="Sapatos Vermelhos Masculinos JayJay" />
+		<text id="cloth_redtopfemale" name="Top Vermelho Brilhante" />
+		<text id="cloth_scraffemale" name="Cachecol de Bolinhas GeeCee" />
+		<text id="cloth_scrafmale" name="Cachecol Quadriculado GeeCee" />
+		<text id="cloth_silvernecklacefemale" name="Colar de Prata" />
+		<text id="cloth_silverwatchmale" name="Relógio Prateado" />
+		<text id="cloth_sneakersfemale" name="Tênis Branco" />
+		<text id="cloth_sneakersgreenmale" name="Sapatos GeeCee Verdes" />
+		<text id="cloth_sneakersmale" name="Tênis Branco" />
+		<text id="cloth_strawberrysneakerfemale" name="Tênis Morango" />
+		<text id="cloth_stripedshirtmale" name="Camiseta Masculina Listrada GeeDee" />
+		<text id="cloth_stripedtopfemale" name="Top de Verão GeeDee" />
+		<text id="cloth_stripedtshirtmale" name="Camiseta Masculina Listrada JayJay" />
+		<text id="cloth_sweathoodiemale" name="Jaqueta com Capuz GeeDee" />
+		<text id="cloth_trenchcoatmale" name="Casaco Preto" />
+		<text id="cloth_whiteshirtmale" name="Camisa Branca" />
+		<text id="cloth_whiteskirtfemale" name="Mini-saia Branca" />
+		<text id="cloth_yellowdressfemale" name="Vestido de Festa Dourado" />
+		<text id="cloth_omelettesweatermale" name="Suéter Omelete" />
+		<text id="cloth_omelettedressfemale" name="Vestido Diva Omelete" />
+		<text id="cloth_dancingchefdress" name="Vestido da Chef Dançarina" />
+		<text id="cloth_dancingchefsweater" name="Suéter da Chef Dançarina" />
 	</cloth>
 	<commons>
 		<text id="achievement_rang" name="Posição {0}/{1}" />
 		<text id="comingsoon" name="*Em breve*" />
-		<text id="currency_cash" name="dólares Fashion" />
-		<text id="currency_gold" name="Botões de ouro" />
-		<text id="currency_gold_single" name="Botão de ouro" />
+		<text id="currency_cash" name="Fashiondólares" />
+		<text id="currency_gold" name="Botões de Ouro" />
+		<text id="currency_gold_single" name="Botão de Ouro" />
 		<text id="factorytyp_accessories" name="Acessórios" />
 		<text id="factorytyp_clothes" name="Roupas" />
 		<text id="factorytyp_shoes" name="Sapatos" />
 		<text id="friendscount" name="Amigos {0}" />
 		<text id="levelcount" name="Nível {0}" />
 		<text id="levellabel" name="Nível" />
-		<text id="mastery" name="Nível de etiqueta" />
+		<text id="mastery" name="Nível da etiqueta" />
 		<text id="new" name="Novo!" />
 		<text id="xplabel" name="XP" />
 	</commons>
 	<coopmission>
 		<text id="coop_desc_1" name="Alguns básicos bonitos para o piquenique!" />
 		<text id="coop_desc_10" name="Vestidos e ternos para nossos debutantes!" />
-		<text id="coop_desc_11" name="O clássico para o homen!" />
+		<text id="coop_desc_11" name="O clássico para o homem!" />
 		<text id="coop_desc_2" name="O figurino perfeito para uma viagem esportiva!" />
-		<text id="coop_desc_3" name="Música e pessoas a noite inteira!" />
+		<text id="coop_desc_3" name="Música e gente legal a noite inteira!" />
 		<text id="coop_desc_4" name="O presente perfeito para todas as ocasiões!" />
 		<text id="coop_desc_5" name="Nada é tão bom como um terno sob medida!" />
 		<text id="coop_desc_6" name="Sapatos até onde a vista alcança!" />
-		<text id="coop_desc_7" name="Saias, Tops e sapatos... tudo em vermelho!" />
+		<text id="coop_desc_7" name="Saias, Tops e Sapatos... tudo em vermelho!" />
 		<text id="coop_desc_8" name="Vestidos, vestidos, vestidos para nossas meninas!" />
 		<text id="coop_desc_9" name="A coisa certa para o curso de dança!" />
 		<text id="coop_title_1" name="Ao piquenique!" />
 		<text id="coop_title_10" name="Baile de debutantes!" />
-		<text id="coop_title_11" name="Preto é preto!" />
+		<text id="coop_title_11" name="Preto é elegância!" />
 		<text id="coop_title_2" name="Esportivo Esportivo!" />
 		<text id="coop_title_3" name="Show esgotado!" />
 		<text id="coop_title_4" name="Lindos presentes!" />
@@ -278,7 +278,7 @@
 		<text id="coop_msg_5" name="{0} prolongou a cooperação." />
 	</coop_msg>
 	<dialogs>
-		<text id="dialogs_achievement_title" name="Premiações" />
+		<text id="dialogs_achievement_title" name="Conquistas" />
 		<text id="dialogs_advertisementfinal_copy" name="Sua campanha terminou! Dê uma olhada no resultado da campanha!
 O que lhe trará a próxima?" />
 		<text id="dialogs_advertisementfinal_title" name="Parabéns!" />
@@ -297,11 +297,11 @@ O que lhe trará a próxima?" />
 		<text id="dialogs_advertisement_tv_title" name="Comercial na televisão" />
 		<text id="dialogs_avatarselection_copy" name="Esse nome já existe. Que tal:" />
 		<text id="dialogs_avatarselection_title" name="Opa!" />
-		<text id="dialogs_avatar_female" name="Menina" />
-		<text id="dialogs_avatar_male" name="Menino" />
+		<text id="dialogs_avatar_female" name="Moça" />
+		<text id="dialogs_avatar_male" name="Rapaz" />
 		<text id="dialogs_avatar_name" name="Nome:" />
-		<text id="dialogs_avatar_randombtn" name="Escolha por acaso" />
-		<text id="dialogs_avatar_title" name="Crie sua personagem" />
+		<text id="dialogs_avatar_randombtn" name="Aleatório" />
+		<text id="dialogs_avatar_title" name="Crie seu personagem" />
 		<text id="dialogs_bonus_cashdesk_copy" name="Agora você pode colocar mais uma caixa registradora e um caixa ne sua loja!" />
 		<text id="dialogs_bonus_cashdesk_title" name="Novo caixa-registradora" />
 		<text id="dialogs_bonus_changingroom_copy" name="Mais uma cabine foi liberada." />
@@ -309,10 +309,10 @@ O que lhe trará a próxima?" />
 		<text id="dialogs_bonus_counter_copy" name="Você pode comprar mais uma prateleira!" />
 		<text id="dialogs_bonus_counter_title" name="Nova prateleira" />
 		<text id="dialogs_bonus_expand_copy" name="você expandiu e tem mais espaço para seus clientes, decorações e muito mais!" />
-		<text id="dialogs_bonus_expand_title" name="Ampliação!" />
+		<text id="dialogs_bonus_expand_title" name="Expansão!" />
 		<text id="dialogs_bonus_factory_copy" name="Você pode colocar mais um funcionário na sua loja para produzir mais mercadorias." />
 		<text id="dialogs_bonus_factory_title" name="Novo funcionário" />
-		<text id="dialogs_bonus_level2_copy" name="Já viu? Você pode ampliar sua loja para ter mais espaço para seus clientes e suas mercadorias!" />
+		<text id="dialogs_bonus_level2_copy" name="Já viu? Você pode expandir sua loja para ter mais espaço para seus clientes e suas mercadorias!" />
 		<text id="dialogs_bonus_level5_copy" name="Já viu? Você pode fazer propaganda para aumentar a popularidade da sua loja, vender mais mercadorias ou ganhar XP extra." />
 		<text id="dialogs_bonus_levelUp_copy" name="Parabéns! Você atingiu um novo nível." />
 		<text id="dialogs_bonus_levelUp_title" name="PRÓXIMO NÍVEL!" />
@@ -331,17 +331,17 @@ O que lhe trará a próxima?" />
 		<text id="dialogs_coopreward_finish_0" name="Ouro" />
 		<text id="dialogs_coopreward_finish_1" name="Prata" />
 		<text id="dialogs_coopreward_finish_2" name="Bronze" />
-		<text id="dialogs_coopreward_title_fail" name="Cooperação não realizada!" />
+		<text id="dialogs_coopreward_title_fail" name="Cooperação fracassada!" />
 		<text id="dialogs_coopreward_title_success" name="Cooperação realizada com {0}" />
 		<text id="dialogs_coopshelp_copy" name="Aqui você pode realizar tarefas junto com seus amigos e assim ganhar pontos XP e dólares Fashion extra.\nQuanto mais rápido a tarefa é realizada maior é a recompensa! Se o tempo ficar apertado você pode prolongá-lo a qualquer momento!\nMas lembre-se, você só recebe a recompensa se você contribuir!" />
 		<text id="dialogs_coopshelp_title" name="O que são cooperações?" />
 		<text id="dialogs_coop_btn_action" name="Detalhes" />
-		<text id="dialogs_coop_btn_activecoops" name="Ativos" />
+		<text id="dialogs_coop_btn_activecoops" name="Ativas" />
 		<text id="dialogs_coop_btn_join" name="Participar" />
 		<text id="dialogs_coop_btn_newcoop" name="Inicie cooperação" />
 		<text id="dialogs_coop_btn_progress" name="Avanço" />
 		<text id="dialogs_coop_btn_protocol" name="Protocolo" />
-		<text id="dialogs_coop_btn_quit" name="Deixar" />
+		<text id="dialogs_coop_btn_quit" name="Sair" />
 		<text id="dialogs_coop_extendtime_copy" name="Você gostaria de prolongar a cooperação por {0} botões de ouro?
 Tempo de ouro: {1}
 Tempo de prata: {2}
