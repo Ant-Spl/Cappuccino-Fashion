@@ -1,0 +1,61 @@
+name: Check Duplicate Translation Keys
+
+on:
+  push:
+    paths:
+      - "langs/Fashion_*.xml"
+  pull_request:
+    paths:
+      - "langs/Fashion_*.xml"
+
+jobs:
+  check-duplicates:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0
+
+      - name: Install XML parser
+        run: npm install --no-save --no-package-lock --ignore-scripts --no-audit --no-fund fast-xml-parser@5.10.1
+
+      - name: Get changed language files
+        id: changed-files
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE_SHA: ${{ github.event.before }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+
+          if [[ "$EVENT_NAME" == "pull_request" ]]; then
+            CHANGED=$(git diff --name-only "$BASE_SHA" "$HEAD_SHA" -- 'langs/Fashion_*.xml')
+          elif [[ "$BEFORE_SHA" == "0000000000000000000000000000000000000000" ]]; then
+            CHANGED=$(git show --pretty='' --name-only "$GITHUB_SHA" -- 'langs/Fashion_*.xml')
+          else
+            CHANGED=$(git diff --name-only "$BEFORE_SHA" "$GITHUB_SHA" -- 'langs/Fashion_*.xml')
+          fi
+
+          CHANGED=$(printf '%s\n' "$CHANGED" | sed '/^$/d; s#^.*/##')
+
+          {
+            echo 'files<<EOF'
+            printf '%s\n' "$CHANGED"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Check duplicate keys
+        if: steps.changed-files.outputs.files != ''
+        env:
+          CHANGED_FILES: ${{ steps.changed-files.outputs.files }}
+        run: node scripts/check-duplicates-keys.mjs
+
+      - name: Remove temporary dependencies
+        if: always()
+        run: rm -rf node_modules

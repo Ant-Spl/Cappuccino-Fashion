@@ -1,0 +1,49 @@
+name: Sync translations
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "langs/Fashion_en.xml"
+
+concurrency:
+  group: sync-fashion-translations
+  cancel-in-progress: true
+
+jobs:
+  update-and-pr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      # The Fashion repository does not need a root package.json for these tools.
+      # Install the parser temporarily, run the script, and remove node_modules
+      # before creating the pull request.
+      - name: Install XML parser
+        run: npm install --no-save --no-package-lock --ignore-scripts --no-audit --no-fund fast-xml-parser@5.10.1
+
+      - name: Sync translations
+        run: node scripts/sync-translations.mjs
+
+      - name: Remove temporary dependencies
+        if: always()
+        run: rm -rf node_modules
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
+        with:
+          branch: sync/all
+          delete-branch: true
+          title: Sync Fashion translations
+          commit-message: Sync Fashion translations
+          body: |
+            This PR was generated automatically by the translation sync workflow.
+
+            Missing keys and sections were copied from `Fashion_en.xml` into the other Fashion language files as English fallbacks.
+          add-paths: |
+            langs/Fashion_*.xml
