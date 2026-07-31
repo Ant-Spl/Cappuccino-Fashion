@@ -1,1183 +1,1186 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- goodgamestudios FASHION - hu - 13 -->
-	<fashion>
-		<achievement>
-			<text id="Basic_Achievement_Boughtdeco" name="Luxusbutik"  />
-			<text id="Basic_Achievement_Boughtdeco_copy" name="Megvásárolt dekorációk száma"  />
-			<text id="Basic_Achievement_Boughtpatterns" name="Nagy választék"  />
-			<text id="Basic_Achievement_Boughtpatterns_copy" name="Megvásárolt szabásminták száma"  />
-			<text id="Basic_Achievement_Earnedchips" name="Piacvezető"  />
-			<text id="Basic_Achievement_Earnedchips_copy" name="Fashiondollár gyáros"  />
-			<text id="Basic_Achievement_FinishedCoops" name="Mindent mindenkinek"  />
-			<text id="Basic_Achievement_FinishedCoops_copy" name="Sikeres együttműködések száma"  />
-			<text id="Basic_Achievement_FinishedGoldCoops" name="Arany berendező"  />
-			<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Sikeres arany együttműködés"  />
-			<text id="Basic_Achievement_Mannequindesign" name="Csinos kirakat"  />
-			<text id="Basic_Achievement_Mannequindesign_copy" name="Felöltöztetett kirakati babák száma"  />
-			<text id="Basic_Achievement_Masteries" name="Szorgalmas varrónő"  />
-			<text id="Basic_Achievement_Masteriesgold" name="Arany varrónő"  />
-			<text id="Basic_Achievement_Masteriesgold_copy" name="Elért arany etikettek száma"  />
-			<text id="Basic_Achievement_Masteries_copy" name="elért Etikettek száma"  />
-			<text id="Basic_Achievement_Producedaccessoires" name="Kiegészítő készítése"  />
-			<text id="Basic_Achievement_Producedaccessoires_copy" name="Elkészített kiegészítők száma"  />
-			<text id="Basic_Achievement_Producedbags" name="Kézitáska kereskedő"  />
-			<text id="Basic_Achievement_Producedbags_copy" name="Elkészített retikülök száma"  />
-			<text id="Basic_Achievement_Producedbottoms" name="Mindent a lábnak"  />
-			<text id="Basic_Achievement_Producedbottoms_copy" name="Elkészített nadrágok és szoknyák száma"  />
-			<text id="Basic_Achievement_Producedclothes" name="Ruhamonopólium"  />
-			<text id="Basic_Achievement_Producedclothes_copy" name="Elkészített ruházat száma"  />
-			<text id="Basic_Achievement_Produceddifferentaccessoires" name="Stílusos kiegészítők"  />
-			<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="Különböző elkészített kiegészítők száma"  />
-			<text id="Basic_Achievement_Produceddifferentclothes" name="Ruházat sokszínűség"  />
-			<text id="Basic_Achievement_Produceddifferentclothes_copy" name="Különböző elkészített ruhadarabok száma"  />
-			<text id="Basic_Achievement_Produceddifferentitems" name="Mindent berendező"  />
-			<text id="Basic_Achievement_Produceddifferentitems_copy" name="Különböző elkészített termékek száma"  />
-			<text id="Basic_Achievement_Produceddifferentshoes" name="Cipőláz"  />
-			<text id="Basic_Achievement_Produceddifferentshoes_copy" name="Különböző elkészített cipők száma"  />
-			<text id="Basic_Achievement_Producedfemaleonly" name="Csak nőknek!"  />
-			<text id="Basic_Achievement_Producedfemaleonly_copy" name="Nőknek készített termékek száma"  />
-			<text id="Basic_Achievement_Producedfullbody" name="Nyakkendőcsokor"  />
-			<text id="Basic_Achievement_Producedfullbody_copy" name="Elkészített ruhák és öltönyök száma"  />
-			<text id="Basic_Achievement_Producedhats" name="Kalapos"  />
-			<text id="Basic_Achievement_Producedhats_copy" name="Elkészített kalapok száma"  />
-			<text id="Basic_Achievement_Producedjewlery" name="Ékszeres ládikó"  />
-			<text id="Basic_Achievement_Producedjewlery_copy" name="Elkészített ékszerek száma"  />
-			<text id="Basic_Achievement_Producedmaleonly" name="Csak férfiaknak!"  />
-			<text id="Basic_Achievement_Producedmaleonly_copy" name="Férfiaknak készített termékek száma"  />
-			<text id="Basic_Achievement_Producedshoes" name="Cipőmágnás"  />
-			<text id="Basic_Achievement_Producedshoes_copy" name="Elkészített cipők száma"  />
-			<text id="Basic_Achievement_Producedtops" name="Felsőrész mindenütt"  />
-			<text id="Basic_Achievement_Producedtops_copy" name="Elkészített felsőrészek száma"  />
-			<text id="Basic_Achievement_Soldduringsale" name="Árvadász"  />
-			<text id="Basic_Achievement_Soldduringsale_copy" name="A kiárusításkor eladott áru"  />
-			<text id="Basic_Achievement_Soldproducts" name="Eladott áru"  />
-			<text id="Basic_Achievement_Soldproducts_copy" name="Eladott termékek száma"  />
-			<text id="Basic_Achievement_Spentchips" name="Költekező vevő"  />
-			<text id="Basic_Achievement_Spentchips_copy" name="Elköltött Fashiondollárok száma"  />
-			<text id="Basic_Achievement_Spentgold" name="Arany üzlet"  />
-			<text id="Basic_Achievement_Spentgold_copy" name="Kiadott aranygombok száma"  />
-			<text id="Basic_Achievement_Stolenproducts" name="Szarkafogó"  />
-			<text id="Basic_Achievement_Stolenproducts_copy" name="Ellopott áruk száma"  />
-			<text id="Basic_Achievement_Wheeloffortune" name="Forgókerekes játék"  />
-			<text id="Basic_Achievement_Wheeloffortune_copy" name="Szerencsekerék nyereményeid száma"  />
-			<text id="Social_Achievement_Friendscout" name="Közkedvelt boltos"  />
-			<text id="Social_Achievement_Friendscout_copy" name="Netes barátok száma"  />
-		</achievement>
-		<alerts>
-			<text id="alerts_avatarcustomize_goldrequest" name="Szeretnéd {0} {1}ért átöltöztetni?"  />
-			<text id="alerts_avatarcustom_workingplayer_copy" name="Éppen mást csinálsz, így nem tudsz átöltözni!"  />
-			<text id="alerts_avatarcustom_workingplayer_title" name="Még egy kis türelem!"  />
-			<text id="alerts_booster_info_copy" name="Az áruházi őr megakadályozza, hogy ellopják az árudat.\n5napra alkalmazhatod őt és az időt még meghosszabbíthatod."  />
-			<text id="alerts_booster_info_copy_1" name="{0} további barát részére a {1} védelem meghosszabbodik."  />
-			<text id="alerts_booster_info_title" name="Áruházi őr"  />
-			<text id="alerts_buytiles_copy" name="Megveszed a {0} burkolatot {1}-ért?"  />
-			<text id="alerts_buytiles_title" name="Burkolatvásárlás?"  />
-			<text id="alerts_customcloth_noshape_copy" name="Egy formát kell választanod, hogy a nyomatot elhelyezhesd."  />
-			<text id="alerts_decoshop_dragtipp_copy" name="Húzd a tárgyat a boltba, hogy haszálhasd."  />
-			<text id="alerts_decoshop_dragtipp_title" name="Elrendezni!"  />
-			<text id="alerts_decoshop_next_Cashdesk_bylevel" name="A {0}. szinttől vásárolhatsz további pénztárat. Vagy húzz egy régit ide a boltból, hogy egy másikat használhass."  />
-			<text id="alerts_decoshop_next_Changingroom_bylevel" name="A {0}. szinttől vásárolhatsz további öltözőfülkét. Vagy húzz ide egy régit a boltból, hogy egy másikat használhass."  />
-			<text id="alerts_decoshop_next_Counter_bylevel" name="A {0}. szinttől vásárolhatsz további polcot. Vagy húzz egy régit ide a boltból, hogy újat vásárolhass."  />
-			<text id="alerts_decoshop_next_Factory_bylevel" name="A {0}. szinttől vehetsz fel újabb kollégát. Vagy húzz ide egyet a boltból, hogy újat állíts munkába."  />
-			<text id="alerts_decoshop_next_Mannequin_bylevel" name="A {0}. szinttől vásárolhatsz további kirakati babát. Vagy húzz ide egy régi babát a boltól, hogy egy másikat vásárolhass."  />
-			<text id="alerts_decoshop_nomoreCashdesk" name="Jelenleg nem vásárolhatsz új pénztárat!"  />
-			<text id="alerts_decoshop_nomoreChangingroom" name="Jelenleg nem vásárolhatsz új próbafülkét!"  />
-			<text id="alerts_decoshop_nomoreCounter" name="Jelenleg nem vásárolhatsz új polcot!"  />
-			<text id="alerts_decoshop_nomoreExpansion" name="Nem áll rendelkezésre új bővítés"  />
-			<text id="alerts_decoshop_nomoreFactory" name="Jelenleg nem alkalmazhatsz új kollégát!"  />
-			<text id="alerts_decoshop_nomoreMannequin" name="Jelenleg nem vásárolhatsz új kirakati babát!"  />
-			<text id="alerts_decoshop_sellitem_copy" name="Tényleg eladod a tárgyat darabonként {0}ért?"  />
-			<text id="alerts_decoshop_sellitem_title" name="Termék eladása"  />
-			<text id="alerts_decoshop_storeFactory_copy" name="Egy elégedetlen kollégát nem tudsz kihúzni a boltból. Fizess neki prémiumot vagy add el."  />
-			<text id="alerts_decoshop_storeMannequin_copy" name="Amíg a kirakati baba hordja az árut, nem tudod tárolni."  />
-			<text id="alerts_decoshop_store_title" name="Raktározás"  />
-			<text id="alerts_decoshop_workingplayer_copy" name="Előbb fejezz be egy feladatot, mielőtt a boltodat átépíted."  />
-			<text id="alerts_decoshop_workingplayer_title" name="Elfoglalt"  />
-			<text id="alerts_fashionbook_notarget_copy" name="Válassz ki egy kollégát, hogy árut készítsen."  />
-			<text id="alerts_fashionbook_notarget_copy_1" name="A kollégád már dolgozik valamin. Válassz másikat."  />
-			<text id="alerts_fashionbook_notarget_title" name="Melyik kolléga?"  />
-			<text id="alerts_fashionbook_notequaltype_copy" name="Ez a kolléga csak egy bizonyos terméket készíthet el.\nVálassz egyet a {0}-kollekcióból."  />
-			<text id="alerts_fashionbook_notequaltype_title" name="Másik termék"  />
-			<text id="alerts_fashionbook_usebooster_title" name="Kell a gyorsító?"  />
-			<text id="alerts_friend_ask" name="Szeretnéd {0}t barátként hozzáadni?"  />
-			<text id="alerts_friend_denied" name="{0} visszautasította a kérésedet."  />
-			<text id="alerts_friend_title" name="Barátság"  />
-			<text id="alerts_gift_workingplayer_copy" name="Van nálad áru. Tedd le a polcra, hogy egy ajándékot elhelyezhess."  />
-			<text id="alerts_gift_workingplayer_title" name="Először tedd le!"  />
-			<text id="alerts_instantworking_goldrequest" name="Szeretnéd &#039;Rögtön elkészíteni&#039;?
-Még {0}x megteheted!"  />
-			<text id="alerts_invitefriend_copy" name="{0} részére meghívódat elkülted."  />
-			<text id="alerts_invitefriend_title" name="Új barátok!"  />
-			<text id="alerts_isoworld_counter_outofreach_copy" name="A polc nem elérhető. Rendezd át."  />
-			<text id="alerts_isoworld_counter_outofreach_title" name="Nem elérhető!"  />
-			<text id="alerts_isoworld_factory_outofreach_copy" name="A kolléga nem elérhető. Rendezd át a dekorációt."  />
-			<text id="alerts_isoworld_factory_outofreach_title" name="Nem elérhető!"  />
-			<text id="alerts_isoworld_mannequin_instant" name="Átöltözteted a kirakati babádat?"  />
-			<text id="alerts_isoworld_marketplace_title" name="Fekete tábla"  />
-			<text id="alerts_kickedbyplayer_copy" name="Az üzletet bezárta a tulajdonos."  />
-			<text id="alerts_kickedbyplayer_title" name="Menned kell!"  />
-			<text id="alerts_kickjobber_copy" name="Nem tudsz átépítés módba váltani, amíg más játékos a boltodban dolgozik."  />
-			<text id="alerts_kickjobber_title" name="Boltban lévő kolléga"  />
-			<text id="alerts_kickplayer_copy" name="A boltodban vannak még játékosok. Kidobod őket, hogy átépítés módba válts?"  />
-			<text id="alerts_kickplayer_title" name="Játékos kidobása"  />
-			<text id="alerts_lostpassword_copy" name="Add meg az e-mail címedet és elküldjük a jelszavadat."  />
-			<text id="alerts_lostpassword_title" name="Elfelejtett jelszó"  />
-			<text id="alerts_mannequindesign_nocloth_copy" name="Nincs megfelelő árud a polcon a kirakati baba felöltöztetéséhez."  />
-			<text id="alerts_mannequindesign_nocloth_title" name="Nincs áru!"  />
-			<text id="alerts_marketplace_playerleaved_copy" name="A játékos elhagyta az árkádot."  />
-			<text id="alerts_marketplace_playerleaved_title" name="Túl késő!"  />
-			<text id="alerts_placetiles_copy" name="1. Válassz egy burkolatot.\n2. Tartsd lenyomva az egér gombját és húzd a kívánt területre a boltban.\n3. Engedd el."  />
-			<text id="alerts_placetiles_title" name="Burkolat elhelyezés?"  />
-			<text id="alerts_register_copy_addgold" name="Először regisztrálnod kell, hogy itt vásárolhass."  />
-			<text id="alerts_register_copy_advertisement" name="Először regisztrálj és utána reklámozhatod a boltodat!"  />
-			<text id="alerts_register_copy_changeavatar" name="Először regisztrálnod kell, hogy átöltözhess."  />
-			<text id="alerts_register_copy_changepassword" name="Csak regisztrált játékosként változtathatod meg a jelszavadat!"  />
-			<text id="alerts_register_copy_coop" name="Először regisztálnod kell, ha együttműködni kívánsz."  />
-			<text id="alerts_register_copy_gifts" name="Először regisztrálnod kell, hogy ajándékot készíthess."  />
-			<text id="alerts_register_copy_invitefriend" name="Először regisztrálnod kell, hogy barátokat hívhass."  />
-			<text id="alerts_register_copy_logout" name="Regisztrálj, hogy elmentsd a játékodat!"  />
-			<text id="alerts_register_title" name="Regisztrálás"  />
-			<text id="alerts_servermsg_10" name="A szerver újra indul. Mindjárt megy tovább. Lépj ki. légyszi."  />
-			<text id="alerts_servermsg_title" name="Szerverüzenet"  />
-			<text id="alerts_staff_fire_copy" name="Tényleg elbocsátod a pénztárosodat?\nHa nincs elegendő pénztárosod, sokat várnak majd a vevőid és elégedetlenek lesznek."  />
-			<text id="alerts_staff_fire_title" name="Elbocsátod a pénztárost?"  />
-			<text id="alerts_staff_hire_copy" name="Szeretnél új pénztárost felvenni?"  />
-			<text id="alerts_staff_hire_title" name="Új pénztáros"  />
-			<text id="alerts_versioncheck_copy" name="Frissítsd  az oldalt, hogy a verziódat újratöltsd."  />
-			<text id="alerts_versioncheck_title" name="Régi verzió"  />
-		</alerts>
-		<cloth>
-			<text id="cloth_blackbowlermale" name="Cilinder"  />
-			<text id="cloth_blackdressfemale" name="A kis fekete"  />
-			<text id="cloth_blackhandbagfemale" name="Fekete nagytáska"  />
-			<text id="cloth_blackheelsfemale" name="Fekete lakk körömcipő"  />
-			<text id="cloth_blackjacketmale" name="Egyszerű bőrdzseki"  />
-			<text id="cloth_blackpant2male" name="GeeCee farmer"  />
-			<text id="cloth_blackpantfemale" name="Fekete lányka csőnadrág"  />
-			<text id="cloth_blackpantmale" name="Fekete férfinadrág"  />
-			<text id="cloth_blacksuitmale" name="Hajszálcsíkos öltöny"  />
-			<text id="cloth_blackwatchmale" name="Fekete karóra"  />
-			<text id="cloth_bluebaggypantsfemale" name="JayJay lány zsebes nadrág"  />
-			<text id="cloth_blueblousefemale" name="Kék női blúz"  />
-			<text id="cloth_bluecapfemale" name="Kék baseball sapka"  />
-			<text id="cloth_bluecapmale" name="Kék baseball sapka"  />
-			<text id="cloth_blueheadphones" name="JayJay fejhallgató"  />
-			<text id="cloth_bluenecklacefemale" name="Kék gyöngylánc"  />
-			<text id="cloth_bluepolomale" name="Kék póló"  />
-			<text id="cloth_blueshirtmale" name="Kék rövidujjú"  />
-			<text id="cloth_bluesweatermale" name="JayJay kék fiú puli"  />
-			<text id="cloth_bootsfemale" name="GeeCee lány csizma"  />
-			<text id="cloth_brownknitcapfemale" name="Barna satyi"  />
-			<text id="cloth_brownknitcapmale" name="Barna satyi"  />
-			<text id="cloth_cardiganfemale" name="GeeCee lány kardigán"  />
-			<text id="cloth_cardiganmale" name="GeeCee fiú kardigán"  />
-			<text id="cloth_charlestonhatfemale" name="Charleston kalap"  />
-			<text id="cloth_checkshirtfemale" name="JayJay lány kárómintás ing"  />
-			<text id="cloth_checkshirtmale" name="JayJay fiú kárómintás ing"  />
-			<text id="cloth_customcloth" name="Készítsd el a saját kinézeted!"  />
-			<text id="cloth_darkbluejeansfemale" name="Sötétkék női farmer"  />
-			<text id="cloth_darkbluejeansmale" name="Sötétkék fiú farmer"  />
-			<text id="cloth_dressfemale" name="GeeCee ruhácska"  />
-			<text id="cloth_flowerskirtfemale" name="GeeDee virágos szoknya"  />
-			<text id="cloth_ggsshirtmale" name="GeeCee póló"  />
-			<text id="cloth_goldnecklacefemale" name="Arany nyaklánc"  />
-			<text id="cloth_greendressfemale" name="GeeDee ruhácska"  />
-			<text id="cloth_greenjacketfemale" name="JayJay lány széldzseki"  />
-			<text id="cloth_greenjacketmale" name="JayJay fiú széldzseki"  />
-			<text id="cloth_greenpulloverfemale" name="Szürke garbó"  />
-			<text id="cloth_greenshirtmale" name="GeeDee fiú poló"  />
-			<text id="cloth_greysuitmale" name="Szürke öltöny"  />
-			<text id="cloth_lightbluejeansfemale" name="Világoskék női farmer"  />
-			<text id="cloth_lightbluejeansmale" name="Világoskék férfi farmer"  />
-			<text id="cloth_manblackmale" name="Fekete lakkcipő"  />
-			<text id="cloth_manbrownmale" name="Barna bőrcipő"  />
-			<text id="cloth_orangeknitcapfemale" name="Narancsos satyi"  />
-			<text id="cloth_orangeknitcapmale" name="Narancsos satyi"  />
-			<text id="cloth_perlnecklacefemale" name="Egyszerű gyöngynyaklánc"  />
-			<text id="cloth_pinkhangbagfemale" name="Steppelt kézitáska"  />
-			<text id="cloth_pinkshirtfemale" name="Rózsaszínű póló"  />
-			<text id="cloth_premiumbluejacketmale" name="Tavaszi kabátka"  />
-			<text id="cloth_premiumgreenjacketfemale" name="Tavaszi kabát"  />
-			<text id="cloth_premiumjumpsuitfemale" name="GeeDee lány egyrészes"  />
-			<text id="cloth_premiumshortsmale" name="GeeDee fiú sort"  />
-			<text id="cloth_purplehandbagfemale" name="GeeCee nagy táska"  />
-			<text id="cloth_purplepulloverfemale" name="Lila garbó"  />
-			<text id="cloth_purpletshirtfemale" name="JayJay lány póló"  />
-			<text id="cloth_redcapfemale" name="Vörös baseball sapka"  />
-			<text id="cloth_redcapmale" name="Vörös baseball sapka"  />
-			<text id="cloth_reddressfemale" name="Vállnélküli estélyi"  />
-			<text id="cloth_redheelsfemale" name="Vörös lakk körömcipő"  />
-			<text id="cloth_redskirtfemale" name="Vörös hosszúszoknya"  />
-			<text id="cloth_redsneakermale" name="JayJay piros fiú cipő"  />
-			<text id="cloth_redtopfemale" name="Vörös csillogós felső"  />
-			<text id="cloth_scraffemale" name="GeeCee pöttyös sál"  />
-			<text id="cloth_scrafmale" name="GeeCee kárómintás sál"  />
-			<text id="cloth_silvernecklacefemale" name="Ezüst nyaklánc"  />
-			<text id="cloth_silverwatchmale" name="Ezüst karóra"  />
-			<text id="cloth_sneakersfemale" name="Fehér tornacipő"  />
-			<text id="cloth_sneakersgreenmale" name="GeeCee zöld taposó"  />
-			<text id="cloth_sneakersmale" name="Fehér tornacipő"  />
-			<text id="cloth_strawberrysneakerfemale" name="JayJay eperszínű cipő"  />
-			<text id="cloth_stripedshirtmale" name="GeeDee fiú csíkos poló"  />
-			<text id="cloth_stripedtopfemale" name="GeeDee lány nyári felső"  />
-			<text id="cloth_stripedtshirtmale" name="JayJay fiú csíkos ing"  />
-			<text id="cloth_sweathoodiemale" name="GeeDee fiú kapucnis pulcsi"  />
-			<text id="cloth_trenchcoatmale" name="Fekete trencskó"  />
-			<text id="cloth_whiteshirtmale" name="Fehér ing"  />
-			<text id="cloth_whiteskirtfemale" name="Fehér miniszoknya"  />
-			<text id="cloth_yellowdressfemale" name="Arany koktélruha"  />
-		</cloth>
-		<commons>
-			<text id="achievement_rang" name="Helyezés {0}/{1}"  />
-			<text id="comingsoon" name="*hamarosan*"  />
-			<text id="currency_cash" name="Fashiondollár"  />
-			<text id="currency_gold" name="Aranygombok"  />
-			<text id="currency_gold_single" name="Aranygomb"  />
-			<text id="factorytyp_accessories" name="Kiegészítők"  />
-			<text id="factorytyp_clothes" name="Ruha"  />
-			<text id="factorytyp_shoes" name="Cipő"  />
-			<text id="friendscount" name="{0} barát"  />
-			<text id="levelcount" name="{0}. szint"  />
-			<text id="levellabel" name="Szint"  />
-			<text id="mastery" name="Etikett szint"  />
-			<text id="new" name="Új!"  />
-			<text id="xplabel" name="XP"  />
-		</commons>
-		<coopmission>
-			<text id="coop_desc_1" name="Egy pár apróság a picknikhez."  />
-			<text id="coop_desc_10" name="Estélyik és öltönyök a fellépőknek!"  />
-			<text id="coop_desc_11" name="Klasszikusok férfinak!"  />
-			<text id="coop_desc_2" name="A megfelelő szerelés sportos kiruccanáshoz!"  />
-			<text id="coop_desc_3" name="Zene és emberek egész este!"  />
-			<text id="coop_desc_4" name="A tökéletes ajándék minden alkalomra!"  />
-			<text id="coop_desc_5" name="Semmi sem jobb egy passzoló öltönynél!"  />
-			<text id="coop_desc_6" name="Ahová csak nézel, cipő!"  />
-			<text id="coop_desc_7" name="Szoknyák, felsők és cipők... csupa vörösben!"  />
-			<text id="coop_desc_8" name="Ruhát, ruhát, ruhát a lányoknak!"  />
-			<text id="coop_desc_9" name="Pont tökéletes a tánctanfolyamhoz."  />
-			<text id="coop_title_1" name="Picknikre fel!"  />
-			<text id="coop_title_10" name="Elsőbálozók!"  />
-			<text id="coop_title_11" name="A fekete mindig fekete marad!"  />
-			<text id="coop_title_2" name="Csak sportosan!"  />
-			<text id="coop_title_3" name="Elkeltek a jegyek a koncertre!"  />
-			<text id="coop_title_4" name="Szép ajándékok!"  />
-			<text id="coop_title_5" name="Mindent a férfinek!"  />
-			<text id="coop_title_6" name="Mindenütt cipő!"  />
-			<text id="coop_title_7" name="Egy vörös álom!"  />
-			<text id="coop_title_8" name="Csak lányoknak!"  />
-			<text id="coop_title_9" name="Tánctanfolyam!"  />
-		</coopmission>
-		<coop_msg>
-			<text id="coop_msg_0" name="{0} elkezdte ezt az együttműködést."  />
-			<text id="coop_msg_1" name="{0} belépett az együttműködésbe."  />
-			<text id="coop_msg_2" name="{0} elhagyta az együttműködést."  />
-			<text id="coop_msg_3" name="{0} {1}t {2}x akarja elkészíteni."  />
-			<text id="coop_msg_4" name="{0} elkészítette: {1}"  />
-			<text id="coop_msg_5" name="{0} meghosszabbította az együttműködést."  />
-		</coop_msg>
-		<dialogs>
-			<text id="dialogs_achievement_title" name="Kitüntetés"  />
-			<text id="dialogs_advertisementfinal_copy" name="A reklámkampányodnak vége. Nézd meg az eredményét.
-Vajon a következő sikeresebb lesz?"  />
-			<text id="dialogs_advertisementfinal_title" name="Gratulálunk!"  />
-			<text id="dialogs_advertisementrunning_copy" name="Fut egy reklámkampányod. Nézd meg, hogy milyen sikerrel."  />
-			<text id="dialogs_advertisementrunning_time" name="Fennmaradt idő"  />
-			<text id="dialogs_advertisementrunning_title" name="Fut a reklám!"  />
-			<text id="dialogs_advertisement_btn_start" name="Kezdés"  />
-			<text id="dialogs_advertisement_flyer_copy" name="Növeld a kedveltségedet!"  />
-			<text id="dialogs_advertisement_flyer_reward" name="{0} pont"  />
-			<text id="dialogs_advertisement_flyer_title" name="Szórólapozás"  />
-			<text id="dialogs_advertisement_magazine_copy" name="Minden vevőd kétszer annyit vásárol!"  />
-			<text id="dialogs_advertisement_magazine_reward" name="x {0}"  />
-			<text id="dialogs_advertisement_magazine_title" name="Újsághirdetés"  />
-			<text id="dialogs_advertisement_title" name="Reklám"  />
-			<text id="dialogs_advertisement_tv_copy" name="Minden vevőd a vásárlással XP-t hoz!"  />
-			<text id="dialogs_advertisement_tv_title" name="TV-reklám"  />
-			<text id="dialogs_avatarselection_copy" name="A név már foglalt. Mit szólsz ehhez:"  />
-			<text id="dialogs_avatarselection_title" name="Hoppá!"  />
-			<text id="dialogs_avatar_female" name="Lányka"  />
-			<text id="dialogs_avatar_male" name="Fiú"  />
-			<text id="dialogs_avatar_name" name="Név:"  />
-			<text id="dialogs_avatar_randombtn" name="Véletlen összeállítás"  />
-			<text id="dialogs_avatar_title" name="Készítsd el a karakteredet!"  />
-			<text id="dialogs_bonus_cashdesk_copy" name="Most a boltodat egy pénztárral és egy pénztárossal is kiegészítheted."  />
-			<text id="dialogs_bonus_cashdesk_title" name="Új pénztár"  />
-			<text id="dialogs_bonus_changingroom_copy" name="Hozzáférhetsz egy új próbafülkéhez."  />
-			<text id="dialogs_bonus_changingroom_title" name="Új próbafülke"  />
-			<text id="dialogs_bonus_counter_copy" name="Vehetsz még egy polcot!"  />
-			<text id="dialogs_bonus_counter_title" name="Új polc"  />
-			<text id="dialogs_bonus_expand_copy" name="Bővítettél és így több helyed van a vevőid számára, a dekorációra és még sok minden másra!"  />
-			<text id="dialogs_bonus_expand_title" name="Bővítés!"  />
-			<text id="dialogs_bonus_factory_copy" name="További kollégát helyezhetsz el a boltban, hogy még több árut elkészíthess."  />
-			<text id="dialogs_bonus_factory_title" name="Új kolléga"  />
-			<text id="dialogs_bonus_level2_copy" name="Láttad már? A boltodat bővítheted, hogy több helyed legyen a vevőid és az árud számára."  />
-			<text id="dialogs_bonus_level5_copy" name="Láttad már? Reklámozhatod a boltodat, hogy a kedveltségét növeld, több árut eladhass és extra XP-t keress."  />
-			<text id="dialogs_bonus_levelUp_copy" name="Gratulálunk! Újabb szintet értél el!"  />
-			<text id="dialogs_bonus_levelUp_title" name="Következő szint!"  />
-			<text id="dialogs_bonus_level_title" name="Figyelem!"  />
-			<text id="dialogs_bonus_login_copy" name="Amíg nem voltál, ez történt a boltodban:"  />
-			<text id="dialogs_bonus_login_copy2" name="Belépési bónusz"  />
-			<text id="dialogs_bonus_login_title" name="Ismét itt!"  />
-			<text id="dialogs_bonus_pattern_copy" name="Hozzájuthatsz új szabásmintákhoz:"  />
-			<text id="dialogs_bonus_pattern_title" name="Új szabásminta"  />
-			<text id="dialogs_booster_btnbuypolice" name="Felvétel/hosszabbítás"  />
-			<text id="dialogs_booster_policeman_notime" name="nem aktív"  />
-			<text id="dialogs_booster_title" name="Gyorsító"  />
-			<text id="dialogs_changepassword_newpassword" name="Új jelszó:"  />
-			<text id="dialogs_changepassword_oldpassword" name="Régi jelszó:"  />
-			<text id="dialogs_changepassword_title" name="Jelszóváltoztatás"  />
-			<text id="dialogs_coopreward_finish_0" name="Arany"  />
-			<text id="dialogs_coopreward_finish_1" name="Ezüst"  />
-			<text id="dialogs_coopreward_finish_2" name="Bronz"  />
-			<text id="dialogs_coopreward_title_fail" name="Nem sikerült az együttműködés!"  />
-			<text id="dialogs_coopreward_title_success" name="{0}-el sikeres együttműködés"  />
-			<text id="dialogs_coopshelp_copy" name="Itt a barátaiddal együtt közösen megbízásokat végezhettek, hogy extra XPt és Fashiondollárt keressetek.\nMinél gyorsabban végeztek, annál nagyobb a jutalom!\n\nHa az idő szorossá válik, meghosszabbíthatjátok bármikor!\n\nDe ne felejtsd, csak akkor kapsz jutalmat, ha valóban teszel is valamit."  />
-			<text id="dialogs_coopshelp_title" name="Mi az együttműködés?"  />
-			<text id="dialogs_coop_btn_action" name="Részletek"  />
-			<text id="dialogs_coop_btn_activecoops" name="aktív"  />
-			<text id="dialogs_coop_btn_join" name="Résztveszek"  />
-			<text id="dialogs_coop_btn_newcoop" name="Kezdj együttműködést!"  />
-			<text id="dialogs_coop_btn_progress" name="Haladás:"  />
-			<text id="dialogs_coop_btn_protocol" name="Jegyzőkönyv"  />
-			<text id="dialogs_coop_btn_quit" name="Elhagyom"  />
-			<text id="dialogs_coop_extendtime_copy" name="Meghosszabbítod az együttműködésedet {0} aranyért?
+<fashion>
+	<achievement>
+		<text id="Basic_Achievement_Boughtdeco" name="Luxusbutik" />
+		<text id="Basic_Achievement_Boughtdeco_copy" name="Megvásárolt dekorációk száma" />
+		<text id="Basic_Achievement_Boughtpatterns" name="Nagy választék" />
+		<text id="Basic_Achievement_Boughtpatterns_copy" name="Megvásárolt szabásminták száma" />
+		<text id="Basic_Achievement_Earnedchips" name="Piacvezető" />
+		<text id="Basic_Achievement_Earnedchips_copy" name="Fashiondollár gyáros" />
+		<text id="Basic_Achievement_FinishedCoops" name="Mindent mindenkinek" />
+		<text id="Basic_Achievement_FinishedCoops_copy" name="Sikeres együttműködések száma" />
+		<text id="Basic_Achievement_FinishedGoldCoops" name="Arany berendező" />
+		<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Sikeres arany együttműködés" />
+		<text id="Basic_Achievement_Mannequindesign" name="Csinos kirakat" />
+		<text id="Basic_Achievement_Mannequindesign_copy" name="Felöltöztetett kirakati babák száma" />
+		<text id="Basic_Achievement_Masteries" name="Szorgalmas varrónő" />
+		<text id="Basic_Achievement_Masteriesgold" name="Arany varrónő" />
+		<text id="Basic_Achievement_Masteriesgold_copy" name="Elért arany etikettek száma" />
+		<text id="Basic_Achievement_Masteries_copy" name="elért Etikettek száma" />
+		<text id="Basic_Achievement_Producedaccessoires" name="Kiegészítő készítése" />
+		<text id="Basic_Achievement_Producedaccessoires_copy" name="Elkészített kiegészítők száma" />
+		<text id="Basic_Achievement_Producedbags" name="Kézitáska kereskedő" />
+		<text id="Basic_Achievement_Producedbags_copy" name="Elkészített retikülök száma" />
+		<text id="Basic_Achievement_Producedbottoms" name="Mindent a lábnak" />
+		<text id="Basic_Achievement_Producedbottoms_copy" name="Elkészített nadrágok és szoknyák száma" />
+		<text id="Basic_Achievement_Producedclothes" name="Ruhamonopólium" />
+		<text id="Basic_Achievement_Producedclothes_copy" name="Elkészített ruházat száma" />
+		<text id="Basic_Achievement_Produceddifferentaccessoires" name="Stílusos kiegészítők" />
+		<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="Különböző elkészített kiegészítők száma" />
+		<text id="Basic_Achievement_Produceddifferentclothes" name="Ruházat sokszínűség" />
+		<text id="Basic_Achievement_Produceddifferentclothes_copy" name="Különböző elkészített ruhadarabok száma" />
+		<text id="Basic_Achievement_Produceddifferentitems" name="Mindent berendező" />
+		<text id="Basic_Achievement_Produceddifferentitems_copy" name="Különböző elkészített termékek száma" />
+		<text id="Basic_Achievement_Produceddifferentshoes" name="Cipőláz" />
+		<text id="Basic_Achievement_Produceddifferentshoes_copy" name="Különböző elkészített cipők száma" />
+		<text id="Basic_Achievement_Producedfemaleonly" name="Csak nőknek!" />
+		<text id="Basic_Achievement_Producedfemaleonly_copy" name="Nőknek készített termékek száma" />
+		<text id="Basic_Achievement_Producedfullbody" name="Nyakkendőcsokor" />
+		<text id="Basic_Achievement_Producedfullbody_copy" name="Elkészített ruhák és öltönyök száma" />
+		<text id="Basic_Achievement_Producedhats" name="Kalapos" />
+		<text id="Basic_Achievement_Producedhats_copy" name="Elkészített kalapok száma" />
+		<text id="Basic_Achievement_Producedjewlery" name="Ékszeres ládikó" />
+		<text id="Basic_Achievement_Producedjewlery_copy" name="Elkészített ékszerek száma" />
+		<text id="Basic_Achievement_Producedmaleonly" name="Csak férfiaknak!" />
+		<text id="Basic_Achievement_Producedmaleonly_copy" name="Férfiaknak készített termékek száma" />
+		<text id="Basic_Achievement_Producedshoes" name="Cipőmágnás" />
+		<text id="Basic_Achievement_Producedshoes_copy" name="Elkészített cipők száma" />
+		<text id="Basic_Achievement_Producedtops" name="Felsőrész mindenütt" />
+		<text id="Basic_Achievement_Producedtops_copy" name="Elkészített felsőrészek száma" />
+		<text id="Basic_Achievement_Soldduringsale" name="Árvadász" />
+		<text id="Basic_Achievement_Soldduringsale_copy" name="A kiárusításkor eladott áru" />
+		<text id="Basic_Achievement_Soldproducts" name="Eladott áru" />
+		<text id="Basic_Achievement_Soldproducts_copy" name="Eladott termékek száma" />
+		<text id="Basic_Achievement_Spentchips" name="Költekező vevő" />
+		<text id="Basic_Achievement_Spentchips_copy" name="Elköltött Fashiondollárok száma" />
+		<text id="Basic_Achievement_Spentgold" name="Arany üzlet" />
+		<text id="Basic_Achievement_Spentgold_copy" name="Kiadott aranygombok száma" />
+		<text id="Basic_Achievement_Stolenproducts" name="Szarkafogó" />
+		<text id="Basic_Achievement_Stolenproducts_copy" name="Ellopott áruk száma" />
+		<text id="Basic_Achievement_Wheeloffortune" name="Forgókerekes játék" />
+		<text id="Basic_Achievement_Wheeloffortune_copy" name="Szerencsekerék nyereményeid száma" />
+		<text id="Social_Achievement_Friendscout" name="Közkedvelt boltos" />
+		<text id="Social_Achievement_Friendscout_copy" name="Netes barátok száma" />
+	</achievement>
+	<alerts>
+		<text id="alerts_avatarcustomize_goldrequest" name="Szeretnéd {0} {1}ért átöltöztetni?" />
+		<text id="alerts_avatarcustom_workingplayer_copy" name="Éppen mást csinálsz, így nem tudsz átöltözni!" />
+		<text id="alerts_avatarcustom_workingplayer_title" name="Még egy kis türelem!" />
+		<text id="alerts_booster_info_copy" name="Az áruházi őr megakadályozza, hogy ellopják az árudat.\n5napra alkalmazhatod őt és az időt még meghosszabbíthatod." />
+		<text id="alerts_booster_info_copy_1" name="{0} további barát részére a {1} védelem meghosszabbodik." />
+		<text id="alerts_booster_info_title" name="Áruházi őr" />
+		<text id="alerts_buytiles_copy" name="Megveszed a {0} burkolatot {1}-ért?" />
+		<text id="alerts_buytiles_title" name="Burkolatvásárlás?" />
+		<text id="alerts_customcloth_noshape_copy" name="Egy formát kell választanod, hogy a nyomatot elhelyezhesd." />
+		<text id="alerts_decoshop_dragtipp_copy" name="Húzd a tárgyat a boltba, hogy haszálhasd." />
+		<text id="alerts_decoshop_dragtipp_title" name="Elrendezni!" />
+		<text id="alerts_decoshop_next_Cashdesk_bylevel" name="A {0}. szinttől vásárolhatsz további pénztárat. Vagy húzz egy régit ide a boltból, hogy egy másikat használhass." />
+		<text id="alerts_decoshop_next_Changingroom_bylevel" name="A {0}. szinttől vásárolhatsz további öltözőfülkét. Vagy húzz ide egy régit a boltból, hogy egy másikat használhass." />
+		<text id="alerts_decoshop_next_Counter_bylevel" name="A {0}. szinttől vásárolhatsz további polcot. Vagy húzz egy régit ide a boltból, hogy újat vásárolhass." />
+		<text id="alerts_decoshop_next_Factory_bylevel" name="A {0}. szinttől vehetsz fel újabb kollégát. Vagy húzz ide egyet a boltból, hogy újat állíts munkába." />
+		<text id="alerts_decoshop_next_Mannequin_bylevel" name="A {0}. szinttől vásárolhatsz további kirakati babát. Vagy húzz ide egy régi babát a boltól, hogy egy másikat vásárolhass." />
+		<text id="alerts_decoshop_nomoreCashdesk" name="Jelenleg nem vásárolhatsz új pénztárat!" />
+		<text id="alerts_decoshop_nomoreChangingroom" name="Jelenleg nem vásárolhatsz új próbafülkét!" />
+		<text id="alerts_decoshop_nomoreCounter" name="Jelenleg nem vásárolhatsz új polcot!" />
+		<text id="alerts_decoshop_nomoreExpansion" name="Nem áll rendelkezésre új bővítés" />
+		<text id="alerts_decoshop_nomoreFactory" name="Jelenleg nem alkalmazhatsz új kollégát!" />
+		<text id="alerts_decoshop_nomoreMannequin" name="Jelenleg nem vásárolhatsz új kirakati babát!" />
+		<text id="alerts_decoshop_sellitem_copy" name="Tényleg eladod a tárgyat darabonként {0}ért?" />
+		<text id="alerts_decoshop_sellitem_title" name="Termék eladása" />
+		<text id="alerts_decoshop_storeFactory_copy" name="Egy elégedetlen kollégát nem tudsz kihúzni a boltból. Fizess neki prémiumot vagy add el." />
+		<text id="alerts_decoshop_storeMannequin_copy" name="Amíg a kirakati baba hordja az árut, nem tudod tárolni." />
+		<text id="alerts_decoshop_store_title" name="Raktározás" />
+		<text id="alerts_decoshop_workingplayer_copy" name="Előbb fejezz be egy feladatot, mielőtt a boltodat átépíted." />
+		<text id="alerts_decoshop_workingplayer_title" name="Elfoglalt" />
+		<text id="alerts_fashionbook_notarget_copy" name="Válassz ki egy kollégát, hogy árut készítsen." />
+		<text id="alerts_fashionbook_notarget_copy_1" name="A kollégád már dolgozik valamin. Válassz másikat." />
+		<text id="alerts_fashionbook_notarget_title" name="Melyik kolléga?" />
+		<text id="alerts_fashionbook_notequaltype_copy" name="Ez a kolléga csak egy bizonyos terméket készíthet el.\nVálassz egyet a {0}-kollekcióból." />
+		<text id="alerts_fashionbook_notequaltype_title" name="Másik termék" />
+		<text id="alerts_fashionbook_usebooster_title" name="Kell a gyorsító?" />
+		<text id="alerts_friend_ask" name="Szeretnéd {0}t barátként hozzáadni?" />
+		<text id="alerts_friend_denied" name="{0} visszautasította a kérésedet." />
+		<text id="alerts_friend_title" name="Barátság" />
+		<text id="alerts_gift_workingplayer_copy" name="Van nálad áru. Tedd le a polcra, hogy egy ajándékot elhelyezhess." />
+		<text id="alerts_gift_workingplayer_title" name="Először tedd le!" />
+		<text id="alerts_instantworking_goldrequest" name="Szeretnéd &amp;#039;Rögtön elkészíteni&amp;#039;?
+Még {0}x megteheted!" />
+		<text id="alerts_invitefriend_copy" name="{0} részére meghívódat elkülted." />
+		<text id="alerts_invitefriend_title" name="Új barátok!" />
+		<text id="alerts_isoworld_counter_outofreach_copy" name="A polc nem elérhető. Rendezd át." />
+		<text id="alerts_isoworld_counter_outofreach_title" name="Nem elérhető!" />
+		<text id="alerts_isoworld_factory_outofreach_copy" name="A kolléga nem elérhető. Rendezd át a dekorációt." />
+		<text id="alerts_isoworld_factory_outofreach_title" name="Nem elérhető!" />
+		<text id="alerts_isoworld_mannequin_instant" name="Átöltözteted a kirakati babádat?" />
+		<text id="alerts_isoworld_marketplace_title" name="Fekete tábla" />
+		<text id="alerts_kickedbyplayer_copy" name="Az üzletet bezárta a tulajdonos." />
+		<text id="alerts_kickedbyplayer_title" name="Menned kell!" />
+		<text id="alerts_kickjobber_copy" name="Nem tudsz átépítés módba váltani, amíg más játékos a boltodban dolgozik." />
+		<text id="alerts_kickjobber_title" name="Boltban lévő kolléga" />
+		<text id="alerts_kickplayer_copy" name="A boltodban vannak még játékosok. Kidobod őket, hogy átépítés módba válts?" />
+		<text id="alerts_kickplayer_title" name="Játékos kidobása" />
+		<text id="alerts_lostpassword_copy" name="Add meg az e-mail címedet és elküldjük a jelszavadat." />
+		<text id="alerts_lostpassword_title" name="Elfelejtett jelszó" />
+		<text id="alerts_mannequindesign_nocloth_copy" name="Nincs megfelelő árud a polcon a kirakati baba felöltöztetéséhez." />
+		<text id="alerts_mannequindesign_nocloth_title" name="Nincs áru!" />
+		<text id="alerts_marketplace_playerleaved_copy" name="A játékos elhagyta az árkádot." />
+		<text id="alerts_marketplace_playerleaved_title" name="Túl késő!" />
+		<text id="alerts_placetiles_copy" name="1. Válassz egy burkolatot.\n2. Tartsd lenyomva az egér gombját és húzd a kívánt területre a boltban.\n3. Engedd el." />
+		<text id="alerts_placetiles_title" name="Burkolat elhelyezés?" />
+		<text id="alerts_register_copy_addgold" name="Először regisztrálnod kell, hogy itt vásárolhass." />
+		<text id="alerts_register_copy_advertisement" name="Először regisztrálj és utána reklámozhatod a boltodat!" />
+		<text id="alerts_register_copy_changeavatar" name="Először regisztrálnod kell, hogy átöltözhess." />
+		<text id="alerts_register_copy_changepassword" name="Csak regisztrált játékosként változtathatod meg a jelszavadat!" />
+		<text id="alerts_register_copy_coop" name="Először regisztálnod kell, ha együttműködni kívánsz." />
+		<text id="alerts_register_copy_gifts" name="Először regisztrálnod kell, hogy ajándékot készíthess." />
+		<text id="alerts_register_copy_invitefriend" name="Először regisztrálnod kell, hogy barátokat hívhass." />
+		<text id="alerts_register_copy_logout" name="Regisztrálj, hogy elmentsd a játékodat!" />
+		<text id="alerts_register_title" name="Regisztrálás" />
+		<text id="alerts_servermsg_10" name="A szerver újra indul. Mindjárt megy tovább. Lépj ki. légyszi." />
+		<text id="alerts_servermsg_title" name="Szerverüzenet" />
+		<text id="alerts_staff_fire_copy" name="Tényleg elbocsátod a pénztárosodat?\nHa nincs elegendő pénztárosod, sokat várnak majd a vevőid és elégedetlenek lesznek." />
+		<text id="alerts_staff_fire_title" name="Elbocsátod a pénztárost?" />
+		<text id="alerts_staff_hire_copy" name="Szeretnél új pénztárost felvenni?" />
+		<text id="alerts_staff_hire_title" name="Új pénztáros" />
+		<text id="alerts_versioncheck_copy" name="Frissítsd  az oldalt, hogy a verziódat újratöltsd." />
+		<text id="alerts_versioncheck_title" name="Régi verzió" />
+	</alerts>
+	<cloth>
+		<text id="cloth_blackbowlermale" name="Cilinder" />
+		<text id="cloth_blackdressfemale" name="A kis fekete" />
+		<text id="cloth_blackhandbagfemale" name="Fekete nagytáska" />
+		<text id="cloth_blackheelsfemale" name="Fekete lakk körömcipő" />
+		<text id="cloth_blackjacketmale" name="Egyszerű bőrdzseki" />
+		<text id="cloth_blackpant2male" name="GeeCee farmer" />
+		<text id="cloth_blackpantfemale" name="Fekete lányka csőnadrág" />
+		<text id="cloth_blackpantmale" name="Fekete férfinadrág" />
+		<text id="cloth_blacksuitmale" name="Hajszálcsíkos öltöny" />
+		<text id="cloth_blackwatchmale" name="Fekete karóra" />
+		<text id="cloth_bluebaggypantsfemale" name="JayJay lány zsebes nadrág" />
+		<text id="cloth_blueblousefemale" name="Kék női blúz" />
+		<text id="cloth_bluecapfemale" name="Kék baseball sapka" />
+		<text id="cloth_bluecapmale" name="Kék baseball sapka" />
+		<text id="cloth_blueheadphones" name="JayJay fejhallgató" />
+		<text id="cloth_bluenecklacefemale" name="Kék gyöngylánc" />
+		<text id="cloth_bluepolomale" name="Kék póló" />
+		<text id="cloth_blueshirtmale" name="Kék rövidujjú" />
+		<text id="cloth_bluesweatermale" name="JayJay kék fiú puli" />
+		<text id="cloth_bootsfemale" name="GeeCee lány csizma" />
+		<text id="cloth_brownknitcapfemale" name="Barna satyi" />
+		<text id="cloth_brownknitcapmale" name="Barna satyi" />
+		<text id="cloth_cardiganfemale" name="GeeCee lány kardigán" />
+		<text id="cloth_cardiganmale" name="GeeCee fiú kardigán" />
+		<text id="cloth_charlestonhatfemale" name="Charleston kalap" />
+		<text id="cloth_checkshirtfemale" name="JayJay lány kárómintás ing" />
+		<text id="cloth_checkshirtmale" name="JayJay fiú kárómintás ing" />
+		<text id="cloth_customcloth" name="Készítsd el a saját kinézeted!" />
+		<text id="cloth_darkbluejeansfemale" name="Sötétkék női farmer" />
+		<text id="cloth_darkbluejeansmale" name="Sötétkék fiú farmer" />
+		<text id="cloth_dressfemale" name="GeeCee ruhácska" />
+		<text id="cloth_flowerskirtfemale" name="GeeDee virágos szoknya" />
+		<text id="cloth_ggsshirtmale" name="GeeCee póló" />
+		<text id="cloth_goldnecklacefemale" name="Arany nyaklánc" />
+		<text id="cloth_greendressfemale" name="GeeDee ruhácska" />
+		<text id="cloth_greenjacketfemale" name="JayJay lány széldzseki" />
+		<text id="cloth_greenjacketmale" name="JayJay fiú széldzseki" />
+		<text id="cloth_greenpulloverfemale" name="Szürke garbó" />
+		<text id="cloth_greenshirtmale" name="GeeDee fiú poló" />
+		<text id="cloth_greysuitmale" name="Szürke öltöny" />
+		<text id="cloth_lightbluejeansfemale" name="Világoskék női farmer" />
+		<text id="cloth_lightbluejeansmale" name="Világoskék férfi farmer" />
+		<text id="cloth_manblackmale" name="Fekete lakkcipő" />
+		<text id="cloth_manbrownmale" name="Barna bőrcipő" />
+		<text id="cloth_orangeknitcapfemale" name="Narancsos satyi" />
+		<text id="cloth_orangeknitcapmale" name="Narancsos satyi" />
+		<text id="cloth_perlnecklacefemale" name="Egyszerű gyöngynyaklánc" />
+		<text id="cloth_pinkhangbagfemale" name="Steppelt kézitáska" />
+		<text id="cloth_pinkshirtfemale" name="Rózsaszínű póló" />
+		<text id="cloth_premiumbluejacketmale" name="Tavaszi kabátka" />
+		<text id="cloth_premiumgreenjacketfemale" name="Tavaszi kabát" />
+		<text id="cloth_premiumjumpsuitfemale" name="GeeDee lány egyrészes" />
+		<text id="cloth_premiumshortsmale" name="GeeDee fiú sort" />
+		<text id="cloth_purplehandbagfemale" name="GeeCee nagy táska" />
+		<text id="cloth_purplepulloverfemale" name="Lila garbó" />
+		<text id="cloth_purpletshirtfemale" name="JayJay lány póló" />
+		<text id="cloth_redcapfemale" name="Vörös baseball sapka" />
+		<text id="cloth_redcapmale" name="Vörös baseball sapka" />
+		<text id="cloth_reddressfemale" name="Vállnélküli estélyi" />
+		<text id="cloth_redheelsfemale" name="Vörös lakk körömcipő" />
+		<text id="cloth_redskirtfemale" name="Vörös hosszúszoknya" />
+		<text id="cloth_redsneakermale" name="JayJay piros fiú cipő" />
+		<text id="cloth_redtopfemale" name="Vörös csillogós felső" />
+		<text id="cloth_scraffemale" name="GeeCee pöttyös sál" />
+		<text id="cloth_scrafmale" name="GeeCee kárómintás sál" />
+		<text id="cloth_silvernecklacefemale" name="Ezüst nyaklánc" />
+		<text id="cloth_silverwatchmale" name="Ezüst karóra" />
+		<text id="cloth_sneakersfemale" name="Fehér tornacipő" />
+		<text id="cloth_sneakersgreenmale" name="GeeCee zöld taposó" />
+		<text id="cloth_sneakersmale" name="Fehér tornacipő" />
+		<text id="cloth_strawberrysneakerfemale" name="JayJay eperszínű cipő" />
+		<text id="cloth_stripedshirtmale" name="GeeDee fiú csíkos poló" />
+		<text id="cloth_stripedtopfemale" name="GeeDee lány nyári felső" />
+		<text id="cloth_stripedtshirtmale" name="JayJay fiú csíkos ing" />
+		<text id="cloth_sweathoodiemale" name="GeeDee fiú kapucnis pulcsi" />
+		<text id="cloth_trenchcoatmale" name="Fekete trencskó" />
+		<text id="cloth_whiteshirtmale" name="Fehér ing" />
+		<text id="cloth_whiteskirtfemale" name="Fehér miniszoknya" />
+		<text id="cloth_yellowdressfemale" name="Arany koktélruha" />
+		<text id="cloth_omelettesweatermale" name="Omelette Icon Sweater" />
+		<text id="cloth_omelettedressfemale" name="Omelette Diva Dress" />
+		<text id="cloth_dancingchefdress" name="Dancing Chef Dress" />
+		<text id="cloth_dancingchefsweater" name="Dancing Chef Sweater" />
+	</cloth>
+	<commons>
+		<text id="achievement_rang" name="Helyezés {0}/{1}" />
+		<text id="comingsoon" name="*hamarosan*" />
+		<text id="currency_cash" name="Fashiondollár" />
+		<text id="currency_gold" name="Aranygombok" />
+		<text id="currency_gold_single" name="Aranygomb" />
+		<text id="factorytyp_accessories" name="Kiegészítők" />
+		<text id="factorytyp_clothes" name="Ruha" />
+		<text id="factorytyp_shoes" name="Cipő" />
+		<text id="friendscount" name="{0} barát" />
+		<text id="levelcount" name="{0}. szint" />
+		<text id="levellabel" name="Szint" />
+		<text id="mastery" name="Etikett szint" />
+		<text id="new" name="Új!" />
+		<text id="xplabel" name="XP" />
+	</commons>
+	<coopmission>
+		<text id="coop_desc_1" name="Egy pár apróság a picknikhez." />
+		<text id="coop_desc_10" name="Estélyik és öltönyök a fellépőknek!" />
+		<text id="coop_desc_11" name="Klasszikusok férfinak!" />
+		<text id="coop_desc_2" name="A megfelelő szerelés sportos kiruccanáshoz!" />
+		<text id="coop_desc_3" name="Zene és emberek egész este!" />
+		<text id="coop_desc_4" name="A tökéletes ajándék minden alkalomra!" />
+		<text id="coop_desc_5" name="Semmi sem jobb egy passzoló öltönynél!" />
+		<text id="coop_desc_6" name="Ahová csak nézel, cipő!" />
+		<text id="coop_desc_7" name="Szoknyák, felsők és cipők... csupa vörösben!" />
+		<text id="coop_desc_8" name="Ruhát, ruhát, ruhát a lányoknak!" />
+		<text id="coop_desc_9" name="Pont tökéletes a tánctanfolyamhoz." />
+		<text id="coop_title_1" name="Picknikre fel!" />
+		<text id="coop_title_10" name="Elsőbálozók!" />
+		<text id="coop_title_11" name="A fekete mindig fekete marad!" />
+		<text id="coop_title_2" name="Csak sportosan!" />
+		<text id="coop_title_3" name="Elkeltek a jegyek a koncertre!" />
+		<text id="coop_title_4" name="Szép ajándékok!" />
+		<text id="coop_title_5" name="Mindent a férfinek!" />
+		<text id="coop_title_6" name="Mindenütt cipő!" />
+		<text id="coop_title_7" name="Egy vörös álom!" />
+		<text id="coop_title_8" name="Csak lányoknak!" />
+		<text id="coop_title_9" name="Tánctanfolyam!" />
+	</coopmission>
+	<coop_msg>
+		<text id="coop_msg_0" name="{0} elkezdte ezt az együttműködést." />
+		<text id="coop_msg_1" name="{0} belépett az együttműködésbe." />
+		<text id="coop_msg_2" name="{0} elhagyta az együttműködést." />
+		<text id="coop_msg_3" name="{0} {1}t {2}x akarja elkészíteni." />
+		<text id="coop_msg_4" name="{0} elkészítette: {1}" />
+		<text id="coop_msg_5" name="{0} meghosszabbította az együttműködést." />
+	</coop_msg>
+	<dialogs>
+		<text id="dialogs_achievement_title" name="Kitüntetés" />
+		<text id="dialogs_advertisementfinal_copy" name="A reklámkampányodnak vége. Nézd meg az eredményét.
+Vajon a következő sikeresebb lesz?" />
+		<text id="dialogs_advertisementfinal_title" name="Gratulálunk!" />
+		<text id="dialogs_advertisementrunning_copy" name="Fut egy reklámkampányod. Nézd meg, hogy milyen sikerrel." />
+		<text id="dialogs_advertisementrunning_time" name="Fennmaradt idő" />
+		<text id="dialogs_advertisementrunning_title" name="Fut a reklám!" />
+		<text id="dialogs_advertisement_btn_start" name="Kezdés" />
+		<text id="dialogs_advertisement_flyer_copy" name="Növeld a kedveltségedet!" />
+		<text id="dialogs_advertisement_flyer_reward" name="{0} pont" />
+		<text id="dialogs_advertisement_flyer_title" name="Szórólapozás" />
+		<text id="dialogs_advertisement_magazine_copy" name="Minden vevőd kétszer annyit vásárol!" />
+		<text id="dialogs_advertisement_magazine_reward" name="x {0}" />
+		<text id="dialogs_advertisement_magazine_title" name="Újsághirdetés" />
+		<text id="dialogs_advertisement_title" name="Reklám" />
+		<text id="dialogs_advertisement_tv_copy" name="Minden vevőd a vásárlással XP-t hoz!" />
+		<text id="dialogs_advertisement_tv_title" name="TV-reklám" />
+		<text id="dialogs_avatarselection_copy" name="A név már foglalt. Mit szólsz ehhez:" />
+		<text id="dialogs_avatarselection_title" name="Hoppá!" />
+		<text id="dialogs_avatar_female" name="Lányka" />
+		<text id="dialogs_avatar_male" name="Fiú" />
+		<text id="dialogs_avatar_name" name="Név:" />
+		<text id="dialogs_avatar_randombtn" name="Véletlen összeállítás" />
+		<text id="dialogs_avatar_title" name="Készítsd el a karakteredet!" />
+		<text id="dialogs_bonus_cashdesk_copy" name="Most a boltodat egy pénztárral és egy pénztárossal is kiegészítheted." />
+		<text id="dialogs_bonus_cashdesk_title" name="Új pénztár" />
+		<text id="dialogs_bonus_changingroom_copy" name="Hozzáférhetsz egy új próbafülkéhez." />
+		<text id="dialogs_bonus_changingroom_title" name="Új próbafülke" />
+		<text id="dialogs_bonus_counter_copy" name="Vehetsz még egy polcot!" />
+		<text id="dialogs_bonus_counter_title" name="Új polc" />
+		<text id="dialogs_bonus_expand_copy" name="Bővítettél és így több helyed van a vevőid számára, a dekorációra és még sok minden másra!" />
+		<text id="dialogs_bonus_expand_title" name="Bővítés!" />
+		<text id="dialogs_bonus_factory_copy" name="További kollégát helyezhetsz el a boltban, hogy még több árut elkészíthess." />
+		<text id="dialogs_bonus_factory_title" name="Új kolléga" />
+		<text id="dialogs_bonus_level2_copy" name="Láttad már? A boltodat bővítheted, hogy több helyed legyen a vevőid és az árud számára." />
+		<text id="dialogs_bonus_level5_copy" name="Láttad már? Reklámozhatod a boltodat, hogy a kedveltségét növeld, több árut eladhass és extra XP-t keress." />
+		<text id="dialogs_bonus_levelUp_copy" name="Gratulálunk! Újabb szintet értél el!" />
+		<text id="dialogs_bonus_levelUp_title" name="Következő szint!" />
+		<text id="dialogs_bonus_level_title" name="Figyelem!" />
+		<text id="dialogs_bonus_login_copy" name="Amíg nem voltál, ez történt a boltodban:" />
+		<text id="dialogs_bonus_login_copy2" name="Belépési bónusz" />
+		<text id="dialogs_bonus_login_title" name="Ismét itt!" />
+		<text id="dialogs_bonus_pattern_copy" name="Hozzájuthatsz új szabásmintákhoz:" />
+		<text id="dialogs_bonus_pattern_title" name="Új szabásminta" />
+		<text id="dialogs_booster_btnbuypolice" name="Felvétel/hosszabbítás" />
+		<text id="dialogs_booster_policeman_notime" name="nem aktív" />
+		<text id="dialogs_booster_title" name="Gyorsító" />
+		<text id="dialogs_changepassword_newpassword" name="Új jelszó:" />
+		<text id="dialogs_changepassword_oldpassword" name="Régi jelszó:" />
+		<text id="dialogs_changepassword_title" name="Jelszóváltoztatás" />
+		<text id="dialogs_coopreward_finish_0" name="Arany" />
+		<text id="dialogs_coopreward_finish_1" name="Ezüst" />
+		<text id="dialogs_coopreward_finish_2" name="Bronz" />
+		<text id="dialogs_coopreward_title_fail" name="Nem sikerült az együttműködés!" />
+		<text id="dialogs_coopreward_title_success" name="{0}-el sikeres együttműködés" />
+		<text id="dialogs_coopshelp_copy" name="Itt a barátaiddal együtt közösen megbízásokat végezhettek, hogy extra XPt és Fashiondollárt keressetek.\nMinél gyorsabban végeztek, annál nagyobb a jutalom!\n\nHa az idő szorossá válik, meghosszabbíthatjátok bármikor!\n\nDe ne felejtsd, csak akkor kapsz jutalmat, ha valóban teszel is valamit." />
+		<text id="dialogs_coopshelp_title" name="Mi az együttműködés?" />
+		<text id="dialogs_coop_btn_action" name="Részletek" />
+		<text id="dialogs_coop_btn_activecoops" name="aktív" />
+		<text id="dialogs_coop_btn_join" name="Résztveszek" />
+		<text id="dialogs_coop_btn_newcoop" name="Kezdj együttműködést!" />
+		<text id="dialogs_coop_btn_progress" name="Haladás:" />
+		<text id="dialogs_coop_btn_protocol" name="Jegyzőkönyv" />
+		<text id="dialogs_coop_btn_quit" name="Elhagyom" />
+		<text id="dialogs_coop_extendtime_copy" name="Meghosszabbítod az együttműködésedet {0} aranyért?
 Aranyidő: {1}
 Ezüstidő: {2}
-Bronzidő: {3}"  />
-			<text id="dialogs_coop_extendtime_title" name="Több idő kell?"  />
-			<text id="dialogs_coop_maxuser" name="Max. résztvevő: {0}"  />
-			<text id="dialogs_coop_member" name="Együttműködés résztvevői:"  />
-			<text id="dialogs_coop_minlevel" name="Min. szint: {0}"  />
-			<text id="dialogs_coop_minlevel_short" name="Min. szint: {0}"  />
-			<text id="dialogs_coop_produce_copy" name="Hányszor készüljön {0} az együttműködés során?"  />
-			<text id="dialogs_coop_produce_title" name="Az együttműködéshez készül?"  />
-			<text id="dialogs_coop_quit_copy" name="Tényleg elhagyod az együttműködést?"  />
-			<text id="dialogs_coop_subtitle" name="Ezt kell gyártanotok:"  />
-			<text id="dialogs_coop_timeInfo" name="Idő:"  />
-			<text id="dialogs_coop_timeleft" name="Fennmaradt idő:"  />
-			<text id="dialogs_coop_txt_noactive" name="Jelenleg nincs aktív együttműködés.\nIndíts egyet!"  />
-			<text id="dialogs_coop_txt_title" name="Együttműködés"  />
-			<text id="dialogs_counterclick_btndonate" name="Adakozás"  />
-			<text id="dialogs_counterclick_copy" name="A polcon lévő áruk:"  />
-			<text id="dialogs_counterclick_title" name="Polc"  />
-			<text id="dialogs_customclothbuy_copy" name="Szeretnéd {0}t {1} aranygombért tartósan a katalógusodba menteni?"  />
-			<text id="dialogs_customclothbuy_title" name="Szabásminta vásárlása"  />
-			<text id="dialogs_customclothhelp_copy" name="Itt egyedi ruhákat tervezhetsz és készíthetsz.
+Bronzidő: {3}" />
+		<text id="dialogs_coop_extendtime_title" name="Több idő kell?" />
+		<text id="dialogs_coop_maxuser" name="Max. résztvevő: {0}" />
+		<text id="dialogs_coop_member" name="Együttműködés résztvevői:" />
+		<text id="dialogs_coop_minlevel" name="Min. szint: {0}" />
+		<text id="dialogs_coop_minlevel_short" name="Min. szint: {0}" />
+		<text id="dialogs_coop_produce_copy" name="Hányszor készüljön {0} az együttműködés során?" />
+		<text id="dialogs_coop_produce_title" name="Az együttműködéshez készül?" />
+		<text id="dialogs_coop_quit_copy" name="Tényleg elhagyod az együttműködést?" />
+		<text id="dialogs_coop_subtitle" name="Ezt kell gyártanotok:" />
+		<text id="dialogs_coop_timeInfo" name="Idő:" />
+		<text id="dialogs_coop_timeleft" name="Fennmaradt idő:" />
+		<text id="dialogs_coop_txt_noactive" name="Jelenleg nincs aktív együttműködés.\nIndíts egyet!" />
+		<text id="dialogs_coop_txt_title" name="Együttműködés" />
+		<text id="dialogs_counterclick_btndonate" name="Adakozás" />
+		<text id="dialogs_counterclick_copy" name="A polcon lévő áruk:" />
+		<text id="dialogs_counterclick_title" name="Polc" />
+		<text id="dialogs_customclothbuy_copy" name="Szeretnéd {0}t {1} aranygombért tartósan a katalógusodba menteni?" />
+		<text id="dialogs_customclothbuy_title" name="Szabásminta vásárlása" />
+		<text id="dialogs_customclothhelp_copy" name="Itt egyedi ruhákat tervezhetsz és készíthetsz.
 Válassz ki egy formát és színt.
 A forma meghatározza, hogy mennyi idő alatt készül el és mennyit hoz a ruha.
 Az elkészített szabásmintát 24 órán keresztül használhatod fel.
-Ha meg akarod tartani a szabásmintádat, az árukatalógusodba mentheted."  />
-			<text id="dialogs_customclothinfo_title" name="A saját stílusod!"  />
-			<text id="dialogs_customcloth_btn_choose" name="Kiválasztás"  />
-			<text id="dialogs_customcloth_entername" name="Nevezz el!"  />
-			<text id="dialogs_customcloth_icon" name="Lenyomat"  />
-			<text id="dialogs_customcloth_shape" name="Forma"  />
-			<text id="dialogs_customcloth_title" name="A tervezésed a stílusod maga!"  />
-			<text id="dialogs_decoshophelp_copy" name="Ha a bútorodat vagy a dekorációt a listára húzod és nem a pénztárhoz, akkor csak raktározod őket.
+Ha meg akarod tartani a szabásmintádat, az árukatalógusodba mentheted." />
+		<text id="dialogs_customclothinfo_title" name="A saját stílusod!" />
+		<text id="dialogs_customcloth_btn_choose" name="Kiválasztás" />
+		<text id="dialogs_customcloth_entername" name="Nevezz el!" />
+		<text id="dialogs_customcloth_icon" name="Lenyomat" />
+		<text id="dialogs_customcloth_shape" name="Forma" />
+		<text id="dialogs_customcloth_title" name="A tervezésed a stílusod maga!" />
+		<text id="dialogs_decoshophelp_copy" name="Ha a bútorodat vagy a dekorációt a listára húzod és nem a pénztárhoz, akkor csak raktározod őket.
 Ha újra a boltodba húzod, nem kell fizetned érte.
-A tárolt mennyiséget az üres doboz mellett találod."  />
-			<text id="dialogs_decoshophelp_copy_1" name="A bútorok és dekorációk értékesek és a boltod luxusértékét növelik. Mennyit érhet a boltod?"  />
-			<text id="dialogs_decoshophelp_title" name="Polc/dekoráció tárolása?"  />
-			<text id="dialogs_decoshophelp_title_1" name="Érék"  />
-			<text id="dialogs_factoryclick_btn_cancel" name="Készítés megszakítása"  />
-			<text id="dialogs_factoryclick_copy" name="Szeretnéd\n&#039;Rögtön elkészíteni&#039;?\nMa még {0}x megteheted."  />
-			<text id="dialogs_factoryclick_title" name="A gyártás folyamatban van&#039;"  />
-			<text id="dialogs_fashionbook_durationtime" name="Időtartam: {0}"  />
-			<text id="dialogs_fashionbook_emptypattern" name="Nem áll rendelkezésre egyelőre új szabásminta."  />
-			<text id="dialogs_fashionbook_emptypatterncustomcloth" name="Itt elkészítheted saját szabásmintádat!"  />
-			<text id="dialogs_fashionbook_emptyproducts" name="Szükséged van szabásmintára, hogy árut termelhessél.\n\nVegyél néhányat az árukatalógusból."  />
-			<text id="dialogs_fashionbook_pieces" name="Darabszám:"  />
-			<text id="dialogs_fashionbook_productionPrice" name="Az elkészítés költsége: {0}"  />
-			<text id="dialogs_fashionbook_saleprice" name="/ darab:"  />
-			<text id="dialogs_featureUnlocked_advertisement" name="Egy jó reklámmal a boltod nagyobb lendületet kapna!"  />
-			<text id="dialogs_featureUnlocked_arcades" name="Találj új barátokat az árkádban!"  />
-			<text id="dialogs_featureUnlocked_coop" name="A barátaiddal kezdj bele egy együttműködésbe!"  />
-			<text id="dialogs_featureUnlocked_custompattern" name="Készíts saját szabásmintát!"  />
-			<text id="dialogs_featureUnlocked_decoration" name="Új dekorációkat érhetsz el!"  />
-			<text id="dialogs_featureUnlocked_policeman" name="Figyelem! Az árukat akár el is tudják lopni! Bérelj egy rendőrt!"  />
-			<text id="dialogs_featureUnlocked_ranking" name="A ranglistán keresztül látogass meg egy másik játékost."  />
-			<text id="dialogs_featureUnlocked_wheeloffortune" name="Próbálj szerencsét a szerencsekerékkel és nyerj csodás díjakat!"  />
-			<text id="dialogs_giftbox_btnclose" name="Bezárás"  />
-			<text id="dialogs_giftbox_btnsend" name="elajándékozom"  />
-			<text id="dialogs_giftbox_empty_friends" name="Minden nap megajándékozhatsz egy barátot."  />
-			<text id="dialogs_giftbox_empty_mygifts" name="Az ajándékdobozod jelenleg üres.\nKüldj a barátaidnak néhányat, talán visszaküldenek valamit ajándékba."  />
-			<text id="dialogs_giftbox_empty_sendablegifts" name="Ma nincs ajándék."  />
-			<text id="dialogs_giftbox_friendstitle" name="Barátnak küldés"  />
-			<text id="dialogs_giftbox_mygiftstitle" name="Ajándékaim"  />
-			<text id="dialogs_giftbox_sendablegiftstitle" name="Ajándékküldés"  />
-			<text id="dialogs_highscore_name" name="Név"  />
-			<text id="dialogs_highscore_rank" name="Helyezés"  />
-			<text id="dialogs_highscore_search" name="Név/helyezés keresés"  />
-			<text id="dialogs_highscore_title" name="Helyezések"  />
-			<text id="dialogs_info_goldsmith_copy" name="Az ötvös kizárólag kiegészítőket készít."  />
-			<text id="dialogs_info_goldsmith_title" name="Ötvös"  />
-			<text id="dialogs_info_sewer_copy" name="A varrónő kizárólag ruhákat készít."  />
-			<text id="dialogs_info_sewer_title" name="A varrónő"  />
-			<text id="dialogs_info_shoemaker_copy" name="A cipész kizárólag cipőket készít."  />
-			<text id="dialogs_info_shoemaker_title" name="A cipész"  />
-			<text id="dialogs_invitefriend_copy" name="Add meg a barátod nevét és e-mail címét, hogy meghívhasd."  />
-			<text id="dialogs_invitefriend_emptyparam" name="Minden mezőt ki kell töltened."  />
-			<text id="dialogs_invitefriend_friendname" name="A barátod neve:"  />
-			<text id="dialogs_invitefriend_mail" name="Barátod e-mail címe:"  />
-			<text id="dialogs_invitefriend_myname" name="Neved:"  />
-			<text id="dialogs_invitefriend_title" name="Meghívó"  />
-			<text id="dialogs_lonelycash_copy" name="Valaki a talált tárgyak osztályán egy pénztárcát adott le.\n\nLehet, hogy egy barátodé?"  />
-			<text id="dialogs_lonelycash_title" name="Megtaláltam!"  />
-			<text id="dialogs_lonelycop_copy" name="A biztonsági szolgálat főnöke állást keres a gyakornokának!\nTalán a te barátaid alkalmazzák!"  />
-			<text id="dialogs_lonelycop_title" name="Felkérés!"  />
-			<text id="dialogs_lonelypants_copy" name="A pénztárosod talált egy ládát tele fölösleges áruval.\n\nAdd oda a barátaidnak!"  />
-			<text id="dialogs_lonelypants_title" name="Ez meg mi?"  />
-			<text id="dialogs_mannequindesign_empty" name="Ebben a kategóriában nincs választékod."  />
-			<text id="dialogs_mannequindesign_title" name="Kirakati baba"  />
-			<text id="dialogs_mannequinpaycheck_copy" name="Minél jobban tetszik az árud a vevőnek, annál nagyobb jutalom jár a kirakati baba felöltöztetéséért."  />
-			<text id="dialogs_mannequinpaycheck_title" name="Értékelés"  />
-			<text id="dialogs_mastery_copy_0" name="Megérdemelsz egy etikettet {0}ért!"  />
-			<text id="dialogs_mastery_copy_1" name="Adj a barátaidnak néhány extra darabot!"  />
-			<text id="dialogs_mastery_info" name="Minden etikett az árudnagy nagyobb nyereséget hoz!"  />
-			<text id="dialogs_mastery_title" name="Új etikett!"  />
-			<text id="dialogs_noreward_copy" name="A jutalmat sajnos elvitte egy másik játékos!"  />
-			<text id="dialogs_noreward_title" name="Kár!"  />
-			<text id="dialogs_payment_copy" name="Vásárolhatsz \naranygombokat és Fashiondollárt"  />
-			<text id="dialogs_payment_title" name="Paymentshop"  />
-			<text id="dialogs_perfectpants_copy" name="Ma {0}t tökéletesen készítetted el!\nAdd tovább a barátaidnak a termelt felesleget!"  />
-			<text id="dialogs_perfectpants_title" name="Tökéletes!"  />
-			<text id="dialogs_pesentreceived_text" name="{0} aranygomb üdvözlő ajándékot jováírtuk a számládon."  />
-			<text id="dialogs_pesentreceived_title" name="Hurrá!"  />
-			<text id="dialogs_pesentreminder_send" name="Küldés"  />
-			<text id="dialogs_pesentreminder_text1" name="Üdvözlő ajándékként {0} aranygomb vár rád.
-Az üdvözlő mailre kattintva a tied lehet!"  />
-			<text id="dialogs_pesentreminder_text2" name="Egy e-mailt kérhetsz újra."  />
-			<text id="dialogs_pesentreminder_title" name="Üdvözlő ajándék!"  />
-			<text id="dialogs_receivecomeback_copy_0" name="Üdvözletként kapsz {0} aranygomobot és egy szuper jó gyorsítót!"  />
-			<text id="dialogs_receivecomeback_copy_1" name="Üdvözletként kapsz {0} aranygombot és egy áruházi őrt {1}ig!"  />
-			<text id="dialogs_receivecomeback_title" name="Itt vagy újra!"  />
-			<text id="dialogs_receivecop_copy" name="A gyakornok elkezdett dolgozni és meghosszabbítja az őröd idejét\n1órával!"  />
-			<text id="dialogs_receivecop_title" name="Felvetted!"  />
-			<text id="dialogs_receiveitem_copy" name="Jutalmad az ajándékdobozodban van!"  />
-			<text id="dialogs_receiveitem_title" name="Hurrá!"  />
-			<text id="dialogs_receivemoney_copy" name="Ajándékodat már jóváírták!"  />
-			<text id="dialogs_receivemoney_title" name="Hurrá!"  />
-			<text id="dialogs_register_agb" name="ÁSZF elfogadása"  />
-			<text id="dialogs_register_btnsave" name="Mentés"  />
-			<text id="dialogs_register_copy_0" name="Ingyenesen regisztrálhatod magad!"  />
-			<text id="dialogs_register_copy_1" name="Mentsd a játékodat!"  />
-			<text id="dialogs_register_copy_2" name="Ha bejelentkezel, e-mailen kapsz {0} aranygombot üdvözlő ajándékként."  />
-			<text id="dialogs_register_email" name="E-mail"  />
-			<text id="dialogs_register_forfree" name="INGYENES!"  />
-			<text id="dialogs_register_password" name="Jelszó"  />
-			<text id="dialogs_register_title" name="Regisztrálás"  />
-			<text id="dialogs_robberyall_copy" name="Ellopták az összes árudat!"  />
-			<text id="dialogs_robbery_copy" name="Lopás történt!"  />
-			<text id="dialogs_robbery_copy2" name="Az elkészült árut tedd a polcra,\nvagy vegyél fel egy áruházi őrt, aki megvédi az árudat a tolvajok ellen."  />
-			<text id="dialogs_robbery_title" name="LOPÁS!"  />
-			<text id="dialogs_sale_copy" name="Kattints a Sale táblára a polcon, hogy az árut akciósan adhasd el.\nAz ára olcsóbb lesz és a boltod kedveltsége nő.\nAz akciónak akkor lesz vége, ha a polcod kiürül."  />
-			<text id="dialogs_sale_title" name="Sale"  />
-			<text id="dialogs_shippingconfirmation_send" name="Az üdvözlő ajándékodat éppen most küldtük el neked.
+A tárolt mennyiséget az üres doboz mellett találod." />
+		<text id="dialogs_decoshophelp_copy_1" name="A bútorok és dekorációk értékesek és a boltod luxusértékét növelik. Mennyit érhet a boltod?" />
+		<text id="dialogs_decoshophelp_title" name="Polc/dekoráció tárolása?" />
+		<text id="dialogs_decoshophelp_title_1" name="Érék" />
+		<text id="dialogs_factoryclick_btn_cancel" name="Készítés megszakítása" />
+		<text id="dialogs_factoryclick_copy" name="Szeretnéd\n&amp;#039;Rögtön elkészíteni&amp;#039;?\nMa még {0}x megteheted." />
+		<text id="dialogs_factoryclick_title" name="A gyártás folyamatban van&amp;#039;" />
+		<text id="dialogs_fashionbook_durationtime" name="Időtartam: {0}" />
+		<text id="dialogs_fashionbook_emptypattern" name="Nem áll rendelkezésre egyelőre új szabásminta." />
+		<text id="dialogs_fashionbook_emptypatterncustomcloth" name="Itt elkészítheted saját szabásmintádat!" />
+		<text id="dialogs_fashionbook_emptyproducts" name="Szükséged van szabásmintára, hogy árut termelhessél.\n\nVegyél néhányat az árukatalógusból." />
+		<text id="dialogs_fashionbook_pieces" name="Darabszám:" />
+		<text id="dialogs_fashionbook_productionPrice" name="Az elkészítés költsége: {0}" />
+		<text id="dialogs_fashionbook_saleprice" name="/ darab:" />
+		<text id="dialogs_featureUnlocked_advertisement" name="Egy jó reklámmal a boltod nagyobb lendületet kapna!" />
+		<text id="dialogs_featureUnlocked_arcades" name="Találj új barátokat az árkádban!" />
+		<text id="dialogs_featureUnlocked_coop" name="A barátaiddal kezdj bele egy együttműködésbe!" />
+		<text id="dialogs_featureUnlocked_custompattern" name="Készíts saját szabásmintát!" />
+		<text id="dialogs_featureUnlocked_decoration" name="Új dekorációkat érhetsz el!" />
+		<text id="dialogs_featureUnlocked_policeman" name="Figyelem! Az árukat akár el is tudják lopni! Bérelj egy rendőrt!" />
+		<text id="dialogs_featureUnlocked_ranking" name="A ranglistán keresztül látogass meg egy másik játékost." />
+		<text id="dialogs_featureUnlocked_wheeloffortune" name="Próbálj szerencsét a szerencsekerékkel és nyerj csodás díjakat!" />
+		<text id="dialogs_giftbox_btnclose" name="Bezárás" />
+		<text id="dialogs_giftbox_btnsend" name="elajándékozom" />
+		<text id="dialogs_giftbox_empty_friends" name="Minden nap megajándékozhatsz egy barátot." />
+		<text id="dialogs_giftbox_empty_mygifts" name="Az ajándékdobozod jelenleg üres.\nKüldj a barátaidnak néhányat, talán visszaküldenek valamit ajándékba." />
+		<text id="dialogs_giftbox_empty_sendablegifts" name="Ma nincs ajándék." />
+		<text id="dialogs_giftbox_friendstitle" name="Barátnak küldés" />
+		<text id="dialogs_giftbox_mygiftstitle" name="Ajándékaim" />
+		<text id="dialogs_giftbox_sendablegiftstitle" name="Ajándékküldés" />
+		<text id="dialogs_highscore_name" name="Név" />
+		<text id="dialogs_highscore_rank" name="Helyezés" />
+		<text id="dialogs_highscore_search" name="Név/helyezés keresés" />
+		<text id="dialogs_highscore_title" name="Helyezések" />
+		<text id="dialogs_info_goldsmith_copy" name="Az ötvös kizárólag kiegészítőket készít." />
+		<text id="dialogs_info_goldsmith_title" name="Ötvös" />
+		<text id="dialogs_info_sewer_copy" name="A varrónő kizárólag ruhákat készít." />
+		<text id="dialogs_info_sewer_title" name="A varrónő" />
+		<text id="dialogs_info_shoemaker_copy" name="A cipész kizárólag cipőket készít." />
+		<text id="dialogs_info_shoemaker_title" name="A cipész" />
+		<text id="dialogs_invitefriend_copy" name="Add meg a barátod nevét és e-mail címét, hogy meghívhasd." />
+		<text id="dialogs_invitefriend_emptyparam" name="Minden mezőt ki kell töltened." />
+		<text id="dialogs_invitefriend_friendname" name="A barátod neve:" />
+		<text id="dialogs_invitefriend_mail" name="Barátod e-mail címe:" />
+		<text id="dialogs_invitefriend_myname" name="Neved:" />
+		<text id="dialogs_invitefriend_title" name="Meghívó" />
+		<text id="dialogs_lonelycash_copy" name="Valaki a talált tárgyak osztályán egy pénztárcát adott le.\n\nLehet, hogy egy barátodé?" />
+		<text id="dialogs_lonelycash_title" name="Megtaláltam!" />
+		<text id="dialogs_lonelycop_copy" name="A biztonsági szolgálat főnöke állást keres a gyakornokának!\nTalán a te barátaid alkalmazzák!" />
+		<text id="dialogs_lonelycop_title" name="Felkérés!" />
+		<text id="dialogs_lonelypants_copy" name="A pénztárosod talált egy ládát tele fölösleges áruval.\n\nAdd oda a barátaidnak!" />
+		<text id="dialogs_lonelypants_title" name="Ez meg mi?" />
+		<text id="dialogs_mannequindesign_empty" name="Ebben a kategóriában nincs választékod." />
+		<text id="dialogs_mannequindesign_title" name="Kirakati baba" />
+		<text id="dialogs_mannequinpaycheck_copy" name="Minél jobban tetszik az árud a vevőnek, annál nagyobb jutalom jár a kirakati baba felöltöztetéséért." />
+		<text id="dialogs_mannequinpaycheck_title" name="Értékelés" />
+		<text id="dialogs_mastery_copy_0" name="Megérdemelsz egy etikettet {0}ért!" />
+		<text id="dialogs_mastery_copy_1" name="Adj a barátaidnak néhány extra darabot!" />
+		<text id="dialogs_mastery_info" name="Minden etikett az árudnagy nagyobb nyereséget hoz!" />
+		<text id="dialogs_mastery_title" name="Új etikett!" />
+		<text id="dialogs_noreward_copy" name="A jutalmat sajnos elvitte egy másik játékos!" />
+		<text id="dialogs_noreward_title" name="Kár!" />
+		<text id="dialogs_payment_copy" name="Vásárolhatsz \naranygombokat és Fashiondollárt" />
+		<text id="dialogs_payment_title" name="Paymentshop" />
+		<text id="dialogs_perfectpants_copy" name="Ma {0}t tökéletesen készítetted el!\nAdd tovább a barátaidnak a termelt felesleget!" />
+		<text id="dialogs_perfectpants_title" name="Tökéletes!" />
+		<text id="dialogs_pesentreceived_text" name="{0} aranygomb üdvözlő ajándékot jováírtuk a számládon." />
+		<text id="dialogs_pesentreceived_title" name="Hurrá!" />
+		<text id="dialogs_pesentreminder_send" name="Küldés" />
+		<text id="dialogs_pesentreminder_text1" name="Üdvözlő ajándékként {0} aranygomb vár rád.
+Az üdvözlő mailre kattintva a tied lehet!" />
+		<text id="dialogs_pesentreminder_text2" name="Egy e-mailt kérhetsz újra." />
+		<text id="dialogs_pesentreminder_title" name="Üdvözlő ajándék!" />
+		<text id="dialogs_receivecomeback_copy_0" name="Üdvözletként kapsz {0} aranygomobot és egy szuper jó gyorsítót!" />
+		<text id="dialogs_receivecomeback_copy_1" name="Üdvözletként kapsz {0} aranygombot és egy áruházi őrt {1}ig!" />
+		<text id="dialogs_receivecomeback_title" name="Itt vagy újra!" />
+		<text id="dialogs_receivecop_copy" name="A gyakornok elkezdett dolgozni és meghosszabbítja az őröd idejét\n1órával!" />
+		<text id="dialogs_receivecop_title" name="Felvetted!" />
+		<text id="dialogs_receiveitem_copy" name="Jutalmad az ajándékdobozodban van!" />
+		<text id="dialogs_receiveitem_title" name="Hurrá!" />
+		<text id="dialogs_receivemoney_copy" name="Ajándékodat már jóváírták!" />
+		<text id="dialogs_receivemoney_title" name="Hurrá!" />
+		<text id="dialogs_register_agb" name="ÁSZF elfogadása" />
+		<text id="dialogs_register_btnsave" name="Mentés" />
+		<text id="dialogs_register_copy_0" name="Ingyenesen regisztrálhatod magad!" />
+		<text id="dialogs_register_copy_1" name="Mentsd a játékodat!" />
+		<text id="dialogs_register_copy_2" name="Ha bejelentkezel, e-mailen kapsz {0} aranygombot üdvözlő ajándékként." />
+		<text id="dialogs_register_email" name="E-mail" />
+		<text id="dialogs_register_forfree" name="INGYENES!" />
+		<text id="dialogs_register_password" name="Jelszó" />
+		<text id="dialogs_register_title" name="Regisztrálás" />
+		<text id="dialogs_robberyall_copy" name="Ellopták az összes árudat!" />
+		<text id="dialogs_robbery_copy" name="Lopás történt!" />
+		<text id="dialogs_robbery_copy2" name="Az elkészült árut tedd a polcra,\nvagy vegyél fel egy áruházi őrt, aki megvédi az árudat a tolvajok ellen." />
+		<text id="dialogs_robbery_title" name="LOPÁS!" />
+		<text id="dialogs_sale_copy" name="Kattints a Sale táblára a polcon, hogy az árut akciósan adhasd el.\nAz ára olcsóbb lesz és a boltod kedveltsége nő.\nAz akciónak akkor lesz vége, ha a polcod kiürül." />
+		<text id="dialogs_sale_title" name="Sale" />
+		<text id="dialogs_shippingconfirmation_send" name="Az üdvözlő ajándékodat éppen most küldtük el neked.
 
-Úgy tudod elhozni, ha rákattintasz az üdvözlő mailben található linkre."  />
-			<text id="dialogs_shippingconfirmation_titel" name="Ajándék!"  />
-			<text id="dialogs_staff_btnfire" name="Elbocsátás"  />
-			<text id="dialogs_staff_btnhire" name="Felvétel"  />
-			<text id="dialogs_staff_title" name="A pénztárosaid"  />
-			<text id="dialogs_wheeloffortune_beforespin" name="Forgasd meg a szerencsekereket és szerezz szuper nyereményeket!"  />
-			<text id="dialogs_wheeloffortune_btn_go" name="Forgasd meg!"  />
-			<text id="dialogs_wheeloffortune_btn_towheel" name="Szerencsekerék"  />
-			<text id="dialogs_wheeloffortune_copy1" name="Ma már szerencsét próbáltál?"  />
-			<text id="dialogs_wheeloffortune_info" name="Egy forgatás egy nap ingyenes!"  />
-			<text id="dialogs_wheeloffortune_nomoney" name="Nincs elég arany gombod, hogy a szerencsekereket megforgasd."  />
-			<text id="dialogs_wheeloffortune_noregister" name="Csak regisztrált játékosként forgathatod meg a szerencsekereket."  />
-			<text id="dialogs_wheeloffortune_nospace" name="Nincs helyed a nyereményed számára az ajándékok között. Csinálj rendet és megforgathatod a szerencsekereket!"  />
-			<text id="dialogs_wheeloffortune_title" name="Szerencsekerék!"  />
-			<text id="dialogs_wheeloffortune_tryagain" name="Próbálj rögtön újra szerencsét!"  />
-			<text id="dialogs_wheeloffortune_woncash" name="Gratulálunk! A nyereményedet jóvá írtuk."  />
-			<text id="dialogs_wheeloffortune_woncloth" name="Gratulálunk! A nyereményedet az ajándékaid között találod."  />
-			<text id="dialogs_wheeloffortune_wonitem" name="Gratulálunk! A nyereményedet az ajándékaid között találod."  />
-		</dialogs>
-		<error_codes>
-			<text id="error_advertisement_nolevel" name="Legalább a {0}. szintet el kell érned ahhoz, hogy reklámozhasd a boltodat."  />
-			<text id="error_advertisement_nomoney" name="Nincs elég aranygombod/Fashiondollárod, hogy ezt az akciót kihasználhasd."  />
-			<text id="error_avatar_12" name="A név már foglalt."  />
-			<text id="error_avatar_15" name="A felhasználónak van már egy avatarja."  />
-			<text id="error_avatar_genderempty" name="Válassz karaktert!"  />
-			<text id="error_avatar_nameinvalide" name="Felhasználói neved helye nem lehet üres, nem tartalmazhat különleges jeleket sem."  />
-			<text id="error_avatar_standardname" name="Add meg a felhasználónevet"  />
-			<text id="error_boost_nomoney" name="Ezt a gyorsítót nem engedheted meg magadnak."  />
-			<text id="error_cancleproduction_36" name="A polc nem elérhető! Néhány dolgot át kell helyezned."  />
-			<text id="error_changepassword_0" name="Jelszavadat sikeresen megváltoztattad!"  />
-			<text id="error_changepassword_10" name="A régi jelszódat nem jól írtad be!"  />
-			<text id="error_changepassword_copy" name="Az új jelszavad 2 karakternél hosszabb kell hogy legyen. Figyelj, hogy a régi jelszavadat helyesen add meg."  />
-			<text id="error_changepassword_title" name="Jelszóváltoztatás"  />
-			<text id="error_chat_23" name="A chat-funkciódat az adminisztrátor átmenetileg szünetelteti."  />
-			<text id="error_chat_24" name="Ne spammelj a chatelés közben!"  />
-			<text id="error_common_1" name="Általános hiba/nSzerverkommando {0}"  />
-			<text id="error_common_3" name="- DEBUG: Túl alacsony szint -"  />
-			<text id="error_common_30" name="-DEBUG: Kolléga/polc nincs-"  />
-			<text id="error_common_38" name="-DEBUG: Átépítés mód-"  />
-			<text id="error_common_5" name="- DEBUG: Ismeretlen WodId -"  />
-			<text id="error_common_80" name="-DEBUG: Útvonalszámítás. Késés túl hosszú-"  />
-			<text id="error_common_81" name="-DEBUG: Útvonalszámítás. Késés negatív-"  />
-			<text id="error_common_title" name="Figyelem!"  />
-			<text id="error_coop_3" name="A szinted túl alacsony, nem tudsz résztvenni ebben az együttműködésben.\n Fontos hogy legalább egy szükséges szabásmintád legyen érvényes."  />
-			<text id="error_coop_90" name="Már részt veszel egy együttműködésben."  />
-			<text id="error_coop_91" name="Elérted az együttműködések maximális számát."  />
-			<text id="error_coop_92" name="Az együttműködés kész!"  />
-			<text id="error_coop_93" name="Ma már elkezdtél egy együttműködést! Csak holnap indíthatsz újat!"  />
-			<text id="error_coop_nomoney" name="Nincs elég Fashiondollárod ahhoz, hogy meghosszabbítsd ezt az együttműködést."  />
-			<text id="error_coop_title" name="Együttműködés"  />
-			<text id="error_customclothbuy_nomoney" name="Nincs elég aranygombod, hogy ezt a szabásmintát megvásárolhasd."  />
-			<text id="error_customclothproduce_nomoney" name="Nincs elég Fashiondollárod a szabásminta elkészítéséhez."  />
-			<text id="error_customclothunlock_nomoney" name="Nincs elég Fashiondollárod vagy aranygombod, hogy ezt a tárgyat elérhesd."  />
-			<text id="error_customize_nomoney" name="Nincs elég aranygombod ahhoz, hogy átöltöztesd az Avatarod."  />
-			<text id="error_custom_nameinvalide" name="Nem használhatod fel: {0}"  />
-			<text id="error_deliverinfo_33" name="-DEBUG: A termék még nem kész-"  />
-			<text id="error_deliverinfo_35" name="-DEBUG: A kolléga nem készített el semmit-"  />
-			<text id="error_deliverinfo_36" name="Ez a kolléga nem érhető el. Rendezd át a boltodat úgy, hogy a kollégának legalább egyik oldala hozzáférhető legyen."  />
-			<text id="error_deliverinfo_37" name="Sajnos nincs szabad polcod, hogy az árudat elhelyezhesd."  />
-			<text id="error_deliver_33" name="-DEBUG: A termék még nem kész-"  />
-			<text id="error_deliver_35" name="-DEBUG: A kolléga nem készített el semmit-"  />
-			<text id="error_deliver_36" name="Ez a polc nem érhető el. Rendezd át az üzletet úgy, hogy legalább a polc egyik oldala hozzáférhető legyen."  />
-			<text id="error_deliver_37" name="Ez a polc sajnos már tele van. Keress egy üres polcot és ott állítsd ki az árut."  />
-			<text id="error_deliver_46" name="Ezt az árut nem tudod felakasztani. Keress egy polcot, ahova elhelyezheted."  />
-			<text id="error_deliver_title" name="Nem megy..."  />
-			<text id="error_editmode_3" name="-DEBUG: Min. szintet nem érted el-"  />
-			<text id="error_editmode_31" name="-DEBUG: A tárgy nem kijelölhető-"  />
-			<text id="error_editmode_32" name="-DEBUG: A tárgy nincs raktáron-"  />
-			<text id="error_editmode_37" name="-DEBUG: A termék még rajta van-"  />
-			<text id="error_editmode_39" name="-DEBUG: Ismeretlen pozíció-"  />
-			<text id="error_editmode_48" name="-DEBUG: Motiválatlan kolléga nem tárolható-"  />
-			<text id="error_editmode_50" name="-DEBUG: A pozíció blokkolva-"  />
-			<text id="error_editmode_51" name="-DEBUG: A pozíció üres-"  />
-			<text id="error_editmode_52" name="-DEBUG: A tárgy nem forgatható-"  />
-			<text id="error_editmode_53" name="-DEBUG: Van már ilyen bővítésed-"  />
-			<text id="error_editmode_54" name="-DEBUG: Ezt a bővítést még nem veheted meg-"  />
-			<text id="error_editmode_55" name="-DEBUG: A kirakati baba nem eladható/tárolható-"  />
-			<text id="error_editmode_nomoney" name="Sajnos ezt az árucikket nem engedheted meg magadnak."  />
-			<text id="error_editmode_removeMannequin" name="Amíg a baba hordja az árut, nem tudod eladni."  />
-			<text id="error_editmode_removeminCashdesk" name="Legalább egy pénztár kell, hogy a vásárlók az árukat ki tudják fizetni."  />
-			<text id="error_editmode_removeminChangingroom" name="Legalább egy próbafülke kell, hogy a vevőid az árut felpróbálhassák."  />
-			<text id="error_editmode_removeminCounter" name="Szükséged van legalább egy polcra, hogy az árudat el tudd adni."  />
-			<text id="error_editmode_removeminFactory" name="Legalább egy kollégára van szükséged, hogy új árut készíthess."  />
-			<text id="error_editmode_removeminMannequin" name="Legalább egy kirakati baba kell, hogy az árudat bemutathasd."  />
-			<text id="error_editmode_removenotallowedCounter" name="A polcon még van áru!"  />
-			<text id="error_editmode_removenotallowedDoor" name="Szükséged van egy ajtóra! Az ajtó cseréjéhez húzz be egy másikat a boltodba."  />
-			<text id="error_editmode_removenotallowedFactory" name="A kolléga még nincs kész!"  />
-			<text id="error_editmode_title" name="Átépítésnél hiba történt"  />
-			<text id="error_fashiongame_1" name="Az üzletet nem lehetett letölteni. Kérlek fordulj a Goodgame Studio Supportjához."  />
-			<text id="error_fashiongame_title" name="Komoly hiba"  />
-			<text id="error_forgotpassword_101" name="Az e-mailek fogadását leállítottad. Jelentkezz a supportnál."  />
-			<text id="error_fullscreen_copy" name="A teljes képernyő mód sajnos nem lehetséges."  />
-			<text id="error_fullscreen_title" name="Teljes képernyő mód"  />
-			<text id="error_gift_20" name="Sajnos nincs szabad polcod, hogy az ajándékodat elhelyezhesd."  />
-			<text id="error_gift_34" name="Az ajándékozás határát elérted. Szeretnél {0}t {1} aranygombért felhasználni?"  />
-			<text id="error_gift_37" name="Sajnos nincs szabad polcod, hogy az ajándékodat elhelyezhesd."  />
-			<text id="error_gift_nomoney" name="Nincs elég aranygombod, hogy még több ajándékot felhasználhass."  />
-			<text id="error_gift_title" name="Ajándékok"  />
-			<text id="error_instantdesign_34" name="- DEBUG: Elérted a napi határt -"  />
-			<text id="error_instantdesign_nomoney" name="Nincs elég aranygombod ahhoz, hogy a kirakati babát időben átöltöztethesd."  />
-			<text id="error_instantdesign_nomoreinstant" name="A kirakati babáidat csak korlátozott számban öltöztetheted át idő előtt. Holnap ismét átrendezheted a kirakatodat."  />
-			<text id="error_instantdesign_title" name="Kirakat"  />
-			<text id="error_instantwork_nomoney" name="Nincs elég aranygombod ahhoz, hogy a terméket azonnal elkészítsd."  />
-			<text id="error_invitefriend_11" name="A játékos jelenleg nincs online. Próbálkozz később!"  />
-			<text id="error_invitefriend_13" name="A barátod már regisztrált a Fashion-nál!"  />
-			<text id="error_invitefriend_14" name="Az e-mail cím sajnos nem érvényes"  />
-			<text id="error_invitefriend_70" name="Elérted a barátaid maximális számát."  />
-			<text id="error_invitefriend_71" name="A játékosnak nem lehet több barátja."  />
-			<text id="error_invitefriend_title" name="Sikertelen meghívó"  />
-			<text id="error_job_2" name="Lejárt a munkaidő! Már eleget dolgoztál!"  />
-			<text id="error_join_20" name="Az üzlet tele van, próbáld meg később újra."  />
-			<text id="error_join_21" name="-DEBUG: Már van a boltban-"  />
-			<text id="error_join_22" name="-DEBUG: Ismeretlen bolt"  />
-			<text id="error_join_title" name="Belépés a boltba"  />
-			<text id="error_login_10" name="A felhasználónév vagy a jelszó hibás!"  />
-			<text id="error_login_11" name="A felhasználónév vagy a jelszó hibás!"  />
-			<text id="error_login_12" name="A felhasználó már bejelentkezett"  />
-			<text id="error_login_13" name="A felhasználó már bejelentkezett"  />
-			<text id="error_login_14" name="A felhasználónév vagy a jelszó hibás!"  />
-			<text id="error_login_15" name="Már bejelentkeztél"  />
-			<text id="error_login_16" name="Az Avatar hibás. Kérj tanácsot."  />
-			<text id="error_lostpassword_101" name="Az e-mailek fogadását letiltottad. Kattints az ok-ra és engedélyezd újra."  />
-			<text id="error_lostpassword_11" name="Ezen a címen nincs regisztrált játékos!"  />
-			<text id="error_marketplace_20" name="-DEBUG: Az árkád sajnos már tele van-"  />
-			<text id="error_marketplace_21" name="-DEBUG: Már az árkádban vagy-"  />
-			<text id="error_marketplace_title" name="Goodgame árkád"  />
-			<text id="error_nocustomclothselected" name="Először válassz ki egy formát, ha készíteni akarsz valamit."  />
-			<text id="error_nomoney_copy" name="Ezt sajnos nem engedheted meg magadnak."  />
-			<text id="error_nomoney_guest_copy" name="Le vagy égve?\nAkkor gyorsan regisztrálj és  szerezz {0} Fashiondollárt!"  />
-			<text id="error_nomoney_title" name="Pénzhiány"  />
-			<text id="error_npchire_nomoney" name="Nincs elég aranygombod ahhoz, hogy új péntárost alakalmazzál."  />
-			<text id="error_patternshop_44" name="Ez a szabásminta már megvan neked."  />
-			<text id="error_patternshop_5" name="-DEBUG: WOD unbekannt-"  />
-			<text id="error_patternshop_nomoney" name="Sajnos az új szabásmintát nem engedheted meg magadnak."  />
-			<text id="error_patternshop_title" name="Szabásminta probléma"  />
-			<text id="error_police_nomoney" name="Nincs elég aranygombod ahhoz, hogy felvegyél egy áruházi őrt."  />
-			<text id="error_register_10" name="A jelszó, amit megadtál, nem érvényes."  />
-			<text id="error_register_102" name="A megadott e-mail cím nem érvényes."  />
-			<text id="error_register_13" name="Ezen az e-mail címen már bejelentkezett egy játékos."  />
-			<text id="error_register_14" name="Az e-mail cím, amit megadtál nem jó."  />
-			<text id="error_register_19" name="Az email címed sajnos túl hosszú."  />
-			<text id="error_register_2" name="Az e-mail címedet már megadtad."  />
-			<text id="error_register_agb" name="Az ÁSZF nélkül nem megy. Csak olvasd el, a gombbal igazold és már mehet is!"  />
-			<text id="error_register_emailinvalide" name="Az e-mail címet nem hagyhatod üresen és nem használhatsz különleges jeleket."  />
-			<text id="error_register_passwordinvalide" name="Jelszavad helyét nem hagyhatod üresen, nem tartalmazhat különleges jeleket sem."  />
-			<text id="error_register_title" name="Regisztrálási hiba"  />
-			<text id="error_repair_36" name="-DEBUG: A kolléga nem elérhető-"  />
-			<text id="error_repair_48" name="-DEBUG: A kollégád már 100%-an motivált-"  />
-			<text id="error_repair_nomoney" name="Nincs elég Fashiondollárod ahhoz, hogy bónusz fizetést adjál."  />
-			<text id="error_repair_title" name="Javítás"  />
-			<text id="error_sale_47" name="Ezen a polcon nincs áru!"  />
-			<text id="error_sale_title" name="Különleges ajánlat!"  />
-			<text id="error_walk_23" name="-DEBUG: Ez az állás nem érhető el-"  />
-			<text id="error_work_31" name="-DEBUG: A kolléga már dolgozik!-"  />
-			<text id="error_work_32" name="-DEBUG: Ehhez a termékhez szükség van egy szabásmintára -"  />
-			<text id="error_work_36" name="A kollégához vezető út le van zárva! Rendezd át a dekorációt."  />
-			<text id="error_work_41" name="- DEBUG: Nincs raktáron gyorsító -"  />
-			<text id="error_work_45" name="-DEBUG: A termék és kolléga típusa nem egyeztethető össze-"  />
-			<text id="error_work_49" name="- DEBUG: Hibás gyorsító ehhez a kollégához -"  />
-			<text id="error_work_67" name="A szabásminta már nem elérhető. Készíts újat!"  />
-			<text id="error_work_nomoney" name="Nincs elég Fashiondollárod ahhoz, hogy elkezdd a termelést."  />
-			<text id="error_work_title" name="Munkakerülés"  />
-		</error_codes>
-		<feature>
-			<text id="feature_0_text_0" name="Itt az idő!\n\nGoodgame Fashion hivatalosan is elindult BETA verzióban.\nMindenki az első szintről indul, megkapja a jóváírt aranygombjait és további 10 bónusz aranygombot köszönetképp.\n\nJó szórakozást a Goodgame Fashionnel!"  />
-			<text id="feature_0_title" name="Hivatalos kezdés!"  />
-			<text id="feature_10_text_0" name="Legyél nyáriasan könnyed!
-Itt az új GeeDee kollekció!"  />
-			<text id="feature_1_text_0" name="Fogj össze a barátaiddal!\nFedezd fel az együttműködéseket."  />
-			<text id="feature_2_text_0" name="Fedezd fel az új polcokat, próbafülkéket és pénztárakat!"  />
-			<text id="feature_2_text_1" name="Az öltözés sosem volt ennyire egyszerű! Kattints a karakteredre."  />
-			<text id="feature_2_text_2" name="Élvezd a Fashiont most hangokkal!"  />
-			<text id="feature_3_text_0" name="Itt a tavasz! 
-Az új szabásmintákkal hozz új színeket a boltodba!"  />
-			<text id="feature_3_text_1" name="Az új etikettekkel az árud nagyobb nyereséget hoz!"  />
-			<text id="feature_4_text_0" name="Színes!
-Az új JayJay kollekció új színt hoz a boltoba."  />
-			<text id="feature_4_text_1" name="Fedezd fel az új polcokat, próbafülkéket és pénztárakat."  />
-			<text id="feature_4_text_2" name="Az új tavaszi kabát megéri az árát!"  />
-			<text id="feature_4_text_3" name="Segíts a barátaidnak és jutalmat kapsz!"  />
-			<text id="feature_5_text_0" name="Legyen színes! Az új JayJay kollekció színt hoz az üzletedbe!"  />
-			<text id="feature_5_text_1" name="Fedezd fel az új polcokat, próbafülkéket és pénztárakat!"  />
-			<text id="feature_5_text_2" name="A tavaszi kabátka megéri az árát!"  />
-			<text id="feature_5_text_3" name="Segíts a barátaidnak, megéri."  />
-			<text id="feature_6_text_0" name="Légy divattervező és készíts saját szabásmintát!"  />
-			<text id="feature_6_text_1" name="Fedezd fel a boltod új kirakatát!"  />
-			<text id="feature_7_text_0" name="Szerencsés vagy?
-Az árkádban a szerencsekeréken kipróbálhatod."  />
-			<text id="feature_8_text_0" name="Emeld a boltod kedveltségét és növeld az értékét luxus bútorokkal és dekorációkkal."  />
-			<text id="feature_8_text_1" name="Nyűgözd le a vevőidet új polcokkal, próbafülkékkel és a pénztárral."  />
-			<text id="feature_9_text_0" name="Növeld reklámmal a boltod kedveltségét és keress extra XP-t!"  />
-			<text id="feature_9_text_1" name="Tégy a polcra még több ajándékot!"  />
-			<text id="feature_title" name="Új lehetőségek"  />
-		</feature>
-		<feeds>
-			<text id="descriptionfashionfeed" name="Éppen most telepítettem a Goodgame Fashiont. Szeretnél te is egy Fashion boltot nyitni és divattervező lenni? Gyere és nézz be hozzám!"  />
-			<text id="descriptionlongfashion" name="Nyiss saját üzletet a Goodgame Fashionben. Légy elismert divattervező, vásárolj új snitteket, készíts egyéni ruhákat és irányítsd a divatot. Rendezd be az üzletedet és légy a divatvilág újabb sztárja."  />
-		</feeds>
-		<forumaction>
-			<text id="forumaction_copy_1" name="Tervezd meg a saját fürdőruhádat és nyerj!
+Úgy tudod elhozni, ha rákattintasz az üdvözlő mailben található linkre." />
+		<text id="dialogs_shippingconfirmation_titel" name="Ajándék!" />
+		<text id="dialogs_staff_btnfire" name="Elbocsátás" />
+		<text id="dialogs_staff_btnhire" name="Felvétel" />
+		<text id="dialogs_staff_title" name="A pénztárosaid" />
+		<text id="dialogs_wheeloffortune_beforespin" name="Forgasd meg a szerencsekereket és szerezz szuper nyereményeket!" />
+		<text id="dialogs_wheeloffortune_btn_go" name="Forgasd meg!" />
+		<text id="dialogs_wheeloffortune_btn_towheel" name="Szerencsekerék" />
+		<text id="dialogs_wheeloffortune_copy1" name="Ma már szerencsét próbáltál?" />
+		<text id="dialogs_wheeloffortune_info" name="Egy forgatás egy nap ingyenes!" />
+		<text id="dialogs_wheeloffortune_nomoney" name="Nincs elég arany gombod, hogy a szerencsekereket megforgasd." />
+		<text id="dialogs_wheeloffortune_noregister" name="Csak regisztrált játékosként forgathatod meg a szerencsekereket." />
+		<text id="dialogs_wheeloffortune_nospace" name="Nincs helyed a nyereményed számára az ajándékok között. Csinálj rendet és megforgathatod a szerencsekereket!" />
+		<text id="dialogs_wheeloffortune_title" name="Szerencsekerék!" />
+		<text id="dialogs_wheeloffortune_tryagain" name="Próbálj rögtön újra szerencsét!" />
+		<text id="dialogs_wheeloffortune_woncash" name="Gratulálunk! A nyereményedet jóvá írtuk." />
+		<text id="dialogs_wheeloffortune_woncloth" name="Gratulálunk! A nyereményedet az ajándékaid között találod." />
+		<text id="dialogs_wheeloffortune_wonitem" name="Gratulálunk! A nyereményedet az ajándékaid között találod." />
+	</dialogs>
+	<error_codes>
+		<text id="error_advertisement_nolevel" name="Legalább a {0}. szintet el kell érned ahhoz, hogy reklámozhasd a boltodat." />
+		<text id="error_advertisement_nomoney" name="Nincs elég aranygombod/Fashiondollárod, hogy ezt az akciót kihasználhasd." />
+		<text id="error_avatar_12" name="A név már foglalt." />
+		<text id="error_avatar_15" name="A felhasználónak van már egy avatarja." />
+		<text id="error_avatar_genderempty" name="Válassz karaktert!" />
+		<text id="error_avatar_nameinvalide" name="Felhasználói neved helye nem lehet üres, nem tartalmazhat különleges jeleket sem." />
+		<text id="error_avatar_standardname" name="Add meg a felhasználónevet" />
+		<text id="error_boost_nomoney" name="Ezt a gyorsítót nem engedheted meg magadnak." />
+		<text id="error_cancleproduction_36" name="A polc nem elérhető! Néhány dolgot át kell helyezned." />
+		<text id="error_changepassword_0" name="Jelszavadat sikeresen megváltoztattad!" />
+		<text id="error_changepassword_10" name="A régi jelszódat nem jól írtad be!" />
+		<text id="error_changepassword_copy" name="Az új jelszavad 2 karakternél hosszabb kell hogy legyen. Figyelj, hogy a régi jelszavadat helyesen add meg." />
+		<text id="error_changepassword_title" name="Jelszóváltoztatás" />
+		<text id="error_chat_23" name="A chat-funkciódat az adminisztrátor átmenetileg szünetelteti." />
+		<text id="error_chat_24" name="Ne spammelj a chatelés közben!" />
+		<text id="error_common_1" name="Általános hiba/nSzerverkommando {0}" />
+		<text id="error_common_3" name="- DEBUG: Túl alacsony szint -" />
+		<text id="error_common_30" name="-DEBUG: Kolléga/polc nincs-" />
+		<text id="error_common_38" name="-DEBUG: Átépítés mód-" />
+		<text id="error_common_5" name="- DEBUG: Ismeretlen WodId -" />
+		<text id="error_common_80" name="-DEBUG: Útvonalszámítás. Késés túl hosszú-" />
+		<text id="error_common_81" name="-DEBUG: Útvonalszámítás. Késés negatív-" />
+		<text id="error_common_title" name="Figyelem!" />
+		<text id="error_coop_3" name="A szinted túl alacsony, nem tudsz résztvenni ebben az együttműködésben.\n Fontos hogy legalább egy szükséges szabásmintád legyen érvényes." />
+		<text id="error_coop_90" name="Már részt veszel egy együttműködésben." />
+		<text id="error_coop_91" name="Elérted az együttműködések maximális számát." />
+		<text id="error_coop_92" name="Az együttműködés kész!" />
+		<text id="error_coop_93" name="Ma már elkezdtél egy együttműködést! Csak holnap indíthatsz újat!" />
+		<text id="error_coop_nomoney" name="Nincs elég Fashiondollárod ahhoz, hogy meghosszabbítsd ezt az együttműködést." />
+		<text id="error_coop_title" name="Együttműködés" />
+		<text id="error_customclothbuy_nomoney" name="Nincs elég aranygombod, hogy ezt a szabásmintát megvásárolhasd." />
+		<text id="error_customclothproduce_nomoney" name="Nincs elég Fashiondollárod a szabásminta elkészítéséhez." />
+		<text id="error_customclothunlock_nomoney" name="Nincs elég Fashiondollárod vagy aranygombod, hogy ezt a tárgyat elérhesd." />
+		<text id="error_customize_nomoney" name="Nincs elég aranygombod ahhoz, hogy átöltöztesd az Avatarod." />
+		<text id="error_custom_nameinvalide" name="Nem használhatod fel: {0}" />
+		<text id="error_deliverinfo_33" name="-DEBUG: A termék még nem kész-" />
+		<text id="error_deliverinfo_35" name="-DEBUG: A kolléga nem készített el semmit-" />
+		<text id="error_deliverinfo_36" name="Ez a kolléga nem érhető el. Rendezd át a boltodat úgy, hogy a kollégának legalább egyik oldala hozzáférhető legyen." />
+		<text id="error_deliverinfo_37" name="Sajnos nincs szabad polcod, hogy az árudat elhelyezhesd." />
+		<text id="error_deliver_33" name="-DEBUG: A termék még nem kész-" />
+		<text id="error_deliver_35" name="-DEBUG: A kolléga nem készített el semmit-" />
+		<text id="error_deliver_36" name="Ez a polc nem érhető el. Rendezd át az üzletet úgy, hogy legalább a polc egyik oldala hozzáférhető legyen." />
+		<text id="error_deliver_37" name="Ez a polc sajnos már tele van. Keress egy üres polcot és ott állítsd ki az árut." />
+		<text id="error_deliver_46" name="Ezt az árut nem tudod felakasztani. Keress egy polcot, ahova elhelyezheted." />
+		<text id="error_deliver_title" name="Nem megy..." />
+		<text id="error_editmode_3" name="-DEBUG: Min. szintet nem érted el-" />
+		<text id="error_editmode_31" name="-DEBUG: A tárgy nem kijelölhető-" />
+		<text id="error_editmode_32" name="-DEBUG: A tárgy nincs raktáron-" />
+		<text id="error_editmode_37" name="-DEBUG: A termék még rajta van-" />
+		<text id="error_editmode_39" name="-DEBUG: Ismeretlen pozíció-" />
+		<text id="error_editmode_48" name="-DEBUG: Motiválatlan kolléga nem tárolható-" />
+		<text id="error_editmode_50" name="-DEBUG: A pozíció blokkolva-" />
+		<text id="error_editmode_51" name="-DEBUG: A pozíció üres-" />
+		<text id="error_editmode_52" name="-DEBUG: A tárgy nem forgatható-" />
+		<text id="error_editmode_53" name="-DEBUG: Van már ilyen bővítésed-" />
+		<text id="error_editmode_54" name="-DEBUG: Ezt a bővítést még nem veheted meg-" />
+		<text id="error_editmode_55" name="-DEBUG: A kirakati baba nem eladható/tárolható-" />
+		<text id="error_editmode_nomoney" name="Sajnos ezt az árucikket nem engedheted meg magadnak." />
+		<text id="error_editmode_removeMannequin" name="Amíg a baba hordja az árut, nem tudod eladni." />
+		<text id="error_editmode_removeminCashdesk" name="Legalább egy pénztár kell, hogy a vásárlók az árukat ki tudják fizetni." />
+		<text id="error_editmode_removeminChangingroom" name="Legalább egy próbafülke kell, hogy a vevőid az árut felpróbálhassák." />
+		<text id="error_editmode_removeminCounter" name="Szükséged van legalább egy polcra, hogy az árudat el tudd adni." />
+		<text id="error_editmode_removeminFactory" name="Legalább egy kollégára van szükséged, hogy új árut készíthess." />
+		<text id="error_editmode_removeminMannequin" name="Legalább egy kirakati baba kell, hogy az árudat bemutathasd." />
+		<text id="error_editmode_removenotallowedCounter" name="A polcon még van áru!" />
+		<text id="error_editmode_removenotallowedDoor" name="Szükséged van egy ajtóra! Az ajtó cseréjéhez húzz be egy másikat a boltodba." />
+		<text id="error_editmode_removenotallowedFactory" name="A kolléga még nincs kész!" />
+		<text id="error_editmode_title" name="Átépítésnél hiba történt" />
+		<text id="error_fashiongame_1" name="Az üzletet nem lehetett letölteni. Kérlek fordulj a Goodgame Studio Supportjához." />
+		<text id="error_fashiongame_title" name="Komoly hiba" />
+		<text id="error_forgotpassword_101" name="Az e-mailek fogadását leállítottad. Jelentkezz a supportnál." />
+		<text id="error_fullscreen_copy" name="A teljes képernyő mód sajnos nem lehetséges." />
+		<text id="error_fullscreen_title" name="Teljes képernyő mód" />
+		<text id="error_gift_20" name="Sajnos nincs szabad polcod, hogy az ajándékodat elhelyezhesd." />
+		<text id="error_gift_34" name="Az ajándékozás határát elérted. Szeretnél {0}t {1} aranygombért felhasználni?" />
+		<text id="error_gift_37" name="Sajnos nincs szabad polcod, hogy az ajándékodat elhelyezhesd." />
+		<text id="error_gift_nomoney" name="Nincs elég aranygombod, hogy még több ajándékot felhasználhass." />
+		<text id="error_gift_title" name="Ajándékok" />
+		<text id="error_instantdesign_34" name="- DEBUG: Elérted a napi határt -" />
+		<text id="error_instantdesign_nomoney" name="Nincs elég aranygombod ahhoz, hogy a kirakati babát időben átöltöztethesd." />
+		<text id="error_instantdesign_nomoreinstant" name="A kirakati babáidat csak korlátozott számban öltöztetheted át idő előtt. Holnap ismét átrendezheted a kirakatodat." />
+		<text id="error_instantdesign_title" name="Kirakat" />
+		<text id="error_instantwork_nomoney" name="Nincs elég aranygombod ahhoz, hogy a terméket azonnal elkészítsd." />
+		<text id="error_invitefriend_11" name="A játékos jelenleg nincs online. Próbálkozz később!" />
+		<text id="error_invitefriend_13" name="A barátod már regisztrált a Fashion-nál!" />
+		<text id="error_invitefriend_14" name="Az e-mail cím sajnos nem érvényes" />
+		<text id="error_invitefriend_70" name="Elérted a barátaid maximális számát." />
+		<text id="error_invitefriend_71" name="A játékosnak nem lehet több barátja." />
+		<text id="error_invitefriend_title" name="Sikertelen meghívó" />
+		<text id="error_job_2" name="Lejárt a munkaidő! Már eleget dolgoztál!" />
+		<text id="error_join_20" name="Az üzlet tele van, próbáld meg később újra." />
+		<text id="error_join_21" name="-DEBUG: Már van a boltban-" />
+		<text id="error_join_22" name="-DEBUG: Ismeretlen bolt" />
+		<text id="error_join_title" name="Belépés a boltba" />
+		<text id="error_login_10" name="A felhasználónév vagy a jelszó hibás!" />
+		<text id="error_login_11" name="A felhasználónév vagy a jelszó hibás!" />
+		<text id="error_login_12" name="A felhasználó már bejelentkezett" />
+		<text id="error_login_13" name="A felhasználó már bejelentkezett" />
+		<text id="error_login_14" name="A felhasználónév vagy a jelszó hibás!" />
+		<text id="error_login_15" name="Már bejelentkeztél" />
+		<text id="error_login_16" name="Az Avatar hibás. Kérj tanácsot." />
+		<text id="error_lostpassword_101" name="Az e-mailek fogadását letiltottad. Kattints az ok-ra és engedélyezd újra." />
+		<text id="error_lostpassword_11" name="Ezen a címen nincs regisztrált játékos!" />
+		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
+		<text id="error_marketplace_20" name="-DEBUG: Az árkád sajnos már tele van-" />
+		<text id="error_marketplace_21" name="-DEBUG: Már az árkádban vagy-" />
+		<text id="error_marketplace_title" name="Goodgame árkád" />
+		<text id="error_nocustomclothselected" name="Először válassz ki egy formát, ha készíteni akarsz valamit." />
+		<text id="error_nomoney_copy" name="Ezt sajnos nem engedheted meg magadnak." />
+		<text id="error_nomoney_guest_copy" name="Le vagy égve?\nAkkor gyorsan regisztrálj és  szerezz {0} Fashiondollárt!" />
+		<text id="error_nomoney_title" name="Pénzhiány" />
+		<text id="error_npchire_nomoney" name="Nincs elég aranygombod ahhoz, hogy új péntárost alakalmazzál." />
+		<text id="error_patternshop_44" name="Ez a szabásminta már megvan neked." />
+		<text id="error_patternshop_5" name="-DEBUG: WOD unbekannt-" />
+		<text id="error_patternshop_nomoney" name="Sajnos az új szabásmintát nem engedheted meg magadnak." />
+		<text id="error_patternshop_title" name="Szabásminta probléma" />
+		<text id="error_police_nomoney" name="Nincs elég aranygombod ahhoz, hogy felvegyél egy áruházi őrt." />
+		<text id="error_register_10" name="A jelszó, amit megadtál, nem érvényes." />
+		<text id="error_register_102" name="A megadott e-mail cím nem érvényes." />
+		<text id="error_register_13" name="Ezen az e-mail címen már bejelentkezett egy játékos." />
+		<text id="error_register_14" name="Az e-mail cím, amit megadtál nem jó." />
+		<text id="error_register_19" name="Az email címed sajnos túl hosszú." />
+		<text id="error_register_2" name="Az e-mail címedet már megadtad." />
+		<text id="error_register_agb" name="Az ÁSZF nélkül nem megy. Csak olvasd el, a gombbal igazold és már mehet is!" />
+		<text id="error_register_emailinvalide" name="Az e-mail címet nem hagyhatod üresen és nem használhatsz különleges jeleket." />
+		<text id="error_register_passwordinvalide" name="Jelszavad helyét nem hagyhatod üresen, nem tartalmazhat különleges jeleket sem." />
+		<text id="error_register_title" name="Regisztrálási hiba" />
+		<text id="error_repair_36" name="-DEBUG: A kolléga nem elérhető-" />
+		<text id="error_repair_48" name="-DEBUG: A kollégád már 100%-an motivált-" />
+		<text id="error_repair_nomoney" name="Nincs elég Fashiondollárod ahhoz, hogy bónusz fizetést adjál." />
+		<text id="error_repair_title" name="Javítás" />
+		<text id="error_sale_47" name="Ezen a polcon nincs áru!" />
+		<text id="error_sale_title" name="Különleges ajánlat!" />
+		<text id="error_walk_23" name="-DEBUG: Ez az állás nem érhető el-" />
+		<text id="error_work_31" name="-DEBUG: A kolléga már dolgozik!-" />
+		<text id="error_work_32" name="-DEBUG: Ehhez a termékhez szükség van egy szabásmintára -" />
+		<text id="error_work_36" name="A kollégához vezető út le van zárva! Rendezd át a dekorációt." />
+		<text id="error_work_41" name="- DEBUG: Nincs raktáron gyorsító -" />
+		<text id="error_work_45" name="-DEBUG: A termék és kolléga típusa nem egyeztethető össze-" />
+		<text id="error_work_49" name="- DEBUG: Hibás gyorsító ehhez a kollégához -" />
+		<text id="error_work_67" name="A szabásminta már nem elérhető. Készíts újat!" />
+		<text id="error_work_nomoney" name="Nincs elég Fashiondollárod ahhoz, hogy elkezdd a termelést." />
+		<text id="error_work_title" name="Munkakerülés" />
+	</error_codes>
+	<feature>
+		<text id="feature_0_text_0" name="Itt az idő!\n\nGoodgame Fashion hivatalosan is elindult BETA verzióban.\nMindenki az első szintről indul, megkapja a jóváírt aranygombjait és további 10 bónusz aranygombot köszönetképp.\n\nJó szórakozást a Goodgame Fashionnel!" />
+		<text id="feature_0_title" name="Hivatalos kezdés!" />
+		<text id="feature_10_text_0" name="Legyél nyáriasan könnyed!
+Itt az új GeeDee kollekció!" />
+		<text id="feature_1_text_0" name="Fogj össze a barátaiddal!\nFedezd fel az együttműködéseket." />
+		<text id="feature_2_text_0" name="Fedezd fel az új polcokat, próbafülkéket és pénztárakat!" />
+		<text id="feature_2_text_1" name="Az öltözés sosem volt ennyire egyszerű! Kattints a karakteredre." />
+		<text id="feature_2_text_2" name="Élvezd a Fashiont most hangokkal!" />
+		<text id="feature_3_text_0" name="Itt a tavasz! 
+Az új szabásmintákkal hozz új színeket a boltodba!" />
+		<text id="feature_3_text_1" name="Az új etikettekkel az árud nagyobb nyereséget hoz!" />
+		<text id="feature_4_text_0" name="Színes!
+Az új JayJay kollekció új színt hoz a boltoba." />
+		<text id="feature_4_text_1" name="Fedezd fel az új polcokat, próbafülkéket és pénztárakat." />
+		<text id="feature_4_text_2" name="Az új tavaszi kabát megéri az árát!" />
+		<text id="feature_4_text_3" name="Segíts a barátaidnak és jutalmat kapsz!" />
+		<text id="feature_5_text_0" name="Legyen színes! Az új JayJay kollekció színt hoz az üzletedbe!" />
+		<text id="feature_5_text_1" name="Fedezd fel az új polcokat, próbafülkéket és pénztárakat!" />
+		<text id="feature_5_text_2" name="A tavaszi kabátka megéri az árát!" />
+		<text id="feature_5_text_3" name="Segíts a barátaidnak, megéri." />
+		<text id="feature_6_text_0" name="Légy divattervező és készíts saját szabásmintát!" />
+		<text id="feature_6_text_1" name="Fedezd fel a boltod új kirakatát!" />
+		<text id="feature_7_text_0" name="Szerencsés vagy?
+Az árkádban a szerencsekeréken kipróbálhatod." />
+		<text id="feature_8_text_0" name="Emeld a boltod kedveltségét és növeld az értékét luxus bútorokkal és dekorációkkal." />
+		<text id="feature_8_text_1" name="Nyűgözd le a vevőidet új polcokkal, próbafülkékkel és a pénztárral." />
+		<text id="feature_9_text_0" name="Növeld reklámmal a boltod kedveltségét és keress extra XP-t!" />
+		<text id="feature_9_text_1" name="Tégy a polcra még több ajándékot!" />
+		<text id="feature_title" name="Új lehetőségek" />
+	</feature>
+	<feeds>
+		<text id="descriptionfashionfeed" name="Éppen most telepítettem a Goodgame Fashiont. Szeretnél te is egy Fashion boltot nyitni és divattervező lenni? Gyere és nézz be hozzám!" />
+		<text id="descriptionlongfashion" name="Nyiss saját üzletet a Goodgame Fashionben. Légy elismert divattervező, vásárolj új snitteket, készíts egyéni ruhákat és irányítsd a divatot. Rendezd be az üzletedet és légy a divatvilág újabb sztárja." />
+	</feeds>
+	<forumaction>
+		<text id="forumaction_copy_1" name="Tervezd meg a saját fürdőruhádat és nyerj!
 A győztesre aranygombok várnak és a szabasmintád a minták között találod.
 
-Irány a fórum és nyerj!"  />
-			<text id="forumaction_title_1" name="Légy kreatív!"  />
-		</forumaction>
-		<loggedin_msg id=""  />
-		<panels>
-			<text id="panels_buddylist_morefriends" name="Több barát"  />
-			<text id="panels_login_email" name="Felhasználónév/e-mail cím"  />
-			<text id="panels_login_loginbtn" name="Belépés"  />
-			<text id="panels_login_lostpassword" name="Elfelejtett jelszó?"  />
-			<text id="panels_login_password" name="Jelszó"  />
-			<text id="panels_login_playbtn" name="JÁTSZHATSZ"  />
-			<text id="panels_login_registerbtn" name="REGISZTRÁLÁS"  />
-			<text id="panels_login_rememberpassword" name="Jelszómentés"  />
-			<text id="panels_social_alone" name="Jelenleg egyedül vagy itt!"  />
-			<text id="panels_social_bot" name="Fashion chat"  />
-			<text id="panels_social_chatblocked" name="Csak regisztrált, első szintű játékosok használhatják a chatet."  />
-			<text id="panels_social_come_in" name="belépett a boltba."  />
-			<text id="panels_social_go_out" name="elhagyta a boltot."  />
-			<text id="panels_social_nofriends" name="Még nincsenek barátaid!"  />
-			<text id="panels_social_welcome_market" name="Üdv a Goodgame árkádban!"  />
-			<text id="panels_social_welcome_myshop" name="Üdvözlet"  />
-		</panels>
-		<server>
-			<mail>
-				<text id="mail_invite_friend" name="Szia, %s!&lt;br /&gt;&lt;br /&gt;Éppen most fedeztem fel ezt remek online játékot, a &quot;Goodgame Fashion&quot;t.&lt;br /&gt;&lt;br /&gt;Ezen a linken közvetlenül eléred a játékot:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Jelentkezz be ezen a linken, hogy ingyenesen létrehozd a &quot;Goodgame Fashion&quot; boltodat.&lt;br /&gt;&lt;br /&gt;Megismerheted, hogy milyen érzés egy butikot vezetni. Készíts csinos ruhákat, kiegészítőket és cipőket, és add el őket a boltodban, amelyet a saját ízlésednek megfelelően rendezhetsz be.&lt;br /&gt;&lt;br /&gt;Jó szórakozást a  játékhoz. Üdv, %s"  />
-				<text id="mail_lost_pw" name="Szia, %s!&lt;br /&gt;&lt;br /&gt;Automatikus e-mailt kapsz, mivel egy új jelszót igényeltél.&lt;br /&gt;A jelszavad: %s&lt;br /&gt;&lt;br /&gt;Ezen a linken közvetlenül eléred a játékot:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Kérdéseddel, problémáddal fordulj hozzánk: support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;További jó szórakozást kívánunk a játékhoz!&lt;br /&gt;&lt;br /&gt;Abr /&gt;Goodgamestudios.com csapata"  />
-				<text id="mail_registration" name="Szia,&lt;br /&gt;&lt;br /&gt;Köszönjük a jelentkezésedet, üdvözlünk a &quot;Goodgame Fashion&quot; játékban.&lt;br /&gt;&lt;br /&gt;Bármikor  bejelentkezhetsz a következő adatokkal:&lt;br /&gt;E-mail: %s&lt;br /&gt;Jelszó: %s&lt;br /&gt;&lt;br /&gt;Ezen a linken közvetlenül eljuthatsz a játékhoz:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Kérdéseddel, problémáddal fordulj hozzánk: support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;További jó szórakozást kívánunk a játékhoz!&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Goodgamestudios.com csapata"  />
-			</mail>
-			<misc>
-				<text id="marketplace" name="Goodgame árkád"  />
-			</misc>
-		</server>
-		<server_msg>
-			<text id="server_msg_10" name="A szerver újra indul. Mindjárt megy tovább.\nNyomd meg az F5 gombot az oldal aktualizálásához."  />
-			<text id="server_msg_title" name="Szerverüzenet:"  />
-		</server_msg>
-		<std_buttons>
-			<text id="btn_addcurrency" name="Fashiondollár/aranygomb vásárlása"  />
-			<text id="btn_payment" name="Fashiondollár/aranygomb vásárlása"  />
-			<text id="btn_policeman" name="Áruházi őr"  />
-			<text id="btn_register" name="Regisztrálás"  />
-			<text id="btn_superrewardChips" name="Keress Fashiondollárt"  />
-			<text id="btn_superrewardGold" name="Aranygombot keresni"  />
-		</std_buttons>
-		<tooltips>
-			<text id="tooltip_Basic_Factory_Basicaccessoire" name="Ötvös"  />
-			<text id="tooltip_Basic_Factory_Basiccloth" name="Varrónő"  />
-			<text id="tooltip_Basic_Factory_Basicshoes" name="Cipész"  />
-			<text id="tooltip_counter_pieces" name="Szám: {0}"  />
-			<text id="tooltip_customcloth_icon" name="Lenyomat"  />
-			<text id="tooltip_customcloth_shape" name="Fórum"  />
-			<text id="tooltip_customcloth_unlock" name="Felhasználni"  />
-			<text id="tooltip_factory_empty" name="Készíts új árut"  />
-			<text id="tooltip_factory_preparestep1" name="Jelenlévő kolléga"  />
-			<text id="tooltip_factory_preparetitle" name="Kattintás:"  />
-			<text id="tooltip_factory_readytoserv" name="Áru elhelyezése"  />
-			<text id="tooltip_factory_readytoserv_amount" name="Szám: {0}"  />
-			<text id="tooltip_factory_wear" name="Motiváció: {0}%"  />
-			<text id="tooltip_FashionActionPanel_btn_achievements" name="Kitüntetés"  />
-			<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Aranygomb/Fashiondollár\nhozzáadása"  />
-			<text id="tooltip_FashionActionPanel_btn_advertisement" name="Reklám"  />
-			<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="{0}. szinttől reklámozhatsz!"  />
-			<text id="tooltip_FashionActionPanel_btn_booster" name="Gyorsító"  />
-			<text id="tooltip_FashionActionPanel_btn_coop" name="Együttműködés"  />
-			<text id="tooltip_FashionActionPanel_btn_decoshop" name="Átépítés"  />
-			<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="Reklámozz!"  />
-			<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalógus"  />
-			<text id="tooltip_FashionActionPanel_btn_gifts" name="Ajándékok"  />
-			<text id="tooltip_FashionActionPanel_btn_highscore" name="Helyezések"  />
-			<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame árkád"  />
-			<text id="tooltip_FashionActionPanel_btn_openclose" name="Bolt nyitás/zárás"  />
-			<text id="tooltip_FashionActionPanel_btn_ownshop" name="A boltom"  />
-			<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Akció fut
-Kattints, hogy szüneteltesd"  />
-			<text id="tooltip_FashionActionPanel_btn_sale" name="Árcsökkentés"  />
-			<text id="tooltip_FashionActionPanel_btn_staff" name="Pénztáros"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="Alsók"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="Haj"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="Bőrszín"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="Felsőrész"  />
-			<text id="tooltip_FashionBookDialog_btn_all" name="mind"  />
-			<text id="tooltip_FashionBookDialog_btn_buy" name="Szabásminta vásárlás"  />
-			<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="Szabásminta készítés"  />
-			<text id="tooltip_FashionBookDialog_btn_mastery" name="még {0} a {1}. etikett szintig.
-További adatért kattints ide"  />
-			<text id="tooltip_FashionBookDialog_btn_produce" name="Készítés"  />
-			<text id="tooltip_FashionBookDialog_customcloth" name="Saját szabásminta"  />
-			<text id="tooltip_FashionBookDialog_female" name="Lányoknak"  />
-			<text id="tooltip_FashionBookDialog_info" name="Gondolj rá, hogy mindig\n legyen a boltban ruha\nlányoknak és fiúknak!"  />
-			<text id="tooltip_FashionBookDialog_male" name="Fiúknak"  />
-			<text id="tooltip_FashionBookDialog_unisex" name="Fiúknak és lányoknak"  />
-			<text id="tooltip_FashionBoosterDialog_addAmount" name="darab/vásárlás"  />
-			<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="Hosszabbítási idő"  />
-			<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="Hosszabbítási idő\n+ {0} {1} további barátnál"  />
-			<text id="tooltip_FashionBoosterDialog_btn_buy" name="Vásárlás"  />
-			<text id="tooltip_FashionBoosterDialog_btn_info" name="Infó"  />
-			<text id="tooltip_FashionBoosterDialog_coffee" name="Kávé\nA varrónőd teljesítményét 20%-kal növelheted."  />
-			<text id="tooltip_FashionBoosterDialog_currentAmount" name="Raktáron"  />
-			<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="Aktuális lopásvédelem"  />
-			<text id="tooltip_FashionBoosterDialog_energy" name="Energiaital\nA cipészed teljesítménye 20%-kal nő!"  />
-			<text id="tooltip_FashionBoosterDialog_police" name="Áruházi őr"  />
-			<text id="tooltip_FashionBoosterDialog_price" name="Ár"  />
-			<text id="tooltip_FashionBoosterDialog_shake" name="Proteinshake\nAz ötvösöd teljesítménye 20%-kal nő."  />
-			<text id="tooltip_FashionCoopDialog_btn_extend" name="Hosszabítsd meg az együttműködést"  />
-			<text id="tooltip_FashionCounterDialog_btn_sale" name="Csökkentett árak"  />
-			<text id="tooltip_FashionCounterDialog_btn_spend" name="Áru folyamatos és ingyenes adakozásra"  />
-			<text id="tooltip_FashionCounterDialog_btn_unsale" name="Akció megszüntetése"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="Vásárlás"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_close" name="Átépítést befejezem"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko" name="Renoválás"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="Dekoráció"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="Kirakat"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="Ajtók"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="Padlók"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="Falak"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="Fali dekoráció"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="Bővítések"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Emelet kiépítése"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="Boltbővítés"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional" name="Funkciók"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Pénztárak"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="Próbafülke"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="Polc"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="Kolléga"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="Kirakati baba"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="Szabásminta"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_sell" name="Eladás"  />
-			<text id="tooltip_FashionExpansionFriends" name="Szükséged van még {0} barátra,\nhogy ezt a bővítést meg tudd venni"  />
-			<text id="tooltip_FashionFactoryDialog_btn_instant" name="Rögtön elkészíteni!"  />
-			<text id="tooltip_FashionGiftboxDialog_btn_remove" name="Törlés"  />
-			<text id="tooltip_FashionGiftboxDialog_btn_use" name="Használom"  />
-			<text id="tooltip_FashionGiftboxDialog_mygifts" name="Ajándékaim"  />
-			<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="Ajándékküldés"  />
-			<text id="tooltip_FashionHighscoreDialog_luxury" name="Luxusérték alapján rendezés"  />
-			<text id="tooltip_FashionHighscoreDialog_offline" name="Offline"  />
-			<text id="tooltip_FashionHighscoreDialog_online" name="Online"  />
-			<text id="tooltip_FashionHighscoreDialog_xp" name="XP alapján rendezés"  />
-			<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="Kiegészítők"  />
-			<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="Ruha"  />
-			<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="Cipő"  />
-			<text id="tooltip_FashionMasteryInfoDialog_bronce" name="Készíts több darabot!"  />
-			<text id="tooltip_FashionMasteryInfoDialog_gold" name="Készíts gyorsabban!"  />
-			<text id="tooltip_FashionMasteryInfoDialog_silver" name="Kapj még több XPt!"  />
-			<text id="tooltip_FashionNamePanel_mc_luxury" name="A boltod luxusértéke"  />
-			<text id="tooltip_FashionNamePanel_mc_rating" name="A boltod kedveltsége"  />
-			<text id="tooltip_FashionOptionPanel_btn_allowemails" name="E-mailt engedélyezni"  />
-			<text id="tooltip_FashionOptionPanel_btn_blockemails" name="E-mailt letiltani"  />
-			<text id="tooltip_FashionOptionPanel_btn_bugreport" name="Hiba jelentése"  />
-			<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Karaktert átöltöztetni"  />
-			<text id="tooltip_FashionOptionPanel_btn_changePass" name="Jelszóváltoztatás"  />
-			<text id="tooltip_FashionOptionPanel_btn_faq" name="GYIK"  />
-			<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="Teljes képernyő"  />
-			<text id="tooltip_FashionOptionPanel_btn_help" name="Súgó"  />
-			<text id="tooltip_FashionOptionPanel_btn_logout" name="Kijelentkezés"  />
-			<text id="tooltip_FashionOptionPanel_btn_music" name="Zene be/ki"  />
-			<text id="tooltip_FashionOptionPanel_btn_news" name="GGS fórum"  />
-			<text id="tooltip_FashionOptionPanel_btn_options" name="Beállítások"  />
-			<text id="tooltip_FashionOptionPanel_btn_register" name="Regisztrálás"  />
-			<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="Hang be/ki"  />
-			<text id="tooltip_FashionOptionPanel_btn_support" name="Mail a Supportnak"  />
-			<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="Üdvözlő ajándék megszerzése"  />
-			<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="+ zoom"  />
-			<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- Zoom"  />
-			<text id="tooltip_FashionOptionPanel_mc_floors" name="Emelet"  />
-			<text id="tooltip_FashionOptionPanel_mc_ranking" name="Helyezések"  />
-			<text id="tooltip_FashionPatternFriends" name="Szükséged van még {0} barátra,\nhogy ezt a szabásmintát használhasd"  />
-			<text id="tooltip_FashionSocialPanel_btn_buddies" name="Barát"  />
-			<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="Jelenlévő játékosok"  />
-			<text id="tooltip_FashionSocialPanel_btn_chat" name="Chat"  />
-			<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="Barát meghívása"  />
-			<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Fashiondollár/aranygomb hozzáadása"  />
-			<text id="tooltip_FashionUserStatePanel_jobs" name="Akciók száma"  />
-			<text id="tooltip_FashionUserStatePanel_xp" name="{0} XP a következő szintig"  />
-			<text id="tooltip_Fashion_btnclose" name="Bezárás"  />
-			<text id="tooltip_levelx" name="{0}. szinttől elérhető"  />
-			<text id="tooltip_marketplace" name="Fekete tábla"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Kitüntetés"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="Barát hozzáadása"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="Információ"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Kidobni"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="Barát törlése"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="Meglátogatom"  />
-			<text id="tooltip_wheeloffortune_line1" name="Szerencsekerék!"  />
-			<text id="tooltip_wheeloffortune_line2" name="Kattints, hogy játszhass!"  />
-			<text id="tooltip_wheeloffortune_line3" name="Egy játék ingyen!"  />
-			<text id="tooltip_xofy" name="{0}/{1}"  />
-		</tooltips>
-		<tutorial>
-			<text id="tut_buypattern_copy" name="Itt a katalógusból választhatsz szabásmintákat. Egy megvásárolt szabásmintát korlátlan számban felhasználhatsz. Kattints az egyikre, hogy megvehesd."  />
-			<text id="tut_choosemannequin_copy" name="Hogy az árud jól mutasson, felöltöztethetsz egy kirakati babát. Klikkelj egy üres kirakati babára."  />
-			<text id="tut_delivercounter_copy" name=".... és végül tedd egy szabad polcra!"  />
-			<text id="tut_emptyfactory_copy" name="A varrónők ruhákat gyártanak neked. Később más kollégák és áruk is rendelkezésedre állnak. Kattints a varrónőre."  />
-			<text id="tut_instantwork_copy" name="Kattints a gombra, hogy az árut azonnal elkészíthesd."  />
-			<text id="tut_lastscreen_copy" name="Szuper! Megtetted az első lépéseket, hogy a neved megjelenjen a világ ruhásszekrényeiben. Jöhetnek a vevők. Nézz körül előbb egyedül, hátha felfedezel még valamit.\n\nJó szórakozást!"  />
-			<text id="tut_mannequinaccept_copy" name="Kíváncsi vagy a vevőid reakciójára? Kattints a megerősítésre, hogy lásd az értékelésedet!"  />
-			<text id="tut_mannequincategory_copy" name="Babatípusonként változik, milyen fajta ruhákat használhatsz fel. A torzóra csupán felsőrészt adhatsz. Kattints a ruha ikonra, hogy a választékot megnézd."  />
-			<text id="tut_mannequinclose_copy" name="Ez igazán jól néz ki! Kattints a bezárás gombra, hogy a boltodba visszatérhess."  />
-			<text id="tut_mannequinclothes_copy" name="Jelenleg csak kék pólókat árulsz. Kattints rá, hogy a kirakati babát felöltöztesd."  />
-			<text id="tut_openproducebook_copy" name="Megvetted a szabásmintát. Menj a termelési könyvre, hogy lásd a termelhető árukat."  />
-			<text id="tut_preparesteps_copy" name="Kattints a varrónőre, hogy a ruhakészítéssel megbízhasd."  />
-			<text id="tut_producefactory_copy" name="Az aranygombokkal az árudat rögtön elkészítheted. Kattints újra a varrónőre."  />
-			<text id="tut_produce_copy" name="Nos, láss munkához!"  />
-			<text id="tut_readyfactory_copy" name="Ahhoz hogy a vevők megvehessék, fel kell raknod az árudat egy polcra. Klikkelj a dolgozóra a kész áruval..."  />
-			<text id="tut_start_copy" name="Üdvözlet a boltodban,{0}!\nEz a kis bevezető segít, hogy a divat világában könnyebben eligazodj!"  />
-			<text id="tut_title" name="Bevezető!"  />
-		</tutorial>
-		<generic_flash>
-			<alert>
-				<text id="generic_alert_bug" name="Hiba"  />
-				<text id="generic_alert_connection_failed_copy" name="Jelenleg karbantartás folyik. Kérünk, később próbálkozz újra!"  />
-				<text id="generic_alert_connection_failed_title" name="Karbantartás"  />
-				<text id="generic_alert_connection_lost_copy" name="A játékszerverrel megszakadt a kapcsolat. Kérünk, próbálkozz újra!"  />
-				<text id="generic_alert_connection_lost_description" name="Jelenleg karbantartás folyik. Néha ezt is el kell végezni, sajnso.
+Irány a fórum és nyerj!" />
+		<text id="forumaction_title_1" name="Légy kreatív!" />
+	</forumaction>
+	<loggedin_msg id="" />
+	<panels>
+		<text id="panels_buddylist_morefriends" name="Több barát" />
+		<text id="panels_login_email" name="Felhasználónév/e-mail cím" />
+		<text id="panels_login_loginbtn" name="Belépés" />
+		<text id="panels_login_lostpassword" name="Elfelejtett jelszó?" />
+		<text id="panels_login_password" name="Jelszó" />
+		<text id="panels_login_playbtn" name="JÁTSZHATSZ" />
+		<text id="panels_login_registerbtn" name="REGISZTRÁLÁS" />
+		<text id="panels_login_rememberpassword" name="Jelszómentés" />
+		<text id="panels_social_alone" name="Jelenleg egyedül vagy itt!" />
+		<text id="panels_social_bot" name="Fashion chat" />
+		<text id="panels_social_chatblocked" name="Csak regisztrált, első szintű játékosok használhatják a chatet." />
+		<text id="panels_social_come_in" name="belépett a boltba." />
+		<text id="panels_social_go_out" name="elhagyta a boltot." />
+		<text id="panels_social_nofriends" name="Még nincsenek barátaid!" />
+		<text id="panels_social_welcome_market" name="Üdv a Goodgame árkádban!" />
+		<text id="panels_social_welcome_myshop" name="Üdvözlet" />
+	</panels>
+	<server>
+		<mail>
+			<text id="mail_invite_friend" name="Szia, %s!&lt;br /&gt;&lt;br /&gt;Éppen most fedeztem fel ezt remek online játékot, a &quot;Goodgame Fashion&quot;t.&lt;br /&gt;&lt;br /&gt;Ezen a linken közvetlenül eléred a játékot:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Jelentkezz be ezen a linken, hogy ingyenesen létrehozd a &quot;Goodgame Fashion&quot; boltodat.&lt;br /&gt;&lt;br /&gt;Megismerheted, hogy milyen érzés egy butikot vezetni. Készíts csinos ruhákat, kiegészítőket és cipőket, és add el őket a boltodban, amelyet a saját ízlésednek megfelelően rendezhetsz be.&lt;br /&gt;&lt;br /&gt;Jó szórakozást a  játékhoz. Üdv, %s" />
+			<text id="mail_lost_pw" name="Szia, %s!&lt;br /&gt;&lt;br /&gt;Automatikus e-mailt kapsz, mivel egy új jelszót igényeltél.&lt;br /&gt;A jelszavad: %s&lt;br /&gt;&lt;br /&gt;Ezen a linken közvetlenül eléred a játékot:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Kérdéseddel, problémáddal fordulj hozzánk: support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;További jó szórakozást kívánunk a játékhoz!&lt;br /&gt;&lt;br /&gt;Abr /&gt;Goodgamestudios.com csapata" />
+			<text id="mail_registration" name="Szia,&lt;br /&gt;&lt;br /&gt;Köszönjük a jelentkezésedet, üdvözlünk a &quot;Goodgame Fashion&quot; játékban.&lt;br /&gt;&lt;br /&gt;Bármikor  bejelentkezhetsz a következő adatokkal:&lt;br /&gt;E-mail: %s&lt;br /&gt;Jelszó: %s&lt;br /&gt;&lt;br /&gt;Ezen a linken közvetlenül eljuthatsz a játékhoz:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Kérdéseddel, problémáddal fordulj hozzánk: support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;További jó szórakozást kívánunk a játékhoz!&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Goodgamestudios.com csapata" />
+		</mail>
+		<misc>
+			<text id="marketplace" name="Goodgame árkád" />
+		</misc>
+	</server>
+	<server_msg>
+		<text id="server_msg_10" name="A szerver újra indul. Mindjárt megy tovább.\nNyomd meg az F5 gombot az oldal aktualizálásához." />
+		<text id="server_msg_title" name="Szerverüzenet:" />
+	</server_msg>
+	<std_buttons>
+		<text id="btn_addcurrency" name="Fashiondollár/aranygomb vásárlása" />
+		<text id="btn_payment" name="Fashiondollár/aranygomb vásárlása" />
+		<text id="btn_policeman" name="Áruházi őr" />
+		<text id="btn_register" name="Regisztrálás" />
+		<text id="btn_superrewardChips" name="Keress Fashiondollárt" />
+		<text id="btn_superrewardGold" name="Aranygombot keresni" />
+	</std_buttons>
+	<tooltips>
+		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Ötvös" />
+		<text id="tooltip_Basic_Factory_Basiccloth" name="Varrónő" />
+		<text id="tooltip_Basic_Factory_Basicshoes" name="Cipész" />
+		<text id="tooltip_counter_pieces" name="Szám: {0}" />
+		<text id="tooltip_customcloth_icon" name="Lenyomat" />
+		<text id="tooltip_customcloth_shape" name="Fórum" />
+		<text id="tooltip_customcloth_unlock" name="Felhasználni" />
+		<text id="tooltip_factory_empty" name="Készíts új árut" />
+		<text id="tooltip_factory_preparestep1" name="Jelenlévő kolléga" />
+		<text id="tooltip_factory_preparetitle" name="Kattintás:" />
+		<text id="tooltip_factory_readytoserv" name="Áru elhelyezése" />
+		<text id="tooltip_factory_readytoserv_amount" name="Szám: {0}" />
+		<text id="tooltip_factory_wear" name="Motiváció: {0}%" />
+		<text id="tooltip_FashionActionPanel_btn_achievements" name="Kitüntetés" />
+		<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Aranygomb/Fashiondollár\nhozzáadása" />
+		<text id="tooltip_FashionActionPanel_btn_advertisement" name="Reklám" />
+		<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="{0}. szinttől reklámozhatsz!" />
+		<text id="tooltip_FashionActionPanel_btn_booster" name="Gyorsító" />
+		<text id="tooltip_FashionActionPanel_btn_coop" name="Együttműködés" />
+		<text id="tooltip_FashionActionPanel_btn_decoshop" name="Átépítés" />
+		<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="Reklámozz!" />
+		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalógus" />
+		<text id="tooltip_FashionActionPanel_btn_gifts" name="Ajándékok" />
+		<text id="tooltip_FashionActionPanel_btn_highscore" name="Helyezések" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame árkád" />
+		<text id="tooltip_FashionActionPanel_btn_openclose" name="Bolt nyitás/zárás" />
+		<text id="tooltip_FashionActionPanel_btn_ownshop" name="A boltom" />
+		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Akció fut
+Kattints, hogy szüneteltesd" />
+		<text id="tooltip_FashionActionPanel_btn_sale" name="Árcsökkentés" />
+		<text id="tooltip_FashionActionPanel_btn_staff" name="Pénztáros" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="Alsók" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="Haj" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="Bőrszín" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="Felsőrész" />
+		<text id="tooltip_FashionBookDialog_btn_all" name="mind" />
+		<text id="tooltip_FashionBookDialog_btn_buy" name="Szabásminta vásárlás" />
+		<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="Szabásminta készítés" />
+		<text id="tooltip_FashionBookDialog_btn_mastery" name="még {0} a {1}. etikett szintig.
+További adatért kattints ide" />
+		<text id="tooltip_FashionBookDialog_btn_produce" name="Készítés" />
+		<text id="tooltip_FashionBookDialog_customcloth" name="Saját szabásminta" />
+		<text id="tooltip_FashionBookDialog_female" name="Lányoknak" />
+		<text id="tooltip_FashionBookDialog_info" name="Gondolj rá, hogy mindig\n legyen a boltban ruha\nlányoknak és fiúknak!" />
+		<text id="tooltip_FashionBookDialog_male" name="Fiúknak" />
+		<text id="tooltip_FashionBookDialog_unisex" name="Fiúknak és lányoknak" />
+		<text id="tooltip_FashionBoosterDialog_addAmount" name="darab/vásárlás" />
+		<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="Hosszabbítási idő" />
+		<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="Hosszabbítási idő\n+ {0} {1} további barátnál" />
+		<text id="tooltip_FashionBoosterDialog_btn_buy" name="Vásárlás" />
+		<text id="tooltip_FashionBoosterDialog_btn_info" name="Infó" />
+		<text id="tooltip_FashionBoosterDialog_coffee" name="Kávé\nA varrónőd teljesítményét 20%-kal növelheted." />
+		<text id="tooltip_FashionBoosterDialog_currentAmount" name="Raktáron" />
+		<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="Aktuális lopásvédelem" />
+		<text id="tooltip_FashionBoosterDialog_energy" name="Energiaital\nA cipészed teljesítménye 20%-kal nő!" />
+		<text id="tooltip_FashionBoosterDialog_police" name="Áruházi őr" />
+		<text id="tooltip_FashionBoosterDialog_price" name="Ár" />
+		<text id="tooltip_FashionBoosterDialog_shake" name="Proteinshake\nAz ötvösöd teljesítménye 20%-kal nő." />
+		<text id="tooltip_FashionCoopDialog_btn_extend" name="Hosszabítsd meg az együttműködést" />
+		<text id="tooltip_FashionCounterDialog_btn_sale" name="Csökkentett árak" />
+		<text id="tooltip_FashionCounterDialog_btn_spend" name="Áru folyamatos és ingyenes adakozásra" />
+		<text id="tooltip_FashionCounterDialog_btn_unsale" name="Akció megszüntetése" />
+		<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="Vásárlás" />
+		<text id="tooltip_FashionDekoShopPanel_btn_close" name="Átépítést befejezem" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko" name="Renoválás" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="Dekoráció" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="Kirakat" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="Ajtók" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="Padlók" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="Falak" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="Fali dekoráció" />
+		<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="Bővítések" />
+		<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Emelet kiépítése" />
+		<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="Boltbővítés" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional" name="Funkciók" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Pénztárak" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="Próbafülke" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="Polc" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="Kolléga" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="Kirakati baba" />
+		<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="Szabásminta" />
+		<text id="tooltip_FashionDekoShopPanel_btn_sell" name="Eladás" />
+		<text id="tooltip_FashionExpansionFriends" name="Szükséged van még {0} barátra,\nhogy ezt a bővítést meg tudd venni" />
+		<text id="tooltip_FashionFactoryDialog_btn_instant" name="Rögtön elkészíteni!" />
+		<text id="tooltip_FashionGiftboxDialog_btn_remove" name="Törlés" />
+		<text id="tooltip_FashionGiftboxDialog_btn_use" name="Használom" />
+		<text id="tooltip_FashionGiftboxDialog_mygifts" name="Ajándékaim" />
+		<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="Ajándékküldés" />
+		<text id="tooltip_FashionHighscoreDialog_luxury" name="Luxusérték alapján rendezés" />
+		<text id="tooltip_FashionHighscoreDialog_offline" name="Offline" />
+		<text id="tooltip_FashionHighscoreDialog_online" name="Online" />
+		<text id="tooltip_FashionHighscoreDialog_xp" name="XP alapján rendezés" />
+		<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="Kiegészítők" />
+		<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="Ruha" />
+		<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="Cipő" />
+		<text id="tooltip_FashionMasteryInfoDialog_bronce" name="Készíts több darabot!" />
+		<text id="tooltip_FashionMasteryInfoDialog_gold" name="Készíts gyorsabban!" />
+		<text id="tooltip_FashionMasteryInfoDialog_silver" name="Kapj még több XPt!" />
+		<text id="tooltip_FashionNamePanel_mc_luxury" name="A boltod luxusértéke" />
+		<text id="tooltip_FashionNamePanel_mc_rating" name="A boltod kedveltsége" />
+		<text id="tooltip_FashionOptionPanel_btn_allowemails" name="E-mailt engedélyezni" />
+		<text id="tooltip_FashionOptionPanel_btn_blockemails" name="E-mailt letiltani" />
+		<text id="tooltip_FashionOptionPanel_btn_bugreport" name="Hiba jelentése" />
+		<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Karaktert átöltöztetni" />
+		<text id="tooltip_FashionOptionPanel_btn_changePass" name="Jelszóváltoztatás" />
+		<text id="tooltip_FashionOptionPanel_btn_faq" name="GYIK" />
+		<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="Teljes képernyő" />
+		<text id="tooltip_FashionOptionPanel_btn_help" name="Súgó" />
+		<text id="tooltip_FashionOptionPanel_btn_logout" name="Kijelentkezés" />
+		<text id="tooltip_FashionOptionPanel_btn_music" name="Zene be/ki" />
+		<text id="tooltip_FashionOptionPanel_btn_news" name="GGS fórum" />
+		<text id="tooltip_FashionOptionPanel_btn_options" name="Beállítások" />
+		<text id="tooltip_FashionOptionPanel_btn_register" name="Regisztrálás" />
+		<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="Hang be/ki" />
+		<text id="tooltip_FashionOptionPanel_btn_support" name="Mail a Supportnak" />
+		<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="Üdvözlő ajándék megszerzése" />
+		<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="+ zoom" />
+		<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- Zoom" />
+		<text id="tooltip_FashionOptionPanel_mc_floors" name="Emelet" />
+		<text id="tooltip_FashionOptionPanel_mc_ranking" name="Helyezések" />
+		<text id="tooltip_FashionPatternFriends" name="Szükséged van még {0} barátra,\nhogy ezt a szabásmintát használhasd" />
+		<text id="tooltip_FashionSocialPanel_btn_buddies" name="Barát" />
+		<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="Jelenlévő játékosok" />
+		<text id="tooltip_FashionSocialPanel_btn_chat" name="Chat" />
+		<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="Barát meghívása" />
+		<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Fashiondollár/aranygomb hozzáadása" />
+		<text id="tooltip_FashionUserStatePanel_jobs" name="Akciók száma" />
+		<text id="tooltip_FashionUserStatePanel_xp" name="{0} XP a következő szintig" />
+		<text id="tooltip_Fashion_btnclose" name="Bezárás" />
+		<text id="tooltip_levelx" name="{0}. szinttől elérhető" />
+		<text id="tooltip_marketplace" name="Fekete tábla" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Kitüntetés" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="Barát hozzáadása" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="Információ" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Kidobni" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="Barát törlése" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="Meglátogatom" />
+		<text id="tooltip_wheeloffortune_line1" name="Szerencsekerék!" />
+		<text id="tooltip_wheeloffortune_line2" name="Kattints, hogy játszhass!" />
+		<text id="tooltip_wheeloffortune_line3" name="Egy játék ingyen!" />
+		<text id="tooltip_xofy" name="{0}/{1}" />
+	</tooltips>
+	<tutorial>
+		<text id="tut_buypattern_copy" name="Itt a katalógusból választhatsz szabásmintákat. Egy megvásárolt szabásmintát korlátlan számban felhasználhatsz. Kattints az egyikre, hogy megvehesd." />
+		<text id="tut_choosemannequin_copy" name="Hogy az árud jól mutasson, felöltöztethetsz egy kirakati babát. Klikkelj egy üres kirakati babára." />
+		<text id="tut_delivercounter_copy" name=".... és végül tedd egy szabad polcra!" />
+		<text id="tut_emptyfactory_copy" name="A varrónők ruhákat gyártanak neked. Később más kollégák és áruk is rendelkezésedre állnak. Kattints a varrónőre." />
+		<text id="tut_instantwork_copy" name="Kattints a gombra, hogy az árut azonnal elkészíthesd." />
+		<text id="tut_lastscreen_copy" name="Szuper! Megtetted az első lépéseket, hogy a neved megjelenjen a világ ruhásszekrényeiben. Jöhetnek a vevők. Nézz körül előbb egyedül, hátha felfedezel még valamit.\n\nJó szórakozást!" />
+		<text id="tut_mannequinaccept_copy" name="Kíváncsi vagy a vevőid reakciójára? Kattints a megerősítésre, hogy lásd az értékelésedet!" />
+		<text id="tut_mannequincategory_copy" name="Babatípusonként változik, milyen fajta ruhákat használhatsz fel. A torzóra csupán felsőrészt adhatsz. Kattints a ruha ikonra, hogy a választékot megnézd." />
+		<text id="tut_mannequinclose_copy" name="Ez igazán jól néz ki! Kattints a bezárás gombra, hogy a boltodba visszatérhess." />
+		<text id="tut_mannequinclothes_copy" name="Jelenleg csak kék pólókat árulsz. Kattints rá, hogy a kirakati babát felöltöztesd." />
+		<text id="tut_openproducebook_copy" name="Megvetted a szabásmintát. Menj a termelési könyvre, hogy lásd a termelhető árukat." />
+		<text id="tut_preparesteps_copy" name="Kattints a varrónőre, hogy a ruhakészítéssel megbízhasd." />
+		<text id="tut_producefactory_copy" name="Az aranygombokkal az árudat rögtön elkészítheted. Kattints újra a varrónőre." />
+		<text id="tut_produce_copy" name="Nos, láss munkához!" />
+		<text id="tut_readyfactory_copy" name="Ahhoz hogy a vevők megvehessék, fel kell raknod az árudat egy polcra. Klikkelj a dolgozóra a kész áruval..." />
+		<text id="tut_start_copy" name="Üdvözlet a boltodban,{0}!\nEz a kis bevezető segít, hogy a divat világában könnyebben eligazodj!" />
+		<text id="tut_title" name="Bevezető!" />
+	</tutorial>
+	<generic_flash>
+		<alert>
+			<text id="generic_alert_bug" name="Hiba" />
+			<text id="generic_alert_connection_failed_copy" name="Jelenleg karbantartás folyik. Kérünk, később próbálkozz újra!" />
+			<text id="generic_alert_connection_failed_title" name="Karbantartás" />
+			<text id="generic_alert_connection_lost_copy" name="A játékszerverrel megszakadt a kapcsolat. Kérünk, próbálkozz újra!" />
+			<text id="generic_alert_connection_lost_description" name="Jelenleg karbantartás folyik. Néha ezt is el kell végezni, sajnso.
 Ilyenkor frissítések és új lehetőségek kerülnek a játékba.&lt;br&gt;&lt;br&gt;
-Belehúzunk, hogy mielőbb játszhass!"  />
-				<text id="generic_alert_connection_lost_promo" name="Addig próbálj ki egy másik játékunkat!"  />
-				<text id="generic_alert_connection_lost_thanks" name="Köszönjük, hogy megérted!"  />
-				<text id="generic_alert_connection_lost_title" name="Elveszett a kapcsolat"  />
-				<text id="generic_alert_error" name="Hiba"  />
-				<text id="generic_alert_information" name="Megjegyzés"  />
-				<text id="generic_alert_loggedout_copy" name="Sikeresen kijelentkeztél. Ne felejtsd: mindennap vár rád üdvözlő bónusz"  />
-				<text id="generic_alert_loggedout_title" name="Viszlát!"  />
-				<text id="generic_alert_warning" name="Figyelmeztetés!"  />
-				<text id="generic_alert_watchout" name="Figyelem!"  />
-				<text id="generic_invalid_email_provider" name="A kiszolgáló e-mail címe nem engedélyezett!"  />
-				<text id="generic_js_alert_firstsessiontracking_loading" name="Az internet kapcsolatod éppen elég lassúnak tűnik. Próbáld újra később!"  />
-				<text id="generic_js_alert_firstsessiontracking_registered" name="Tetszik a játék, vagy lehetne valamit javítani rajta? Írd meg a véleményedet a Goodgame fórumra vagy a csapatnak!"  />
-				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Figyelem! A játékodat akkor mentheted csak, ha regisztrálsz!"  />
-				<text id="generic_register_error_invalidemail" name="A megadott e-mail cím nem helyes."  />
-				<text id="generic_report_muted_chattry" name="A felfüggesztésed miatt jelenleg nem cseveghetsz."  />
-			</alert>
-			<button>
-				<text id="generic_btn_accept" name="Elfogad"  />
-				<text id="generic_btn_cancel" name="Mégse"  />
-				<text id="generic_btn_close" name="Bezárás"  />
-				<text id="generic_btn_continue" name="Tovább"  />
-				<text id="generic_btn_end" name="Befejezés"  />
-				<text id="generic_btn_endnow" name="Azonnal befejezés"  />
-				<text id="generic_btn_goback" name="Vissza"  />
-				<text id="generic_btn_no" name="Nem"  />
-				<text id="generic_btn_noshare" name="Mégse!"  />
-				<text id="generic_btn_notaccept" name="Elutasít"  />
-				<text id="generic_btn_okay" name="Rendben"  />
-				<text id="generic_btn_reconnect" name="Újra kapcsolódás"  />
-				<text id="generic_btn_refresh" name="Aktualizálni"  />
-				<text id="generic_btn_report" name="Jelentés"  />
-				<text id="generic_btn_search" name="Keresés"  />
-				<text id="generic_btn_share" name="Megosztás!"  />
-				<text id="generic_btn_skip" name="Átugrás"  />
-				<text id="generic_btn_start" name="Kezdés"  />
-				<text id="generic_btn_topayment" name="Ide vele!"  />
-				<text id="generic_btn_yes" name="Igen"  />
-			</button>
-			<chat>
-				<text id="generic_chat_writeable" name="Csak a regisztrált első szintű játékosok használhatják a csevegést."  />
-			</chat>
-			<common>
-				<text id="generic_admin" name="Admin"  />
-				<text id="generic_animation" name="Animáció mutatása"  />
-				<text id="generic_bugreport" name="Jelents hibát"  />
-				<text id="generic_changePass" name="Jelszó változtatása"  />
-				<text id="generic_comma" name=","  />
-				<text id="generic_conningsoon" name="*Hamarosan*"  />
-				<text id="generic_date" name="Dátum"  />
-				<text id="generic_day" name="nap"  />
-				<text id="generic_dayformat" name="{1}.{0}."  />
-				<text id="generic_days" name="nap"  />
-				<text id="generic_day_short" name="N"  />
-				<text id="generic_decimalseparator" name="."  />
-				<text id="generic_email" name="E-mail"  />
-				<text id="generic_faq" name="Kérdések és válaszok"  />
-				<text id="generic_forum" name="Fórum"  />
-				<text id="generic_friend" name="Barát"  />
-				<text id="generic_friends" name="Barát"  />
-				<text id="generic_general" name="Általános"  />
-				<text id="generic_ggs" name="Goodgame Studios"  />
-				<text id="generic_group" name="Csoport"  />
-				<text id="generic_guest" name="Vendég"  />
-				<text id="generic_help" name="Súgó"  />
-				<text id="generic_high" name="Magas"  />
-				<text id="generic_hour" name="óra"  />
-				<text id="generic_hours" name="óra"  />
-				<text id="generic_hour_short" name="óra"  />
-				<text id="generic_limited" name="Határolt"  />
-				<text id="generic_logout" name="Kijelentkezés"  />
-				<text id="generic_low" name="Gyenge"  />
-				<text id="generic_medium" name="Közepes"  />
-				<text id="generic_minute" name="perc"  />
-				<text id="generic_minutes" name="perc"  />
-				<text id="generic_minute_short" name="perc"  />
-				<text id="generic_moderator" name="Moderator"  />
-				<text id="generic_music" name="Zene be/ki"  />
-				<text id="generic_name" name="Név"  />
-				<text id="generic_news" name="Újdonságok"  />
-				<text id="generic_options" name="Beállítások"  />
-				<text id="generic_quality" name="Minőség"  />
-				<text id="generic_register" name="Ments és regisztrálj"  />
-				<text id="generic_second" name="másodperc"  />
-				<text id="generic_seconds" name="másodperc"  />
-				<text id="generic_second_short" name="mp,"  />
-				<text id="generic_sound" name="Hang be/ki"  />
-				<text id="generic_support" name="Support"  />
-				<text id="generic_today" name="ma"  />
-				<text id="generic_tomorrow" name="holnap"  />
-				<text id="generic_tutorial" name="Ismertető"  />
-				<text id="generic_username" name="Játékosnév"  />
-				<text id="generic_xp" name="XP"  />
-				<text id="generic_yesterday" name="tegnap"  />
-			</common>
-			<error>
-				<text id="generic_versioncheck_error" name="Régi verzió!"  />
-				<text id="generic_versioncheck_errorcode_1" name="Frissítsd az oldalt!"  />
-			</error>
-			<feeds id=""  />
-			<friends>
-				<text id="generic_friends_add_copy" name="Szeretnéd, hogy {0} a barátod legyen?"  />
-				<text id="generic_friends_add_title" name="Barátkozás"  />
-				<text id="generic_friends_buddy_btn_morefriends" name="Több barát!"  />
-				<text id="generic_friends_denied_copy" name="{0} sajnos elutasította a felkérésedet."  />
-				<text id="generic_friends_denied_title" name="Felkérés elutasítva!"  />
-				<text id="generic_friends_invite_badword_copy" name="A megadott név nem megengedett!"  />
-				<text id="generic_friends_invite_badword_title" name="Figyelem!"  />
-				<text id="generic_friends_invite_error_copy" name="Csak regisztrált játékosként hívhatsz meg új barátokat."  />
-				<text id="generic_friends_invite_error_title" name="Először regisztrálj"  />
-			</friends>
-			<fullscreen>
-				<text id="generic_fullscreen_error_copy" name="A teljes képernyő nem lehetséges"  />
-			</fullscreen>
-			<languages>
-				<text id="generic_language_cs" name="cseh"  />
-				<text id="generic_language_da" name="dán"  />
-				<text id="generic_language_de" name="német"  />
-				<text id="generic_language_el" name="görög"  />
-				<text id="generic_language_en" name="angol"  />
-				<text id="generic_language_es" name="spanyol"  />
-				<text id="generic_language_fi" name="finn"  />
-				<text id="generic_language_fr" name="francia"  />
-				<text id="generic_language_hu" name="magyar"  />
-				<text id="generic_language_id" name="indonéz"  />
-				<text id="generic_language_it" name="olasz"  />
-				<text id="generic_language_ja" name="japán"  />
-				<text id="generic_language_ko" name="koreai"  />
-				<text id="generic_language_nl" name="holland"  />
-				<text id="generic_language_no" name="norvég"  />
-				<text id="generic_language_pl" name="lengyel"  />
-				<text id="generic_language_pt" name="portugál"  />
-				<text id="generic_language_pt_BR" name="brazil"  />
-				<text id="generic_language_ru" name="orosz"  />
-				<text id="generic_language_sv" name="svéd"  />
-				<text id="generic_language_tr" name="török"  />
-				<text id="generic_language_zh_CN" name="kínai (egyszerű)"  />
-				<text id="generic_language_zh_TW" name="Kínai (tradícionális)"  />
-			</languages>
-			<login>
-				<text id="generic_login_banned" name="A számládat zároltuk. Fordulj a Supporthoz!"  />
-				<text id="generic_login_banned_2" name="A számládat zároltuk!
+Belehúzunk, hogy mielőbb játszhass!" />
+			<text id="generic_alert_connection_lost_promo" name="Addig próbálj ki egy másik játékunkat!" />
+			<text id="generic_alert_connection_lost_thanks" name="Köszönjük, hogy megérted!" />
+			<text id="generic_alert_connection_lost_title" name="Elveszett a kapcsolat" />
+			<text id="generic_alert_error" name="Hiba" />
+			<text id="generic_alert_information" name="Megjegyzés" />
+			<text id="generic_alert_loggedout_copy" name="Sikeresen kijelentkeztél. Ne felejtsd: mindennap vár rád üdvözlő bónusz" />
+			<text id="generic_alert_loggedout_title" name="Viszlát!" />
+			<text id="generic_alert_warning" name="Figyelmeztetés!" />
+			<text id="generic_alert_watchout" name="Figyelem!" />
+			<text id="generic_invalid_email_provider" name="A kiszolgáló e-mail címe nem engedélyezett!" />
+			<text id="generic_js_alert_firstsessiontracking_loading" name="Az internet kapcsolatod éppen elég lassúnak tűnik. Próbáld újra később!" />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="Tetszik a játék, vagy lehetne valamit javítani rajta? Írd meg a véleményedet a Goodgame fórumra vagy a csapatnak!" />
+			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Figyelem! A játékodat akkor mentheted csak, ha regisztrálsz!" />
+			<text id="generic_register_error_invalidemail" name="A megadott e-mail cím nem helyes." />
+			<text id="generic_report_muted_chattry" name="A felfüggesztésed miatt jelenleg nem cseveghetsz." />
+		</alert>
+		<button>
+			<text id="generic_btn_accept" name="Elfogad" />
+			<text id="generic_btn_cancel" name="Mégse" />
+			<text id="generic_btn_close" name="Bezárás" />
+			<text id="generic_btn_continue" name="Tovább" />
+			<text id="generic_btn_end" name="Befejezés" />
+			<text id="generic_btn_endnow" name="Azonnal befejezés" />
+			<text id="generic_btn_goback" name="Vissza" />
+			<text id="generic_btn_no" name="Nem" />
+			<text id="generic_btn_noshare" name="Mégse!" />
+			<text id="generic_btn_notaccept" name="Elutasít" />
+			<text id="generic_btn_okay" name="Rendben" />
+			<text id="generic_btn_reconnect" name="Újra kapcsolódás" />
+			<text id="generic_btn_refresh" name="Aktualizálni" />
+			<text id="generic_btn_report" name="Jelentés" />
+			<text id="generic_btn_search" name="Keresés" />
+			<text id="generic_btn_share" name="Megosztás!" />
+			<text id="generic_btn_skip" name="Átugrás" />
+			<text id="generic_btn_start" name="Kezdés" />
+			<text id="generic_btn_topayment" name="Ide vele!" />
+			<text id="generic_btn_yes" name="Igen" />
+		</button>
+		<chat>
+			<text id="generic_chat_writeable" name="Csak a regisztrált első szintű játékosok használhatják a csevegést." />
+		</chat>
+		<common>
+			<text id="generic_admin" name="Admin" />
+			<text id="generic_animation" name="Animáció mutatása" />
+			<text id="generic_bugreport" name="Jelents hibát" />
+			<text id="generic_changePass" name="Jelszó változtatása" />
+			<text id="generic_comma" name="," />
+			<text id="generic_conningsoon" name="*Hamarosan*" />
+			<text id="generic_date" name="Dátum" />
+			<text id="generic_day" name="nap" />
+			<text id="generic_dayformat" name="{1}.{0}." />
+			<text id="generic_days" name="nap" />
+			<text id="generic_day_short" name="N" />
+			<text id="generic_decimalseparator" name="." />
+			<text id="generic_email" name="E-mail" />
+			<text id="generic_faq" name="Kérdések és válaszok" />
+			<text id="generic_forum" name="Fórum" />
+			<text id="generic_friend" name="Barát" />
+			<text id="generic_friends" name="Barát" />
+			<text id="generic_general" name="Általános" />
+			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_group" name="Csoport" />
+			<text id="generic_guest" name="Vendég" />
+			<text id="generic_help" name="Súgó" />
+			<text id="generic_high" name="Magas" />
+			<text id="generic_hour" name="óra" />
+			<text id="generic_hours" name="óra" />
+			<text id="generic_hour_short" name="óra" />
+			<text id="generic_limited" name="Határolt" />
+			<text id="generic_logout" name="Kijelentkezés" />
+			<text id="generic_low" name="Gyenge" />
+			<text id="generic_medium" name="Közepes" />
+			<text id="generic_minute" name="perc" />
+			<text id="generic_minutes" name="perc" />
+			<text id="generic_minute_short" name="perc" />
+			<text id="generic_moderator" name="Moderator" />
+			<text id="generic_music" name="Zene be/ki" />
+			<text id="generic_name" name="Név" />
+			<text id="generic_news" name="Újdonságok" />
+			<text id="generic_options" name="Beállítások" />
+			<text id="generic_quality" name="Minőség" />
+			<text id="generic_register" name="Ments és regisztrálj" />
+			<text id="generic_second" name="másodperc" />
+			<text id="generic_seconds" name="másodperc" />
+			<text id="generic_second_short" name="mp," />
+			<text id="generic_sound" name="Hang be/ki" />
+			<text id="generic_support" name="Support" />
+			<text id="generic_today" name="ma" />
+			<text id="generic_tomorrow" name="holnap" />
+			<text id="generic_tutorial" name="Ismertető" />
+			<text id="generic_username" name="Játékosnév" />
+			<text id="generic_xp" name="XP" />
+			<text id="generic_yesterday" name="tegnap" />
+		</common>
+		<error>
+			<text id="generic_versioncheck_error" name="Régi verzió!" />
+			<text id="generic_versioncheck_errorcode_1" name="Frissítsd az oldalt!" />
+		</error>
+		<feeds id="" />
+		<friends>
+			<text id="generic_friends_add_copy" name="Szeretnéd, hogy {0} a barátod legyen?" />
+			<text id="generic_friends_add_title" name="Barátkozás" />
+			<text id="generic_friends_buddy_btn_morefriends" name="Több barát!" />
+			<text id="generic_friends_denied_copy" name="{0} sajnos elutasította a felkérésedet." />
+			<text id="generic_friends_denied_title" name="Felkérés elutasítva!" />
+			<text id="generic_friends_invite_badword_copy" name="A megadott név nem megengedett!" />
+			<text id="generic_friends_invite_badword_title" name="Figyelem!" />
+			<text id="generic_friends_invite_error_copy" name="Csak regisztrált játékosként hívhatsz meg új barátokat." />
+			<text id="generic_friends_invite_error_title" name="Először regisztrálj" />
+		</friends>
+		<fullscreen>
+			<text id="generic_fullscreen_error_copy" name="A teljes képernyő nem lehetséges" />
+		</fullscreen>
+		<languages>
+			<text id="generic_language_cs" name="cseh" />
+			<text id="generic_language_da" name="dán" />
+			<text id="generic_language_de" name="német" />
+			<text id="generic_language_el" name="görög" />
+			<text id="generic_language_en" name="angol" />
+			<text id="generic_language_es" name="spanyol" />
+			<text id="generic_language_fi" name="finn" />
+			<text id="generic_language_fr" name="francia" />
+			<text id="generic_language_hu" name="magyar" />
+			<text id="generic_language_id" name="indonéz" />
+			<text id="generic_language_it" name="olasz" />
+			<text id="generic_language_ja" name="japán" />
+			<text id="generic_language_ko" name="koreai" />
+			<text id="generic_language_nl" name="holland" />
+			<text id="generic_language_no" name="norvég" />
+			<text id="generic_language_pl" name="lengyel" />
+			<text id="generic_language_pt" name="portugál" />
+			<text id="generic_language_pt_BR" name="brazil" />
+			<text id="generic_language_ru" name="orosz" />
+			<text id="generic_language_sv" name="svéd" />
+			<text id="generic_language_tr" name="török" />
+			<text id="generic_language_zh_CN" name="kínai (egyszerű)" />
+			<text id="generic_language_zh_TW" name="Kínai (tradícionális)" />
+		</languages>
+		<login>
+			<text id="generic_login_banned" name="A számládat zároltuk. Fordulj a Supporthoz!" />
+			<text id="generic_login_banned_2" name="A számládat zároltuk!
 
 A zárolás tart: {0}
 
-Ha a zárolással kapcsolatban kérdésed lenne, fordulj a supporthoz."  />
-				<text id="generic_login_banned_3" name="A számládat lezártuk.
+Ha a zárolással kapcsolatban kérdésed lenne, fordulj a supporthoz." />
+			<text id="generic_login_banned_3" name="A számládat lezártuk.
 
-Ha a zárolással kapcsolatban kérdésed lenne, fordulj a supporthoz."  />
-				<text id="generic_login_banned_permanent" name="véglegesen"  />
-				<text id="generic_login_facebook" name="Facebookon keresztül bejelentkezni"  />
-				<text id="generic_login_login" name="BELÉPÉS"  />
-				<text id="generic_login_loginname" name="Felhasználó név/E-mail"  />
-				<text id="generic_login_lostpassword" name="Elfelejtetted a jelszavadat?"  />
-				<text id="generic_login_lostpassword_copy" name="Add meg az e-mailcímedet és elküldjük a jelszavadat."  />
-				<text id="generic_login_lostpassword_title" name="Elfelejtett jelszó"  />
-				<text id="generic_login_newplayer" name="Új vagy?"  />
-				<text id="generic_login_password" name="Jelszó"  />
-				<text id="generic_login_play" name="JÁTSZHATSZ"  />
-				<text id="generic_login_playnow" name="Játssz most!"  />
-				<text id="generic_login_register" name="Regisztrálás"  />
-				<text id="generic_login_rememberpassword" name="Jelszómentés"  />
-				<text id="generic_login_wronglogin" name="Hibás felhasználónév vagy jelszó!"  />
-			</login>
-			<logout>
-				<text id="generic_logout_guest_copy" name="Regisztrálj a játékod mentéséhez"  />
-				<text id="generic_logout_guest_title" name="Regisztrálás"  />
-			</logout>
-			<notification>
-				<text id="servershutdownpremonition_backin_copy" name="Legkésőbb {0} belül a játék ismét elérhetővé válik."  />
-				<text id="servershutdownpremonition_copy" name="A játékszervert {0} lezárjuk. Jelentkezz ki vagy regisztrálj, hogy elmentsd a játékodat."  />
-				<text id="servershutdownpremonition_registered_copy" name="A játékszervert {0} időre karbantartás miatt leállítjuk."  />
-				<text id="servershutdown_copy" name="A játékszervert lezárjuk. Pár perc múlva újra bejelentkezhetsz."  />
-				<text id="welcomeback_copy" name="Öröm újra látni! Emitt egy kis apróság, hogy megkönnyítsük az újrakezdést."  />
-				<text id="welcomeback_title" name="Újra itt!"  />
-			</notification>
-			<password>
-				<text id="generic_change_password_copy_newpass" name="Új jelszó:"  />
-				<text id="generic_change_password_copy_oldpass" name="Régi jelszó:"  />
-				<text id="generic_change_password_copy_send" name="Az új jelszavadat e-mailben elküldtük."  />
-				<text id="generic_change_password_error_failed" name="Sajnos, ez nem a régi jelszavad."  />
-				<text id="generic_change_password_error_success" name="A jelszavadat sikeresen megváltoztattad."  />
-				<text id="generic_change_password_faild_copy" name="Az új jelszó legyen 2 karakternél hosszabb és a régi jelszót helyesen kell megadni!"  />
-				<text id="generic_change_password_faild_specialcharacters" name="A jelszavad nem maradhat üresen és nem tartalmazhat különleges karaktereket."  />
-				<text id="generic_change_password_faild_title" name="Jelszó megadása"  />
-				<text id="generic_change_password_title" name="Jelszóváltoztatás"  />
-				<text id="generic_guest_change_password_faild_copy" name="Csak regisztrált játékosként változtathatod a jelszavadat."  />
-				<text id="generic_guest_change_password_faild_title" name="Először regisztrálj"  />
-			</password>
-			<payment>
-				<text id="generic_payment_48hdiscount_button" name="Az első 48 órában még több aranyhoz juthatsz."  />
-				<text id="generic_payment_48hdiscount_button_general" name="Több {0} az első 48 órában!"  />
-				<text id="generic_payment_48hdiscount_copy" name="Az első 48 órában vásárolj aranyat és a kiválasztott csomag után {0}% extra jár!"  />
-				<text id="generic_payment_48hdiscount_copy_1" name="Az első 48 órában vásárolj aranyat és minden csomag után {0}% extra jár!"  />
-				<text id="generic_payment_48hdiscount_copy_1_general" name="Az első 48 órában vegyél {0}t és minden csomag után {1}%t kapsz hozzá!"  />
-				<text id="generic_payment_48hdiscount_copy_general" name="Az első 48 órában vegyél {0}t és a kiválasztott csomagokra {1}%t kapsz hozzá!"  />
-				<text id="generic_payment_copy" name="Továbblépsz a Paymentshopra (fizetési hely)."  />
-				<text id="generic_payment_discount_button" name="{0}%-kal több aranyat kapsz most a pénzedért!"  />
-				<text id="generic_payment_discount_copy" name="Vásárolj most aranyat és {0}% bónuszt kapsz!"  />
-				<text id="generic_payment_discount_copy_general" name="Most vásárolj {0} és kapsz {1}% bónuszt!"  />
-				<text id="generic_payment_discount_general" name="{0}%-kal több {1}t kapsz most a pénzedért!"  />
-				<text id="generic_payment_discount_generalshort" name="{0}%-kal több a pénzedért!"  />
-				<text id="generic_payment_discount_time" name="{0} MÉG!"  />
-				<text id="generic_payment_discount_title" name="Most plussz arany!"  />
-				<text id="generic_payment_newPrices" name="Azonnal! Csökkentett árak a Payment-Shopban! Valódi pénzt spórolhatsz!"  />
-				<text id="generic_payment_title" name="Befizetés"  />
-			</payment>
-			<progressbar>
-				<text id="loading_text_1" name="Alagút keresése a cyberspace-en"  />
-				<text id="loading_text_10" name="Ossz szét tárgyakat a világba"  />
-				<text id="loading_text_11" name="Grafika rajzolása"  />
-				<text id="loading_text_12" name="A gombok szinezése"  />
-				<text id="loading_text_13" name="Húsvéti tojás elrejtése"  />
-				<text id="loading_text_14" name="Felhasználó adatainak keresése"  />
-				<text id="loading_text_15" name="Csapd le a legyet"  />
-				<text id="loading_text_16" name="Etesd meg a programozót"  />
-				<text id="loading_text_17" name="Experiment with the client"  />
-				<text id="loading_text_18" name="Forgasd a homokórát"  />
-				<text id="loading_text_19" name="A rendszer hűtése"  />
-				<text id="loading_text_2" name="A fogaskerekek olajozása"  />
-				<text id="loading_text_20" name="Mindjárt kész"  />
-				<text id="loading_text_3" name="Forgasd a mókuskereket"  />
-				<text id="loading_text_4" name="A szerver felmelegítése"  />
-				<text id="loading_text_5" name="Remélem, minden rendben"  />
-				<text id="loading_text_6" name="Call for the exterminator"  />
-				<text id="loading_text_7" name="Komplikált algoritmus kiszámolása"  />
-				<text id="loading_text_8" name="Fluxkompenzátor kalibrálása"  />
-				<text id="loading_text_9" name="Tinker items"  />
-				<text id="loading_text_default" name="Inicializálás"  />
-				<text id="loading_text_itemXML" name="A játékelemek töltése..."  />
-				<text id="progress_loadfiles" name="A játékgrafika töltése..."  />
-				<text id="progress_serverconnection" name="A játékszerverrel összekötve..."  />
-			</progressbar>
-			<register>
-				<text id="generic_register_agb_copy" name="Az ÁSZF nélkül nem megy. Csak olvasd el, a baloldali gombbal hagyd jóvá, és kész!"  />
-				<text id="generic_register_agb_read" name="ÁSZF olvasása"  />
-				<text id="generic_register_alreadyavatar" name="A felhasználónak már van avatarja."  />
-				<text id="generic_register_badword" name="{0}t nem használhatod a nevedben."  />
-				<text id="generic_register_btn_agb" name="ÁSZF elfogadva"  />
-				<text id="generic_register_btn_later" name="Később"  />
-				<text id="generic_register_btn_next" name="Tovább"  />
-				<text id="generic_register_btn_save" name="Mentés"  />
-				<text id="generic_register_character" name="Készítsd el a karakteredet!"  />
-				<text id="generic_register_copy_0" name="Regisztrálj ingyen!"  />
-				<text id="generic_register_copy_1" name="A játékodat mentsd le."  />
-				<text id="generic_register_emaillong_copy" name="Az e-mail címed sajnos túl hosszú."  />
-				<text id="generic_register_emailwrong_copy" name="A megadott e-mail cím nem helyes."  />
-				<text id="generic_register_email_copy" name="Az e-mailcím nem lehet üres, és nem tartalmazhat speciális karaktereket."  />
-				<text id="generic_register_error" name="A regisztráció nem sikerült."  />
-				<text id="generic_register_errormistake" name="Hiba"  />
-				<text id="generic_register_error_accountalreadyexists" name="Ezzel az e-mail címmel már egy játékos bejelentkezett, sajnos."  />
-				<text id="generic_register_forfree" name="Ingyenesen jelentkezhetsz!"  />
-				<text id="generic_register_forfree1" name="Ingyenes!"  />
-				<text id="generic_register_letsgo" name="Mehet!"  />
-				<text id="generic_register_namealreadyused" name="A név már foglalt."  />
-				<text id="generic_register_namenotvalid" name="A megadott név érvénytelen."  />
-				<text id="generic_register_passwordshort_copy" name="A megadott jelszó túl rövid. Legalább 4 karakterből kell állnia."  />
-				<text id="generic_register_passwordwrong_copy" name="A megadott jelszó nem helyes."  />
-				<text id="generic_register_password_copy" name="A jelszavad nem lehet üres és nem tartalmazhat speciális karaktereket."  />
-				<text id="generic_register_rememberdata" name="Adatok megjegyzése"  />
-				<text id="generic_register_reward" name="Az ingyenes bejelentkezéskor kapsz {0} {1} ajándékba!"  />
-				<text id="generic_register_subscribe" name="Bejelentkezés"  />
-				<text id="generic_register_success" name="Sikeresen regisztráltál!"  />
-				<text id="generic_register_title" name="Regisztrációs hiba"  />
-				<text id="generic_register_unlock" name="A funkció engedélyezése."  />
-			</register>
-			<report>
-				<text id="generic_report_muted_badword1_copy" name="Figyelj a szádra, különben felfüggeszthetünk a csevegésből vagy átmenetileg az egész játékból. 
-Ok: {0}"  />
-				<text id="generic_report_muted_badword2_copy" name="A többszöri helytelen viselkedésednek köszönhetően a következő {0} alatt nem cseveghetsz. Ok: {1}"  />
-				<text id="generic_report_muted_domain1" name="Internetcím a csevegésben nem megengedett!"  />
-				<text id="generic_report_muted_reported_copy" name="Több játékos panaszkodott rád. Ezért a következő {0} alatt nem cseveghetsz. Ok: {1}"  />
-				<text id="generic_report_player_copy" name="Biztosan jelented {0} játékost?\nFigyelem! A funkció ok nélküli használata az adatok lezárását vonhatja maga után."  />
-				<text id="generic_report_player_reason_0" name="Sértegetés"  />
-				<text id="generic_report_player_reason_1" name="Szexuális zaklatás"  />
-				<text id="generic_report_player_reason_2" name="Rassziszta megjegyzés"  />
-				<text id="generic_report_player_reason_3" name="Fenyegetés/Erőltetés"  />
-				<text id="generic_report_player_reason_title" name="A jelentés oka:"  />
-				<text id="generic_report_player_title" name="Játékost jelenteni?"  />
-				<text id="generic_report_reported_copy" name="Egyik játékos jelentett téged az Administratornak.
-Ok: {0}"  />
-			</report>
-			<worlds>
-				<text id="generic_connect" name="Kapcsolódás"  />
-				<text id="generic_select_world" name="Válassz egy világot:"  />
-				<text id="generic_world" name="Világ: {0}"  />
-				<text id="generic_world_international" name="nemzetközi: {0}"  />
-			</worlds>
-		</generic_flash>
-	</fashion>
- 
+Ha a zárolással kapcsolatban kérdésed lenne, fordulj a supporthoz." />
+			<text id="generic_login_banned_permanent" name="véglegesen" />
+			<text id="generic_login_facebook" name="Facebookon keresztül bejelentkezni" />
+			<text id="generic_login_login" name="BELÉPÉS" />
+			<text id="generic_login_loginname" name="Felhasználó név/E-mail" />
+			<text id="generic_login_lostpassword" name="Elfelejtetted a jelszavadat?" />
+			<text id="generic_login_lostpassword_copy" name="Add meg az e-mailcímedet és elküldjük a jelszavadat." />
+			<text id="generic_login_lostpassword_title" name="Elfelejtett jelszó" />
+			<text id="generic_login_newplayer" name="Új vagy?" />
+			<text id="generic_login_password" name="Jelszó" />
+			<text id="generic_login_play" name="JÁTSZHATSZ" />
+			<text id="generic_login_playnow" name="Játssz most!" />
+			<text id="generic_login_register" name="Regisztrálás" />
+			<text id="generic_login_rememberpassword" name="Jelszómentés" />
+			<text id="generic_login_wronglogin" name="Hibás felhasználónév vagy jelszó!" />
+		</login>
+		<logout>
+			<text id="generic_logout_guest_copy" name="Regisztrálj a játékod mentéséhez" />
+			<text id="generic_logout_guest_title" name="Regisztrálás" />
+		</logout>
+		<notification>
+			<text id="servershutdownpremonition_backin_copy" name="Legkésőbb {0} belül a játék ismét elérhetővé válik." />
+			<text id="servershutdownpremonition_copy" name="A játékszervert {0} lezárjuk. Jelentkezz ki vagy regisztrálj, hogy elmentsd a játékodat." />
+			<text id="servershutdownpremonition_registered_copy" name="A játékszervert {0} időre karbantartás miatt leállítjuk." />
+			<text id="servershutdown_copy" name="A játékszervert lezárjuk. Pár perc múlva újra bejelentkezhetsz." />
+			<text id="welcomeback_copy" name="Öröm újra látni! Emitt egy kis apróság, hogy megkönnyítsük az újrakezdést." />
+			<text id="welcomeback_title" name="Újra itt!" />
+		</notification>
+		<password>
+			<text id="generic_change_password_copy_newpass" name="Új jelszó:" />
+			<text id="generic_change_password_copy_oldpass" name="Régi jelszó:" />
+			<text id="generic_change_password_copy_send" name="Az új jelszavadat e-mailben elküldtük." />
+			<text id="generic_change_password_error_failed" name="Sajnos, ez nem a régi jelszavad." />
+			<text id="generic_change_password_error_success" name="A jelszavadat sikeresen megváltoztattad." />
+			<text id="generic_change_password_faild_copy" name="Az új jelszó legyen 2 karakternél hosszabb és a régi jelszót helyesen kell megadni!" />
+			<text id="generic_change_password_faild_specialcharacters" name="A jelszavad nem maradhat üresen és nem tartalmazhat különleges karaktereket." />
+			<text id="generic_change_password_faild_title" name="Jelszó megadása" />
+			<text id="generic_change_password_title" name="Jelszóváltoztatás" />
+			<text id="generic_guest_change_password_faild_copy" name="Csak regisztrált játékosként változtathatod a jelszavadat." />
+			<text id="generic_guest_change_password_faild_title" name="Először regisztrálj" />
+		</password>
+		<payment>
+			<text id="generic_payment_48hdiscount_button" name="Az első 48 órában még több aranyhoz juthatsz." />
+			<text id="generic_payment_48hdiscount_button_general" name="Több {0} az első 48 órában!" />
+			<text id="generic_payment_48hdiscount_copy" name="Az első 48 órában vásárolj aranyat és a kiválasztott csomag után {0}% extra jár!" />
+			<text id="generic_payment_48hdiscount_copy_1" name="Az első 48 órában vásárolj aranyat és minden csomag után {0}% extra jár!" />
+			<text id="generic_payment_48hdiscount_copy_1_general" name="Az első 48 órában vegyél {0}t és minden csomag után {1}%t kapsz hozzá!" />
+			<text id="generic_payment_48hdiscount_copy_general" name="Az első 48 órában vegyél {0}t és a kiválasztott csomagokra {1}%t kapsz hozzá!" />
+			<text id="generic_payment_copy" name="Továbblépsz a Paymentshopra (fizetési hely)." />
+			<text id="generic_payment_discount_button" name="{0}%-kal több aranyat kapsz most a pénzedért!" />
+			<text id="generic_payment_discount_copy" name="Vásárolj most aranyat és {0}% bónuszt kapsz!" />
+			<text id="generic_payment_discount_copy_general" name="Most vásárolj {0} és kapsz {1}% bónuszt!" />
+			<text id="generic_payment_discount_general" name="{0}%-kal több {1}t kapsz most a pénzedért!" />
+			<text id="generic_payment_discount_generalshort" name="{0}%-kal több a pénzedért!" />
+			<text id="generic_payment_discount_time" name="{0} MÉG!" />
+			<text id="generic_payment_discount_title" name="Most plussz arany!" />
+			<text id="generic_payment_newPrices" name="Azonnal! Csökkentett árak a Payment-Shopban! Valódi pénzt spórolhatsz!" />
+			<text id="generic_payment_title" name="Befizetés" />
+		</payment>
+		<progressbar>
+			<text id="loading_text_1" name="Alagút keresése a cyberspace-en" />
+			<text id="loading_text_10" name="Ossz szét tárgyakat a világba" />
+			<text id="loading_text_11" name="Grafika rajzolása" />
+			<text id="loading_text_12" name="A gombok szinezése" />
+			<text id="loading_text_13" name="Húsvéti tojás elrejtése" />
+			<text id="loading_text_14" name="Felhasználó adatainak keresése" />
+			<text id="loading_text_15" name="Csapd le a legyet" />
+			<text id="loading_text_16" name="Etesd meg a programozót" />
+			<text id="loading_text_17" name="Experiment with the client" />
+			<text id="loading_text_18" name="Forgasd a homokórát" />
+			<text id="loading_text_19" name="A rendszer hűtése" />
+			<text id="loading_text_2" name="A fogaskerekek olajozása" />
+			<text id="loading_text_20" name="Mindjárt kész" />
+			<text id="loading_text_3" name="Forgasd a mókuskereket" />
+			<text id="loading_text_4" name="A szerver felmelegítése" />
+			<text id="loading_text_5" name="Remélem, minden rendben" />
+			<text id="loading_text_6" name="Call for the exterminator" />
+			<text id="loading_text_7" name="Komplikált algoritmus kiszámolása" />
+			<text id="loading_text_8" name="Fluxkompenzátor kalibrálása" />
+			<text id="loading_text_9" name="Tinker items" />
+			<text id="loading_text_default" name="Inicializálás" />
+			<text id="loading_text_itemXML" name="A játékelemek töltése..." />
+			<text id="progress_loadfiles" name="A játékgrafika töltése..." />
+			<text id="progress_serverconnection" name="A játékszerverrel összekötve..." />
+		</progressbar>
+		<register>
+			<text id="generic_register_agb_copy" name="Az ÁSZF nélkül nem megy. Csak olvasd el, a baloldali gombbal hagyd jóvá, és kész!" />
+			<text id="generic_register_agb_read" name="ÁSZF olvasása" />
+			<text id="generic_register_alreadyavatar" name="A felhasználónak már van avatarja." />
+			<text id="generic_register_badword" name="{0}t nem használhatod a nevedben." />
+			<text id="generic_register_btn_agb" name="ÁSZF elfogadva" />
+			<text id="generic_register_btn_later" name="Később" />
+			<text id="generic_register_btn_next" name="Tovább" />
+			<text id="generic_register_btn_save" name="Mentés" />
+			<text id="generic_register_character" name="Készítsd el a karakteredet!" />
+			<text id="generic_register_copy_0" name="Regisztrálj ingyen!" />
+			<text id="generic_register_copy_1" name="A játékodat mentsd le." />
+			<text id="generic_register_emaillong_copy" name="Az e-mail címed sajnos túl hosszú." />
+			<text id="generic_register_emailwrong_copy" name="A megadott e-mail cím nem helyes." />
+			<text id="generic_register_email_copy" name="Az e-mailcím nem lehet üres, és nem tartalmazhat speciális karaktereket." />
+			<text id="generic_register_error" name="A regisztráció nem sikerült." />
+			<text id="generic_register_errormistake" name="Hiba" />
+			<text id="generic_register_error_accountalreadyexists" name="Ezzel az e-mail címmel már egy játékos bejelentkezett, sajnos." />
+			<text id="generic_register_forfree" name="Ingyenesen jelentkezhetsz!" />
+			<text id="generic_register_forfree1" name="Ingyenes!" />
+			<text id="generic_register_letsgo" name="Mehet!" />
+			<text id="generic_register_namealreadyused" name="A név már foglalt." />
+			<text id="generic_register_namenotvalid" name="A megadott név érvénytelen." />
+			<text id="generic_register_passwordshort_copy" name="A megadott jelszó túl rövid. Legalább 4 karakterből kell állnia." />
+			<text id="generic_register_passwordwrong_copy" name="A megadott jelszó nem helyes." />
+			<text id="generic_register_password_copy" name="A jelszavad nem lehet üres és nem tartalmazhat speciális karaktereket." />
+			<text id="generic_register_rememberdata" name="Adatok megjegyzése" />
+			<text id="generic_register_reward" name="Az ingyenes bejelentkezéskor kapsz {0} {1} ajándékba!" />
+			<text id="generic_register_subscribe" name="Bejelentkezés" />
+			<text id="generic_register_success" name="Sikeresen regisztráltál!" />
+			<text id="generic_register_title" name="Regisztrációs hiba" />
+			<text id="generic_register_unlock" name="A funkció engedélyezése." />
+		</register>
+		<report>
+			<text id="generic_report_muted_badword1_copy" name="Figyelj a szádra, különben felfüggeszthetünk a csevegésből vagy átmenetileg az egész játékból. 
+Ok: {0}" />
+			<text id="generic_report_muted_badword2_copy" name="A többszöri helytelen viselkedésednek köszönhetően a következő {0} alatt nem cseveghetsz. Ok: {1}" />
+			<text id="generic_report_muted_domain1" name="Internetcím a csevegésben nem megengedett!" />
+			<text id="generic_report_muted_reported_copy" name="Több játékos panaszkodott rád. Ezért a következő {0} alatt nem cseveghetsz. Ok: {1}" />
+			<text id="generic_report_player_copy" name="Biztosan jelented {0} játékost?\nFigyelem! A funkció ok nélküli használata az adatok lezárását vonhatja maga után." />
+			<text id="generic_report_player_reason_0" name="Sértegetés" />
+			<text id="generic_report_player_reason_1" name="Szexuális zaklatás" />
+			<text id="generic_report_player_reason_2" name="Rassziszta megjegyzés" />
+			<text id="generic_report_player_reason_3" name="Fenyegetés/Erőltetés" />
+			<text id="generic_report_player_reason_title" name="A jelentés oka:" />
+			<text id="generic_report_player_title" name="Játékost jelenteni?" />
+			<text id="generic_report_reported_copy" name="Egyik játékos jelentett téged az Administratornak.
+Ok: {0}" />
+		</report>
+		<worlds>
+			<text id="generic_connect" name="Kapcsolódás" />
+			<text id="generic_select_world" name="Válassz egy világot:" />
+			<text id="generic_world" name="Világ: {0}" />
+			<text id="generic_world_international" name="nemzetközi: {0}" />
+		</worlds>
+	</generic_flash>
+</fashion>

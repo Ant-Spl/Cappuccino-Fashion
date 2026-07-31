@@ -1,1235 +1,1237 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- goodgamestudios FASHION - ja - 12 -->
-	<fashion>
-		<achievement>
-			<text id="Basic_Achievement_Boughtdeco" name="ラグジュアリーブティック"  />
-			<text id="Basic_Achievement_Boughtdeco_copy" name="購入したデコレーションの数"  />
-			<text id="Basic_Achievement_Boughtpatterns" name="多彩なレパートリー"  />
-			<text id="Basic_Achievement_Boughtpatterns_copy" name="購入した型紙の数"  />
-			<text id="Basic_Achievement_Earnedchips" name="ブランドリーダー"  />
-			<text id="Basic_Achievement_Earnedchips_copy" name="稼いだファッションドル"  />
-			<text id="Basic_Achievement_FinishedCoops" name="ファッション・フォー・エヴリワン"  />
-			<text id="Basic_Achievement_FinishedCoops_copy" name="Co-Opを成功した回数"  />
-			<text id="Basic_Achievement_FinishedGoldCoops" name="ゴールデンアウトフィッター"  />
-			<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Co-Opをゴールドで成功した回数"  />
-			<text id="Basic_Achievement_Mannequindesign" name="アメージングショーケース"  />
-			<text id="Basic_Achievement_Mannequindesign_copy" name="マネキンを着せた数"  />
-			<text id="Basic_Achievement_Masteries" name="ビジーソウアー"  />
-			<text id="Basic_Achievement_Masteriesgold" name="ゴールデンソウアー"  />
-			<text id="Basic_Achievement_Masteriesgold_copy" name="達成ゴールドレーベル数"  />
-			<text id="Basic_Achievement_Masteries_copy" name="達成レーベル数"  />
-			<text id="Basic_Achievement_Producedaccessoires" name="作成したアクセサリー"  />
-			<text id="Basic_Achievement_Producedaccessoires_copy" name="作成したアクセサリーの数"  />
-			<text id="Basic_Achievement_Producedbags" name="ハンドバッグマーチャント"  />
-			<text id="Basic_Achievement_Producedbags_copy" name="作成したハンドバッグの数"  />
-			<text id="Basic_Achievement_Producedbottoms" name="パンツ、レギンス、エトセトラ"  />
-			<text id="Basic_Achievement_Producedbottoms_copy" name="作成したズボンとスカートの数"  />
-			<text id="Basic_Achievement_Producedclothes" name="クロージングモノポリー"  />
-			<text id="Basic_Achievement_Producedclothes_copy" name="作成した洋服の数"  />
-			<text id="Basic_Achievement_Produceddifferentaccessoires" name="オーサムアクセサリー"  />
-			<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="作成したアクセサリーの種類数"  />
-			<text id="Basic_Achievement_Produceddifferentclothes" name="多彩なラインアップ"  />
-			<text id="Basic_Achievement_Produceddifferentclothes_copy" name="作成した洋服の種類数"  />
-			<text id="Basic_Achievement_Produceddifferentitems" name="オールラウンドアウトフィッター"  />
-			<text id="Basic_Achievement_Produceddifferentitems_copy" name="作成した商品の種類数"  />
-			<text id="Basic_Achievement_Produceddifferentshoes" name="シューフレンジー"  />
-			<text id="Basic_Achievement_Produceddifferentshoes_copy" name="作成した靴の種類数"  />
-			<text id="Basic_Achievement_Producedfemaleonly" name="ウィメンオンリー"  />
-			<text id="Basic_Achievement_Producedfemaleonly_copy" name="作成したウィメンズ商品の数"  />
-			<text id="Basic_Achievement_Producedfullbody" name="襟飾りとタイ"  />
-			<text id="Basic_Achievement_Producedfullbody_copy" name="作成したドレスとスーツの数"  />
-			<text id="Basic_Achievement_Producedhats" name="ハットメーカー"  />
-			<text id="Basic_Achievement_Producedhats_copy" name="作成した帽子の数"  />
-			<text id="Basic_Achievement_Producedjewlery" name="ジュエリーボックス"  />
-			<text id="Basic_Achievement_Producedjewlery_copy" name="ジュエリーを作成した数"  />
-			<text id="Basic_Achievement_Producedmaleonly" name="メンズオンリー"  />
-			<text id="Basic_Achievement_Producedmaleonly_copy" name="作成したメンズ商品の数"  />
-			<text id="Basic_Achievement_Producedshoes" name="靴の大御所"  />
-			<text id="Basic_Achievement_Producedshoes_copy" name="作成した靴の数"  />
-			<text id="Basic_Achievement_Producedtops" name="トップスがいっぱい"  />
-			<text id="Basic_Achievement_Producedtops_copy" name="作成したトップスの数"  />
-			<text id="Basic_Achievement_Soldduringsale" name="バーゲンハンター"  />
-			<text id="Basic_Achievement_Soldduringsale_copy" name="販売したセール商品"  />
-			<text id="Basic_Achievement_Soldproducts" name="売った商品"  />
-			<text id="Basic_Achievement_Soldproducts_copy" name="販売した商品の数"  />
-			<text id="Basic_Achievement_Spentchips" name="ジェネラスセールスマン"  />
-			<text id="Basic_Achievement_Spentchips_copy" name="支払われたファッションドル"  />
-			<text id="Basic_Achievement_Spentgold" name="ゴールデンストア"  />
-			<text id="Basic_Achievement_Spentgold_copy" name="払ったゴールドボタンの数"  />
-			<text id="Basic_Achievement_Stolenproducts" name="ペティシーフモーテル"  />
-			<text id="Basic_Achievement_Stolenproducts_copy" name="盗まれた商品の数"  />
-			<text id="Basic_Achievement_Wheeloffortune" name="スピニングニードル"  />
-			<text id="Basic_Achievement_Wheeloffortune_copy" name="ホイール・オブ・フォーチュン成功数"  />
-			<text id="Social_Achievement_Friendscout" name="ポピュラーショッパー"  />
-			<text id="Social_Achievement_Friendscout_copy" name="ネットワークの友達の数"  />
-		</achievement>
-		<alerts>
-			<text id="alerts_avatarcustomize_goldrequest" name="{0} {1}に着替えますか？"  />
-			<text id="alerts_avatarcustom_workingplayer_copy" name="現在実行中のアクションが完了するまで、着替えることはできません!"  />
-			<text id="alerts_avatarcustom_workingplayer_title" name="しばらくお待ちください!"  />
-			<text id="alerts_booster_info_copy" name="警備員は商品の盗難を防ぎます。
-5日間雇った後、それ以降も追加で延長が可能です。"  />
-			<text id="alerts_booster_info_copy_1" name="{0}人友達が追加されると、盗難対策が{1}延長されます。"  />
-			<text id="alerts_booster_info_title" name="警備員"  />
-			<text id="alerts_buytiles_copy" name="タイル{0}個を{1}で買いますか？"  />
-			<text id="alerts_buytiles_title" name="タイルを買いますか？"  />
-			<text id="alerts_customcloth_noshape_copy" name="プリントするためには、まずは形をえらんでください!"  />
-			<text id="alerts_decoshop_dragtipp_copy" name="このアイテムを使用するには、ショップ内にドラッグしてください。"  />
-			<text id="alerts_decoshop_dragtipp_title" name="設定！"  />
-			<text id="alerts_decoshop_next_Cashdesk_bylevel" name="レベル{0}以上になれば、レジを追加で購入できます。あるいは、別のレジを使用するには、古いレジをショップからこちらにドラッグしてください。"  />
-			<text id="alerts_decoshop_next_Changingroom_bylevel" name="レベル{0}以上になれば、フィッティングルームが追加で購入できます。あるいは、別のフィッティングルームを購入するには、古いフィッティングルームをショップからこちらにドラッグしてください。"  />
-			<text id="alerts_decoshop_next_Counter_bylevel" name="レベル{0}以上になれば、棚を追加で購入できます。あるいは、別の棚を購入するには、古い棚をショップからこちらにドラッグしてください。"  />
-			<text id="alerts_decoshop_next_Factory_bylevel" name="レベル{0}以上になれば、従業員が追加で雇えます。あるいは、別の従業員を雇うには、古い従業員をショップからこちらにドラッグしてください。"  />
-			<text id="alerts_decoshop_next_Mannequin_bylevel" name="レベル{0}以上になれば、マネキンを追加で購入できます。あるいは、別のマネキンを買うには、古いマネキンをショップからこちらにドラッグしてください。"  />
-			<text id="alerts_decoshop_nomoreCashdesk" name="今のところは、レジはこれ以上購入できません！"  />
-			<text id="alerts_decoshop_nomoreChangingroom" name="今のところ、これ以上はフィッティングルームを購入できません！"  />
-			<text id="alerts_decoshop_nomoreCounter" name="今のところは、棚はこれ以上購入できません！"  />
-			<text id="alerts_decoshop_nomoreExpansion" name="現在利用可能な拡張はこれ以上ありません。"  />
-			<text id="alerts_decoshop_nomoreFactory" name="今のところは、従業員はこれ以上雇えません！"  />
-			<text id="alerts_decoshop_nomoreMannequin" name="今のところは、マネキンはこれ以上購入できません！"  />
-			<text id="alerts_decoshop_sellitem_copy" name="このアイテムを1つ{0}で売ってよろしいですか？"  />
-			<text id="alerts_decoshop_sellitem_title" name="商品の販売"  />
-			<text id="alerts_decoshop_storeFactory_copy" name="満足していない従業員はお店から去ってもらうことが出来ます。ボーナスを払うか、他のお店に雇ってもらってください。"  />
-			<text id="alerts_decoshop_storeMannequin_copy" name="マネキンが商品を着ている間は倉庫に入れることが出来ません。"  />
-			<text id="alerts_decoshop_store_title" name="倉庫に入れる"  />
-			<text id="alerts_decoshop_workingplayer_copy" name="ショップを改装する前に、まずはアクションを完了させてください!"  />
-			<text id="alerts_decoshop_workingplayer_title" name="作業中です！"  />
-			<text id="alerts_fashionbook_notarget_copy" name="商品を作成する従業員を選んでください。"  />
-			<text id="alerts_fashionbook_notarget_copy_1" name="この従業員はすでに商品を作成中です。別の従業員を選択してください！"  />
-			<text id="alerts_fashionbook_notarget_title" name="どの従業員ですか？"  />
-			<text id="alerts_fashionbook_notequaltype_copy" name="この従業員はきまった商品しか作成しません。{0}-コレクションの中から\n選んでください。"  />
-			<text id="alerts_fashionbook_notequaltype_title" name="他の商品"  />
-			<text id="alerts_fashionbook_usebooster_title" name="ブースターを使いますか？"  />
-			<text id="alerts_friend_ask" name="{0} さんを友達リストに加えますか？"  />
-			<text id="alerts_friend_denied" name="{0}はあなたの友達招待を断りました"  />
-			<text id="alerts_friend_title" name="フレンドシップ"  />
-			<text id="alerts_gift_workingplayer_copy" name="ギフトを配置する前に、手に持っている商品を棚に置いてください。"  />
-			<text id="alerts_gift_workingplayer_title" name="まずは置いてください！"  />
-			<text id="alerts_instantworking_goldrequest" name="&#039;すぐに仕上げる&#039;？を使用しますか？
-あと{0}回可能です！"  />
-			<text id="alerts_invitefriend_copy" name="招待メールが{0}に送られました！"  />
-			<text id="alerts_invitefriend_title" name="新しい友達！"  />
-			<text id="alerts_isoworld_counter_outofreach_copy" name="棚に辿り着けません。改装してみましょう。"  />
-			<text id="alerts_isoworld_counter_outofreach_title" name="辿りつけません！"  />
-			<text id="alerts_isoworld_factory_outofreach_copy" name="従業員の元に辿りつけません。改装してみましょう。"  />
-			<text id="alerts_isoworld_factory_outofreach_title" name="辿りつけません！"  />
-			<text id="alerts_isoworld_mannequin_instant" name="マネキンに新しい洋服を着せますか？"  />
-			<text id="alerts_isoworld_marketplace_title" name="黒い板"  />
-			<text id="alerts_kickedbyplayer_copy" name="このショップはオーナーにより閉店されました。"  />
-			<text id="alerts_kickedbyplayer_title" name="申し訳ありませんが、お引き取りください！"  />
-			<text id="alerts_kickjobber_copy" name="ほかのプレーヤーがお店にいる間は改装モードに切り替えられません。"  />
-			<text id="alerts_kickjobber_title" name="ショップにいる従業員"  />
-			<text id="alerts_kickplayer_copy" name="ショップに他のプレイヤーがいます。改装モードに切り替えるために、追い出しますか？"  />
-			<text id="alerts_kickplayer_title" name="プレイヤーを追い出す"  />
-			<text id="alerts_lostpassword_copy" name="パスワードを送信しますので、ご登録のEメールアドレスを入力してください。"  />
-			<text id="alerts_lostpassword_title" name="パスワードをお忘れですか？"  />
-			<text id="alerts_mannequindesign_nocloth_copy" name="マネキンに着せるための商品が棚にありません。"  />
-			<text id="alerts_mannequindesign_nocloth_title" name="在庫がありません！"  />
-			<text id="alerts_marketplace_playerleaved_copy" name="プレイヤーはアーケードを立ち去りました。"  />
-			<text id="alerts_marketplace_playerleaved_title" name="遅かった！"  />
-			<text id="alerts_placetiles_copy" name="1. タイルを選んでください
+<fashion>
+	<achievement>
+		<text id="Basic_Achievement_Boughtdeco" name="ラグジュアリーブティック" />
+		<text id="Basic_Achievement_Boughtdeco_copy" name="購入したデコレーションの数" />
+		<text id="Basic_Achievement_Boughtpatterns" name="多彩なレパートリー" />
+		<text id="Basic_Achievement_Boughtpatterns_copy" name="購入した型紙の数" />
+		<text id="Basic_Achievement_Earnedchips" name="ブランドリーダー" />
+		<text id="Basic_Achievement_Earnedchips_copy" name="稼いだファッションドル" />
+		<text id="Basic_Achievement_FinishedCoops" name="ファッション・フォー・エヴリワン" />
+		<text id="Basic_Achievement_FinishedCoops_copy" name="Co-Opを成功した回数" />
+		<text id="Basic_Achievement_FinishedGoldCoops" name="ゴールデンアウトフィッター" />
+		<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Co-Opをゴールドで成功した回数" />
+		<text id="Basic_Achievement_Mannequindesign" name="アメージングショーケース" />
+		<text id="Basic_Achievement_Mannequindesign_copy" name="マネキンを着せた数" />
+		<text id="Basic_Achievement_Masteries" name="ビジーソウアー" />
+		<text id="Basic_Achievement_Masteriesgold" name="ゴールデンソウアー" />
+		<text id="Basic_Achievement_Masteriesgold_copy" name="達成ゴールドレーベル数" />
+		<text id="Basic_Achievement_Masteries_copy" name="達成レーベル数" />
+		<text id="Basic_Achievement_Producedaccessoires" name="作成したアクセサリー" />
+		<text id="Basic_Achievement_Producedaccessoires_copy" name="作成したアクセサリーの数" />
+		<text id="Basic_Achievement_Producedbags" name="ハンドバッグマーチャント" />
+		<text id="Basic_Achievement_Producedbags_copy" name="作成したハンドバッグの数" />
+		<text id="Basic_Achievement_Producedbottoms" name="パンツ、レギンス、エトセトラ" />
+		<text id="Basic_Achievement_Producedbottoms_copy" name="作成したズボンとスカートの数" />
+		<text id="Basic_Achievement_Producedclothes" name="クロージングモノポリー" />
+		<text id="Basic_Achievement_Producedclothes_copy" name="作成した洋服の数" />
+		<text id="Basic_Achievement_Produceddifferentaccessoires" name="オーサムアクセサリー" />
+		<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="作成したアクセサリーの種類数" />
+		<text id="Basic_Achievement_Produceddifferentclothes" name="多彩なラインアップ" />
+		<text id="Basic_Achievement_Produceddifferentclothes_copy" name="作成した洋服の種類数" />
+		<text id="Basic_Achievement_Produceddifferentitems" name="オールラウンドアウトフィッター" />
+		<text id="Basic_Achievement_Produceddifferentitems_copy" name="作成した商品の種類数" />
+		<text id="Basic_Achievement_Produceddifferentshoes" name="シューフレンジー" />
+		<text id="Basic_Achievement_Produceddifferentshoes_copy" name="作成した靴の種類数" />
+		<text id="Basic_Achievement_Producedfemaleonly" name="ウィメンオンリー" />
+		<text id="Basic_Achievement_Producedfemaleonly_copy" name="作成したウィメンズ商品の数" />
+		<text id="Basic_Achievement_Producedfullbody" name="襟飾りとタイ" />
+		<text id="Basic_Achievement_Producedfullbody_copy" name="作成したドレスとスーツの数" />
+		<text id="Basic_Achievement_Producedhats" name="ハットメーカー" />
+		<text id="Basic_Achievement_Producedhats_copy" name="作成した帽子の数" />
+		<text id="Basic_Achievement_Producedjewlery" name="ジュエリーボックス" />
+		<text id="Basic_Achievement_Producedjewlery_copy" name="ジュエリーを作成した数" />
+		<text id="Basic_Achievement_Producedmaleonly" name="メンズオンリー" />
+		<text id="Basic_Achievement_Producedmaleonly_copy" name="作成したメンズ商品の数" />
+		<text id="Basic_Achievement_Producedshoes" name="靴の大御所" />
+		<text id="Basic_Achievement_Producedshoes_copy" name="作成した靴の数" />
+		<text id="Basic_Achievement_Producedtops" name="トップスがいっぱい" />
+		<text id="Basic_Achievement_Producedtops_copy" name="作成したトップスの数" />
+		<text id="Basic_Achievement_Soldduringsale" name="バーゲンハンター" />
+		<text id="Basic_Achievement_Soldduringsale_copy" name="販売したセール商品" />
+		<text id="Basic_Achievement_Soldproducts" name="売った商品" />
+		<text id="Basic_Achievement_Soldproducts_copy" name="販売した商品の数" />
+		<text id="Basic_Achievement_Spentchips" name="ジェネラスセールスマン" />
+		<text id="Basic_Achievement_Spentchips_copy" name="支払われたファッションドル" />
+		<text id="Basic_Achievement_Spentgold" name="ゴールデンストア" />
+		<text id="Basic_Achievement_Spentgold_copy" name="払ったゴールドボタンの数" />
+		<text id="Basic_Achievement_Stolenproducts" name="ペティシーフモーテル" />
+		<text id="Basic_Achievement_Stolenproducts_copy" name="盗まれた商品の数" />
+		<text id="Basic_Achievement_Wheeloffortune" name="スピニングニードル" />
+		<text id="Basic_Achievement_Wheeloffortune_copy" name="ホイール・オブ・フォーチュン成功数" />
+		<text id="Social_Achievement_Friendscout" name="ポピュラーショッパー" />
+		<text id="Social_Achievement_Friendscout_copy" name="ネットワークの友達の数" />
+	</achievement>
+	<alerts>
+		<text id="alerts_avatarcustomize_goldrequest" name="{0} {1}に着替えますか？" />
+		<text id="alerts_avatarcustom_workingplayer_copy" name="現在実行中のアクションが完了するまで、着替えることはできません!" />
+		<text id="alerts_avatarcustom_workingplayer_title" name="しばらくお待ちください!" />
+		<text id="alerts_booster_info_copy" name="警備員は商品の盗難を防ぎます。
+5日間雇った後、それ以降も追加で延長が可能です。" />
+		<text id="alerts_booster_info_copy_1" name="{0}人友達が追加されると、盗難対策が{1}延長されます。" />
+		<text id="alerts_booster_info_title" name="警備員" />
+		<text id="alerts_buytiles_copy" name="タイル{0}個を{1}で買いますか？" />
+		<text id="alerts_buytiles_title" name="タイルを買いますか？" />
+		<text id="alerts_customcloth_noshape_copy" name="プリントするためには、まずは形をえらんでください!" />
+		<text id="alerts_decoshop_dragtipp_copy" name="このアイテムを使用するには、ショップ内にドラッグしてください。" />
+		<text id="alerts_decoshop_dragtipp_title" name="設定！" />
+		<text id="alerts_decoshop_next_Cashdesk_bylevel" name="レベル{0}以上になれば、レジを追加で購入できます。あるいは、別のレジを使用するには、古いレジをショップからこちらにドラッグしてください。" />
+		<text id="alerts_decoshop_next_Changingroom_bylevel" name="レベル{0}以上になれば、フィッティングルームが追加で購入できます。あるいは、別のフィッティングルームを購入するには、古いフィッティングルームをショップからこちらにドラッグしてください。" />
+		<text id="alerts_decoshop_next_Counter_bylevel" name="レベル{0}以上になれば、棚を追加で購入できます。あるいは、別の棚を購入するには、古い棚をショップからこちらにドラッグしてください。" />
+		<text id="alerts_decoshop_next_Factory_bylevel" name="レベル{0}以上になれば、従業員が追加で雇えます。あるいは、別の従業員を雇うには、古い従業員をショップからこちらにドラッグしてください。" />
+		<text id="alerts_decoshop_next_Mannequin_bylevel" name="レベル{0}以上になれば、マネキンを追加で購入できます。あるいは、別のマネキンを買うには、古いマネキンをショップからこちらにドラッグしてください。" />
+		<text id="alerts_decoshop_nomoreCashdesk" name="今のところは、レジはこれ以上購入できません！" />
+		<text id="alerts_decoshop_nomoreChangingroom" name="今のところ、これ以上はフィッティングルームを購入できません！" />
+		<text id="alerts_decoshop_nomoreCounter" name="今のところは、棚はこれ以上購入できません！" />
+		<text id="alerts_decoshop_nomoreExpansion" name="現在利用可能な拡張はこれ以上ありません。" />
+		<text id="alerts_decoshop_nomoreFactory" name="今のところは、従業員はこれ以上雇えません！" />
+		<text id="alerts_decoshop_nomoreMannequin" name="今のところは、マネキンはこれ以上購入できません！" />
+		<text id="alerts_decoshop_sellitem_copy" name="このアイテムを1つ{0}で売ってよろしいですか？" />
+		<text id="alerts_decoshop_sellitem_title" name="商品の販売" />
+		<text id="alerts_decoshop_storeFactory_copy" name="満足していない従業員はお店から去ってもらうことが出来ます。ボーナスを払うか、他のお店に雇ってもらってください。" />
+		<text id="alerts_decoshop_storeMannequin_copy" name="マネキンが商品を着ている間は倉庫に入れることが出来ません。" />
+		<text id="alerts_decoshop_store_title" name="倉庫に入れる" />
+		<text id="alerts_decoshop_workingplayer_copy" name="ショップを改装する前に、まずはアクションを完了させてください!" />
+		<text id="alerts_decoshop_workingplayer_title" name="作業中です！" />
+		<text id="alerts_fashionbook_notarget_copy" name="商品を作成する従業員を選んでください。" />
+		<text id="alerts_fashionbook_notarget_copy_1" name="この従業員はすでに商品を作成中です。別の従業員を選択してください！" />
+		<text id="alerts_fashionbook_notarget_title" name="どの従業員ですか？" />
+		<text id="alerts_fashionbook_notequaltype_copy" name="この従業員はきまった商品しか作成しません。{0}-コレクションの中から\n選んでください。" />
+		<text id="alerts_fashionbook_notequaltype_title" name="他の商品" />
+		<text id="alerts_fashionbook_usebooster_title" name="ブースターを使いますか？" />
+		<text id="alerts_friend_ask" name="{0} さんを友達リストに加えますか？" />
+		<text id="alerts_friend_denied" name="{0}はあなたの友達招待を断りました" />
+		<text id="alerts_friend_title" name="フレンドシップ" />
+		<text id="alerts_gift_workingplayer_copy" name="ギフトを配置する前に、手に持っている商品を棚に置いてください。" />
+		<text id="alerts_gift_workingplayer_title" name="まずは置いてください！" />
+		<text id="alerts_instantworking_goldrequest" name="&amp;#039;すぐに仕上げる&amp;#039;？を使用しますか？
+あと{0}回可能です！" />
+		<text id="alerts_invitefriend_copy" name="招待メールが{0}に送られました！" />
+		<text id="alerts_invitefriend_title" name="新しい友達！" />
+		<text id="alerts_isoworld_counter_outofreach_copy" name="棚に辿り着けません。改装してみましょう。" />
+		<text id="alerts_isoworld_counter_outofreach_title" name="辿りつけません！" />
+		<text id="alerts_isoworld_factory_outofreach_copy" name="従業員の元に辿りつけません。改装してみましょう。" />
+		<text id="alerts_isoworld_factory_outofreach_title" name="辿りつけません！" />
+		<text id="alerts_isoworld_mannequin_instant" name="マネキンに新しい洋服を着せますか？" />
+		<text id="alerts_isoworld_marketplace_title" name="黒い板" />
+		<text id="alerts_kickedbyplayer_copy" name="このショップはオーナーにより閉店されました。" />
+		<text id="alerts_kickedbyplayer_title" name="申し訳ありませんが、お引き取りください！" />
+		<text id="alerts_kickjobber_copy" name="ほかのプレーヤーがお店にいる間は改装モードに切り替えられません。" />
+		<text id="alerts_kickjobber_title" name="ショップにいる従業員" />
+		<text id="alerts_kickplayer_copy" name="ショップに他のプレイヤーがいます。改装モードに切り替えるために、追い出しますか？" />
+		<text id="alerts_kickplayer_title" name="プレイヤーを追い出す" />
+		<text id="alerts_lostpassword_copy" name="パスワードを送信しますので、ご登録のEメールアドレスを入力してください。" />
+		<text id="alerts_lostpassword_title" name="パスワードをお忘れですか？" />
+		<text id="alerts_mannequindesign_nocloth_copy" name="マネキンに着せるための商品が棚にありません。" />
+		<text id="alerts_mannequindesign_nocloth_title" name="在庫がありません！" />
+		<text id="alerts_marketplace_playerleaved_copy" name="プレイヤーはアーケードを立ち去りました。" />
+		<text id="alerts_marketplace_playerleaved_title" name="遅かった！" />
+		<text id="alerts_placetiles_copy" name="1. タイルを選んでください
 2. ショップ内のフロアをクリックし、マウスボタンを押さえたまま、変更したい範囲を選択してください。
-3. ボタンを離してください。"  />
-			<text id="alerts_placetiles_title" name="タイルを配置しますか？"  />
-			<text id="alerts_register_copy_addgold" name="ここで買い物するには、まずは登録が必要です"  />
-			<text id="alerts_register_copy_advertisement" name="プロモーションを行うには、まずはユーザー登録が必要です。"  />
-			<text id="alerts_register_copy_changeavatar" name="着せ替えるには、登録が必要です！"  />
-			<text id="alerts_register_copy_changepassword" name="登録されているプレイヤーはパスワードを変更することが出来ます！"  />
-			<text id="alerts_register_copy_coop" name="Co-Opに参加するには登録が必要です！"  />
-			<text id="alerts_register_copy_gifts" name="ギフトを贈るためには登録が必要です。"  />
-			<text id="alerts_register_copy_invitefriend" name="友達を招待するには、まずユーザー登録が必要です。"  />
-			<text id="alerts_register_copy_logout" name="ゲームの進行状況を保存するには、登録してください！"  />
-			<text id="alerts_register_title" name="登録"  />
-			<text id="alerts_servermsg_10" name="サーバーが再起動されます。お手数ですが一時的にログアウトしてください。"  />
-			<text id="alerts_servermsg_title" name="サーバーメッセージ！"  />
-			<text id="alerts_staff_fire_copy" name="本当にレジ店員を解雇しますか？
+3. ボタンを離してください。" />
+		<text id="alerts_placetiles_title" name="タイルを配置しますか？" />
+		<text id="alerts_register_copy_addgold" name="ここで買い物するには、まずは登録が必要です" />
+		<text id="alerts_register_copy_advertisement" name="プロモーションを行うには、まずはユーザー登録が必要です。" />
+		<text id="alerts_register_copy_changeavatar" name="着せ替えるには、登録が必要です！" />
+		<text id="alerts_register_copy_changepassword" name="登録されているプレイヤーはパスワードを変更することが出来ます！" />
+		<text id="alerts_register_copy_coop" name="Co-Opに参加するには登録が必要です！" />
+		<text id="alerts_register_copy_gifts" name="ギフトを贈るためには登録が必要です。" />
+		<text id="alerts_register_copy_invitefriend" name="友達を招待するには、まずユーザー登録が必要です。" />
+		<text id="alerts_register_copy_logout" name="ゲームの進行状況を保存するには、登録してください！" />
+		<text id="alerts_register_title" name="登録" />
+		<text id="alerts_servermsg_10" name="サーバーが再起動されます。お手数ですが一時的にログアウトしてください。" />
+		<text id="alerts_servermsg_title" name="サーバーメッセージ！" />
+		<text id="alerts_staff_fire_copy" name="本当にレジ店員を解雇しますか？
 レジ店員が不足していると、お客さんの待ち時間が増え、
-満足度が下がります。"  />
-			<text id="alerts_staff_fire_title" name="レジ店員を解雇しますか？"  />
-			<text id="alerts_staff_hire_copy" name="新しいレジ店員を雇いますか？"  />
-			<text id="alerts_staff_hire_title" name="新しいレジ店員"  />
-			<text id="alerts_versioncheck_copy" name="最新バージョンをロードするために、ページを再読み込みしてください。"  />
-			<text id="alerts_versioncheck_title" name="古いバージョンです！"  />
-		</alerts>
-		<cloth>
-			<text id="cloth_blackbowlermale" name="シリンダー帽子"  />
-			<text id="cloth_blackdressfemale" name="小さな黒いドレス"  />
-			<text id="cloth_blackhandbagfemale" name="黒いハンドバッグ"  />
-			<text id="cloth_blackheelsfemale" name="黒のエナメルパンプス"  />
-			<text id="cloth_blackjacketmale" name="シンプルなレザージャケット"  />
-			<text id="cloth_blackpant2male" name="GeeCee ジーンズ"  />
-			<text id="cloth_blackpantfemale" name="黒のチューブトップ"  />
-			<text id="cloth_blackpantmale" name="黒い男物のズボン"  />
-			<text id="cloth_blacksuitmale" name="縞々模様のスーツ"  />
-			<text id="cloth_blackwatchmale" name="黒の腕時計"  />
-			<text id="cloth_bluebaggypantsfemale" name="JayJay ガールズバギーパンツ"  />
-			<text id="cloth_blueblousefemale" name="青いブラウス"  />
-			<text id="cloth_bluecapfemale" name="青いベースボールキャップ"  />
-			<text id="cloth_bluecapmale" name="青いベースボールキャップ"  />
-			<text id="cloth_blueheadphones" name="JayJay ヘッドフォン"  />
-			<text id="cloth_bluenecklacefemale" name="青いパールのネックレス"  />
-			<text id="cloth_bluepolomale" name="青いポロシャツ"  />
-			<text id="cloth_blueshirtmale" name="青いTシャツ"  />
-			<text id="cloth_bluesweatermale" name="JayJay ボーイズセーター ブルー"  />
-			<text id="cloth_bootsfemale" name="GeeCee ガールズブーツ"  />
-			<text id="cloth_brownknitcapfemale" name="茶色のニット帽"  />
-			<text id="cloth_brownknitcapmale" name="茶色のニット帽"  />
-			<text id="cloth_cardiganfemale" name="GeeCee ガールズカーディガン"  />
-			<text id="cloth_cardiganmale" name="GeeCee ボーイズカーディガン"  />
-			<text id="cloth_charlestonhatfemale" name="チャールストンハット"  />
-			<text id="cloth_checkshirtfemale" name="JayJay ガールズチェックシャツ"  />
-			<text id="cloth_checkshirtmale" name="JayJay ボーイズチェックシャツ"  />
-			<text id="cloth_customcloth" name="コーディネートを決めろ！"  />
-			<text id="cloth_darkbluejeansfemale" name="女性モノのダークブルーのジーンズ"  />
-			<text id="cloth_darkbluejeansmale" name="男性モノのダークブルーのジーンズ"  />
-			<text id="cloth_dressfemale" name="GeeCee ガールズドレス"  />
-			<text id="cloth_flowerskirtfemale" name="GeeDee フラワースカート"  />
-			<text id="cloth_ggsshirtmale" name="GeeCee Tシャツ"  />
-			<text id="cloth_goldnecklacefemale" name="金のネックレス"  />
-			<text id="cloth_greendressfemale" name="GeeDee ドレス"  />
-			<text id="cloth_greenjacketfemale" name="JayJay ガールズウインドブレーカー"  />
-			<text id="cloth_greenjacketmale" name="JayJay ボーイズウインドブレーカー"  />
-			<text id="cloth_greenpulloverfemale" name="緑のタートルネック"  />
-			<text id="cloth_greenshirtmale" name="GeeDee ボーイズシャツ"  />
-			<text id="cloth_greysuitmale" name="グレーのスーツ"  />
-			<text id="cloth_lightbluejeansfemale" name="女性もののライトブルーのジーンズ"  />
-			<text id="cloth_lightbluejeansmale" name="男性もののライトブルーのジーパン"  />
-			<text id="cloth_manblackmale" name="黒いエナメルの靴"  />
-			<text id="cloth_manbrownmale" name="茶色い革靴"  />
-			<text id="cloth_orangeknitcapfemale" name="オレンジのキャップ"  />
-			<text id="cloth_orangeknitcapmale" name="オレンジのキャップ"  />
-			<text id="cloth_perlnecklacefemale" name="パールのネックレス"  />
-			<text id="cloth_pinkhangbagfemale" name="キルトハンドバッグ"  />
-			<text id="cloth_pinkshirtfemale" name="ピンクのポロシャツ"  />
-			<text id="cloth_premiumbluejacketmale" name="スプリングジャケット"  />
-			<text id="cloth_premiumgreenjacketfemale" name="スプリングコート"  />
-			<text id="cloth_premiumjumpsuitfemale" name="GeeDee ガールズジャンプスーツ"  />
-			<text id="cloth_premiumshortsmale" name="GeeDee ボーイズショーツ"  />
-			<text id="cloth_purplehandbagfemale" name="GeeCee ハンドバッグ"  />
-			<text id="cloth_purplepulloverfemale" name="紫のタートルネック"  />
-			<text id="cloth_purpletshirtfemale" name="JayJay ガールズTシャツ"  />
-			<text id="cloth_redcapfemale" name="赤のベース帽"  />
-			<text id="cloth_redcapmale" name="赤のベース帽"  />
-			<text id="cloth_reddressfemale" name="オフショルダーのイブニングドレス"  />
-			<text id="cloth_redheelsfemale" name="赤のエナメルパンプス"  />
-			<text id="cloth_redskirtfemale" name="赤のリボンスカート"  />
-			<text id="cloth_redsneakermale" name="JayJay ボーイズトレーナー レッド"  />
-			<text id="cloth_redtopfemale" name="赤のキラキラトップス"  />
-			<text id="cloth_scraffemale" name="GeeCee ポルカドットスカーフ"  />
-			<text id="cloth_scrafmale" name="GeeCee ボーイズスカーフ"  />
-			<text id="cloth_silvernecklacefemale" name="銀のネックレス"  />
-			<text id="cloth_silverwatchmale" name="銀の腕時計"  />
-			<text id="cloth_sneakersfemale" name="白いスニーカー"  />
-			<text id="cloth_sneakersgreenmale" name="GeeCee グリーントレーナー"  />
-			<text id="cloth_sneakersmale" name="白いスニーカー"  />
-			<text id="cloth_strawberrysneakerfemale" name="JayJay ストロベリーシューズ"  />
-			<text id="cloth_stripedshirtmale" name="GeeDee GeeDee ボーイズストライプシャツ"  />
-			<text id="cloth_stripedtopfemale" name="GeeDee ガールズサマートップ"  />
-			<text id="cloth_stripedtshirtmale" name="JayJay ボーイズストライプTシャツ"  />
-			<text id="cloth_sweathoodiemale" name="GeeDee ボーイズフーディー"  />
-			<text id="cloth_trenchcoatmale" name="黒のトレンチコート"  />
-			<text id="cloth_whiteshirtmale" name="白いワイシャツ"  />
-			<text id="cloth_whiteskirtfemale" name="白いミニスカート"  />
-			<text id="cloth_yellowdressfemale" name="ゴールドのカクテルドレス"  />
-		</cloth>
-		<commons>
-			<text id="achievement_rang" name="ランク　{0}/{1}"  />
-			<text id="comingsoon" name="*近日公開*"  />
-			<text id="currency_cash" name="ファッションドル"  />
-			<text id="currency_gold" name="ゴールドボタン"  />
-			<text id="currency_gold_single" name="ゴールドボタン"  />
-			<text id="factorytyp_accessories" name="アクセサリー"  />
-			<text id="factorytyp_clothes" name="洋服"  />
-			<text id="factorytyp_shoes" name="靴"  />
-			<text id="friendscount" name="友達　{0}"  />
-			<text id="levelcount" name="レベル{0}"  />
-			<text id="levellabel" name="レベル"  />
-			<text id="mastery" name="レーベルレベル"  />
-			<text id="new" name="新!"  />
-			<text id="xplabel" name="XP"  />
-		</commons>
-		<coopmission>
-			<text id="coop_desc_1" name="ピクニックに必要なもの！"  />
-			<text id="coop_desc_10" name="プロムナイト用の華麗なローブとスーツ！"  />
-			<text id="coop_desc_11" name="男は黙って黒で決める！"  />
-			<text id="coop_desc_2" name="スポーティーなスタイルに合います！"  />
-			<text id="coop_desc_3" name="ミュージック・アンド・ピープル all night long!"  />
-			<text id="coop_desc_4" name="どんな機会にもあうプレゼントです！"  />
-			<text id="coop_desc_5" name="似合ったスーツでビシッと決めよう！"  />
-			<text id="coop_desc_6" name="見渡す限りの靴、靴、靴！"  />
-			<text id="coop_desc_7" name="スカート、トップス、そして靴...全部赤で！"  />
-			<text id="coop_desc_8" name="女の子用の服、服、服ーー！"  />
-			<text id="coop_desc_9" name="ダンスクラスにはぴったり！"  />
-			<text id="coop_title_1" name="ピクニックへGO！"  />
-			<text id="coop_title_10" name="プロムナイト！"  />
-			<text id="coop_title_11" name="ブラック・イン・ブラック！"  />
-			<text id="coop_title_2" name="スポーティー！"  />
-			<text id="coop_title_3" name="完売御礼！"  />
-			<text id="coop_title_4" name="素敵なギフト！"  />
-			<text id="coop_title_5" name="メンズスペシャル"  />
-			<text id="coop_title_6" name="靴がたくさん！"  />
-			<text id="coop_title_7" name="夢のような赤！"  />
-			<text id="coop_title_8" name="ガールズウェア！"  />
-			<text id="coop_title_9" name="ダンスクラス！"  />
-		</coopmission>
-		<coop_msg>
-			<text id="coop_msg_0" name="{0}がこのCo-Opを開始しました。"  />
-			<text id="coop_msg_1" name="{0}がCo-Opに参加しました。"  />
-			<text id="coop_msg_2" name="{0}がCo-Opから去りました。"  />
-			<text id="coop_msg_3" name="{0}は{1}を{2}回作成したいです。"  />
-			<text id="coop_msg_4" name="{0}は{1}を作成しました。"  />
-			<text id="coop_msg_5" name="{0}はCo-Opを延長しました。"  />
-		</coop_msg>
-		<dialogs>
-			<text id="dialogs_achievement_title" name="実績"  />
-			<text id="dialogs_advertisementfinal_copy" name="プロモーションは終了しました!それでは、成果を見てみましょう!
-次回はどんな結果になるでしょうか?"  />
-			<text id="dialogs_advertisementfinal_title" name="おめでとう!"  />
-			<text id="dialogs_advertisementrunning_copy" name="プロモーションは現在進行中です。状態を確認するにはこちらをクリックしてください。"  />
-			<text id="dialogs_advertisementrunning_time" name="残り時間:"  />
-			<text id="dialogs_advertisementrunning_title" name="プロモーション進行中!"  />
-			<text id="dialogs_advertisement_btn_start" name="開始する"  />
-			<text id="dialogs_advertisement_flyer_copy" name="人気度をアップ!"  />
-			<text id="dialogs_advertisement_flyer_reward" name="{0}ポイント"  />
-			<text id="dialogs_advertisement_flyer_title" name="フライヤープロモーション"  />
-			<text id="dialogs_advertisement_magazine_copy" name="お客さんの買い物量が2倍になります!"  />
-			<text id="dialogs_advertisement_magazine_reward" name="x {0}"  />
-			<text id="dialogs_advertisement_magazine_title" name="雑誌広告"  />
-			<text id="dialogs_advertisement_title" name="プロモーション"  />
-			<text id="dialogs_advertisement_tv_copy" name="お客さんがあなたのショップで買い物をするたびに、XPが増えます!"  />
-			<text id="dialogs_advertisement_tv_title" name="TVコマーシャル"  />
-			<text id="dialogs_avatarselection_copy" name="この名前はすでに使われています。別案:"  />
-			<text id="dialogs_avatarselection_title" name="おっとっと"  />
-			<text id="dialogs_avatar_female" name="女の子"  />
-			<text id="dialogs_avatar_male" name="男の子"  />
-			<text id="dialogs_avatar_name" name="名前:"  />
-			<text id="dialogs_avatar_randombtn" name="ランダムアウトフィット"  />
-			<text id="dialogs_avatar_title" name="キャラクターを作成しよう"  />
-			<text id="dialogs_bonus_cashdesk_copy" name="もう1台レジが買え、新しいレジ店員を雇うことができます！"  />
-			<text id="dialogs_bonus_cashdesk_title" name="新しいレジ"  />
-			<text id="dialogs_bonus_changingroom_copy" name="新しいフィッティングルームが買えます。"  />
-			<text id="dialogs_bonus_changingroom_title" name="新しいフィッティングルーム"  />
-			<text id="dialogs_bonus_counter_copy" name="もうひとつ棚が買えます！"  />
-			<text id="dialogs_bonus_counter_title" name="新しい棚"  />
-			<text id="dialogs_bonus_expand_copy" name="拡張したので、お客さんがもっと入店できるようになって、デコレーションなどを置く場所が出来ました。"  />
-			<text id="dialogs_bonus_expand_title" name="拡張！"  />
-			<text id="dialogs_bonus_factory_copy" name="もっと商品を作成するために、もう1人従業員が雇えます。"  />
-			<text id="dialogs_bonus_factory_title" name="新しい従業員"  />
-			<text id="dialogs_bonus_level2_copy" name="ご存知ですか？もっとお客さんや商品に使えるスペースを増やすために、お店を増築することが出来ます！"  />
-			<text id="dialogs_bonus_level5_copy" name="ご存知ですか？プロモーションを行うことによって、あなたのショップの人気度を高めたり、より多くの商品を売ったり、追加でXPを獲得することが可能です。"  />
-			<text id="dialogs_bonus_levelUp_copy" name="おめでとうございます！次のレベルに達しました。"  />
-			<text id="dialogs_bonus_levelUp_title" name="レベルアップ！"  />
-			<text id="dialogs_bonus_level_title" name="注意！"  />
-			<text id="dialogs_bonus_login_copy" name="あなたが留守中の成果:"  />
-			<text id="dialogs_bonus_login_copy2" name="ログインボーナス"  />
-			<text id="dialogs_bonus_login_title" name="お帰り！"  />
-			<text id="dialogs_bonus_pattern_copy" name="新しい型紙があります:"  />
-			<text id="dialogs_bonus_pattern_title" name="新しい型紙"  />
-			<text id="dialogs_booster_btnbuypolice" name="雇う/延長"  />
-			<text id="dialogs_booster_policeman_notime" name="非アクティブ"  />
-			<text id="dialogs_booster_title" name="ブースター"  />
-			<text id="dialogs_changepassword_newpassword" name="新しいパスワード:"  />
-			<text id="dialogs_changepassword_oldpassword" name="古いパスワード:"  />
-			<text id="dialogs_changepassword_title" name="パスワードを変更する"  />
-			<text id="dialogs_coopreward_finish_0" name="ゴールド"  />
-			<text id="dialogs_coopreward_finish_1" name="銀"  />
-			<text id="dialogs_coopreward_finish_2" name="銅"  />
-			<text id="dialogs_coopreward_title_fail" name="Co-Opに失敗しました！"  />
-			<text id="dialogs_coopreward_title_success" name="Co-Opを{0}で成功しました"  />
-			<text id="dialogs_coopshelp_copy" name="ここでは、友達と一緒にミッションを遂行して、XPとファッションドルを集めることができます。
+満足度が下がります。" />
+		<text id="alerts_staff_fire_title" name="レジ店員を解雇しますか？" />
+		<text id="alerts_staff_hire_copy" name="新しいレジ店員を雇いますか？" />
+		<text id="alerts_staff_hire_title" name="新しいレジ店員" />
+		<text id="alerts_versioncheck_copy" name="最新バージョンをロードするために、ページを再読み込みしてください。" />
+		<text id="alerts_versioncheck_title" name="古いバージョンです！" />
+	</alerts>
+	<cloth>
+		<text id="cloth_blackbowlermale" name="シリンダー帽子" />
+		<text id="cloth_blackdressfemale" name="小さな黒いドレス" />
+		<text id="cloth_blackhandbagfemale" name="黒いハンドバッグ" />
+		<text id="cloth_blackheelsfemale" name="黒のエナメルパンプス" />
+		<text id="cloth_blackjacketmale" name="シンプルなレザージャケット" />
+		<text id="cloth_blackpant2male" name="GeeCee ジーンズ" />
+		<text id="cloth_blackpantfemale" name="黒のチューブトップ" />
+		<text id="cloth_blackpantmale" name="黒い男物のズボン" />
+		<text id="cloth_blacksuitmale" name="縞々模様のスーツ" />
+		<text id="cloth_blackwatchmale" name="黒の腕時計" />
+		<text id="cloth_bluebaggypantsfemale" name="JayJay ガールズバギーパンツ" />
+		<text id="cloth_blueblousefemale" name="青いブラウス" />
+		<text id="cloth_bluecapfemale" name="青いベースボールキャップ" />
+		<text id="cloth_bluecapmale" name="青いベースボールキャップ" />
+		<text id="cloth_blueheadphones" name="JayJay ヘッドフォン" />
+		<text id="cloth_bluenecklacefemale" name="青いパールのネックレス" />
+		<text id="cloth_bluepolomale" name="青いポロシャツ" />
+		<text id="cloth_blueshirtmale" name="青いTシャツ" />
+		<text id="cloth_bluesweatermale" name="JayJay ボーイズセーター ブルー" />
+		<text id="cloth_bootsfemale" name="GeeCee ガールズブーツ" />
+		<text id="cloth_brownknitcapfemale" name="茶色のニット帽" />
+		<text id="cloth_brownknitcapmale" name="茶色のニット帽" />
+		<text id="cloth_cardiganfemale" name="GeeCee ガールズカーディガン" />
+		<text id="cloth_cardiganmale" name="GeeCee ボーイズカーディガン" />
+		<text id="cloth_charlestonhatfemale" name="チャールストンハット" />
+		<text id="cloth_checkshirtfemale" name="JayJay ガールズチェックシャツ" />
+		<text id="cloth_checkshirtmale" name="JayJay ボーイズチェックシャツ" />
+		<text id="cloth_customcloth" name="コーディネートを決めろ！" />
+		<text id="cloth_darkbluejeansfemale" name="女性モノのダークブルーのジーンズ" />
+		<text id="cloth_darkbluejeansmale" name="男性モノのダークブルーのジーンズ" />
+		<text id="cloth_dressfemale" name="GeeCee ガールズドレス" />
+		<text id="cloth_flowerskirtfemale" name="GeeDee フラワースカート" />
+		<text id="cloth_ggsshirtmale" name="GeeCee Tシャツ" />
+		<text id="cloth_goldnecklacefemale" name="金のネックレス" />
+		<text id="cloth_greendressfemale" name="GeeDee ドレス" />
+		<text id="cloth_greenjacketfemale" name="JayJay ガールズウインドブレーカー" />
+		<text id="cloth_greenjacketmale" name="JayJay ボーイズウインドブレーカー" />
+		<text id="cloth_greenpulloverfemale" name="緑のタートルネック" />
+		<text id="cloth_greenshirtmale" name="GeeDee ボーイズシャツ" />
+		<text id="cloth_greysuitmale" name="グレーのスーツ" />
+		<text id="cloth_lightbluejeansfemale" name="女性もののライトブルーのジーンズ" />
+		<text id="cloth_lightbluejeansmale" name="男性もののライトブルーのジーパン" />
+		<text id="cloth_manblackmale" name="黒いエナメルの靴" />
+		<text id="cloth_manbrownmale" name="茶色い革靴" />
+		<text id="cloth_orangeknitcapfemale" name="オレンジのキャップ" />
+		<text id="cloth_orangeknitcapmale" name="オレンジのキャップ" />
+		<text id="cloth_perlnecklacefemale" name="パールのネックレス" />
+		<text id="cloth_pinkhangbagfemale" name="キルトハンドバッグ" />
+		<text id="cloth_pinkshirtfemale" name="ピンクのポロシャツ" />
+		<text id="cloth_premiumbluejacketmale" name="スプリングジャケット" />
+		<text id="cloth_premiumgreenjacketfemale" name="スプリングコート" />
+		<text id="cloth_premiumjumpsuitfemale" name="GeeDee ガールズジャンプスーツ" />
+		<text id="cloth_premiumshortsmale" name="GeeDee ボーイズショーツ" />
+		<text id="cloth_purplehandbagfemale" name="GeeCee ハンドバッグ" />
+		<text id="cloth_purplepulloverfemale" name="紫のタートルネック" />
+		<text id="cloth_purpletshirtfemale" name="JayJay ガールズTシャツ" />
+		<text id="cloth_redcapfemale" name="赤のベース帽" />
+		<text id="cloth_redcapmale" name="赤のベース帽" />
+		<text id="cloth_reddressfemale" name="オフショルダーのイブニングドレス" />
+		<text id="cloth_redheelsfemale" name="赤のエナメルパンプス" />
+		<text id="cloth_redskirtfemale" name="赤のリボンスカート" />
+		<text id="cloth_redsneakermale" name="JayJay ボーイズトレーナー レッド" />
+		<text id="cloth_redtopfemale" name="赤のキラキラトップス" />
+		<text id="cloth_scraffemale" name="GeeCee ポルカドットスカーフ" />
+		<text id="cloth_scrafmale" name="GeeCee ボーイズスカーフ" />
+		<text id="cloth_silvernecklacefemale" name="銀のネックレス" />
+		<text id="cloth_silverwatchmale" name="銀の腕時計" />
+		<text id="cloth_sneakersfemale" name="白いスニーカー" />
+		<text id="cloth_sneakersgreenmale" name="GeeCee グリーントレーナー" />
+		<text id="cloth_sneakersmale" name="白いスニーカー" />
+		<text id="cloth_strawberrysneakerfemale" name="JayJay ストロベリーシューズ" />
+		<text id="cloth_stripedshirtmale" name="GeeDee GeeDee ボーイズストライプシャツ" />
+		<text id="cloth_stripedtopfemale" name="GeeDee ガールズサマートップ" />
+		<text id="cloth_stripedtshirtmale" name="JayJay ボーイズストライプTシャツ" />
+		<text id="cloth_sweathoodiemale" name="GeeDee ボーイズフーディー" />
+		<text id="cloth_trenchcoatmale" name="黒のトレンチコート" />
+		<text id="cloth_whiteshirtmale" name="白いワイシャツ" />
+		<text id="cloth_whiteskirtfemale" name="白いミニスカート" />
+		<text id="cloth_yellowdressfemale" name="ゴールドのカクテルドレス" />
+		<text id="cloth_omelettesweatermale" name="Omelette Icon Sweater" />
+		<text id="cloth_omelettedressfemale" name="Omelette Diva Dress" />
+		<text id="cloth_dancingchefdress" name="Dancing Chef Dress" />
+		<text id="cloth_dancingchefsweater" name="Dancing Chef Sweater" />
+	</cloth>
+	<commons>
+		<text id="achievement_rang" name="ランク　{0}/{1}" />
+		<text id="comingsoon" name="*近日公開*" />
+		<text id="currency_cash" name="ファッションドル" />
+		<text id="currency_gold" name="ゴールドボタン" />
+		<text id="currency_gold_single" name="ゴールドボタン" />
+		<text id="factorytyp_accessories" name="アクセサリー" />
+		<text id="factorytyp_clothes" name="洋服" />
+		<text id="factorytyp_shoes" name="靴" />
+		<text id="friendscount" name="友達　{0}" />
+		<text id="levelcount" name="レベル{0}" />
+		<text id="levellabel" name="レベル" />
+		<text id="mastery" name="レーベルレベル" />
+		<text id="new" name="新!" />
+		<text id="xplabel" name="XP" />
+	</commons>
+	<coopmission>
+		<text id="coop_desc_1" name="ピクニックに必要なもの！" />
+		<text id="coop_desc_10" name="プロムナイト用の華麗なローブとスーツ！" />
+		<text id="coop_desc_11" name="男は黙って黒で決める！" />
+		<text id="coop_desc_2" name="スポーティーなスタイルに合います！" />
+		<text id="coop_desc_3" name="ミュージック・アンド・ピープル all night long!" />
+		<text id="coop_desc_4" name="どんな機会にもあうプレゼントです！" />
+		<text id="coop_desc_5" name="似合ったスーツでビシッと決めよう！" />
+		<text id="coop_desc_6" name="見渡す限りの靴、靴、靴！" />
+		<text id="coop_desc_7" name="スカート、トップス、そして靴...全部赤で！" />
+		<text id="coop_desc_8" name="女の子用の服、服、服ーー！" />
+		<text id="coop_desc_9" name="ダンスクラスにはぴったり！" />
+		<text id="coop_title_1" name="ピクニックへGO！" />
+		<text id="coop_title_10" name="プロムナイト！" />
+		<text id="coop_title_11" name="ブラック・イン・ブラック！" />
+		<text id="coop_title_2" name="スポーティー！" />
+		<text id="coop_title_3" name="完売御礼！" />
+		<text id="coop_title_4" name="素敵なギフト！" />
+		<text id="coop_title_5" name="メンズスペシャル" />
+		<text id="coop_title_6" name="靴がたくさん！" />
+		<text id="coop_title_7" name="夢のような赤！" />
+		<text id="coop_title_8" name="ガールズウェア！" />
+		<text id="coop_title_9" name="ダンスクラス！" />
+	</coopmission>
+	<coop_msg>
+		<text id="coop_msg_0" name="{0}がこのCo-Opを開始しました。" />
+		<text id="coop_msg_1" name="{0}がCo-Opに参加しました。" />
+		<text id="coop_msg_2" name="{0}がCo-Opから去りました。" />
+		<text id="coop_msg_3" name="{0}は{1}を{2}回作成したいです。" />
+		<text id="coop_msg_4" name="{0}は{1}を作成しました。" />
+		<text id="coop_msg_5" name="{0}はCo-Opを延長しました。" />
+	</coop_msg>
+	<dialogs>
+		<text id="dialogs_achievement_title" name="実績" />
+		<text id="dialogs_advertisementfinal_copy" name="プロモーションは終了しました!それでは、成果を見てみましょう!
+次回はどんな結果になるでしょうか?" />
+		<text id="dialogs_advertisementfinal_title" name="おめでとう!" />
+		<text id="dialogs_advertisementrunning_copy" name="プロモーションは現在進行中です。状態を確認するにはこちらをクリックしてください。" />
+		<text id="dialogs_advertisementrunning_time" name="残り時間:" />
+		<text id="dialogs_advertisementrunning_title" name="プロモーション進行中!" />
+		<text id="dialogs_advertisement_btn_start" name="開始する" />
+		<text id="dialogs_advertisement_flyer_copy" name="人気度をアップ!" />
+		<text id="dialogs_advertisement_flyer_reward" name="{0}ポイント" />
+		<text id="dialogs_advertisement_flyer_title" name="フライヤープロモーション" />
+		<text id="dialogs_advertisement_magazine_copy" name="お客さんの買い物量が2倍になります!" />
+		<text id="dialogs_advertisement_magazine_reward" name="x {0}" />
+		<text id="dialogs_advertisement_magazine_title" name="雑誌広告" />
+		<text id="dialogs_advertisement_title" name="プロモーション" />
+		<text id="dialogs_advertisement_tv_copy" name="お客さんがあなたのショップで買い物をするたびに、XPが増えます!" />
+		<text id="dialogs_advertisement_tv_title" name="TVコマーシャル" />
+		<text id="dialogs_avatarselection_copy" name="この名前はすでに使われています。別案:" />
+		<text id="dialogs_avatarselection_title" name="おっとっと" />
+		<text id="dialogs_avatar_female" name="女の子" />
+		<text id="dialogs_avatar_male" name="男の子" />
+		<text id="dialogs_avatar_name" name="名前:" />
+		<text id="dialogs_avatar_randombtn" name="ランダムアウトフィット" />
+		<text id="dialogs_avatar_title" name="キャラクターを作成しよう" />
+		<text id="dialogs_bonus_cashdesk_copy" name="もう1台レジが買え、新しいレジ店員を雇うことができます！" />
+		<text id="dialogs_bonus_cashdesk_title" name="新しいレジ" />
+		<text id="dialogs_bonus_changingroom_copy" name="新しいフィッティングルームが買えます。" />
+		<text id="dialogs_bonus_changingroom_title" name="新しいフィッティングルーム" />
+		<text id="dialogs_bonus_counter_copy" name="もうひとつ棚が買えます！" />
+		<text id="dialogs_bonus_counter_title" name="新しい棚" />
+		<text id="dialogs_bonus_expand_copy" name="拡張したので、お客さんがもっと入店できるようになって、デコレーションなどを置く場所が出来ました。" />
+		<text id="dialogs_bonus_expand_title" name="拡張！" />
+		<text id="dialogs_bonus_factory_copy" name="もっと商品を作成するために、もう1人従業員が雇えます。" />
+		<text id="dialogs_bonus_factory_title" name="新しい従業員" />
+		<text id="dialogs_bonus_level2_copy" name="ご存知ですか？もっとお客さんや商品に使えるスペースを増やすために、お店を増築することが出来ます！" />
+		<text id="dialogs_bonus_level5_copy" name="ご存知ですか？プロモーションを行うことによって、あなたのショップの人気度を高めたり、より多くの商品を売ったり、追加でXPを獲得することが可能です。" />
+		<text id="dialogs_bonus_levelUp_copy" name="おめでとうございます！次のレベルに達しました。" />
+		<text id="dialogs_bonus_levelUp_title" name="レベルアップ！" />
+		<text id="dialogs_bonus_level_title" name="注意！" />
+		<text id="dialogs_bonus_login_copy" name="あなたが留守中の成果:" />
+		<text id="dialogs_bonus_login_copy2" name="ログインボーナス" />
+		<text id="dialogs_bonus_login_title" name="お帰り！" />
+		<text id="dialogs_bonus_pattern_copy" name="新しい型紙があります:" />
+		<text id="dialogs_bonus_pattern_title" name="新しい型紙" />
+		<text id="dialogs_booster_btnbuypolice" name="雇う/延長" />
+		<text id="dialogs_booster_policeman_notime" name="非アクティブ" />
+		<text id="dialogs_booster_title" name="ブースター" />
+		<text id="dialogs_changepassword_newpassword" name="新しいパスワード:" />
+		<text id="dialogs_changepassword_oldpassword" name="古いパスワード:" />
+		<text id="dialogs_changepassword_title" name="パスワードを変更する" />
+		<text id="dialogs_coopreward_finish_0" name="ゴールド" />
+		<text id="dialogs_coopreward_finish_1" name="銀" />
+		<text id="dialogs_coopreward_finish_2" name="銅" />
+		<text id="dialogs_coopreward_title_fail" name="Co-Opに失敗しました！" />
+		<text id="dialogs_coopreward_title_success" name="Co-Opを{0}で成功しました" />
+		<text id="dialogs_coopshelp_copy" name="ここでは、友達と一緒にミッションを遂行して、XPとファッションドルを集めることができます。
 早くミッションをこなすほど、報酬も大きくなります！
 
 
 もし時間が足りなかったら、いつでも延長することが出来ます。
-報酬をもらうには出資も必要になります！"  />
-			<text id="dialogs_coopshelp_title" name="Co-Opとは何ですか？"  />
-			<text id="dialogs_coop_btn_action" name="詳細"  />
-			<text id="dialogs_coop_btn_activecoops" name="アクティブ"  />
-			<text id="dialogs_coop_btn_join" name="参加する"  />
-			<text id="dialogs_coop_btn_newcoop" name="Co-Opを開始する"  />
-			<text id="dialogs_coop_btn_progress" name="進行状況"  />
-			<text id="dialogs_coop_btn_protocol" name="レポート"  />
-			<text id="dialogs_coop_btn_quit" name="去る"  />
-			<text id="dialogs_coop_extendtime_copy" name="{0}ゴールドボタンを支払ってCo-Opの時間を延長しますか？
+報酬をもらうには出資も必要になります！" />
+		<text id="dialogs_coopshelp_title" name="Co-Opとは何ですか？" />
+		<text id="dialogs_coop_btn_action" name="詳細" />
+		<text id="dialogs_coop_btn_activecoops" name="アクティブ" />
+		<text id="dialogs_coop_btn_join" name="参加する" />
+		<text id="dialogs_coop_btn_newcoop" name="Co-Opを開始する" />
+		<text id="dialogs_coop_btn_progress" name="進行状況" />
+		<text id="dialogs_coop_btn_protocol" name="レポート" />
+		<text id="dialogs_coop_btn_quit" name="去る" />
+		<text id="dialogs_coop_extendtime_copy" name="{0}ゴールドボタンを支払ってCo-Opの時間を延長しますか？
 ゴールドタイム: {1}
 シルバータイム: {2}
-ブロンズタイム: {3}"  />
-			<text id="dialogs_coop_extendtime_title" name="時間を追加しますか？"  />
-			<text id="dialogs_coop_maxuser" name="最高でも参加出来る参加者の数: {0}"  />
-			<text id="dialogs_coop_member" name="Co-Op参加者:"  />
-			<text id="dialogs_coop_minlevel" name="必要参加者数: {0}"  />
-			<text id="dialogs_coop_minlevel_short" name="わたしのレベル: {0}"  />
-			<text id="dialogs_coop_produce_copy" name="このCo-Opのために、{0}を何回作成しますか？"  />
-			<text id="dialogs_coop_produce_title" name="Co-Opの為に作成しますか？"  />
-			<text id="dialogs_coop_quit_copy" name="本当にCo-Opを去りますか？"  />
-			<text id="dialogs_coop_subtitle" name="これを作成する必要があります:"  />
-			<text id="dialogs_coop_timeInfo" name="達成所要時間："  />
-			<text id="dialogs_coop_timeleft" name="残り時間:"  />
-			<text id="dialogs_coop_txt_noactive" name="現在アクティブなCo-Opはありません。
-新規に始めてください！"  />
-			<text id="dialogs_coop_txt_title" name="Co-Op"  />
-			<text id="dialogs_counterclick_btndonate" name="寄付"  />
-			<text id="dialogs_counterclick_copy" name="以下の商品はこの棚にあります。"  />
-			<text id="dialogs_counterclick_title" name="棚"  />
-			<text id="dialogs_customclothbuy_copy" name="{1}ゴールドボタン支払って、{0}をあなたのカタログに追加しますか？"  />
-			<text id="dialogs_customclothbuy_title" name="型紙を購入！"  />
-			<text id="dialogs_customclothhelp_copy" name="ここでは、自分のオリジナル洋服をデザイン・作成できます！
+ブロンズタイム: {3}" />
+		<text id="dialogs_coop_extendtime_title" name="時間を追加しますか？" />
+		<text id="dialogs_coop_maxuser" name="最高でも参加出来る参加者の数: {0}" />
+		<text id="dialogs_coop_member" name="Co-Op参加者:" />
+		<text id="dialogs_coop_minlevel" name="必要参加者数: {0}" />
+		<text id="dialogs_coop_minlevel_short" name="わたしのレベル: {0}" />
+		<text id="dialogs_coop_produce_copy" name="このCo-Opのために、{0}を何回作成しますか？" />
+		<text id="dialogs_coop_produce_title" name="Co-Opの為に作成しますか？" />
+		<text id="dialogs_coop_quit_copy" name="本当にCo-Opを去りますか？" />
+		<text id="dialogs_coop_subtitle" name="これを作成する必要があります:" />
+		<text id="dialogs_coop_timeInfo" name="達成所要時間：" />
+		<text id="dialogs_coop_timeleft" name="残り時間:" />
+		<text id="dialogs_coop_txt_noactive" name="現在アクティブなCo-Opはありません。
+新規に始めてください！" />
+		<text id="dialogs_coop_txt_title" name="Co-Op" />
+		<text id="dialogs_counterclick_btndonate" name="寄付" />
+		<text id="dialogs_counterclick_copy" name="以下の商品はこの棚にあります。" />
+		<text id="dialogs_counterclick_title" name="棚" />
+		<text id="dialogs_customclothbuy_copy" name="{1}ゴールドボタン支払って、{0}をあなたのカタログに追加しますか？" />
+		<text id="dialogs_customclothbuy_title" name="型紙を購入！" />
+		<text id="dialogs_customclothhelp_copy" name="ここでは、自分のオリジナル洋服をデザイン・作成できます！
 形と色を選択してください！
 作成時間と収入は形によって決定されます。
 用意した型紙は、24時間利用できます。
-型紙を保存したい場合は、商品カタログに追加してください！"  />
-			<text id="dialogs_customclothinfo_title" name="あなた独自のスタイル！"  />
-			<text id="dialogs_customcloth_btn_choose" name="選択"  />
-			<text id="dialogs_customcloth_entername" name="名前をつけてください！"  />
-			<text id="dialogs_customcloth_icon" name="プリント"  />
-			<text id="dialogs_customcloth_shape" name="形"  />
-			<text id="dialogs_customcloth_title" name="あなたのデザインが、スタイルを決める！"  />
-			<text id="dialogs_decoshophelp_copy" name="家具やデコレーションを、レジでなくこのタブにドラッグすれば、倉庫に保管されます。改めてショップ内にドラッグする際には費用はかかりません。
-それぞれのアイテムの数量は、空カートンの横に表示されています。"  />
-			<text id="dialogs_decoshophelp_copy_1" name="家具およびデコレーションに設定されている豪華値を合計したものが、あなたのショップの豪華値になります!あなたのショップの豪華さはいかほどでしょう?"  />
-			<text id="dialogs_decoshophelp_title" name="棚/デコレーションを倉庫に移しますか?"  />
-			<text id="dialogs_decoshophelp_title_1" name="豪華値とは?"  />
-			<text id="dialogs_factoryclick_btn_cancel" name="作成を中止する"  />
-			<text id="dialogs_factoryclick_copy" name="
-&#039;すぐに仕上げる&#039;を使用しますか？
-今日はあと{0}回できます。"  />
-			<text id="dialogs_factoryclick_title" name="製作中です!"  />
-			<text id="dialogs_fashionbook_durationtime" name="かかる時間: {0}"  />
-			<text id="dialogs_fashionbook_emptypattern" name="現在利用可能な型紙はこれ以上ありません。"  />
-			<text id="dialogs_fashionbook_emptypatterncustomcloth" name="ここには、あなたのオリジナル型紙をファイルできます！"  />
-			<text id="dialogs_fashionbook_emptyproducts" name="商品を作るのに型紙が必要です。
+型紙を保存したい場合は、商品カタログに追加してください！" />
+		<text id="dialogs_customclothinfo_title" name="あなた独自のスタイル！" />
+		<text id="dialogs_customcloth_btn_choose" name="選択" />
+		<text id="dialogs_customcloth_entername" name="名前をつけてください！" />
+		<text id="dialogs_customcloth_icon" name="プリント" />
+		<text id="dialogs_customcloth_shape" name="形" />
+		<text id="dialogs_customcloth_title" name="あなたのデザインが、スタイルを決める！" />
+		<text id="dialogs_decoshophelp_copy" name="家具やデコレーションを、レジでなくこのタブにドラッグすれば、倉庫に保管されます。改めてショップ内にドラッグする際には費用はかかりません。
+それぞれのアイテムの数量は、空カートンの横に表示されています。" />
+		<text id="dialogs_decoshophelp_copy_1" name="家具およびデコレーションに設定されている豪華値を合計したものが、あなたのショップの豪華値になります!あなたのショップの豪華さはいかほどでしょう?" />
+		<text id="dialogs_decoshophelp_title" name="棚/デコレーションを倉庫に移しますか?" />
+		<text id="dialogs_decoshophelp_title_1" name="豪華値とは?" />
+		<text id="dialogs_factoryclick_btn_cancel" name="作成を中止する" />
+		<text id="dialogs_factoryclick_copy" name="&amp;#039;すぐに仕上げる&amp;#039;を使用しますか？
+今日はあと{0}回できます。" />
+		<text id="dialogs_factoryclick_title" name="製作中です!" />
+		<text id="dialogs_fashionbook_durationtime" name="かかる時間: {0}" />
+		<text id="dialogs_fashionbook_emptypattern" name="現在利用可能な型紙はこれ以上ありません。" />
+		<text id="dialogs_fashionbook_emptypatterncustomcloth" name="ここには、あなたのオリジナル型紙をファイルできます！" />
+		<text id="dialogs_fashionbook_emptyproducts" name="商品を作るのに型紙が必要です。
 
-カタログから選んで購入してください。"  />
-			<text id="dialogs_fashionbook_pieces" name="数量:"  />
-			<text id="dialogs_fashionbook_productionPrice" name="作成費{0}"  />
-			<text id="dialogs_fashionbook_saleprice" name="/ 個:"  />
-			<text id="dialogs_featureUnlocked_advertisement" name="宣伝を行い、ショップの売り上げアップを目指そう!"  />
-			<text id="dialogs_featureUnlocked_arcades" name="アーケードで新しい友達を見つけよう!"  />
-			<text id="dialogs_featureUnlocked_coop" name="友達と一緒に、Co-Opを開始しよう!"  />
-			<text id="dialogs_featureUnlocked_custompattern" name="自分だけのオリジナル型紙をデザインしよう!"  />
-			<text id="dialogs_featureUnlocked_decoration" name="新しいデコレーションがロック解除されました!"  />
-			<text id="dialogs_featureUnlocked_policeman" name="注意!商品が盗難にあうようになりました!
-警察官に見張ってもらいましょう!"  />
-			<text id="dialogs_featureUnlocked_ranking" name="ランキング表を通して、他のプレイヤーを訪ねてみましょう!"  />
-			<text id="dialogs_featureUnlocked_wheeloffortune" name="ホイール・オブ・フォーチュンで運試しを行って、素敵な賞品をゲットしよう!"  />
-			<text id="dialogs_giftbox_btnclose" name="閉じる"  />
-			<text id="dialogs_giftbox_btnsend" name="贈る"  />
-			<text id="dialogs_giftbox_empty_friends" name="毎日友達1人につきに1個ギフトが送れます。"  />
-			<text id="dialogs_giftbox_empty_mygifts" name="ギフトボックスは現在空です。
-友達にギフトを送ったら、何かお返しをくれるかもしれません。"  />
-			<text id="dialogs_giftbox_empty_sendablegifts" name="今日はギフトはありません。"  />
-			<text id="dialogs_giftbox_friendstitle" name="友達に送る"  />
-			<text id="dialogs_giftbox_mygiftstitle" name="マイギフト"  />
-			<text id="dialogs_giftbox_sendablegiftstitle" name="ギフトを贈る"  />
-			<text id="dialogs_highscore_name" name="名前"  />
-			<text id="dialogs_highscore_rank" name="ランク"  />
-			<text id="dialogs_highscore_search" name="名前/ランクで検索"  />
-			<text id="dialogs_highscore_title" name="ランキング"  />
-			<text id="dialogs_info_goldsmith_copy" name="金細工はアクセサリーのみ作成します。"  />
-			<text id="dialogs_info_goldsmith_title" name="金細工師"  />
-			<text id="dialogs_info_sewer_copy" name="裁縫師は洋服のみ作成します。"  />
-			<text id="dialogs_info_sewer_title" name="裁縫師"  />
-			<text id="dialogs_info_shoemaker_copy" name="靴職人は靴のみ作成します。"  />
-			<text id="dialogs_info_shoemaker_title" name="靴職人"  />
-			<text id="dialogs_invitefriend_copy" name="友達を招待するために、名前とEメールアドレスを入力してください。"  />
-			<text id="dialogs_invitefriend_emptyparam" name="すべての欄に正しく記入してください。"  />
-			<text id="dialogs_invitefriend_friendname" name="友達の名前:"  />
-			<text id="dialogs_invitefriend_mail" name="友達のEメール:"  />
-			<text id="dialogs_invitefriend_myname" name="あなたの名前:"  />
-			<text id="dialogs_invitefriend_title" name="招待"  />
-			<text id="dialogs_lonelycash_copy" name="誰かがお財布を落としたみたいです！
+カタログから選んで購入してください。" />
+		<text id="dialogs_fashionbook_pieces" name="数量:" />
+		<text id="dialogs_fashionbook_productionPrice" name="作成費{0}" />
+		<text id="dialogs_fashionbook_saleprice" name="/ 個:" />
+		<text id="dialogs_featureUnlocked_advertisement" name="宣伝を行い、ショップの売り上げアップを目指そう!" />
+		<text id="dialogs_featureUnlocked_arcades" name="アーケードで新しい友達を見つけよう!" />
+		<text id="dialogs_featureUnlocked_coop" name="友達と一緒に、Co-Opを開始しよう!" />
+		<text id="dialogs_featureUnlocked_custompattern" name="自分だけのオリジナル型紙をデザインしよう!" />
+		<text id="dialogs_featureUnlocked_decoration" name="新しいデコレーションがロック解除されました!" />
+		<text id="dialogs_featureUnlocked_policeman" name="注意!商品が盗難にあうようになりました!
+警察官に見張ってもらいましょう!" />
+		<text id="dialogs_featureUnlocked_ranking" name="ランキング表を通して、他のプレイヤーを訪ねてみましょう!" />
+		<text id="dialogs_featureUnlocked_wheeloffortune" name="ホイール・オブ・フォーチュンで運試しを行って、素敵な賞品をゲットしよう!" />
+		<text id="dialogs_giftbox_btnclose" name="閉じる" />
+		<text id="dialogs_giftbox_btnsend" name="贈る" />
+		<text id="dialogs_giftbox_empty_friends" name="毎日友達1人につきに1個ギフトが送れます。" />
+		<text id="dialogs_giftbox_empty_mygifts" name="ギフトボックスは現在空です。
+友達にギフトを送ったら、何かお返しをくれるかもしれません。" />
+		<text id="dialogs_giftbox_empty_sendablegifts" name="今日はギフトはありません。" />
+		<text id="dialogs_giftbox_friendstitle" name="友達に送る" />
+		<text id="dialogs_giftbox_mygiftstitle" name="マイギフト" />
+		<text id="dialogs_giftbox_sendablegiftstitle" name="ギフトを贈る" />
+		<text id="dialogs_highscore_name" name="名前" />
+		<text id="dialogs_highscore_rank" name="ランク" />
+		<text id="dialogs_highscore_search" name="名前/ランクで検索" />
+		<text id="dialogs_highscore_title" name="ランキング" />
+		<text id="dialogs_info_goldsmith_copy" name="金細工はアクセサリーのみ作成します。" />
+		<text id="dialogs_info_goldsmith_title" name="金細工師" />
+		<text id="dialogs_info_sewer_copy" name="裁縫師は洋服のみ作成します。" />
+		<text id="dialogs_info_sewer_title" name="裁縫師" />
+		<text id="dialogs_info_shoemaker_copy" name="靴職人は靴のみ作成します。" />
+		<text id="dialogs_info_shoemaker_title" name="靴職人" />
+		<text id="dialogs_invitefriend_copy" name="友達を招待するために、名前とEメールアドレスを入力してください。" />
+		<text id="dialogs_invitefriend_emptyparam" name="すべての欄に正しく記入してください。" />
+		<text id="dialogs_invitefriend_friendname" name="友達の名前:" />
+		<text id="dialogs_invitefriend_mail" name="友達のEメール:" />
+		<text id="dialogs_invitefriend_myname" name="あなたの名前:" />
+		<text id="dialogs_invitefriend_title" name="招待" />
+		<text id="dialogs_lonelycash_copy" name="誰かがお財布を落としたみたいです！
 
-もしかしたら友達のものかも？"  />
-			<text id="dialogs_lonelycash_title" name="発見！"  />
-			<text id="dialogs_lonelycop_copy" name="警備会社の上司が研修生の研修場所を探しています！
-友達に聞いてみてください！"  />
-			<text id="dialogs_lonelycop_title" name="問い合わせ！"  />
-			<text id="dialogs_lonelypants_copy" name="店員が、余り品の入った箱を発見しました。
+もしかしたら友達のものかも？" />
+		<text id="dialogs_lonelycash_title" name="発見！" />
+		<text id="dialogs_lonelycop_copy" name="警備会社の上司が研修生の研修場所を探しています！
+友達に聞いてみてください！" />
+		<text id="dialogs_lonelycop_title" name="問い合わせ！" />
+		<text id="dialogs_lonelypants_copy" name="店員が、余り品の入った箱を発見しました。
 
-友達にあげましょう！"  />
-			<text id="dialogs_lonelypants_title" name="これは何ですか？"  />
-			<text id="dialogs_mannequindesign_empty" name="このカテゴリーからは何も選べません。"  />
-			<text id="dialogs_mannequindesign_title" name="マネキン"  />
-			<text id="dialogs_mannequinpaycheck_copy" name="お客さんたちを、商品の多彩なレパートリーで驚かせ、好印象を与えるために、マネキンでは、なるべく多くのアイテムを組み合わせましょう。"  />
-			<text id="dialogs_mannequinpaycheck_title" name="評価"  />
-			<text id="dialogs_mastery_copy_0" name="{0}でレーベルを1つ獲得しました！"  />
-			<text id="dialogs_mastery_copy_1" name="友達にもアイテムをいくつか分けてあげましょう！"  />
-			<text id="dialogs_mastery_info" name="レーベルが増えるごとに、商品の利益率もアップ！"  />
-			<text id="dialogs_mastery_title" name="新規レーベル！"  />
-			<text id="dialogs_noreward_copy" name="すでに他のプレイヤーが報酬を持って行ったようです！"  />
-			<text id="dialogs_noreward_title" name="残念！"  />
-			<text id="dialogs_payment_copy" name="ここで
-ゴールドボタンとファッションドルが買えます。"  />
-			<text id="dialogs_payment_title" name="ペイメントショップ"  />
-			<text id="dialogs_perfectpants_copy" name="{0}を今日は完璧に作成しました！
-友達に余分な商品を分けてあげましょう！"  />
-			<text id="dialogs_perfectpants_title" name="パーフェクト！"  />
-			<text id="dialogs_pesentreceived_text" name="{0}ゴールドボタンのウェルカムギフトが、あなたのアカウントに追加されました。"  />
-			<text id="dialogs_pesentreceived_title" name="やったー!"  />
-			<text id="dialogs_pesentreminder_send" name="送る"  />
-			<text id="dialogs_pesentreminder_text1" name="ウェルカムギフトとして、{0}ゴールドボタンを差し上げます!
-受け取るには、ウェルカムメール内のリンクをクリックしてください。"  />
-			<text id="dialogs_pesentreminder_text2" name="Eメールを再送信することもできます。"  />
-			<text id="dialogs_pesentreminder_title" name="ウェルカムギフト!"  />
-			<text id="dialogs_receivecomeback_copy_0" name="カムバックギフトとして、{0}ゴールドボタンおよびブースターを1つを進呈します！"  />
-			<text id="dialogs_receivecomeback_copy_1" name="カムバックギフトとして、{0}ゴールドボタンと、警備員を{1}で入手しました！"  />
-			<text id="dialogs_receivecomeback_title" name="お帰り！"  />
-			<text id="dialogs_receivecop_copy" name="研修生が働き始めました。あなたの警備員の勤務時間は
+友達にあげましょう！" />
+		<text id="dialogs_lonelypants_title" name="これは何ですか？" />
+		<text id="dialogs_mannequindesign_empty" name="このカテゴリーからは何も選べません。" />
+		<text id="dialogs_mannequindesign_title" name="マネキン" />
+		<text id="dialogs_mannequinpaycheck_copy" name="お客さんたちを、商品の多彩なレパートリーで驚かせ、好印象を与えるために、マネキンでは、なるべく多くのアイテムを組み合わせましょう。" />
+		<text id="dialogs_mannequinpaycheck_title" name="評価" />
+		<text id="dialogs_mastery_copy_0" name="{0}でレーベルを1つ獲得しました！" />
+		<text id="dialogs_mastery_copy_1" name="友達にもアイテムをいくつか分けてあげましょう！" />
+		<text id="dialogs_mastery_info" name="レーベルが増えるごとに、商品の利益率もアップ！" />
+		<text id="dialogs_mastery_title" name="新規レーベル！" />
+		<text id="dialogs_noreward_copy" name="すでに他のプレイヤーが報酬を持って行ったようです！" />
+		<text id="dialogs_noreward_title" name="残念！" />
+		<text id="dialogs_payment_copy" name="ここで
+ゴールドボタンとファッションドルが買えます。" />
+		<text id="dialogs_payment_title" name="ペイメントショップ" />
+		<text id="dialogs_perfectpants_copy" name="{0}を今日は完璧に作成しました！
+友達に余分な商品を分けてあげましょう！" />
+		<text id="dialogs_perfectpants_title" name="パーフェクト！" />
+		<text id="dialogs_pesentreceived_text" name="{0}ゴールドボタンのウェルカムギフトが、あなたのアカウントに追加されました。" />
+		<text id="dialogs_pesentreceived_title" name="やったー!" />
+		<text id="dialogs_pesentreminder_send" name="送る" />
+		<text id="dialogs_pesentreminder_text1" name="ウェルカムギフトとして、{0}ゴールドボタンを差し上げます!
+受け取るには、ウェルカムメール内のリンクをクリックしてください。" />
+		<text id="dialogs_pesentreminder_text2" name="Eメールを再送信することもできます。" />
+		<text id="dialogs_pesentreminder_title" name="ウェルカムギフト!" />
+		<text id="dialogs_receivecomeback_copy_0" name="カムバックギフトとして、{0}ゴールドボタンおよびブースターを1つを進呈します！" />
+		<text id="dialogs_receivecomeback_copy_1" name="カムバックギフトとして、{0}ゴールドボタンと、警備員を{1}で入手しました！" />
+		<text id="dialogs_receivecomeback_title" name="お帰り！" />
+		<text id="dialogs_receivecop_copy" name="研修生が働き始めました。あなたの警備員の勤務時間は
 
-1時間延長されます。"  />
-			<text id="dialogs_receivecop_title" name="雇いました！"  />
-			<text id="dialogs_receiveitem_copy" name="ギフトボックスの中に報酬が入っています！"  />
-			<text id="dialogs_receiveitem_title" name="やったー！"  />
-			<text id="dialogs_receivemoney_copy" name="報酬はすでに届いています！"  />
-			<text id="dialogs_receivemoney_title" name="やったー！"  />
-			<text id="dialogs_register_agb" name="利用規約に同意する"  />
-			<text id="dialogs_register_btnsave" name="保存"  />
-			<text id="dialogs_register_copy_0" name="ユーザー登録は無料です！"  />
-			<text id="dialogs_register_copy_1" name="ゲームの進行状況を保存しよう！"  />
-			<text id="dialogs_register_copy_2" name="登録後には、ウェルカムギフトとして、{0}ゴールドボタンがあなたにメールで送られます。"  />
-			<text id="dialogs_register_email" name="Eメール"  />
-			<text id="dialogs_register_forfree" name="無料！"  />
-			<text id="dialogs_register_password" name="パスワード"  />
-			<text id="dialogs_register_title" name="登録"  />
-			<text id="dialogs_robberyall_copy" name="すべての商品が盗まれました！"  />
-			<text id="dialogs_robbery_copy" name="盗難にあいました！"  />
-			<text id="dialogs_robbery_copy2" name="盗難防止のためには、
+1時間延長されます。" />
+		<text id="dialogs_receivecop_title" name="雇いました！" />
+		<text id="dialogs_receiveitem_copy" name="ギフトボックスの中に報酬が入っています！" />
+		<text id="dialogs_receiveitem_title" name="やったー！" />
+		<text id="dialogs_receivemoney_copy" name="報酬はすでに届いています！" />
+		<text id="dialogs_receivemoney_title" name="やったー！" />
+		<text id="dialogs_register_agb" name="利用規約に同意する" />
+		<text id="dialogs_register_btnsave" name="保存" />
+		<text id="dialogs_register_copy_0" name="ユーザー登録は無料です！" />
+		<text id="dialogs_register_copy_1" name="ゲームの進行状況を保存しよう！" />
+		<text id="dialogs_register_copy_2" name="登録後には、ウェルカムギフトとして、{0}ゴールドボタンがあなたにメールで送られます。" />
+		<text id="dialogs_register_email" name="Eメール" />
+		<text id="dialogs_register_forfree" name="無料！" />
+		<text id="dialogs_register_password" name="パスワード" />
+		<text id="dialogs_register_title" name="登録" />
+		<text id="dialogs_robberyall_copy" name="すべての商品が盗まれました！" />
+		<text id="dialogs_robbery_copy" name="盗難にあいました！" />
+		<text id="dialogs_robbery_copy2" name="盗難防止のためには、
 棚に出来上がった洋服を展示するか、
-警備員を雇ってください。"  />
-			<text id="dialogs_robbery_title" name="盗難！"  />
-			<text id="dialogs_sale_copy" name="商品をセール販売するためには、セールの札で棚をクリックしてください。
+警備員を雇ってください。" />
+		<text id="dialogs_robbery_title" name="盗難！" />
+		<text id="dialogs_sale_copy" name="商品をセール販売するためには、セールの札で棚をクリックしてください。
 価格はは安くなりますが、お店の人気度は上がります。
-棚が空になったらセールは終了です。"  />
-			<text id="dialogs_sale_title" name="セール"  />
-			<text id="dialogs_shippingconfirmation_send" name="ウェルカムギフトがあなた宛てに送られました。
+棚が空になったらセールは終了です。" />
+		<text id="dialogs_sale_title" name="セール" />
+		<text id="dialogs_shippingconfirmation_send" name="ウェルカムギフトがあなた宛てに送られました。
 
-受け取るにはウェルカムメール内のリンクをクリックしてください!"  />
-			<text id="dialogs_shippingconfirmation_titel" name="ギフト!"  />
-			<text id="dialogs_staff_btnfire" name="解雇"  />
-			<text id="dialogs_staff_btnhire" name="雇う"  />
-			<text id="dialogs_staff_title" name="レジ店員"  />
-			<text id="dialogs_wheeloffortune_beforespin" name="ホイール・オブ・フォーチュンを回して、素敵な賞品を入手しよう！"  />
-			<text id="dialogs_wheeloffortune_btn_go" name="回す！"  />
-			<text id="dialogs_wheeloffortune_btn_towheel" name="ホイールへ"  />
-			<text id="dialogs_wheeloffortune_copy1" name="今日はもう、ホイール・オブ・フォーチュンを回しましたか？"  />
-			<text id="dialogs_wheeloffortune_info" name="毎日、最初の1回は無料です！"  />
-			<text id="dialogs_wheeloffortune_nomoney" name="ホイール・オブ・フォーチュンを回すには、ゴールドボタンが足りません！"  />
-			<text id="dialogs_wheeloffortune_noregister" name="ホイール・オブ・フォーチュンを回すには、プレイヤー登録が必要です"  />
-			<text id="dialogs_wheeloffortune_nospace" name="ギフトボックスに賞品を入れるスペースがありません！ホイール・オブ・フォーチュンを回す前に、空きスペースを作ってください！"  />
-			<text id="dialogs_wheeloffortune_title" name="ホイール・オブ・フォーチュン！"  />
-			<text id="dialogs_wheeloffortune_tryagain" name="もう一度トライしてみましょう！"  />
-			<text id="dialogs_wheeloffortune_woncash" name="おめでとうございます！賞金はすでに所持金に加算されました！"  />
-			<text id="dialogs_wheeloffortune_woncloth" name="おめでとうございます！賞品はギフトボックスの中にあります！"  />
-			<text id="dialogs_wheeloffortune_wonitem" name="おめでとうございます！賞品はギフトボックスの中にあります！"  />
-		</dialogs>
-		<error_codes>
-			<text id="error_advertisement_nolevel" name="プロモーションを行うには、少なくともレベル{0}に達する必要がります。"  />
-			<text id="error_advertisement_nomoney" name="このプロモーションを行うには、ゴールドボタン/ファッションドルが足りません!"  />
-			<text id="error_avatar_12" name="この名前はすでに使われています。"  />
-			<text id="error_avatar_15" name="ユーザーはすでにアバターを持っています。"  />
-			<text id="error_avatar_genderempty" name="キャラクターを選んでください！"  />
-			<text id="error_avatar_nameinvalide" name="ユーザー名を空白にしたり、また、特殊文字が含まれないようにしてください。"  />
-			<text id="error_avatar_standardname" name="ユーザー名を登録してください。"  />
-			<text id="error_boost_nomoney" name="このブースターは買えません。"  />
-			<text id="error_cancleproduction_36" name="棚の中を並び替えてからでないと使えません。"  />
-			<text id="error_changepassword_0" name="パスワードを変更しました！"  />
-			<text id="error_changepassword_10" name="古いパスワードが正しくありません！"  />
-			<text id="error_changepassword_copy" name="パスワードは3文字以上で設定してください。また、古いパスワードを正しく入力したか確認してください。"  />
-			<text id="error_changepassword_title" name="パスワードを変更する"  />
-			<text id="error_chat_23" name="チャット機能は一時的に管理者より無効化されました。"  />
-			<text id="error_chat_24" name="チャットを荒らさないでください！"  />
-			<text id="error_common_1" name="エラー
-サーバーメッセージ {0}"  />
-			<text id="error_common_3" name="- DEBUG: 低すぎるレベル -"  />
-			<text id="error_common_30" name="-DEBUG: 従業員/棚が存在しません-"  />
-			<text id="error_common_38" name="-DEBUG: 改装モード中-"  />
-			<text id="error_common_5" name="- DEBUG: 不明な WodId -"  />
-			<text id="error_common_80" name="-DEBUG: ルート計算。遅延 大きすぎ -"  />
-			<text id="error_common_81" name="-DEBUG: ルート計算。遅延 negative　-"  />
-			<text id="error_common_title" name="注意！"  />
-			<text id="error_coop_3" name="このCo-Opに参加できるレベルに達していません。
-必要な型紙を最低1つロック解除する必要があります。"  />
-			<text id="error_coop_90" name="すでにCo-Opに参加しています！"  />
-			<text id="error_coop_91" name="Co-Opsの参加者の数はすでに参加可能な数を超えています。"  />
-			<text id="error_coop_92" name="このCo-Opはすでに完了しました！"  />
-			<text id="error_coop_93" name="今日はすでにCo-Opを開始しました！次のCo-Opはまた明日開始出来ます！"  />
-			<text id="error_coop_nomoney" name="このCo-Opを延長するためのゴールドボタンが足りません。"  />
-			<text id="error_coop_title" name="CO-OP"  />
-			<text id="error_customclothbuy_nomoney" name="この型紙を買うには、ゴールドボタンが足りません！"  />
-			<text id="error_customclothproduce_nomoney" name="この型紙を作成するには、ファッションドルが足りません！"  />
-			<text id="error_customclothunlock_nomoney" name="このアイテムをのロックを解除するには、ファッションドルかゴールドボタンが足りません！"  />
-			<text id="error_customize_nomoney" name="あなたのアバターを着せ替えるためのゴールドボタンが足りません。"  />
-			<text id="error_custom_nameinvalide" name="{0}を使用することはできません!"  />
-			<text id="error_deliverinfo_33" name="-DEBUG: 商品はまだ未完成です-"  />
-			<text id="error_deliverinfo_35" name="-DEBUG: 従業員は何も作りませんでした-"  />
-			<text id="error_deliverinfo_36" name="この従業員と連絡が取れません。せめて従業員の片側だけでも場所が空くように、お店を片付けてください。"  />
-			<text id="error_deliverinfo_37" name="商品を並べるための棚が空いていません。"  />
-			<text id="error_deliver_33" name="-DEBUG: 商品は商品はまだ未完成です-"  />
-			<text id="error_deliver_35" name="-DEBUG: 従業員は何も裁断しませんでした-"  />
-			<text id="error_deliver_36" name="この棚は使えません。せめて棚の片側だけでも場所が空くように、お店を片付けてください。"  />
-			<text id="error_deliver_37" name="この棚は満杯です。場所が空いている棚を探して、そこに品物を並べてください。"  />
-			<text id="error_deliver_46" name="この商品は吊るすことが出来ません。配置する棚を選択してください。"  />
-			<text id="error_deliver_title" name="出来ません…"  />
-			<text id="error_editmode_3" name="-DEBUG: 最低限のレベルに達していません-"  />
-			<text id="error_editmode_31" name="-DEBUG: クリックできません-"  />
-			<text id="error_editmode_32" name="-DEBUG: このアイテムは倉庫にありません-"  />
-			<text id="error_editmode_37" name="-DEBUG: まだ棚に商品が残っています-"  />
-			<text id="error_editmode_39" name="-DEBUG: 不明のポジション-"  />
-			<text id="error_editmode_48" name="-DEBUG: やる気のない従業員をストアすることはできません-"  />
-			<text id="error_editmode_50" name="-DEBUG: ブロックされています-"  />
-			<text id="error_editmode_51" name="-DEBUG: ポジションが空いています-"  />
-			<text id="error_editmode_52" name="-DEBUG: 回転できません-"  />
-			<text id="error_editmode_53" name="-DEBUG: このオプションはすでに持っています-"  />
-			<text id="error_editmode_54" name="-DEBUG: このオプションはまだ買えません-"  />
-			<text id="error_editmode_55" name="-DEBUG: マネキンを売ること、ストアすることはできません　-"  />
-			<text id="error_editmode_nomoney" name="このアイテムは買えません。"  />
-			<text id="error_editmode_removeMannequin" name="マネキンが商品を着ている間は売ることが出来ません。"  />
-			<text id="error_editmode_removeminCashdesk" name="お客さんが支払えるように、最低でもレジ1台が必要です。"  />
-			<text id="error_editmode_removeminChangingroom" name="お客さんが商品を試せるように、最低でもフィッティングルーム1つが必要です。"  />
-			<text id="error_editmode_removeminCounter" name="品物を売るためには、最低でも1つ棚が必要です。"  />
-			<text id="error_editmode_removeminFactory" name="新しい商品を作成するのに最低でも1人従業員が必要です。"  />
-			<text id="error_editmode_removeminMannequin" name="商品を綺麗に展示するために、最低でも1体のマネキンが必要です。"  />
-			<text id="error_editmode_removenotallowedCounter" name="まだ商品が棚に残っています！"  />
-			<text id="error_editmode_removenotallowedDoor" name="ドアが必要です！　ドアを交換するには他のドアをお店にドラッグしてください。"  />
-			<text id="error_editmode_removenotallowedFactory" name="この従業員はまだ作成中です！"  />
-			<text id="error_editmode_title" name="改装中にエラーが発生しました"  />
-			<text id="error_fashiongame_1" name="ショップが読み込めません。Goodgame Studiosサポートまでご連絡ください。"  />
-			<text id="error_fashiongame_title" name="エラー"  />
-			<text id="error_forgotpassword_101" name="あなたはEメールの受信をブロックしました。サポートに連絡してください。"  />
-			<text id="error_fullscreen_copy" name="フルスクリーンモードは利用できません。"  />
-			<text id="error_fullscreen_title" name="フルスクリーンモード"  />
-			<text id="error_gift_20" name="ギフトに使うための棚が空いていません。"  />
-			<text id="error_gift_34" name="ギフト使用数のリミットに到達しました。
-{1}ゴールドボタンを支払って、{0}個追加で使用しますか?"  />
-			<text id="error_gift_37" name="ギフトを使用するための棚が空いていません。"  />
-			<text id="error_gift_nomoney" name="これ以上のギフトを使用するには、ゴールドボタンが足りません!"  />
-			<text id="error_gift_title" name="ギフト"  />
-			<text id="error_instantdesign_34" name="- DEBUG:　一日の制限を越えました　-"  />
-			<text id="error_instantdesign_nomoney" name="マネキンをすぐに着せ替えるには、ゴールドボタンが足りません。"  />
-			<text id="error_instantdesign_nomoreinstant" name="一定時間内のマネキンの着せ替え回数には制限があります。明日になれば、また装いを変更することができます。"  />
-			<text id="error_instantdesign_title" name="ショーウィンドウ"  />
-			<text id="error_instantwork_nomoney" name="この商品をすぐ仕上げるためのゴールドボタンが足りません。"  />
-			<text id="error_invitefriend_11" name="このプレイヤーは現在オンラインではありません。のちほど再度お試しください!"  />
-			<text id="error_invitefriend_13" name="あなたの友達はすでにFashionに登録しています！"  />
-			<text id="error_invitefriend_14" name="無効なEメールアドレスです"  />
-			<text id="error_invitefriend_70" name="友達数が上限に達しました！"  />
-			<text id="error_invitefriend_71" name="このプレイヤーは、これ以上友達を追加できません！"  />
-			<text id="error_invitefriend_title" name="招待に失敗しました"  />
-			<text id="error_job_2" name="お疲れ様でした！今日は十分働きました。"  />
-			<text id="error_join_20" name="このショップは満員です。また後で来てください。"  />
-			<text id="error_join_21" name="-DEBUG: すでにお店にあります-"  />
-			<text id="error_join_22" name="-DEBUG: このお店は知られていません-"  />
-			<text id="error_join_title" name="入店する"  />
-			<text id="error_login_10" name="ユーザー名かパスワードが違います！"  />
-			<text id="error_login_11" name="ユーザー名かパスワードが違います！"  />
-			<text id="error_login_12" name="ユーザーはすでにログインしています。"  />
-			<text id="error_login_13" name="ユーザーはすでにログインしています。"  />
-			<text id="error_login_14" name="ユーザー名かパスワードが違います！"  />
-			<text id="error_login_15" name="すでにログインしています"  />
-			<text id="error_login_16" name="アバターにエラーがあります。サポートに連絡してください。"  />
-			<text id="error_lostpassword_101" name="このEメールアドレスはブロックされています。受信を許可するには、OKをクリックしてください。"  />
-			<text id="error_lostpassword_11" name="このアドレスで登録されているユーザーはいません！"  />
-			<text id="error_marketplace_20" name="-DEBUG: アーケードはすでにいっぱいです-"  />
-			<text id="error_marketplace_21" name="-DEBUG: すでにアーケードに居ます-"  />
-			<text id="error_marketplace_title" name="Goodgameアーケード"  />
-			<text id="error_nocustomclothselected" name="作成を始めるためには、まずは形を選択してください！"  />
-			<text id="error_nomoney_copy" name="お金が足りないので買えません。"  />
-			<text id="error_nomoney_guest_copy" name="お金が無くなりましたか？
-登録すれば{0}ファッションドルが入手できます！"  />
-			<text id="error_nomoney_title" name="お金が足りません"  />
-			<text id="error_npchire_nomoney" name="新しいレジ従業員を雇うには、ゴールドボタンが足りません。"  />
-			<text id="error_patternshop_44" name="この型紙はすでに持っています。"  />
-			<text id="error_patternshop_5" name="-DEBUG: WOD unbekannt-"  />
-			<text id="error_patternshop_nomoney" name="この型紙は買えません。"  />
-			<text id="error_patternshop_title" name="型紙の間違い"  />
-			<text id="error_police_nomoney" name="警備員を雇うためのゴールドボタンが足りません。"  />
-			<text id="error_register_10" name="入力したパスワードは有効ではありません。"  />
-			<text id="error_register_102" name="入力されたEメールアドレスは無効です。"  />
-			<text id="error_register_13" name="このEメールでは、すでに別のユーザーが登録されています。"  />
-			<text id="error_register_14" name="入力したEメールアドレスは正しくありません。"  />
-			<text id="error_register_19" name="Eメールアドレスが長すぎます。"  />
-			<text id="error_register_2" name="Eメールアドレスはすでに確認済みです。"  />
-			<text id="error_register_agb" name="利用規約に同意しないとゲームが出来ません。目を通して、左のボタンで同意してください。では、ゲームスタートです！"  />
-			<text id="error_register_emailinvalide" name="Eメールアドレスを空白にしたり、特殊記号を使用しないでください。"  />
-			<text id="error_register_passwordinvalide" name="パスワードにスペース、特殊文字が含まれないようにしてください。"  />
-			<text id="error_register_title" name="登録に失敗しました"  />
-			<text id="error_repair_36" name="-DEBUG: 従業員とコンタクトが取れません-"  />
-			<text id="error_repair_48" name="-DEBUG: 従業員は100％やる気があります-"  />
-			<text id="error_repair_nomoney" name="ボーナスを払うためのファッションドルが足りません。"  />
-			<text id="error_repair_title" name="修理"  />
-			<text id="error_sale_47" name="棚の商品がありません！"  />
-			<text id="error_sale_title" name="大特価品"  />
-			<text id="error_walk_23" name="-DEBUG: ここにはアクセスできません-"  />
-			<text id="error_work_31" name="-DEBUG: 従業員はすでに仕事に取り掛かっています!-"  />
-			<text id="error_work_32" name="-DEBUG: この商品の型紙がありません -"  />
-			<text id="error_work_36" name="従業員の元への道がブロックされています！飾りなおしてください。"  />
-			<text id="error_work_41" name="- DEBUG: ブースターがストックにありません -"  />
-			<text id="error_work_45" name="-DEBUG: 商品と従業員のタイプが一致しません-"  />
-			<text id="error_work_49" name="- DEBUG: 間違ったブースターです -"  />
-			<text id="error_work_67" name="この型紙はもう利用できません。新しいものを作成しましょう!"  />
-			<text id="error_work_nomoney" name="作成を始めるためのファッションドルが足りません。"  />
-			<text id="error_work_title" name="業務拒否"  />
-		</error_codes>
-		<feature>
-			<text id="feature_0_text_0" name="ついに！
+受け取るにはウェルカムメール内のリンクをクリックしてください!" />
+		<text id="dialogs_shippingconfirmation_titel" name="ギフト!" />
+		<text id="dialogs_staff_btnfire" name="解雇" />
+		<text id="dialogs_staff_btnhire" name="雇う" />
+		<text id="dialogs_staff_title" name="レジ店員" />
+		<text id="dialogs_wheeloffortune_beforespin" name="ホイール・オブ・フォーチュンを回して、素敵な賞品を入手しよう！" />
+		<text id="dialogs_wheeloffortune_btn_go" name="回す！" />
+		<text id="dialogs_wheeloffortune_btn_towheel" name="ホイールへ" />
+		<text id="dialogs_wheeloffortune_copy1" name="今日はもう、ホイール・オブ・フォーチュンを回しましたか？" />
+		<text id="dialogs_wheeloffortune_info" name="毎日、最初の1回は無料です！" />
+		<text id="dialogs_wheeloffortune_nomoney" name="ホイール・オブ・フォーチュンを回すには、ゴールドボタンが足りません！" />
+		<text id="dialogs_wheeloffortune_noregister" name="ホイール・オブ・フォーチュンを回すには、プレイヤー登録が必要です" />
+		<text id="dialogs_wheeloffortune_nospace" name="ギフトボックスに賞品を入れるスペースがありません！ホイール・オブ・フォーチュンを回す前に、空きスペースを作ってください！" />
+		<text id="dialogs_wheeloffortune_title" name="ホイール・オブ・フォーチュン！" />
+		<text id="dialogs_wheeloffortune_tryagain" name="もう一度トライしてみましょう！" />
+		<text id="dialogs_wheeloffortune_woncash" name="おめでとうございます！賞金はすでに所持金に加算されました！" />
+		<text id="dialogs_wheeloffortune_woncloth" name="おめでとうございます！賞品はギフトボックスの中にあります！" />
+		<text id="dialogs_wheeloffortune_wonitem" name="おめでとうございます！賞品はギフトボックスの中にあります！" />
+	</dialogs>
+	<error_codes>
+		<text id="error_advertisement_nolevel" name="プロモーションを行うには、少なくともレベル{0}に達する必要がります。" />
+		<text id="error_advertisement_nomoney" name="このプロモーションを行うには、ゴールドボタン/ファッションドルが足りません!" />
+		<text id="error_avatar_12" name="この名前はすでに使われています。" />
+		<text id="error_avatar_15" name="ユーザーはすでにアバターを持っています。" />
+		<text id="error_avatar_genderempty" name="キャラクターを選んでください！" />
+		<text id="error_avatar_nameinvalide" name="ユーザー名を空白にしたり、また、特殊文字が含まれないようにしてください。" />
+		<text id="error_avatar_standardname" name="ユーザー名を登録してください。" />
+		<text id="error_boost_nomoney" name="このブースターは買えません。" />
+		<text id="error_cancleproduction_36" name="棚の中を並び替えてからでないと使えません。" />
+		<text id="error_changepassword_0" name="パスワードを変更しました！" />
+		<text id="error_changepassword_10" name="古いパスワードが正しくありません！" />
+		<text id="error_changepassword_copy" name="パスワードは3文字以上で設定してください。また、古いパスワードを正しく入力したか確認してください。" />
+		<text id="error_changepassword_title" name="パスワードを変更する" />
+		<text id="error_chat_23" name="チャット機能は一時的に管理者より無効化されました。" />
+		<text id="error_chat_24" name="チャットを荒らさないでください！" />
+		<text id="error_common_1" name="エラー
+サーバーメッセージ {0}" />
+		<text id="error_common_3" name="- DEBUG: 低すぎるレベル -" />
+		<text id="error_common_30" name="-DEBUG: 従業員/棚が存在しません-" />
+		<text id="error_common_38" name="-DEBUG: 改装モード中-" />
+		<text id="error_common_5" name="- DEBUG: 不明な WodId -" />
+		<text id="error_common_80" name="-DEBUG: ルート計算。遅延 大きすぎ -" />
+		<text id="error_common_81" name="-DEBUG: ルート計算。遅延 negative　-" />
+		<text id="error_common_title" name="注意！" />
+		<text id="error_coop_3" name="このCo-Opに参加できるレベルに達していません。
+必要な型紙を最低1つロック解除する必要があります。" />
+		<text id="error_coop_90" name="すでにCo-Opに参加しています！" />
+		<text id="error_coop_91" name="Co-Opsの参加者の数はすでに参加可能な数を超えています。" />
+		<text id="error_coop_92" name="このCo-Opはすでに完了しました！" />
+		<text id="error_coop_93" name="今日はすでにCo-Opを開始しました！次のCo-Opはまた明日開始出来ます！" />
+		<text id="error_coop_nomoney" name="このCo-Opを延長するためのゴールドボタンが足りません。" />
+		<text id="error_coop_title" name="CO-OP" />
+		<text id="error_customclothbuy_nomoney" name="この型紙を買うには、ゴールドボタンが足りません！" />
+		<text id="error_customclothproduce_nomoney" name="この型紙を作成するには、ファッションドルが足りません！" />
+		<text id="error_customclothunlock_nomoney" name="このアイテムをのロックを解除するには、ファッションドルかゴールドボタンが足りません！" />
+		<text id="error_customize_nomoney" name="あなたのアバターを着せ替えるためのゴールドボタンが足りません。" />
+		<text id="error_custom_nameinvalide" name="{0}を使用することはできません!" />
+		<text id="error_deliverinfo_33" name="-DEBUG: 商品はまだ未完成です-" />
+		<text id="error_deliverinfo_35" name="-DEBUG: 従業員は何も作りませんでした-" />
+		<text id="error_deliverinfo_36" name="この従業員と連絡が取れません。せめて従業員の片側だけでも場所が空くように、お店を片付けてください。" />
+		<text id="error_deliverinfo_37" name="商品を並べるための棚が空いていません。" />
+		<text id="error_deliver_33" name="-DEBUG: 商品は商品はまだ未完成です-" />
+		<text id="error_deliver_35" name="-DEBUG: 従業員は何も裁断しませんでした-" />
+		<text id="error_deliver_36" name="この棚は使えません。せめて棚の片側だけでも場所が空くように、お店を片付けてください。" />
+		<text id="error_deliver_37" name="この棚は満杯です。場所が空いている棚を探して、そこに品物を並べてください。" />
+		<text id="error_deliver_46" name="この商品は吊るすことが出来ません。配置する棚を選択してください。" />
+		<text id="error_deliver_title" name="出来ません…" />
+		<text id="error_editmode_3" name="-DEBUG: 最低限のレベルに達していません-" />
+		<text id="error_editmode_31" name="-DEBUG: クリックできません-" />
+		<text id="error_editmode_32" name="-DEBUG: このアイテムは倉庫にありません-" />
+		<text id="error_editmode_37" name="-DEBUG: まだ棚に商品が残っています-" />
+		<text id="error_editmode_39" name="-DEBUG: 不明のポジション-" />
+		<text id="error_editmode_48" name="-DEBUG: やる気のない従業員をストアすることはできません-" />
+		<text id="error_editmode_50" name="-DEBUG: ブロックされています-" />
+		<text id="error_editmode_51" name="-DEBUG: ポジションが空いています-" />
+		<text id="error_editmode_52" name="-DEBUG: 回転できません-" />
+		<text id="error_editmode_53" name="-DEBUG: このオプションはすでに持っています-" />
+		<text id="error_editmode_54" name="-DEBUG: このオプションはまだ買えません-" />
+		<text id="error_editmode_55" name="-DEBUG: マネキンを売ること、ストアすることはできません　-" />
+		<text id="error_editmode_nomoney" name="このアイテムは買えません。" />
+		<text id="error_editmode_removeMannequin" name="マネキンが商品を着ている間は売ることが出来ません。" />
+		<text id="error_editmode_removeminCashdesk" name="お客さんが支払えるように、最低でもレジ1台が必要です。" />
+		<text id="error_editmode_removeminChangingroom" name="お客さんが商品を試せるように、最低でもフィッティングルーム1つが必要です。" />
+		<text id="error_editmode_removeminCounter" name="品物を売るためには、最低でも1つ棚が必要です。" />
+		<text id="error_editmode_removeminFactory" name="新しい商品を作成するのに最低でも1人従業員が必要です。" />
+		<text id="error_editmode_removeminMannequin" name="商品を綺麗に展示するために、最低でも1体のマネキンが必要です。" />
+		<text id="error_editmode_removenotallowedCounter" name="まだ商品が棚に残っています！" />
+		<text id="error_editmode_removenotallowedDoor" name="ドアが必要です！　ドアを交換するには他のドアをお店にドラッグしてください。" />
+		<text id="error_editmode_removenotallowedFactory" name="この従業員はまだ作成中です！" />
+		<text id="error_editmode_title" name="改装中にエラーが発生しました" />
+		<text id="error_fashiongame_1" name="ショップが読み込めません。Goodgame Studiosサポートまでご連絡ください。" />
+		<text id="error_fashiongame_title" name="エラー" />
+		<text id="error_forgotpassword_101" name="あなたはEメールの受信をブロックしました。サポートに連絡してください。" />
+		<text id="error_fullscreen_copy" name="フルスクリーンモードは利用できません。" />
+		<text id="error_fullscreen_title" name="フルスクリーンモード" />
+		<text id="error_gift_20" name="ギフトに使うための棚が空いていません。" />
+		<text id="error_gift_34" name="ギフト使用数のリミットに到達しました。
+{1}ゴールドボタンを支払って、{0}個追加で使用しますか?" />
+		<text id="error_gift_37" name="ギフトを使用するための棚が空いていません。" />
+		<text id="error_gift_nomoney" name="これ以上のギフトを使用するには、ゴールドボタンが足りません!" />
+		<text id="error_gift_title" name="ギフト" />
+		<text id="error_instantdesign_34" name="- DEBUG:　一日の制限を越えました　-" />
+		<text id="error_instantdesign_nomoney" name="マネキンをすぐに着せ替えるには、ゴールドボタンが足りません。" />
+		<text id="error_instantdesign_nomoreinstant" name="一定時間内のマネキンの着せ替え回数には制限があります。明日になれば、また装いを変更することができます。" />
+		<text id="error_instantdesign_title" name="ショーウィンドウ" />
+		<text id="error_instantwork_nomoney" name="この商品をすぐ仕上げるためのゴールドボタンが足りません。" />
+		<text id="error_invitefriend_11" name="このプレイヤーは現在オンラインではありません。のちほど再度お試しください!" />
+		<text id="error_invitefriend_13" name="あなたの友達はすでにFashionに登録しています！" />
+		<text id="error_invitefriend_14" name="無効なEメールアドレスです" />
+		<text id="error_invitefriend_70" name="友達数が上限に達しました！" />
+		<text id="error_invitefriend_71" name="このプレイヤーは、これ以上友達を追加できません！" />
+		<text id="error_invitefriend_title" name="招待に失敗しました" />
+		<text id="error_job_2" name="お疲れ様でした！今日は十分働きました。" />
+		<text id="error_join_20" name="このショップは満員です。また後で来てください。" />
+		<text id="error_join_21" name="-DEBUG: すでにお店にあります-" />
+		<text id="error_join_22" name="-DEBUG: このお店は知られていません-" />
+		<text id="error_join_title" name="入店する" />
+		<text id="error_login_10" name="ユーザー名かパスワードが違います！" />
+		<text id="error_login_11" name="ユーザー名かパスワードが違います！" />
+		<text id="error_login_12" name="ユーザーはすでにログインしています。" />
+		<text id="error_login_13" name="ユーザーはすでにログインしています。" />
+		<text id="error_login_14" name="ユーザー名かパスワードが違います！" />
+		<text id="error_login_15" name="すでにログインしています" />
+		<text id="error_login_16" name="アバターにエラーがあります。サポートに連絡してください。" />
+		<text id="error_lostpassword_101" name="このEメールアドレスはブロックされています。受信を許可するには、OKをクリックしてください。" />
+		<text id="error_lostpassword_11" name="このアドレスで登録されているユーザーはいません！" />
+		<text id="error_marketplace_3" name="You have to reach level 3 to visit the Arcade." />
+		<text id="error_marketplace_20" name="-DEBUG: アーケードはすでにいっぱいです-" />
+		<text id="error_marketplace_21" name="-DEBUG: すでにアーケードに居ます-" />
+		<text id="error_marketplace_title" name="Goodgameアーケード" />
+		<text id="error_nocustomclothselected" name="作成を始めるためには、まずは形を選択してください！" />
+		<text id="error_nomoney_copy" name="お金が足りないので買えません。" />
+		<text id="error_nomoney_guest_copy" name="お金が無くなりましたか？
+登録すれば{0}ファッションドルが入手できます！" />
+		<text id="error_nomoney_title" name="お金が足りません" />
+		<text id="error_npchire_nomoney" name="新しいレジ従業員を雇うには、ゴールドボタンが足りません。" />
+		<text id="error_patternshop_44" name="この型紙はすでに持っています。" />
+		<text id="error_patternshop_5" name="-DEBUG: WOD unbekannt-" />
+		<text id="error_patternshop_nomoney" name="この型紙は買えません。" />
+		<text id="error_patternshop_title" name="型紙の間違い" />
+		<text id="error_police_nomoney" name="警備員を雇うためのゴールドボタンが足りません。" />
+		<text id="error_register_10" name="入力したパスワードは有効ではありません。" />
+		<text id="error_register_102" name="入力されたEメールアドレスは無効です。" />
+		<text id="error_register_13" name="このEメールでは、すでに別のユーザーが登録されています。" />
+		<text id="error_register_14" name="入力したEメールアドレスは正しくありません。" />
+		<text id="error_register_19" name="Eメールアドレスが長すぎます。" />
+		<text id="error_register_2" name="Eメールアドレスはすでに確認済みです。" />
+		<text id="error_register_agb" name="利用規約に同意しないとゲームが出来ません。目を通して、左のボタンで同意してください。では、ゲームスタートです！" />
+		<text id="error_register_emailinvalide" name="Eメールアドレスを空白にしたり、特殊記号を使用しないでください。" />
+		<text id="error_register_passwordinvalide" name="パスワードにスペース、特殊文字が含まれないようにしてください。" />
+		<text id="error_register_title" name="登録に失敗しました" />
+		<text id="error_repair_36" name="-DEBUG: 従業員とコンタクトが取れません-" />
+		<text id="error_repair_48" name="-DEBUG: 従業員は100％やる気があります-" />
+		<text id="error_repair_nomoney" name="ボーナスを払うためのファッションドルが足りません。" />
+		<text id="error_repair_title" name="修理" />
+		<text id="error_sale_47" name="棚の商品がありません！" />
+		<text id="error_sale_title" name="大特価品" />
+		<text id="error_walk_23" name="-DEBUG: ここにはアクセスできません-" />
+		<text id="error_work_31" name="-DEBUG: 従業員はすでに仕事に取り掛かっています!-" />
+		<text id="error_work_32" name="-DEBUG: この商品の型紙がありません -" />
+		<text id="error_work_36" name="従業員の元への道がブロックされています！飾りなおしてください。" />
+		<text id="error_work_41" name="- DEBUG: ブースターがストックにありません -" />
+		<text id="error_work_45" name="-DEBUG: 商品と従業員のタイプが一致しません-" />
+		<text id="error_work_49" name="- DEBUG: 間違ったブースターです -" />
+		<text id="error_work_67" name="この型紙はもう利用できません。新しいものを作成しましょう!" />
+		<text id="error_work_nomoney" name="作成を始めるためのファッションドルが足りません。" />
+		<text id="error_work_title" name="業務拒否" />
+	</error_codes>
+	<feature>
+		<text id="feature_0_text_0" name="ついに！
 
 Goodgame Fashionの公式ベータテストが開始されます！
 全員がレベル1からのスタートとなります。これまで購入した分のゴールドボタンは引き継げます。それに加え、更に10個ゴールドボタンがボーナスとしてプレゼントされます。
 
-Goodgame Fashionを楽しんでくださいね！"  />
-			<text id="feature_0_title" name="オフィシャルスタート！"  />
-			<text id="feature_10_text_0" name="夏です!
-新しいGeeDeeコレクション到来!"  />
-			<text id="feature_1_text_0" name="友達と一緒に始めてみてください！\n新しいCo-Opsを見つけ出してください！"  />
-			<text id="feature_2_text_0" name="新しい棚、フィッティングルームとレジを見てください！"  />
-			<text id="feature_2_text_1" name="着せ替えはとっても簡単です！キャラクターをクリックしてください！"  />
-			<text id="feature_2_text_2" name="Fashionをサウンドと共に体感してください！"  />
-			<text id="feature_3_text_0" name="春の到来です！
-新しい型紙で、あなたのショップに新たな風を吹き入れよう！"  />
-			<text id="feature_3_text_1" name="新しいレーベルで、商品の利益率がどんどんアップ！"  />
-			<text id="feature_4_text_0" name="あなたの店をカラフルに彩る
-JayJayコレクション、新登場！"  />
-			<text id="feature_4_text_1" name="新しい棚、フィッティングルームとレジを見てください！"  />
-			<text id="feature_4_text_2" name="新作スプリングジャケットは素晴らしい逸品です！"  />
-			<text id="feature_4_text_3" name="友達を手伝って、報酬をゲットしよう！"  />
-			<text id="feature_5_text_0" name="あなたの店をカラフルに彩る
-JayJayコレクション、華麗に新登場！"  />
-			<text id="feature_5_text_1" name="新しい棚、フィッティングルームとレジを見てください！"  />
-			<text id="feature_5_text_2" name="新作スプリングジャケットが登場！お見逃しなく！"  />
-			<text id="feature_5_text_3" name="友達を手伝って、報酬をゲットしよう！"  />
-			<text id="feature_6_text_0" name="ファッションデザイナーになって、型紙を自分でデザインしよう!"  />
-			<text id="feature_6_text_1" name="ショップ用の新ショーウインドウの数々をご覧あれ！"  />
-			<text id="feature_7_text_0" name="あなたの運やいかに?
-アーケードに新登場、ホイール・オブ・フォーチュンで確かめてみよう!"  />
-			<text id="feature_8_text_0" name="家具やデコレーションに新しく設定された「豪華値」で、あなたのショップをより魅力的に演出し、人気度をアップ!"  />
-			<text id="feature_8_text_1" name="新しい棚、フィッティングルームとレジで、あなたの店の印象をアップ！"  />
-			<text id="feature_9_text_0" name="プロモーションによって、あなたのショップの人気度を高め、追加でXPを入手しよう!"  />
-			<text id="feature_9_text_1" name="棚にもっと多くのギフトを置こう!"  />
-			<text id="feature_title" name="新しいフィーチャー"  />
-		</feature>
-		<feeds>
-			<text id="descriptionfashionfeed" name="Goodgame Fashionをインストールしました。あなたもファッションショップをオープンしてモードデザイナーになりませんか? 是非一度ご覧下さい!"  />
-			<text id="descriptionlongfashion" name="Goodgame Fashionで自分のショップをオープンしましょう。人気のモードデザイナーになったら、新しい型紙を買って、オリジナルの服を作って新しいトレンドを作りましょう。世界中の人たちと新たに知り合って、お店に招待して、チャットで最新のトレンドについて発言しましょう。お客さんをひきつけるために、ショーウィンドウとショップをを飾り付けしたら、すぐにもうお店が大きくなってモードシーンの新しいスターになれるでしょう、"  />
-		</feeds>
-		<forumaction>
-			<text id="forumaction_copy_1" name="オリジナル水着をデザインして、入賞を目指そう!
+Goodgame Fashionを楽しんでくださいね！" />
+		<text id="feature_0_title" name="オフィシャルスタート！" />
+		<text id="feature_10_text_0" name="夏です!
+新しいGeeDeeコレクション到来!" />
+		<text id="feature_1_text_0" name="友達と一緒に始めてみてください！\n新しいCo-Opsを見つけ出してください！" />
+		<text id="feature_2_text_0" name="新しい棚、フィッティングルームとレジを見てください！" />
+		<text id="feature_2_text_1" name="着せ替えはとっても簡単です！キャラクターをクリックしてください！" />
+		<text id="feature_2_text_2" name="Fashionをサウンドと共に体感してください！" />
+		<text id="feature_3_text_0" name="春の到来です！
+新しい型紙で、あなたのショップに新たな風を吹き入れよう！" />
+		<text id="feature_3_text_1" name="新しいレーベルで、商品の利益率がどんどんアップ！" />
+		<text id="feature_4_text_0" name="あなたの店をカラフルに彩る
+JayJayコレクション、新登場！" />
+		<text id="feature_4_text_1" name="新しい棚、フィッティングルームとレジを見てください！" />
+		<text id="feature_4_text_2" name="新作スプリングジャケットは素晴らしい逸品です！" />
+		<text id="feature_4_text_3" name="友達を手伝って、報酬をゲットしよう！" />
+		<text id="feature_5_text_0" name="あなたの店をカラフルに彩る
+JayJayコレクション、華麗に新登場！" />
+		<text id="feature_5_text_1" name="新しい棚、フィッティングルームとレジを見てください！" />
+		<text id="feature_5_text_2" name="新作スプリングジャケットが登場！お見逃しなく！" />
+		<text id="feature_5_text_3" name="友達を手伝って、報酬をゲットしよう！" />
+		<text id="feature_6_text_0" name="ファッションデザイナーになって、型紙を自分でデザインしよう!" />
+		<text id="feature_6_text_1" name="ショップ用の新ショーウインドウの数々をご覧あれ！" />
+		<text id="feature_7_text_0" name="あなたの運やいかに?
+アーケードに新登場、ホイール・オブ・フォーチュンで確かめてみよう!" />
+		<text id="feature_8_text_0" name="家具やデコレーションに新しく設定された「豪華値」で、あなたのショップをより魅力的に演出し、人気度をアップ!" />
+		<text id="feature_8_text_1" name="新しい棚、フィッティングルームとレジで、あなたの店の印象をアップ！" />
+		<text id="feature_9_text_0" name="プロモーションによって、あなたのショップの人気度を高め、追加でXPを入手しよう!" />
+		<text id="feature_9_text_1" name="棚にもっと多くのギフトを置こう!" />
+		<text id="feature_title" name="新しいフィーチャー" />
+	</feature>
+	<feeds>
+		<text id="descriptionfashionfeed" name="Goodgame Fashionをインストールしました。あなたもファッションショップをオープンしてモードデザイナーになりませんか? 是非一度ご覧下さい!" />
+		<text id="descriptionlongfashion" name="Goodgame Fashionで自分のショップをオープンしましょう。人気のモードデザイナーになったら、新しい型紙を買って、オリジナルの服を作って新しいトレンドを作りましょう。世界中の人たちと新たに知り合って、お店に招待して、チャットで最新のトレンドについて発言しましょう。お客さんをひきつけるために、ショーウィンドウとショップをを飾り付けしたら、すぐにもうお店が大きくなってモードシーンの新しいスターになれるでしょう、" />
+	</feeds>
+	<forumaction>
+		<text id="forumaction_copy_1" name="オリジナル水着をデザインして、入賞を目指そう!
 優勝者には、ゴールドボタンがプレゼントされる他、型紙が型紙ブックに収録されます!
 
-参加するには、今すぐフォーラムへ!"  />
-			<text id="forumaction_title_1" name="クリエイティブに行こう!"  />
-		</forumaction>
-		<loggedin_msg id=""  />
-		<panels>
-			<text id="panels_buddylist_morefriends" name="もっとたくさんの友達"  />
-			<text id="panels_login_email" name="ユーザー名/Eメール"  />
-			<text id="panels_login_loginbtn" name="ログイン"  />
-			<text id="panels_login_lostpassword" name="パスワードをお忘れですか？"  />
-			<text id="panels_login_password" name="パスワード"  />
-			<text id="panels_login_playbtn" name="今すぐ開始"  />
-			<text id="panels_login_registerbtn" name="登録"  />
-			<text id="panels_login_rememberpassword" name="パスワードを保存する"  />
-			<text id="panels_social_alone" name="現在ここにいるのはあなたのみです！"  />
-			<text id="panels_social_bot" name="Fashionチャット"  />
-			<text id="panels_social_chatblocked" name="登録しているプレイヤーはレベル1に達するとチャット機能が使用できます。"  />
-			<text id="panels_social_come_in" name="が入店しました。"  />
-			<text id="panels_social_go_out" name="がお店を去りました。"  />
-			<text id="panels_social_nofriends" name="まだ友達がいません！"  />
-			<text id="panels_social_welcome_market" name="Goodgameアーケードにようこそ"  />
-			<text id="panels_social_welcome_myshop" name="ようこそ"  />
-		</panels>
-		<server>
-			<mail>
-				<text id="mail_invite_friend" name="こんにちわ%s!&lt;br /&gt;&lt;br /&gt;今日&quot;Goodgame Fashion&quot; という面白いオンラインゲームを発見しました。&lt;br /&gt;&lt;br /&gt;このリンクをクリックするとゲームのページに移ります:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;このゲームに登録して&quot;Goodgame Fashion&quot;を試してみてください&lt;br /&gt;&lt;br /&gt;綺麗な服を、アクセサリーや靴を作成し、店を自分の好みに改装して、ファッションショップ経営者の気分を味わってみませんか?&lt;br /&gt;&lt;br /&gt;ではゲームを楽しんでください！%s"  />
-				<text id="mail_lost_pw" name="こんにちわ%s!&lt;br /&gt;&lt;br /&gt;新しいパスワードの再設定のためのメールです。&lt;br /&gt;新しいパスワード: %s&lt;br /&gt;&lt;br /&gt;このリンクをクリックするとゲームの画面に戻ります:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;質問、問題等ありましたらこちらにご連絡ください。support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;引き続きゲームをお楽しみください！&lt;br /&gt;&lt;br /&gt;Goodgamestudios.com&lt;br /&gt;チーム一同"  />
-				<text id="mail_registration" name="こんにちわ,&lt;br /&gt;&lt;br /&gt;ご登録ありがとうございます。そして&quot;Goodgame Fashion&quot;へようこそ。&lt;br /&gt;&lt;br /&gt;いつでも次のログインデータでゲームが出来ます:&lt;br /&gt;Eメール: %s&lt;br /&gt;パスワード: %s&lt;br /&gt;&lt;br /&gt;このリンクをクリックするとゲーム画面に移ります:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;質問、問題等ありましたらこちらにご連絡くださいsupport@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;では、引き続きゲームをお楽しみください！&lt;br /&gt;&lt;br /&gt;Goodgamestudios.com&lt;br /&gt;チーム一同"  />
-			</mail>
-			<misc>
-				<text id="marketplace" name="Goodgameアーケード"  />
-			</misc>
-		</server>
-		<server_msg>
-			<text id="server_msg_10" name="サーバーが再起動されます。少々お待ちください。
+参加するには、今すぐフォーラムへ!" />
+		<text id="forumaction_title_1" name="クリエイティブに行こう!" />
+	</forumaction>
+	<loggedin_msg id="" />
+	<panels>
+		<text id="panels_buddylist_morefriends" name="もっとたくさんの友達" />
+		<text id="panels_login_email" name="ユーザー名/Eメール" />
+		<text id="panels_login_loginbtn" name="ログイン" />
+		<text id="panels_login_lostpassword" name="パスワードをお忘れですか？" />
+		<text id="panels_login_password" name="パスワード" />
+		<text id="panels_login_playbtn" name="今すぐ開始" />
+		<text id="panels_login_registerbtn" name="登録" />
+		<text id="panels_login_rememberpassword" name="パスワードを保存する" />
+		<text id="panels_social_alone" name="現在ここにいるのはあなたのみです！" />
+		<text id="panels_social_bot" name="Fashionチャット" />
+		<text id="panels_social_chatblocked" name="登録しているプレイヤーはレベル1に達するとチャット機能が使用できます。" />
+		<text id="panels_social_come_in" name="が入店しました。" />
+		<text id="panels_social_go_out" name="がお店を去りました。" />
+		<text id="panels_social_nofriends" name="まだ友達がいません！" />
+		<text id="panels_social_welcome_market" name="Goodgameアーケードにようこそ" />
+		<text id="panels_social_welcome_myshop" name="ようこそ" />
+	</panels>
+	<server>
+		<mail>
+			<text id="mail_invite_friend" name="こんにちわ%s!&lt;br /&gt;&lt;br /&gt;今日&quot;Goodgame Fashion&quot; という面白いオンラインゲームを発見しました。&lt;br /&gt;&lt;br /&gt;このリンクをクリックするとゲームのページに移ります:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;このゲームに登録して&quot;Goodgame Fashion&quot;を試してみてください&lt;br /&gt;&lt;br /&gt;綺麗な服を、アクセサリーや靴を作成し、店を自分の好みに改装して、ファッションショップ経営者の気分を味わってみませんか?&lt;br /&gt;&lt;br /&gt;ではゲームを楽しんでください！%s" />
+			<text id="mail_lost_pw" name="こんにちわ%s!&lt;br /&gt;&lt;br /&gt;新しいパスワードの再設定のためのメールです。&lt;br /&gt;新しいパスワード: %s&lt;br /&gt;&lt;br /&gt;このリンクをクリックするとゲームの画面に戻ります:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;質問、問題等ありましたらこちらにご連絡ください。support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;引き続きゲームをお楽しみください！&lt;br /&gt;&lt;br /&gt;Goodgamestudios.com&lt;br /&gt;チーム一同" />
+			<text id="mail_registration" name="こんにちわ,&lt;br /&gt;&lt;br /&gt;ご登録ありがとうございます。そして&quot;Goodgame Fashion&quot;へようこそ。&lt;br /&gt;&lt;br /&gt;いつでも次のログインデータでゲームが出来ます:&lt;br /&gt;Eメール: %s&lt;br /&gt;パスワード: %s&lt;br /&gt;&lt;br /&gt;このリンクをクリックするとゲーム画面に移ります:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;質問、問題等ありましたらこちらにご連絡くださいsupport@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;では、引き続きゲームをお楽しみください！&lt;br /&gt;&lt;br /&gt;Goodgamestudios.com&lt;br /&gt;チーム一同" />
+		</mail>
+		<misc>
+			<text id="marketplace" name="Goodgameアーケード" />
+		</misc>
+	</server>
+	<server_msg>
+		<text id="server_msg_10" name="サーバーが再起動されます。少々お待ちください。
 
-F5キーを押してページを再読み込みしてください。"  />
-			<text id="server_msg_title" name="サーバーメッセージ:"  />
-		</server_msg>
-		<std_buttons>
-			<text id="btn_addcurrency" name="ファッションドル/ゴールドボタンを買う"  />
-			<text id="btn_payment" name="ファッションドル/ゴールドボタンを買う"  />
-			<text id="btn_policeman" name="警備員"  />
-			<text id="btn_register" name="登録"  />
-			<text id="btn_superrewardChips" name="ファッションドルを稼ぐ"  />
-			<text id="btn_superrewardGold" name="ゴールドボタンを稼ぐ"  />
-		</std_buttons>
-		<tooltips>
-			<text id="tooltip_Basic_Factory_Basicaccessoire" name="金細工師"  />
-			<text id="tooltip_Basic_Factory_Basiccloth" name="裁縫師"  />
-			<text id="tooltip_Basic_Factory_Basicshoes" name="靴職人"  />
-			<text id="tooltip_counter_pieces" name="数量: {0}"  />
-			<text id="tooltip_customcloth_icon" name="プリント"  />
-			<text id="tooltip_customcloth_shape" name="形"  />
-			<text id="tooltip_customcloth_unlock" name="ロック解除"  />
-			<text id="tooltip_factory_empty" name="新しい商品を作成しよう！"  />
-			<text id="tooltip_factory_preparestep1" name="従業員に指示"  />
-			<text id="tooltip_factory_preparetitle" name="クリックで"  />
-			<text id="tooltip_factory_readytoserv" name="商品を展示する"  />
-			<text id="tooltip_factory_readytoserv_amount" name="数量: {0}"  />
-			<text id="tooltip_factory_wear" name="やる気: {0}%"  />
-			<text id="tooltip_FashionActionPanel_btn_achievements" name="実績"  />
-			<text id="tooltip_FashionActionPanel_btn_addcurrency" name="ゴールドボタン/
+F5キーを押してページを再読み込みしてください。" />
+		<text id="server_msg_title" name="サーバーメッセージ:" />
+	</server_msg>
+	<std_buttons>
+		<text id="btn_addcurrency" name="ファッションドル/ゴールドボタンを買う" />
+		<text id="btn_payment" name="ファッションドル/ゴールドボタンを買う" />
+		<text id="btn_policeman" name="警備員" />
+		<text id="btn_register" name="登録" />
+		<text id="btn_superrewardChips" name="ファッションドルを稼ぐ" />
+		<text id="btn_superrewardGold" name="ゴールドボタンを稼ぐ" />
+	</std_buttons>
+	<tooltips>
+		<text id="tooltip_Basic_Factory_Basicaccessoire" name="金細工師" />
+		<text id="tooltip_Basic_Factory_Basiccloth" name="裁縫師" />
+		<text id="tooltip_Basic_Factory_Basicshoes" name="靴職人" />
+		<text id="tooltip_counter_pieces" name="数量: {0}" />
+		<text id="tooltip_customcloth_icon" name="プリント" />
+		<text id="tooltip_customcloth_shape" name="形" />
+		<text id="tooltip_customcloth_unlock" name="ロック解除" />
+		<text id="tooltip_factory_empty" name="新しい商品を作成しよう！" />
+		<text id="tooltip_factory_preparestep1" name="従業員に指示" />
+		<text id="tooltip_factory_preparetitle" name="クリックで" />
+		<text id="tooltip_factory_readytoserv" name="商品を展示する" />
+		<text id="tooltip_factory_readytoserv_amount" name="数量: {0}" />
+		<text id="tooltip_factory_wear" name="やる気: {0}%" />
+		<text id="tooltip_FashionActionPanel_btn_achievements" name="実績" />
+		<text id="tooltip_FashionActionPanel_btn_addcurrency" name="ゴールドボタン/
 ファッションドル
-を追加する"  />
-			<text id="tooltip_FashionActionPanel_btn_advertisement" name="プロモーション"  />
-			<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="レベル{0}以上になると、
-プロモーションが行えます"  />
-			<text id="tooltip_FashionActionPanel_btn_booster" name="ブースター"  />
-			<text id="tooltip_FashionActionPanel_btn_coop" name="Co-Op"  />
-			<text id="tooltip_FashionActionPanel_btn_decoshop" name="改装"  />
-			<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="店のプロモーションを行おう!"  />
-			<text id="tooltip_FashionActionPanel_btn_fashionbook" name="カタログ"  />
-			<text id="tooltip_FashionActionPanel_btn_gifts" name="ギフト"  />
-			<text id="tooltip_FashionActionPanel_btn_highscore" name="ランキング"  />
-			<text id="tooltip_FashionActionPanel_btn_market" name="Goodgameアーケード"  />
-			<text id="tooltip_FashionActionPanel_btn_openclose" name="ショップを開く/閉める"  />
-			<text id="tooltip_FashionActionPanel_btn_ownshop" name="マイショップ"  />
-			<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="アクション進行中
-クリックで途中状態"  />
-			<text id="tooltip_FashionActionPanel_btn_sale" name="値引きする"  />
-			<text id="tooltip_FashionActionPanel_btn_staff" name="レジ店員"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="ボトムス"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="髪"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="肌色"  />
-			<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="トップス"  />
-			<text id="tooltip_FashionBookDialog_btn_all" name="すべて"  />
-			<text id="tooltip_FashionBookDialog_btn_buy" name="型紙を買う"  />
-			<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="型紙をデザインする"  />
-			<text id="tooltip_FashionBookDialog_btn_mastery" name="あと{0}でレーベルレベル{1}
-クリックで詳細表示"  />
-			<text id="tooltip_FashionBookDialog_btn_produce" name="作成"  />
-			<text id="tooltip_FashionBookDialog_customcloth" name="カスタム型紙"  />
-			<text id="tooltip_FashionBookDialog_female" name="女の子用"  />
-			<text id="tooltip_FashionBookDialog_info" name="ショップ内には常に
-女物と男物の服があるようにしてください！"  />
-			<text id="tooltip_FashionBookDialog_male" name="男の子用"  />
-			<text id="tooltip_FashionBookDialog_unisex" name="男の子&amp;女の子用"  />
-			<text id="tooltip_FashionBoosterDialog_addAmount" name="購入単位数量"  />
-			<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="延長時間"  />
-			<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="延長時間
-+ {0}あと友達{1}人追加で"  />
-			<text id="tooltip_FashionBoosterDialog_btn_buy" name="買う"  />
-			<text id="tooltip_FashionBoosterDialog_btn_info" name="インフォ"  />
-			<text id="tooltip_FashionBoosterDialog_coffee" name="コーヒー
-裁縫師の効率が最大で20％アップします！"  />
-			<text id="tooltip_FashionBoosterDialog_currentAmount" name="在庫あり"  />
-			<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="現在の盗難防止策"  />
-			<text id="tooltip_FashionBoosterDialog_energy" name="エナジードリンク
+を追加する" />
+		<text id="tooltip_FashionActionPanel_btn_advertisement" name="プロモーション" />
+		<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="レベル{0}以上になると、
+プロモーションが行えます" />
+		<text id="tooltip_FashionActionPanel_btn_booster" name="ブースター" />
+		<text id="tooltip_FashionActionPanel_btn_coop" name="Co-Op" />
+		<text id="tooltip_FashionActionPanel_btn_decoshop" name="改装" />
+		<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="店のプロモーションを行おう!" />
+		<text id="tooltip_FashionActionPanel_btn_fashionbook" name="カタログ" />
+		<text id="tooltip_FashionActionPanel_btn_gifts" name="ギフト" />
+		<text id="tooltip_FashionActionPanel_btn_highscore" name="ランキング" />
+		<text id="tooltip_FashionActionPanel_btn_market" name="Goodgameアーケード" />
+		<text id="tooltip_FashionActionPanel_btn_openclose" name="ショップを開く/閉める" />
+		<text id="tooltip_FashionActionPanel_btn_ownshop" name="マイショップ" />
+		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="アクション進行中
+クリックで途中状態" />
+		<text id="tooltip_FashionActionPanel_btn_sale" name="値引きする" />
+		<text id="tooltip_FashionActionPanel_btn_staff" name="レジ店員" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="ボトムス" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="髪" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="肌色" />
+		<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="トップス" />
+		<text id="tooltip_FashionBookDialog_btn_all" name="すべて" />
+		<text id="tooltip_FashionBookDialog_btn_buy" name="型紙を買う" />
+		<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="型紙をデザインする" />
+		<text id="tooltip_FashionBookDialog_btn_mastery" name="あと{0}でレーベルレベル{1}
+クリックで詳細表示" />
+		<text id="tooltip_FashionBookDialog_btn_produce" name="作成" />
+		<text id="tooltip_FashionBookDialog_customcloth" name="カスタム型紙" />
+		<text id="tooltip_FashionBookDialog_female" name="女の子用" />
+		<text id="tooltip_FashionBookDialog_info" name="ショップ内には常に
+女物と男物の服があるようにしてください！" />
+		<text id="tooltip_FashionBookDialog_male" name="男の子用" />
+		<text id="tooltip_FashionBookDialog_unisex" name="男の子&amp;女の子用" />
+		<text id="tooltip_FashionBoosterDialog_addAmount" name="購入単位数量" />
+		<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="延長時間" />
+		<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="延長時間
++ {0}あと友達{1}人追加で" />
+		<text id="tooltip_FashionBoosterDialog_btn_buy" name="買う" />
+		<text id="tooltip_FashionBoosterDialog_btn_info" name="インフォ" />
+		<text id="tooltip_FashionBoosterDialog_coffee" name="コーヒー
+裁縫師の効率が最大で20％アップします！" />
+		<text id="tooltip_FashionBoosterDialog_currentAmount" name="在庫あり" />
+		<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="現在の盗難防止策" />
+		<text id="tooltip_FashionBoosterDialog_energy" name="エナジードリンク
 
-靴職人の効率が最大で20％アップします！"  />
-			<text id="tooltip_FashionBoosterDialog_police" name="警備員"  />
-			<text id="tooltip_FashionBoosterDialog_price" name="価格"  />
-			<text id="tooltip_FashionBoosterDialog_shake" name="プロテインシェイク
-金細工師の効率が最大で20％アップします！"  />
-			<text id="tooltip_FashionCoopDialog_btn_extend" name="Co-Opを延長"  />
-			<text id="tooltip_FashionCounterDialog_btn_sale" name="価格が下がりました"  />
-			<text id="tooltip_FashionCounterDialog_btn_spend" name="商品を無償で寄付する"  />
-			<text id="tooltip_FashionCounterDialog_btn_unsale" name="セールをやめる"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="買う"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_close" name="改装を終了する"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko" name="改装"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="デコレーション"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="ショーウィンドウ"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="ドア"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="フロア"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="壁"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="壁のデコレーション"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="拡張"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="階を増設"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="ショップを拡張する"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional" name="備品"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="レジ"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="フィッティングルーム"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="棚"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="従業員"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="マネキン"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="型紙"  />
-			<text id="tooltip_FashionDekoShopPanel_btn_sell" name="販売"  />
-			<text id="tooltip_FashionExpansionFriends" name="\n拡張するのに{0}の友達が必要です"  />
-			<text id="tooltip_FashionFactoryDialog_btn_instant" name="すぐに仕上げる!"  />
-			<text id="tooltip_FashionGiftboxDialog_btn_remove" name="消去"  />
-			<text id="tooltip_FashionGiftboxDialog_btn_use" name="使う"  />
-			<text id="tooltip_FashionGiftboxDialog_mygifts" name="マイギフト"  />
-			<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="ギフトを贈る"  />
-			<text id="tooltip_FashionHighscoreDialog_luxury" name="豪華値順に整頓"  />
-			<text id="tooltip_FashionHighscoreDialog_offline" name="オフライン"  />
-			<text id="tooltip_FashionHighscoreDialog_online" name="オンライン"  />
-			<text id="tooltip_FashionHighscoreDialog_xp" name="XP順に整頓"  />
-			<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="アクセサリー"  />
-			<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="洋服"  />
-			<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="靴"  />
-			<text id="tooltip_FashionMasteryInfoDialog_bronce" name="もっと多くの数量を作成しよう！"  />
-			<text id="tooltip_FashionMasteryInfoDialog_gold" name="作成スピードアップ！"  />
-			<text id="tooltip_FashionMasteryInfoDialog_silver" name="獲得XPを増やそう！"  />
-			<text id="tooltip_FashionNamePanel_mc_luxury" name="あなたのショップの豪華値:"  />
-			<text id="tooltip_FashionNamePanel_mc_rating" name="ショップの人気度"  />
-			<text id="tooltip_FashionOptionPanel_btn_allowemails" name="Eメールを許可する"  />
-			<text id="tooltip_FashionOptionPanel_btn_blockemails" name="Eメールをブロックする"  />
-			<text id="tooltip_FashionOptionPanel_btn_bugreport" name="バグ報告"  />
-			<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="キャラクターを着せ替える"  />
-			<text id="tooltip_FashionOptionPanel_btn_changePass" name="パスワードを変更する"  />
-			<text id="tooltip_FashionOptionPanel_btn_faq" name="FAQ"  />
-			<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="フルスクリーン"  />
-			<text id="tooltip_FashionOptionPanel_btn_help" name="ヘルプ"  />
-			<text id="tooltip_FashionOptionPanel_btn_logout" name="ログアウト"  />
-			<text id="tooltip_FashionOptionPanel_btn_music" name="音楽 ON/OFF"  />
-			<text id="tooltip_FashionOptionPanel_btn_news" name="GGSフォーラム"  />
-			<text id="tooltip_FashionOptionPanel_btn_options" name="オプション"  />
-			<text id="tooltip_FashionOptionPanel_btn_register" name="登録"  />
-			<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="効果音 ON/OFF"  />
-			<text id="tooltip_FashionOptionPanel_btn_support" name="サポートへメールする"  />
-			<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="ウェルカムギフトを受け取る"  />
-			<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="+ ズーム"  />
-			<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- ズーム"  />
-			<text id="tooltip_FashionOptionPanel_mc_floors" name="フロア"  />
-			<text id="tooltip_FashionOptionPanel_mc_ranking" name="ランキング"  />
-			<text id="tooltip_FashionPatternFriends" name="\nこの型紙を使うのに{0}の友達が必要です"  />
-			<text id="tooltip_FashionSocialPanel_btn_buddies" name="友達"  />
-			<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="オンラインのユーザー"  />
-			<text id="tooltip_FashionSocialPanel_btn_chat" name="チャット"  />
-			<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="友達を招待する"  />
-			<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="ファッションドル/ゴールドボタンを追加する"  />
-			<text id="tooltip_FashionUserStatePanel_jobs" name="アクション数"  />
-			<text id="tooltip_FashionUserStatePanel_xp" name="レベルアップまであと{0}XP"  />
-			<text id="tooltip_Fashion_btnclose" name="閉じる"  />
-			<text id="tooltip_levelx" name="レベル{0}より利用可能"  />
-			<text id="tooltip_marketplace" name="黒い板"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="実績"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="友達をリストに入れる"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="インフォメーション"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="追い出す"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="友達をリストから消す"  />
-			<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="訪問"  />
-			<text id="tooltip_wheeloffortune_line1" name="ホイール・オブ・フォーチュン！"  />
-			<text id="tooltip_wheeloffortune_line2" name="クリックでプレイ開始！"  />
-			<text id="tooltip_wheeloffortune_line3" name="1ゲーム無料"  />
-			<text id="tooltip_xofy" name="{0}/{1}"  />
-		</tooltips>
-		<tutorial>
-			<text id="tut_buypattern_copy" name="このカタログの中から型紙が選べます。一度買った型紙は無制限に使えます。新しい型紙を買うにはクリックしてください。"  />
-			<text id="tut_choosemannequin_copy" name="商品が目立つように、マネキンに洋服を着せてください。現在使用されていないマネキンをクリックしてください。"  />
-			<text id="tut_delivercounter_copy" name="…そして、空いている棚に配置します！"  />
-			<text id="tut_emptyfactory_copy" name="裁縫師は洋服を作成します。ゲームの進行に従って、ほかの従業員や商品も使用できるようになります。裁縫師をクリックしてください。"  />
-			<text id="tut_instantwork_copy" name="商品をすぐ仕上げるにはボタンを押してください。"  />
-			<text id="tut_lastscreen_copy" name="グッジョブ！あなたのレーベルで世界中を圧巻させるための第一歩を踏み出しました！もうすぐ、最初のお客さんたちがやてｔきます。まだ他に発見するものがないか色々探索してみてください。
+靴職人の効率が最大で20％アップします！" />
+		<text id="tooltip_FashionBoosterDialog_police" name="警備員" />
+		<text id="tooltip_FashionBoosterDialog_price" name="価格" />
+		<text id="tooltip_FashionBoosterDialog_shake" name="プロテインシェイク
+金細工師の効率が最大で20％アップします！" />
+		<text id="tooltip_FashionCoopDialog_btn_extend" name="Co-Opを延長" />
+		<text id="tooltip_FashionCounterDialog_btn_sale" name="価格が下がりました" />
+		<text id="tooltip_FashionCounterDialog_btn_spend" name="商品を無償で寄付する" />
+		<text id="tooltip_FashionCounterDialog_btn_unsale" name="セールをやめる" />
+		<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="買う" />
+		<text id="tooltip_FashionDekoShopPanel_btn_close" name="改装を終了する" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko" name="改装" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="デコレーション" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="ショーウィンドウ" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="ドア" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="フロア" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="壁" />
+		<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="壁のデコレーション" />
+		<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="拡張" />
+		<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="階を増設" />
+		<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="ショップを拡張する" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional" name="備品" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="レジ" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="フィッティングルーム" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="棚" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="従業員" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="マネキン" />
+		<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="型紙" />
+		<text id="tooltip_FashionDekoShopPanel_btn_sell" name="販売" />
+		<text id="tooltip_FashionExpansionFriends" name="\n拡張するのに{0}の友達が必要です" />
+		<text id="tooltip_FashionFactoryDialog_btn_instant" name="すぐに仕上げる!" />
+		<text id="tooltip_FashionGiftboxDialog_btn_remove" name="消去" />
+		<text id="tooltip_FashionGiftboxDialog_btn_use" name="使う" />
+		<text id="tooltip_FashionGiftboxDialog_mygifts" name="マイギフト" />
+		<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="ギフトを贈る" />
+		<text id="tooltip_FashionHighscoreDialog_luxury" name="豪華値順に整頓" />
+		<text id="tooltip_FashionHighscoreDialog_offline" name="オフライン" />
+		<text id="tooltip_FashionHighscoreDialog_online" name="オンライン" />
+		<text id="tooltip_FashionHighscoreDialog_xp" name="XP順に整頓" />
+		<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="アクセサリー" />
+		<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="洋服" />
+		<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="靴" />
+		<text id="tooltip_FashionMasteryInfoDialog_bronce" name="もっと多くの数量を作成しよう！" />
+		<text id="tooltip_FashionMasteryInfoDialog_gold" name="作成スピードアップ！" />
+		<text id="tooltip_FashionMasteryInfoDialog_silver" name="獲得XPを増やそう！" />
+		<text id="tooltip_FashionNamePanel_mc_luxury" name="あなたのショップの豪華値:" />
+		<text id="tooltip_FashionNamePanel_mc_rating" name="ショップの人気度" />
+		<text id="tooltip_FashionOptionPanel_btn_allowemails" name="Eメールを許可する" />
+		<text id="tooltip_FashionOptionPanel_btn_blockemails" name="Eメールをブロックする" />
+		<text id="tooltip_FashionOptionPanel_btn_bugreport" name="バグ報告" />
+		<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="キャラクターを着せ替える" />
+		<text id="tooltip_FashionOptionPanel_btn_changePass" name="パスワードを変更する" />
+		<text id="tooltip_FashionOptionPanel_btn_faq" name="FAQ" />
+		<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="フルスクリーン" />
+		<text id="tooltip_FashionOptionPanel_btn_help" name="ヘルプ" />
+		<text id="tooltip_FashionOptionPanel_btn_logout" name="ログアウト" />
+		<text id="tooltip_FashionOptionPanel_btn_music" name="音楽 ON/OFF" />
+		<text id="tooltip_FashionOptionPanel_btn_news" name="GGSフォーラム" />
+		<text id="tooltip_FashionOptionPanel_btn_options" name="オプション" />
+		<text id="tooltip_FashionOptionPanel_btn_register" name="登録" />
+		<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="効果音 ON/OFF" />
+		<text id="tooltip_FashionOptionPanel_btn_support" name="サポートへメールする" />
+		<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="ウェルカムギフトを受け取る" />
+		<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="+ ズーム" />
+		<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- ズーム" />
+		<text id="tooltip_FashionOptionPanel_mc_floors" name="フロア" />
+		<text id="tooltip_FashionOptionPanel_mc_ranking" name="ランキング" />
+		<text id="tooltip_FashionPatternFriends" name="\nこの型紙を使うのに{0}の友達が必要です" />
+		<text id="tooltip_FashionSocialPanel_btn_buddies" name="友達" />
+		<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="オンラインのユーザー" />
+		<text id="tooltip_FashionSocialPanel_btn_chat" name="チャット" />
+		<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="友達を招待する" />
+		<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="ファッションドル/ゴールドボタンを追加する" />
+		<text id="tooltip_FashionUserStatePanel_jobs" name="アクション数" />
+		<text id="tooltip_FashionUserStatePanel_xp" name="レベルアップまであと{0}XP" />
+		<text id="tooltip_Fashion_btnclose" name="閉じる" />
+		<text id="tooltip_levelx" name="レベル{0}より利用可能" />
+		<text id="tooltip_marketplace" name="黒い板" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="実績" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="友達をリストに入れる" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="インフォメーション" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="追い出す" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="友達をリストから消す" />
+		<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="訪問" />
+		<text id="tooltip_wheeloffortune_line1" name="ホイール・オブ・フォーチュン！" />
+		<text id="tooltip_wheeloffortune_line2" name="クリックでプレイ開始！" />
+		<text id="tooltip_wheeloffortune_line3" name="1ゲーム無料" />
+		<text id="tooltip_xofy" name="{0}/{1}" />
+	</tooltips>
+	<tutorial>
+		<text id="tut_buypattern_copy" name="このカタログの中から型紙が選べます。一度買った型紙は無制限に使えます。新しい型紙を買うにはクリックしてください。" />
+		<text id="tut_choosemannequin_copy" name="商品が目立つように、マネキンに洋服を着せてください。現在使用されていないマネキンをクリックしてください。" />
+		<text id="tut_delivercounter_copy" name="…そして、空いている棚に配置します！" />
+		<text id="tut_emptyfactory_copy" name="裁縫師は洋服を作成します。ゲームの進行に従って、ほかの従業員や商品も使用できるようになります。裁縫師をクリックしてください。" />
+		<text id="tut_instantwork_copy" name="商品をすぐ仕上げるにはボタンを押してください。" />
+		<text id="tut_lastscreen_copy" name="グッジョブ！あなたのレーベルで世界中を圧巻させるための第一歩を踏み出しました！もうすぐ、最初のお客さんたちがやてｔきます。まだ他に発見するものがないか色々探索してみてください。
 
-ではゲームを楽しんでください！"  />
-			<text id="tut_mannequinaccept_copy" name="お客さんの反応が楽しみですか？　評価を見るには、OKをクリックしてください。"  />
-			<text id="tut_mannequincategory_copy" name="マネキンの種類によって着せられる服がきまります。トルソにはトップスしか着せられません。洋服のアイコンをクリックして着せる洋服を選んでください。"  />
-			<text id="tut_mannequinclose_copy" name="すごくいい感じです！&quot;閉じる&quot;ボタンををクリックするとショップに戻ります。"  />
-			<text id="tut_mannequinclothes_copy" name="今のところ、商品は青いポロシャツしかありません。クリックして、マネキンにそれを着せてください。"  />
-			<text id="tut_openproducebook_copy" name="型紙を買いました。作成できる商品を見るのに、カタログをまたあけてください。"  />
-			<text id="tut_preparesteps_copy" name="作成指示を与えるために、裁縫師をクリックしてください。"  />
-			<text id="tut_producefactory_copy" name="ゴールドボタンを使うと、すぐに商品が出来上がります。裁縫師をクリックしてください。"  />
-			<text id="tut_produce_copy" name="では作成をはじめて下さい。"  />
-			<text id="tut_readyfactory_copy" name="お客さんが洋服を購入できるように棚に並べる必要があります。作成した商品で従業員をクリックしてください。"  />
-			<text id="tut_start_copy" name="あなたのショップへようこそ, {0}！
-このチュートリアルがあなたをファッションの世界へ迎えてくれます。"  />
-			<text id="tut_title" name="チュートリアル！"  />
-		</tutorial>
-		<generic_flash>
-			<alert>
-				<text id="generic_alert_bug" name="エラー"  />
-				<text id="generic_alert_connection_failed_copy" name="現在ゲームのメンテナンス中です。後ほど再度お試しください。"  />
-				<text id="generic_alert_connection_failed_title" name="メンテナンス中です!"  />
-				<text id="generic_alert_connection_lost_copy" name="ゲームサーバーとの接続が切断されました。後ほど再度お試しください。"  />
-				<text id="generic_alert_connection_lost_description" name="現在、アップデート、新キャラクターの取り入れ、エラー訂正のために必要な臨時メンテナンスを行っています。&lt;br&gt;&lt;br&gt;
-できるだけ早くご利用を再開していだだけるよう努めていますので、もうしばらくお待ちください。"  />
-				<text id="generic_alert_connection_lost_promo" name="しばらくの間、他のゲームをお試しください。"  />
-				<text id="generic_alert_connection_lost_thanks" name="ご理解いただきありがとうございます。"  />
-				<text id="generic_alert_connection_lost_title" name="接続が失われました!"  />
-				<text id="generic_alert_error" name="エラー"  />
-				<text id="generic_alert_information" name="注意事項"  />
-				<text id="generic_alert_loggedout_copy" name="ログアウトに成功しました。また、ログインボーナスは、毎日もらえますので、お忘れなく。"  />
-				<text id="generic_alert_loggedout_title" name="それでは、のちほど!"  />
-				<text id="generic_alert_warning" name="警告"  />
-				<text id="generic_alert_watchout" name="ご注意ください。"  />
-				<text id="generic_invalid_email_provider" name="このプロバイダからのメールアドレスは、許可されていません！"  />
-				<text id="generic_js_alert_firstsessiontracking_loading" name="現在、インターネットの接続が非常に遅くなっているようです。後ほど再度お試しください。"  />
-				<text id="generic_js_alert_firstsessiontracking_registered" name="ゲームはいかがでしたか? さらに改善できる点あがりましたら、グッドゲームフォーラムまたはグループでご意見をお聞かせください。"  />
-				<text id="generic_js_alert_firstsessiontracking_unregistered" name="ご登録いただかないと、ゲームの状態を保存することができませんので、ご注意ください!"  />
-				<text id="generic_register_error_invalidemail" name="入力したメールアドレスは、間違っています。"  />
-				<text id="generic_report_muted_chattry" name="現在、立入を禁止されていますので、チャットをご利用いただけません。"  />
-			</alert>
-			<button>
-				<text id="generic_btn_accept" name="受け入れる"  />
-				<text id="generic_btn_cancel" name="キャンセル"  />
-				<text id="generic_btn_close" name="閉じる"  />
-				<text id="generic_btn_continue" name="進む"  />
-				<text id="generic_btn_end" name="終了する"  />
-				<text id="generic_btn_endnow" name="すぐに終了"  />
-				<text id="generic_btn_goback" name="戻る"  />
-				<text id="generic_btn_no" name="いいえ"  />
-				<text id="generic_btn_noshare" name="シェアしない"  />
-				<text id="generic_btn_notaccept" name="断る"  />
-				<text id="generic_btn_okay" name="OK"  />
-				<text id="generic_btn_reconnect" name="再接続する"  />
-				<text id="generic_btn_refresh" name="最新の情報に更新"  />
-				<text id="generic_btn_report" name="報告"  />
-				<text id="generic_btn_search" name="検索"  />
-				<text id="generic_btn_share" name="シェアする!"  />
-				<text id="generic_btn_skip" name="スキップ"  />
-				<text id="generic_btn_start" name="スタート"  />
-				<text id="generic_btn_topayment" name="それをよこせ！"  />
-				<text id="generic_btn_yes" name="はい"  />
-			</button>
-			<chat>
-				<text id="generic_chat_writeable" name="チャットは、登録されたプレイヤーがレベル1に到達しないと使用できません。"  />
-			</chat>
-			<common>
-				<text id="generic_admin" name="アドミン"  />
-				<text id="generic_animation" name="アニメーションを表示する"  />
-				<text id="generic_bugreport" name="エラー報告"  />
-				<text id="generic_changePass" name="パスワードを変更する"  />
-				<text id="generic_comma" name=","  />
-				<text id="generic_conningsoon" name="*近日更新*"  />
-				<text id="generic_date" name="日付"  />
-				<text id="generic_day" name="日"  />
-				<text id="generic_dayformat" name="{0}.{1}"  />
-				<text id="generic_days" name="日"  />
-				<text id="generic_day_short" name="時"  />
-				<text id="generic_decimalseparator" name="."  />
-				<text id="generic_email" name="メール"  />
-				<text id="generic_faq" name="質問＆答え"  />
-				<text id="generic_forum" name="フォーラム"  />
-				<text id="generic_friend" name="友だち"  />
-				<text id="generic_friends" name="友だち"  />
-				<text id="generic_general" name="全般"  />
-				<text id="generic_ggs" name="Goodgame Studios"  />
-				<text id="generic_group" name="グループ"  />
-				<text id="generic_guest" name="ゲスト"  />
-				<text id="generic_help" name="ヘルプ"  />
-				<text id="generic_high" name="高"  />
-				<text id="generic_hour" name="時間"  />
-				<text id="generic_hours" name="時間"  />
-				<text id="generic_hour_short" name="時間"  />
-				<text id="generic_limited" name="制限あり"  />
-				<text id="generic_logout" name="ログアウト"  />
-				<text id="generic_low" name="低"  />
-				<text id="generic_medium" name="中"  />
-				<text id="generic_minute" name="分"  />
-				<text id="generic_minutes" name="分"  />
-				<text id="generic_minute_short" name="分"  />
-				<text id="generic_moderator" name="進行役"  />
-				<text id="generic_music" name="音楽（オン／オフ）"  />
-				<text id="generic_name" name="名前"  />
-				<text id="generic_news" name="最新情報"  />
-				<text id="generic_options" name="設定"  />
-				<text id="generic_quality" name="画質"  />
-				<text id="generic_register" name="保存と登録"  />
-				<text id="generic_second" name="秒"  />
-				<text id="generic_seconds" name="秒"  />
-				<text id="generic_second_short" name="秒"  />
-				<text id="generic_sound" name="サウンド（オン／オフ）"  />
-				<text id="generic_support" name="サポート"  />
-				<text id="generic_today" name="今日"  />
-				<text id="generic_tomorrow" name="明日"  />
-				<text id="generic_tutorial" name="チュートリアル"  />
-				<text id="generic_username" name="プレイヤー名"  />
-				<text id="generic_xp" name="XP"  />
-				<text id="generic_yesterday" name="昨日"  />
-			</common>
-			<error>
-				<text id="generic_versioncheck_error" name="旧バージョンです!"  />
-				<text id="generic_versioncheck_errorcode_1" name="ページを更新する。"  />
-			</error>
-			<feeds id=""  />
-			<friends>
-				<text id="generic_friends_add_copy" name="{0} を友達に追加しますか?"  />
-				<text id="generic_friends_add_title" name="友達登録リクエスト"  />
-				<text id="generic_friends_buddy_btn_morefriends" name="友達を増やす。"  />
-				<text id="generic_friends_denied_copy" name="{0} が、リクエストを拒否しました。"  />
-				<text id="generic_friends_denied_title" name="リクエストが拒否されました!"  />
-				<text id="generic_friends_invite_badword_copy" name="入力した名前はご使用になれません。"  />
-				<text id="generic_friends_invite_badword_title" name="ご注意ください。"  />
-				<text id="generic_friends_invite_error_copy" name="登録済みのプレイヤーしか友達を招待できません。"  />
-				<text id="generic_friends_invite_error_title" name="まずはご登録ください"  />
-			</friends>
-			<fullscreen>
-				<text id="generic_fullscreen_error_copy" name="全画面表示モードはできません"  />
-			</fullscreen>
-			<languages>
-				<text id="generic_language_cs" name="チェコ語"  />
-				<text id="generic_language_da" name="デンマーク語"  />
-				<text id="generic_language_de" name="ドイツ語"  />
-				<text id="generic_language_el" name="ギリシャ語"  />
-				<text id="generic_language_en" name="英語"  />
-				<text id="generic_language_es" name="スペイン語"  />
-				<text id="generic_language_fi" name="フィンランド語"  />
-				<text id="generic_language_fr" name="フランス語"  />
-				<text id="generic_language_hu" name="ハンガリー語"  />
-				<text id="generic_language_id" name="インドネシア語"  />
-				<text id="generic_language_it" name="イタリア語"  />
-				<text id="generic_language_ja" name="日本語"  />
-				<text id="generic_language_ko" name="韓国語"  />
-				<text id="generic_language_nl" name="オランダ語"  />
-				<text id="generic_language_no" name="ノルウェー語"  />
-				<text id="generic_language_pl" name="ポーランド語"  />
-				<text id="generic_language_pt" name="ポルトガル語"  />
-				<text id="generic_language_pt_BR" name="ブラジルポルトガル語"  />
-				<text id="generic_language_ru" name="ロシア語"  />
-				<text id="generic_language_sv" name="スウェーデン語"  />
-				<text id="generic_language_tr" name="トルコ語"  />
-				<text id="generic_language_zh_CN" name="中国語（簡体）"  />
-				<text id="generic_language_zh_TW" name="中国語（繁体）"  />
-			</languages>
-			<login>
-				<text id="generic_login_banned" name="アカウントが閉鎖されました。サポートサービスまでご連絡ください。"  />
-				<text id="generic_login_banned_2" name="あなたのゲームアカウントは閉鎖されました。
+ではゲームを楽しんでください！" />
+		<text id="tut_mannequinaccept_copy" name="お客さんの反応が楽しみですか？　評価を見るには、OKをクリックしてください。" />
+		<text id="tut_mannequincategory_copy" name="マネキンの種類によって着せられる服がきまります。トルソにはトップスしか着せられません。洋服のアイコンをクリックして着せる洋服を選んでください。" />
+		<text id="tut_mannequinclose_copy" name="すごくいい感じです！&quot;閉じる&quot;ボタンををクリックするとショップに戻ります。" />
+		<text id="tut_mannequinclothes_copy" name="今のところ、商品は青いポロシャツしかありません。クリックして、マネキンにそれを着せてください。" />
+		<text id="tut_openproducebook_copy" name="型紙を買いました。作成できる商品を見るのに、カタログをまたあけてください。" />
+		<text id="tut_preparesteps_copy" name="作成指示を与えるために、裁縫師をクリックしてください。" />
+		<text id="tut_producefactory_copy" name="ゴールドボタンを使うと、すぐに商品が出来上がります。裁縫師をクリックしてください。" />
+		<text id="tut_produce_copy" name="では作成をはじめて下さい。" />
+		<text id="tut_readyfactory_copy" name="お客さんが洋服を購入できるように棚に並べる必要があります。作成した商品で従業員をクリックしてください。" />
+		<text id="tut_start_copy" name="あなたのショップへようこそ, {0}！
+このチュートリアルがあなたをファッションの世界へ迎えてくれます。" />
+		<text id="tut_title" name="チュートリアル！" />
+	</tutorial>
+	<generic_flash>
+		<alert>
+			<text id="generic_alert_bug" name="エラー" />
+			<text id="generic_alert_connection_failed_copy" name="現在ゲームのメンテナンス中です。後ほど再度お試しください。" />
+			<text id="generic_alert_connection_failed_title" name="メンテナンス中です!" />
+			<text id="generic_alert_connection_lost_copy" name="ゲームサーバーとの接続が切断されました。後ほど再度お試しください。" />
+			<text id="generic_alert_connection_lost_description" name="現在、アップデート、新キャラクターの取り入れ、エラー訂正のために必要な臨時メンテナンスを行っています。&lt;br&gt;&lt;br&gt;
+できるだけ早くご利用を再開していだだけるよう努めていますので、もうしばらくお待ちください。" />
+			<text id="generic_alert_connection_lost_promo" name="しばらくの間、他のゲームをお試しください。" />
+			<text id="generic_alert_connection_lost_thanks" name="ご理解いただきありがとうございます。" />
+			<text id="generic_alert_connection_lost_title" name="接続が失われました!" />
+			<text id="generic_alert_error" name="エラー" />
+			<text id="generic_alert_information" name="注意事項" />
+			<text id="generic_alert_loggedout_copy" name="ログアウトに成功しました。また、ログインボーナスは、毎日もらえますので、お忘れなく。" />
+			<text id="generic_alert_loggedout_title" name="それでは、のちほど!" />
+			<text id="generic_alert_warning" name="警告" />
+			<text id="generic_alert_watchout" name="ご注意ください。" />
+			<text id="generic_invalid_email_provider" name="このプロバイダからのメールアドレスは、許可されていません！" />
+			<text id="generic_js_alert_firstsessiontracking_loading" name="現在、インターネットの接続が非常に遅くなっているようです。後ほど再度お試しください。" />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="ゲームはいかがでしたか? さらに改善できる点あがりましたら、グッドゲームフォーラムまたはグループでご意見をお聞かせください。" />
+			<text id="generic_js_alert_firstsessiontracking_unregistered" name="ご登録いただかないと、ゲームの状態を保存することができませんので、ご注意ください!" />
+			<text id="generic_register_error_invalidemail" name="入力したメールアドレスは、間違っています。" />
+			<text id="generic_report_muted_chattry" name="現在、立入を禁止されていますので、チャットをご利用いただけません。" />
+		</alert>
+		<button>
+			<text id="generic_btn_accept" name="受け入れる" />
+			<text id="generic_btn_cancel" name="キャンセル" />
+			<text id="generic_btn_close" name="閉じる" />
+			<text id="generic_btn_continue" name="進む" />
+			<text id="generic_btn_end" name="終了する" />
+			<text id="generic_btn_endnow" name="すぐに終了" />
+			<text id="generic_btn_goback" name="戻る" />
+			<text id="generic_btn_no" name="いいえ" />
+			<text id="generic_btn_noshare" name="シェアしない" />
+			<text id="generic_btn_notaccept" name="断る" />
+			<text id="generic_btn_okay" name="OK" />
+			<text id="generic_btn_reconnect" name="再接続する" />
+			<text id="generic_btn_refresh" name="最新の情報に更新" />
+			<text id="generic_btn_report" name="報告" />
+			<text id="generic_btn_search" name="検索" />
+			<text id="generic_btn_share" name="シェアする!" />
+			<text id="generic_btn_skip" name="スキップ" />
+			<text id="generic_btn_start" name="スタート" />
+			<text id="generic_btn_topayment" name="それをよこせ！" />
+			<text id="generic_btn_yes" name="はい" />
+		</button>
+		<chat>
+			<text id="generic_chat_writeable" name="チャットは、登録されたプレイヤーがレベル1に到達しないと使用できません。" />
+		</chat>
+		<common>
+			<text id="generic_admin" name="アドミン" />
+			<text id="generic_animation" name="アニメーションを表示する" />
+			<text id="generic_bugreport" name="エラー報告" />
+			<text id="generic_changePass" name="パスワードを変更する" />
+			<text id="generic_comma" name="," />
+			<text id="generic_conningsoon" name="*近日更新*" />
+			<text id="generic_date" name="日付" />
+			<text id="generic_day" name="日" />
+			<text id="generic_dayformat" name="{0}.{1}" />
+			<text id="generic_days" name="日" />
+			<text id="generic_day_short" name="時" />
+			<text id="generic_decimalseparator" name="." />
+			<text id="generic_email" name="メール" />
+			<text id="generic_faq" name="質問＆答え" />
+			<text id="generic_forum" name="フォーラム" />
+			<text id="generic_friend" name="友だち" />
+			<text id="generic_friends" name="友だち" />
+			<text id="generic_general" name="全般" />
+			<text id="generic_ggs" name="Goodgame Studios" />
+			<text id="generic_group" name="グループ" />
+			<text id="generic_guest" name="ゲスト" />
+			<text id="generic_help" name="ヘルプ" />
+			<text id="generic_high" name="高" />
+			<text id="generic_hour" name="時間" />
+			<text id="generic_hours" name="時間" />
+			<text id="generic_hour_short" name="時間" />
+			<text id="generic_limited" name="制限あり" />
+			<text id="generic_logout" name="ログアウト" />
+			<text id="generic_low" name="低" />
+			<text id="generic_medium" name="中" />
+			<text id="generic_minute" name="分" />
+			<text id="generic_minutes" name="分" />
+			<text id="generic_minute_short" name="分" />
+			<text id="generic_moderator" name="進行役" />
+			<text id="generic_music" name="音楽（オン／オフ）" />
+			<text id="generic_name" name="名前" />
+			<text id="generic_news" name="最新情報" />
+			<text id="generic_options" name="設定" />
+			<text id="generic_quality" name="画質" />
+			<text id="generic_register" name="保存と登録" />
+			<text id="generic_second" name="秒" />
+			<text id="generic_seconds" name="秒" />
+			<text id="generic_second_short" name="秒" />
+			<text id="generic_sound" name="サウンド（オン／オフ）" />
+			<text id="generic_support" name="サポート" />
+			<text id="generic_today" name="今日" />
+			<text id="generic_tomorrow" name="明日" />
+			<text id="generic_tutorial" name="チュートリアル" />
+			<text id="generic_username" name="プレイヤー名" />
+			<text id="generic_xp" name="XP" />
+			<text id="generic_yesterday" name="昨日" />
+		</common>
+		<error>
+			<text id="generic_versioncheck_error" name="旧バージョンです!" />
+			<text id="generic_versioncheck_errorcode_1" name="ページを更新する。" />
+		</error>
+		<feeds id="" />
+		<friends>
+			<text id="generic_friends_add_copy" name="{0} を友達に追加しますか?" />
+			<text id="generic_friends_add_title" name="友達登録リクエスト" />
+			<text id="generic_friends_buddy_btn_morefriends" name="友達を増やす。" />
+			<text id="generic_friends_denied_copy" name="{0} が、リクエストを拒否しました。" />
+			<text id="generic_friends_denied_title" name="リクエストが拒否されました!" />
+			<text id="generic_friends_invite_badword_copy" name="入力した名前はご使用になれません。" />
+			<text id="generic_friends_invite_badword_title" name="ご注意ください。" />
+			<text id="generic_friends_invite_error_copy" name="登録済みのプレイヤーしか友達を招待できません。" />
+			<text id="generic_friends_invite_error_title" name="まずはご登録ください" />
+		</friends>
+		<fullscreen>
+			<text id="generic_fullscreen_error_copy" name="全画面表示モードはできません" />
+		</fullscreen>
+		<languages>
+			<text id="generic_language_cs" name="チェコ語" />
+			<text id="generic_language_da" name="デンマーク語" />
+			<text id="generic_language_de" name="ドイツ語" />
+			<text id="generic_language_el" name="ギリシャ語" />
+			<text id="generic_language_en" name="英語" />
+			<text id="generic_language_es" name="スペイン語" />
+			<text id="generic_language_fi" name="フィンランド語" />
+			<text id="generic_language_fr" name="フランス語" />
+			<text id="generic_language_hu" name="ハンガリー語" />
+			<text id="generic_language_id" name="インドネシア語" />
+			<text id="generic_language_it" name="イタリア語" />
+			<text id="generic_language_ja" name="日本語" />
+			<text id="generic_language_ko" name="韓国語" />
+			<text id="generic_language_nl" name="オランダ語" />
+			<text id="generic_language_no" name="ノルウェー語" />
+			<text id="generic_language_pl" name="ポーランド語" />
+			<text id="generic_language_pt" name="ポルトガル語" />
+			<text id="generic_language_pt_BR" name="ブラジルポルトガル語" />
+			<text id="generic_language_ru" name="ロシア語" />
+			<text id="generic_language_sv" name="スウェーデン語" />
+			<text id="generic_language_tr" name="トルコ語" />
+			<text id="generic_language_zh_CN" name="中国語（簡体）" />
+			<text id="generic_language_zh_TW" name="中国語（繁体）" />
+		</languages>
+		<login>
+			<text id="generic_login_banned" name="アカウントが閉鎖されました。サポートサービスまでご連絡ください。" />
+			<text id="generic_login_banned_2" name="あなたのゲームアカウントは閉鎖されました。
 
 閉鎖は、{0}までです。
 
-閉鎖に関してご質問などありましたら、サポートデスクまでお問い合わせください。"  />
-				<text id="generic_login_banned_3" name="あなたのゲームアカウントは、永久に閉鎖されました。
+閉鎖に関してご質問などありましたら、サポートデスクまでお問い合わせください。" />
+			<text id="generic_login_banned_3" name="あなたのゲームアカウントは、永久に閉鎖されました。
 
-閉鎖についてご質問などありましたら、サポートデスクまでお問い合わせください。"  />
-				<text id="generic_login_banned_permanent" name="永久の"  />
-				<text id="generic_login_facebook" name="Facebookを通して登録"  />
-				<text id="generic_login_login" name="ログイン"  />
-				<text id="generic_login_loginname" name="ユーザー名/ Eメール"  />
-				<text id="generic_login_lostpassword" name="パスワードをお忘れですか?"  />
-				<text id="generic_login_lostpassword_copy" name="ご登録のメールアドレスを入力してください。パスワードを送信いたします。"  />
-				<text id="generic_login_lostpassword_title" name="パスワードを忘れた"  />
-				<text id="generic_login_newplayer" name="初めての方"  />
-				<text id="generic_login_password" name="パスワード"  />
-				<text id="generic_login_play" name="今すぐプレイする"  />
-				<text id="generic_login_playnow" name="今すぐプレイ!"  />
-				<text id="generic_login_register" name="登録"  />
-				<text id="generic_login_rememberpassword" name="パスワードを保存する"  />
-				<text id="generic_login_wronglogin" name="ユーザー名またはパスワードが間違っています。"  />
-			</login>
-			<logout>
-				<text id="generic_logout_guest_copy" name="スコアを保存するには、登録が必要です。"  />
-				<text id="generic_logout_guest_title" name="登録"  />
-			</logout>
-			<notification>
-				<text id="servershutdownpremonition_backin_copy" name="少なくともあと{0}で、再びゲームにアクセスいただけます。"  />
-				<text id="servershutdownpremonition_copy" name="ゲームサーバーが、{0}後にシャットダウンを始めます。ログアウトするか、ゲームの進行状況を保存するために登録してください。"  />
-				<text id="servershutdownpremonition_registered_copy" name="ゲームサーバーは、メンテナンスのため、{0}後にダウンします。"  />
-				<text id="servershutdown_copy" name="ゲームサーバーがシャットダウンされます。数分後に再度ログインしてください。"  />
-				<text id="welcomeback_copy" name="またお会いできて嬉しいです。再びゲームに慣れていただくために、少しご案内することがあります。"  />
-				<text id="welcomeback_title" name="ただいま!"  />
-			</notification>
-			<password>
-				<text id="generic_change_password_copy_newpass" name="新しいパスワード"  />
-				<text id="generic_change_password_copy_oldpass" name="旧パスワード："  />
-				<text id="generic_change_password_copy_send" name="新しいパスワードは、登録されたメールアドレス宛てに送信されます。"  />
-				<text id="generic_change_password_error_failed" name="申し訳ありませんが、旧パスワードを認証できません。"  />
-				<text id="generic_change_password_error_success" name="パスワードが変更されました!"  />
-				<text id="generic_change_password_faild_copy" name="新しいパスワードは、最低2文字の長さが必要です。また旧パスワードも正確に入力してください。"  />
-				<text id="generic_change_password_faild_specialcharacters" name="パスワードは、スペースや特殊記号を使用しないで下さい。"  />
-				<text id="generic_change_password_faild_title" name="パスワード入力"  />
-				<text id="generic_change_password_title" name="パスワード変更"  />
-				<text id="generic_guest_change_password_faild_copy" name="登録済みのプレイヤーしかパスワードを変更できません。"  />
-				<text id="generic_guest_change_password_faild_title" name="まずはご登録ください"  />
-			</password>
-			<payment>
-				<text id="generic_payment_48hdiscount_button" name="登録後48時間でゴールドを増やす。"  />
-				<text id="generic_payment_48hdiscount_button_general" name="登録後48時間で{0}を増やす"  />
-				<text id="generic_payment_48hdiscount_copy" name="登録して48時間以内に、ゴールドを購入すると、選ばれたセットでさらに{0}%が追加でもらえます。"  />
-				<text id="generic_payment_48hdiscount_copy_1" name="登録後48時間以内にゴールドセットを購入すると、さらに{0}% のゴールドが無料でもらえます。"  />
-				<text id="generic_payment_48hdiscount_copy_1_general" name="登録して48時間以内に{0}を買うと、すべてのセットで{1}% の追加がもらえます。"  />
-				<text id="generic_payment_48hdiscount_copy_general" name="登録して48時間以内に{0}を買うと、選ばれたセットで、さらに{1}% の追加がもらえます。"  />
-				<text id="generic_payment_copy" name="今から、ペイメントショップに転送されます。"  />
-				<text id="generic_payment_discount_button" name="お金を払ってゴールドを{0}%増やす!"  />
-				<text id="generic_payment_discount_copy" name="ゴールドを買って、{0}%のボーナスを手に入れる!"  />
-				<text id="generic_payment_discount_copy_general" name="今{0}を買って、{1}% のボーナスを獲得！"  />
-				<text id="generic_payment_discount_general" name="お金を払って{0}%{1}を増やす!"  />
-				<text id="generic_payment_discount_generalshort" name="お金を払って、{0}%を増やす!"  />
-				<text id="generic_payment_discount_time" name="残り{0}!"  />
-				<text id="generic_payment_discount_title" name="ゴールドを増やす。"  />
-				<text id="generic_payment_newPrices" name="ただ今から、ペイメントショップで還元価格が始まります。是非節約にご利用ください!"  />
-				<text id="generic_payment_title" name="ペイメントショップ"  />
-			</payment>
-			<progressbar>
-				<text id="loading_text_1" name="サーバースペースへ通じるトンネルを探す"  />
-				<text id="loading_text_10" name="アイテムを世界で分配する"  />
-				<text id="loading_text_11" name="グラフィックを描画する"  />
-				<text id="loading_text_12" name="ボタンに着色する"  />
-				<text id="loading_text_13" name="イースター・エッグを隠す"  />
-				<text id="loading_text_14" name="ユーザーデータを調べる"  />
-				<text id="loading_text_15" name="バグを追い払う"  />
-				<text id="loading_text_16" name="プログラマに食べ物を与える"  />
-				<text id="loading_text_17" name="顧客の問題に取り組む"  />
-				<text id="loading_text_18" name="砂時計を回す"  />
-				<text id="loading_text_19" name="システムを冷却する"  />
-				<text id="loading_text_2" name="歯車に油をさす"  />
-				<text id="loading_text_20" name="すぐに終わります"  />
-				<text id="loading_text_3" name="ハムスターの回し車を回す"  />
-				<text id="loading_text_4" name="サーバーを暖める"  />
-				<text id="loading_text_5" name="すべてうまく行くといいけれど"  />
-				<text id="loading_text_6" name="害虫駆除業者を呼び寄せる"  />
-				<text id="loading_text_7" name="複雑なアルゴリズムを計算する"  />
-				<text id="loading_text_8" name="フラックス・コンペンセイターを調整する"  />
-				<text id="loading_text_9" name="キャラクターを作る"  />
-				<text id="loading_text_default" name="初期化"  />
-				<text id="loading_text_itemXML" name="ゲーム要素を読み込む"  />
-				<text id="progress_loadfiles" name="ゲームグラフィックをロード中…"  />
-				<text id="progress_serverconnection" name="ゲームサーバーに接続します…"  />
-			</progressbar>
-			<register>
-				<text id="generic_register_agb_copy" name="利用規約に目を通し、内容に同意いただける場合は左のボックスにチェックを入れてください。それでは、ゲーム開始です。"  />
-				<text id="generic_register_agb_read" name="利用規約を読む"  />
-				<text id="generic_register_alreadyavatar" name="このユーザーは、すでにアバターを持っています。"  />
-				<text id="generic_register_badword" name="あなたの名前で{0}を使用してはいけません。"  />
-				<text id="generic_register_btn_agb" name="利用規約に同意する"  />
-				<text id="generic_register_btn_later" name="後ほど"  />
-				<text id="generic_register_btn_next" name="進む"  />
-				<text id="generic_register_btn_save" name="保存"  />
-				<text id="generic_register_character" name="自分のキャラクターを作ろう"  />
-				<text id="generic_register_copy_0" name="無料でご登録いただけます!"  />
-				<text id="generic_register_copy_1" name="ゲームの状態を保存しよう!"  />
-				<text id="generic_register_emaillong_copy" name="メールアドレスが長すぎます。"  />
-				<text id="generic_register_emailwrong_copy" name="入力したメールアドレスが、間違っています。"  />
-				<text id="generic_register_email_copy" name="メールアドレスにスペースや特殊記号を含めないでください。"  />
-				<text id="generic_register_error" name="登録が失敗に終わりました"  />
-				<text id="generic_register_errormistake" name="エラー"  />
-				<text id="generic_register_error_accountalreadyexists" name="申し訳ありませんが、このメールにはすでにプレイヤーが登録しています。"  />
-				<text id="generic_register_forfree" name="登録無料!"  />
-				<text id="generic_register_forfree1" name="無料!"  />
-				<text id="generic_register_letsgo" name="ゲームスタート!"  />
-				<text id="generic_register_namealreadyused" name="その名前はすでに使われています。"  />
-				<text id="generic_register_namenotvalid" name="入力した名前が無効です。"  />
-				<text id="generic_register_passwordshort_copy" name="入力したパスワードは短すぎます。最低4文字の長さが必要です。"  />
-				<text id="generic_register_passwordwrong_copy" name="入力したパスワードが間違っています。"  />
-				<text id="generic_register_password_copy" name="パスワードにスペースや特殊記号を含めないでください。"  />
-				<text id="generic_register_rememberdata" name="データ保存"  />
-				<text id="generic_register_reward" name="無料で登録すると{0} {1}がプレゼントでもらえます。"  />
-				<text id="generic_register_subscribe" name="登録"  />
-				<text id="generic_register_success" name="登録に成功しました。"  />
-				<text id="generic_register_title" name="登録エラー"  />
-				<text id="generic_register_unlock" name="このファンクションのロックを解除する。"  />
-			</register>
-			<report>
-				<text id="generic_report_muted_badword1_copy" name="発言には充分ご注意ください。チャットへの立入が禁止されたり、アカウントが閉鎖される場合があります。
-理由： {0}"  />
-				<text id="generic_report_muted_badword2_copy" name="迷惑行為が続いたため、これから{0}の間、チャットをご利用いただけません。理由: {1}"  />
-				<text id="generic_report_muted_domain1" name="インターネットアドレスをチャットで表示しない。"  />
-				<text id="generic_report_muted_reported_copy" name="複数のプレイヤーが、あなたに関する苦情を訴えています。さしあたり{0}の間、チャットをご利用いただけません。理由: {1}"  />
-				<text id="generic_report_player_copy" name="本当に{0}について報告しますか?
-　この機能を悪用すると、アカウントが閉鎖されることがありますのでご注意ください。"  />
-				<text id="generic_report_player_reason_0" name="侮辱"  />
-				<text id="generic_report_player_reason_1" name="セクハラ"  />
-				<text id="generic_report_player_reason_2" name="人種差別的発言"  />
-				<text id="generic_report_player_reason_3" name="脅迫／恐喝"  />
-				<text id="generic_report_player_reason_title" name="報告理由:"  />
-				<text id="generic_report_player_title" name="プレイヤーを報告しますか?"  />
-				<text id="generic_report_reported_copy" name="他のプレイヤーから管理者に報告されました。理由: {0}"  />
-			</report>
-			<worlds>
-				<text id="generic_connect" name="接続"  />
-				<text id="generic_select_world" name="世界を選んでください:"  />
-				<text id="generic_world" name="世界: {0}"  />
-				<text id="generic_world_international" name="インターナショナル: {0}"  />
-			</worlds>
-		</generic_flash>
-	</fashion>
- 
+閉鎖についてご質問などありましたら、サポートデスクまでお問い合わせください。" />
+			<text id="generic_login_banned_permanent" name="永久の" />
+			<text id="generic_login_facebook" name="Facebookを通して登録" />
+			<text id="generic_login_login" name="ログイン" />
+			<text id="generic_login_loginname" name="ユーザー名/ Eメール" />
+			<text id="generic_login_lostpassword" name="パスワードをお忘れですか?" />
+			<text id="generic_login_lostpassword_copy" name="ご登録のメールアドレスを入力してください。パスワードを送信いたします。" />
+			<text id="generic_login_lostpassword_title" name="パスワードを忘れた" />
+			<text id="generic_login_newplayer" name="初めての方" />
+			<text id="generic_login_password" name="パスワード" />
+			<text id="generic_login_play" name="今すぐプレイする" />
+			<text id="generic_login_playnow" name="今すぐプレイ!" />
+			<text id="generic_login_register" name="登録" />
+			<text id="generic_login_rememberpassword" name="パスワードを保存する" />
+			<text id="generic_login_wronglogin" name="ユーザー名またはパスワードが間違っています。" />
+		</login>
+		<logout>
+			<text id="generic_logout_guest_copy" name="スコアを保存するには、登録が必要です。" />
+			<text id="generic_logout_guest_title" name="登録" />
+		</logout>
+		<notification>
+			<text id="servershutdownpremonition_backin_copy" name="少なくともあと{0}で、再びゲームにアクセスいただけます。" />
+			<text id="servershutdownpremonition_copy" name="ゲームサーバーが、{0}後にシャットダウンを始めます。ログアウトするか、ゲームの進行状況を保存するために登録してください。" />
+			<text id="servershutdownpremonition_registered_copy" name="ゲームサーバーは、メンテナンスのため、{0}後にダウンします。" />
+			<text id="servershutdown_copy" name="ゲームサーバーがシャットダウンされます。数分後に再度ログインしてください。" />
+			<text id="welcomeback_copy" name="またお会いできて嬉しいです。再びゲームに慣れていただくために、少しご案内することがあります。" />
+			<text id="welcomeback_title" name="ただいま!" />
+		</notification>
+		<password>
+			<text id="generic_change_password_copy_newpass" name="新しいパスワード" />
+			<text id="generic_change_password_copy_oldpass" name="旧パスワード：" />
+			<text id="generic_change_password_copy_send" name="新しいパスワードは、登録されたメールアドレス宛てに送信されます。" />
+			<text id="generic_change_password_error_failed" name="申し訳ありませんが、旧パスワードを認証できません。" />
+			<text id="generic_change_password_error_success" name="パスワードが変更されました!" />
+			<text id="generic_change_password_faild_copy" name="新しいパスワードは、最低2文字の長さが必要です。また旧パスワードも正確に入力してください。" />
+			<text id="generic_change_password_faild_specialcharacters" name="パスワードは、スペースや特殊記号を使用しないで下さい。" />
+			<text id="generic_change_password_faild_title" name="パスワード入力" />
+			<text id="generic_change_password_title" name="パスワード変更" />
+			<text id="generic_guest_change_password_faild_copy" name="登録済みのプレイヤーしかパスワードを変更できません。" />
+			<text id="generic_guest_change_password_faild_title" name="まずはご登録ください" />
+		</password>
+		<payment>
+			<text id="generic_payment_48hdiscount_button" name="登録後48時間でゴールドを増やす。" />
+			<text id="generic_payment_48hdiscount_button_general" name="登録後48時間で{0}を増やす" />
+			<text id="generic_payment_48hdiscount_copy" name="登録して48時間以内に、ゴールドを購入すると、選ばれたセットでさらに{0}%が追加でもらえます。" />
+			<text id="generic_payment_48hdiscount_copy_1" name="登録後48時間以内にゴールドセットを購入すると、さらに{0}% のゴールドが無料でもらえます。" />
+			<text id="generic_payment_48hdiscount_copy_1_general" name="登録して48時間以内に{0}を買うと、すべてのセットで{1}% の追加がもらえます。" />
+			<text id="generic_payment_48hdiscount_copy_general" name="登録して48時間以内に{0}を買うと、選ばれたセットで、さらに{1}% の追加がもらえます。" />
+			<text id="generic_payment_copy" name="今から、ペイメントショップに転送されます。" />
+			<text id="generic_payment_discount_button" name="お金を払ってゴールドを{0}%増やす!" />
+			<text id="generic_payment_discount_copy" name="ゴールドを買って、{0}%のボーナスを手に入れる!" />
+			<text id="generic_payment_discount_copy_general" name="今{0}を買って、{1}% のボーナスを獲得！" />
+			<text id="generic_payment_discount_general" name="お金を払って{0}%{1}を増やす!" />
+			<text id="generic_payment_discount_generalshort" name="お金を払って、{0}%を増やす!" />
+			<text id="generic_payment_discount_time" name="残り{0}!" />
+			<text id="generic_payment_discount_title" name="ゴールドを増やす。" />
+			<text id="generic_payment_newPrices" name="ただ今から、ペイメントショップで還元価格が始まります。是非節約にご利用ください!" />
+			<text id="generic_payment_title" name="ペイメントショップ" />
+		</payment>
+		<progressbar>
+			<text id="loading_text_1" name="サーバースペースへ通じるトンネルを探す" />
+			<text id="loading_text_10" name="アイテムを世界で分配する" />
+			<text id="loading_text_11" name="グラフィックを描画する" />
+			<text id="loading_text_12" name="ボタンに着色する" />
+			<text id="loading_text_13" name="イースター・エッグを隠す" />
+			<text id="loading_text_14" name="ユーザーデータを調べる" />
+			<text id="loading_text_15" name="バグを追い払う" />
+			<text id="loading_text_16" name="プログラマに食べ物を与える" />
+			<text id="loading_text_17" name="顧客の問題に取り組む" />
+			<text id="loading_text_18" name="砂時計を回す" />
+			<text id="loading_text_19" name="システムを冷却する" />
+			<text id="loading_text_2" name="歯車に油をさす" />
+			<text id="loading_text_20" name="すぐに終わります" />
+			<text id="loading_text_3" name="ハムスターの回し車を回す" />
+			<text id="loading_text_4" name="サーバーを暖める" />
+			<text id="loading_text_5" name="すべてうまく行くといいけれど" />
+			<text id="loading_text_6" name="害虫駆除業者を呼び寄せる" />
+			<text id="loading_text_7" name="複雑なアルゴリズムを計算する" />
+			<text id="loading_text_8" name="フラックス・コンペンセイターを調整する" />
+			<text id="loading_text_9" name="キャラクターを作る" />
+			<text id="loading_text_default" name="初期化" />
+			<text id="loading_text_itemXML" name="ゲーム要素を読み込む" />
+			<text id="progress_loadfiles" name="ゲームグラフィックをロード中…" />
+			<text id="progress_serverconnection" name="ゲームサーバーに接続します…" />
+		</progressbar>
+		<register>
+			<text id="generic_register_agb_copy" name="利用規約に目を通し、内容に同意いただける場合は左のボックスにチェックを入れてください。それでは、ゲーム開始です。" />
+			<text id="generic_register_agb_read" name="利用規約を読む" />
+			<text id="generic_register_alreadyavatar" name="このユーザーは、すでにアバターを持っています。" />
+			<text id="generic_register_badword" name="あなたの名前で{0}を使用してはいけません。" />
+			<text id="generic_register_btn_agb" name="利用規約に同意する" />
+			<text id="generic_register_btn_later" name="後ほど" />
+			<text id="generic_register_btn_next" name="進む" />
+			<text id="generic_register_btn_save" name="保存" />
+			<text id="generic_register_character" name="自分のキャラクターを作ろう" />
+			<text id="generic_register_copy_0" name="無料でご登録いただけます!" />
+			<text id="generic_register_copy_1" name="ゲームの状態を保存しよう!" />
+			<text id="generic_register_emaillong_copy" name="メールアドレスが長すぎます。" />
+			<text id="generic_register_emailwrong_copy" name="入力したメールアドレスが、間違っています。" />
+			<text id="generic_register_email_copy" name="メールアドレスにスペースや特殊記号を含めないでください。" />
+			<text id="generic_register_error" name="登録が失敗に終わりました" />
+			<text id="generic_register_errormistake" name="エラー" />
+			<text id="generic_register_error_accountalreadyexists" name="申し訳ありませんが、このメールにはすでにプレイヤーが登録しています。" />
+			<text id="generic_register_forfree" name="登録無料!" />
+			<text id="generic_register_forfree1" name="無料!" />
+			<text id="generic_register_letsgo" name="ゲームスタート!" />
+			<text id="generic_register_namealreadyused" name="その名前はすでに使われています。" />
+			<text id="generic_register_namenotvalid" name="入力した名前が無効です。" />
+			<text id="generic_register_passwordshort_copy" name="入力したパスワードは短すぎます。最低4文字の長さが必要です。" />
+			<text id="generic_register_passwordwrong_copy" name="入力したパスワードが間違っています。" />
+			<text id="generic_register_password_copy" name="パスワードにスペースや特殊記号を含めないでください。" />
+			<text id="generic_register_rememberdata" name="データ保存" />
+			<text id="generic_register_reward" name="無料で登録すると{0} {1}がプレゼントでもらえます。" />
+			<text id="generic_register_subscribe" name="登録" />
+			<text id="generic_register_success" name="登録に成功しました。" />
+			<text id="generic_register_title" name="登録エラー" />
+			<text id="generic_register_unlock" name="このファンクションのロックを解除する。" />
+		</register>
+		<report>
+			<text id="generic_report_muted_badword1_copy" name="発言には充分ご注意ください。チャットへの立入が禁止されたり、アカウントが閉鎖される場合があります。
+理由： {0}" />
+			<text id="generic_report_muted_badword2_copy" name="迷惑行為が続いたため、これから{0}の間、チャットをご利用いただけません。理由: {1}" />
+			<text id="generic_report_muted_domain1" name="インターネットアドレスをチャットで表示しない。" />
+			<text id="generic_report_muted_reported_copy" name="複数のプレイヤーが、あなたに関する苦情を訴えています。さしあたり{0}の間、チャットをご利用いただけません。理由: {1}" />
+			<text id="generic_report_player_copy" name="本当に{0}について報告しますか?
+　この機能を悪用すると、アカウントが閉鎖されることがありますのでご注意ください。" />
+			<text id="generic_report_player_reason_0" name="侮辱" />
+			<text id="generic_report_player_reason_1" name="セクハラ" />
+			<text id="generic_report_player_reason_2" name="人種差別的発言" />
+			<text id="generic_report_player_reason_3" name="脅迫／恐喝" />
+			<text id="generic_report_player_reason_title" name="報告理由:" />
+			<text id="generic_report_player_title" name="プレイヤーを報告しますか?" />
+			<text id="generic_report_reported_copy" name="他のプレイヤーから管理者に報告されました。理由: {0}" />
+		</report>
+		<worlds>
+			<text id="generic_connect" name="接続" />
+			<text id="generic_select_world" name="世界を選んでください:" />
+			<text id="generic_world" name="世界: {0}" />
+			<text id="generic_world_international" name="インターナショナル: {0}" />
+		</worlds>
+	</generic_flash>
+</fashion>
