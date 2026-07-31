@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FASHION - cs - 15 -->
+	<fashion>
+		<achievement>
+			<text id="Basic_Achievement_Boughtdeco" name="Luxusní butik"  />
+			<text id="Basic_Achievement_Boughtdeco_copy" name="Počet koupených dekorací"  />
+			<text id="Basic_Achievement_Boughtpatterns" name="Velká nabídka"  />
+			<text id="Basic_Achievement_Boughtpatterns_copy" name="Počet koupených vzorů střihů"  />
+			<text id="Basic_Achievement_Earnedchips" name="Vedoucí prodejce"  />
+			<text id="Basic_Achievement_Earnedchips_copy" name="Vydělané fashion dolary"  />
+			<text id="Basic_Achievement_FinishedCoops" name="Pro kohokoliv"  />
+			<text id="Basic_Achievement_FinishedCoops_copy" name="Počet zvládnutých spoluprací"  />
+			<text id="Basic_Achievement_FinishedGoldCoops" name="Zlatý zařizovač"  />
+			<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Počet zvládnutých zlatých spoluprací"  />
+			<text id="Basic_Achievement_Mannequindesign" name="Skvělý výklad"  />
+			<text id="Basic_Achievement_Mannequindesign_copy" name="Počet oblečených figurin"  />
+			<text id="Basic_Achievement_Masteries" name="Usilovná švadlena"  />
+			<text id="Basic_Achievement_Masteriesgold" name="Zlatá švadlena"  />
+			<text id="Basic_Achievement_Masteriesgold_copy" name="Počet získaných zlatých etiket"  />
+			<text id="Basic_Achievement_Masteries_copy" name="Počet získaných etiket"  />
+			<text id="Basic_Achievement_Producedaccessoires" name="Vyrobené dolpňky"  />
+			<text id="Basic_Achievement_Producedaccessoires_copy" name="Počet vyrobených doplňků"  />
+			<text id="Basic_Achievement_Producedbags" name="Prodejce kabelek"  />
+			<text id="Basic_Achievement_Producedbags_copy" name="Počet vyrobených kabelek"  />
+			<text id="Basic_Achievement_Producedbottoms" name="Všechno pro nožky"  />
+			<text id="Basic_Achievement_Producedbottoms_copy" name="Počet vyrobených kalhot a sukní"  />
+			<text id="Basic_Achievement_Producedclothes" name="Oděvný monopol"  />
+			<text id="Basic_Achievement_Producedclothes_copy" name="Množství vyrobeného oblečení"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires" name="Stylové doplňky"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="Množství různých vyrobených doplňků"  />
+			<text id="Basic_Achievement_Produceddifferentclothes" name="Rozmanitost oblečení"  />
+			<text id="Basic_Achievement_Produceddifferentclothes_copy" name="Množství různého vyrobeného oblečení"  />
+			<text id="Basic_Achievement_Produceddifferentitems" name="Vyrobené zboží"  />
+			<text id="Basic_Achievement_Produceddifferentitems_copy" name="Množství různého vyrobeného zboží"  />
+			<text id="Basic_Achievement_Produceddifferentshoes" name="Botičky"  />
+			<text id="Basic_Achievement_Produceddifferentshoes_copy" name="Množství různých vyrobených bot"  />
+			<text id="Basic_Achievement_Producedfemaleonly" name="Jenom pro ženy"  />
+			<text id="Basic_Achievement_Producedfemaleonly_copy" name="Množství zboží vyrobeného pro ženy"  />
+			<text id="Basic_Achievement_Producedfullbody" name="Kravaty a límečky"  />
+			<text id="Basic_Achievement_Producedfullbody_copy" name="Počet vyrobených šat a obleků"  />
+			<text id="Basic_Achievement_Producedhats" name="Kloboučník"  />
+			<text id="Basic_Achievement_Producedhats_copy" name="Počet vyrobených klobouků"  />
+			<text id="Basic_Achievement_Producedjewlery" name="Šperkovnice"  />
+			<text id="Basic_Achievement_Producedjewlery_copy" name="Počet vyrobených šperků"  />
+			<text id="Basic_Achievement_Producedmaleonly" name="Jenom pro muže"  />
+			<text id="Basic_Achievement_Producedmaleonly_copy" name="Množství zboží vyrobeného pro muže"  />
+			<text id="Basic_Achievement_Producedshoes" name="Král bot"  />
+			<text id="Basic_Achievement_Producedshoes_copy" name="Počet vyrobených bot"  />
+			<text id="Basic_Achievement_Producedtops" name="Horní díly všude"  />
+			<text id="Basic_Achievement_Producedtops_copy" name="Počet vyrobených horních dílů"  />
+			<text id="Basic_Achievement_Soldduringsale" name="Vyhledávač slev"  />
+			<text id="Basic_Achievement_Soldduringsale_copy" name="Zboží prodané ve slevách"  />
+			<text id="Basic_Achievement_Soldproducts" name="Zboží je prodáno"  />
+			<text id="Basic_Achievement_Soldproducts_copy" name="Množství prodaného zboží"  />
+			<text id="Basic_Achievement_Spentchips" name="Štědrý prodejce"  />
+			<text id="Basic_Achievement_Spentchips_copy" name="Počet vydaných fashion dolarů"  />
+			<text id="Basic_Achievement_Spentgold" name="Zlatá prodejna"  />
+			<text id="Basic_Achievement_Spentgold_copy" name="Počet vydaných zlatých knoflíků"  />
+			<text id="Basic_Achievement_Stolenproducts" name="Ubytovna gaunerů"  />
+			<text id="Basic_Achievement_Stolenproducts_copy" name="Množství ukradeného zboží"  />
+			<text id="Basic_Achievement_Wheeloffortune" name="Točící se střelka"  />
+			<text id="Basic_Achievement_Wheeloffortune_copy" name="Počet výher v kole štěstí"  />
+			<text id="Social_Achievement_Friendscout" name="Oblíbení zákazníci"  />
+			<text id="Social_Achievement_Friendscout_copy" name="Počet síťových přátel"  />
+		</achievement>
+		<alerts>
+			<text id="alerts_avatarcustomize_goldrequest" name="Chceš se převléknout za {0} {1}?"  />
+			<text id="alerts_avatarcustom_workingplayer_copy" name="Právě děláš ještě jednou akci takže se nemůžeš převlíkat!"  />
+			<text id="alerts_avatarcustom_workingplayer_title" name="Ještě moment!"  />
+			<text id="alerts_booster_info_copy" name="Hlídač obchodního domu zabrání, aby někdo ukradl Tvoje zboží.\nMůžeš si jej najmout na 5 dní a tento čas dodatečně prodloužit."  />
+			<text id="alerts_booster_info_copy_1" name="Pro {0}dalších přtel se ochrana prodlužuje o {1}."  />
+			<text id="alerts_booster_info_title" name="Strážní obchodního domu"  />
+			<text id="alerts_buytiles_copy" name="Chceš koupit {0} obkládaček za {1}?"  />
+			<text id="alerts_buytiles_title" name="Koupit obkládačky?"  />
+			<text id="alerts_customcloth_noshape_copy" name="Předtím než umístníš potisk, musíš si vybrat tvar!"  />
+			<text id="alerts_decoshop_dragtipp_copy" name="Vem si předmet do scvé prodejny a použij ho."  />
+			<text id="alerts_decoshop_dragtipp_title" name="Upravit!"  />
+			<text id="alerts_decoshop_next_Cashdesk_bylevel" name="Od levelu {0} si můžeš koupit další pokladnu. Nebo vynes starou pokladnu z prodejny a kup si novou."  />
+			<text id="alerts_decoshop_next_Changingroom_bylevel" name="Od levelu {0} si můžeš koupit další převlíkací kabinu. Nebo vynes starou převlíkací kabinu z prodejny a kup si novou."  />
+			<text id="alerts_decoshop_next_Counter_bylevel" name="Od levelu {0} si můžeš koupit další regál. Nebo vynes starý regál z prodejny a kup si nový."  />
+			<text id="alerts_decoshop_next_Factory_bylevel" name="Od levelu {0} si můžeš najmout dalšího pracovníka. Nebo vynes starého pracovníka z prodejny a najmi si novýho."  />
+			<text id="alerts_decoshop_next_Mannequin_bylevel" name="Od levelu {0} si můžeš koupit další figurínu. Nebo vynes starou figurínu z prodejny a kup si novou."  />
+			<text id="alerts_decoshop_nomoreCashdesk" name="Momentálně nemůžeš koupit další pokladnu!"  />
+			<text id="alerts_decoshop_nomoreChangingroom" name="Momentálně nemůžeš koupit další převlíkací kabinu!"  />
+			<text id="alerts_decoshop_nomoreCounter" name="Momentálně nemúžeš koupit další regál!"  />
+			<text id="alerts_decoshop_nomoreExpansion" name="Momentálně nejsou k dispozici žádné nové rozšíření."  />
+			<text id="alerts_decoshop_nomoreFactory" name="Momentálně nemůžeš najmout další zaměstnance!"  />
+			<text id="alerts_decoshop_nomoreMannequin" name="Momentálně nemůžeš koupit další figurínu!"  />
+			<text id="alerts_decoshop_sellitem_copy" name="Chceš tento předmět opravdu prodat za {0}?"  />
+			<text id="alerts_decoshop_sellitem_title" name="Prodat zboží"  />
+			<text id="alerts_decoshop_storeFactory_copy" name="Nespokojeného pracovníka nemůžeš vyhodit z prodejny. Vyplať mu bonus ke mzdě nebo ho prodej."  />
+			<text id="alerts_decoshop_storeMannequin_copy" name="Dokun je figurína oblečena, nemůžeš jí uložit do skladu."  />
+			<text id="alerts_decoshop_store_title" name="Uskladnit"  />
+			<text id="alerts_decoshop_workingplayer_copy" name="Před tím než budeš přestavovat prodejnu, musíš narovnat oblečení na regál!"  />
+			<text id="alerts_decoshop_workingplayer_title" name="Zaneprázdněný!"  />
+			<text id="alerts_fashionbook_notarget_copy" name="Vyber pracovníka, který bude vyrábět"  />
+			<text id="alerts_fashionbook_notarget_copy_1" name="Pracovník právě vyrábí zboží. Vyber si jiného!"  />
+			<text id="alerts_fashionbook_notarget_title" name="Který pracovník?"  />
+			<text id="alerts_fashionbook_notequaltype_copy" name="S tímto pracovníkem můžeš vyrábět jenom určité zboží.\nVyber si něco z {0}-kolekce."  />
+			<text id="alerts_fashionbook_notequaltype_title" name="Jiné zboží"  />
+			<text id="alerts_fashionbook_usebooster_title" name="Vložit booster?"  />
+			<text id="alerts_friend_ask" name="Chceš si přidat {0}jako přítele?"  />
+			<text id="alerts_friend_denied" name="{0} bohužel odmítnul Tvoji poptávku."  />
+			<text id="alerts_friend_title" name="Přátelství"  />
+			<text id="alerts_gift_workingplayer_copy" name="Máš u sebe ještě zboží. Polož ho na regál, než umístíš dárky."  />
+			<text id="alerts_gift_workingplayer_title" name="Nejdřív uložit!"  />
+			<text id="alerts_instantworking_goldrequest" name="Chceš použít &#039;okamžitě vyrobit&#039;? Můžeš použít ještě {0} krát!"  />
+			<text id="alerts_invitefriend_copy" name="Tvoje pozvánka pro {0} byla odesláná!"  />
+			<text id="alerts_invitefriend_title" name="Noví přátelé!"  />
+			<text id="alerts_isoworld_counter_outofreach_copy" name="Regál není dostupný. Změň dekorace."  />
+			<text id="alerts_isoworld_counter_outofreach_title" name="Není k dispozici!"  />
+			<text id="alerts_isoworld_factory_outofreach_copy" name="Pracovník není k dispozici. Změň dekorace."  />
+			<text id="alerts_isoworld_factory_outofreach_title" name="Není k dispozici!"  />
+			<text id="alerts_isoworld_mannequin_instant" name="Chceš převléknout figurínu?"  />
+			<text id="alerts_isoworld_marketplace_title" name="Černá tabule"  />
+			<text id="alerts_kickedbyplayer_copy" name="Prodejnu majitel zavřel."  />
+			<text id="alerts_kickedbyplayer_title" name="Musíš jít!"  />
+			<text id="alerts_kickjobber_copy" name="Pokud jsou jiní hráči ve tvé prodejně, nemůžeš pracovat v režimu přestavby."  />
+			<text id="alerts_kickjobber_title" name="Pracovník v prodejně"  />
+			<text id="alerts_kickplayer_copy" name="Ve tvé prodejně jsou i jiní hráči. Chceš je vyhodit, aby jsi mohl pracovat v režimu přestavba?"  />
+			<text id="alerts_kickplayer_title" name="Vyhodit hráče"  />
+			<text id="alerts_lostpassword_copy" name="Zadej svoji e-mailovou adresu a my Ti zašleme heslo."  />
+			<text id="alerts_lostpassword_title" name="Zapomenout heslo"  />
+			<text id="alerts_mannequindesign_nocloth_copy" name="V regálu nemáš žádné vhodné zboží pro figurínu."  />
+			<text id="alerts_mannequindesign_nocloth_title" name="Žádné zboží!"  />
+			<text id="alerts_marketplace_playerleaved_copy" name="Hráč opustil arkády."  />
+			<text id="alerts_marketplace_playerleaved_title" name="Pozdě!"  />
+			<text id="alerts_placetiles_copy" name="1. Zvol si jednu obkládačku\n2. Stisknutím myši zvol vybranú oblast ve své prodejně.\n3. Pustit"  />
+			<text id="alerts_placetiles_title" name="Umístit obkládačky?"  />
+			<text id="alerts_register_copy_addgold" name="Aby jsi tady mohl nakupovat, musíš se nejdřív zaregistrovat!"  />
+			<text id="alerts_register_copy_advertisement" name="Musíš se zaregistrovat jestli chceš dělat reklamu."  />
+			<text id="alerts_register_copy_changeavatar" name="Aby jsi se mohl převlíknout, musíš se nejdřív zaregistrovat."  />
+			<text id="alerts_register_copy_changepassword" name="Jako registrovaný hráč si teď můžeš změnit heslo!"  />
+			<text id="alerts_register_copy_coop" name="Aby jsi se mohl podílet na spolupráci, musíš se nejdřív zaregistrovat."  />
+			<text id="alerts_register_copy_gifts" name="Aby jsi mohl připravovat dárky, musíš se nejdřív zaregistrovat."  />
+			<text id="alerts_register_copy_invitefriend" name="Aby jsi mohl pozvat přátelé, musíš se nejdřív zaregistrovat."  />
+			<text id="alerts_register_copy_logout" name="Zaregistuj se a uloží se Tvůj momentální stav hry!"  />
+			<text id="alerts_register_title" name="Zaregistrovat se"  />
+			<text id="alerts_servermsg_10" name="Server byl nově spuštěn. Brzy bude pokračovat.\nKlikni na F5, aby se stránka znova otevřela."  />
+			<text id="alerts_servermsg_title" name="Správa ze serveru!"  />
+			<text id="alerts_staff_fire_copy" name="Opravdu chceš vyhodit svého pokladního?\nBez dostatečného počtu pokladních čekají zákazníci příliš dlouho a jsou nespokojení."  />
+			<text id="alerts_staff_fire_title" name="Propustit pokladního?"  />
+			<text id="alerts_staff_hire_copy" name="Chceš najmout nového pokladního?"  />
+			<text id="alerts_staff_hire_title" name="Nový pokladní"  />
+			<text id="alerts_versioncheck_copy" name="Prosím aktualizuj stránku a přejdi tak na novou verzi."  />
+			<text id="alerts_versioncheck_title" name="Stará verze!"  />
+		</alerts>
+		<cloth>
+			<text id="cloth_blackbowlermale" name="Cylindr"  />
+			<text id="cloth_blackdressfemale" name="Malé černé"  />
+			<text id="cloth_blackhandbagfemale" name="Černá nákupní taška"  />
+			<text id="cloth_blackheelsfemale" name="Černé lodičky"  />
+			<text id="cloth_blackjacketmale" name="Jednoduchá kožen bunda"  />
+			<text id="cloth_blackpant2male" name="Džíny GeeCee"  />
+			<text id="cloth_blackpantfemale" name="Černé dívčí úzke džíny"  />
+			<text id="cloth_blackpantmale" name="Černé pánske kalhoty"  />
+			<text id="cloth_blacksuitmale" name="Oblek s jemnými proužky"  />
+			<text id="cloth_blackwatchmale" name="Černé náramkové hodinky"  />
+			<text id="cloth_bluebaggypantsfemale" name="Dívčí volné džíny JayJay"  />
+			<text id="cloth_blueblousefemale" name="Modrá dámská halenka"  />
+			<text id="cloth_bluecapfemale" name="Modrá kšiltovka"  />
+			<text id="cloth_bluecapmale" name="Modrá kšiltovka"  />
+			<text id="cloth_blueheadphones" name="Sluchátka JayJay"  />
+			<text id="cloth_bluenecklacefemale" name="Modrý perlový náhrdelník"  />
+			<text id="cloth_bluepolomale" name="Modré polo tričko"  />
+			<text id="cloth_blueshirtmale" name="Modré tričko"  />
+			<text id="cloth_bluesweatermale" name="Modrý klučičí svetr JayJay"  />
+			<text id="cloth_bootsfemale" name="Holčičí kozačky GeeCee"  />
+			<text id="cloth_brownknitcapfemale" name="Hnědá čepice"  />
+			<text id="cloth_brownknitcapmale" name="Hnědá čepice"  />
+			<text id="cloth_cardiganfemale" name="Holčičí svetr GeeCee"  />
+			<text id="cloth_cardiganmale" name="Klučičí svetr GeeCee"  />
+			<text id="cloth_charlestonhatfemale" name="Klobouk Charleston"  />
+			<text id="cloth_checkshirtfemale" name="Dívčí károvaná košile JayJay"  />
+			<text id="cloth_checkshirtmale" name="Károvaná klučičí košile JayJay"  />
+			<text id="cloth_customcloth" name="Vytvoř si svůj look!"  />
+			<text id="cloth_darkbluejeansfemale" name="Tmavě modré dámske džíny"  />
+			<text id="cloth_darkbluejeansmale" name="Tmavě modré pánske džíny"  />
+			<text id="cloth_dressfemale" name="Šatičky GeeCee"  />
+			<text id="cloth_flowerskirtfemale" name="Květovaná sukně GeeDee"  />
+			<text id="cloth_ggsshirtmale" name="Tričko GeeCee"  />
+			<text id="cloth_goldnecklacefemale" name="Zlatý náhrdelník"  />
+			<text id="cloth_greendressfemale" name="Šatičky GeeDee"  />
+			<text id="cloth_greenjacketfemale" name="Dívčí zimní kabát JayJay"  />
+			<text id="cloth_greenjacketmale" name="Klučičí zimní kabát JayJay"  />
+			<text id="cloth_greenpulloverfemale" name="Zelený rolák"  />
+			<text id="cloth_greenshirtmale" name="Klučičí tričko GeeDee"  />
+			<text id="cloth_greysuitmale" name="Šedý oblek"  />
+			<text id="cloth_lightbluejeansfemale" name="Světle modré dámske džíny"  />
+			<text id="cloth_lightbluejeansmale" name="Světle modré pánske džíny"  />
+			<text id="cloth_manblackmale" name="Černé lakovky"  />
+			<text id="cloth_manbrownmale" name="Hnědé kožené boty"  />
+			<text id="cloth_orangeknitcapfemale" name="Oranžová čepice"  />
+			<text id="cloth_orangeknitcapmale" name="Oranžová čepice"  />
+			<text id="cloth_perlnecklacefemale" name="Jednoduchý perlový náhrdelník"  />
+			<text id="cloth_pinkhangbagfemale" name="Prošívaná kabelka"  />
+			<text id="cloth_pinkshirtfemale" name="Růžové polo tričko"  />
+			<text id="cloth_premiumbluejacketmale" name="Jarní kabát"  />
+			<text id="cloth_premiumgreenjacketfemale" name="Jarní plášť"  />
+			<text id="cloth_premiumjumpsuitfemale" name="Holčičí overal GeeDee"  />
+			<text id="cloth_premiumshortsmale" name="Klučičí šortky GeeDee"  />
+			<text id="cloth_purplehandbagfemale" name="Taška GeeCee"  />
+			<text id="cloth_purplepulloverfemale" name="Fialový rolák"  />
+			<text id="cloth_purpletshirtfemale" name="Dívčí tričko JayJay"  />
+			<text id="cloth_redcapfemale" name="červená kšiltovka"  />
+			<text id="cloth_redcapmale" name="červená kšiltovka"  />
+			<text id="cloth_reddressfemale" name="Šaty s holými rameny"  />
+			<text id="cloth_redheelsfemale" name="červené lodičky"  />
+			<text id="cloth_redskirtfemale" name="červená sukně s mašlí"  />
+			<text id="cloth_redsneakermale" name="červené klučičí tretry JayJay"  />
+			<text id="cloth_redtopfemale" name="červený třpytivý top"  />
+			<text id="cloth_scraffemale" name="Puntíková šála GeeCee"  />
+			<text id="cloth_scrafmale" name="Karovaná šála GeeCee"  />
+			<text id="cloth_silvernecklacefemale" name="Stříbrný náhrdelník"  />
+			<text id="cloth_silverwatchmale" name="Stříbrné náramkové hodinky"  />
+			<text id="cloth_sneakersfemale" name="Bílé tenisky"  />
+			<text id="cloth_sneakersgreenmale" name="Zelené tretry GeeCee"  />
+			<text id="cloth_sneakersmale" name="Bílé tenisky"  />
+			<text id="cloth_strawberrysneakerfemale" name="Jahodové boty JayJay"  />
+			<text id="cloth_stripedshirtmale" name="Klučičí proužkované tričko GeeDee"  />
+			<text id="cloth_stripedtopfemale" name="Holčičí letní top GeeDee"  />
+			<text id="cloth_stripedtshirtmale" name="Proužkované klučičí tričko JayJay"  />
+			<text id="cloth_sweathoodiemale" name="Klučičí mikina GeeDee"  />
+			<text id="cloth_trenchcoatmale" name="Černý trenčkot"  />
+			<text id="cloth_whiteshirtmale" name="Bílá košile"  />
+			<text id="cloth_whiteskirtfemale" name="Bílá minisukně"  />
+			<text id="cloth_yellowdressfemale" name="Zlaté koktejlové šaty"  />
+		</cloth>
+		<commons>
+			<text id="achievement_rang" name="Pořadí {0}/{1}"  />
+			<text id="comingsoon" name="*již brzy*"  />
+			<text id="currency_cash" name="Fashion dolary"  />
+			<text id="currency_gold" name="Zlaté knoflíky"  />
+			<text id="currency_gold_single" name="Zlatý knoflík"  />
+			<text id="factorytyp_accessories" name="Doplňky"  />
+			<text id="factorytyp_clothes" name="Oblečení"  />
+			<text id="factorytyp_shoes" name="Boty"  />
+			<text id="friendscount" name="Přátelé {0}"  />
+			<text id="levelcount" name="Level {0}"  />
+			<text id="levellabel" name="Level"  />
+			<text id="mastery" name="Etiketový level"  />
+			<text id="new" name="Nové!"  />
+			<text id="xplabel" name="XP"  />
+		</commons>
+		<coopmission>
+			<text id="coop_desc_1" name="Pár hezkých kousků oblečení na piknik!"  />
+			<text id="coop_desc_10" name="Róby a obleky pro naše debutanty!"  />
+			<text id="coop_desc_11" name="Klasické oblečení pro muže!"  />
+			<text id="coop_desc_2" name="Vhodný outfit na sportovní výlet!"  />
+			<text id="coop_desc_3" name="Hudba a lidi celou noc!"  />
+			<text id="coop_desc_4" name="Skvělý dárek pro každou příležitost!"  />
+			<text id="coop_desc_5" name="Nic není lepší než dobře padnoucí oblek!"  />
+			<text id="coop_desc_6" name="Boty všude kam se podíváš!"  />
+			<text id="coop_desc_7" name="Sukně, topy a boty...všechno v červené barvě!"  />
+			<text id="coop_desc_8" name="Šaty, šaty, šaty pro  naše holky!"  />
+			<text id="coop_desc_9" name="To pravé do tanečních!"  />
+			<text id="coop_title_1" name="Na piknik!"  />
+			<text id="coop_title_10" name="Maturitní ples!"  />
+			<text id="coop_title_11" name="Černá zůstane černou!"  />
+			<text id="coop_title_2" name="Hlavně sportovně!"  />
+			<text id="coop_title_3" name="Koncert vyprodán!"  />
+			<text id="coop_title_4" name="Hezké dárky!"  />
+			<text id="coop_title_5" name="Všechno pro muže!"  />
+			<text id="coop_title_6" name="Všude samé boty!"  />
+			<text id="coop_title_7" name="Sen v červené barvě!"  />
+			<text id="coop_title_8" name="Jenom pro holky!"  />
+			<text id="coop_title_9" name="Tanečni kurz!"  />
+		</coopmission>
+		<coop_msg>
+			<text id="coop_msg_0" name="{0} začal tuto spolupráci."  />
+			<text id="coop_msg_1" name="{0} se účastní spolupráce."  />
+			<text id="coop_msg_2" name="{0} opustil túto spolupráci."  />
+			<text id="coop_msg_3" name="{0} chce vyrobit {1} {2} krát."  />
+			<text id="coop_msg_4" name="{0} vyrobila {1}."  />
+			<text id="coop_msg_5" name="{0} prodloužil spolupráci."  />
+		</coop_msg>
+		<dialogs>
+			<text id="dialogs_achievement_title" name="Vyznamenání"  />
+			<text id="dialogs_advertisementfinal_copy" name="Tvoje reklamní akce je u konce! Koukni se na výsledek akce!
+Co Ti přinese ta další?"  />
+			<text id="dialogs_advertisementfinal_title" name="Gratulace!"  />
+			<text id="dialogs_advertisementrunning_copy" name="Reklamní akce právě probíhá. Jak to jde uvidíš tady."  />
+			<text id="dialogs_advertisementrunning_time" name="Zbývající čas:"  />
+			<text id="dialogs_advertisementrunning_title" name="Reklamní akce probíhá!"  />
+			<text id="dialogs_advertisement_btn_start" name="Startovat"  />
+			<text id="dialogs_advertisement_flyer_copy" name="Zvyš svojí oblíbenost!"  />
+			<text id="dialogs_advertisement_flyer_reward" name="{0} body"  />
+			<text id="dialogs_advertisement_flyer_title" name="Letáková akce"  />
+			<text id="dialogs_advertisement_magazine_copy" name="Každý zákazník nakoupí dva krát tolik!"  />
+			<text id="dialogs_advertisement_magazine_reward" name="x {0}"  />
+			<text id="dialogs_advertisement_magazine_title" name="Inzeráty v časopisech"  />
+			<text id="dialogs_advertisement_title" name="Reklama"  />
+			<text id="dialogs_advertisement_tv_copy" name="Každý zákazník, který u Tebe nakoupí Ti přinese XP!"  />
+			<text id="dialogs_advertisement_tv_title" name="Televizní reklama"  />
+			<text id="dialogs_avatarselection_copy" name="Jméno je již zadáno. Šlo by třeba:"  />
+			<text id="dialogs_avatarselection_title" name="Hoplá!"  />
+			<text id="dialogs_avatar_female" name="Holka"  />
+			<text id="dialogs_avatar_male" name="Kluk"  />
+			<text id="dialogs_avatar_name" name="Jméno:"  />
+			<text id="dialogs_avatar_randombtn" name="Náhodný outfit"  />
+			<text id="dialogs_avatar_title" name="Vytvoř si svoji postavu"  />
+			<text id="dialogs_bonus_cashdesk_copy" name="Teď můžeš svojí prodejnu rozšířit o další kasu a pokladního!"  />
+			<text id="dialogs_bonus_cashdesk_title" name="Nová pokladna"  />
+			<text id="dialogs_bonus_changingroom_copy" name="Uvolnila se další převlíkací kabina."  />
+			<text id="dialogs_bonus_changingroom_title" name="Nové převlíkací kabiny"  />
+			<text id="dialogs_bonus_counter_copy" name="Můžeš si koupit další regál!"  />
+			<text id="dialogs_bonus_counter_title" name="Nový regál"  />
+			<text id="dialogs_bonus_expand_copy" name="Tvoje prodejna se zvětšila a tak teď máš víc místa pro zákazníky, dekorace a jiné věci!"  />
+			<text id="dialogs_bonus_expand_title" name="Rozšíření!"  />
+			<text id="dialogs_bonus_factory_copy" name="Do své prodejny můžeš najmout nového pracovníka. Vyrobíš tak víc zboží."  />
+			<text id="dialogs_bonus_factory_title" name="Noví pracovníci"  />
+			<text id="dialogs_bonus_level2_copy" name="Už jsi to viděl? Můžeš rozšířit svojí prodejnu a získat tak víc místa pro své zákazníky a zboží!"  />
+			<text id="dialogs_bonus_level5_copy" name="Už jsi to viděl? Můžeš převlíkat svojí postavu. Klikni na menu vlevo nahoře a zvol &quot;převlíknout.&quot;"  />
+			<text id="dialogs_bonus_levelUp_copy" name="Gratulujeme! Dostal jsi se do dalšího levelu."  />
+			<text id="dialogs_bonus_levelUp_title" name="LEVEL UP!"  />
+			<text id="dialogs_bonus_level_title" name="Pozor!"  />
+			<text id="dialogs_bonus_login_copy" name="Tohle se v prodejně přihodilo, když jsi tady nebyl:"  />
+			<text id="dialogs_bonus_login_copy2" name="LOGIN BONUS"  />
+			<text id="dialogs_bonus_login_title" name="Opět tady!"  />
+			<text id="dialogs_bonus_pattern_copy" name="Máš přístup k novým vzorům střihů:"  />
+			<text id="dialogs_bonus_pattern_title" name="Nové vzory střihů"  />
+			<text id="dialogs_booster_btnbuypolice" name="Najmout/prodloužit"  />
+			<text id="dialogs_booster_policeman_notime" name="Neaktivní"  />
+			<text id="dialogs_booster_title" name="Booster"  />
+			<text id="dialogs_changepassword_newpassword" name="Nové heslo:"  />
+			<text id="dialogs_changepassword_oldpassword" name="Staré heslo:"  />
+			<text id="dialogs_changepassword_title" name="Změnit heslo"  />
+			<text id="dialogs_coopreward_finish_0" name="Zlato"  />
+			<text id="dialogs_coopreward_finish_1" name="Stříbro"  />
+			<text id="dialogs_coopreward_finish_2" name="Bronz"  />
+			<text id="dialogs_coopreward_title_fail" name="Nezvládnutá spolupráce!"  />
+			<text id="dialogs_coopreward_title_success" name="Zvládnutá spolupráce s {0}"  />
+			<text id="dialogs_coopshelp_copy" name="Tady můžeš spolu s přátely plnit zakázky a vydělat tak XP a fashion dolary navíc.\nČím rychleji splníš zakázku, tím větší bude odměna!\n\nJestli Ti dochází čas, můžeš kdykoliv prodloužit dobu plnění!\n\nMysli ale na to, že odměnu dostaneš jenom jestli taky něčím přispěješ!"  />
+			<text id="dialogs_coopshelp_title" name="Co jsou spolupráce?"  />
+			<text id="dialogs_coop_btn_action" name="Detaily"  />
+			<text id="dialogs_coop_btn_activecoops" name="Aktivní"  />
+			<text id="dialogs_coop_btn_join" name="Zapojit se"  />
+			<text id="dialogs_coop_btn_newcoop" name="Začni spolupráci"  />
+			<text id="dialogs_coop_btn_progress" name="Pokrok"  />
+			<text id="dialogs_coop_btn_protocol" name="Zápis"  />
+			<text id="dialogs_coop_btn_quit" name="Opustit"  />
+			<text id="dialogs_coop_extendtime_copy" name="Chceš prodloužit spolupráci za {0} zlata?
+Zlatý čas: {1}
+Stříbrný čas: {2}
+Bronzový čas: {3}"  />
+			<text id="dialogs_coop_extendtime_title" name="Víc času?"  />
+			<text id="dialogs_coop_maxuser" name="Maximální počet účastníků: {0}"  />
+			<text id="dialogs_coop_member" name="Účastníci spolupráce:"  />
+			<text id="dialogs_coop_minlevel" name="Nejnižší level pro účast: {0}"  />
+			<text id="dialogs_coop_minlevel_short" name="Minimální level: {0}"  />
+			<text id="dialogs_coop_produce_copy" name="Jak často chceš vyrábět {0} pro tuto spolupráci?"  />
+			<text id="dialogs_coop_produce_title" name="Vyrábět pro spolupráci?"  />
+			<text id="dialogs_coop_quit_copy" name="Opravdu chceš opustit tuto spolupráci?"  />
+			<text id="dialogs_coop_subtitle" name="Musíte vyrobit:"  />
+			<text id="dialogs_coop_timeInfo" name="Dosaženo v:"  />
+			<text id="dialogs_coop_timeleft" name="Zbývající čas:"  />
+			<text id="dialogs_coop_txt_noactive" name="Momentálně neexistuje žádná aktivní spolupráce.\nZačni jednu!"  />
+			<text id="dialogs_coop_txt_title" name="Spolupráce"  />
+			<text id="dialogs_counterclick_btndonate" name="Věnovat"  />
+			<text id="dialogs_counterclick_copy" name="Následujíci zboží se nacházi na regálu."  />
+			<text id="dialogs_counterclick_title" name="Regál"  />
+			<text id="dialogs_customclothbuy_copy" name="Chceš mít {0} za {1} trvale vloženo v katalogu?"  />
+			<text id="dialogs_customclothbuy_title" name="Koupit vzor střihu!"  />
+			<text id="dialogs_customclothhelp_copy" name="Tady můžeš navrhovat a vyrábět svoje vlastní oblečení! Zvol si formu a barvu! 
+Forma určuje čas výroby a Tvůj výdělek.
+Daný střih Ti bude k dispozici 24 hodin. 
+Jestli si chceš tento střih ponechat, můžeš si ho vložit do svéh katalogu zboží!"  />
+			<text id="dialogs_customclothinfo_title" name="Tvůj vlastní styl!"  />
+			<text id="dialogs_customcloth_btn_choose" name="Vybrat"  />
+			<text id="dialogs_customcloth_entername" name="Dej mi jméno!"  />
+			<text id="dialogs_customcloth_icon" name="Potisk"  />
+			<text id="dialogs_customcloth_shape" name="Forma"  />
+			<text id="dialogs_customcloth_title" name="Tvůj design určuje styl!"  />
+			<text id="dialogs_decoshophelp_copy" name="Když stáhneš nábytek a dekorace na tuto lištu a NE na pokladnu, budou věci uskladněny.
+Když je pak budeš chtít opět stáhnout do své prodejny, nic to nestojí. 
+Počet kusů bývalých předmětů vidíš vedle prázdné krabice."  />
+			<text id="dialogs_decoshophelp_copy_1" name="Luxusní hodnota nábytku a dekorací načítá luxusní hodnotu Tvé prodejny! Jak luxusní je Tvá prodejna?"  />
+			<text id="dialogs_decoshophelp_title" name="Uskladnit regály/dekorace?"  />
+			<text id="dialogs_decoshophelp_title_1" name="Hodnota luxusu?"  />
+			<text id="dialogs_factoryclick_btn_cancel" name="Přerušit výrobu"  />
+			<text id="dialogs_factoryclick_copy" name="Chceš použít\n&#039;okamžitě vyrobit&#039;?\nDnes ho ještě můžeš použít  {0} krát."  />
+			<text id="dialogs_factoryclick_title" name="Výroba probíhá!"  />
+			<text id="dialogs_fashionbook_durationtime" name="Doba trvání: {0}"  />
+			<text id="dialogs_fashionbook_emptypattern" name="Momentálně nejsou k dispozici žádné další vzory strihů."  />
+			<text id="dialogs_fashionbook_emptypatterncustomcloth" name="Sem můžeš uložit své vlastní vzory střihů!"  />
+			<text id="dialogs_fashionbook_emptyproducts" name="Potřebuješ vzory střihů, aby si mohl vyrábět zboží.\n\nKup si nějaké v katalogu zboží."  />
+			<text id="dialogs_fashionbook_pieces" name="Počet kusů:"  />
+			<text id="dialogs_fashionbook_productionPrice" name="{0} výrobní náklady"  />
+			<text id="dialogs_fashionbook_saleprice" name="/ kus:"  />
+			<text id="dialogs_featureUnlocked_advertisement" name="Udělej svojí prodejnu známou díky reklamě!"  />
+			<text id="dialogs_featureUnlocked_arcades" name="Najdi nové přátelé v arkádech!"  />
+			<text id="dialogs_featureUnlocked_coop" name="Jdi do spolupráce se svými přátelmi!"  />
+			<text id="dialogs_featureUnlocked_custompattern" name="Odteď navrhuj vlastní střihy!"  />
+			<text id="dialogs_featureUnlocked_decoration" name="Nové dekorace odblokované pro Tebe!"  />
+			<text id="dialogs_featureUnlocked_policeman" name="Pozor! Odteď jsou možné krádeže zboží! 
+Radši si najmi policistu!"  />
+			<text id="dialogs_featureUnlocked_ranking" name="Navštiv jiné hráče pomocí žebříčku pořadí!"  />
+			<text id="dialogs_featureUnlocked_wheeloffortune" name="Zkus svoje štěstí v kole štěstí a vyhrej skvělé ceny!"  />
+			<text id="dialogs_giftbox_btnclose" name="Zavřít"  />
+			<text id="dialogs_giftbox_btnsend" name="Podarovat"  />
+			<text id="dialogs_giftbox_empty_friends" name="Každému příteli můžeš jednou denně poslat jeden dárek."  />
+			<text id="dialogs_giftbox_empty_mygifts" name="Tvůj dárkový box je momentálně prázdný.\nPošli něco přátelům, možná Ti taky něco pošlou."  />
+			<text id="dialogs_giftbox_empty_sendablegifts" name="Dárky dnes nejsou."  />
+			<text id="dialogs_giftbox_friendstitle" name="Poslat přátelům"  />
+			<text id="dialogs_giftbox_mygiftstitle" name="Moje dárky"  />
+			<text id="dialogs_giftbox_sendablegiftstitle" name="Rozeslat dárky"  />
+			<text id="dialogs_highscore_name" name="Jméno"  />
+			<text id="dialogs_highscore_rank" name="Pořadí"  />
+			<text id="dialogs_highscore_search" name="Hledat jméno/pořadí"  />
+			<text id="dialogs_highscore_title" name="Žebříček"  />
+			<text id="dialogs_info_goldsmith_copy" name="Zlatník vyrábí pouze doplňky."  />
+			<text id="dialogs_info_goldsmith_title" name="Zlatník"  />
+			<text id="dialogs_info_sewer_copy" name="Švadlena vyrábí jenom oblečení."  />
+			<text id="dialogs_info_sewer_title" name="Švadlena"  />
+			<text id="dialogs_info_shoemaker_copy" name="Obuvník vyrábí jenom boty."  />
+			<text id="dialogs_info_shoemaker_title" name="Obuvník"  />
+			<text id="dialogs_invitefriend_copy" name="Zadej jméno a e-mailovú adresu svého přítele a pozvi ho tak."  />
+			<text id="dialogs_invitefriend_emptyparam" name="Všechny políčka musíš správně vyplnit."  />
+			<text id="dialogs_invitefriend_friendname" name="Jména přátel:"  />
+			<text id="dialogs_invitefriend_mail" name="E-mailová adresa přítele:"  />
+			<text id="dialogs_invitefriend_myname" name="Tvoje jméno:"  />
+			<text id="dialogs_invitefriend_title" name="Pozvání"  />
+			<text id="dialogs_lonelycash_copy" name="Někdo odovzdal peněženku do strat a nálezů!\n\nNepatří náhodou některému ze Tvých přátel?"  />
+			<text id="dialogs_lonelycash_title" name="Nalezeno!"  />
+			<text id="dialogs_lonelycop_copy" name="Šéf bezpečnostní služby hledá místa pro svoje praktikanty!\nMožná je zaměstnají Tvoji přátelé!"  />
+			<text id="dialogs_lonelycop_title" name="Dotaz!"  />
+			<text id="dialogs_lonelypants_copy" name="Tvůj pokladní našel krabici s nadbytečným zbožím.\n\nDej ho přátelům!"  />
+			<text id="dialogs_lonelypants_title" name="Co to je?"  />
+			<text id="dialogs_mannequindesign_empty" name="Z této kategorie si nemůžeš vybírat."  />
+			<text id="dialogs_mannequindesign_title" name="Figurína"  />
+			<text id="dialogs_mannequinpaycheck_copy" name="Čím víc se zákazníkovi líbí Tvoje zboží, tím líp vypadá Tvoje odměna za obléknutí figuríny."  />
+			<text id="dialogs_mannequinpaycheck_title" name="Hodnocení"  />
+			<text id="dialogs_mastery_copy_0" name="Za {0} si získal jednu etiketu!"  />
+			<text id="dialogs_mastery_copy_1" name="Dej svým přátelům pár kusů navíc!"  />
+			<text id="dialogs_mastery_info" name="S každou etiketou bude Tvoje zboží ještě ziskovější!"  />
+			<text id="dialogs_mastery_title" name="Nová etiketa!"  />
+			<text id="dialogs_noreward_copy" name="Odměnu si již bohužel vyzvedl  jiný hráč!"  />
+			<text id="dialogs_noreward_title" name="Škoda!"  />
+			<text id="dialogs_payment_copy" name="Nakup tady\nZlaté knoflíky a fashion dolary."  />
+			<text id="dialogs_payment_title" name="Prodejna platidel"  />
+			<text id="dialogs_perfectpants_copy" name="Dnes jsi vyrobil {0}!\nVěnuj přátelům vyrobený přebytek!"  />
+			<text id="dialogs_perfectpants_title" name="Perfektní!"  />
+			<text id="dialogs_pesentreceived_text" name="Tvůj dárek na uvítanou, {0} zlaté knoflíky, byl přičten na Tvé kontu."  />
+			<text id="dialogs_pesentreceived_title" name="Hurá!"  />
+			<text id="dialogs_pesentreminder_send" name="Poslat"  />
+			<text id="dialogs_pesentreminder_text1" name="Jako dárek na uvítanou jsou tady pro Tebe připravené {0} zlaté knoflíky. 
+Jestli si je chceš vyzvednout, klikni na link v mailu na uvítanou."  />
+			<text id="dialogs_pesentreminder_text2" name="E-mail si můžeš nechat zaslat ještě jednou."  />
+			<text id="dialogs_pesentreminder_title" name="Dárek na uvítanou!"  />
+			<text id="dialogs_receivecomeback_copy_0" name="Jako dárek na uvítanou po dlouhé době dostaneš {0} zlatých knoflíků!"  />
+			<text id="dialogs_receivecomeback_copy_1" name="Jako dárek na uvítanou po dlouhé době dostaneš {0} zlatých knoflíků a hlídače obchodního domu za {1}!"  />
+			<text id="dialogs_receivecomeback_title" name="Jsi zpět!"  />
+			<text id="dialogs_receivecop_copy" name="Praktikant začal pracovat a prodloužil čas hlídáni  o\n1 hodinu!"  />
+			<text id="dialogs_receivecop_title" name="Najmut!"  />
+			<text id="dialogs_receiveitem_copy" name="Tvoje odměna se nachází v dárkovém boxu!"  />
+			<text id="dialogs_receiveitem_title" name="Hurá!"  />
+			<text id="dialogs_receivemoney_copy" name="Tvoje odměna Ti již byla připsána!"  />
+			<text id="dialogs_receivemoney_title" name="Hurá!"  />
+			<text id="dialogs_register_agb" name="akceptovat Všeobecné obchodní podmínky"  />
+			<text id="dialogs_register_btnsave" name="Uložit"  />
+			<text id="dialogs_register_copy_0" name="Zdarma se zaregistruj!"  />
+			<text id="dialogs_register_copy_1" name="Ulož si svůj stav hry!"  />
+			<text id="dialogs_register_copy_2" name="Při přihlášení dostaneš mailem {0} zlaté knoflíky jako dárek na uvítanou."  />
+			<text id="dialogs_register_email" name="E-mail"  />
+			<text id="dialogs_register_forfree" name="ZDARMA!"  />
+			<text id="dialogs_register_password" name="Heslo"  />
+			<text id="dialogs_register_title" name="Zaregistrovat se"  />
+			<text id="dialogs_robberyall_copy" name="Veškeré Tvoje zboží někdo ukradl!"  />
+			<text id="dialogs_robbery_copy" name="Ukradnuto!"  />
+			<text id="dialogs_robbery_copy2" name="Vylož  hotové zboží na regál\nnebo najmi hlídače obchodního domu, který bude zboží chránit před krádeží."  />
+			<text id="dialogs_robbery_title" name="KRÁDEŽ!"  />
+			<text id="dialogs_sale_copy" name="Klikni slevovým štítkem na regál a označ tak zboží ve slevě.\nCeny se sníží a oblíbenost Tvé prodejny bude narostat.\nSlevovový prodej končí, když je regál prázdný."  />
+			<text id="dialogs_sale_title" name="Sleva"  />
+			<text id="dialogs_shippingconfirmation_send" name="Tvůj dárek na uvítanou jsme Ti právě odeslali."  />
+			<text id="dialogs_shippingconfirmation_titel" name="Dárek!"  />
+			<text id="dialogs_staff_btnfire" name="Propustit"  />
+			<text id="dialogs_staff_btnhire" name="Najmout"  />
+			<text id="dialogs_staff_title" name="Tvůj pokladní"  />
+			<text id="dialogs_wheeloffortune_beforespin" name="Otoč kolem štěstí a vyhrej skvělé ceny!"  />
+			<text id="dialogs_wheeloffortune_btn_go" name="Otočit!"  />
+			<text id="dialogs_wheeloffortune_btn_towheel" name="Ke kolu štěstí"  />
+			<text id="dialogs_wheeloffortune_copy1" name="Otočil si dnes už kolem štěstí?"  />
+			<text id="dialogs_wheeloffortune_info" name="Prvé zatočení je každý den zdarma!"  />
+			<text id="dialogs_wheeloffortune_nomoney" name="Nemáš dostatek zlatých knoflíků na zatočení kolem štěstí!"  />
+			<text id="dialogs_wheeloffortune_noregister" name="Kolem štěstí můžeš točit jenom jako registrovaný hráč!"  />
+			<text id="dialogs_wheeloffortune_nospace" name="V boxu na dárky nemáš místo na uložení výher! Vytvoř místo a pak budeš moct točit kolem štěstí!"  />
+			<text id="dialogs_wheeloffortune_title" name="Kolo štěstí!"  />
+			<text id="dialogs_wheeloffortune_tryagain" name="Zkus to ještě jednou!"  />
+			<text id="dialogs_wheeloffortune_woncash" name="Gratulujeme! Tvoje cena Ti byla připsána k dobru!"  />
+			<text id="dialogs_wheeloffortune_woncloth" name="Gratulujeme! Tvoje cena se nachází v boxu na dárky!"  />
+			<text id="dialogs_wheeloffortune_wonitem" name="Gratulujeme! Tvoje cena se nachází ve skladu!"  />
+		</dialogs>
+		<error_codes>
+			<text id="error_advertisement_nolevel" name="Jestli chceš dělat reklamní akci, musíš dosáhnout minimálně levelu {0}."  />
+			<text id="error_advertisement_nomoney" name="Nemáš dostatek zlatých knoflíků/fashion dolarů na tuto reklamní akci!"  />
+			<text id="error_avatar_12" name="Jméno je již zadáno."  />
+			<text id="error_avatar_15" name="Uživatel již má jednoho avatara."  />
+			<text id="error_avatar_genderempty" name="Vyber si jednu postavu, prosím!"  />
+			<text id="error_avatar_nameinvalide" name="Tvé uživatelské jméno nemůže být prázdné ani nemůže obsahovat zvláštní znaky."  />
+			<text id="error_avatar_standardname" name="Zapiš prosím svoje uživatelské jméno."  />
+			<text id="error_boost_nomoney" name="Bohužel si nemůžeš dovolit užívat tento booster."  />
+			<text id="error_cancleproduction_36" name="Regál není dostupný! Některé věci musíš přemístit."  />
+			<text id="error_changepassword_0" name="Tvé heslo bylo úspěšně změněno!"  />
+			<text id="error_changepassword_10" name="Tvoje staré heslo bylo zadáno nesprávně!"  />
+			<text id="error_changepassword_copy" name="Tvé nové heslo musí být delší jako dva znaky. Dej pozor, aby si správně zadal své staré heslo."  />
+			<text id="error_changepassword_title" name="Změnit heslo"  />
+			<text id="error_chat_23" name="Tvůj chat byl dočastně deaktivován administrátorem."  />
+			<text id="error_chat_24" name="Prosím nespamuj na chatu!"  />
+			<text id="error_common_1" name="Obecná chyba/nservercomando {0}"  />
+			<text id="error_common_3" name="- DEBUG: Příliš nízky level -"  />
+			<text id="error_common_30" name="-DEBUG: Pracovník/regál není k dispozici-"  />
+			<text id="error_common_38" name="- DEBUG: V režimu přestavby-"  />
+			<text id="error_common_5" name="- DEBUG: Neznámé WodId -"  />
+			<text id="error_common_80" name="-DEBUG: Potvrzení o příchodu. Pozdní příchod -"  />
+			<text id="error_common_81" name="-DEBUG: Potvrzení o příchodu. Žádné zpoždění -"  />
+			<text id="error_common_title" name="Pozor!"  />
+			<text id="error_coop_3" name="Tvůj level není dostatečný pro tuto spolupráci.\n Musíš zveřjnit minimálně jeden vzor střihu."  />
+			<text id="error_coop_90" name="Již se účastníš jiné spolupráce!"  />
+			<text id="error_coop_91" name="Maximální počet účastníků spolupráce již byl dosažen."  />
+			<text id="error_coop_92" name="Spolupráce je již hotová!"  />
+			<text id="error_coop_93" name="Dnes si již jednu spolupráci začal! Novou můžeš začít až zítra!"  />
+			<text id="error_coop_nomoney" name="Nemáš dostatek zlatých knoflíků na prodloužení spolupráce."  />
+			<text id="error_coop_title" name="Spolupráce"  />
+			<text id="error_customclothbuy_nomoney" name="Nemáš dostatek zlatých knoflíků na koupu vzoru střihu!"  />
+			<text id="error_customclothproduce_nomoney" name="Nemáš dostatek fashion dolarů na výrobu vzoru střihu!"  />
+			<text id="error_customclothunlock_nomoney" name="Nemáš dostatek fashion dolarů a zlatých knoflíků na uvolnění tohoto předmětu!"  />
+			<text id="error_customize_nomoney" name="Nemáš dostatek zlatých knoflíků na převlečení svého avatara."  />
+			<text id="error_custom_nameinvalide" name="Nesmíš používat {0}!"  />
+			<text id="error_deliverinfo_33" name="- DEBUG: Zboží ještě není vyrobeno-"  />
+			<text id="error_deliverinfo_35" name="-DEBUG: Pracovník nic nevyrobil-"  />
+			<text id="error_deliverinfo_36" name="Tento pracovní není k dispozici.Přestěhuj věci v prodejně tak, aby alespoň jedna strana pracovníků byla dostupná."  />
+			<text id="error_deliverinfo_37" name="Bohužel není volný žádný regál na vyložení zboží."  />
+			<text id="error_deliver_33" name="- DEBUG: Zboží ještě není vyrobeno-"  />
+			<text id="error_deliver_35" name="-DEBUG: Pracovník nic nevyrobil-"  />
+			<text id="error_deliver_36" name="Tento regál není k dispozici. Přestěhuj věci v prodejně tak, aby alespoň jedna strana regálů byla dostupná."  />
+			<text id="error_deliver_37" name="Tento regál je již bohužel plný. Najdi volný regál a tam vystav svoje zboží."  />
+			<text id="error_deliver_46" name="Toto zboží není možné pověsit. Najdi regál, na který ho můžeš vyložit."  />
+			<text id="error_deliver_title" name="Nejde to..."  />
+			<text id="error_editmode_3" name="- DEBUG: Nejnižší level není splněn-"  />
+			<text id="error_editmode_31" name="- DEBUG: Na předmět nelze kliknout-"  />
+			<text id="error_editmode_32" name="-DEBUG: Zboží není na skladu-"  />
+			<text id="error_editmode_37" name="-DEBUG: Zboží tady ještě leží-"  />
+			<text id="error_editmode_39" name="-DEBUG: Neznámá pozice-"  />
+			<text id="error_editmode_48" name="-DEBUG: Nemotivované pracovníky není možné přesunout-"  />
+			<text id="error_editmode_50" name="- DEBUG: Pozice je zablokovaná-"  />
+			<text id="error_editmode_51" name="-DEBUG: Pozice je prázdná-"  />
+			<text id="error_editmode_52" name="- DEBUG: Předmět nelze otočit-"  />
+			<text id="error_editmode_53" name="- DEBUG: Toto rozšíření již máš-"  />
+			<text id="error_editmode_54" name="- DEBUG: Toto rozšíření si bohužel zatím nemůžeš koupit-"  />
+			<text id="error_editmode_55" name="- DEBUG: Figurínu nelze prodat/uskladnit-"  />
+			<text id="error_editmode_nomoney" name="Toto zboží si bohužel nemůžeš dovolit."  />
+			<text id="error_editmode_removeMannequin" name="Dokud je figurína oblečená, nemůžeš jí prodat."  />
+			<text id="error_editmode_removeminCashdesk" name="Aby tvoji zákazníci mohli zaplatit zboží, musíš mít nejméně jednu kasu."  />
+			<text id="error_editmode_removeminChangingroom" name="Aby si tvoji zákazníci mohli vyskoušet zboží, musíš mít nejméně jednu převlíkací kabinu."  />
+			<text id="error_editmode_removeminCounter" name="Potřebuješ alespoň jeden regál, aby si mohl prodávat svoje zboží."  />
+			<text id="error_editmode_removeminFactory" name="Potřebuješ alespoň jednoho pracovníka, aby jsi mohl vyrábět zboží."  />
+			<text id="error_editmode_removeminMannequin" name="Aby si mohl lépe prezentovat své zboží, musíš mít nejméně jednu figurínu."  />
+			<text id="error_editmode_removenotallowedCounter" name="Na regálu se ještě nachází zboží!"  />
+			<text id="error_editmode_removenotallowedDoor" name="Potřebuješ dveře! Jestli chceš vyměnit dveře, stáhni si do prodejny nové."  />
+			<text id="error_editmode_removenotallowedFactory" name="Pracovník je ještě v nasazení!"  />
+			<text id="error_editmode_title" name="Chyba při přestavbě"  />
+			<text id="error_fashiongame_1" name="Prodejnu nelze otevřít. Prosím obrať se na Goodgame Studios-Support."  />
+			<text id="error_fashiongame_title" name="Těžká chyba"  />
+			<text id="error_forgotpassword_101" name="Zablokoval si přijímaní e-mailů. Prosím obrať se na support."  />
+			<text id="error_fullscreen_copy" name="Režim celé obrazovky bohužel není možný."  />
+			<text id="error_fullscreen_title" name="Režim celé obrazovky"  />
+			<text id="error_gift_20" name="Regál bohužel není volný na použití dárku."  />
+			<text id="error_gift_34" name="Již si dosáhl limit dárků.
+Chceš použít {0} dalších za {1} zlatých knoflíků?"  />
+			<text id="error_gift_37" name="Regál bohužel není volný na použití dárku."  />
+			<text id="error_gift_nomoney" name="Nemáš dostatek zlatých knoflíků na použití více dárků!"  />
+			<text id="error_gift_title" name="Dárky"  />
+			<text id="error_instantdesign_34" name="- DEBUG: Denní limit dosažen -"  />
+			<text id="error_instantdesign_nomoney" name="Nemáš dostatek zlatých knoflíků na časné oblečení figuríny."  />
+			<text id="error_instantdesign_nomoreinstant" name="Figurínu můžeš nově obléct jenom omezeně často. Zítra můžeš svůj výklad opět předělat."  />
+			<text id="error_instantdesign_title" name="Výklad"  />
+			<text id="error_instantwork_nomoney" name="Nemáš dostate zlatých knoflíků na dokončení výroby."  />
+			<text id="error_invitefriend_11" name="Hráč momentálně není online. Zkus to ještě jednou později!"  />
+			<text id="error_invitefriend_13" name="Tvůj přítel je již zaregistrován ve Fashion!"  />
+			<text id="error_invitefriend_14" name="E-mailová adresa je bohužel neplatná."  />
+			<text id="error_invitefriend_70" name="Dosáhl jsi maximální počet přátel!"  />
+			<text id="error_invitefriend_71" name="Hráč si již nemůže přidávat přátele!"  />
+			<text id="error_invitefriend_title" name="Pozvání se nezdařilo"  />
+			<text id="error_job_2" name="Padla! Již si pracoval dost."  />
+			<text id="error_join_20" name="Prodejna je plná, zkus to ještě jednou později."  />
+			<text id="error_join_21" name="-DEBUG: Již v prodejně-"  />
+			<text id="error_join_22" name="-DEBUG: Neznámá prodejna-"  />
+			<text id="error_join_title" name="Vstoupit do prodejny"  />
+			<text id="error_login_10" name="Jméno nebo heslo uživatele je nesprávné!"  />
+			<text id="error_login_11" name="Jméno nebo heslo uživatele je nesprávné!"  />
+			<text id="error_login_12" name="Uživatel je již přihlášen."  />
+			<text id="error_login_13" name="Uživatel je již přihlášen."  />
+			<text id="error_login_14" name="Jméno nebo heslo uživatele je nesprávné!"  />
+			<text id="error_login_15" name="Již jsi přihlášen"  />
+			<text id="error_login_16" name="Tvůj avatar je chybný. Prosím obrať se na support."  />
+			<text id="error_lostpassword_101" name="Zablokoval si přijímaní e-mailů. Klikni na OK, jestli chceš přijímaní povolit."  />
+			<text id="error_lostpassword_11" name="Po touto adresou není registrován žádný uživatel!"  />
+			<text id="error_marketplace_20" name="- DEBUG: Arkády jsou bohužel plné -"  />
+			<text id="error_marketplace_21" name="- DEBUG: Již se nacházíš v arkádách-"  />
+			<text id="error_marketplace_title" name="Goodgame arkády"  />
+			<text id="error_nocustomclothselected" name="Jestli chceš něco vyrobit, zvol si nejdřív tvar!"  />
+			<text id="error_nomoney_copy" name="Tohle si bohužel nemůžeš dovolit."  />
+			<text id="error_nomoney_guest_copy" name="Jsi na mizině?\nTak se rychle zaregistruj a vydělej {0} fashion dolarů!"  />
+			<text id="error_nomoney_title" name="Nedostatek peněz"  />
+			<text id="error_npchire_nomoney" name="Nemáš dostatek zlatých knoflíků na najmutí nového pokladního."  />
+			<text id="error_patternshop_44" name="Tento vzor střihu již máš."  />
+			<text id="error_patternshop_5" name="-DEBUG: WOD unknown-"  />
+			<text id="error_patternshop_nomoney" name="Nový vzor střihu si bohužel nemůžeš dovolit."  />
+			<text id="error_patternshop_title" name="Problém se vzorem střihu"  />
+			<text id="error_police_nomoney" name="Nemáš dostatek zlatých knoflíků na najmutí strážního obchodního domu."  />
+			<text id="error_register_10" name="Zadána e-mailová adresa není správná."  />
+			<text id="error_register_102" name="Zadáná e-mailová adresa není platná."  />
+			<text id="error_register_13" name="Pod touto e-mailovou adresou je již přihlášen jiný hráč."  />
+			<text id="error_register_14" name="Zadána e-mailová adresa není správna."  />
+			<text id="error_register_19" name="Tvoje e-mailová adresa je bohužel příliš dlouhá."  />
+			<text id="error_register_2" name="Svojí e-mailovou adresu si již potvrdil."  />
+			<text id="error_register_agb" name="Bez všeobecných obchodních podmínek to nejde. Přečti si je a potvrď je tlačítkem vlevo. Pak můžeš začít!"  />
+			<text id="error_register_emailinvalide" name="E-mailová adresa nemůže být prázdná, ani nemůže obsahovat zvláštní znaky."  />
+			<text id="error_register_passwordinvalide" name="Tvé heslo nemůže být prázdné ani nemůže obsahovat zvláštní znaky."  />
+			<text id="error_register_title" name="Chyba při registraci"  />
+			<text id="error_repair_36" name="-DEBUG: Pracovník není k zastižení-"  />
+			<text id="error_repair_48" name="-DEBUG: Pracovník má již 1OO% motivaci-"  />
+			<text id="error_repair_nomoney" name="Nemáš dostatek fashion dolarů na vyplácení bonusů ke mzdě."  />
+			<text id="error_repair_title" name="Oprava"  />
+			<text id="error_sale_47" name="Na tomto regálu již není žádné zboží!"  />
+			<text id="error_sale_title" name="Zváštní ponuka"  />
+			<text id="error_walk_23" name="- DEBUG: Toto místo není schůdné-"  />
+			<text id="error_work_31" name="-DEBUG: Pracovníci již pracují!-"  />
+			<text id="error_work_32" name="- DEBUG: K tomuto produktu chybí vzor střihu -"  />
+			<text id="error_work_36" name="Cesta k pracovníkovi je zatarasená! Pokus se změnit dekorace."  />
+			<text id="error_work_41" name="- DEBUG: V seznamu není žádný booster -"  />
+			<text id="error_work_45" name="- DEBUG: Typ produktu a typ pracovníka se neshodují-"  />
+			<text id="error_work_49" name="- DEBUG: Nesprávný booster pro tohoto pracovníka -"  />
+			<text id="error_work_67" name="Tvůj vzor střihu již není k dispozici. Vytvoř nový!"  />
+			<text id="error_work_nomoney" name="Nemáš dostatek fashion dolarů pro začátek výroby."  />
+			<text id="error_work_title" name="Odmítnutí provést práci"  />
+		</error_codes>
+		<feature>
+			<text id="feature_0_text_0" name="A je to tady!\n\Goodgame Fashion oficiálně startuje v BETA fáze.\nKaždý opět začíná levelem 1, připíšou se mu zakoupené zlaté knoflíky a jako poděkování ještě dostane 10 bonusových zlatých knoflíků.\n\nHodně zábavy u hry Goodgame Fashion!"  />
+			<text id="feature_0_title" name="Oficiální začátek!"  />
+			<text id="feature_10_text_0" name="Léto je tady!
+A je tady nová GeeDee kolekce!"  />
+			<text id="feature_1_text_0" name="Odstartuj to s přátelmi!\nObjev nové typy spolupráce!"  />
+			<text id="feature_2_text_0" name="Objev nové regály, převlíkací kabiny a kasy!"  />
+			<text id="feature_2_text_1" name="Převlíkaní ještě nikdy nebylo tak jednouché! Jednoduše klikni na svojí postavu!"  />
+			<text id="feature_2_text_2" name="Zkus Fashion se zvukem!"  />
+			<text id="feature_3_text_0" name="Jaro přichází!
+Přiveď do své prodejny čerstvý vánek pomocí nových vzorů střihů!"  />
+			<text id="feature_3_text_1" name="S novými etiketami bude Tvoje zboží ještě ziskovější!"  />
+			<text id="feature_4_text_0" name="Všechno bude pestré! Nová JayJay kolekce přinese barvy do Tvé prodejny!"  />
+			<text id="feature_4_text_1" name="Objev nové regály, převlíkací kabiny a kasy!"  />
+			<text id="feature_4_text_2" name="Nové jarní kabáty se opravdu vyplatí!"  />
+			<text id="feature_4_text_3" name="Buď po ruce přátelům a budeš odměněn!"  />
+			<text id="feature_5_text_0" name="Všechno bude pestré! Nová JayJay kolekce přinese barvy do Tvé prodejny!"  />
+			<text id="feature_5_text_1" name="Objev nové regály, převlíkací kabiny a kasy!&#039;"  />
+			<text id="feature_5_text_2" name="Nové jarní kabáty se opravdu vyplatí!"  />
+			<text id="feature_5_text_3" name="Buď po ruce přátelům a budeš odměněn!"  />
+			<text id="feature_6_text_0" name="Staň se módním návrhářem a vymysli si své vlastní střihy sám!"  />
+			<text id="feature_6_text_1" name="Objev nové výkladní skříně pro Tvojí prodejnu!"  />
+			<text id="feature_7_text_0" name="Drží se Tě štěstí?
+Zjisti to u nového kola štěstí v arkádech!"  />
+			<text id="feature_8_text_0" name="Zvyš svojí oblíbenost vnes do své prodejny glamour s novým luxusním nábytkem a dekoracema!"  />
+			<text id="feature_8_text_1" name="Nadchni zákazníky novými regálmi a kasami!"  />
+			<text id="feature_9_text_0" name="Zvyš reklamou oblíbenost Tvé prodejny a vydělej XP navíc!"  />
+			<text id="feature_9_text_1" name="Umístni víc dárku na svůj regál!"  />
+			<text id="feature_title" name="Nový vzhled"  />
+		</feature>
+		<feeds>
+			<text id="descriptionfashionfeed" name="Právě jsem nainstaloval Goodgame Fashion. Chceš taky vybudovat vlastní prodejnu a stát se módním návrhářem? Tak to zkus!"  />
+			<text id="descriptionlongfashion" name="Otevři svojí vlastní prodejnu v Goodgame Fashion. Staň se vyhlášeným módním návrhářem, nakupuj nové střihy, vyráběj svoje vlastní oblečení a udávej trendy. Nazdob svojí prodejnu a staň se novou hvězou módní scény!"  />
+		</feeds>
+		<forumaction>
+			<text id="forumaction_copy_1" name="Navrhni Tvou vlastní koupací módu a vyhrej!
+Vítěz očekává zlaté knoflíky a vítězný střih se objeví v knize střihů!
+
+Takže rychle na fórum a do toho!"  />
+			<text id="forumaction_title_1" name="Buď kreativní!"  />
+		</forumaction>
+		<loggedin_msg id=""  />
+		<panels>
+			<text id="panels_buddylist_morefriends" name="Víc přátel"  />
+			<text id="panels_login_email" name="Uživatelské jméno/ E-mail"  />
+			<text id="panels_login_loginbtn" name="LOGIN"  />
+			<text id="panels_login_lostpassword" name="Zapomněl jsi heslo?"  />
+			<text id="panels_login_password" name="Heslo"  />
+			<text id="panels_login_playbtn" name="IHNED HRÁT"  />
+			<text id="panels_login_registerbtn" name="ZAREGISTROVAT SE"  />
+			<text id="panels_login_rememberpassword" name="Uložit heslo"  />
+			<text id="panels_social_alone" name="Momentálně jsi tady sám!"  />
+			<text id="panels_social_bot" name="Fashion chat"  />
+			<text id="panels_social_chatblocked" name="Jenom registrovaní hráči od levelu 1 mohou používat chat."  />
+			<text id="panels_social_come_in" name="vstoupil do prodejny."  />
+			<text id="panels_social_go_out" name="opustil prodejnu."  />
+			<text id="panels_social_nofriends" name="Ještě nemáš žádné přátele!"  />
+			<text id="panels_social_welcome_market" name="Vítej v Goodgame arkády!"  />
+			<text id="panels_social_welcome_myshop" name="Vítej"  />
+		</panels>
+		<server>
+			<mail>
+				<text id="mail_invite_friend" name="Ahoj %s!&lt;br /&gt;&lt;br /&gt;Právě jsem objevil skvělou online hru &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Přes tento link se dostaneš přímo ke hře:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Přihlaš se pomocí tohoto linku a zdarma si otevři vlastní prodejnu v &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Zjisti jaké to je, vlastnit prodejnu oblečení. Vyráběj hezké oblečení, doplňky a boty a prodávej je ve své prodejně!&lt;br /&gt;&lt;br /&gt;Hodně zábavy u hry, %s"  />
+				<text id="mail_lost_pw" name="Ahoj %s!&lt;br /&gt;&lt;br /&gt;Tento automatický e-mail jsi dostal kvôli novému heslu, o které jsi žádal.&lt;br /&gt;Tvoje nové heslo zní: %s&lt;br /&gt;&lt;br /&gt;Přes tento link se dostaneš přímo ke hře:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;V případě otázek se obrať na support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;Přejeme hodně zábavy u hry!&lt;br /&gt;&lt;br /&gt;Tvůj tým z&lt;br /&gt;Goodgamestudios.com"  />
+				<text id="mail_registration" name="Ahoj,&lt;br /&gt;&lt;br /&gt;děkujeme za Tvoje přihlášení a vítáme Tě v &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Kdykoliv se můžeš přihlásit pomocí těchti informací:&lt;br /&gt;E-mail: %s&lt;br /&gt;Heslo: %s&lt;br /&gt;&lt;br /&gt;Přes tento link se dostaneš přímo ke hře:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;V případě otázek a problémů se obrať na support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;Přejeme hodně zábavy u hry!&lt;br /&gt;&lt;br /&gt;Tvůj tým z&lt;br /&gt;Goodgamestudios.com"  />
+			</mail>
+			<misc>
+				<text id="marketplace" name="Goodgame arkády"  />
+			</misc>
+		</server>
+		<server_msg>
+			<text id="server_msg_10" name="Server byl nově spuštěn. Brzy bude pokračovat.\nKlikni na F5, aby se stránka znova otevřela"  />
+			<text id="server_msg_title" name="Správa ze serveru:"  />
+		</server_msg>
+		<std_buttons>
+			<text id="btn_addcurrency" name="Koupit  fashion dolary/zlaté knoflíky"  />
+			<text id="btn_payment" name="Koupit fashion dolary/zlaté knoflíky"  />
+			<text id="btn_policeman" name="Strážní obchodního domu"  />
+			<text id="btn_register" name="Zaregistrovat se"  />
+			<text id="btn_superrewardChips" name="Vydělat fashion dolary"  />
+			<text id="btn_superrewardGold" name="Vydělat zlaté knoflíky"  />
+		</std_buttons>
+		<tooltips>
+			<text id="tooltip_Basic_Factory_Basicaccessoire" name="Zlatník"  />
+			<text id="tooltip_Basic_Factory_Basiccloth" name="Švadlena"  />
+			<text id="tooltip_Basic_Factory_Basicshoes" name="Obuvník"  />
+			<text id="tooltip_counter_pieces" name="Počet: {0}"  />
+			<text id="tooltip_customcloth_icon" name="Pootisky"  />
+			<text id="tooltip_customcloth_shape" name="Formy"  />
+			<text id="tooltip_customcloth_unlock" name="Odpojit"  />
+			<text id="tooltip_factory_empty" name="Vyrob nové zboží!"  />
+			<text id="tooltip_factory_preparestep1" name="Poučit pracovníka"  />
+			<text id="tooltip_factory_preparetitle" name="Klikni na"  />
+			<text id="tooltip_factory_readytoserv" name="Vyložit zboží"  />
+			<text id="tooltip_factory_readytoserv_amount" name="Počet: {0}"  />
+			<text id="tooltip_factory_wear" name="Motivace: {0}%"  />
+			<text id="tooltip_FashionActionPanel_btn_achievements" name="Vyznamenání"  />
+			<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Zlaté knoflíky/fashion dolarypřidat"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisement" name="Reklamní akce"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="od levelu {0} můžeš dělat reklamu"  />
+			<text id="tooltip_FashionActionPanel_btn_booster" name="Booster"  />
+			<text id="tooltip_FashionActionPanel_btn_coop" name="Spolupráce"  />
+			<text id="tooltip_FashionActionPanel_btn_decoshop" name="Přestavět"  />
+			<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="Dělej reklamu!"  />
+			<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalog"  />
+			<text id="tooltip_FashionActionPanel_btn_gifts" name="Dárky"  />
+			<text id="tooltip_FashionActionPanel_btn_highscore" name="Žebříček"  />
+			<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame arkády"  />
+			<text id="tooltip_FashionActionPanel_btn_openclose" name="Otevřít/zavřít prodejnu"  />
+			<text id="tooltip_FashionActionPanel_btn_ownshop" name="Moje prodejna"  />
+			<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Reklamní akce probíhá
+Klikni sem, jestli chceš vidět jak to jde"  />
+			<text id="tooltip_FashionActionPanel_btn_sale" name="Snižovat ceny"  />
+			<text id="tooltip_FashionActionPanel_btn_staff" name="Pokladní"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="Spodní díly"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="Vlasy"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="Barva pleti"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="Horní díly"  />
+			<text id="tooltip_FashionBookDialog_btn_all" name="Všechny"  />
+			<text id="tooltip_FashionBookDialog_btn_buy" name="Koupit vzor střihu"  />
+			<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="Navrhnout nový vzor střihu"  />
+			<text id="tooltip_FashionBookDialog_btn_mastery" name="ještě {0} do etiketového levelu {1}
+Klikni pro detaily"  />
+			<text id="tooltip_FashionBookDialog_btn_produce" name="Vyrábět"  />
+			<text id="tooltip_FashionBookDialog_customcloth" name="Vlastné vzory střihů"  />
+			<text id="tooltip_FashionBookDialog_female" name="Pro holky"  />
+			<text id="tooltip_FashionBookDialog_info" name="Mysli na to, aby si měl v prodejně pořád oblečení\n pro holky a kluky\n!"  />
+			<text id="tooltip_FashionBookDialog_male" name="Pro kluky"  />
+			<text id="tooltip_FashionBookDialog_unisex" name="Pro kluky &amp; holky"  />
+			<text id="tooltip_FashionBoosterDialog_addAmount" name="Počet kusů na nákup"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="Doba prodloužení"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="Doba prodloužení
++ {0}u {1} dalších přátel"  />
+			<text id="tooltip_FashionBoosterDialog_btn_buy" name="Koupit"  />
+			<text id="tooltip_FashionBoosterDialog_btn_info" name="Info"  />
+			<text id="tooltip_FashionBoosterDialog_coffee" name="Káva\nVýkon Tvé švadleny stoupne o 20%!"  />
+			<text id="tooltip_FashionBoosterDialog_currentAmount" name="Na skladě"  />
+			<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="Aktuální ochrana proti krádeži"  />
+			<text id="tooltip_FashionBoosterDialog_energy" name="Energetický nápoj\nVýkon Tvého obuvníka stoupne o 20%!"  />
+			<text id="tooltip_FashionBoosterDialog_police" name="Strážní obchodního domu"  />
+			<text id="tooltip_FashionBoosterDialog_price" name="Cena"  />
+			<text id="tooltip_FashionBoosterDialog_shake" name="Proteinový shake\nVýkon Tvého zlatníka stoupne o 20%!"  />
+			<text id="tooltip_FashionCoopDialog_btn_extend" name="Prodloužit spolupráci"  />
+			<text id="tooltip_FashionCounterDialog_btn_sale" name="Snížená cena"  />
+			<text id="tooltip_FashionCounterDialog_btn_spend" name="Beze zbytku a zdarma věnovat zboží"  />
+			<text id="tooltip_FashionCounterDialog_btn_unsale" name="Zrušit slevu"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="Koupit"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_close" name="Ukončit přestavbu"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko" name="Renovace"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="Dekorace"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="Výklad"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="Dveře"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="Podlaha"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="Stěny"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="Nástěnné dekorace"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="Rozšíření"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Dostavět poschodí"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="Rozšířit prodejnu"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional" name="Funkčnost"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Kasy"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="Převlíkací kabina"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="Regály"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="Pracovník"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="Figuríny"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="Vzor střihu"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_sell" name="Prodat"  />
+			<text id="tooltip_FashionExpansionFriends" name="Potřebuješ ještě {0} přátel\naby jsi mohl koupit toto rozšíření"  />
+			<text id="tooltip_FashionFactoryDialog_btn_instant" name="Okamžitě vyrobit!"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_remove" name="Vymazat"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_use" name="Použít"  />
+			<text id="tooltip_FashionGiftboxDialog_mygifts" name="Moje dárky"  />
+			<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="Rozeslat dárky"  />
+			<text id="tooltip_FashionHighscoreDialog_luxury" name="Třídit podle hodnoty luxusu"  />
+			<text id="tooltip_FashionHighscoreDialog_offline" name="offline"  />
+			<text id="tooltip_FashionHighscoreDialog_online" name="online"  />
+			<text id="tooltip_FashionHighscoreDialog_xp" name="Třídit podle XP"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="Doplňky"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="Oblečení"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="Boty"  />
+			<text id="tooltip_FashionMasteryInfoDialog_bronce" name="Vyrob věčší pčet kusů!"  />
+			<text id="tooltip_FashionMasteryInfoDialog_gold" name="Vyráběj rychleji!"  />
+			<text id="tooltip_FashionMasteryInfoDialog_silver" name="Získej víc XP!"  />
+			<text id="tooltip_FashionNamePanel_mc_luxury" name="Hodnota luxusu Tvé prodejny"  />
+			<text id="tooltip_FashionNamePanel_mc_rating" name="Oblíbenost tvé prodejny"  />
+			<text id="tooltip_FashionOptionPanel_btn_allowemails" name="Povolit e-maily"  />
+			<text id="tooltip_FashionOptionPanel_btn_blockemails" name="Zablokovat e-maily"  />
+			<text id="tooltip_FashionOptionPanel_btn_bugreport" name="Nahlásit chybu"  />
+			<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Převlíknout postavu"  />
+			<text id="tooltip_FashionOptionPanel_btn_changePass" name="Změnit heslo"  />
+			<text id="tooltip_FashionOptionPanel_btn_faq" name="FAQ"  />
+			<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="Celá obrazovka"  />
+			<text id="tooltip_FashionOptionPanel_btn_help" name="Pomoc"  />
+			<text id="tooltip_FashionOptionPanel_btn_logout" name="Odhlásit"  />
+			<text id="tooltip_FashionOptionPanel_btn_music" name="Zapnout/vypnout hudbu"  />
+			<text id="tooltip_FashionOptionPanel_btn_news" name="GGS fórum"  />
+			<text id="tooltip_FashionOptionPanel_btn_options" name="Možnosti"  />
+			<text id="tooltip_FashionOptionPanel_btn_register" name="Zaregistrovat se"  />
+			<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="Zapnout/vypnout zvuk"  />
+			<text id="tooltip_FashionOptionPanel_btn_support" name="Mail supportu"  />
+			<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="Potvrdit e-mailovú adresu"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="+ Zoom"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- Zoom"  />
+			<text id="tooltip_FashionOptionPanel_mc_floors" name="Poschodí"  />
+			<text id="tooltip_FashionOptionPanel_mc_ranking" name="Žebříček"  />
+			<text id="tooltip_FashionPatternFriends" name="Potřebuješ ještě {0} přátel\naby jsi mohl zveřejnit tento vzor střihu"  />
+			<text id="tooltip_FashionSocialPanel_btn_buddies" name="Přátelé"  />
+			<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="Přítomní hráči"  />
+			<text id="tooltip_FashionSocialPanel_btn_chat" name="Chat"  />
+			<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="Pozvat přátelé"  />
+			<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Přidat fashion dolary/zlaté knoflíky"  />
+			<text id="tooltip_FashionUserStatePanel_jobs" name="Počet akcí"  />
+			<text id="tooltip_FashionUserStatePanel_xp" name="{0} XP do dalšího levelu"  />
+			<text id="tooltip_Fashion_btnclose" name="Zavřít"  />
+			<text id="tooltip_levelx" name="Dostupné od levelu {0}"  />
+			<text id="tooltip_marketplace" name="Černá tabule"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Vyznamenání"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="Přidat přítele"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="Informace"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Vyhodit"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="Vymazat přítele"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="Navštívit"  />
+			<text id="tooltip_wheeloffortune_line1" name="Kolo štěstí!"  />
+			<text id="tooltip_wheeloffortune_line2" name="Klikni a hrej!"  />
+			<text id="tooltip_wheeloffortune_line3" name="Jedna hra zdarma"  />
+			<text id="tooltip_xofy" name="{0} z {1}"  />
+		</tooltips>
+		<tutorial>
+			<text id="tut_buypattern_copy" name="Tady v katalogu jsi můžeš nakoupit nové vzory střihů. Jednou zakoupený střih můžeš neomezeně používat. Klikni a kup si tak nový vzor."  />
+			<text id="tut_choosemannequin_copy" name="Aby se tvoje zboží stalo lákadlem, můžeš obléct jednu figurínu. Klikni na prázdnou figurínu."  />
+			<text id="tut_delivercounter_copy" name="... a nakonec na volný regál!"  />
+			<text id="tut_emptyfactory_copy" name="Švadlena pro Tebe vyrábí oblečení, později budeš mít k dispozici i další pracovníky a zboží. Klikni na švadlenu."  />
+			<text id="tut_instantwork_copy" name="Klikni na tlačítko a okamžitě tak dokonči výrobu zboží."  />
+			<text id="tut_lastscreen_copy" name="Super! Udělal jsi první krok, aby se Tvoje značka dostala do skříní celeho světa, první zákazníci přicházeji. Ještě se tady porozhlídni,je co objevovat.\n\nHodně zábavy!"  />
+			<text id="tut_mannequinaccept_copy" name="Tešíš se na reakce svých zákazníků? Klikni na potvrdit a podívej se na jejich hodnocení."  />
+			<text id="tut_mannequincategory_copy" name="Oblečení můžeš používat podle typu figuríny. Figuríně trupu můžeš obléknout pouze horní díly. Klikni na ikonu oblečení a uvidíš, co máš na výběr."  />
+			<text id="tut_mannequinclose_copy" name="Vypadáš docela dobře! Klikni na tlačítko zavřít a vrať se tak zpět do své prodejny."  />
+			<text id="tut_mannequinclothes_copy" name="Momentálně nabízíš jenom modré polo trička. Klikni na ně a oblíkni figurínu."  />
+			<text id="tut_openproducebook_copy" name="Koupil si vzor střihu. Vrať se teď opět ke knihe produktů a koukni se na zboží, které je možné vyrábět."  />
+			<text id="tut_preparesteps_copy" name="Klikni na švadlenu a dej jí tím pokyn k výrobě."  />
+			<text id="tut_producefactory_copy" name="Se zlatými knoflíky můžeš zboží okamžitě vyrobit. Klikni teda ještě jednou na švadlenu."  />
+			<text id="tut_produce_copy" name="Teď můžeš začít s výrobou."  />
+			<text id="tut_readyfactory_copy" name="Aby zákazníci mohli kupovat tvoje zboží, musíš jej umístit do regálů. Klikni na pracovníka s hotovým zbožím."  />
+			<text id="tut_start_copy" name="Vítej ve své prodejně, {0}!\nTento krátký úvod Ti pomůže rychle se zorientovat ve světě módy."  />
+			<text id="tut_title" name="Úvod!"  />
+		</tutorial>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Chyba"  />
+				<text id="generic_alert_connection_failed_copy" name="Právě probíhají údržbové práce. Zkus to za chvíli ještě jednou!"  />
+				<text id="generic_alert_connection_failed_title" name="Údržbové práce!"  />
+				<text id="generic_alert_connection_lost_copy" name="Spojení s hracím servrem bylo přerušeno. Prosím, zkus to za chvíli jěště jednou."  />
+				<text id="generic_alert_connection_lost_description" name="Zrovna se provádí údržba, to musí čas od času být.
+Aby bylo možné nainstalovat aktualizase a nové funkce nebo urovnat chybu.&lt;br&gt;&lt;br&gt;
+Pracujeme tvrdě, aby jsi mohl zase brzo hrát."  />
+				<text id="generic_alert_connection_lost_promo" name="V přestávce vyzkoušej jinou hru."  />
+				<text id="generic_alert_connection_lost_thanks" name="Děkujeme za pochopení!"  />
+				<text id="generic_alert_connection_lost_title" name="Spojení ztraceno!"  />
+				<text id="generic_alert_error" name="Chyba"  />
+				<text id="generic_alert_information" name="Odkaz"  />
+				<text id="generic_alert_loggedout_copy" name="Úspěšně jsi se odregistroval. Nezapomeň: každý den na tebe čeká login bonus!"  />
+				<text id="generic_alert_loggedout_title" name="Tak zatím!"  />
+				<text id="generic_alert_warning" name="Varování"  />
+				<text id="generic_alert_watchout" name="Pozor!"  />
+				<text id="generic_invalid_email_provider" name="E-mailová adresa tohoto provozovatele není povolena!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Tvé internetové spojení je pomalé. Zkus to za cvhíli jěště jednou!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Jak se ti líbí hra a co by se dalo vylepšit? Napiš nám svůj názor do Goodgame fóra popř. skupiny!"  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Pozor: Průběh hry se pouze uloží, pokud se zaregistruješ!"  />
+				<text id="generic_register_error_invalidemail" name="Zadaná emailová adresa není správná."  />
+				<text id="generic_report_muted_chattry" name="Z důvodu zablokování nemůžeš nyní používat Chat."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Přijmout"  />
+				<text id="generic_btn_cancel" name="Přerušit"  />
+				<text id="generic_btn_close" name="Zavřít"  />
+				<text id="generic_btn_continue" name="Dále"  />
+				<text id="generic_btn_end" name="Ukončit"  />
+				<text id="generic_btn_endnow" name="Okamžitě ukončit"  />
+				<text id="generic_btn_goback" name="Zpět"  />
+				<text id="generic_btn_no" name="Ne"  />
+				<text id="generic_btn_noshare" name="Ale ne!"  />
+				<text id="generic_btn_notaccept" name="Odmítnout"  />
+				<text id="generic_btn_okay" name="Okay"  />
+				<text id="generic_btn_reconnect" name="Znovu se připojit"  />
+				<text id="generic_btn_refresh" name="Aktualizovat"  />
+				<text id="generic_btn_report" name="Hlášení"  />
+				<text id="generic_btn_search" name="Hledat"  />
+				<text id="generic_btn_share" name="Dělit se!"  />
+				<text id="generic_btn_skip" name="Přeskočit"  />
+				<text id="generic_btn_start" name="Začít"  />
+				<text id="generic_btn_topayment" name="Sem s tím!"  />
+				<text id="generic_btn_yes" name="Ano"  />
+			</button>
+			<chat>
+				<text id="generic_chat_writeable" name="Pouze zaregistrovaní hráči od úrovně 1 mohou použivat Chat."  />
+			</chat>
+			<common>
+				<text id="generic_admin" name="Správce"  />
+				<text id="generic_animation" name="Ukázat animace"  />
+				<text id="generic_bugreport" name="Nahlaš chybu"  />
+				<text id="generic_changePass" name="Změna hesla"  />
+				<text id="generic_comma" name="."  />
+				<text id="generic_conningsoon" name="*Pracuje se na tom*"  />
+				<text id="generic_date" name="Datum"  />
+				<text id="generic_day" name="Den"  />
+				<text id="generic_dayformat" name="{0}.{1}"  />
+				<text id="generic_days" name="Dny"  />
+				<text id="generic_day_short" name="T"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="Email"  />
+				<text id="generic_faq" name="Otázky a odpovědi"  />
+				<text id="generic_forum" name="Fórum"  />
+				<text id="generic_friend" name="Přítel"  />
+				<text id="generic_friends" name="Přátelé"  />
+				<text id="generic_general" name="Všeobecně"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Skupina"  />
+				<text id="generic_guest" name="Host"  />
+				<text id="generic_help" name="Pomoc"  />
+				<text id="generic_high" name="Vysoká"  />
+				<text id="generic_hour" name="Hodina"  />
+				<text id="generic_hours" name="Hodiny"  />
+				<text id="generic_hour_short" name="Hod."  />
+				<text id="generic_limited" name="Limitované"  />
+				<text id="generic_logout" name="Logout"  />
+				<text id="generic_low" name="Nízká"  />
+				<text id="generic_medium" name="Střední"  />
+				<text id="generic_minute" name="Minuta"  />
+				<text id="generic_minutes" name="Minuty"  />
+				<text id="generic_minute_short" name="Min."  />
+				<text id="generic_moderator" name="Moderátor"  />
+				<text id="generic_music" name="Hudba on/off"  />
+				<text id="generic_name" name="Jméno"  />
+				<text id="generic_news" name="Novinky"  />
+				<text id="generic_options" name="Nastavení"  />
+				<text id="generic_quality" name="Kvalita"  />
+				<text id="generic_register" name="Uložit a registrovat"  />
+				<text id="generic_second" name="Sekunda"  />
+				<text id="generic_seconds" name="Sekundy"  />
+				<text id="generic_second_short" name="Sek."  />
+				<text id="generic_sound" name="Tón on/off"  />
+				<text id="generic_support" name="Podpora"  />
+				<text id="generic_today" name="Dnes"  />
+				<text id="generic_tomorrow" name="Zítra"  />
+				<text id="generic_tutorial" name="Tutoriál"  />
+				<text id="generic_username" name="Hrací jméno"  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="Včera"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Stará verze!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Aktualizuj stránku."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Chceš {0} připojit jako přítele?"  />
+				<text id="generic_friends_add_title" name="Žádost o přátelství"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Více přátel!"  />
+				<text id="generic_friends_denied_copy" name="{0} tvoji žádost odmítnul."  />
+				<text id="generic_friends_denied_title" name="Žádost odmítnuta!"  />
+				<text id="generic_friends_invite_badword_copy" name="Zadané jméno není povoleno!"  />
+				<text id="generic_friends_invite_badword_title" name="Pozor!"  />
+				<text id="generic_friends_invite_error_copy" name="Pouze jako zaregistrovaný hráč můžeš pozvat přátele."  />
+				<text id="generic_friends_invite_error_title" name="Teprve zaregistrovaný"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Režim celé obrazovky není možný"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Česky"  />
+				<text id="generic_language_da" name="Dánsky"  />
+				<text id="generic_language_de" name="Německy"  />
+				<text id="generic_language_el" name="Řecké"  />
+				<text id="generic_language_en" name="Anglicky"  />
+				<text id="generic_language_es" name="Španělsky"  />
+				<text id="generic_language_fi" name="Finsky"  />
+				<text id="generic_language_fr" name="Francouzsky"  />
+				<text id="generic_language_hu" name="Maďarsky"  />
+				<text id="generic_language_id" name="Indonéský"  />
+				<text id="generic_language_it" name="Italsky"  />
+				<text id="generic_language_ja" name="Japonsky"  />
+				<text id="generic_language_ko" name="Korejsky"  />
+				<text id="generic_language_nl" name="Holandsky"  />
+				<text id="generic_language_no" name="Norsky"  />
+				<text id="generic_language_pl" name="Polsky"  />
+				<text id="generic_language_pt" name="Portugalsky"  />
+				<text id="generic_language_pt_BR" name="Brazilské"  />
+				<text id="generic_language_ru" name="Rusky"  />
+				<text id="generic_language_sv" name="Švédsky"  />
+				<text id="generic_language_tr" name="Turecky"  />
+				<text id="generic_language_zh_CN" name="Čínsky (zjednodušeně)"  />
+				<text id="generic_language_zh_TW" name="Čínsky (tradičně)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Tvoje konto bylo zablokováno! Prosím obrať se na support!"  />
+				<text id="generic_login_banned_2" name="Tvé konto bylo uzavřeno!
+
+Zákaz trvá do: {0}
+
+Pokud máš otázky ohledně zákazu, obrať se na support."  />
+				<text id="generic_login_banned_3" name="Tvé konto bylo trvale zablokováno.
+
+Pokud máš otázky týkající se zablokování, obrať se na support."  />
+				<text id="generic_login_banned_permanent" name="pernamentní"  />
+				<text id="generic_login_facebook" name="Přihlásit se přes facebook"  />
+				<text id="generic_login_login" name="Login"  />
+				<text id="generic_login_loginname" name="Uživatelské jméno/ E-mail"  />
+				<text id="generic_login_lostpassword" name="Zapomenuté heslo?"  />
+				<text id="generic_login_lostpassword_copy" name="Zadej svoji e-mailovou adresu a my ti zašleme heslo."  />
+				<text id="generic_login_lostpassword_title" name="Zapomenuté heslo"  />
+				<text id="generic_login_newplayer" name="Jsi tady nový?"  />
+				<text id="generic_login_password" name="Heslo"  />
+				<text id="generic_login_play" name="OKAMŽITĚ HRÁT"  />
+				<text id="generic_login_playnow" name="Nyní hrát!"  />
+				<text id="generic_login_register" name="Registrace"  />
+				<text id="generic_login_rememberpassword" name="Uložit heslo"  />
+				<text id="generic_login_wronglogin" name="Uživatelské jméno nebo heslo jsou neplatné!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Zaregistruj se a ulož si svůj stav hry!"  />
+				<text id="generic_logout_guest_title" name="Registrace"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Nejpozději za {0} bude hra opět přístupná."  />
+				<text id="servershutdownpremonition_copy" name="Hrací server je v {0}ukončován. Prosím odhlaš se nebo se přihlaš, aby jsi zajistil stav hry."  />
+				<text id="servershutdownpremonition_registered_copy" name="Hrací server bude z důvodu údržby za {0} vypnut."  />
+				<text id="servershutdown_copy" name="Server hry se vypíná. Za pár minut se zase můžeš přihlásit."  />
+				<text id="welcomeback_copy" name="Super, tě zase vidět! Malá pozornost, která ti ulehčí návrat do hry!"  />
+				<text id="welcomeback_title" name="Opět tady!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Nové heslo:"  />
+				<text id="generic_change_password_copy_oldpass" name="Staré heslo:"  />
+				<text id="generic_change_password_copy_send" name="Nové heslo ti bylo zasláno na tvoji emailovou adresu."  />
+				<text id="generic_change_password_error_failed" name="Sorry, ale to není tvůj starý passwort."  />
+				<text id="generic_change_password_error_success" name="Heslo bylo úspěšně změněno!"  />
+				<text id="generic_change_password_faild_copy" name="Tvé nové heslo by mělo být delší než 2 znaky a staré heslo musí být zadané správně"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Tvé heslo nesmí být prázné nebo obsahovat speciální znaky."  />
+				<text id="generic_change_password_faild_title" name="Zadání hesla"  />
+				<text id="generic_change_password_title" name="Změna hesla"  />
+				<text id="generic_guest_change_password_faild_copy" name="Pouze jako zaregistrovaný hráč můžeš změnit heslo!"  />
+				<text id="generic_guest_change_password_faild_title" name="Teprve zaregistrovaný"  />
+			</password>
+			<payment>
+				<text id="generic_payment_48hdiscount_button" name="V prvních 48 hodinách více zlata"  />
+				<text id="generic_payment_48hdiscount_button_general" name="Více {0} v dalších 48 hodinách"  />
+				<text id="generic_payment_48hdiscount_copy" name="V následujících 48 hodinách koupit zlato a u vybraných balení obdržet dodatečně {0}%!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="V následujících 48 hodinách při nákupu zlata obdržíš při každém balení extra {0}%!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="V prvních 48 hodinách {0} koupit a u všech balíků obdržet {1}% extra!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="V prvních 48 hodinách {0} koupit a u vybraných paketů obdržet {1}% extra!"  />
+				<text id="generic_payment_copy" name="Budeš převeden na platební oddělení."  />
+				<text id="generic_payment_discount_button" name="Nyní {0}% více zlata za peníze!"  />
+				<text id="generic_payment_discount_copy" name="Kup nyní zlato a obdrž {0}% bonus!"  />
+				<text id="generic_payment_discount_copy_general" name="Nyní {0} koupit a obdržet {1}% bonus!"  />
+				<text id="generic_payment_discount_general" name="Nyní {0}% více {1} za peníze!"  />
+				<text id="generic_payment_discount_generalshort" name="{0}% více za peníze!"  />
+				<text id="generic_payment_discount_time" name="JEŠTĚ {0}!"  />
+				<text id="generic_payment_discount_title" name="Více zlata za peníze!"  />
+				<text id="generic_payment_newPrices" name="Od teď! Dlouhodobé snížení cen v splátkovém obchodě! Ušetři peníze!"  />
+				<text id="generic_payment_title" name="Platební oddělení"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Najdi tunel přes Cyberspace"  />
+				<text id="loading_text_10" name="Rozmísti předměty po světě"  />
+				<text id="loading_text_11" name="Namaluj grafiky"  />
+				<text id="loading_text_12" name="Vybarvi tlačítka"  />
+				<text id="loading_text_13" name="Schovej velikonoční vajíčka"  />
+				<text id="loading_text_14" name="Vyhledej uživatelská data"  />
+				<text id="loading_text_15" name="Zažeň chyby"  />
+				<text id="loading_text_16" name="Nakrm programátory"  />
+				<text id="loading_text_17" name="Prověř klienta"  />
+				<text id="loading_text_18" name="Otoč přesýpací hodiny"  />
+				<text id="loading_text_19" name="Ochlaď systém"  />
+				<text id="loading_text_2" name="Namaž olejem ozubená kola"  />
+				<text id="loading_text_20" name="Ukonči to"  />
+				<text id="loading_text_3" name="Otoč kolem pro křečka"  />
+				<text id="loading_text_4" name="Zahřej server"  />
+				<text id="loading_text_5" name="Doufám, že vše probíhá dobře"  />
+				<text id="loading_text_6" name="Vyzvedni deratizátora"  />
+				<text id="loading_text_7" name="Vypočítej komplikované algoritmy"  />
+				<text id="loading_text_8" name="Kalibruj proudící kompenzátory"  />
+				<text id="loading_text_9" name="Vyrob předměty"  />
+				<text id="loading_text_default" name="Inicializace"  />
+				<text id="loading_text_itemXML" name="Stáhnout herní prvky"  />
+				<text id="progress_loadfiles" name="Herní grafiky jsou stahovány..."  />
+				<text id="progress_serverconnection" name="Spojit s hracím serverem..."  />
+			</progressbar>
+			<register>
+				<text id="generic_register_agb_copy" name="Bez všeobecných podmínek by to nešlo. Jednoduše přečíst a tlačítkem na levo potvrdit. Pak se bude pokračovat!"  />
+				<text id="generic_register_agb_read" name="Pročíst VOP"  />
+				<text id="generic_register_alreadyavatar" name="Uživatel již má avatara."  />
+				<text id="generic_register_badword" name="Nesmíš {0} používat ve svém jménu."  />
+				<text id="generic_register_btn_agb" name="Akceptovat VOP"  />
+				<text id="generic_register_btn_later" name="Později"  />
+				<text id="generic_register_btn_next" name="Dále"  />
+				<text id="generic_register_btn_save" name="Uložit"  />
+				<text id="generic_register_character" name="Vytvoř vlastní charakter"  />
+				<text id="generic_register_copy_0" name="Nyní se zaregistruj zdarma!"  />
+				<text id="generic_register_copy_1" name="Ulož si stav hry!"  />
+				<text id="generic_register_emaillong_copy" name="Tvoje emailová adresa je bohužel krátká."  />
+				<text id="generic_register_emailwrong_copy" name="Zadaná emailová adresa není správná."  />
+				<text id="generic_register_email_copy" name="E-mailová adresa nesmí být prázdná nebo obsahovat speciální znaky."  />
+				<text id="generic_register_error" name="Registrace selhala"  />
+				<text id="generic_register_errormistake" name="Chyba"  />
+				<text id="generic_register_error_accountalreadyexists" name="Pod touto emailovou adresou je již přihlášen jeden hráč, sorry."  />
+				<text id="generic_register_forfree" name="Zdarma se přihlásit!"  />
+				<text id="generic_register_forfree1" name="Zdarma"  />
+				<text id="generic_register_letsgo" name="Jdem na to!"  />
+				<text id="generic_register_namealreadyused" name="Jméno je již zadané."  />
+				<text id="generic_register_namenotvalid" name="Zadané jméno je neplatné."  />
+				<text id="generic_register_passwordshort_copy" name="Zadané heslo je příliš krátké. Musí se skládat nejméně ze 4 znaků."  />
+				<text id="generic_register_passwordwrong_copy" name="Zadané heslo je neplatné."  />
+				<text id="generic_register_password_copy" name="Tvé heslo nesmí být prázdné nebo obsahovat speciální znaky."  />
+				<text id="generic_register_rememberdata" name="Zaznamenat data"  />
+				<text id="generic_register_reward" name="Přihlaš se zdarma a obdržíš {0} {1} jako dárek!"  />
+				<text id="generic_register_subscribe" name="Přihlášení"  />
+				<text id="generic_register_success" name="Úspěšně jsi se zaregistroval."  />
+				<text id="generic_register_title" name="Chyba v registraci"  />
+				<text id="generic_register_unlock" name="Tato funkce neproběhla!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Prosím davej pozor na své vyjadřování. Jinak hrozí zablokování Chatu nebo časové zablokování konta.
+Důvod: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="Po dobu dní {0} nesmíš z důvodu opakovaného chybného chování používat Chat. Důvod: {1}"  />
+				<text id="generic_report_muted_domain1" name="Žádné e-mailové adresy na chatu!"  />
+				<text id="generic_report_muted_reported_copy" name="Nekolik hráčů si na tebe stěžovalo. Po dobu {0} nemůžeš používat Chat. Důvod: {1}"  />
+				<text id="generic_report_player_copy" name="Opravdu cheš hráče {0} nahlásit?\nPozor! Zneužití této funkce může způsobit zablokování konta."  />
+				<text id="generic_report_player_reason_0" name="Urážka"  />
+				<text id="generic_report_player_reason_1" name="Sexuální obtěžování"  />
+				<text id="generic_report_player_reason_2" name="Rasistický výrok"  />
+				<text id="generic_report_player_reason_3" name="Hrozba/Vydírání"  />
+				<text id="generic_report_player_reason_title" name="Důvod zprávy:"  />
+				<text id="generic_report_player_title" name="Nahlásit hráče?"  />
+				<text id="generic_report_reported_copy" name="Jiný hráč tě nahlásil u správce. Důvod: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Spojit"  />
+				<text id="generic_select_world" name="Zvol svět:"  />
+				<text id="generic_world" name="Svět: {0}"  />
+				<text id="generic_world_international" name="Mezinárodní: {0}"  />
+			</worlds>
+		</generic_flash>
+	</fashion>
+ 

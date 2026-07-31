@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FASHION - tr - 5 -->
+	<fashion>
+		<achievement>
+			<text id="Basic_Achievement_Boughtdeco" name="Lüks Butik"  />
+			<text id="Basic_Achievement_Boughtdeco_copy" name="Satın alınan dekorasyon sayısı"  />
+			<text id="Basic_Achievement_Boughtpatterns" name="Geniş Ürün Yelpazesi"  />
+			<text id="Basic_Achievement_Boughtpatterns_copy" name="Satın alınan desen sayısı"  />
+			<text id="Basic_Achievement_Earnedchips" name="Marka Lideri"  />
+			<text id="Basic_Achievement_Earnedchips_copy" name="Kazanılan Moda Dolar"  />
+			<text id="Basic_Achievement_FinishedCoops" name="Herkes için Moda"  />
+			<text id="Basic_Achievement_FinishedCoops_copy" name="Tamamlanan Co-op sayısı"  />
+			<text id="Basic_Achievement_FinishedGoldCoops" name="Altın malzemeci"  />
+			<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Tamamlanan Altın Co-op sayısı"  />
+			<text id="Basic_Achievement_Mannequindesign" name="Müthiş bir vitrin"  />
+			<text id="Basic_Achievement_Mannequindesign_copy" name="Giydirilen manken sayısı:"  />
+			<text id="Basic_Achievement_Masteries" name="Meşgul Dikişçi"  />
+			<text id="Basic_Achievement_Masteriesgold" name="Altın Dikişçi"  />
+			<text id="Basic_Achievement_Masteriesgold_copy" name="Elde edilen Altın Etiket sayısı"  />
+			<text id="Basic_Achievement_Masteries_copy" name="Elde edilen Etiket sayısı"  />
+			<text id="Basic_Achievement_Producedaccessoires" name="Üretilen aksesuarlar"  />
+			<text id="Basic_Achievement_Producedaccessoires_copy" name="Üretilen aksesuar sayısı"  />
+			<text id="Basic_Achievement_Producedbags" name="El Çantası Satıcısı"  />
+			<text id="Basic_Achievement_Producedbags_copy" name="Üretilen el çantası sayısı"  />
+			<text id="Basic_Achievement_Producedbottoms" name="Bacaklar ve daha fazlası"  />
+			<text id="Basic_Achievement_Producedbottoms_copy" name="Üretilen pantolon ve etek sayısı"  />
+			<text id="Basic_Achievement_Producedclothes" name="Giyim Tekeli"  />
+			<text id="Basic_Achievement_Producedclothes_copy" name="Üretilen giysi sayısı"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires" name="Harika Aksesuarlar"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="Üretilen aksesuar çeşidi sayısı"  />
+			<text id="Basic_Achievement_Produceddifferentclothes" name="Giysi Aralığı"  />
+			<text id="Basic_Achievement_Produceddifferentclothes_copy" name="Üretilen eşya çeşidi sayısı"  />
+			<text id="Basic_Achievement_Produceddifferentitems" name="Genel Giyimci"  />
+			<text id="Basic_Achievement_Produceddifferentitems_copy" name="Üretilen mal çeşidi sayısı"  />
+			<text id="Basic_Achievement_Produceddifferentshoes" name="Ayakkabı Çılgınlığı"  />
+			<text id="Basic_Achievement_Produceddifferentshoes_copy" name="Üretilen ayakkabı çeşidi sayısı"  />
+			<text id="Basic_Achievement_Producedfemaleonly" name="Kız kıyafet çılgınlığı"  />
+			<text id="Basic_Achievement_Producedfemaleonly_copy" name="Üretilen kız ürün sayısı"  />
+			<text id="Basic_Achievement_Producedfullbody" name="Yaka ve Kravat"  />
+			<text id="Basic_Achievement_Producedfullbody_copy" name="Üretilen takım elbise ve elbise sayısı:"  />
+			<text id="Basic_Achievement_Producedhats" name="Şapkacı"  />
+			<text id="Basic_Achievement_Producedhats_copy" name="Üretilen şapka sayısı"  />
+			<text id="Basic_Achievement_Producedjewlery" name="Takı Kutusu"  />
+			<text id="Basic_Achievement_Producedjewlery_copy" name="Üretilen mücevher sayısı"  />
+			<text id="Basic_Achievement_Producedmaleonly" name="Sadece Erkekler!"  />
+			<text id="Basic_Achievement_Producedmaleonly_copy" name="Üretilen erkek ürün sayısı"  />
+			<text id="Basic_Achievement_Producedshoes" name="Magnat Ayakkabı"  />
+			<text id="Basic_Achievement_Producedshoes_copy" name="Üretilen ayakkabı sayısı"  />
+			<text id="Basic_Achievement_Producedtops" name="Her yerde üstlükler var"  />
+			<text id="Basic_Achievement_Producedtops_copy" name="Üretilen üstlük sayısı"  />
+			<text id="Basic_Achievement_Soldduringsale" name="Hırsız Avcısı"  />
+			<text id="Basic_Achievement_Soldduringsale_copy" name="Satılmış Kampanya Ürünü"  />
+			<text id="Basic_Achievement_Soldproducts" name="Satılan ürün sayısı"  />
+			<text id="Basic_Achievement_Soldproducts_copy" name="Satılan ürün sayısı"  />
+			<text id="Basic_Achievement_Spentchips" name="Cömert Tezgâhtar"  />
+			<text id="Basic_Achievement_Spentchips_copy" name="Harcanan Fashiondollar miktarı"  />
+			<text id="Basic_Achievement_Spentgold" name="Altın mağaza"  />
+			<text id="Basic_Achievement_Spentgold_copy" name="Harcanan Altın Düğme sayısı"  />
+			<text id="Basic_Achievement_Stolenproducts" name="Adi Hırsız Moteli"  />
+			<text id="Basic_Achievement_Stolenproducts_copy" name="Çalınan ürün sayısı"  />
+			<text id="Basic_Achievement_Wheeloffortune" name="Dönen iğne"  />
+			<text id="Basic_Achievement_Wheeloffortune_copy" name="Çarkıfelek kazanma sayısı"  />
+			<text id="Social_Achievement_Friendscout" name="Popüler Müşteri"  />
+			<text id="Social_Achievement_Friendscout_copy" name="Ağ arkadaşları sayısı"  />
+		</achievement>
+		<alerts>
+			<text id="alerts_avatarcustomize_goldrequest" name="{0} {1} karşılığında kıyafetlerini değiştirmek istiyor musun?"  />
+			<text id="alerts_avatarcustom_workingplayer_copy" name="Bir şey yapmaya başladın ve şu anda giyeceklerini değiştiremezsin!"  />
+			<text id="alerts_avatarcustom_workingplayer_title" name="Bir dakika lütfen!"  />
+			<text id="alerts_booster_info_copy" name="Güvenlik görevlisi mağazanda soygun olmasını engeller. Bu görevliyi 5 günlüğüne işe alıp daha sonra da çalışma süresini uzatabilirsin."  />
+			<text id="alerts_booster_info_copy_1" name="Eğer {0} tane daha arkadaş edinirsen, korunman {1} kadar uzayacak."  />
+			<text id="alerts_booster_info_title" name="Güvenlik Görevlisi"  />
+			<text id="alerts_buytiles_copy" name="{0} adet karoyu {1} karşılığında satın almak istiyor musun?"  />
+			<text id="alerts_buytiles_title" name="Yer karosu satın al?"  />
+			<text id="alerts_customcloth_noshape_copy" name="Çıktıyı üstüne koyabilmek için önce bir şekil seçmen lazım!"  />
+			<text id="alerts_decoshop_dragtipp_copy" name="Kullanmak için mağazanıza bu maddeyi sürükleyin."  />
+			<text id="alerts_decoshop_dragtipp_title" name="Süsleyin!"  />
+			<text id="alerts_decoshop_next_Cashdesk_bylevel" name="İlave bir kasa almak için {0}. seviyeye ulaşman gerekiyor. Eski bir kasayı mağazandan buraya sürükleyerek yeni bir tane de alabilirsin."  />
+			<text id="alerts_decoshop_next_Changingroom_bylevel" name="İlave bir soyunma odası satın almak için {0}. Level&#039;a ulaşman gerek. Eski bir soyunma odasını mağazandan buraya sürükleyerek yeni bir tane de alabilirsin."  />
+			<text id="alerts_decoshop_next_Counter_bylevel" name="İlave bir raf satın almak için {0}. Level&#039;a ulaşman gerek. Eski bir rafı mağazandan buraya sürükleyerek yeni bir tane de alabilirsin."  />
+			<text id="alerts_decoshop_next_Factory_bylevel" name="İlave bir işçi satın almak için {0}. Level&#039;a ulaşman gerek. Eski bir işçiyi mağazandan buraya sürükleyerek yeni bir tane de alabilirsin."  />
+			<text id="alerts_decoshop_next_Mannequin_bylevel" name="İlave bir manken satın almak için {0}. Level&#039;a ulaşman gerek. Eski bir mankeni mağazandan buraya sürükleyerek yeni bir tane de alabilirsin."  />
+			<text id="alerts_decoshop_nomoreCashdesk" name="Şu anda daha fazla kasa satın alamazsın!"  />
+			<text id="alerts_decoshop_nomoreChangingroom" name="Şimdilik daha fazla soyunma odası satın alamazsın!"  />
+			<text id="alerts_decoshop_nomoreCounter" name="Şimdilik daha fazla raf satın alamazsın!"  />
+			<text id="alerts_decoshop_nomoreExpansion" name="Şimdilik genişletme kullanamazsın."  />
+			<text id="alerts_decoshop_nomoreFactory" name="Şimdilik daha fazla işçi alamazsın!"  />
+			<text id="alerts_decoshop_nomoreMannequin" name="Şu anda daha fazla manken satın alamazsın!"  />
+			<text id="alerts_decoshop_sellitem_copy" name="Bu parçayı, parça başına {0} karşılığında satmak istediğine emin misin?"  />
+			<text id="alerts_decoshop_sellitem_title" name="Parça sat"  />
+			<text id="alerts_decoshop_storeFactory_copy" name="Mutsuz bir çalışanı mağazandan çıkaramazsın. Ya ona bir ikramiye öde, ya da onu sat."  />
+			<text id="alerts_decoshop_storeMannequin_copy" name="Mankeni üstünde kıyafet varken depolayamazsın."  />
+			<text id="alerts_decoshop_store_title" name="Stok"  />
+			<text id="alerts_decoshop_workingplayer_copy" name="Mağazanı yenilemeden önce, başladığın eylemi bitirmen lazım!"  />
+			<text id="alerts_decoshop_workingplayer_title" name="Meşgul!"  />
+			<text id="alerts_fashionbook_notarget_copy" name="Mal üretmek için bir işçi seçin."  />
+			<text id="alerts_fashionbook_notarget_copy_1" name="Bu işçi zaten meşgul durumda.
+Başka bir işçi seç!"  />
+			<text id="alerts_fashionbook_notarget_title" name="Hangi işçi?"  />
+			<text id="alerts_fashionbook_notequaltype_copy" name="Bu işçi ile sadece belli şeyleri üretebilirsin. 
+{0} Koleksiyonundan bir ürün seç."  />
+			<text id="alerts_fashionbook_notequaltype_title" name="Farklı ürün"  />
+			<text id="alerts_fashionbook_usebooster_title" name="Yükseltici kullan?"  />
+			<text id="alerts_friend_ask" name="Bu kişiyi ({0})arkadaş olarak eklemek istiyor musun?"  />
+			<text id="alerts_friend_denied" name="{0} davetini reddetti"  />
+			<text id="alerts_friend_title" name="Arkadaşlık"  />
+			<text id="alerts_gift_workingplayer_copy" name="Hala elinde ürün var. Hediye göndermeden önce onları bir rafa koy."  />
+			<text id="alerts_gift_workingplayer_title" name="Önce bunu al"  />
+			<text id="alerts_instantworking_goldrequest" name="Anında bitirmek istiyor musun?
+Bunu hala {0} kez yapabilirsin!"  />
+			<text id="alerts_invitefriend_copy" name="{0} adlı kişiye yolladığın davetiye iletildi!"  />
+			<text id="alerts_invitefriend_title" name="Yeni arkadaşlar!"  />
+			<text id="alerts_isoworld_counter_outofreach_copy" name="Rafa ulaşmak mümkün değil. Yerini değiştir."  />
+			<text id="alerts_isoworld_counter_outofreach_title" name="Erişilemiyor!"  />
+			<text id="alerts_isoworld_factory_outofreach_copy" name="Bu işçiye erişilemiyor. Lütfen biraz yeniden düzenle."  />
+			<text id="alerts_isoworld_factory_outofreach_title" name="Erişilemiyor!"  />
+			<text id="alerts_isoworld_mannequin_instant" name="Mankenini değiştirmek istiyor musun?"  />
+			<text id="alerts_isoworld_marketplace_title" name="Kara tahta"  />
+			<text id="alerts_kickedbyplayer_copy" name="Bu mağaza sahibi tarafından kapatılmış."  />
+			<text id="alerts_kickedbyplayer_title" name="Gitmen gerekiyor!"  />
+			<text id="alerts_kickjobber_copy" name="Mağazanda çalışan başka oyuncular olduğu sürece, yenileme moduna geçemezsin."  />
+			<text id="alerts_kickjobber_title" name="Mağazandaki çalışanlar"  />
+			<text id="alerts_kickplayer_copy" name="Başka oyuncular hala mağazandalar. Yeniden süsleme moduna geçmek için onları çıkarmak istiyor musun?"  />
+			<text id="alerts_kickplayer_title" name="Oyuncu çıkar"  />
+			<text id="alerts_lostpassword_copy" name="E-posta adresini yaz, sana yeni bir şifre yollayalım."  />
+			<text id="alerts_lostpassword_title" name="Şifreni mi unuttun?"  />
+			<text id="alerts_mannequindesign_nocloth_copy" name="Raflarında bu mankeni giydirebiliceğin uygun ürünün yok."  />
+			<text id="alerts_mannequindesign_nocloth_title" name="Hiç mal yok!"  />
+			<text id="alerts_marketplace_playerleaved_copy" name="Oyuncu salondan ayrıldı."  />
+			<text id="alerts_marketplace_playerleaved_title" name="Çok geç!"  />
+			<text id="alerts_placetiles_copy" name="1. Zemin karosu seç
+2. Mağazandaki zemine tıkla, fare düğmesine basılı tut ve değiştirmek istediğin alanı seç.
+3. Fare düğmesini bırak."  />
+			<text id="alerts_placetiles_title" name="Döşeme yeri?"  />
+			<text id="alerts_register_copy_addgold" name="Burada alış veriş yapabilmek için önce kayıt olman gerekiyor"  />
+			<text id="alerts_register_copy_advertisement" name="Mağazanı geliştirebilmek için önce kayıt olman gerekiyor."  />
+			<text id="alerts_register_copy_changeavatar" name="Görünüşünü değiştirmek için kaydolman gerekiyor!"  />
+			<text id="alerts_register_copy_changepassword" name="Sadece kayıtlı kullanıcılar şifrelerini değiştirebilir!"  />
+			<text id="alerts_register_copy_coop" name="Bir Co-Op&#039;a katılabilmek için önce kayıt olman gerekiyor!"  />
+			<text id="alerts_register_copy_gifts" name="Hediye yollamak için önce kaydolman gerekiyor."  />
+			<text id="alerts_register_copy_invitefriend" name="Arkadaş davet edebilmen için kayıt olman gerekiyor."  />
+			<text id="alerts_register_copy_logout" name="Durumunu kaydetmek için üye ol!"  />
+			<text id="alerts_register_title" name="Kayıt"  />
+			<text id="alerts_servermsg_10" name="Sunucu yeniden başlatılıyor, yakında devam edebilirsin.
+Lütfen oturumunu kapat."  />
+			<text id="alerts_servermsg_title" name="Sunucu mesajı!"  />
+			<text id="alerts_staff_fire_copy" name="Kasiyerini kovmak istediğine emin misin?
+Eğer yeterli kasiyerin olmazsa, müşterilerin daha fazla bekleyecek ve mutsuz olacak."  />
+			<text id="alerts_staff_fire_title" name="Kasiyeri kov?"  />
+			<text id="alerts_staff_hire_copy" name="Yeni bir kasiyeri işe almak istiyor musun?"  />
+			<text id="alerts_staff_hire_title" name="Yeni kasiyer"  />
+			<text id="alerts_versioncheck_copy" name="En yeni sürümü yüklemek için lütfen sayfayı güncelle."  />
+			<text id="alerts_versioncheck_title" name="Eski Versiyon!"  />
+		</alerts>
+		<cloth>
+			<text id="cloth_blackbowlermale" name="Silindir Şapka"  />
+			<text id="cloth_blackdressfemale" name="Küçük Siyah Elbise"  />
+			<text id="cloth_blackhandbagfemale" name="Siyah Çanta"  />
+			<text id="cloth_blackheelsfemale" name="Siyah Topuklu Ayakkabı"  />
+			<text id="cloth_blackjacketmale" name="Basit Deri Ceket"  />
+			<text id="cloth_blackpant2male" name="GeeCee Kot Pantolonu"  />
+			<text id="cloth_blackpantfemale" name="Siyah Dar Kız Pantolon"  />
+			<text id="cloth_blackpantmale" name="Siyah Dar Erkek Pantolon"  />
+			<text id="cloth_blacksuitmale" name="İnce Çizgili Takım Elbise"  />
+			<text id="cloth_blackwatchmale" name="Siyah Saat"  />
+			<text id="cloth_bluebaggypantsfemale" name="JayJay Kız Bol Düşük Bel Pantolon"  />
+			<text id="cloth_blueblousefemale" name="Mavi Bluz"  />
+			<text id="cloth_bluecapfemale" name="Mavi Beyzbol Şapkası"  />
+			<text id="cloth_bluecapmale" name="Mavi Beyzbol Şapkası"  />
+			<text id="cloth_blueheadphones" name="JayJay Kulaklık"  />
+			<text id="cloth_bluenecklacefemale" name="Mavi İnci Kolye"  />
+			<text id="cloth_bluepolomale" name="Mavi Polo Gömlek"  />
+			<text id="cloth_blueshirtmale" name="Mavi Tişört"  />
+			<text id="cloth_bluesweatermale" name="JayJay Mavi Erkek Süveter"  />
+			<text id="cloth_bootsfemale" name="GeeCee Kız Botu"  />
+			<text id="cloth_brownknitcapfemale" name="Kahverengi bere"  />
+			<text id="cloth_brownknitcapmale" name="Kahverengi bere"  />
+			<text id="cloth_cardiganfemale" name="GeeCee Kız Hırkası"  />
+			<text id="cloth_cardiganmale" name="GeeCee Erkek Hırkası"  />
+			<text id="cloth_charlestonhatfemale" name="Charleston Şapkası"  />
+			<text id="cloth_checkshirtfemale" name="JayJay Kareli Kız Gömleği"  />
+			<text id="cloth_checkshirtmale" name="JayJay Kareli Erkek Gömlek"  />
+			<text id="cloth_customcloth" name="Görünüşünü kendin yarat!"  />
+			<text id="cloth_darkbluejeansfemale" name="Koyu Mavi Kız Kotu"  />
+			<text id="cloth_darkbluejeansmale" name="Koyu Mavi Erkek Kot"  />
+			<text id="cloth_dressfemale" name="GeeCee Kız Elbisesi"  />
+			<text id="cloth_flowerskirtfemale" name="GeeDee Çiçekli Etek"  />
+			<text id="cloth_ggsshirtmale" name="GeeCee Tişört"  />
+			<text id="cloth_goldnecklacefemale" name="Altın Kolye"  />
+			<text id="cloth_greendressfemale" name="GeeDee Elbise"  />
+			<text id="cloth_greenjacketfemale" name="JayJay Kız Ceket"  />
+			<text id="cloth_greenjacketmale" name="JayJay Erkek Ceket"  />
+			<text id="cloth_greenpulloverfemale" name="Yeşil Balıkçı Yaka Kazak"  />
+			<text id="cloth_greenshirtmale" name="GeeDee Erkek Gömlek"  />
+			<text id="cloth_greysuitmale" name="Gri Takım elbise"  />
+			<text id="cloth_lightbluejeansfemale" name="Mavi Kız Kotu"  />
+			<text id="cloth_lightbluejeansmale" name="Erkek Mavi Kot Pantolon"  />
+			<text id="cloth_manblackmale" name="Siyah Nubuk Deri Ayakkabısı"  />
+			<text id="cloth_manbrownmale" name="Kahverengi Deri Ayakkabı"  />
+			<text id="cloth_orangeknitcapfemale" name="Turuncu Bere"  />
+			<text id="cloth_orangeknitcapmale" name="Turuncu Bere"  />
+			<text id="cloth_perlnecklacefemale" name="İnci Kolye"  />
+			<text id="cloth_pinkhangbagfemale" name="Kapitone Çanta"  />
+			<text id="cloth_pinkshirtfemale" name="Pembe Polo Gömlek"  />
+			<text id="cloth_premiumbluejacketmale" name="Baharlık Ceket"  />
+			<text id="cloth_premiumgreenjacketfemale" name="Baharlık Palto"  />
+			<text id="cloth_premiumjumpsuitfemale" name="GeeDee Tulum"  />
+			<text id="cloth_premiumshortsmale" name="GeeDee Erkek Short"  />
+			<text id="cloth_purplehandbagfemale" name="GeeCee El Çantası"  />
+			<text id="cloth_purplepulloverfemale" name="Mor Balıkçı Yaka Kazak"  />
+			<text id="cloth_purpletshirtfemale" name="JayJay Kız Tişört"  />
+			<text id="cloth_redcapfemale" name="Kırmızı Beyzbol Şapkası"  />
+			<text id="cloth_redcapmale" name="Kırmızı Beyzbol Şapkası"  />
+			<text id="cloth_reddressfemale" name="Askısız Abiye"  />
+			<text id="cloth_redheelsfemale" name="Kırmızı Topuklu Ayakkabı"  />
+			<text id="cloth_redskirtfemale" name="Kırmızı Kurdelalı Etek"  />
+			<text id="cloth_redsneakermale" name="JayJay Kırmızı Erkek Koşu Ayakkabısı"  />
+			<text id="cloth_redtopfemale" name="Yaldızlı Kırmızı Üst"  />
+			<text id="cloth_scraffemale" name="Benekli GeeCee Şal"  />
+			<text id="cloth_scrafmale" name="GeeCee Erkek Şalı"  />
+			<text id="cloth_silvernecklacefemale" name="Gümüş Kolye"  />
+			<text id="cloth_silverwatchmale" name="Gümüş Saat"  />
+			<text id="cloth_sneakersfemale" name="Beyaz Spor Ayakkabı"  />
+			<text id="cloth_sneakersgreenmale" name="GeeCee Yeşil Koşu Ayakkabısı"  />
+			<text id="cloth_sneakersmale" name="Beyaz Spor Ayakkabı"  />
+			<text id="cloth_strawberrysneakerfemale" name="JayJay Çilek Ayakkabı"  />
+			<text id="cloth_stripedshirtmale" name="GeeDee Çizgili Erkek Gömlek"  />
+			<text id="cloth_stripedtopfemale" name="GeeDee Kız Yazlık Üstlük"  />
+			<text id="cloth_stripedtshirtmale" name="JayJay Çizgili Erkek Tişört"  />
+			<text id="cloth_sweathoodiemale" name="GeeDee Erkek Kapşonlu Sweatshirt"  />
+			<text id="cloth_trenchcoatmale" name="Siyah Yağmurluk"  />
+			<text id="cloth_whiteshirtmale" name="Beyaz Gömlek"  />
+			<text id="cloth_whiteskirtfemale" name="Beyaz Mini Etek"  />
+			<text id="cloth_yellowdressfemale" name="Şirin Kokteyl Elbisesi"  />
+		</cloth>
+		<commons>
+			<text id="achievement_rang" name="Sıralama {0}/{1}"  />
+			<text id="comingsoon" name="*Yakında*"  />
+			<text id="currency_cash" name="Moda Dolar"  />
+			<text id="currency_gold" name="Altın Düğmeler"  />
+			<text id="currency_gold_single" name="Altın Düğme"  />
+			<text id="factorytyp_accessories" name="Aksesuarlar"  />
+			<text id="factorytyp_clothes" name="Giysi"  />
+			<text id="factorytyp_shoes" name="Ayakkabı"  />
+			<text id="friendscount" name="Arkadaşlar {0}"  />
+			<text id="levelcount" name="Seviye {0}"  />
+			<text id="levellabel" name="Seviye"  />
+			<text id="mastery" name="Etiket-Seviyesi"  />
+			<text id="new" name="Yeni!"  />
+			<text id="xplabel" name="Tecrübe Puanı"  />
+		</commons>
+		<coopmission>
+			<text id="coop_desc_1" name="Bir piknik için bazı güzel temel giyecekler!"  />
+			<text id="coop_desc_10" name="Balo gecen için güzel gecelik elbiseler!"  />
+			<text id="coop_desc_11" name="Erkekler için klasikler!"  />
+			<text id="coop_desc_2" name="Spor yapmak için ideal kıyafet!"  />
+			<text id="coop_desc_3" name="Bütün gece insanlar ve müzik!"  />
+			<text id="coop_desc_4" name="Her durum için mükemmel bir hediye!"  />
+			<text id="coop_desc_5" name="Muhteşem uyan bir takımdan daha iyisi olamaz!"  />
+			<text id="coop_desc_6" name="Ayakkabılar Baktığınız her yerde!"  />
+			<text id="coop_desc_7" name="Etekler, üstler ve altlar...her şey kırmızı!"  />
+			<text id="coop_desc_8" name="Kızlarımız için elbiseler!"  />
+			<text id="coop_desc_9" name="Dans dersleri için mükemmel!"  />
+			<text id="coop_title_1" name="Piknik yapalım!"  />
+			<text id="coop_title_10" name="Balo Gecesi!"  />
+			<text id="coop_title_11" name="Siyah Zamanı!"  />
+			<text id="coop_title_2" name="Tüm Sporlar!"  />
+			<text id="coop_title_3" name="Her şey satıldı!"  />
+			<text id="coop_title_4" name="Harika Hediyeler!"  />
+			<text id="coop_title_5" name="Sadece Erkekler!"  />
+			<text id="coop_title_6" name="Ayakkabılar her yerde!"  />
+			<text id="coop_title_7" name="Kırmızılar içindeki kız!"  />
+			<text id="coop_title_8" name="Kız Giyim"  />
+			<text id="coop_title_9" name="Dans dersi!"  />
+		</coopmission>
+		<coop_msg>
+			<text id="coop_msg_0" name="{0} bu Co-Op&#039;u başlattı."  />
+			<text id="coop_msg_1" name="{0} Co-Op&#039;a katıldı."  />
+			<text id="coop_msg_2" name="{0} Co-Op&#039;u terk etti."  />
+			<text id="coop_msg_3" name="{0}, {2} kez {1} üretmek istiyor."  />
+			<text id="coop_msg_4" name="{0}, {1} üretti."  />
+			<text id="coop_msg_5" name="{0} Co-Op&#039;u uzattı."  />
+		</coop_msg>
+		<dialogs>
+			<text id="dialogs_achievement_title" name="Başarılar"  />
+			<text id="dialogs_advertisementfinal_copy" name="Poromosyonun sona erdi! Sonuçlarına göz at! Bir sonraki promosyonun acaba nasıl olacak?"  />
+			<text id="dialogs_advertisementfinal_title" name="Tebrikler!"  />
+			<text id="dialogs_advertisementrunning_copy" name="Promosyon şu anda devam ediyor. Nasıl gittiğini görmek için buraya tıkla."  />
+			<text id="dialogs_advertisementrunning_time" name="Kalan Süre:"  />
+			<text id="dialogs_advertisementrunning_title" name="Devam eden promosyon"  />
+			<text id="dialogs_advertisement_btn_start" name="Başla"  />
+			<text id="dialogs_advertisement_flyer_copy" name="Popülerliğini artır!"  />
+			<text id="dialogs_advertisement_flyer_reward" name="{0} Puan"  />
+			<text id="dialogs_advertisement_flyer_title" name="İlan Promosyonu"  />
+			<text id="dialogs_advertisement_magazine_copy" name="Her müşteri iki kat fazla satın alır!"  />
+			<text id="dialogs_advertisement_magazine_reward" name="x {0}"  />
+			<text id="dialogs_advertisement_magazine_title" name="Dergi Reklamı"  />
+			<text id="dialogs_advertisement_title" name="Promosyon"  />
+			<text id="dialogs_advertisement_tv_copy" name="Mağazandan alış veriş yapan her müşteri sana tecrübe puanı kazandırır!"  />
+			<text id="dialogs_advertisement_tv_title" name="TV Reklamı"  />
+			<text id="dialogs_avatarselection_copy" name="Bu isim daha önceden alınmış. Hakkında:"  />
+			<text id="dialogs_avatarselection_title" name="Ay"  />
+			<text id="dialogs_avatar_female" name="Kız"  />
+			<text id="dialogs_avatar_male" name="Erkek"  />
+			<text id="dialogs_avatar_name" name="Adı:"  />
+			<text id="dialogs_avatar_randombtn" name="Rasgele kıyafet"  />
+			<text id="dialogs_avatar_title" name="Karakterinizi yaratın"  />
+			<text id="dialogs_bonus_cashdesk_copy" name="Şimdi mağazana yeni bir kasa ve kasiyer ekleyebilirsin!"  />
+			<text id="dialogs_bonus_cashdesk_title" name="Yeni kasa"  />
+			<text id="dialogs_bonus_changingroom_copy" name="Yeni bir soyunma odası açıldı."  />
+			<text id="dialogs_bonus_changingroom_title" name="Yeni soyunma odası"  />
+			<text id="dialogs_bonus_counter_copy" name="Ekstra raf satın alabilirsin!"  />
+			<text id="dialogs_bonus_counter_title" name="Yeni raf"  />
+			<text id="dialogs_bonus_expand_copy" name="Genişleyerek müşterilerin, süslemeler ve daha fazlası için daha fazla yer sahibi oldun!"  />
+			<text id="dialogs_bonus_expand_title" name="Genişleme!"  />
+			<text id="dialogs_bonus_factory_copy" name="Şimdi daha fazla ürün üretmek için yeni bir çalışanı işe alabilirsin."  />
+			<text id="dialogs_bonus_factory_title" name="Yeni işçiler"  />
+			<text id="dialogs_bonus_level2_copy" name="Biliyor muydun? Mağazanı genişleterek, müşteriler ve yeni ürünler için daha fazla alan sahibi olabilirsin."  />
+			<text id="dialogs_bonus_level5_copy" name="Biliyor muydun? Mağazanı daha popüler hale getirmek, daha fazla eşya satın alabilmek ve ekstra tecrübe puanı kazanmak için mağazanı geliştirebilirsin."  />
+			<text id="dialogs_bonus_levelUp_copy" name="Tebrikler! Level atladın."  />
+			<text id="dialogs_bonus_levelUp_title" name="SEVİYE ATLAMA!"  />
+			<text id="dialogs_bonus_level_title" name="Dikkat!"  />
+			<text id="dialogs_bonus_login_copy" name="Sen yokken mağazanda şunlar oldu:"  />
+			<text id="dialogs_bonus_login_copy2" name="GİRİŞ BONUSU"  />
+			<text id="dialogs_bonus_login_title" name="Geri geldin!"  />
+			<text id="dialogs_bonus_pattern_copy" name="Bazı yeni desenleri erişilebilir hale getirdin:"  />
+			<text id="dialogs_bonus_pattern_title" name="Yeni modeller"  />
+			<text id="dialogs_booster_btnbuypolice" name="İşe Al/Uzat"  />
+			<text id="dialogs_booster_policeman_notime" name="pasif"  />
+			<text id="dialogs_booster_title" name="Yükseltici"  />
+			<text id="dialogs_changepassword_newpassword" name="Yeni şifre:"  />
+			<text id="dialogs_changepassword_oldpassword" name="Eski Şifre:"  />
+			<text id="dialogs_changepassword_title" name="Şifre değiştir"  />
+			<text id="dialogs_coopreward_finish_0" name="Altın"  />
+			<text id="dialogs_coopreward_finish_1" name="Gümüş"  />
+			<text id="dialogs_coopreward_finish_2" name="Bronz"  />
+			<text id="dialogs_coopreward_title_fail" name="Co-Op başarısız!"  />
+			<text id="dialogs_coopreward_title_success" name="Co-Op {0} ile tamamlandı"  />
+			<text id="dialogs_coopshelp_copy" name="İşleri arkadaşlarınla yaparak daha fazla tecrübe ve Fashiondollar kazanabilirsin.
+Ne kadar hızlı olursan, o kadar büyük ödül hak edersin!
+
+Zamanın bitmek üzere ise uzatman yeterli!
+
+Unutma ki, sadece katkıda bulunursan ödüle hak kazanırsın!"  />
+			<text id="dialogs_coopshelp_title" name="Co-Op nedir?"  />
+			<text id="dialogs_coop_btn_action" name="Ayrıntılar"  />
+			<text id="dialogs_coop_btn_activecoops" name="Aktif"  />
+			<text id="dialogs_coop_btn_join" name="Katıl"  />
+			<text id="dialogs_coop_btn_newcoop" name="Co-Op&#039;a Başla"  />
+			<text id="dialogs_coop_btn_progress" name="İlerleme"  />
+			<text id="dialogs_coop_btn_protocol" name="Protokol"  />
+			<text id="dialogs_coop_btn_quit" name="Kapat"  />
+			<text id="dialogs_coop_extendtime_copy" name="{0} Altın karşılığında bu Co-Op&#039;u uzatmak istiyor musun?
+Altın Süresi: {1}Gümüş Süresi: {2}
+Bronze Süresi: {3}"  />
+			<text id="dialogs_coop_extendtime_title" name="Daha fazla zaman?"  />
+			<text id="dialogs_coop_maxuser" name="Max. Katılımcı: {0}"  />
+			<text id="dialogs_coop_member" name="Co-Op üyeleri:"  />
+			<text id="dialogs_coop_minlevel" name="Co-Op&#039;a katılım için izin verilen maksimum seviye: {0}"  />
+			<text id="dialogs_coop_minlevel_short" name="Minimum Seviye: {0}"  />
+			<text id="dialogs_coop_produce_copy" name="Bu Co-Op için ne kadar sık {0} üretmek istiyorsun?"  />
+			<text id="dialogs_coop_produce_title" name="Co-Op için üret?"  />
+			<text id="dialogs_coop_quit_copy" name="Bu Co-Op&#039;u terk etmek istediğine emin misin?"  />
+			<text id="dialogs_coop_subtitle" name="Üretmen gereken şey:"  />
+			<text id="dialogs_coop_timeInfo" name="Tamamlanma süresi:"  />
+			<text id="dialogs_coop_timeleft" name="Kalan süre:"  />
+			<text id="dialogs_coop_txt_noactive" name="Şu anda hiç aktif Co-Op yok.
+Yeni bir tane başlat!"  />
+			<text id="dialogs_coop_txt_title" name="Co-Op&#039;lar"  />
+			<text id="dialogs_counterclick_btndonate" name="Bağışlamak"  />
+			<text id="dialogs_counterclick_copy" name="Aşağıdaki mallar bu rafın üstündedir."  />
+			<text id="dialogs_counterclick_title" name="Raf"  />
+			<text id="dialogs_customclothbuy_copy" name="{1} Altın Düğme karşılığında, {0}&#039;ı kataloğuna kalıcı olarak eklemek istediğine emin misin?"  />
+			<text id="dialogs_customclothbuy_title" name="Deseni satın al!"  />
+			<text id="dialogs_customclothhelp_copy" name="Kendi kıyafetlerini burada yaratıp üretebilirsin!
+Şekil ve renk seç!
+Şekil üretim süresini ve kazancını belirler.
+Daha sonra desen 24 saatliğine erişilebilir olur.
+Deseni elinde tutmak istersen, kalıcı olarak kataloğuna ekleyebilirsin."  />
+			<text id="dialogs_customclothinfo_title" name="Kendi tarzın!"  />
+			<text id="dialogs_customcloth_btn_choose" name="Seç"  />
+			<text id="dialogs_customcloth_entername" name="Bana bir isim ver!"  />
+			<text id="dialogs_customcloth_icon" name="Yazdır"  />
+			<text id="dialogs_customcloth_shape" name="Şekil"  />
+			<text id="dialogs_customcloth_title" name="Tasarımların modayı belirliyor!"  />
+			<text id="dialogs_decoshophelp_copy" name="Eğer mobilya ve dekorasyonlarını kasaya değil de bu sekmeye sürüklersen, depoya konacaklar. Tekrar mağazaya geri sürüklersen, sana herhangi bir ücreti olmayacak.
+Her ürünün ürün numarasını boş kutunun yanında görebilirsin."  />
+			<text id="dialogs_decoshophelp_copy_1" name="Mobilya ve dekorasyonların lüksük değerleri var. Bu değerler toplanınca mağazanın lükslük değeri hesaplanıyor! 
+Mağazan ne kadar lüks?"  />
+			<text id="dialogs_decoshophelp_title" name="Rafları/dekorasyonları depoya mı koymak istiyorsun?"  />
+			<text id="dialogs_decoshophelp_title_1" name="Lüks değer?"  />
+			<text id="dialogs_factoryclick_btn_cancel" name="Üretimi durdur"  />
+			<text id="dialogs_factoryclick_copy" name="Anında bitirmek istiyor musun? Bunu bugün {0} kez daha yapabilirsin."  />
+			<text id="dialogs_factoryclick_title" name="SATILIK"  />
+			<text id="dialogs_fashionbook_durationtime" name="Süre: {0}"  />
+			<text id="dialogs_fashionbook_emptypattern" name="Yeni desenler henüz erişilebilir değil."  />
+			<text id="dialogs_fashionbook_emptypatterncustomcloth" name="Burada sana özel desenleri bulabilirsin!"  />
+			<text id="dialogs_fashionbook_emptyproducts" name="Ürün üretmek için desene ihtiyacın var.
+
+Katalogdan desen satın alabilirsin."  />
+			<text id="dialogs_fashionbook_pieces" name="Parça sayısı:"  />
+			<text id="dialogs_fashionbook_productionPrice" name="{0} üretim gideri"  />
+			<text id="dialogs_fashionbook_saleprice" name="/ parça başı:"  />
+			<text id="dialogs_featureUnlocked_advertisement" name="Mağazanı daha da başarılı hale getirmek için reklam yap!"  />
+			<text id="dialogs_featureUnlocked_arcades" name="Atari salonunda yeni arkadaş edinebilirsin!"  />
+			<text id="dialogs_featureUnlocked_coop" name="Arkadaşlarınla beraber yeni bir Co-Op başlat!"  />
+			<text id="dialogs_featureUnlocked_custompattern" name="Artık kendi desenlerini yaratabilirsin!"  />
+			<text id="dialogs_featureUnlocked_decoration" name="Senin için yeni dekorasyonlar etkinleştirildi!"  />
+			<text id="dialogs_featureUnlocked_policeman" name="Dikkat! Artık eşyaların çalınma riski var! En iyisi bir polis memurunu işe almak!"  />
+			<text id="dialogs_featureUnlocked_ranking" name="Sıralama tablosundan diğer oyuncuları ziyaret edebilirsin!"  />
+			<text id="dialogs_featureUnlocked_wheeloffortune" name="Çarkıfelekte şansını deneyerek süper hediyeler kazanabilirsin!"  />
+			<text id="dialogs_giftbox_btnclose" name="Kapat"  />
+			<text id="dialogs_giftbox_btnsend" name="hediye olarak yolla"  />
+			<text id="dialogs_giftbox_empty_friends" name="Her gün, her bir arkadaşına, bir adet hediye gönderebilirsin."  />
+			<text id="dialogs_giftbox_empty_mygifts" name="Hediye kutun boş.
+Arkadaşlarına hediye yollarsan, onlar da belki sana karşılık olarak hediye yollarlar."  />
+			<text id="dialogs_giftbox_empty_sendablegifts" name="Bugün hediye yok."  />
+			<text id="dialogs_giftbox_friendstitle" name="Arkadaşına Gönder"  />
+			<text id="dialogs_giftbox_mygiftstitle" name="Hediyelerim"  />
+			<text id="dialogs_giftbox_sendablegiftstitle" name="Hediyeler gönder"  />
+			<text id="dialogs_highscore_name" name="Adı"  />
+			<text id="dialogs_highscore_rank" name="Sıra"  />
+			<text id="dialogs_highscore_search" name="İsim/Sıralama Ara"  />
+			<text id="dialogs_highscore_title" name="Sıralama"  />
+			<text id="dialogs_info_goldsmith_copy" name="Kuyumcu sadece aksesuar üretir."  />
+			<text id="dialogs_info_goldsmith_title" name="Kuyumcu"  />
+			<text id="dialogs_info_sewer_copy" name="Terzi kıyafet dışında birşey dikmez."  />
+			<text id="dialogs_info_sewer_title" name="Terzi"  />
+			<text id="dialogs_info_shoemaker_copy" name="Ayakkabıcı sadece ayakkabı üretir."  />
+			<text id="dialogs_info_shoemaker_title" name="Ayakkabıcı"  />
+			<text id="dialogs_invitefriend_copy" name="Arkadaşını davet etmek için onun adını ve E-posta adresini yaz."  />
+			<text id="dialogs_invitefriend_emptyparam" name="Her kutucuğu doldurman gerekiyor."  />
+			<text id="dialogs_invitefriend_friendname" name="Arkadaşının adı:"  />
+			<text id="dialogs_invitefriend_mail" name="Arkadaşının E-posta adresi:"  />
+			<text id="dialogs_invitefriend_myname" name="Adın:"  />
+			<text id="dialogs_invitefriend_title" name="Davetiye"  />
+			<text id="dialogs_lonelycash_copy" name="Birisi kayıp eşya bürosuna bir cüzdan bırakmış!
+
+Belki arkadaşlarından birine aittir?"  />
+			<text id="dialogs_lonelycash_title" name="Buldum!"  />
+			<text id="dialogs_lonelycop_copy" name="Güvenlik bölümünün başı, stajeri için bir iş arıyor! Belki arkadaşlarından biri onu işe alır!"  />
+			<text id="dialogs_lonelycop_title" name="İstek!"  />
+			<text id="dialogs_lonelypants_copy" name="Kasiyerin içinde ekstra kıyafet olan bir kutu buldu!
+Onları arkadaşlarınla paylaş!"  />
+			<text id="dialogs_lonelypants_title" name="Bu nedir?"  />
+			<text id="dialogs_mannequindesign_empty" name="Bu kategoride seçebileceğin herhangi bir şeye sahip değilsin."  />
+			<text id="dialogs_mannequindesign_title" name="Manken"  />
+			<text id="dialogs_mannequinpaycheck_copy" name="Müşterilerini etkilemek için mankenlerinde farklı ürünler sergile ve mümkün olduğunca çok farklı kombinasyon dene!"  />
+			<text id="dialogs_mannequinpaycheck_title" name="Değerlendirme"  />
+			<text id="dialogs_mastery_copy_0" name="{0} için bir etiket kazandın!"  />
+			<text id="dialogs_mastery_copy_1" name="Ekstra ürünleri arkadaşlarınla paylaş!"  />
+			<text id="dialogs_mastery_info" name="Hak ettiğin her etiket, ürünlerini daha da iyi yapar!"  />
+			<text id="dialogs_mastery_title" name="Yeni bir etiket!"  />
+			<text id="dialogs_noreward_copy" name="Başka bir oyuncu senden daha hızlı oldu!"  />
+			<text id="dialogs_noreward_title" name="Üzgünüz!"  />
+			<text id="dialogs_payment_copy" name="Burada Altın Düğme/Fashiondollar satın al"  />
+			<text id="dialogs_payment_title" name="Ödeme mağazası"  />
+			<text id="dialogs_perfectpants_copy" name="Bugün {0} adet ürünü kusursuz bir şekilde ürettin!
+Üretim fazlalığını arkadaşlarına ver!"  />
+			<text id="dialogs_perfectpants_title" name="Mükemmel!"  />
+			<text id="dialogs_pesentreceived_text" name="{0} Altın Düğme, Hoşgeldin hediyesi olarak hesabına eklendi."  />
+			<text id="dialogs_pesentreceived_title" name="Yaşasın!"  />
+			<text id="dialogs_pesentreminder_send" name="Gönder"  />
+			<text id="dialogs_pesentreminder_text1" name="Geri gelme hediyesi olarak {0} Atlın Düğme seni bekliyor.
+Sana yollanan tekrar hoşgeldin E-postasındaki linke tıklayarak onları toplayabilirsin."  />
+			<text id="dialogs_pesentreminder_text2" name="E-posta&#039;nın tekrar yollanmasını sağlayabilirsin."  />
+			<text id="dialogs_pesentreminder_title" name="Hoşgeldin Hediyesi!"  />
+			<text id="dialogs_receivecomeback_copy_0" name="Tekrar hoş geldin hediyesi olarak
+{0} Altın Düğme ve süper bir yükseltici kazandın!"  />
+			<text id="dialogs_receivecomeback_copy_1" name="Tekrar hoş geldin hediyesi olarak
+{0} Altın Düğme ve {1} için bir Güvenlik Görevlisi kazandın!"  />
+			<text id="dialogs_receivecomeback_title" name="Geri geldin!"  />
+			<text id="dialogs_receivecop_copy" name="Stajer işe başladı ve koruma görevlinin süresini
+1 saat uzattı!"  />
+			<text id="dialogs_receivecop_title" name="Kiraladı!"  />
+			<text id="dialogs_receiveitem_copy" name="Ödülün hediye kutunda!"  />
+			<text id="dialogs_receiveitem_title" name="Yaşasın!"  />
+			<text id="dialogs_receivemoney_copy" name="Hediyen sana yollandı!"  />
+			<text id="dialogs_receivemoney_title" name="Yaşasın!"  />
+			<text id="dialogs_register_agb" name="Şartlar ve Kullanım Koşullarını Kabul Et"  />
+			<text id="dialogs_register_btnsave" name="Kaydet"  />
+			<text id="dialogs_register_copy_0" name="Şimdi ücretsiz kayıt ol!"  />
+			<text id="dialogs_register_copy_1" name="Puanını Kaydet!"  />
+			<text id="dialogs_register_copy_2" name="Kayıt olduktan sonra, hoşgeldin hediyesi olarak, posta aracılığıyla {0} Altın Düğme alacaksın."  />
+			<text id="dialogs_register_email" name="E-posta"  />
+			<text id="dialogs_register_forfree" name="ÜCRETSİZ!"  />
+			<text id="dialogs_register_password" name="Şifre"  />
+			<text id="dialogs_register_title" name="Kayıt"  />
+			<text id="dialogs_robberyall_copy" name="Bütün ürünlerin çalınmış."  />
+			<text id="dialogs_robbery_copy" name="Bazı ürünlerin çalındı."  />
+			<text id="dialogs_robbery_copy2" name="Üretilen malları bir rafta sergile ya da soyulmayı engellemek için bir güvenlik görevlisini işe al."  />
+			<text id="dialogs_robbery_title" name="Soygun!"  />
+			<text id="dialogs_sale_copy" name="Kampanya başlatmak için kampanya simgesi ile bir rafa tıkla.
+Fiyatlar düşecek ve mağazanın popülerliği artacak.
+Raf boşaldığı zaman da kampanya sona erecek."  />
+			<text id="dialogs_sale_title" name="Satılık"  />
+			<text id="dialogs_shippingconfirmation_send" name="Sana goşgeldin hediyeni yolladık.
+
+Hediyeni almak için, hoşgeldin e-postasındaki linke tıklaman yeterli."  />
+			<text id="dialogs_shippingconfirmation_titel" name="Hediye!"  />
+			<text id="dialogs_staff_btnfire" name="Kov"  />
+			<text id="dialogs_staff_btnhire" name="İşe Al"  />
+			<text id="dialogs_staff_title" name="Kasiyerlerin"  />
+			<text id="dialogs_wheeloffortune_beforespin" name="Çarkıfeleği çevir ve süper ödüller kazan!"  />
+			<text id="dialogs_wheeloffortune_btn_go" name="Çevir!"  />
+			<text id="dialogs_wheeloffortune_btn_towheel" name="Çarkıfeleğe"  />
+			<text id="dialogs_wheeloffortune_copy1" name="Bugün zaten Çarkıfelek&#039;i çevirdin mi?"  />
+			<text id="dialogs_wheeloffortune_info" name="Günün ilk denemesi ücretsiz!"  />
+			<text id="dialogs_wheeloffortune_nomoney" name="Çarkıfeleği çevirmek için yeterince Altın Düğmen yok!"  />
+			<text id="dialogs_wheeloffortune_noregister" name="Sadece kayıtlı üyeler Çarkıfeleği çevirebilir!"  />
+			<text id="dialogs_wheeloffortune_nospace" name="Bütün ödüllerin için hediye kutunda yeterince yer yok! Biraz yer aç, daha sonra Çarkıfeleği tekrar çevirebilirsin!"  />
+			<text id="dialogs_wheeloffortune_title" name="Çarkıfelek!"  />
+			<text id="dialogs_wheeloffortune_tryagain" name="Hemen tekrar dene!"  />
+			<text id="dialogs_wheeloffortune_woncash" name="Tebrikler! Kazandığın hediye sana yollandı!"  />
+			<text id="dialogs_wheeloffortune_woncloth" name="Tebrikler! Ödülünü hediye kutunda bulabilirsin."  />
+			<text id="dialogs_wheeloffortune_wonitem" name="Tebrikler! Ödülünü hediye kutunda bulabilirsin."  />
+		</dialogs>
+		<error_codes>
+			<text id="error_advertisement_nolevel" name="Bir promosyona katılmak için en azından {0}. seviyeye ulaşman gerekiyor."  />
+			<text id="error_advertisement_nomoney" name="Bu promosyona katılmak için yeterince Fashiondollar/Altın Düğmen yok!"  />
+			<text id="error_avatar_12" name="Bu isim daha önceden alınmış."  />
+			<text id="error_avatar_15" name="Bu oyuncunun zaten bir karakteri var."  />
+			<text id="error_avatar_genderempty" name="Bir karakter seçin!"  />
+			<text id="error_avatar_nameinvalide" name="Kullanıcı adın boş olmamalı, ya da özel karakter içermemeli."  />
+			<text id="error_avatar_standardname" name="Bir kullanıcı adı gir"  />
+			<text id="error_boost_nomoney" name="Bu yükselticiye paran yetmiyor."  />
+			<text id="error_cancleproduction_36" name="Raf erişilebilir değil! Lütfen bazı ürünleri yeniden düzenle."  />
+			<text id="error_changepassword_0" name="Şifre başarıyla değiştirildi!"  />
+			<text id="error_changepassword_10" name="Bu eski şifren değil!"  />
+			<text id="error_changepassword_copy" name="Yeni şifren en az 3 karakterden oluşmalı. Eski şifren doğru bir şekilde girilmeli."  />
+			<text id="error_changepassword_title" name="Şifre değiştir"  />
+			<text id="error_chat_23" name="Sohbet fonksiyonun yönetici tarafından geçici olarak devre dışı bırakıldı!"  />
+			<text id="error_chat_24" name="Sohbete lütfen gereksiz ve istenmeyen şeyler yazma!"  />
+			<text id="error_common_1" name="Hata
+Sunucu mesajı{0}"  />
+			<text id="error_common_3" name="- DEBUG: Seviye çok düşük -"  />
+			<text id="error_common_30" name="- DEBUG: Hazırda işçi/raf yok-"  />
+			<text id="error_common_38" name="-DEBUG: Yenileme modunda-"  />
+			<text id="error_common_5" name="- DEBUG: Tanımsız -"  />
+			<text id="error_common_80" name="-DEBUG: Yol hesaplanıyor. Gecikme çok uzun-"  />
+			<text id="error_common_81" name="-DEBUG: Yol hesaplanıyor. Gecikme negatif-"  />
+			<text id="error_common_title" name="Dikkat et!"  />
+			<text id="error_coop_3" name="Bu Co-Op&#039;a katılabilmek için daha yüksek bir seviyede olman gerekiyor.Katılmak için gerekli olan desenlerden en az birini erişime açman gerekiyor."  />
+			<text id="error_coop_90" name="Zaten bir Co-Op&#039;a katılmışsın!"  />
+			<text id="error_coop_91" name="Bu İş Birliği için max. katılımcı sayısına ulaşıldı."  />
+			<text id="error_coop_92" name="Bu Co-Op zaten tamamlanmış!"  />
+			<text id="error_coop_93" name="Bugün zaten bir Co-Op&#039;a başlamışsın! Yarın başka bir tane Co-Op&#039;a başlayabilirsin!"  />
+			<text id="error_coop_nomoney" name="Bu Co-Op&#039;u uzatmak için yeterince Altın Düğmen yok."  />
+			<text id="error_coop_title" name="CO-OP (Takım oyunu)"  />
+			<text id="error_customclothbuy_nomoney" name="Bu deseni satın almak için yeterince Altın Düğmen yok!"  />
+			<text id="error_customclothproduce_nomoney" name="Bu deseni üretmek için yeterince Fashiondollar&#039;ın yok!"  />
+			<text id="error_customclothunlock_nomoney" name="Bu parçayı açmak için yeterince Fashiondollar veya Altın Düğmen yok!"  />
+			<text id="error_customize_nomoney" name="Avatarını değiştirmek için yeterince Altın Düğmen yok."  />
+			<text id="error_custom_nameinvalide" name="Bunu kullanmaya hakkın yok: {0}"  />
+			<text id="error_deliverinfo_33" name="-DEBUG: Eşyalarınızın üretimi henüz tamamlanmadı"  />
+			<text id="error_deliverinfo_35" name="-DEBUG: İşçi bir şey vermemiştir-"  />
+			<text id="error_deliverinfo_36" name="Bu çalışana ulaşamıyorsun. Mağazandaki parçaları yeniden düzenle ki ona en azından bir taraftan ulaşabilesin."  />
+			<text id="error_deliverinfo_37" name="Ne yazık ki ürünlerini sergileyebileceğin hiç raf yok."  />
+			<text id="error_deliver_33" name="-DEBUG: Eşyalarınızın üretimi henüz tamamlanmadı-"  />
+			<text id="error_deliver_35" name="- DEBUG: Çalışan hiç birşey üretmedi-"  />
+			<text id="error_deliver_36" name="Bu raf erişilebilir değil. Mağazandaki ürünleri öyle yeniden düzenle ki, rafın en az bir kenarına erişebilesin."  />
+			<text id="error_deliver_37" name="Bu raf dolu. Ürünlerini sergilemek için başka bir raf seç."  />
+			<text id="error_deliver_46" name="Bu ürünleri asamazsın. Onları koyabileceğin bir raf seç."  />
+			<text id="error_deliver_title" name="Bu işe yaramıyor..."  />
+			<text id="error_editmode_3" name="-DEBUG: Elde değil Minimum Seviye-"  />
+			<text id="error_editmode_31" name="-DEBUG: Nesne tıklanabilir değil-"  />
+			<text id="error_editmode_32" name="- DEBUG: Ürün stoklarda yok-"  />
+			<text id="error_editmode_37" name="-DEBUG: Rafta hala eşya var-"  />
+			<text id="error_editmode_39" name="-DEBUG: Bilinmeyen pozisyon-"  />
+			<text id="error_editmode_48" name="-DEBUG: Demotive işçiler tutulamaz-"  />
+			<text id="error_editmode_50" name="-DEBUG: Bu alan bloklanmış-"  />
+			<text id="error_editmode_51" name="-DEBUG: Pozisyon boş-"  />
+			<text id="error_editmode_52" name="- DEBUG: Objenin yeri değiştirilemez-"  />
+			<text id="error_editmode_53" name="-DEBUG: Zaten bu genişleme var-"  />
+			<text id="error_editmode_54" name="-DEBUG: Henüz bu genişlemeyi satın alamazsınız-"  />
+			<text id="error_editmode_55" name="- DEBUG: Manken satılamaz/depolanamaz-"  />
+			<text id="error_editmode_nomoney" name="Bu eşyayı almaya paran yetmiyor."  />
+			<text id="error_editmode_removeMannequin" name="Mankeni üstünde kıyafet varken satamazsın."  />
+			<text id="error_editmode_removeminCashdesk" name="Müşterilerin ürünler için ödeme yapabilmeleri için, en azından bir kasaya ihtiyacın var."  />
+			<text id="error_editmode_removeminChangingroom" name="Müşterilerinin giysileri deneyebilmeleri için en az bir tane soyunma odasına ihtiyacın var."  />
+			<text id="error_editmode_removeminCounter" name="Ürünlerini sunabilmek için en azından bir rafa ihtiyacın var."  />
+			<text id="error_editmode_removeminFactory" name="Yeni ürün üretebilmek için en azından bir işçiye ihtiyacın var."  />
+			<text id="error_editmode_removeminMannequin" name="Ürünlerini daha da iyi sunabilmen için en az bir mankene ihtiyacın var."  />
+			<text id="error_editmode_removenotallowedCounter" name="Bu rafta hala kıyafetler var!"  />
+			<text id="error_editmode_removenotallowedDoor" name="Bir kapıya ihtiyacın var! Kapıyı değiştirmek için, önce başka bir kapıyı mağazana sürükle."  />
+			<text id="error_editmode_removenotallowedFactory" name="Bu işçi hala üretiyor!"  />
+			<text id="error_editmode_title" name="Yeniden süslendirmede hata"  />
+			<text id="error_fashiongame_1" name="Mağazanı yükleyemedik. Lütfen Goodgame Studios destek bölümü ile irtibata geç."  />
+			<text id="error_fashiongame_title" name="Kötü bir hata"  />
+			<text id="error_forgotpassword_101" name="E-posta alımını engelledin. Lütfen destek birimi ile irtibata geç"  />
+			<text id="error_fullscreen_copy" name="tam ekran modunda mümkün değildir."  />
+			<text id="error_fullscreen_title" name="Tam ekran modu"  />
+			<text id="error_gift_20" name="Bu rafta hediye için yer yok."  />
+			<text id="error_gift_34" name="Hediye limitine ulaştın.
+{1} Altın düğme karşılığında {0} tane daha hediye ister misin?"  />
+			<text id="error_gift_37" name="Bu rafta hediye için yer yok."  />
+			<text id="error_gift_nomoney" name="Daha fazla hediye kullanmak için yeterince Altın Düğmen yok!"  />
+			<text id="error_gift_title" name="Hediyeler"  />
+			<text id="error_instantdesign_34" name="- DEBUG: Günlük limite ulaşıldı -"  />
+			<text id="error_instantdesign_nomoney" name="Şu anda mankeninin stilini değiştirmek için yeterince Altın Düğmen yok."  />
+			<text id="error_instantdesign_nomoreinstant" name="Mankenlerini erkenden sadece belli bir sayıda giydirebilirsin. Yarın onları tekrardan süsleyebilirsin."  />
+			<text id="error_instantdesign_title" name="Vitrin"  />
+			<text id="error_instantwork_nomoney" name="Üretimi anında bitirmek için yeterince Altın Düğmen yok."  />
+			<text id="error_invitefriend_11" name="Bu oyuncu şu anda çevrim içi değil. Lütfen daha sonra tekrar dene!"  />
+			<text id="error_invitefriend_13" name="Arkadaşın zaten Fashion&#039;a kayıtlı!"  />
+			<text id="error_invitefriend_14" name="E-posta adresi geçersiz."  />
+			<text id="error_invitefriend_70" name="Edinebileceğin maksimum arkadaş sayısına ulaştın!"  />
+			<text id="error_invitefriend_71" name="Bu oyuncu daha fazla arkadaş edinemez!"  />
+			<text id="error_invitefriend_title" name="Davet başarısız oldu"  />
+			<text id="error_job_2" name="Mola zamanı! Şimdilik yeterince çalıştın."  />
+			<text id="error_join_20" name="Bu mağaza dolu. Lütfen daha sonra tekrar dene."  />
+			<text id="error_join_21" name="- DEBUG: Zaten mağazada -"  />
+			<text id="error_join_22" name="- DEBUG: Mağaza bilinmiyor-"  />
+			<text id="error_join_title" name="Mağazaya Gir"  />
+			<text id="error_login_10" name="Yanlış şifre ya da kullanıcı adı!"  />
+			<text id="error_login_11" name="Kullanıcı adı veya şifre yanlış!"  />
+			<text id="error_login_12" name="Bu kullanıcı zaten oturum açmış durumda."  />
+			<text id="error_login_13" name="Bu kullanıcı zaten oturum açmış durumda."  />
+			<text id="error_login_14" name="Yanlış şifre ya da kullanıcı adı!"  />
+			<text id="error_login_15" name="Zaten oturum açmışsın"  />
+			<text id="error_login_16" name="Avatarında bir sorun var. Lütfen destek birimi ile irtibata geç."  />
+			<text id="error_lostpassword_101" name="E-Posta alımını engellemişsin. Tekrar E-posta alabilmek için Tamam&#039;a tıkla."  />
+			<text id="error_lostpassword_11" name="Bu adrese kayıtlı kullanıcı yok!"  />
+			<text id="error_marketplace_20" name="-DUBUG: eğlencelerle dolu"  />
+			<text id="error_marketplace_21" name="-DEBUG: Zaten atari salonundasınız-"  />
+			<text id="error_marketplace_title" name="Goodgame Atari Salonu"  />
+			<text id="error_nocustomclothselected" name="Bir şey üretmek istiyorsan önce bir şekil seç!"  />
+			<text id="error_nomoney_copy" name="Üzgünüz, buna paran yetmiyor."  />
+			<text id="error_nomoney_guest_copy" name="Paran mı bitti?Kayıt ol ve {0} Fashiondollar kazan!"  />
+			<text id="error_nomoney_title" name="Eksik para"  />
+			<text id="error_npchire_nomoney" name="Yeni bir kasiyeri işe almak için yeterince Altın Düğmen yok."  />
+			<text id="error_patternshop_44" name="Bu deseni zaten satın aldın."  />
+			<text id="error_patternshop_5" name="-DEBUG: Bilinmeyen WOD-"  />
+			<text id="error_patternshop_nomoney" name="Bu deseni almaya paran yetmiyor."  />
+			<text id="error_patternshop_title" name="Desenle ilgili sorun"  />
+			<text id="error_police_nomoney" name="Güvenlik görevlisini işe almak için yeterince Altın Düğmen yok."  />
+			<text id="error_register_10" name="Parola çok kısa."  />
+			<text id="error_register_102" name="Girdiğin E-posta adresi geçerli değil."  />
+			<text id="error_register_13" name="Bu adrese kayıtlı bir kullanıcı zaten var!"  />
+			<text id="error_register_14" name="Girdiğin E-posta adresi hatalı!"  />
+			<text id="error_register_19" name="E-posta adresin fazla uzun."  />
+			<text id="error_register_2" name="Zaten E-posta adresini onayladın."  />
+			<text id="error_register_agb" name="Öncelikle kayıt ve şartları okuyup kabul etmen lazım! Soldaki düğmeye tıklayarak onayla. Bitti!"  />
+			<text id="error_register_emailinvalide" name="E-posta adresi boş bırakılamaz veya özel karakter içeremez."  />
+			<text id="error_register_passwordinvalide" name="Şifren boş olmamalı, ya da özel karakterler içermemeli"  />
+			<text id="error_register_title" name="Kayıtta hata"  />
+			<text id="error_repair_36" name="DEBUG: İşçi erişilebilir değil-"  />
+			<text id="error_repair_48" name="-DEBUG: Işçi zaten %100 motive-"  />
+			<text id="error_repair_nomoney" name="İkramiyeyi ödemek için yeterince Fashiondollar&#039;ın yok."  />
+			<text id="error_repair_title" name="Onarım"  />
+			<text id="error_sale_47" name="Bu rafta hiç ürün yok!"  />
+			<text id="error_sale_title" name="SATILIK"  />
+			<text id="error_walk_23" name="-DEBUG: Bu alan yürünemeyen alan-"  />
+			<text id="error_work_31" name="-DEBUG: Bu işçi zaten çalışıyor!-"  />
+			<text id="error_work_32" name="-DEBUG: Bu ürünün desenine sahip değilsin  -"  />
+			<text id="error_work_36" name="İşçiye giden yol tıkanmış. Yeniden süslemeyi dene."  />
+			<text id="error_work_41" name="- DEBUG: Envanterde hiç yükseltici yok -"  />
+			<text id="error_work_45" name="- DEBUG: Ürün çeşidi ile işçi çeşidi uyumlu değil-"  />
+			<text id="error_work_49" name="- DEBUG: Bu işçi için yanlış yükseltici -"  />
+			<text id="error_work_67" name="Desenin artık kullanılamıyor.
+Yeni bir desen yarat!"  />
+			<text id="error_work_nomoney" name="Üretime başlamak için yeterince Fashiondollar&#039;ın yok."  />
+			<text id="error_work_title" name="İş reddi"  />
+		</error_codes>
+		<feature>
+			<text id="feature_0_text_0" name="Zamanı geldi!
+
+Goodgame Fashion beta sürümüyle karşında!
+ Herkes 1. Seviyeden başlayacak, fakat önceden satın alınan Altın Düğmeler ve buna ilaven 10 tane Altın Düğme geri verilecek.
+
+Goodgame Fashion&#039;ın tadını çıkar!"  />
+			<text id="feature_0_title" name="Resmi başlangıç!"  />
+			<text id="feature_10_text_0" name="Yaz geldi!
+Yeni GeeDee koleksiyonu da geldi!"  />
+			<text id="feature_1_text_0" name="Arkadaşlarınla beraber altın ara!
+Yeni Co-Op&#039;ları keşfet!"  />
+			<text id="feature_2_text_0" name="Yeni rafları, soyunma odalarını ve kasaları keşfet!"  />
+			<text id="feature_2_text_1" name="Görünüşünü değiştirmek hiç bu kadar kolay olmamıştı! Karakterine tıklaman yeterli!"  />
+			<text id="feature_2_text_2" name="Fashion&#039;ın şimdi de sesli halinin tadını çıkar!"  />
+			<text id="feature_3_text_0" name="Bahar geliyor! Yeni desenlere göz at ve mağazana canlılık getir!"  />
+			<text id="feature_3_text_1" name="Yeni etiketler ürünlerini daha da karlı hale getirir!"  />
+			<text id="feature_4_text_0" name="Her yer rengarenk!
+Yeni JayJay Koleksiyonuna göz atın!"  />
+			<text id="feature_4_text_1" name="Yeni rafları, soyunma odalarını ve kasaları keşfet!"  />
+			<text id="feature_4_text_2" name="Yeni baharlık ceketler harika!"  />
+			<text id="feature_4_text_3" name="Yeni bir görev seni bekliyor! Arkadaşlarına yardım et ve ödülleri kap!"  />
+			<text id="feature_5_text_0" name="Renklere yol aç! Yeni JayJay Koleksiyonu artık mağazan için erişilebilir durumda!"  />
+			<text id="feature_5_text_1" name="Yeni rafları, soyunma odalarını ve kasaları keşfet!"  />
+			<text id="feature_5_text_2" name="Yeni Bahar Ceketleriyle mağazan bomba gibi olmaya hazır!"  />
+			<text id="feature_5_text_3" name="Arkadaşlarına yardım ederek ödül kazan!"  />
+			<text id="feature_6_text_0" name="Moda tasarımcısı ol ve kendi desenlerini kendin yarat!"  />
+			<text id="feature_6_text_1" name="Mağazan için yeni vitrinleri keşfet!"  />
+			<text id="feature_7_text_0" name="Ne kadar şanslısın?
+Çarkıfeleği çevir ve kendin gör!"  />
+			<text id="feature_8_text_0" name="Mobilya ve dekorasyonların lükslük değerleri ile mağazanı daha şahaşağalı ve popüler hale getir!"  />
+			<text id="feature_8_text_1" name="Müşterilerini yeni raflar, soyunma odaları ve kasalarla cezbet!"  />
+			<text id="feature_9_text_0" name="Daha popüler olmak ve daha fazla tecrübe puanı kazanmak için mağazanı geliştir!"  />
+			<text id="feature_9_text_1" name="Raflarına daha fazla hediye yerleştir!"  />
+			<text id="feature_title" name="Yeni özellikler"  />
+		</feature>
+		<feeds>
+			<text id="descriptionfashionfeed" name="Goodgame Moda&#039;yı henüz yükledim. Kendi butiğini açıp ünlü bir modacı haline gelmek ister misin? Gel ve bir göz at!"  />
+			<text id="descriptionlongfashion" name="Goodgame Moda ile kendi mağazanı aç. Ünlü bir modacıya dönüş, canlı kumaşlar satın al ve kendi tarzını yarat. Mağazanın popülaritesini arttır ve şehrin en ünlü ve canlı mağazasını sen aç."  />
+		</feeds>
+		<forumaction>
+			<text id="forumaction_copy_1" name="Kendi mayo tasarımlarını kendin yarat ve kazan!
+Kazananı Altın Düğmeler bekliyor, ayrıca kazananın deseni desen kataloğunda belirecek!
+
+Haydi forumlara gir ve sen de katıl!"  />
+			<text id="forumaction_title_1" name="Yaratıcı ol!"  />
+		</forumaction>
+		<loggedin_msg id=""  />
+		<panels>
+			<text id="panels_buddylist_morefriends" name="Daha fazla arkadaş"  />
+			<text id="panels_login_email" name="Kullanıcı adı/E-posta?"  />
+			<text id="panels_login_loginbtn" name="GİRİŞ"  />
+			<text id="panels_login_lostpassword" name="Şifreni mi unuttun?"  />
+			<text id="panels_login_password" name="Şifre"  />
+			<text id="panels_login_playbtn" name="ŞİMDİ OYNA"  />
+			<text id="panels_login_registerbtn" name="KAYIT"  />
+			<text id="panels_login_rememberpassword" name="Şifreyi kaydet"  />
+			<text id="panels_social_alone" name="Şu anda tek başınasın!"  />
+			<text id="panels_social_bot" name="Moda Sohbet"  />
+			<text id="panels_social_chatblocked" name="Sadece kayıtlı kullanıcılar 1. Seviyeden itibaren sohbet edebilir!"  />
+			<text id="panels_social_come_in" name="mağazaya girdi."  />
+			<text id="panels_social_go_out" name="mağazadan çıktı."  />
+			<text id="panels_social_nofriends" name="Henüz hiç arkadaşın yok."  />
+			<text id="panels_social_welcome_market" name="Goodgame Atari Salonuna hoşgeldin"  />
+			<text id="panels_social_welcome_myshop" name="Hoşgeldin"  />
+		</panels>
+		<server>
+			<mail>
+				<text id="mail_invite_friend" name="Selam %s!&lt;br /&gt;&lt;br /&gt;&quot;Goodgame Fashion&quot; adında harika bir online oyun keşfettim.&lt;br /&gt;&lt;br /&gt;Bu linkle oyuna doğrudan gidebilirsin:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Bu link ile &quot;Goodgame Fashion&quot;a üye olarak, oyunda kendi Moda Mağazanı ücretsiz yaratabilirsin.&lt;br /&gt;&lt;br /&gt;Kendi Moda Mağazana sahip olmanın nasıl bir deneyim olduğunu keşfet. Kendi mağazanda harika giysiler, aksesuarlar ve ayakkabılar üret, sat ve mağazanı istediğin gibi süsle!&lt;br /&gt;&lt;br /&gt;İyi eğlenceler, görüşmek üzere %s"  />
+				<text id="mail_lost_pw" name="Selam %s!
+
+Yeni bir şifre talebinde bulunduğun için bu otomatik E-postayı aldın
+Yeni şifren: %s 
+
+Bu sayfadan oturum açabilirsin:
+http://www.goodgamestudios.com/fashion/
+
+Başka soru veya problemlerin için lütfen support@goodgamestudios.com adresine E-posta yolla.
+
+İyi eğlenceler!
+
+Goodgamestudios.com
+Takımı"  />
+				<text id="mail_registration" name="Merhaba,&lt;br /&gt;&lt;br /&gt;kayıt olduğun için teşekkürler ve &quot;Goodgame Fashion&quot; dünyasına hoşgeldin.&lt;br /&gt;&lt;br /&gt;İstediğin zaman aşağıdaki bilgilerle oturum açabilirsin:&lt;br /&gt;E-posta: %s&lt;br /&gt;Şifre: %s&lt;br /&gt;&lt;br /&gt;Bu link seni doğrudan oyuna götürecek:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Başka soru veya problemlerin için lütfen support@goodgamestudios.com adresine E-posta yolla. &lt;br /&gt;&lt;br /&gt;İyi eğlenceler! &lt;br /&gt;&lt;br /&gt;Goodgamestudios.com&lt;br /&gt;Takımı"  />
+			</mail>
+			<misc>
+				<text id="marketplace" name="Goodgame Atari Salonu"  />
+			</misc>
+		</server>
+		<server_msg>
+			<text id="server_msg_10" name="Sunucu yeinden başlatılıyor. Az sonra geri geleceğiz.
+Siteyi yenilemek için F5&#039;e bas."  />
+			<text id="server_msg_title" name="Sunucu Mesajı"  />
+		</server_msg>
+		<std_buttons>
+			<text id="btn_addcurrency" name="Fashiondollar/Altın Düğme satın al"  />
+			<text id="btn_payment" name="Moda Dolar / Altın Düğmeleri al"  />
+			<text id="btn_policeman" name="Güvenlik Görevlisi"  />
+			<text id="btn_register" name="Kayıt"  />
+			<text id="btn_superrewardChips" name="Kazanmak Moda Dolar"  />
+			<text id="btn_superrewardGold" name="Altın Düğme kazan"  />
+		</std_buttons>
+		<tooltips>
+			<text id="tooltip_Basic_Factory_Basicaccessoire" name="Kuyumcu"  />
+			<text id="tooltip_Basic_Factory_Basiccloth" name="Terzi"  />
+			<text id="tooltip_Basic_Factory_Basicshoes" name="Ayakkabıcı"  />
+			<text id="tooltip_counter_pieces" name="Adet: {0}"  />
+			<text id="tooltip_customcloth_icon" name="Çıktılar"  />
+			<text id="tooltip_customcloth_shape" name="Şekiller"  />
+			<text id="tooltip_customcloth_unlock" name="Aç"  />
+			<text id="tooltip_factory_empty" name="Yeni ürün üret!"  />
+			<text id="tooltip_factory_preparestep1" name="İşçiyi eğit"  />
+			<text id="tooltip_factory_preparetitle" name="Tıkla"  />
+			<text id="tooltip_factory_readytoserv" name="Mevcut mal"  />
+			<text id="tooltip_factory_readytoserv_amount" name="Adet: {0}"  />
+			<text id="tooltip_factory_wear" name="Motivasyon: {0}%"  />
+			<text id="tooltip_FashionActionPanel_btn_achievements" name="Başarılar"  />
+			<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Altın Düğme/
+Fashiondollar al"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisement" name="Promosyon"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="{0}. seviyeden itibaren
+reklam yapabilirsin"  />
+			<text id="tooltip_FashionActionPanel_btn_booster" name="Yükseltici"  />
+			<text id="tooltip_FashionActionPanel_btn_coop" name="Co-Op&#039;lar"  />
+			<text id="tooltip_FashionActionPanel_btn_decoshop" name="Yeniden Süsleme"  />
+			<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="Mağazanı geliştir!"  />
+			<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalog"  />
+			<text id="tooltip_FashionActionPanel_btn_gifts" name="Hediyeler"  />
+			<text id="tooltip_FashionActionPanel_btn_highscore" name="Sıralama"  />
+			<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame Atari Salonu"  />
+			<text id="tooltip_FashionActionPanel_btn_openclose" name="Mağazayı Aç/Kapat"  />
+			<text id="tooltip_FashionActionPanel_btn_ownshop" name="Mağazam"  />
+			<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Devam eden promosyon
+İlk sonuçlar için tıkla"  />
+			<text id="tooltip_FashionActionPanel_btn_sale" name="Fiyatları azaltmak"  />
+			<text id="tooltip_FashionActionPanel_btn_staff" name="Kasiyer"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="Altıklar"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="Saç"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="Cilt Tonu"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="Üstlükler"  />
+			<text id="tooltip_FashionBookDialog_btn_all" name="Herkes"  />
+			<text id="tooltip_FashionBookDialog_btn_buy" name="Desen satın al"  />
+			<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="Tasarım deseni"  />
+			<text id="tooltip_FashionBookDialog_btn_mastery" name="{1}. etiket seviyesine ulaşmasına {0} var
+Daha fazla detay için tıkla"  />
+			<text id="tooltip_FashionBookDialog_btn_produce" name="Üret"  />
+			<text id="tooltip_FashionBookDialog_customcloth" name="Özel Desenler"  />
+			<text id="tooltip_FashionBookDialog_female" name="Kızlar için"  />
+			<text id="tooltip_FashionBookDialog_info" name="Hem kız hem erkekler için butiğinde kıyafet bulundurmayı unutma!"  />
+			<text id="tooltip_FashionBookDialog_male" name="Çocuklar için"  />
+			<text id="tooltip_FashionBookDialog_unisex" name="Erkekler ve kızlar için"  />
+			<text id="tooltip_FashionBoosterDialog_addAmount" name="Alışveriş başına alınan ürün"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="Süre uzatımı"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="Zaman uzatımı
+{1} daha fazla arkadaş ile + {0}"  />
+			<text id="tooltip_FashionBoosterDialog_btn_buy" name="Satın al"  />
+			<text id="tooltip_FashionBoosterDialog_btn_info" name="Bilgi"  />
+			<text id="tooltip_FashionBoosterDialog_coffee" name="Kahve
+ Terzinin verimini 20% oranında artırır!"  />
+			<text id="tooltip_FashionBoosterDialog_currentAmount" name="Stokta"  />
+			<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="Geçerli hırsızlık koruması"  />
+			<text id="tooltip_FashionBoosterDialog_energy" name="Enerji içeceği
+Ayakkabıcının verimi %20 oranında artar!"  />
+			<text id="tooltip_FashionBoosterDialog_police" name="Güvenlik Görevlisi"  />
+			<text id="tooltip_FashionBoosterDialog_price" name="Fiyat"  />
+			<text id="tooltip_FashionBoosterDialog_shake" name="Protein Karışımı
+Kuyumcunun verimini %20&#039;ye kadar artırır!"  />
+			<text id="tooltip_FashionCoopDialog_btn_extend" name="Co-Op&#039;u uzat"  />
+			<text id="tooltip_FashionCounterDialog_btn_sale" name="Fiyat düşecek"  />
+			<text id="tooltip_FashionCounterDialog_btn_spend" name="Tamamen ve ücretsiz olarak ürün bağışla"  />
+			<text id="tooltip_FashionCounterDialog_btn_unsale" name="Satışı iptal et"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="Satın al"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_close" name="Yeniden süslendirmeyi sonlandır"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko" name="Yenileme"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="Dekorasyonlar"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="Vitrin"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="Kapılar"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="Zeminler"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="Duvarlar"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="Duvar Süslemeleri"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="Genişletme"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Zemin ekle"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="Mağazanı Genişlet"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional" name="İşlevsel ürünler"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Kasalar"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="Soyunma odaları"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="Raflar"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="İşçiler"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="Mankenler"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="Model"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_sell" name="Sat"  />
+			<text id="tooltip_FashionExpansionFriends" name="Bu genişlemeyi açmak için hala 
+{0} arkadaşa ihtiyacın var"  />
+			<text id="tooltip_FashionFactoryDialog_btn_instant" name="Anında bitir!"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_remove" name="Sil"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_use" name="Kullan"  />
+			<text id="tooltip_FashionGiftboxDialog_mygifts" name="Hediyelerim"  />
+			<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="Hediyeler gönder"  />
+			<text id="tooltip_FashionHighscoreDialog_luxury" name="Lükslük kıymetine göre sırala"  />
+			<text id="tooltip_FashionHighscoreDialog_offline" name="Çevrimdışı"  />
+			<text id="tooltip_FashionHighscoreDialog_online" name="Çevrimiçi"  />
+			<text id="tooltip_FashionHighscoreDialog_xp" name="Tecrübe puanına (XP) göre sırala"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="Aksesuarlar"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="Giysi"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="Ayakkabı"  />
+			<text id="tooltip_FashionMasteryInfoDialog_bronce" name="Daha fazla dik!"  />
+			<text id="tooltip_FashionMasteryInfoDialog_gold" name="Daha hızlı dik!"  />
+			<text id="tooltip_FashionMasteryInfoDialog_silver" name="Daha fazla tecrübe puanı edin!"  />
+			<text id="tooltip_FashionNamePanel_mc_luxury" name="Mağazanın Lüks Kıymeti"  />
+			<text id="tooltip_FashionNamePanel_mc_rating" name="Mağazanın popülerliği"  />
+			<text id="tooltip_FashionOptionPanel_btn_allowemails" name="E-posta&#039;lara izin ver"  />
+			<text id="tooltip_FashionOptionPanel_btn_blockemails" name="E-postaları engelle"  />
+			<text id="tooltip_FashionOptionPanel_btn_bugreport" name="Hata Raporu"  />
+			<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Karakterin kıyafetlerini değiştir"  />
+			<text id="tooltip_FashionOptionPanel_btn_changePass" name="Şifre değiştir"  />
+			<text id="tooltip_FashionOptionPanel_btn_faq" name="SSS"  />
+			<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="Tam Ekran"  />
+			<text id="tooltip_FashionOptionPanel_btn_help" name="Yardım"  />
+			<text id="tooltip_FashionOptionPanel_btn_logout" name="Çıkış"  />
+			<text id="tooltip_FashionOptionPanel_btn_music" name="Müzik başlat/durdur"  />
+			<text id="tooltip_FashionOptionPanel_btn_news" name="GGS Forumu"  />
+			<text id="tooltip_FashionOptionPanel_btn_options" name="Seçenekler"  />
+			<text id="tooltip_FashionOptionPanel_btn_register" name="Kayıt"  />
+			<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="Ses Aç/Kapat"  />
+			<text id="tooltip_FashionOptionPanel_btn_support" name="Destek birimine E-posta gönder"  />
+			<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="Hoşgeldin hediyeni al"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="+ Yakınlaş"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- Uzaklaş"  />
+			<text id="tooltip_FashionOptionPanel_mc_floors" name="Zeminler"  />
+			<text id="tooltip_FashionOptionPanel_mc_ranking" name="Sıralama"  />
+			<text id="tooltip_FashionPatternFriends" name="Bu deseni açmak için hala 
+{0} arkadaşa ihtiyacın var"  />
+			<text id="tooltip_FashionSocialPanel_btn_buddies" name="Arkadaşlar"  />
+			<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="Oturum açmış olan oyuncular"  />
+			<text id="tooltip_FashionSocialPanel_btn_chat" name="Sohbet"  />
+			<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="Arkadaş davet et"  />
+			<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Fashiondollar/Altın Düğme Satın Al"  />
+			<text id="tooltip_FashionUserStatePanel_jobs" name="Aksiyon sayısı"  />
+			<text id="tooltip_FashionUserStatePanel_xp" name="Seviye atlamaya {0} Tecrübe Puanı"  />
+			<text id="tooltip_Fashion_btnclose" name="Kapat"  />
+			<text id="tooltip_levelx" name="{0}. Seviyede erişilebilir"  />
+			<text id="tooltip_marketplace" name="Kara tahta"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Başarılar"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="Arkadaş ekle"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="Bilgi"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Çıkar"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="Arkadaş silmek"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="Ziyaret"  />
+			<text id="tooltip_wheeloffortune_line1" name="Çarkıfelek!"  />
+			<text id="tooltip_wheeloffortune_line2" name="Oynamak için tıkla!"  />
+			<text id="tooltip_wheeloffortune_line3" name="Bir oyun bedava"  />
+			<text id="tooltip_xofy" name="{1} / {0}"  />
+		</tooltips>
+		<tutorial>
+			<text id="tut_buypattern_copy" name="Bu katalogdan yeni desenler satın alabilirsin. Bir deseni satın aldıktan sonra, onu ürün üretmek için istediğin kadar kullanabilirsin. Yeni bir desen satın almak için tıkla. Ve mağazanda hem erkekler hem de kızlar için kıyafet bulundurmayı unutma!"  />
+			<text id="tut_choosemannequin_copy" name="Ürünlerini mankenlerini giydirmek için kullanırsan dikkat çekerler. Kullanılmayan bir mankene tıkla."  />
+			<text id="tut_delivercounter_copy" name="... sonra da ürünü boş bir rafa koy!"  />
+			<text id="tut_emptyfactory_copy" name="Terziler kıyafet üretir, ilerde farklı çeşit ürünler üretmek için daha fazla işçiyi işe alabileceksin. Terziye tıkla."  />
+			<text id="tut_instantwork_copy" name="Düğmeye tıklayarak kıyafetlerinin anında tamamlanmasını sağlayabilirsin."  />
+			<text id="tut_lastscreen_copy" name="Harika! İlk etiketini yaratmak için gerekli olan ilk adımı gerçekleştirdin, ilk müşterilerin içeriye akın ediyorlar bile! Moda dünyasının geri kalanını kendin keşfet. Görülecek çok şey var. 
+
+İyi eğlenceler!"  />
+			<text id="tut_mannequinaccept_copy" name="Müşterilerinin reaksiyonlarını görmek seni heyecanlandırıyor mu? Değerlendirmeleri görmek için Kabul Et&#039;e tıkla."  />
+			<text id="tut_mannequincategory_copy" name="Giydirmek istediğin manken çeşidine göre sadece belirli giysi çeşidi kullanabilirsin. Üst gövdeye sadece üstlük giydirebilirsin. Seçenekleri görmek için giysiler simgesine tıkla."  />
+			<text id="tut_mannequinclose_copy" name="Bu harika gözüküyor! Mağazana geri dönmek için kapat düğmesine tıkla."  />
+			<text id="tut_mannequinclothes_copy" name="Sadece mavi polo gömlek satıyorsun. Lütfen mankeni giydirmek için mankene tıkla."  />
+			<text id="tut_openproducebook_copy" name="Yeni deseni satın aldın. Üretim Kitabı&#039;na geçerek üretebileceğin ürünleri görebilirsin."  />
+			<text id="tut_preparesteps_copy" name="Şimdi terziye tıkla ve ona üretim ile ilgili talimat ver."  />
+			<text id="tut_producefactory_copy" name="Altın Düğmeler yardımıyla ürünleri anında üretebilirsin. Ürünleri tamamlamak için lütfen terziye tıkla."  />
+			<text id="tut_produce_copy" name="Şimdi üretime başlayabilirsin."  />
+			<text id="tut_readyfactory_copy" name="Müşterilerin kıyafetlerini satın alabilmeleri için onları raflara dizmen gerekiyor. Lütfen üretilmiş ürünü olan bir işçiye tıkla..."  />
+			<text id="tut_start_copy" name="Mağazana hoşgeldin, {0}!
+Bu hızlı eğitim sana moda dünyasında yol bulmana yardımcı olacak."  />
+			<text id="tut_title" name="Eğitim"  />
+		</tutorial>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Hata"  />
+				<text id="generic_alert_connection_failed_copy" name="Çalışma var. Lütfen sonra tekrar dene!"  />
+				<text id="generic_alert_connection_failed_title" name="Çalışma var!"  />
+				<text id="generic_alert_connection_lost_copy" name="Sunucuyla bağlantı başarısız. Lütfen tekrar bağlanmayı dene."  />
+				<text id="generic_alert_connection_lost_description" name="Kısa bir çalışma yapıyoruz. Zaman zaman bu şekilde güncelleme yapıyor veya hataları düzeltiyoruz. &lt;br&gt;&lt;br&gt;
+Olabildiğince hızlı çalışıyoruz, dolayısıyla en kısa zamanda oyuna dönebileceksiniz."  />
+				<text id="generic_alert_connection_lost_promo" name="Neden aynı zamanda diğer oyunlarımızdan birini denemiyorsun?"  />
+				<text id="generic_alert_connection_lost_thanks" name="Anlayışınız için teşekkürler!"  />
+				<text id="generic_alert_connection_lost_title" name="Bağlantı koptu!"  />
+				<text id="generic_alert_error" name="Hata"  />
+				<text id="generic_alert_information" name="Alarm"  />
+				<text id="generic_alert_loggedout_copy" name="Başarıyla çıkış yaptın. Unutma: Her gün giriş yaptığında bonus kazanacaksın!"  />
+				<text id="generic_alert_loggedout_title" name="Görüşmek üzere!"  />
+				<text id="generic_alert_warning" name="Uyarı"  />
+				<text id="generic_alert_watchout" name="Dikkat!"  />
+				<text id="generic_invalid_email_provider" name="Bu servis sağlayıcısının sunduğu e-posta adresleri kabul edilmemekte!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="İnternet bağlantın şu anda çok yavaş. Lütfen daha sonra tekrar dene!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Oyun hakkındaki düşüncelerini ve önerilerini bizimle paylaşır mısın? Lütfen, Goodgame forum veya Grup&#039;a katıl."  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Dikkat: Oyununu sadece kaydolduğunda saklayabilirsin!"  />
+				<text id="generic_register_error_invalidemail" name="Girilen e-posta adresi yanlış."  />
+				<text id="generic_report_muted_chattry" name="Bloke olduğundan dolayı sohbet fonksiyonunu kullanamazsın."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Kabul"  />
+				<text id="generic_btn_cancel" name="İptal"  />
+				<text id="generic_btn_close" name="Kapat"  />
+				<text id="generic_btn_continue" name="Devam"  />
+				<text id="generic_btn_end" name="Son"  />
+				<text id="generic_btn_endnow" name="Şimdi Bitir"  />
+				<text id="generic_btn_goback" name="Geri"  />
+				<text id="generic_btn_no" name="Hayır"  />
+				<text id="generic_btn_noshare" name="Paylaşma"  />
+				<text id="generic_btn_notaccept" name="Red"  />
+				<text id="generic_btn_okay" name="Tamam"  />
+				<text id="generic_btn_reconnect" name="Tekrar bağlan"  />
+				<text id="generic_btn_refresh" name="Güncelle"  />
+				<text id="generic_btn_report" name="Rapor"  />
+				<text id="generic_btn_search" name="Ara"  />
+				<text id="generic_btn_share" name="Paylaş!"  />
+				<text id="generic_btn_skip" name="Atla"  />
+				<text id="generic_btn_start" name="Başla"  />
+				<text id="generic_btn_topayment" name="Onu bana ver!"  />
+				<text id="generic_btn_yes" name="Evet"  />
+			</button>
+			<chat>
+				<text id="generic_chat_writeable" name="Sohbet edebilmek için kaydolmalı ve seviye 1\'e ulaşmalısın."  />
+			</chat>
+			<common>
+				<text id="generic_admin" name="Admin"  />
+				<text id="generic_animation" name="Show animations"  />
+				<text id="generic_bugreport" name="Hataları bize ilet"  />
+				<text id="generic_changePass" name="Şifreyi değiştir"  />
+				<text id="generic_comma" name="."  />
+				<text id="generic_conningsoon" name="*Yakında*"  />
+				<text id="generic_date" name="Tarih"  />
+				<text id="generic_day" name="Gün"  />
+				<text id="generic_dayformat" name="{0}/{1}"  />
+				<text id="generic_days" name="Gün"  />
+				<text id="generic_day_short" name="G"  />
+				<text id="generic_decimalseparator" name=","  />
+				<text id="generic_email" name="E-posta"  />
+				<text id="generic_faq" name="Sıkça Sorulan Sorular"  />
+				<text id="generic_forum" name="Forum"  />
+				<text id="generic_friend" name="Arkadaş"  />
+				<text id="generic_friends" name="Arkadaşlar"  />
+				<text id="generic_general" name="General settings"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Grup"  />
+				<text id="generic_guest" name="Ziyaretçi"  />
+				<text id="generic_help" name="Yardım"  />
+				<text id="generic_high" name="High"  />
+				<text id="generic_hour" name="Saat"  />
+				<text id="generic_hours" name="Saat"  />
+				<text id="generic_hour_short" name="S"  />
+				<text id="generic_limited" name="Sınırlı"  />
+				<text id="generic_logout" name="Çıkış"  />
+				<text id="generic_low" name="Low"  />
+				<text id="generic_medium" name="Medium"  />
+				<text id="generic_minute" name="Dakika"  />
+				<text id="generic_minutes" name="Dakika"  />
+				<text id="generic_minute_short" name="Dk"  />
+				<text id="generic_moderator" name="Mod"  />
+				<text id="generic_music" name="Müzik aç/kapa"  />
+				<text id="generic_name" name="İsim"  />
+				<text id="generic_news" name="Yeni Hikayeler"  />
+				<text id="generic_options" name="Seçenekler"  />
+				<text id="generic_quality" name="Quality"  />
+				<text id="generic_register" name="Sakla ve kaydet"  />
+				<text id="generic_second" name="Saniye"  />
+				<text id="generic_seconds" name="Saniye"  />
+				<text id="generic_second_short" name="Sn"  />
+				<text id="generic_sound" name="Ses aç/kapa"  />
+				<text id="generic_support" name="Destek"  />
+				<text id="generic_today" name="Bugün"  />
+				<text id="generic_tomorrow" name="Bugün"  />
+				<text id="generic_tutorial" name="Açıklama"  />
+				<text id="generic_username" name="Oyuncu adı"  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="Dün"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Eski versiyon!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Sayfayı tekrar yükle."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="{0}\'i arkadaş olarak eklemek ister misin?"  />
+				<text id="generic_friends_add_title" name="Arkadaşlık talebi"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Daha fazla arkadaş!"  />
+				<text id="generic_friends_denied_copy" name="{0} talebini reddetti."  />
+				<text id="generic_friends_denied_title" name="Talep reddedildi!"  />
+				<text id="generic_friends_invite_badword_copy" name="Seçtiğiniz isim kullanılamaz!"  />
+				<text id="generic_friends_invite_badword_title" name="Dikkat!"  />
+				<text id="generic_friends_invite_error_copy" name="Arkadaşlarını davet etmek için önce kaydolmalısın."  />
+				<text id="generic_friends_invite_error_title" name="Önce kayıt ol"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Tam ekran kullanılamıyor"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Çekçe"  />
+				<text id="generic_language_da" name="Danca"  />
+				<text id="generic_language_de" name="Almanca"  />
+				<text id="generic_language_el" name="Yunanca"  />
+				<text id="generic_language_en" name="İngilizce"  />
+				<text id="generic_language_es" name="İspanyolca"  />
+				<text id="generic_language_fi" name="Fince"  />
+				<text id="generic_language_fr" name="Fransız"  />
+				<text id="generic_language_hu" name="Macarca"  />
+				<text id="generic_language_id" name="Endonezyaca"  />
+				<text id="generic_language_it" name="İtalyanca"  />
+				<text id="generic_language_ja" name="Japonca"  />
+				<text id="generic_language_ko" name="Korece"  />
+				<text id="generic_language_nl" name="Flemenkçe"  />
+				<text id="generic_language_no" name="Norveççe"  />
+				<text id="generic_language_pl" name="Lehçe"  />
+				<text id="generic_language_pt" name="Portekizce"  />
+				<text id="generic_language_pt_BR" name="Brazilya dili"  />
+				<text id="generic_language_ru" name="Rusça"  />
+				<text id="generic_language_sv" name="İsveççe"  />
+				<text id="generic_language_tr" name="Türkçe"  />
+				<text id="generic_language_zh_CN" name="Çince (basitleştirilmiş)"  />
+				<text id="generic_language_zh_TW" name="Çince (geleneksel)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Hesabınız bloke edildi! Lütfen destekle iletişime geçin!"  />
+				<text id="generic_login_banned_2" name="Hesabin donduruldu!
+
+Dondurma zamani: {0}
+
+Dondurma islemiyle ilgili sorun olursa, lütfen destekle iletisime gec."  />
+				<text id="generic_login_banned_3" name="Hesabın geçici olarak donduruldu.
+
+Bu durum ile ilgili bir sorun varsa, lütfen destek birimi ile irtibata geç."  />
+				<text id="generic_login_banned_permanent" name="süresiz"  />
+				<text id="generic_login_facebook" name="Facebook aracılığı ile oturum aç"  />
+				<text id="generic_login_login" name="GİRİŞ"  />
+				<text id="generic_login_loginname" name="Kullanıcı adı/E-mail"  />
+				<text id="generic_login_lostpassword" name="Şifreni mi unuttun?"  />
+				<text id="generic_login_lostpassword_copy" name="E-mail adresini gir, şifren e-mail adresine yollanacak."  />
+				<text id="generic_login_lostpassword_title" name="Şifreni mi unuttun?"  />
+				<text id="generic_login_newplayer" name="Yeni misin?"  />
+				<text id="generic_login_password" name="Şifre"  />
+				<text id="generic_login_play" name="HEMEN OYNA"  />
+				<text id="generic_login_playnow" name="Şimdi oyna!"  />
+				<text id="generic_login_register" name="Kayıt ol"  />
+				<text id="generic_login_rememberpassword" name="Şifreni kaydet"  />
+				<text id="generic_login_wronglogin" name="Kullanıcı adı yada şifre yanlış!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Skorunu kaydetmek için kaydol!"  />
+				<text id="generic_logout_guest_title" name="Kayıt ol"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Oyun en geç {0} süre sonra tekrar oynanabilir olacak."  />
+				<text id="servershutdownpremonition_copy" name="Oyun sunucusu {0} içinde kapanacak. Çıkış yap ya da tekrar giriş yap."  />
+				<text id="servershutdownpremonition_registered_copy" name="Bakım çalışmaları sebebiyle sunucuyu {0} süre sonra kapatacağız."  />
+				<text id="servershutdown_copy" name="Oyun sunucusu şimdi kapatılıyor. Birkaç dakika içinde tekrar giriş yapabilirsiniz."  />
+				<text id="welcomeback_copy" name="Seni tekrar görmek güzel! İşleri yoluna koyabilmen için sana küçük bir yardımımız var!"  />
+				<text id="welcomeback_title" name="Geri döndün!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Yeni şifre:"  />
+				<text id="generic_change_password_copy_oldpass" name="Eski şifre:"  />
+				<text id="generic_change_password_copy_send" name="Yeni şifren e-postana gönderildi."  />
+				<text id="generic_change_password_error_failed" name="Üzgünüz, bu eski şifren değil."  />
+				<text id="generic_change_password_error_success" name="Şifre başarıyla değiştirildi!"  />
+				<text id="generic_change_password_faild_copy" name="Yeni şifren en az iki harf içermeli ve eski şifre doğru girilmelidir!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Şifren boş olamaz yada özel karakter içeremez."  />
+				<text id="generic_change_password_faild_title" name="Şifreyi gir"  />
+				<text id="generic_change_password_title" name="Şifre değiştir"  />
+				<text id="generic_guest_change_password_faild_copy" name="Sadece kayıtlı oyuncular şifre değiştirebilir!"  />
+				<text id="generic_guest_change_password_faild_title" name="Önce kaydol"  />
+			</password>
+			<payment>
+				<text id="generic_payment_48hdiscount_button" name="İlk 48 saate daha fazla altın"  />
+				<text id="generic_payment_48hdiscount_button_general" name="İlk 48 saate daha fazla {0}"  />
+				<text id="generic_payment_48hdiscount_copy" name="Kaydından sadece 48 saat sonra - Seçilen altın paketlerini satın al ve {0}% ekstra Altın kazan!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Kaydından sadece 48 saat sonra - altın paketi satın al ve ekstra {0}% Altın kazan!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Kaydından sadece 48 saat sonra - {0} paketi satın al ve ekstra {1}% kazan!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Kaydından sadece 48 saat sonra - Seçilen {0} paketlerini satın al ve {1}% ekstra kazan!"  />
+				<text id="generic_payment_copy" name="Ödeme noktasına yönlendiriliyorsunuz"  />
+				<text id="generic_payment_discount_button" name="Şimdi %{0} daha fazla altın!"  />
+				<text id="generic_payment_discount_copy" name="Altın satın al ve %{0} bonus kazan!"  />
+				<text id="generic_payment_discount_copy_general" name="Şimdi al {0} ve % {1} bonu hakkı kazan!"  />
+				<text id="generic_payment_discount_general" name="Şimdi paran için {0}% daha fazla {1} kazan!"  />
+				<text id="generic_payment_discount_generalshort" name="Paran için {0}% fazlasını al!"  />
+				<text id="generic_payment_discount_time" name="Son {0}!"  />
+				<text id="generic_payment_discount_title" name="Daha fazla altın!"  />
+				<text id="generic_payment_newPrices" name="Hemen basla! Ödeme noktamızda fiyatları düşürdük! Para biriktirme zamanı!"  />
+				<text id="generic_payment_title" name="Ödeme Noktası"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Search for a tunnel through cyber space"  />
+				<text id="loading_text_10" name="Distribute items in the world"  />
+				<text id="loading_text_11" name="Draw graphics"  />
+				<text id="loading_text_12" name="Color the buttons"  />
+				<text id="loading_text_13" name="Hide easter eggs"  />
+				<text id="loading_text_14" name="Look up user information"  />
+				<text id="loading_text_15" name="Scare off bugs"  />
+				<text id="loading_text_16" name="Feed the programmers"  />
+				<text id="loading_text_17" name="Experiment with the client"  />
+				<text id="loading_text_18" name="Turn the hour glass"  />
+				<text id="loading_text_19" name="Cool the system"  />
+				<text id="loading_text_2" name="Oil the cog wheels"  />
+				<text id="loading_text_20" name="Be done soon"  />
+				<text id="loading_text_3" name="Spin the hamster wheel"  />
+				<text id="loading_text_4" name="Warm up the server"  />
+				<text id="loading_text_5" name="Hope that everything goes well"  />
+				<text id="loading_text_6" name="Call for the exterminator"  />
+				<text id="loading_text_7" name="Calculate complicated algorithms"  />
+				<text id="loading_text_8" name="Calibrate flux capacitor"  />
+				<text id="loading_text_9" name="Tinker items"  />
+				<text id="loading_text_default" name="Initialization"  />
+				<text id="loading_text_itemXML" name="Load game elements"  />
+				<text id="progress_loadfiles" name="Degerleri yükle..."  />
+				<text id="progress_serverconnection" name="Sunucuya baglan..."  />
+			</progressbar>
+			<register>
+				<text id="generic_register_agb_copy" name="Önce şart ve koşulları okuyup kabul etmelisin! Soldaki butonla kabul edip devam edebilirsin!"  />
+				<text id="generic_register_agb_read" name="Kayıt ve Şartları oku"  />
+				<text id="generic_register_alreadyavatar" name="Bu kullanıcının zaten avatarı var."  />
+				<text id="generic_register_badword" name="İsminde {0} kullanamazsın."  />
+				<text id="generic_register_btn_agb" name="Şartlar kabul edildi"  />
+				<text id="generic_register_btn_later" name="Daha sonra"  />
+				<text id="generic_register_btn_next" name="Devam"  />
+				<text id="generic_register_btn_save" name="Kaydet"  />
+				<text id="generic_register_character" name="Karakterini yarat"  />
+				<text id="generic_register_copy_0" name="Şimdi bedavaya kayıt ol!"  />
+				<text id="generic_register_copy_1" name="Oyunun kaydediliyor!"  />
+				<text id="generic_register_emaillong_copy" name="Malesef E-Posta adresin fazla uzun."  />
+				<text id="generic_register_emailwrong_copy" name="Girdiğin E-Posta adresi hatalı."  />
+				<text id="generic_register_email_copy" name="E-mail adresi boş olamaz yada boşluk içeremez."  />
+				<text id="generic_register_error" name="Kayıt işlemi başarısız"  />
+				<text id="generic_register_errormistake" name="Hata"  />
+				<text id="generic_register_error_accountalreadyexists" name="Bu e-postayla başka bir oyuncu kayıtlı, üzgünüz."  />
+				<text id="generic_register_forfree" name="Bedavaya kayıt ol!"  />
+				<text id="generic_register_forfree1" name="Bedava!"  />
+				<text id="generic_register_letsgo" name="Gidiyoruz!"  />
+				<text id="generic_register_namealreadyused" name="Bu isim zaten alınmış."  />
+				<text id="generic_register_namenotvalid" name="Girdiğin isim geçerli değil."  />
+				<text id="generic_register_passwordshort_copy" name="Şifren çok kısa. Şifren en az 4 harf içermelidir."  />
+				<text id="generic_register_passwordwrong_copy" name="Girdiğin şifre hatalı."  />
+				<text id="generic_register_password_copy" name="Şifren boş olamaz ve özel karakterler içeremez."  />
+				<text id="generic_register_rememberdata" name="Bilgiyi hatirla"  />
+				<text id="generic_register_reward" name="Bedavaya abone ol ve {0} {1} al!"  />
+				<text id="generic_register_subscribe" name="Abone ol"  />
+				<text id="generic_register_success" name="Kayıt başarıyla tamamlandı."  />
+				<text id="generic_register_title" name="Kayıt hatası"  />
+				<text id="generic_register_unlock" name="Bu özelliği aç!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="İfadelerine lütfen dikkat et. Aksi halde, sohbet özelliği bloke edilecek ve hesabın bir süre için kapatılacak. Sebep: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="Tekrar edilen suistimalden dolayı sohbet fonksiyonu {0} için durduruldu. Sebep: {1}"  />
+				<text id="generic_report_muted_domain1" name="Sohbette URL adresi yazmayınız!"  />
+				<text id="generic_report_muted_reported_copy" name="Bazı oyuncular seni şikayet etti. Sohbet özelliği, {0} için bloke edildi. Sebep: {1}"  />
+				<text id="generic_report_player_copy" name="Oyuncu {0}\'ı gerçekten şikayet etmek istiyor musun?\\n Dikkat! Bu özelliğin dikkatsizce kullanılması hesabınızın bloke edilmesine yol açar."  />
+				<text id="generic_report_player_reason_0" name="Hakaret"  />
+				<text id="generic_report_player_reason_1" name="cinsel taciz"  />
+				<text id="generic_report_player_reason_2" name="ırkçılık"  />
+				<text id="generic_report_player_reason_3" name="Tehdit/Şantaj"  />
+				<text id="generic_report_player_reason_title" name="Şikayet sebebi"  />
+				<text id="generic_report_player_title" name="Oyuncuyu şikayet et?"  />
+				<text id="generic_report_reported_copy" name="Başka bir oyuncu tarafından site yöneticisine şikayet edildin. Sebep: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Bağlan"  />
+				<text id="generic_select_world" name="Dünyanı seç"  />
+				<text id="generic_world" name="Dünya: {0}"  />
+				<text id="generic_world_international" name="Uluslararası: {0}"  />
+			</worlds>
+		</generic_flash>
+	</fashion>
+ 

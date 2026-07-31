@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FASHION - el - 23 -->
+	<fashion>
+		<achievement>
+			<text id="Basic_Achievement_Boughtdeco" name="Πολυτελής Μπουτίκ"  />
+			<text id="Basic_Achievement_Boughtdeco_copy" name="Αριθμός διακοσμήσεων που αγοράστηκαν"  />
+			<text id="Basic_Achievement_Boughtpatterns" name="Μεγάλη επιλογή από προϊόντα"  />
+			<text id="Basic_Achievement_Boughtpatterns_copy" name="Αριθμός των πατρόν που αγοράστηκαν"  />
+			<text id="Basic_Achievement_Earnedchips" name="Καλύτερη μάρκα"  />
+			<text id="Basic_Achievement_Earnedchips_copy" name="Δολλάρια μόδας που κερδίσατε"  />
+			<text id="Basic_Achievement_FinishedCoops" name="Μόδα για Όλους"  />
+			<text id="Basic_Achievement_FinishedCoops_copy" name="Αριθμός συνεταιρισμών που επιτεύχθηκαν"  />
+			<text id="Basic_Achievement_FinishedGoldCoops" name="O χρυσός εφοδιαστής"  />
+			<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Αριθμός των Χρυσών Συνεταιρισμών που επιτεύχθηκαν"  />
+			<text id="Basic_Achievement_Mannequindesign" name="Καταπληκτική βιτρίνα"  />
+			<text id="Basic_Achievement_Mannequindesign_copy" name="Αριθμός των ντυμένων μοντέλων"  />
+			<text id="Basic_Achievement_Masteries" name="Απασχολημένη μοδίστρα"  />
+			<text id="Basic_Achievement_Masteriesgold" name="Χρυσή μοδίστρα"  />
+			<text id="Basic_Achievement_Masteriesgold_copy" name="Αριθμός των Χρυσών Ετικετών που κέρδισες"  />
+			<text id="Basic_Achievement_Masteries_copy" name="Αριθμός των ετικετών που κέρδισες"  />
+			<text id="Basic_Achievement_Producedaccessoires" name="Αξεσουάρ που παράγονται"  />
+			<text id="Basic_Achievement_Producedaccessoires_copy" name="Αριθμός αξεσουάρ που παράγονται"  />
+			<text id="Basic_Achievement_Producedbags" name="Τσάντα εμπόρου"  />
+			<text id="Basic_Achievement_Producedbags_copy" name="Αριθμός των τσαντών που παράγονται"  />
+			<text id="Basic_Achievement_Producedbottoms" name="Πόδια και περισσότερα"  />
+			<text id="Basic_Achievement_Producedbottoms_copy" name="Αριθμός των παντελονιών και φουστών που παράγονται"  />
+			<text id="Basic_Achievement_Producedclothes" name="Monopoly ενδυμάτων"  />
+			<text id="Basic_Achievement_Producedclothes_copy" name="Αριθμός ρούχων που παράγονται"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires" name="Φανταστικά αξεσουάρ"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="Αριθμός των διαφορετικών αξεσουάρ που παράγονται"  />
+			<text id="Basic_Achievement_Produceddifferentclothes" name="Εύρος ρούχων"  />
+			<text id="Basic_Achievement_Produceddifferentclothes_copy" name="Αριθμός των διαφορετικών ρούχων που παράγονται"  />
+			<text id="Basic_Achievement_Produceddifferentitems" name="Ο καλύτερος έμπορος ρούχων"  />
+			<text id="Basic_Achievement_Produceddifferentitems_copy" name="Αριθμός των διαφορετικών προϊόντων που παράγονται"  />
+			<text id="Basic_Achievement_Produceddifferentshoes" name="Τρελό παπούτσι"  />
+			<text id="Basic_Achievement_Produceddifferentshoes_copy" name="Αριθμός των διαφορετικών παπουτσιών που παράγονται"  />
+			<text id="Basic_Achievement_Producedfemaleonly" name="Μόνο για γυναίκες"  />
+			<text id="Basic_Achievement_Producedfemaleonly_copy" name="Αριθμός γυναικείων προϊόντων που παράγονται"  />
+			<text id="Basic_Achievement_Producedfullbody" name="Γιακάς και γραβάτα"  />
+			<text id="Basic_Achievement_Producedfullbody_copy" name="Αριθμός των φορεμάτων και κοστουμιών που παράγονται"  />
+			<text id="Basic_Achievement_Producedhats" name="Καπελάς"  />
+			<text id="Basic_Achievement_Producedhats_copy" name="Αριθμός των καπέλων που παράγονται"  />
+			<text id="Basic_Achievement_Producedjewlery" name="Κουτί κοσμημάτων"  />
+			<text id="Basic_Achievement_Producedjewlery_copy" name="Αριθμός των κοσμημάτων που παράγονται"  />
+			<text id="Basic_Achievement_Producedmaleonly" name="Μόνο για άντρες"  />
+			<text id="Basic_Achievement_Producedmaleonly_copy" name="Αριθμός των ανδρικών προϊόντων που παράγονται"  />
+			<text id="Basic_Achievement_Producedshoes" name="Μεγιστάνας του παπουτσιού"  />
+			<text id="Basic_Achievement_Producedshoes_copy" name="Αριθμός των παπουτσιών που παράγονται"  />
+			<text id="Basic_Achievement_Producedtops" name="Μπλουζάκια παντού"  />
+			<text id="Basic_Achievement_Producedtops_copy" name="Αριθμός των μπλουζών που παράγονται"  />
+			<text id="Basic_Achievement_Soldduringsale" name="Κυνηγός ευκαιριών"  />
+			<text id="Basic_Achievement_Soldduringsale_copy" name="Ένδυμα sold sale"  />
+			<text id="Basic_Achievement_Soldproducts" name="Τα προϊόντα πωλήθηκαν"  />
+			<text id="Basic_Achievement_Soldproducts_copy" name="Αριθμός των προϊόντων που πουλήθηκαν"  />
+			<text id="Basic_Achievement_Spentchips" name="Γενναιόδωρος πωλητής"  />
+			<text id="Basic_Achievement_Spentchips_copy" name="Νομίσματα μόδας που χρησιμοποιήθηκαν"  />
+			<text id="Basic_Achievement_Spentgold" name="Χρυσό κατάστημα"  />
+			<text id="Basic_Achievement_Spentgold_copy" name="Αριμός Χρυσών Κουμπιών που ξοδεύτηκαν"  />
+			<text id="Basic_Achievement_Stolenproducts" name="Ξενοδοχείο Μικρός Κλέφτης"  />
+			<text id="Basic_Achievement_Stolenproducts_copy" name="Αριθμός των προϊόντων που κλάπηκαν"  />
+			<text id="Basic_Achievement_Wheeloffortune" name="Περιστρεφόμενη Βελόνα"  />
+			<text id="Basic_Achievement_Wheeloffortune_copy" name="Αριθμός νικών στον Τροχό της Τύχης"  />
+			<text id="Social_Achievement_Friendscout" name="Δημοφιλής Αγοραστής"  />
+			<text id="Social_Achievement_Friendscout_copy" name="Αριθμός των φίλων του δικτύου"  />
+		</achievement>
+		<alerts>
+			<text id="alerts_avatarcustomize_goldrequest" name="Θέλεις να αλλάξεις ρούχα για {0} {1}?"  />
+			<text id="alerts_avatarcustom_workingplayer_copy" name="Είσαι στη διαδικασία ολοκλήρωσης μιας δράσης και δε μπορείς ν&#039;αλλάξεις τα ρούχα σου σε αυτό το σημείο!"  />
+			<text id="alerts_avatarcustom_workingplayer_title" name="Μία στιγμή παρακαλώ!"  />
+			<text id="alerts_booster_info_copy" name="Ο φύλακας ασφάλειας αποτρέπει τη ληστεία στο κατάστημά σου.
+Μπορείς να τον προσλάβεις για 5 μέρες και να επεκτείνεις επιπλέον αυτό το χρόνο."  />
+			<text id="alerts_booster_info_copy_1" name="Εάν αποκτήσεις {0} επιπλέον φίλους η προστασία σου θα επεκταθεί κατά {1}."  />
+			<text id="alerts_booster_info_title" name="Φύλακας ασφάλειας"  />
+			<text id="alerts_buytiles_copy" name="Θέλεις να αγοράσεις {0} πλακίδια για {1}?"  />
+			<text id="alerts_buytiles_title" name="Αγορά τετραγώνων?"  />
+			<text id="alerts_customcloth_noshape_copy" name="Χρειάζεσαι να διαλέξεις πρώτα ένα σχήμα για να τοποθετήσεις τη στάμπα επάνω του!"  />
+			<text id="alerts_decoshop_dragtipp_copy" name="Σύρε το αντικείμενο μέσα στο κατάστημα για να το χρησιμοποιήσεις."  />
+			<text id="alerts_decoshop_dragtipp_title" name="Διακόσμησε!"  />
+			<text id="alerts_decoshop_next_Cashdesk_bylevel" name="Πρέπει να φτάσεις στο επίπεδο {0} για ν&#039;αγοράσεις ένα επιπλέον ταμείο. Μπορείς επίσης να σύρεις ένα παλιό ταμείο από τη μπουτίκ σου εδώ και ν΄αγοράσεις ένα νέο."  />
+			<text id="alerts_decoshop_next_Changingroom_bylevel" name="Πρέπει να φτάσεις στο επίπεδο {0} για ν&#039; αγοράσεις ένα επιπλέον βεστιάριο. Μπορείς επίσης να σύρεις ένα βεστιάριο από το κατάστημά σου εδώ για ν&#039;αγοράσεις ένα καινούριο."  />
+			<text id="alerts_decoshop_next_Counter_bylevel" name="Πρέπει να φτάσεις στο επίπεδο {0} για ν&#039;αγοράσεις ένα επιπλέον ράφι. Μπορείς επίσης να σύρεις ένα παλιό ράφι από το κατάστημά σου εδώ για ν&#039;αγοράσεις ένα καινούριο."  />
+			<text id="alerts_decoshop_next_Factory_bylevel" name="Πρέπει να φτάσεις στο επίπεδο {0} για ν&#039;αγοράσεις έναν επιπλέον εργάτη. Μπορείς επίσης να σύρεις έναν εργάτη από το κατάστημά σου εδώ και ν&#039;αγοράσεις έναν καινούριο."  />
+			<text id="alerts_decoshop_next_Mannequin_bylevel" name="Πρέπει να φτάσεις στο επίπεδο {0} για ν&#039;αγοράσεις ένα επιπλέον μοντέλο. Μπορείς επίσης να σύρεις ένα παλιό μοντέλο από το κατάστημά σου εδώ και ν&#039;αγοράσεις ένα νέο."  />
+			<text id="alerts_decoshop_nomoreCashdesk" name="Δε μπορείς ν&#039; αγοράσεις περισσότερα ταμεία προς το παρόν!"  />
+			<text id="alerts_decoshop_nomoreChangingroom" name="Δε μπορείς ν&#039; αγοράσεις περισσότερα βεστιάρια προς το παρόν!"  />
+			<text id="alerts_decoshop_nomoreCounter" name="Δε μπορείς ν&#039;αγοράσεις περισσότερα ράφια προς το παρόν!"  />
+			<text id="alerts_decoshop_nomoreExpansion" name="Δεν υπάρχουν νέες επεκτάσεις διαθέσιμες ακόμη."  />
+			<text id="alerts_decoshop_nomoreFactory" name="Δε μπορείς ν&#039;αγοράσεις περισσότερους εργάτες προς το παρόν!"  />
+			<text id="alerts_decoshop_nomoreMannequin" name="Δε μπορείς ν&#039; αγοράσεις περισσότερες κούκλες προς το παρόν!"  />
+			<text id="alerts_decoshop_sellitem_copy" name="Θέλεις σίγουρα να πουλήσεις αυτό το αντικείμενο για {0} ανά τεμάχιο?"  />
+			<text id="alerts_decoshop_sellitem_title" name="Πουλήστε το είδος"  />
+			<text id="alerts_decoshop_storeFactory_copy" name="Δε μπορείς να αφαιρέσεις ένα δυσαρεστημένο εργάτη από το κατάστημά σου. Πλήρωσέ ένα μισθό bonus ή πούλησέ τον/την."  />
+			<text id="alerts_decoshop_storeMannequin_copy" name="Δε μπορείς ν&#039; αποθηκεύσεις το μοντέλο όσο είναι ακόμα ντυμένο."  />
+			<text id="alerts_decoshop_store_title" name="Απόθεμα"  />
+			<text id="alerts_decoshop_workingplayer_copy" name="Πρέπει να ολοκληρώσετε αυτή την ενέργεια πρώτα πριν ανακαινήσετε το κατάστημά σας,"  />
+			<text id="alerts_decoshop_workingplayer_title" name="Απασχολημένος!"  />
+			<text id="alerts_fashionbook_notarget_copy" name="Διάλεξε έναν εργάτη για να παράγει εμπορεύματα."  />
+			<text id="alerts_fashionbook_notarget_copy_1" name="Ο εργάτης είναι ήδη απασχολημένος.
+Διάλεξε έναν άλλο!"  />
+			<text id="alerts_fashionbook_notarget_title" name="Ποιόν εργάτη?"  />
+			<text id="alerts_fashionbook_notequaltype_copy" name="Μπορείς να παράγεις συγκεκριμένα αντικείμενα με αυτόν τον εργάτη.\nΔιάλεξε ένα προϊόν από τη {0} συλλογή."  />
+			<text id="alerts_fashionbook_notequaltype_title" name="Διαφορετικό προϊόν"  />
+			<text id="alerts_fashionbook_usebooster_title" name="Χρησιμοποίησε το πρόσθετο?"  />
+			<text id="alerts_friend_ask" name="Θέλεις να προσθέσεις τον {0} σαν φίλο?"  />
+			<text id="alerts_friend_denied" name="{0} απέρριψε την πρόσκληση φιλίας σου"  />
+			<text id="alerts_friend_title" name="Φιλία"  />
+			<text id="alerts_gift_workingplayer_copy" name="Έχεις ακόμα προϊόντα στα χέρια σου. Βάλτα σ&#039;ένα ράφι πριν τοποθετήσεις τα δώρα."  />
+			<text id="alerts_gift_workingplayer_title" name="Βάλτε τα πρώτα κάτω!"  />
+			<text id="alerts_instantworking_goldrequest" name="Θέλεις να το &#039;Ολοκληρώσεις τώρα&#039;?
+Είναι δυνατό {0} φορές ακόμα!"  />
+			<text id="alerts_invitefriend_copy" name="Η πρόσκλησή στου στον {0} έχει σταλεί!"  />
+			<text id="alerts_invitefriend_title" name="Νέοι φίλοι!"  />
+			<text id="alerts_isoworld_counter_outofreach_copy" name="Το ράφι δεν είναι προσβάσιμο. Αναδιοργάνωσε λίγο."  />
+			<text id="alerts_isoworld_counter_outofreach_title" name="Δεν είναι προσβάσιμο!"  />
+			<text id="alerts_isoworld_factory_outofreach_copy" name="Ο εργάτης αυτός δεν είναι προσβάσιμος. Κάνε μία αναδιοργάνωση."  />
+			<text id="alerts_isoworld_factory_outofreach_title" name="Δεν είναι προσβάσιμο!"  />
+			<text id="alerts_isoworld_mannequin_instant" name="Θέλεις να αλλάξεις το μανεκέν σου?"  />
+			<text id="alerts_isoworld_marketplace_title" name="Μαύρος Πίνακας"  />
+			<text id="alerts_kickedbyplayer_copy" name="Το κατάστημα έκλεισε από τον ιδιοκτήτη του."  />
+			<text id="alerts_kickedbyplayer_title" name="Πρέπει να φύγεις!"  />
+			<text id="alerts_kickjobber_copy" name="Δε μπορείς να μπεις σε κατάσταση ανακαίνισης όσο υπάρχουν άλλοι παίκτες που εργάζονται στο κατάστημά σου."  />
+			<text id="alerts_kickjobber_title" name="Εργάτες στο κατάστημά σου"  />
+			<text id="alerts_kickplayer_copy" name="Άλλοι παίκτες είναι ακόμα μέσα στο κατάστημά σου. Θέλεις να τους αποβάλλεις εκτός έτσι ώστε να αλλάξεις σε κατάσταση ανακαίνισης?"  />
+			<text id="alerts_kickplayer_title" name="Απέβαλε τον παίκτη εκτός"  />
+			<text id="alerts_lostpassword_copy" name="Πληκτρολόγησε τη διεύθυνση του e-mail σου και θα σου στείλουμε ένα νέο κωδικό."  />
+			<text id="alerts_lostpassword_title" name="Ξέχασες τον κωδικό σου?"  />
+			<text id="alerts_mannequindesign_nocloth_copy" name="Δεν έχεις κατάλληλα προϊόντα στα ράφια για να ντύσεις αυτό το μοντέλο."  />
+			<text id="alerts_mannequindesign_nocloth_title" name="Καθόλου προϊόντα!"  />
+			<text id="alerts_marketplace_playerleaved_copy" name="Ο παίκτης έφυγε από τις στοές."  />
+			<text id="alerts_marketplace_playerleaved_title" name="Πολύ αργά!"  />
+			<text id="alerts_placetiles_copy" name="1. Διάλεξε ένα τετράγωνο.
+2. Επέλεξε το πάτωμα του καταστήματος, κράτα πατημένο το κουμπί του ποντικιού και διάλεξε την περιοχή που θέλεις ν&#039;αλλάξεις.
+3. Άσε το κουμπί του ποντικιού."  />
+			<text id="alerts_placetiles_title" name="Θέση πλακιδίων?"  />
+			<text id="alerts_register_copy_addgold" name="Πρέπει να εγγραφείς πριν για να μπορείς να χρησιμοποιήσεις το κατάστημα αυτό."  />
+			<text id="alerts_register_copy_advertisement" name="Πρέπει πρώτα να εγγραφείς έτσι ώστε να μπορείς να προωθήσεις το κατάστημά σου."  />
+			<text id="alerts_register_copy_changeavatar" name="Πρέπει να εγγραφείς για να αλλάξεις την εικόνα σου!"  />
+			<text id="alerts_register_copy_changepassword" name="Μόνο οι εγγεγραμμένοι χρήστες μπορούν ν&#039;αλλάξουν τον κωδικό τους!"  />
+			<text id="alerts_register_copy_coop" name="Πρέπει να εγγραφείς πρώτα για να συμμετέχεις σ&#039;ένα Συνεταιρισμό!"  />
+			<text id="alerts_register_copy_gifts" name="Πρέπει να εγγραφείς πρώτα για να στείλεις δώρα."  />
+			<text id="alerts_register_copy_invitefriend" name="Πρέπει να εγγραφείς πριν να μπορείς να προσκαλέσεις φίλους."  />
+			<text id="alerts_register_copy_logout" name="Εγγραφτείτε για να αποθηκεύσετε την πρόοδό σας!"  />
+			<text id="alerts_register_title" name="Εγγραφή"  />
+			<text id="alerts_servermsg_10" name="Γίνεται επανεκίνηση του σέρβερ, μπορείς να συνεχίσεις σύντομα. Παρακαλώ αποσυνδέσου."  />
+			<text id="alerts_servermsg_title" name="Μήνυμα σέρβερ!"  />
+			<text id="alerts_staff_fire_copy" name="Θέλεις σίγουρα ν&#039;απολύσεις τον ταμία σου?\nΕάν δεν έχεις αρκετούς ταμίες οι πελάτες θα περιμένουν περισσότερη ώρα και θα είναι δυσαρεστημένοι."  />
+			<text id="alerts_staff_fire_title" name="Απόλυσε τον ταμία?"  />
+			<text id="alerts_staff_hire_copy" name="Θέλεις να προσλάβεις ένα νέο ταμία?"  />
+			<text id="alerts_staff_hire_title" name="Νέος ταμίας"  />
+			<text id="alerts_versioncheck_copy" name="Παρακαλούμε ανανεώστε τη σελίδα για να φορτώσετε την τελευταία έκδοση."  />
+			<text id="alerts_versioncheck_title" name="Παλιά έκδοση!"  />
+		</alerts>
+		<cloth>
+			<text id="cloth_blackbowlermale" name="Ημίψηλο"  />
+			<text id="cloth_blackdressfemale" name="Μικρό μαύρο φόρεμα"  />
+			<text id="cloth_blackhandbagfemale" name="Μαύρη τσάντα"  />
+			<text id="cloth_blackheelsfemale" name="Μαύρες γόβες"  />
+			<text id="cloth_blackjacketmale" name="Δερμάτινο μπουφάν"  />
+			<text id="cloth_blackpant2male" name="Τζην GeeCee"  />
+			<text id="cloth_blackpantfemale" name="Μαύρο γυναικείο στενό παντελόνι"  />
+			<text id="cloth_blackpantmale" name="Μαύρο αντρικό στενό παντελόνι"  />
+			<text id="cloth_blacksuitmale" name="Κοστούμι με καρφίτσα"  />
+			<text id="cloth_blackwatchmale" name="Μαύρο ρολόϊ"  />
+			<text id="cloth_bluebaggypantsfemale" name="Φαρδύ παντελόνι JayJay για κορίτσια"  />
+			<text id="cloth_blueblousefemale" name="Μπλε μπλούζα"  />
+			<text id="cloth_bluecapfemale" name="Μπλε καπέλο"  />
+			<text id="cloth_bluecapmale" name="Μπλε καπέλο"  />
+			<text id="cloth_blueheadphones" name="Ακουστικά JayJay"  />
+			<text id="cloth_bluenecklacefemale" name="Μπλε κολιέ με πέρλες"  />
+			<text id="cloth_bluepolomale" name="Μπλε μπλουζάκι πόλο"  />
+			<text id="cloth_blueshirtmale" name="Μπλε κοντομάνικο"  />
+			<text id="cloth_bluesweatermale" name="Πουλόβερ JayJay για αγόρια"  />
+			<text id="cloth_bootsfemale" name="GeeCee μπότες για κορίτσια"  />
+			<text id="cloth_brownknitcapfemale" name="Καφέ σκούφος"  />
+			<text id="cloth_brownknitcapmale" name="Καφέ σκούφος"  />
+			<text id="cloth_cardiganfemale" name="GeeCee ζακέτα για κορίτσια"  />
+			<text id="cloth_cardiganmale" name="GeeCee ζακέτα για αγόρια"  />
+			<text id="cloth_charlestonhatfemale" name="Καπέλο charleston"  />
+			<text id="cloth_checkshirtfemale" name="Πουκάμισο JayJay για κορίτσια"  />
+			<text id="cloth_checkshirtmale" name="Πουκάμισο JayJay για αγόρια"  />
+			<text id="cloth_customcloth" name="Δημιούργησε την εμφάνισή σου!"  />
+			<text id="cloth_darkbluejeansfemale" name="Γυναικείο σκούρομπλε παντελόνι"  />
+			<text id="cloth_darkbluejeansmale" name="Ανδρικό σκούρομπλε παντελόνι"  />
+			<text id="cloth_dressfemale" name="GeeCee φόρεμα για κορίτσια"  />
+			<text id="cloth_flowerskirtfemale" name="GeeDee χρωματιστή φούστα"  />
+			<text id="cloth_ggsshirtmale" name="Μπλουζάκι GeeCee"  />
+			<text id="cloth_goldnecklacefemale" name="Χρυσό Περιδέραιο"  />
+			<text id="cloth_greendressfemale" name="GeeDee φόρεμα"  />
+			<text id="cloth_greenjacketfemale" name="Αντιανεμικό JayJay για κορίτσια"  />
+			<text id="cloth_greenjacketmale" name="Αντιανεμικό JayJay για αγόρια"  />
+			<text id="cloth_greenpulloverfemale" name="Πράσινο ζιβάγκο"  />
+			<text id="cloth_greenshirtmale" name="GeeDee πουκάμισο για αγόρια"  />
+			<text id="cloth_greysuitmale" name="Γκρι κοστούμι"  />
+			<text id="cloth_lightbluejeansfemale" name="Γυναικεία τζην"  />
+			<text id="cloth_lightbluejeansmale" name="Ανδρικά τζην"  />
+			<text id="cloth_manblackmale" name="Μαύρα λουστρίνια"  />
+			<text id="cloth_manbrownmale" name="Καφέ δερμάτινα παπούτσια"  />
+			<text id="cloth_orangeknitcapfemale" name="Πορτοκαλί σκούφος"  />
+			<text id="cloth_orangeknitcapmale" name="Πορτοκαλί σκούφος"  />
+			<text id="cloth_perlnecklacefemale" name="Περιδέραιο με πέρλες"  />
+			<text id="cloth_pinkhangbagfemale" name="Καπιτονέ τσάντα"  />
+			<text id="cloth_pinkshirtfemale" name="Ροζ μπλουζάκι πόλο"  />
+			<text id="cloth_premiumbluejacketmale" name="Ανοιξιάτικο μπουφάν"  />
+			<text id="cloth_premiumgreenjacketfemale" name="Ανοιξιάτικο σακάκι"  />
+			<text id="cloth_premiumjumpsuitfemale" name="GeeDee φόρμα για κορίτσια"  />
+			<text id="cloth_premiumshortsmale" name="GeeDee σορτς για αγόρια"  />
+			<text id="cloth_purplehandbagfemale" name="Τσάντα GeeCee"  />
+			<text id="cloth_purplepulloverfemale" name="Μωβ ζιβάγκο"  />
+			<text id="cloth_purpletshirtfemale" name="Μπλουζάκι JayJay για κορίτσια"  />
+			<text id="cloth_redcapfemale" name="Κόκκινο καπέλο"  />
+			<text id="cloth_redcapmale" name="Κόκκινο καπέλο"  />
+			<text id="cloth_reddressfemale" name="Βραδινο φόρεμα στράπλες"  />
+			<text id="cloth_redheelsfemale" name="Κόκκινα γοβάκια"  />
+			<text id="cloth_redskirtfemale" name="Κόκκινη φούστα με κορδέλλα"  />
+			<text id="cloth_redsneakermale" name="Κόκκινα σπορτέξ JayJay για αγόρια"  />
+			<text id="cloth_redtopfemale" name="Κόκκινο γυαλιστερό μπλουζάκι"  />
+			<text id="cloth_scraffemale" name="GeeCee Polkadot κασκόλ"  />
+			<text id="cloth_scrafmale" name="GeeCee κασκόλ για αγόρια"  />
+			<text id="cloth_silvernecklacefemale" name="Ασημένιο περιδέραιο"  />
+			<text id="cloth_silverwatchmale" name="Ασημένιο ρολόϊ"  />
+			<text id="cloth_sneakersfemale" name="Άσπρα σπορτέξ"  />
+			<text id="cloth_sneakersgreenmale" name="Πράσινα σπορτέξ GeeCee"  />
+			<text id="cloth_sneakersmale" name="Άσπρα σπορτέξ"  />
+			<text id="cloth_strawberrysneakerfemale" name="Παπούτσια φράουλα JayJay"  />
+			<text id="cloth_stripedshirtmale" name="GeeDee αμάνικο πουκάμισο για αγόρια"  />
+			<text id="cloth_stripedtopfemale" name="GeeDee μπλουζάκι για κορίτσια"  />
+			<text id="cloth_stripedtshirtmale" name="Ριγέ μπλουζάκι JayJay για αγόρια"  />
+			<text id="cloth_sweathoodiemale" name="GeeDee ζακέτα για αγόρια"  />
+			<text id="cloth_trenchcoatmale" name="Μαύρη καμπαρντίνα"  />
+			<text id="cloth_whiteshirtmale" name="Άσπρο πουκάμισο"  />
+			<text id="cloth_whiteskirtfemale" name="Άσπρη κοντή φούστα"  />
+			<text id="cloth_yellowdressfemale" name="Χαριτωμένο απογευματινό φόρεμα"  />
+		</cloth>
+		<commons>
+			<text id="achievement_rang" name="Θέση {0}/{1}"  />
+			<text id="comingsoon" name="*Προσεχώς*"  />
+			<text id="currency_cash" name="Δολλάρια μόδας"  />
+			<text id="currency_gold" name="Χρυσά Κουμπιά"  />
+			<text id="currency_gold_single" name="Χρυσό κουμπί"  />
+			<text id="factorytyp_accessories" name="Αξεσουάρ"  />
+			<text id="factorytyp_clothes" name="Ρούχα"  />
+			<text id="factorytyp_shoes" name="Παπούτσια"  />
+			<text id="friendscount" name="Φίλοι {0}"  />
+			<text id="levelcount" name="Επίπεδο {0}"  />
+			<text id="levellabel" name="Επίπεδο"  />
+			<text id="mastery" name="Ετικέτα-Επίπεδο"  />
+			<text id="new" name="Νέο!"  />
+			<text id="xplabel" name="Πόντοι εμπειρίας"  />
+		</commons>
+		<coopmission>
+			<text id="coop_desc_1" name="Μερικά ωραία στοιχεία για ένα πικνικ!"  />
+			<text id="coop_desc_10" name="Όμορφα βραδυνά ενδύματα για τη βραδιά χορού!"  />
+			<text id="coop_desc_11" name="Ανδρικά κλασσικά ρούχα!"  />
+			<text id="coop_desc_2" name="Τέλειο ρούχο για μιά αθλητική περιήγηση!"  />
+			<text id="coop_desc_3" name="Άνθρωποι και μουσική όλη τη νύχτα!"  />
+			<text id="coop_desc_4" name="Το τέλειο δώρο για κάθε περίσταση!"  />
+			<text id="coop_desc_5" name="Δεν υπάρχει τίποτα καλύτερο από ένα κοστούμι με καλή εφαρμογή!"  />
+			<text id="coop_desc_6" name="Παπούτσια όπου και να κοιτάξεις!"  />
+			<text id="coop_desc_7" name="Φούστες, μπλούζες και παπούτσια.... όλα κόκκινα!"  />
+			<text id="coop_desc_8" name="Φορέματα, φορέματα, φορέματα για τις κυρίες μας!"  />
+			<text id="coop_desc_9" name="Ιδανικό για μαθήματα χορού!"  />
+			<text id="coop_title_1" name="Ας πάμε στην εξοχή!"  />
+			<text id="coop_title_10" name="Βραδυά χορού!"  />
+			<text id="coop_title_11" name="Μαύρο στο μαύρο!"  />
+			<text id="coop_title_2" name="Όλα τ&#039; αθλήματα!"  />
+			<text id="coop_title_3" name="Εξαντλημένο!"  />
+			<text id="coop_title_4" name="Σπουδαία δώρα!"  />
+			<text id="coop_title_5" name="Μόνο για άντρες!"  />
+			<text id="coop_title_6" name="Παπούτσια παντού!"  />
+			<text id="coop_title_7" name="Κυρία στα κόκκινα!"  />
+			<text id="coop_title_8" name="Ρούχα για κορίτσια!"  />
+			<text id="coop_title_9" name="Τμήμα χορού!"  />
+		</coopmission>
+		<coop_msg>
+			<text id="coop_msg_0" name="{0} ξεκίνησε αυτό τον Συνεταιρισμό."  />
+			<text id="coop_msg_1" name="{0} συμμετέχει στο Συνεταιρισμό."  />
+			<text id="coop_msg_2" name="{0} έφυγε από το Συνεταιρισμό"  />
+			<text id="coop_msg_3" name="{0} θα ήθελε να παράγει {1} {2} φορές."  />
+			<text id="coop_msg_4" name="{0} παράγει {1}."  />
+			<text id="coop_msg_5" name="{0} επέκτεινε το Συνεταιρισμό."  />
+		</coop_msg>
+		<dialogs>
+			<text id="dialogs_achievement_title" name="Επιτεύγματα"  />
+			<text id="dialogs_advertisementfinal_copy" name="Η προώθησή σου τελείωσε! Ρίξε μια ματιά στα αποτελέσματα! Πως θα εξελιχθεί η επόμενη προώθηση?"  />
+			<text id="dialogs_advertisementfinal_title" name="Συγχαρητήρια!"  />
+			<text id="dialogs_advertisementrunning_copy" name="Η προώθηση διεξάγεται αυτή τη στιγμή. Μπορείς εδώ να δεις πως πηγαίνει."  />
+			<text id="dialogs_advertisementrunning_time" name="Χρόνος που απομένει:"  />
+			<text id="dialogs_advertisementrunning_title" name="Προώθηση σε εξέλιξη"  />
+			<text id="dialogs_advertisement_btn_start" name="Ξεκίνα"  />
+			<text id="dialogs_advertisement_flyer_copy" name="Αύξησε τη δημοτικότητά σου!"  />
+			<text id="dialogs_advertisement_flyer_reward" name="{0} Πόντοι"  />
+			<text id="dialogs_advertisement_flyer_title" name="Προαγωγή αεροπόρου"  />
+			<text id="dialogs_advertisement_magazine_copy" name="Κάθε πελάτης αγοράζει το διπλάσιο!"  />
+			<text id="dialogs_advertisement_magazine_reward" name="x {0}"  />
+			<text id="dialogs_advertisement_magazine_title" name="Διαφήμιση σε Περιοδικό"  />
+			<text id="dialogs_advertisement_title" name="Προαγωγή"  />
+			<text id="dialogs_advertisement_tv_copy" name="Κάθε πελάτης που ψωνίζει μαζί σου, σου δίνει ΧΡ!"  />
+			<text id="dialogs_advertisement_tv_title" name="Τηλεοπτική διαφήμιση"  />
+			<text id="dialogs_avatarselection_copy" name="Αυτό το όνομα χρησιμοποιείται ήδη. Τι θα λέγατε για αυτό:"  />
+			<text id="dialogs_avatarselection_title" name="Ουπς"  />
+			<text id="dialogs_avatar_female" name="Κορίτσι"  />
+			<text id="dialogs_avatar_male" name="Αγόρι"  />
+			<text id="dialogs_avatar_name" name="Όνομα:"  />
+			<text id="dialogs_avatar_randombtn" name="Τυχαία στολή"  />
+			<text id="dialogs_avatar_title" name="Δημιούργησε τον χαρακτήρα σου"  />
+			<text id="dialogs_bonus_cashdesk_copy" name="Τώρα μπορείς να τοποθετήσεις ένα νέο ταμείο και έναν νέο ταμία στο κατάστημά σου!"  />
+			<text id="dialogs_bonus_cashdesk_title" name="Νέο ταμείο μετρητών"  />
+			<text id="dialogs_bonus_changingroom_copy" name="Ένα νέο βεστιάριο ξεκλειδώθηκε."  />
+			<text id="dialogs_bonus_changingroom_title" name="Νέο βεστιάριο"  />
+			<text id="dialogs_bonus_counter_copy" name="Μπορείς να αγοράσεις ένα επιπλέον ράφι!"  />
+			<text id="dialogs_bonus_counter_title" name="Νέο ράφι"  />
+			<text id="dialogs_bonus_expand_copy" name="Έχεις επεκταθεί και έχεις περισσότερο χώρο τώρα για τους πελάτες σου, διακοσμήσεις και ακόμη περισσότερα!"  />
+			<text id="dialogs_bonus_expand_title" name="Επέκταση!"  />
+			<text id="dialogs_bonus_factory_copy" name="Τώρα μπορείς να προσθέσεις και άλλον εργάτη στο κατάστημά σου για να παράγει περισσότερα προϊόντα."  />
+			<text id="dialogs_bonus_factory_title" name="Νέοι εργάτες"  />
+			<text id="dialogs_bonus_level2_copy" name="Το γνώριζες? Μπορείς να επεκτείνεις το κατάστημά σου για να έχεις περισσότερο χώρο για νέους πελάτες και νέα εμπορεύματα."  />
+			<text id="dialogs_bonus_level5_copy" name="Το γνώριζες? Μπορείς να προωθήσεις το κατάστημά σου για να το κάνεις ακόμα πιο δημοφιλές, αγόρασε περισσότερο εμπόρευμα ή κέρδισε επιπλέον ΧΡ."  />
+			<text id="dialogs_bonus_levelUp_copy" name="Συγχαρητήρια! Αποκτήσατε καινούριο επίπεδο."  />
+			<text id="dialogs_bonus_levelUp_title" name="ΝΕΟ ΕΠΙΠΕΔΟ!"  />
+			<text id="dialogs_bonus_level_title" name="Πρόσεξε!"  />
+			<text id="dialogs_bonus_login_copy" name="Αυτό έγινε στο κατάστημά σου ενώ έλειπες:"  />
+			<text id="dialogs_bonus_login_copy2" name="ΔΩΡΟ ΣΥΝΔΕΣΗΣ"  />
+			<text id="dialogs_bonus_login_title" name="Επέστρεψες!"  />
+			<text id="dialogs_bonus_pattern_copy" name="Έχετε ξεκλειδώσει νέα πατρόν!"  />
+			<text id="dialogs_bonus_pattern_title" name="Νέα πατρόν"  />
+			<text id="dialogs_booster_btnbuypolice" name="Ενοικίαση/Παράταση"  />
+			<text id="dialogs_booster_policeman_notime" name="ανενεργό"  />
+			<text id="dialogs_booster_title" name="Πρόσθετο"  />
+			<text id="dialogs_changepassword_newpassword" name="Νέος κωδικός:"  />
+			<text id="dialogs_changepassword_oldpassword" name="Παλιός κωδικός"  />
+			<text id="dialogs_changepassword_title" name="Αλλαγή κωδικού"  />
+			<text id="dialogs_coopreward_finish_0" name="Χρυσός"  />
+			<text id="dialogs_coopreward_finish_1" name="Ασημένιο"  />
+			<text id="dialogs_coopreward_finish_2" name="Χάλκινο"  />
+			<text id="dialogs_coopreward_title_fail" name="Ο συνεταιρισμός απέτυχε!"  />
+			<text id="dialogs_coopreward_title_success" name="Συνεταιρισμός επιτεύχθηκε με {0}"  />
+			<text id="dialogs_coopshelp_copy" name="Μπορείς να κάνεις δουλειές μαζί με τους φίλους σου και να κερδίσεις επιπλέον εμπειρία και Δολλάρια μόδας.\nΌσο πιο γρήγορος είσαι τόσο μεγαλύτερη είναι η αμοιβή σου!\n\nΑν τελειώνει ο χρόνος σου απλά επέκτεινέ τον!\n\nΝα θυμάσαι ότι θα λάβεις την αμοιβή σου μόνο όταν κάνεις μια εισφορά!"  />
+			<text id="dialogs_coopshelp_title" name="Τι είναι οι Συνεταιρισμοί?"  />
+			<text id="dialogs_coop_btn_action" name="Λεπτομέρειες"  />
+			<text id="dialogs_coop_btn_activecoops" name="Ενεργές"  />
+			<text id="dialogs_coop_btn_join" name="Γίνε μέλος"  />
+			<text id="dialogs_coop_btn_newcoop" name="Ξεκίνα ένα συνεταιρισμό"  />
+			<text id="dialogs_coop_btn_progress" name="Πρόοδος"  />
+			<text id="dialogs_coop_btn_protocol" name="Πρωτόκολλο"  />
+			<text id="dialogs_coop_btn_quit" name="Κλείσιμο"  />
+			<text id="dialogs_coop_extendtime_copy" name="Θέλεις να επεκτείνεις το Συνεταιρισμό σου για {0} Χρυσά Κουμπιά?
+Χρόνος χρυσού: {1}Χρόνος ασημένιου: {2}
+Χρόνος χάλκινου: {3}"  />
+			<text id="dialogs_coop_extendtime_title" name="Περισσότερος χρόνος?"  />
+			<text id="dialogs_coop_maxuser" name="Όριο συμμετεχόντων: {0}"  />
+			<text id="dialogs_coop_member" name="Μέλη συνεταιρισμού:"  />
+			<text id="dialogs_coop_minlevel" name="Μέγιστο επίπεδο για να μπεις στο Συνεταιρισμό: {0}"  />
+			<text id="dialogs_coop_minlevel_short" name="Ελάχιστο επίπεδο: {0}"  />
+			<text id="dialogs_coop_produce_copy" name="Πόσο συχνά θέλεις να παράγεις {0} για αυτό το Συνεταιρισμό?"  />
+			<text id="dialogs_coop_produce_title" name="Δημιουργήστε για το Συνεταιρισμό?"  />
+			<text id="dialogs_coop_quit_copy" name="Θέλεις σίγουρα να φύγεις από αυτόν τον Συνεταιρισμό?"  />
+			<text id="dialogs_coop_subtitle" name="Πρέπει να παράγεις:"  />
+			<text id="dialogs_coop_timeInfo" name="Εκπληρώθηκε σε:"  />
+			<text id="dialogs_coop_timeleft" name="Χρόνος που απομένει:"  />
+			<text id="dialogs_coop_txt_noactive" name="Κανένας ενεργός Συνεταιρισμός αυτή τη στιγμή.\nΔημιουργήστε έναν καινούριο!"  />
+			<text id="dialogs_coop_txt_title" name="Συνεταιρισμοί"  />
+			<text id="dialogs_counterclick_btndonate" name="Δώρισε"  />
+			<text id="dialogs_counterclick_copy" name="Τα προϊόντα που ακολουθούν είναι επάνω σε αυτό το ράφι."  />
+			<text id="dialogs_counterclick_title" name="Ράφι"  />
+			<text id="dialogs_customclothbuy_copy" name="Θέλεις να προσθέσεις {0} μόνιμα στον κατάλογό σου για {1} Χρυσά Κουμπιά?"  />
+			<text id="dialogs_customclothbuy_title" name="Αγόρασε πατρόν!"  />
+			<text id="dialogs_customclothhelp_copy" name="Μπορείς να δημιουργήσεις και να παράγεις τα δικά σου ρούχα εδώ!
+Διάλεξε σχήμα και χρώμα!
+Το σχήμα ορίζει το χρόνο παραγωγής και τα κέρδη σου.
+Το πατρόν θα είναι διαθέσιμο σε 24 ώρες.
+Αν θέλεις να κρατήσεις το πατρόν μπορείς να το προσθέσεις μόνιμα στον κατάλογό σου!"  />
+			<text id="dialogs_customclothinfo_title" name="Το δικό σου στυλ!"  />
+			<text id="dialogs_customcloth_btn_choose" name="Διάλεξε"  />
+			<text id="dialogs_customcloth_entername" name="Δώσε μου ένα όνομα!"  />
+			<text id="dialogs_customcloth_icon" name="Στάμπα"  />
+			<text id="dialogs_customcloth_shape" name="Σχήμα"  />
+			<text id="dialogs_customcloth_title" name="Η σχεδίασή σου ορίζει το στυλ!"  />
+			<text id="dialogs_decoshophelp_copy" name="Αν μετακινήσεις τα έπιπλα ή τις διακοσμήσεις σε αυτή την καρτέλα και ΟΧΙ στην ταμειακή μηχανή, θα μπουν στην αποθήκη.
+Αν τα σύρεις πίσω στο κατάστημα, αυτό δε θα σου κοστίσει χρήματα.
+Μπορείς να δεις τον αριθμό τεμαχίων για κάθε τεμάχιο δίπλα στο άδειο κουτί."  />
+			<text id="dialogs_decoshophelp_copy_1" name="Τα έπιπλα και οι διακοσμήσεις έχουν μία αξία πολυτέλειας, η οποία, όταν προστίθεται, φτιάχει την αξία πολυτέλειας του καταστήματός σου! Πόσο πολυτελές είναι το κατάστημά σου?"  />
+			<text id="dialogs_decoshophelp_title" name="Βάλε ράφια/ διακοσμήσεις στην αποθήκη?"  />
+			<text id="dialogs_decoshophelp_title_1" name="Αξία Πολυτέλειας?"  />
+			<text id="dialogs_factoryclick_btn_cancel" name="Διακοπή παραγωγής"  />
+			<text id="dialogs_factoryclick_copy" name="Θέλεις να το &#039;Ολοκληρώσεις τώρα&#039;? Μπορείς να το κάνεις αυτό {0} ακόμα φορές σήμερα."  />
+			<text id="dialogs_factoryclick_title" name="Τρέχουσα παραγωγή!"  />
+			<text id="dialogs_fashionbook_durationtime" name="Διάρκεια: {0}"  />
+			<text id="dialogs_fashionbook_emptypattern" name="Δεν υπάρχουν νέα πατρόν διαθέσιμα ακόμη."  />
+			<text id="dialogs_fashionbook_emptypatterncustomcloth" name="Εδώ μπορείς να βρείς τα δικά σου συνηθισμένα πατρόν!"  />
+			<text id="dialogs_fashionbook_emptyproducts" name="Χρειάζεσαι πατρόν για να παράγεις προϊόντα.
+
+Αγόρασε μερικά από τον Κατάλογο."  />
+			<text id="dialogs_fashionbook_pieces" name="Ποσότητα:"  />
+			<text id="dialogs_fashionbook_productionPrice" name="{0} κοστίζει η παραγωγή"  />
+			<text id="dialogs_fashionbook_saleprice" name="/ τεμάχιο:"  />
+			<text id="dialogs_featureUnlocked_advertisement" name="Χρησιμοποίησε τη διαφήμιση για να κάνεις το μαγαζί σου θορυβώδες!"  />
+			<text id="dialogs_featureUnlocked_arcades" name="Βρες νέους φίλους στις στοές!"  />
+			<text id="dialogs_featureUnlocked_coop" name="Ξεκίνα μία Συνεργασία με τους φίλους σου!"  />
+			<text id="dialogs_featureUnlocked_custompattern" name="Σχεδίασε τα δικά σου πατρόν από τώρα και στο εξής!"  />
+			<text id="dialogs_featureUnlocked_decoration" name="Νέες διακοσμήσεις έχουν ενεργοποιηθεί για σένα!"  />
+			<text id="dialogs_featureUnlocked_policeman" name="Προσοχή! Από δω και στο εξής τα αγαθά μπορεί να κλαπούν! Είναι καλύτερα να προσλάβεις έναν αστυνομικό!"  />
+			<text id="dialogs_featureUnlocked_ranking" name="Επισκέψου άλλους παίκτες μέσω της βαθμολογίας!"  />
+			<text id="dialogs_featureUnlocked_wheeloffortune" name="Δοκίμασε την τύχη σου στον Τροχό της Τύχης και κέρδισε σπουδαία βραβεία!"  />
+			<text id="dialogs_giftbox_btnclose" name="Κλείσιμο"  />
+			<text id="dialogs_giftbox_btnsend" name="στείλε σαν δώρο"  />
+			<text id="dialogs_giftbox_empty_friends" name="Μπορείς να στείλεις ένα δώρο την ημέρα σε κάθε έναν από τους φίλους σου."  />
+			<text id="dialogs_giftbox_empty_mygifts" name="Το κουτί με τα δώρα είναι άδειο.
+Στείλε μερικά δώρα στους φίλους σου, ίσως να σου στείλουν και αυτοί μερικά σε αντάλλαγμα."  />
+			<text id="dialogs_giftbox_empty_sendablegifts" name="Χωρίς δώρα σήμερα."  />
+			<text id="dialogs_giftbox_friendstitle" name="Στείλε στους φίλους"  />
+			<text id="dialogs_giftbox_mygiftstitle" name="Τα δώρα μου"  />
+			<text id="dialogs_giftbox_sendablegiftstitle" name="Στείλε δώρα"  />
+			<text id="dialogs_highscore_name" name="Όνομα"  />
+			<text id="dialogs_highscore_rank" name="Θέση"  />
+			<text id="dialogs_highscore_search" name="Αναζήτηση Όνομα/Θέση"  />
+			<text id="dialogs_highscore_title" name="Κατάταξη"  />
+			<text id="dialogs_info_goldsmith_copy" name="Ο χρυσοχόος παράγει μόνο αξεσουάρ."  />
+			<text id="dialogs_info_goldsmith_title" name="Ο χρυσοχόος"  />
+			<text id="dialogs_info_sewer_copy" name="Η μοδίστρα δε παράγει τίποτα άλλο από ρούχα."  />
+			<text id="dialogs_info_sewer_title" name="Η Μοδίστρα"  />
+			<text id="dialogs_info_shoemaker_copy" name="Ο υποδηματοποιός παράγει μόνο παπούτσια."  />
+			<text id="dialogs_info_shoemaker_title" name="Ο Υποδηματοποιός"  />
+			<text id="dialogs_invitefriend_copy" name="Πληκτρολόγησε το όνομα και τη διεύθυνση e-mail του φίλου σου για να τον/την καλέσεις."  />
+			<text id="dialogs_invitefriend_emptyparam" name="Πρέπει να συμπληρώσεις κάθε κουτί κειμένου."  />
+			<text id="dialogs_invitefriend_friendname" name="Όνομα φίλου:"  />
+			<text id="dialogs_invitefriend_mail" name="Η διεύθυνση e-mail του φίλου σου:"  />
+			<text id="dialogs_invitefriend_myname" name="Τ&#039;όνομά σου:"  />
+			<text id="dialogs_invitefriend_title" name="Πρόσκληση"  />
+			<text id="dialogs_lonelycash_copy" name="Κάποιος άφησε ένα πορτοφόλι στο γραφείο απωλεσθέντων!
+
+Μήπως ανήκει σε έναν από τους φίλους σου?"  />
+			<text id="dialogs_lonelycash_title" name="Ίδρυσέ το!"  />
+			<text id="dialogs_lonelycop_copy" name="Ο Αρχηγός Ασφάλειας ψάχνει εργασία για τον εκπαιδευόμενό του!Ίσως οι φίλοι σου θα τον προσλάβουν!"  />
+			<text id="dialogs_lonelycop_title" name="Αίτημα!"  />
+			<text id="dialogs_lonelypants_copy" name="Ο ταμίας σου βρήκε ένα κουτί με εξτρά ρούχα!\nΜοιραστείτε τα με τους φίλους σας!"  />
+			<text id="dialogs_lonelypants_title" name="Τι είναι αυτό?"  />
+			<text id="dialogs_mannequindesign_empty" name="Δεν έχεις κάτι σε αυτή την κατηγορία για να το διαλέξεις."  />
+			<text id="dialogs_mannequindesign_title" name="Μοντέλο"  />
+			<text id="dialogs_mannequinpaycheck_copy" name="Η ανταμοιβή σου θα είναι ακόμα μεγαλύτερη όσο περισσότερο οι πελάτες σου απολαμβάνουν το μοντέλο σου."  />
+			<text id="dialogs_mannequinpaycheck_title" name="Βαθμολογία"  />
+			<text id="dialogs_mastery_copy_0" name="Κέρδισες μία ετικέτα για {0}!"  />
+			<text id="dialogs_mastery_copy_1" name="Μοιράσου κάποια επιπλέον προϊόντα με τους φίλους σου!"  />
+			<text id="dialogs_mastery_info" name="Κάθε ετικέτα που κερδίζεις κάνει τα προϊόντα σου καλύτερα!"  />
+			<text id="dialogs_mastery_title" name="Μία καινούρια ετικέτα!"  />
+			<text id="dialogs_noreward_copy" name="Ένας άλλος παίκτης ήταν πιο γρήγορος από σένα!"  />
+			<text id="dialogs_noreward_title" name="Συγγνώμη!"  />
+			<text id="dialogs_payment_copy" name="Αγόρασε εδώ χρυσά κουμπιά/δολλάρια μόδας"  />
+			<text id="dialogs_payment_title" name="Πληρωμή καταστήματος"  />
+			<text id="dialogs_perfectpants_copy" name="Έχεις παράγει {0} τέλεια σήμερα!\nΔώσε στους φίλους σου το παραγόμενο πλεόνασμα!"  />
+			<text id="dialogs_perfectpants_title" name="Τέλειο!"  />
+			<text id="dialogs_pesentreceived_text" name="Το καλώς ήρθες δώρο σου των {0} Χρυσών κουμπιών έχει προστεθεί στο λογαριασμό σου."  />
+			<text id="dialogs_pesentreceived_title" name="Ζήτω!"  />
+			<text id="dialogs_pesentreminder_send" name="Στείλε"  />
+			<text id="dialogs_pesentreminder_text1" name="{0} Χρυσά κουμπιά σε περιμένουν σαν ένα καλώς ήρθες πίσω δώρο.
+Πάτησε στο σύνδεσμο στο καλώς ήρθες e-mail για να τα συλλέξεις."  />
+			<text id="dialogs_pesentreminder_text2" name="Μπορείς να στείλεις το e-mail ξανά."  />
+			<text id="dialogs_pesentreminder_title" name="Καλώς ήρθες Δώρο!"  />
+			<text id="dialogs_receivecomeback_copy_0" name="Σαν ένα Καλώς ήρθες πάλι δώρο λαμβάνεις
+{0} Χρυσά Κουμπιά και ένα φοβερό πρόσθετο!"  />
+			<text id="dialogs_receivecomeback_copy_1" name="Σαν ένα Καλώς ήρθες πάλι δώρο λαμβάνεις
+{0} Χρυσά Κουμπιά και ένα φύλακα ασφάλειας για {1}!"  />
+			<text id="dialogs_receivecomeback_title" name="Επέστρεψες!"  />
+			<text id="dialogs_receivecop_copy" name="Ο εκπαιδευόμενος έχει ξεκινήσει να δουλεύει και ο χρόνος φύλαξής σου έχει επεκταθεί κατά
+1 ώρα!"  />
+			<text id="dialogs_receivecop_title" name="Προσλήφθηκες!"  />
+			<text id="dialogs_receiveitem_copy" name="Η ανταμοιβή σου είναι μέσα στο κουτί δώρων!"  />
+			<text id="dialogs_receiveitem_title" name="Μπράβο!"  />
+			<text id="dialogs_receivemoney_copy" name="Έχεις λάβει την ανταμοιβή σου!"  />
+			<text id="dialogs_receivemoney_title" name="Μπράβο!"  />
+			<text id="dialogs_register_agb" name="Αποδοχή Όρων και Προϋποθέσεων Χρήσης"  />
+			<text id="dialogs_register_btnsave" name="Αποθήκευση"  />
+			<text id="dialogs_register_copy_0" name="Δωρεάν εγγραφή τώρα!"  />
+			<text id="dialogs_register_copy_1" name="Αποθήκευσε το σκορ σου!"  />
+			<text id="dialogs_register_copy_2" name="Αφού έχετε κάνει εγγραφή, θα λάβετε {0} Χρυσά κουμπιά σαν ένα καλώς ήρθες δώρο μέσω email."  />
+			<text id="dialogs_register_email" name="E-mail"  />
+			<text id="dialogs_register_forfree" name="ΔΩΡΕΑΝ!"  />
+			<text id="dialogs_register_password" name="Κωδικός πρόσβασης"  />
+			<text id="dialogs_register_title" name="Εγγραφή"  />
+			<text id="dialogs_robberyall_copy" name="Όλα τα προϊόντα σου κλάπηκαν."  />
+			<text id="dialogs_robbery_copy" name="Κάποια από τα προϊόντά σου κλάπηκαν."  />
+			<text id="dialogs_robbery_copy2" name="Παρουσιάστε τα παραγόμενα προϊόντα σε ένα ράφι ή προσλάβετε ένα φύλακα για να αποφύγετε την κλοπή."  />
+			<text id="dialogs_robbery_title" name="Ληστεία!"  />
+			<text id="dialogs_sale_copy" name="Κάνε click σε ένα ράφι χρησιμοποιώντας το σύμβολο πώλησης για να μαρκάρεις τα ρούχα προς πώληση.
+Οι τιμές θα μειωθούν και η φήμη του καταστήματός σου θα μεγαλώσει.
+Η πώληση τελειώνει μόλις το ράφι αδειάσει."  />
+			<text id="dialogs_sale_title" name="Προς πώληση"  />
+			<text id="dialogs_shippingconfirmation_send" name="Μόλις στείλαμε το καλώς ήρθες δώρο σου.
+
+Για να το πάρεις, απλά πάτησε στο σύνδεσμο του καλώς ήρθες e-mail."  />
+			<text id="dialogs_shippingconfirmation_titel" name="Δώρο!"  />
+			<text id="dialogs_staff_btnfire" name="Απόλυσε"  />
+			<text id="dialogs_staff_btnhire" name="Ενοικίαση"  />
+			<text id="dialogs_staff_title" name="Οι ταμίες σου"  />
+			<text id="dialogs_wheeloffortune_beforespin" name="Γύρνα τον Τροχό της Τύχης και κέρδισε φοβερά βραβεία!"  />
+			<text id="dialogs_wheeloffortune_btn_go" name="Γύρνα!"  />
+			<text id="dialogs_wheeloffortune_btn_towheel" name="Στον Τροχό της Τύχης!"  />
+			<text id="dialogs_wheeloffortune_copy1" name="Γύρισες ήδη σήμερα τον Τροχό της Τύχης?"  />
+			<text id="dialogs_wheeloffortune_info" name="Το πρώτο γύρισμα είναι δωρεάν!"  />
+			<text id="dialogs_wheeloffortune_nomoney" name="Δεν έχεις αρκετά χρυσά κουμπιά για να γυρίσεις τον Τροχό της Τύχης!"  />
+			<text id="dialogs_wheeloffortune_noregister" name="Μόνο εγγεγραμμένοι παίκτες μπορούν να γυρίσουν τον Τροχό της Τύχης!"  />
+			<text id="dialogs_wheeloffortune_nospace" name="Δεν υπάρχει αρκετός χώρος στο κουτί δώρων σου για όλα τα βραβεία! Κάνε λίγο χώρο, μετά μπορείς να γυρίσεις τον Τροχό της Τύχης!"  />
+			<text id="dialogs_wheeloffortune_title" name="Ο Τροχός της Τύχης!"  />
+			<text id="dialogs_wheeloffortune_tryagain" name="Γιατί δε δοκιμάζεις ξανά?"  />
+			<text id="dialogs_wheeloffortune_woncash" name="Συγχαρητήρια! Σου έχουμε ήδη απονέμει το βραβείο σου!"  />
+			<text id="dialogs_wheeloffortune_woncloth" name="Συγχαρητήρια! Μπορείς να βρεις το βραβείο σου μέσα το κουτί δώρων σου!"  />
+			<text id="dialogs_wheeloffortune_wonitem" name="Συγχαρητήρια! Μπορείς να βρεις το βραβείο σου στην αποθήκη."  />
+		</dialogs>
+		<error_codes>
+			<text id="error_advertisement_nolevel" name="Πρέπει να φτάσεις τουλάχιστον στο επίπεδο {0} για να μπορείς να πάρεις μέρος σε μιά προώθηση."  />
+			<text id="error_advertisement_nomoney" name="Δεν έχεις αρκετά Χρυσά Κουμπιά/ Δολλάρια Μόδας για να πάρεις μέρος σε αυτή την προώθηση!"  />
+			<text id="error_avatar_12" name="Αυτό το όνομα χρησιμοποιείται ήδη."  />
+			<text id="error_avatar_15" name="Αυτός ο χρήστης έχει ήδη ένα χαρακτήρα."  />
+			<text id="error_avatar_genderempty" name="Διάλεξε έναν χαρακτήρα!"  />
+			<text id="error_avatar_nameinvalide" name="Το όνομα χρήστη σου δε πρέπει να είναι κενό ή να περιέχει ειδικούς χαρακτήρες"  />
+			<text id="error_avatar_standardname" name="Παρακαλώ εισάγετε ένα όνομα χρήστη."  />
+			<text id="error_boost_nomoney" name="Δε μπορείς ν&#039;αγοράσεις αυτή το πρόσθετο"  />
+			<text id="error_cancleproduction_36" name="Το ράφι δεν είναι προσβάσιμο! Αναδιοργάνωσε κάποια αντικείμενα."  />
+			<text id="error_changepassword_0" name="Ο κωδικός άλλαξε με επιτυχία!"  />
+			<text id="error_changepassword_10" name="Αυτός δεν είναι ο παλιός κωδικός σου!"  />
+			<text id="error_changepassword_copy" name="Ο νέος κωδικός πρέπει να έχει περισσότερους από 2 χαρακτήρες. Ο παλιός κωδικός πρέπει να εισαχθεί σωστά."  />
+			<text id="error_changepassword_title" name="Αλλαγή κωδικού"  />
+			<text id="error_chat_23" name="H λειτουργία του chat έχει προσωρινά απενεργοποιηθεί από τη διεύθυνση!"  />
+			<text id="error_chat_24" name="Παρακαλώ, μη σπαμμάρετε τη συζήτηση!"  />
+			<text id="error_common_1" name="Μήνυμα λάθους\nServer μήνυμα {0}"  />
+			<text id="error_common_3" name="- DEBUG: Πολύ χαμηλό επίπεδο -"  />
+			<text id="error_common_30" name="-DEBUG: Κανένας εργάτης/ράφι διαθέσιμος-"  />
+			<text id="error_common_38" name="-DEBUG: Σε κατάσταση ανακαίνισης-"  />
+			<text id="error_common_5" name="- DEBUG: Άγνωστο WodId -"  />
+			<text id="error_common_80" name="-DEBUG: Υπολογισμός διαδρομής. Πολύ μεγάλη καθυστέρηση-"  />
+			<text id="error_common_81" name="-DEBUG: Υπολογισμός διαδρομής. Αρνητική καθυστέρηση-"  />
+			<text id="error_common_title" name="Πρόσεξε!"  />
+			<text id="error_coop_3" name="Χρειάζεσαι μεγαλύτερο επίπεδο για να μπεις σ&#039;αυτό το Συναιτερισμό.\Πρέπει να ξεκλειδώσεις τουλάχιστον ένα ακόμα από τα σχέδια που απαιτούνται για να μπεις."  />
+			<text id="error_coop_90" name="Συμμετέχεις ήδη σε ένα Συνεταιρισμό!"  />
+			<text id="error_coop_91" name="Έχει συμπληρωθεί ο μέγιστος αριθμός των συμμετεχόντων σε αυτό το Συνεταιρισμό."  />
+			<text id="error_coop_92" name="Ο Συνεταιρισμός αυτός έχει ήδη γίνει!"  />
+			<text id="error_coop_93" name="Ξεκίνησες ήδη ένα Συνεταιρισμό σήμερα! Αύριο μπορείς να ξεκινήσεις άλλον!"  />
+			<text id="error_coop_nomoney" name="Δεν έχεις αρκετά Χρυσά κουμπιά για να επεκτείνεις αυτό το Συνεταιρισμό."  />
+			<text id="error_coop_title" name="Συνεταιρισμός"  />
+			<text id="error_customclothbuy_nomoney" name="Δεν έχεις αρκετά Χρυσά Κουμπιά για να αγοράσεις αυτό το πατρόν!"  />
+			<text id="error_customclothproduce_nomoney" name="Δεν έχεις αρκετά Δολλάρια Μόδας για να παράγεις αυτό το πατρόν!"  />
+			<text id="error_customclothunlock_nomoney" name="Δεν έχεις αρκετά Δολλάρια Μόδας ή Χρυσά Κουμπιά για να ξεκλειδώσεις αυτό το αντικείμενο!"  />
+			<text id="error_customize_nomoney" name="Δεν έχεις αρκετά Χρυσά Κουμπιά για ν&#039;αλλάξεις την εικόνα σου."  />
+			<text id="error_custom_nameinvalide" name="Δεν επιτρέπεται να χρησιμοποιήσεις {0}!"  />
+			<text id="error_deliverinfo_33" name="-DEBUG: Τα προϊόντα σας δεν έχουν παραχθεί ακόμα-"  />
+			<text id="error_deliverinfo_35" name="-DEBUG: Ο εργάτης δεν έχει παράγει τίποτα-"  />
+			<text id="error_deliverinfo_36" name="Δε μπορείς να φτάσεις αυτόν τον εργάτη. Αναδιοργάνωσε τα αντικείμενα στο κατάστημά σου έτσι ώστε να τον πλησιάσεις από τη μία πλευρά."  />
+			<text id="error_deliverinfo_37" name="Δυστυχώς δεν υπάρχει ελεύθερο ράφι για να παρουσιάσεις τα προϊόντά σου."  />
+			<text id="error_deliver_33" name="-DEBUG: Τα προϊόντα σας δεν έχουν παραχθεί ακόμα-"  />
+			<text id="error_deliver_35" name="-DEBUG: Ο εργάτης δεν έχει παράγει τίποτα-"  />
+			<text id="error_deliver_36" name="Αυτό το ράφι δεν είναι προσβάσιμο. Αναδιοργάνωσε τα αντικείμενα στο κατάστημά σου έτσι ώστε να μπορείς να φτάσεις τουλάχιστον μία πλευρά του."  />
+			<text id="error_deliver_37" name="Το ράφι αυτό είναι γεμάτο. Διάλεξε ένα άλλο ώστε να παρουσιάσεις τα προϊόντα."  />
+			<text id="error_deliver_46" name="Δε μπορείς να κρεμάσεις αυτά τα προϊόντα. Διάλεξε ένα ράφι όπου μπορείς να τα αφήσεις κάτω."  />
+			<text id="error_deliver_title" name="Αυτό δε λειτουργεί..."  />
+			<text id="error_editmode_3" name="-DEBUG: Δεν επιτεύχθηκε το ελάχιστο επίπεδο-"  />
+			<text id="error_editmode_31" name="-DEBUG: Το αντικείμενο δε μπορεί να επιλεχθεί-"  />
+			<text id="error_editmode_32" name="-DEBUG: Το είδος δε βρίσκεται στην αποθήκη-"  />
+			<text id="error_editmode_37" name="-DEBUG: Υπάρχουν ακόμα προϊόντα σε αυτό το ράφι-"  />
+			<text id="error_editmode_39" name="-DEBUG: Άγνωστη τοποθεσία-"  />
+			<text id="error_editmode_48" name="-DEBUG: Οι αδρανείς εργάτες δε μπορούν να αποθηκευτούν-"  />
+			<text id="error_editmode_50" name="-DEBUG: Η θέση είναι μπλοκαρισμένη-"  />
+			<text id="error_editmode_51" name="-DEBUG: Η θέση είναι κενή-"  />
+			<text id="error_editmode_52" name="-DEBUG: Το αντικείμενο δε περιστρέφεται-"  />
+			<text id="error_editmode_53" name="-DEBUG: Έχεις ήδη αυτή την επέκταση-"  />
+			<text id="error_editmode_54" name="-DEBUG: Δε μπορείς ν&#039;αγοράσεις ακόμα την επέκταση αυτή-"  />
+			<text id="error_editmode_55" name="-DEBUG: Το μοντέλο δε μπορεί να πωληθεί/αποθηκευτεί-"  />
+			<text id="error_editmode_nomoney" name="Δε μπορείς ν&#039;αγοράσεις αυτό το αντικείμενο."  />
+			<text id="error_editmode_removeMannequin" name="Δε μπορείς να πουλήσεις το μοντέλο όσο είναι ακόμα ντυμένο."  />
+			<text id="error_editmode_removeminCashdesk" name="Χρειάζεσαι τουλάχιστον ένα ταμείο ώστε οι πελάτες να μπορούν να πληρώνουν για τα προϊόντα."  />
+			<text id="error_editmode_removeminChangingroom" name="Χρειάζεσαι τουλάχιστον ένα βεστιάριο ώστε οι πελάτες σου να μπορούν να δοκιμάσουν τα προϊόντα."  />
+			<text id="error_editmode_removeminCounter" name="Χρειάζεσαι τουλάχιστον ένα ράφι  για να παρουσιάσεις τα προϊόντα σου."  />
+			<text id="error_editmode_removeminFactory" name="Χρειάζεσαι τουλάχιστον έναν εργάτη για την παραγωγή νέων προϊόντων."  />
+			<text id="error_editmode_removeminMannequin" name="Χρειάζεσαι τουλάχιστον ένα μοντέλο , ώστε να μπορείς να παρουσιάσεις τα προϊόντα σου ακόμα καλύτερα."  />
+			<text id="error_editmode_removenotallowedCounter" name="Υπάρχουν ακόμα ρούχα σε αυτό το ράφι!"  />
+			<text id="error_editmode_removenotallowedDoor" name="Χρειάζεσαι μία πόρτα!Για ν&#039;αλλάξεις την πόρτα, σύρε μία άλλη μέσα στο κατάστημά σου πρώτα."  />
+			<text id="error_editmode_removenotallowedFactory" name="Ο εργάτης αυτός παράγει ακόμα!"  />
+			<text id="error_editmode_title" name="Λάθος κατά τη διακόσμηση"  />
+			<text id="error_fashiongame_1" name="Δεν μπορέσαμα να φορτώσουμε το κατάστημά σας. Παρακαλώ επικοινωνήστε με την υποστήριξη της Goodgame Studios."  />
+			<text id="error_fashiongame_title" name="Άσχημο λάθος"  />
+			<text id="error_forgotpassword_101" name="Έχεις μπλοκάρει τη λήψη e-mails. Παρακαλώ επικοινώνησε με την υποστήριξη"  />
+			<text id="error_fullscreen_copy" name="Η λειτουργία πλήρους οθόνης δεν είναι δυνατή."  />
+			<text id="error_fullscreen_title" name="Λειτουργία πλήρους οθόνης"  />
+			<text id="error_gift_20" name="Δεν υπάρχει χώρος στο ράφι αυτό για το δώρο."  />
+			<text id="error_gift_34" name="Έχεις φτάσει το όριο δώρων σου.
+Θέλεις να χρησιμοποιήσεις {0} περισσότερα για {1} Χρυσά Κουμπιά?"  />
+			<text id="error_gift_37" name="Δεν υπάρχει χώρος στο ράφι αυτό για το δώρο."  />
+			<text id="error_gift_nomoney" name="Δεν έχεις αρκετά Χρυσά Κουμπιά για να χρησιμοποιήσεις περισσότερα δώρα!"  />
+			<text id="error_gift_title" name="Δώρα"  />
+			<text id="error_instantdesign_34" name="- DEBUG: Ημερήσιο όριο επιτεύχθηκε"  />
+			<text id="error_instantdesign_nomoney" name="Δεν έχεις αρκετά Χρυσά Κουμπιά για ν&#039;αλλάξεις το στυλ του μοντέλου σου τώρα."  />
+			<text id="error_instantdesign_nomoreinstant" name="Μπορείς να ντύσεις τα μοντέλα σου νωρίς μόνο για κάποιες ορισμένες φορές. Αύριο μπορείς να τα ξαναδιακοσμήσεις πάλι."  />
+			<text id="error_instantdesign_title" name="Βιτρίνα"  />
+			<text id="error_instantwork_nomoney" name="Δεν έχεις αρκετά Χρυσά Κουμπιά για να ολοκληρώσεις την παραγωγή τώρα."  />
+			<text id="error_invitefriend_11" name="Αυτός ο παίκτης δεν είναι online τώρα. Παρακαλώ δοκίμασε πάλι αργότερα!"  />
+			<text id="error_invitefriend_13" name="Ο φίλος σου έχει ήδη εγγραφεί στη Μόδα!"  />
+			<text id="error_invitefriend_14" name="Αυτή η διεύθυνση e-mail είναι άκυρη."  />
+			<text id="error_invitefriend_70" name="Έχεις φτάσει το όριο των πιθανών φίλων!"  />
+			<text id="error_invitefriend_71" name="Ο παίκτης δε μπορεί να έχει άλλους φίλους!"  />
+			<text id="error_invitefriend_title" name="Η πρόσκληση απέτυχε"  />
+			<text id="error_job_2" name="Ώρα για διάλειμμα!Εργάστηκες αρκετά για την ώρα."  />
+			<text id="error_join_20" name="Το κατάστημα αυτό είναι γεμάτο. Παρακαλώ δοκίμασε αργότερα."  />
+			<text id="error_join_21" name="-DEBUG: Υπάρχει ήδη στο κατάστημα-"  />
+			<text id="error_join_22" name="-DEBUG: Το κατάστημα είναι άγνωστο-"  />
+			<text id="error_join_title" name="Μπες στο κατάστημα"  />
+			<text id="error_login_10" name="Λάθος κωδικός ή όνομα χρήστη!"  />
+			<text id="error_login_11" name="Λάθος κωδικός ή όνομα χρήστη!"  />
+			<text id="error_login_12" name="Ο χρήστης αυτός έχει ήδη εγγραφεί."  />
+			<text id="error_login_13" name="Ο χρήστης αυτός έχει ήδη εγγραφεί."  />
+			<text id="error_login_14" name="Λάθος κωδικός ή όνομα χρήστη!"  />
+			<text id="error_login_15" name="Έχετε ήδη συνθεδεί"  />
+			<text id="error_login_16" name="Η εικόνα σου είναι ελαττωματική!Παρακαλώ επικοινώνησε με την υποστήριξη."  />
+			<text id="error_lostpassword_101" name="Έχεις μπλοκάρει τη λήψη e-mails. Πάτησε στο &quot;οκ&quot; για να επιτρέψεις τη λήψη e-mails."  />
+			<text id="error_lostpassword_11" name="Δεν υπάρχει κανένας εγγεγραμμένος χρήστης σε αυτή τη διεύθυνση!"  />
+			<text id="error_marketplace_20" name="-DEBUG: Οι στοές είναι γεμάτες-"  />
+			<text id="error_marketplace_21" name="-DEBUG: Βρίσκεσαι ήδη στις στοές-"  />
+			<text id="error_marketplace_title" name="Στοά Goodgame"  />
+			<text id="error_nocustomclothselected" name="Αν θέλεις να παράγεις κάτι πρέπει να διαλέξεις πρώτα το σχήμα!"  />
+			<text id="error_nomoney_copy" name="Συγγνώμη, δε μπορείτε να το αγοράσετε ακόμα."  />
+			<text id="error_nomoney_guest_copy" name="Έχουν τελειώσει τα χρήματα?\Κάνε εγγραφή και θα κερδίσεις {0} Δολλάρια Μόδας!"  />
+			<text id="error_nomoney_title" name="Έλλειψη χρημάτων"  />
+			<text id="error_npchire_nomoney" name="Δεν έχεις αρκετά Χρυσά Κουμπιά για να προσλάβεις ένα νέο ταμία."  />
+			<text id="error_patternshop_44" name="Έχεις ήδη αγοράσει αυτό το πατρόν."  />
+			<text id="error_patternshop_5" name="-DEBUG: WOD unknown-"  />
+			<text id="error_patternshop_nomoney" name="Δε μπορείς ν&#039;αγοράσεις το νέο πατρόν."  />
+			<text id="error_patternshop_title" name="Πρόβλημα πατρόν"  />
+			<text id="error_police_nomoney" name="Δεν έχεις αρκετά Χρυσά Κουμπιά για να προσλάβεις τον φύλακα ασφαλείας."  />
+			<text id="error_register_10" name="Ο κωδικός είναι πολύ μικρός."  />
+			<text id="error_register_102" name="Η διεύθυνση e-mail που έχεις εισάγει δεν είναι έγκυρη."  />
+			<text id="error_register_13" name="Υπάρχει ήδη εγγεγραμμένος χρήστης με αυτή τη διεύθυνση!"  />
+			<text id="error_register_14" name="Η διεύθυνση e-mail που έχετε πληκτρολογήσει δεν είναι σωστή!"  />
+			<text id="error_register_19" name="Η διεύθυνση e-mail σου είναι πολύ μεγάλη."  />
+			<text id="error_register_2" name="Έχεις ήδη επιβεβαιώσει τη διεύθυνση e-mail σου."  />
+			<text id="error_register_agb" name="Πρέπει να διαβάσεις και ν&#039; αποδεχθείς τους όρους και τις προϋποθέσεις χρήσης πρώτα! Επιβεβαίωσε πατώντας το κουμπί στα αριστερά. Έγινε!"  />
+			<text id="error_register_emailinvalide" name="Η διεύθυνση e-mail δε πρέπει να είναι κενή ή να περιέχει ειδικούς χαρακτήρες."  />
+			<text id="error_register_passwordinvalide" name="Ο κωδικός σου δε πρέπει να είναι κενός ή να περιέχει ειδικούς χαρακτήρες."  />
+			<text id="error_register_title" name="Λάθος εγγραφής"  />
+			<text id="error_repair_36" name="-DEBUG: Ο εργάτης δεν είναι προσβάσιμος-"  />
+			<text id="error_repair_48" name="-DEBUG: Ο εργάτης έχει ήδη δραστηριοποιηθεί 100%-"  />
+			<text id="error_repair_nomoney" name="Δεν έχεις αρκετά Δολλάρια Μόδας για να πληρώσεις τον bonus μισθό ."  />
+			<text id="error_repair_title" name="Επιδιόρθωση"  />
+			<text id="error_sale_47" name="Δεν υπάρχουν προϊόντα σε αυτό το ράφι!"  />
+			<text id="error_sale_title" name="ΠΩΛΗΣΗ"  />
+			<text id="error_walk_23" name="-DEBUG: Δε μπορείς να περπατήσεις στην τοποθεσία αυτή-"  />
+			<text id="error_work_31" name="-DEBUG: Ο εργάτης ήδη εργάζεται-"  />
+			<text id="error_work_32" name="-DEBUG: Δεν έχεις το πατρόν για αυτό το προϊόν-"  />
+			<text id="error_work_36" name="Ο δρόμος για τον εργάτη είναι μπλοκαρισμένος. Δοκίμασε ν&#039; ανακαινίσεις."  />
+			<text id="error_work_41" name="- DEBUG: Κανένα πρόσθετο στα αποθέματα -"  />
+			<text id="error_work_45" name="-DEBUG: Ο τύπος παραγωγής και ο τύπος εργάτη δεν είναι συμβατοί-"  />
+			<text id="error_work_49" name="- DEBUG: Λανθασμένο πρόσθετο για αυτόν τον εργάτη -"  />
+			<text id="error_work_67" name="Το πατρόν σου δεν είναι πλέον διαθέσιμο.
+Δημιούργησε ένα καινούριο!"  />
+			<text id="error_work_nomoney" name="Δεν έχεις αρκετά Δολλάρια Μόδας για να ξεκινήσεις την παραγωγή."  />
+			<text id="error_work_title" name="Άρνηση εργασίας"  />
+		</error_codes>
+		<feature>
+			<text id="feature_0_text_0" name="Έφτασε η ώρα!
+
+Η επίσημη beta έκδοση της Μόδας Goodgame είναι εδώ!
+Όλοι θα ξεκινήσουν πάλι από το επίπεδο 1 αλλά θα λάβουν πίσω τα χρυσά κουμπιά που είχαν αγοράσει προηγούμενως και επιπλέον 10 χρυσά κουμπιά. 
+
+Παρακαλούμε όπως απολαύσετε τη Μόδα Goodgame!"  />
+			<text id="feature_0_title" name="Επίσημη έναρξη!"  />
+			<text id="feature_10_text_0" name="Το καλοκαίρι είναι εδώ!
+Η νέα συλλογή GeeDee έφτασε!"  />
+			<text id="feature_1_text_0" name="Αναζητήστε χρυσό μαζί με τους φίλους σας!\nΑνακαλύψτε τους νέους Συνεταιρισμούς!"  />
+			<text id="feature_2_text_0" name="Ανακάλυψε τα νέα ράφια, δοκιμαστήρια &amp; ταμειακές μηχανές!"  />
+			<text id="feature_2_text_1" name="Ποτέ δεν ήταν τόσο εύκολο να αλλάξεις την εμφάνισή σου! Απλά επέλεξε τον χαρακτήρα σου!"  />
+			<text id="feature_2_text_2" name="Απόλαυσε τη Μόδα τώρα με Ήχο!"  />
+			<text id="feature_3_text_0" name="Η Άνοιξη έρχεται! Δες τα καινούρια πατρόν και δώσε νέα ζωή στο κατάστημά σου!"  />
+			<text id="feature_3_text_1" name="Οι νέες ετικέτε θα κάνουν τα προϊόντά σου ακόμα περισσότερο κερδοφόρα!"  />
+			<text id="feature_4_text_0" name="Χρώματα παντού!
+Δες την καινούρια Συλλογή JayJay!"  />
+			<text id="feature_4_text_1" name="Ανακάλυψε τα νέα ράφια, δωμάτια αλλαγής και ταμεία!"  />
+			<text id="feature_4_text_2" name="Τα νέα ανοιξιάτικα μπουφάν είναι καταπληκτικά!"  />
+			<text id="feature_4_text_3" name="Νέες δουλειές σε περιμένουν! Βοήθησε τους φίλους σου και ανταμοίψου!"  />
+			<text id="feature_5_text_0" name="Φέρε τα χρώματα! Η νέα JayJay Συλλογή είναι τώρα διαθέσιμη για το κατάστημά σου!"  />
+			<text id="feature_5_text_1" name="Ανακάλυψε τα νέα ράφια, βεστιάρια και ταμειακές μηχανές!"  />
+			<text id="feature_5_text_2" name="Τα νέα Ανοιξιάτικα Μπουφάν είναι εδώ για να ταρακουνήσουν το κατάστημά σου!"  />
+			<text id="feature_5_text_3" name="Βοήθησε τους φίλους σου και πάρε ανταμοιβή!"  />
+			<text id="feature_6_text_0" name="Γίνε ένας σχεδιαστής μόδας και δημιούργησε τα δικά σου πατρόν!"  />
+			<text id="feature_6_text_1" name="Ανακάλυψε τα νέα παράθυρα εμφάνισης για το κατάστημά σου!"  />
+			<text id="feature_7_text_0" name="Πόσο τυχερός είσαι?
+Γύρνα τον Τροχό της Τύχης και βρες το!"  />
+			<text id="feature_8_text_0" name="Κάνε το κατάστημά σου πιο δημοφιλές και γοητευτικό με τη νέα αξία πολυτέλειας των επίπλων &amp; διακοσμητικών αντικειμένων!"  />
+			<text id="feature_8_text_1" name="Ενθουσίασε τους πελάτες σου με νέα ράφια, βεστιάρια και ταμειακές μηχανές!"  />
+			<text id="feature_9_text_0" name="Προώθησε το κατάστημά σου για να κερδίσεις περισσότερη δημοτικότητα και να κερδίσεις επιπλέον ΧΡ!"  />
+			<text id="feature_9_text_1" name="Τοποθέτησε περισσότερα δώρα στα ράφια σου!"  />
+			<text id="feature_title" name="Νέα χαρακτηριστικά"  />
+		</feature>
+		<feeds>
+			<text id="descriptionfashionfeed" name="Μόλις έκανα εγκατάσταση τη Μόδα Goodgame. Θα ήθελες και εσύ να ανοίξεις το δικό σου μαγαζί μόδας και να γίνεις ένας σχεδιαστής μόδας? Έλα και ρίξε μια ματιά!"  />
+			<text id="descriptionlongfashion" name="Άνοιξε το δικό σου κατάστημα μόδας στο Goodgame Fashion. Γίνε ένα διάσημος σχεδιαστής, αγόρασε μοναδικά υφάσματα και φτιάξε τη δική σου ενδυμασία και δημιούργησε καινούργιες τάσεις στη μόδα. Διακόσμησε το κατάστημά σου και γίνε ο καινούργιος αστέρας της μόδας!"  />
+		</feeds>
+		<forumaction>
+			<text id="forumaction_copy_1" name="Σχεδίασε το δικό σου μαγιό και κέρδισε!
+Χρυσά κουμπιά περιμένουν το νικητή και το πατρόν θα εμφανίζεται στην περιοχή των πατρών!
+
+Πάνε στο φόρουμ και πάρε μέρος στο διαγωνισμό!"  />
+			<text id="forumaction_title_1" name="Γίνε δημιουργικός!"  />
+		</forumaction>
+		<loggedin_msg id=""  />
+		<panels>
+			<text id="panels_buddylist_morefriends" name="Περισσότεροι φίλοι"  />
+			<text id="panels_login_email" name="Όνομα χρήστη/ Διεύθυνση e-mail"  />
+			<text id="panels_login_loginbtn" name="ΣΥΝΔΕΣΗ"  />
+			<text id="panels_login_lostpassword" name="Ξέχασες τον κωδικό σου?"  />
+			<text id="panels_login_password" name="Κωδικός πρόσβασης"  />
+			<text id="panels_login_playbtn" name="ΠΑΙΞΕ ΤΩΡΑ"  />
+			<text id="panels_login_registerbtn" name="ΕΓΓΡΑΦΗ"  />
+			<text id="panels_login_rememberpassword" name="Αποθήκευση κωδικού"  />
+			<text id="panels_social_alone" name="Είσαι μόνος αυτή τη στιγμή!"  />
+			<text id="panels_social_bot" name="Μόδα-Συζήτηση"  />
+			<text id="panels_social_chatblocked" name="Μόνο εγγεγραμμένοι χρήστες που ξεκινάν στο επίπεδο 1 μπορούν να χρησιμοποιήσουν τη συζήτηση!"  />
+			<text id="panels_social_come_in" name="μπήκε στο κατάστημα."  />
+			<text id="panels_social_go_out" name="έφυγε από το κατάστημα."  />
+			<text id="panels_social_nofriends" name="Δεν έχεις καθόλου φίλους προς το παρόν."  />
+			<text id="panels_social_welcome_market" name="Καλώς ήρθες στις στοές Goodgame"  />
+			<text id="panels_social_welcome_myshop" name="Καλώς ήρθες"  />
+		</panels>
+		<server>
+			<mail>
+				<text id="mail_invite_friend" name="Γειά σου %s!&lt;br /&gt;&lt;br /&gt;Μόλις ανακάλυψα αυτό το σπουδαίο online παιχνίδι &quot;Μόδα Goodgame&quot;.&lt;br /&gt;&lt;br /&gt;Με αυτό τον σύνδεσμο θα μεταβείς απευθείας στο παιχνίδι:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Κάνε εγγραφή με αυτόν το σύνδεσμο για να δημιουργήσεις το δικό σου κατάστημα μόδας δωρεάν στην &quot;Μόδα Goodgame&quot;.&lt;br /&gt;&lt;br /&gt;Ανακάλυψε πως είναι να έχεις το δικό σου κατάστημα μόδας.Φτιάξε θαυμάσια ρούχα, αξεσουάρ και παπούτσια, πούλησέ τα στο κατάστημά σου και διακόσμησέ το όπως επιθυμείς!&lt;br /&gt;&lt;br /&gt;Καλή διασκέδαση, %s"  />
+				<text id="mail_lost_pw" name="Γειά σου %s!&lt;br /&gt;&lt;br /&gt;
+Έχεις λάβει αυτό το αυτόματο e-mail επειδή ζήτησες ένα νέο κωδικό.&lt;br /&gt;
+Ο νέος κωδικός σου είναι: %s &lt;br /&gt;&lt;br /&gt;
+Μπορείς να συνδεθείς μέσω αυτής της σελίδας:
+&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br 
+/&gt;
+Παρακαλώ επικοινώνησε με το support@goodgamestudios.com αν έχεις περισσότερες ερωτήσεις ή προβλήματα. &lt;br /&gt;&lt;br /&gt;
+
+Καλή διασκέδαση!&lt;br /&gt;&lt;br /&gt;
+Η ομάδα της &lt;br /&gt;Goodgamestudios.com"  />
+				<text id="mail_registration" name="Γειά σου,&lt;br /&gt;&lt;br /&gt;Ευχαριστούμε για την εγγραφή σου και καλώς ήρθες στη &quot;Μόδα Goodgame&quot;.&lt;br /&gt;&lt;br /&gt;Μπορείς να συνδεθείς όλη την ώρα με τα ακόλουθα δεδομένα:&lt;br /&gt;Email: %s&lt;br /&gt;Κωδικός: %s&lt;br /&gt;&lt;br /&gt;Με αυτόν τον σύνδεσμο μπαίνεις στο παιχνίδι απευθείας:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Παρακαλούμε όπως επικοινωνήσετε με την support@goodgamestudios.com εάν έχετε άλλες ερωτήσεις ή προβλήματα. &lt;br /&gt;&lt;br /&gt;Καλή διασκέδαση!&lt;br /&gt;&lt;br /&gt;Η ομάδα της &lt;br /&gt;Goodgamestudios.com"  />
+			</mail>
+			<misc>
+				<text id="marketplace" name="Στοές Goodgame"  />
+			</misc>
+		</server>
+		<server_msg>
+			<text id="server_msg_10" name="Γίνεται επανεκίνηση του σέρβερ. Θα είμαστε πίσω σε ένα λεπτό.\nΠάτησε F5 για ν&#039; ανανεώσεις τη σελίδα."  />
+			<text id="server_msg_title" name="Μήνυμα σέρβερ"  />
+		</server_msg>
+		<std_buttons>
+			<text id="btn_addcurrency" name="Αγόρασε δολλάρια μόδας/χρυσά κουμπιά"  />
+			<text id="btn_payment" name="Αγόρασε δολλάρια μόδας/χρυσά κουμπιά"  />
+			<text id="btn_policeman" name="Φύλακας ασφάλειας"  />
+			<text id="btn_register" name="Εγγραφή"  />
+			<text id="btn_superrewardChips" name="Κέρδισε δολλάρια μόδας"  />
+			<text id="btn_superrewardGold" name="Κέρδισε χρυσά κουμπιά"  />
+		</std_buttons>
+		<tooltips>
+			<text id="tooltip_Basic_Factory_Basicaccessoire" name="Χρυσοχόος"  />
+			<text id="tooltip_Basic_Factory_Basiccloth" name="Μοδίστρα"  />
+			<text id="tooltip_Basic_Factory_Basicshoes" name="Υποδηματοποιός"  />
+			<text id="tooltip_counter_pieces" name="Ποσότητα: {0}"  />
+			<text id="tooltip_customcloth_icon" name="Στάμπες"  />
+			<text id="tooltip_customcloth_shape" name="Σχήματα"  />
+			<text id="tooltip_customcloth_unlock" name="Ξεκλείδωσε"  />
+			<text id="tooltip_factory_empty" name="Δημιουργήστε νέα προϊόντα!"  />
+			<text id="tooltip_factory_preparestep1" name="Καθοδηγήστε τον εργαζόμενο"  />
+			<text id="tooltip_factory_preparetitle" name="Επέλεξε"  />
+			<text id="tooltip_factory_readytoserv" name="Παρουσίαση προϊόντων"  />
+			<text id="tooltip_factory_readytoserv_amount" name="Ποσότητα: {0}"  />
+			<text id="tooltip_factory_wear" name="Κίνητρο: {0}%"  />
+			<text id="tooltip_FashionActionPanel_btn_achievements" name="Επιτεύγματα"  />
+			<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Προσθήκη Χρυσών κουμπιών/\n Νομισμάτων Μόδας"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisement" name="Προώθηση"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="από το επίπεδο {0} και μετά μπορείς να διαφημιστείς"  />
+			<text id="tooltip_FashionActionPanel_btn_booster" name="Πρόσθετο"  />
+			<text id="tooltip_FashionActionPanel_btn_coop" name="Συνεταιρισμοί"  />
+			<text id="tooltip_FashionActionPanel_btn_decoshop" name="Ανακαινίζω"  />
+			<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="Προώθησε το κατάστημά σου!"  />
+			<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Κατάλογος"  />
+			<text id="tooltip_FashionActionPanel_btn_gifts" name="Δώρα"  />
+			<text id="tooltip_FashionActionPanel_btn_highscore" name="Κατάταξη"  />
+			<text id="tooltip_FashionActionPanel_btn_market" name="Στοές Goodgame"  />
+			<text id="tooltip_FashionActionPanel_btn_openclose" name="Άνοιγμα/Κλείσιμο καταστήματος"  />
+			<text id="tooltip_FashionActionPanel_btn_ownshop" name="Το Κατάστημά μου"  />
+			<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Προώθηση σε εξέλιξη
+Πάτησε εδώ για τα προκριματικά αποτελέσματα"  />
+			<text id="tooltip_FashionActionPanel_btn_sale" name="Μείωση των τιμών"  />
+			<text id="tooltip_FashionActionPanel_btn_staff" name="Ταμίες"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="Κάτω μέρος"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="Μαλλί"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="Χροιά δέρματος"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="Μπλουζάκια"  />
+			<text id="tooltip_FashionBookDialog_btn_all" name="Όλα"  />
+			<text id="tooltip_FashionBookDialog_btn_buy" name="Αγόρασε πατρόν"  />
+			<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="Σχεδίασε πατρόν"  />
+			<text id="tooltip_FashionBookDialog_btn_mastery" name="ακόμα {0} μέχρι την ετικέτα επίπεδο {1}
+Επέλεξε για περισσότερες λεπτομέρειες"  />
+			<text id="tooltip_FashionBookDialog_btn_produce" name="Παράγω"  />
+			<text id="tooltip_FashionBookDialog_customcloth" name="Συνήθη πατρόν"  />
+			<text id="tooltip_FashionBookDialog_female" name="Για κορίτσια"  />
+			<text id="tooltip_FashionBookDialog_info" name="Θυμηθείτε να έχετε ρούχα
+για κορίτσια και αγόρια
+στο κατάστημά σας συνεχώς!"  />
+			<text id="tooltip_FashionBookDialog_male" name="Για αγόρια"  />
+			<text id="tooltip_FashionBookDialog_unisex" name="Για αγόρια &amp; κορίτσια"  />
+			<text id="tooltip_FashionBoosterDialog_addAmount" name="Τεμάχια ανά αγορά"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="Επέκταση χρόνου"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="Επέκταση χρόνου κατά\n {0} με {1} επιπλέον φίλους"  />
+			<text id="tooltip_FashionBoosterDialog_btn_buy" name="Αγόρασε"  />
+			<text id="tooltip_FashionBoosterDialog_btn_info" name="πληροφορία"  />
+			<text id="tooltip_FashionBoosterDialog_coffee" name="Ο καφές\n αυξάνει την αποδοτικότητα της μοδίστρας σου κατά 20% !"  />
+			<text id="tooltip_FashionBoosterDialog_currentAmount" name="Σε απόθεμα"  />
+			<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="Παρούσα προστασία από κλοπή"  />
+			<text id="tooltip_FashionBoosterDialog_energy" name="Ποτό ενέργειας
+Η αποδοτικότητα του υποδηματοποιού σου αυξάνεται κατά 20%!"  />
+			<text id="tooltip_FashionBoosterDialog_police" name="Φύλακας ασφάλειας"  />
+			<text id="tooltip_FashionBoosterDialog_price" name="Τιμή"  />
+			<text id="tooltip_FashionBoosterDialog_shake" name="Ρόφημα πρωτεϊνης
+Αυξάνει την αποδοτικότητα του χρυσοχόου σου μέχρι και 20%!"  />
+			<text id="tooltip_FashionCoopDialog_btn_extend" name="Επέκταση Συνεταιρισμού"  />
+			<text id="tooltip_FashionCounterDialog_btn_sale" name="Η τιμή θα μειωθεί"  />
+			<text id="tooltip_FashionCounterDialog_btn_spend" name="Δώρισε εμπορεύματα εντελώς δωρεάν"  />
+			<text id="tooltip_FashionCounterDialog_btn_unsale" name="Ακύρωση πώλησης"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="Αγόρασε"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_close" name="Τέλος νέας διακόσμησης"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko" name="Ανακαίνιση"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="Διακοσμήσεις"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="Εμφάνιση παράθυρου"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="Πόρτες"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="Δάπεδα"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="Τοίχοι"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="Διακοσμήσεις τοίχου"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="Επεκτάσεις"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Προσθήκη ορόφων"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="Επέκτεινε το κατάστημα"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional" name="Λειτουργοί"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Ταμεία"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="Δοκιμαστήρια"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="Ράφια"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="Εργάτες"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="Μοντέλα"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="Πατρόν"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_sell" name="Πώληση"  />
+			<text id="tooltip_FashionExpansionFriends" name="Χρειάζεσαι ακόμα {0} φίλους\n για να ξεκλειδώσεις αυτή την επέκταση"  />
+			<text id="tooltip_FashionFactoryDialog_btn_instant" name="Τελείωσέ το τώρα!"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_remove" name="Διαγραφή"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_use" name="Χρησιμοποίησε"  />
+			<text id="tooltip_FashionGiftboxDialog_mygifts" name="Τα δώρα μου"  />
+			<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="Στείλε δώρα"  />
+			<text id="tooltip_FashionHighscoreDialog_luxury" name="Ταξινόμηση σύμφωνα με την Αξία Πολυτέλειας"  />
+			<text id="tooltip_FashionHighscoreDialog_offline" name="Εκτός σύνδεσης"  />
+			<text id="tooltip_FashionHighscoreDialog_online" name="Συνδεμένος"  />
+			<text id="tooltip_FashionHighscoreDialog_xp" name="Ταξινόμηση σύμφωνα με ΧΡ"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="Αξεσουάρ"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="Ρούχα"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="Παπούτσια"  />
+			<text id="tooltip_FashionMasteryInfoDialog_bronce" name="Φτιάξε περισσότερα!"  />
+			<text id="tooltip_FashionMasteryInfoDialog_gold" name="Φτιάξε γρηγορότερα!"  />
+			<text id="tooltip_FashionMasteryInfoDialog_silver" name="Απέκτησε περισσότερη εμπειρία!"  />
+			<text id="tooltip_FashionNamePanel_mc_luxury" name="Αξία Πολυτέλειας του Καταστήματός σου"  />
+			<text id="tooltip_FashionNamePanel_mc_rating" name="Δημοτικότητα του καταστήματός σας"  />
+			<text id="tooltip_FashionOptionPanel_btn_allowemails" name="Επέτρεψε e-mails"  />
+			<text id="tooltip_FashionOptionPanel_btn_blockemails" name="Μπλόκαρε e-mails"  />
+			<text id="tooltip_FashionOptionPanel_btn_bugreport" name="Αναφορά bug"  />
+			<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Άλλαξε το στυλ του χαρακτήρα"  />
+			<text id="tooltip_FashionOptionPanel_btn_changePass" name="Αλλαγή κωδικού"  />
+			<text id="tooltip_FashionOptionPanel_btn_faq" name="Συχνές ερωτήσεις"  />
+			<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="Πλήρης οθόνη"  />
+			<text id="tooltip_FashionOptionPanel_btn_help" name="Βοήθεια"  />
+			<text id="tooltip_FashionOptionPanel_btn_logout" name="Αποσύνδεση"  />
+			<text id="tooltip_FashionOptionPanel_btn_music" name="Μουσική on/off"  />
+			<text id="tooltip_FashionOptionPanel_btn_news" name="GGS φόρουμ"  />
+			<text id="tooltip_FashionOptionPanel_btn_options" name="Επιλογές"  />
+			<text id="tooltip_FashionOptionPanel_btn_register" name="Εγγραφή"  />
+			<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="Ήχος on/off"  />
+			<text id="tooltip_FashionOptionPanel_btn_support" name="Στείλε ένα e-mail στην Υποστήριξη"  />
+			<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="Πάρε το καλώς ήρθες δώρο"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="+ Μεγέθυνση"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- Σμίκρυνση"  />
+			<text id="tooltip_FashionOptionPanel_mc_floors" name="Δάπεδα"  />
+			<text id="tooltip_FashionOptionPanel_mc_ranking" name="Κατάταξη"  />
+			<text id="tooltip_FashionPatternFriends" name="Χρειάζεσαι ακόμα {0} φίλους\n για να ξεκλειδώσεις αυτό το πατρόν"  />
+			<text id="tooltip_FashionSocialPanel_btn_buddies" name="Φίλοι"  />
+			<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="Παίκτες που παρακολουθούν"  />
+			<text id="tooltip_FashionSocialPanel_btn_chat" name="Συζήτηση"  />
+			<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="Προσκαλέστε φίλους"  />
+			<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Προσθήκη δολλαρίων μόδας/χρυσών κουμπιών"  />
+			<text id="tooltip_FashionUserStatePanel_jobs" name="Αριθμός ενεργειών"  />
+			<text id="tooltip_FashionUserStatePanel_xp" name="{0} ΧΡ μέχρι το επόμενο επίπεδο"  />
+			<text id="tooltip_Fashion_btnclose" name="Κλείσιμο"  />
+			<text id="tooltip_levelx" name="Διαθέσιμο στο επίπεδο {0}"  />
+			<text id="tooltip_marketplace" name="Μαύρος Πίνακας"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Επιτεύγματα"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="Προσθήκη φίλου"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="Πληροφορία"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Απέβαλε"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="Διαγραφή φίλου"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="Επίσκεψη"  />
+			<text id="tooltip_wheeloffortune_line1" name="Ο Τροχός της Τύχης!"  />
+			<text id="tooltip_wheeloffortune_line2" name="Πάτησε για να παίξεις!"  />
+			<text id="tooltip_wheeloffortune_line3" name="Ένα παιχνίδι είναι δωρεάν"  />
+			<text id="tooltip_xofy" name="{0} από {1}"  />
+		</tooltips>
+		<tutorial>
+			<text id="tut_buypattern_copy" name="Αυτός είναι ο κατάλογος, εδώ μπορείς να αγοράσεις καινούρια πατρόν. Εφόσον αγοράσεις ένα πατρόν μπορείς να το χρησιμοποιήσεις απεριόριστες φορές για να παράγεις προϊόντα. Επέλεξε να αγοράσεις ένα νέο πατρόν. Και να θυμάσαι να έχεις ρούχα ανδρικά και γυναικεία στο κατάστημά σου!"  />
+			<text id="tut_choosemannequin_copy" name="Τα προϊόντα σου θα προσελκύσουν πελάτες αν τα χρησιμοποιήσεις για να ντύσεις τα μοντέλα σου. Επέλεξε ένα μοντέλο που δε χρησιμοποιείται τώρα."  />
+			<text id="tut_delivercounter_copy" name="... και μετά τοποθετήσέ το σε ένα άδειο ράφι!"  />
+			<text id="tut_emptyfactory_copy" name="Η μοδίστρα παράγει ρούχα, αργότερα θα μπορείς να προσλάβεις επιπλέον εργάτες για να παράγουν άλλα προϊόντα. 
+Επέλεξε τη Μοδίστρα."  />
+			<text id="tut_instantwork_copy" name="Πάτησε στο κουμπί και τα ρούχα σου θα είναι αμέσως έτοιμα."  />
+			<text id="tut_lastscreen_copy" name="Περίφημα! Μόλις έχεις ολοκληρώσει το πρώτο βήμα για να βάλεις την ετικέτα σου εκεί έξω, οι πρώτοι πελάτες φτάνουν! Εξερεύνησε τον υπόλοιπο κόσμο της μόδας μόνος σου. Υπάρχουν περισσότερα ν&#039; ανακαλύψεις. \n\Καλή διασκέδαση!"  />
+			<text id="tut_mannequinaccept_copy" name="Ενθουσιασμένος να δεις τις αντιδράσεις των πελατών σου? Πάτησε στο Αποδοχή για να δεις τη βαθμολογία που πήρες."  />
+			<text id="tut_mannequincategory_copy" name="Ανάλογα με το είδος των μανεκέν που θέλετε να ντύσετε μπορείτε να χρησιμοποιήσετε μόνο συγκεκριμένο ρουχισμό. Μπορείτε να ντύσετε ένα κορμό μόνο με μπλουζάκια. Επέλεξε την εικόνα ρούχων για να δεις μια συλλογή."  />
+			<text id="tut_mannequinclose_copy" name="Αυτό φαίνεται ωραίο! Κλείσε το μήνυμα αυτό για να πας πίσω στο κατάστημά σου."  />
+			<text id="tut_mannequinclothes_copy" name="Πουλάς μόνο μπλε μπλουζάκια πόλο. Παρακαλώ επέλεξε την κούκλα για να τη ντύσεις."  />
+			<text id="tut_openproducebook_copy" name="Έχεις αγοράσει το πατρόν. Πήγαινε πίσω στο Βιβλίο Παραγωγής για να δεις ποιά προϊόντα μπορείς να παράγεις."  />
+			<text id="tut_preparesteps_copy" name="Επέλεξε τώρα τη μοδίστρα για να της δώσεις οδηγίες για την παραγωγή."  />
+			<text id="tut_producefactory_copy" name="Με τα Χρυσά Κουμπιά μπορείς να τελειώσεις τα προϊόντα αμέσως. Για να τα τελειώσεις τώρα παρακαλώ επέλεξε τη μοδίστρα."  />
+			<text id="tut_produce_copy" name="Τώρα μπορείς να ξεκινήσεις την παραγωγή."  />
+			<text id="tut_readyfactory_copy" name="Πρέπει να βάλεις τα ρούχα σου σε σειρά στα ράφια για να τ&#039; αγοράσουν οι πελάτες. Παρακαλώ επέλεξε έναν εργάτη που έχει παράγει προϊόντα..."  />
+			<text id="tut_start_copy" name="Καλώς ήρθες στο κατάστημά σου, {0}!
+Αυτός ο σύντομος οδηγός θα σε βοηθήσει να βρεις το δρόμο σου μέσα στον κόσμο της μόδας."  />
+			<text id="tut_title" name="Οδηγός!"  />
+		</tutorial>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Σφάλμα"  />
+				<text id="generic_alert_connection_failed_copy" name="Συντήρηση. Παρακαλώ δοκιμάστε ξανά αργότερα!"  />
+				<text id="generic_alert_connection_failed_title" name="Εργασία σε εξέλιξη!"  />
+				<text id="generic_alert_connection_lost_copy" name="Η σύνδεση στο server απέτυχε. Παρακαλώ προσπαθήστε να επανασυνδεθείτε."  />
+				<text id="generic_alert_connection_lost_description" name="Αυτή τη στιγμή γίνονται εργασίες συντήρησης. Δυστυχώς πρέπει να γίνεται και αυτό που και που για να βάζουμε αναβαθμίσεις και καινούργιες λειτουργίες ή να διορθώσουμε κάποιο λάθος.&lt;br&gt;&lt;br&gt;
+Δουλεύουμε εντατικά για να μπορείτε να παίξετε όσο το δυνατόν γρηγορότερα."  />
+				<text id="generic_alert_connection_lost_promo" name="Δοκίμασε στο μεταξύ ένα από τα άλλα μας παιχνίδια!"  />
+				<text id="generic_alert_connection_lost_thanks" name="Σας ευχαριστούμε για την κατανόησή σας!"  />
+				<text id="generic_alert_connection_lost_title" name="Η σύνδεση διακόπηκε!"  />
+				<text id="generic_alert_error" name="Λάθος"  />
+				<text id="generic_alert_information" name="Προσοχή"  />
+				<text id="generic_alert_loggedout_copy" name="Έχεις αποσυνδεθεί επιτυχώς. Μη ξεχνάς: Κάθε μέρα υπάρχει ένα μπόνους σύνδεσης για σένα!"  />
+				<text id="generic_alert_loggedout_title" name="Τα λέμε αργότερα!"  />
+				<text id="generic_alert_warning" name="Προειδοποίηση"  />
+				<text id="generic_alert_watchout" name="Προσοχή!"  />
+				<text id="generic_invalid_email_provider" name="Δεν επιτρέπονται διευθύνσεις e-mail από αυτόν τον προμηθευτή!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Η ταχύτητα της σύνδεσής σας δείχνει να είναι πολύ αργή αυτή τη στιγμή. Παρακαλώ δοκιμάστε αργότερα!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Πώς σας φαίνεται το παιχνίδι και τι μπορεί ακόμα να βελτιωθεί; Παρακαλώ, γράψτε τη γνώμη σας στο Goodgame Φόρουμ ή στην Ομάδα."  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Προσοχή: Η πρόοδός σου αποθηκεύεται μόνο αν εγγραφείς!"  />
+				<text id="generic_register_error_invalidemail" name="Η διεύθυνση e-mail που έβαλες δεν είναι σωστή."  />
+				<text id="generic_report_muted_chattry" name="Δε μπορείς να χρησιμοποιήσεις την υπηρεσία του chat γιατί έχεις αποκλειστεί."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Αποδοχή"  />
+				<text id="generic_btn_cancel" name="Ακύρωση"  />
+				<text id="generic_btn_close" name="Κλείσιμο"  />
+				<text id="generic_btn_continue" name="Συνέχεια"  />
+				<text id="generic_btn_end" name="Τέλος"  />
+				<text id="generic_btn_endnow" name="Τερματισμός τώρα"  />
+				<text id="generic_btn_goback" name="Πίσω"  />
+				<text id="generic_btn_no" name="Όχι"  />
+				<text id="generic_btn_noshare" name="Μην ασχολείσαι!"  />
+				<text id="generic_btn_notaccept" name="Απόρριψη"  />
+				<text id="generic_btn_okay" name="Εντάξει"  />
+				<text id="generic_btn_reconnect" name="Επανασύνδεση"  />
+				<text id="generic_btn_refresh" name="Ανανέωση"  />
+				<text id="generic_btn_report" name="Αναφορά"  />
+				<text id="generic_btn_search" name="Αναζήτηση"  />
+				<text id="generic_btn_share" name="Μοιραστείτε!"  />
+				<text id="generic_btn_skip" name="Παράλειψη"  />
+				<text id="generic_btn_start" name="Έναρξη"  />
+				<text id="generic_btn_topayment" name="Φέρε!"  />
+				<text id="generic_btn_yes" name="Ναι"  />
+			</button>
+			<chat>
+				<text id="generic_chat_writeable" name="Πρέπει να εγγραφείς και να φτάσεις το επίπεδο1 για να χρησιμοποιήσεις το chat."  />
+			</chat>
+			<common>
+				<text id="generic_admin" name="Διαχείριση"  />
+				<text id="generic_animation" name="Προβολή κινούμενων εικόνων"  />
+				<text id="generic_bugreport" name="Πείτε μας για λάθη"  />
+				<text id="generic_changePass" name="Αλλαγή Κωδικού"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*Προσεχώς*"  />
+				<text id="generic_date" name="Ημερομηνία"  />
+				<text id="generic_day" name="Ημέρα"  />
+				<text id="generic_dayformat" name="{0}.{1}."  />
+				<text id="generic_days" name="Ημέρες"  />
+				<text id="generic_day_short" name="Μ"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="Ηλεκτρονικό ταχυδρομείο"  />
+				<text id="generic_faq" name="Συχνές ερωτήσεις"  />
+				<text id="generic_forum" name="Φόρουμ"  />
+				<text id="generic_friend" name="Φίλος"  />
+				<text id="generic_friends" name="Φίλοι"  />
+				<text id="generic_general" name="Γενικά"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Ομάδα"  />
+				<text id="generic_guest" name="Επισκέπτης"  />
+				<text id="generic_help" name="Βοήθεια"  />
+				<text id="generic_high" name="Ψηλά"  />
+				<text id="generic_hour" name="Ώρα"  />
+				<text id="generic_hours" name="Ώρες"  />
+				<text id="generic_hour_short" name="Ωρ"  />
+				<text id="generic_limited" name="Περιορισμένος"  />
+				<text id="generic_logout" name="Αποσύνδεση"  />
+				<text id="generic_low" name="Χαμηλό"  />
+				<text id="generic_medium" name="Μεσαίο"  />
+				<text id="generic_minute" name="Λεπτό"  />
+				<text id="generic_minutes" name="Λεπτά"  />
+				<text id="generic_minute_short" name="Λεπ"  />
+				<text id="generic_moderator" name="Συντονιστής"  />
+				<text id="generic_music" name="Μουσική on/off"  />
+				<text id="generic_name" name="Όνομα"  />
+				<text id="generic_news" name="Νέες ιστορίες"  />
+				<text id="generic_options" name="Επιλογές"  />
+				<text id="generic_quality" name="Ποιότητα"  />
+				<text id="generic_register" name="Αποθήκευση και Εγγραφή"  />
+				<text id="generic_second" name="Δευτερόλεπτο"  />
+				<text id="generic_seconds" name="Δευτερόλεπτα"  />
+				<text id="generic_second_short" name="Δευ"  />
+				<text id="generic_sound" name="Ήχος οn/off"  />
+				<text id="generic_support" name="Υποστήριξη"  />
+				<text id="generic_today" name="Σήμερα"  />
+				<text id="generic_tomorrow" name="Σήμερα"  />
+				<text id="generic_tutorial" name="Οδηγός"  />
+				<text id="generic_username" name="Όνομα παίχτη"  />
+				<text id="generic_xp" name="ΠΕ"  />
+				<text id="generic_yesterday" name="Χθες"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Παλιά έκδοση!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Ανανέωση τη σελίδα"  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Θέλεις να προσθέσεις τον {0} σαν φίλο?"  />
+				<text id="generic_friends_add_title" name="Αίτηση φίλου"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Περισσότεροι φίλοι!"  />
+				<text id="generic_friends_denied_copy" name="{0} αρνήθηκε το αίτημά σας."  />
+				<text id="generic_friends_denied_title" name="Άρνηση αίτησης!"  />
+				<text id="generic_friends_invite_badword_copy" name="Το όνομα που έβαλες δεν επιτρέπεται!"  />
+				<text id="generic_friends_invite_badword_title" name="Προσοχή!"  />
+				<text id="generic_friends_invite_error_copy" name="Για να καλέσεις φίλους πρέπει πρώτα να εγγραφείς."  />
+				<text id="generic_friends_invite_error_title" name="Εγγραφείτε πρώτα"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Δεν είναι δυνατή η λειτουργία πλήρους οθόνης"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Τσέχικα"  />
+				<text id="generic_language_da" name="Δανική"  />
+				<text id="generic_language_de" name="Γερμανικά"  />
+				<text id="generic_language_el" name="Ελληνικά"  />
+				<text id="generic_language_en" name="Αγγλικά"  />
+				<text id="generic_language_es" name="Ισπανικά"  />
+				<text id="generic_language_fi" name="Φινλανδικά"  />
+				<text id="generic_language_fr" name="Γαλλικά"  />
+				<text id="generic_language_hu" name="Ουγγρικά"  />
+				<text id="generic_language_id" name="Ινδονησιακά"  />
+				<text id="generic_language_it" name="Ιταλικά"  />
+				<text id="generic_language_ja" name="Ιαπωνικά"  />
+				<text id="generic_language_ko" name="Κορεάτικα"  />
+				<text id="generic_language_nl" name="Ολλανδικά"  />
+				<text id="generic_language_no" name="Νορβηγικά"  />
+				<text id="generic_language_pl" name="Πολωνικά"  />
+				<text id="generic_language_pt" name="Πορτογαλικά"  />
+				<text id="generic_language_pt_BR" name="Brazilian"  />
+				<text id="generic_language_ru" name="Ρωσικά"  />
+				<text id="generic_language_sv" name="Σουηδικά"  />
+				<text id="generic_language_tr" name="Τουρκικά"  />
+				<text id="generic_language_zh_CN" name="Κινέζικα (απλοποιημένα)"  />
+				<text id="generic_language_zh_TW" name="Κινέζικα (παραδοσιακά)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Ο λογαριασμός σας έχει αποκλειστεί! Παρακαλώ επικοινωνήστε με την υποστήριξη!"  />
+				<text id="generic_login_banned_2" name="Ο λογαριασμός σου κλειδώθηκε!
+
+Θα είναι κλειδωμένος μέχρι: {0}
+
+Αν έχεις ερωτήσεις σχετικά με το κλείδωμα, παρακαλούμε απευθύνσου στην ομάδα υποστήριξης."  />
+				<text id="generic_login_banned_3" name="Ο λογαριασμός σου κλειδώθηκε μόνιμα.
+
+Αν έχεις ερωτήσεις σχετικά με το κλείδωμα, παρακαλούμε απευθύνσου στην ομάδα υποστήριξης."  />
+				<text id="generic_login_banned_permanent" name="μόνιμα"  />
+				<text id="generic_login_facebook" name="Σύνδεση μέσω Facebook"  />
+				<text id="generic_login_login" name="ΣΥΝΔΕΣΗ"  />
+				<text id="generic_login_loginname" name="Όνομα χρήστη/ E-mail"  />
+				<text id="generic_login_lostpassword" name="Ξέχασες τον κωδικό σου?"  />
+				<text id="generic_login_lostpassword_copy" name="Εισάγετε τη διεύθυνση e-mail και θα σας στείλουμε το νέο κωδικό σας."  />
+				<text id="generic_login_lostpassword_title" name="Ξέχασες τον κωδικό σου?"  />
+				<text id="generic_login_newplayer" name="Καινούργιος εδώ;"  />
+				<text id="generic_login_password" name="Κωδικός"  />
+				<text id="generic_login_play" name="ΠΑΙΞΕ ΤΩΡΑ"  />
+				<text id="generic_login_playnow" name="Παίξε τώρα!"  />
+				<text id="generic_login_register" name="Εγγραφή"  />
+				<text id="generic_login_rememberpassword" name="Αποθήκευση κωδικού"  />
+				<text id="generic_login_wronglogin" name="Λάθος όνομα χρήστη ή κωδικός!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Εγγραφείτε για ν&#039;αποθηκεύσετε τη βαθμολογία σας!"  />
+				<text id="generic_logout_guest_title" name="Εγγραφή"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Το αργότερο σε {0} το παιχνίδι θα είναι και πάλι προσβάσιμο."  />
+				<text id="servershutdownpremonition_copy" name="Ο server του παιχνιδιού κλείνει σε {0}. Παρακαλώ αποσυνδέσου ή κάνε εγγραφή για ν&#039;αποθηκεύσεις τη βαθμολογία σου."  />
+				<text id="servershutdownpremonition_registered_copy" name="Ο σέρβερ του παιχνιδιού θα κλείσει σε {0} λόγω εργασιών συντήρησης."  />
+				<text id="servershutdown_copy" name="Ο server του παιχνιδιού αυτή τη στιγμή κλείνει. Σε μερικά λεπτά, θα μπορείς να συνδεθείς ξανά."  />
+				<text id="welcomeback_copy" name="Καλώς ήρθες πάλι! Εδώ υπάρχει κάτι να σε βοηθήσει να συνεχίσεις την πορεία σου!"  />
+				<text id="welcomeback_title" name="Γύρισες!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Νέος κωδικός:"  />
+				<text id="generic_change_password_copy_oldpass" name="Παλιός κωδικός:"  />
+				<text id="generic_change_password_copy_send" name="Ο νέος σας κωδικός στάλθηκε στη διεύθυνση e-mail σας."  />
+				<text id="generic_change_password_error_failed" name="Συγνώμη, αλλά αυτός δεν είναι ο παλιός κωδικός σου."  />
+				<text id="generic_change_password_error_success" name="Ο κωδικός σας άλλαξε με επιτυχία!"  />
+				<text id="generic_change_password_faild_copy" name="Ο νέος κωδικός σας πρέπει να έχει περισσότερα από δύο γράμματα και ο παλιός πρέπει να εισαχθεί σωστά!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Ο κωδικός σου δεν επιτρέπεται να είναι άδειος ή να περιέχει ειδικούς χαρακτήρες."  />
+				<text id="generic_change_password_faild_title" name="Εισάγετε τον κωδικό"  />
+				<text id="generic_change_password_title" name="Αλλαγή κωδικού"  />
+				<text id="generic_guest_change_password_faild_copy" name="Μπορείς να αλλάξεις τον κωδικό σου μόνο αν έχεις εγγραφεί!"  />
+				<text id="generic_guest_change_password_faild_title" name="Εγγραφείτε πρώτα"  />
+			</password>
+			<payment>
+				<text id="generic_payment_48hdiscount_button" name="Περισσότερος χρυσός τις πρώτες 48 ώρες"  />
+				<text id="generic_payment_48hdiscount_button_general" name="Περισσότερο {0} στις πρώτες 48 ώρες"  />
+				<text id="generic_payment_48hdiscount_copy" name="Αγόρασε χρυσό στις πρώτες 48 ώρες και πάρε επιπλέον {0}% για επιλεγμένα πακέτα!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Αγόρασε στις πρώτες 48 ώρες και πάρε σε όλα τα πακέτα επιπλέον {0}%!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Μόνο 48 ώρες μετά την εγγραφή σου - Αγόρασε {0} πακέτα και πάρε {1}% εξτρά δωρεάν!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Μόνο 48 ώρες μετά την εγγραφή σου - Αγόρασε επιλεγμένα πακέτα {0} και λάβε {1}% επιπλέον δωρεάν!"  />
+				<text id="generic_payment_copy" name="Θα μεταφερθείτε στο κατάστημα πληρωμών."  />
+				<text id="generic_payment_discount_button" name="Τώρα {0}% περισσότερος χρυσός!"  />
+				<text id="generic_payment_discount_copy" name="Αγόρασε τώρα χρυσό και πάρε ένα bonus {0}%!"  />
+				<text id="generic_payment_discount_copy_general" name="Αγόρασε τώρα {0} και πάρε μπόνους {1}%!"  />
+				<text id="generic_payment_discount_general" name="Τώρα {0}% επιπλέον {1} για τα ίδια χρήματα!"  />
+				<text id="generic_payment_discount_generalshort" name="{0}% περισσότερο για τα ίδια χρήματα!"  />
+				<text id="generic_payment_discount_time" name="ΑΚΟΜΑ {0}!"  />
+				<text id="generic_payment_discount_title" name="Επιπλέον χρυσός!"  />
+				<text id="generic_payment_newPrices" name="Από τώρα! Διαρκώς χαμηλωμένες τιμές στο μαγαζί πληρωμών μας! Εξοικονόμησε αληθινά λεφτά!"  />
+				<text id="generic_payment_title" name="Κατάστημα πληρωμής"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Ψάχνω τούνελ στο χωροχρόνο"  />
+				<text id="loading_text_10" name="Μοιράζω αντικείμενα στον κόσμο"  />
+				<text id="loading_text_11" name="Ζωγραφίζω γραφικά"  />
+				<text id="loading_text_12" name="Χρωματίζω τα κουμπιά"  />
+				<text id="loading_text_13" name="Κρύβω εκπλήξεις"  />
+				<text id="loading_text_14" name="Αναζητώ στοιχεία χρήστη"  />
+				<text id="loading_text_15" name="Διώχνω ζουζούνια"  />
+				<text id="loading_text_16" name="Ταΐζω τους προγραμματιστές"  />
+				<text id="loading_text_17" name="Μαστορεύω στον Client"  />
+				<text id="loading_text_18" name="Γυρνάω την κλεψύδρα"  />
+				<text id="loading_text_19" name="Κρυώνω το σύστημα"  />
+				<text id="loading_text_2" name="Λαδώνω τα γρανάζια"  />
+				<text id="loading_text_20" name="Είμαι σχεδόν έτοιμος"  />
+				<text id="loading_text_3" name="Γυρνάω τον τροχό του χάμστερ"  />
+				<text id="loading_text_4" name="Ζεσταίνω το σέρβερ"  />
+				<text id="loading_text_5" name="Ελπίζω όλα να παν καλά"  />
+				<text id="loading_text_6" name="Φέρνω τον εξολοθρευτή ζιζανίων"  />
+				<text id="loading_text_7" name="Υπολογίζω πολύπλοκο αλγόριθμο"  />
+				<text id="loading_text_8" name="Ρυθμίζω τους πυκνωτές ροής"  />
+				<text id="loading_text_9" name="Φτιάχνω αντικείμενα"  />
+				<text id="loading_text_default" name="Εκκίνηση"  />
+				<text id="loading_text_itemXML" name="Στοιχεία παιχνιδιού φορτώνονται"  />
+				<text id="progress_loadfiles" name="Γραφικά παιχνιδιού φορτώνονται..."  />
+				<text id="progress_serverconnection" name="Σύνδεση με το σέρβερ..."  />
+			</progressbar>
+			<register>
+				<text id="generic_register_agb_copy" name="Θα πρέπει να διαβάσετε και ν&#039; αποδεχτείτε τους όρους και τις προϋποθέσεις πρώτα! Επιβεβαίωσε πατώντας το κουμπί στα αριστερά και μπορείς να ξεκινήσεις!"  />
+				<text id="generic_register_agb_read" name="Ανάγνωση ΓΟΧ"  />
+				<text id="generic_register_alreadyavatar" name="Ο χρήστης έχει ήδη ένα άβαταρ."  />
+				<text id="generic_register_badword" name="Δεν επιτρέπεται να χρησιμοποήσεις {0} στο όνομά σου."  />
+				<text id="generic_register_btn_agb" name="Αποδοχή Όρων Χρήσης"  />
+				<text id="generic_register_btn_later" name="Αργότερα"  />
+				<text id="generic_register_btn_next" name="Συνέχεια"  />
+				<text id="generic_register_btn_save" name="Αποθήκευση"  />
+				<text id="generic_register_character" name="Δημιούργησε το χαρακτήρα σου"  />
+				<text id="generic_register_copy_0" name="Κάνε τώρα δωρεάν εγγραφή!"  />
+				<text id="generic_register_copy_1" name="Αποθήκευσε την πρόοδό σου στο παιχνίδι!"  />
+				<text id="generic_register_emaillong_copy" name="Δυστυχώς, η διεύθυνση e-mail είναι πολύ μεγάλη."  />
+				<text id="generic_register_emailwrong_copy" name="Η διεύθυνση e-mail που έβαλες δεν είναι σωστή."  />
+				<text id="generic_register_email_copy" name="Η διεύθυνση e-mail δε πρέπει να είναι άδεια ή να περιέχει ειδικούς χαρακτήρες."  />
+				<text id="generic_register_error" name="Η εγγραφή απέτυχε"  />
+				<text id="generic_register_errormistake" name="Σφάλμα"  />
+				<text id="generic_register_error_accountalreadyexists" name="Ένας άλλος παίκτης έχει εγγραφει με αυτή τη διεύθυνση e-mail, ζητούμε συγνώμη."  />
+				<text id="generic_register_forfree" name="Δωρεάν εγγραφή!"  />
+				<text id="generic_register_forfree1" name="Δωρεάν!"  />
+				<text id="generic_register_letsgo" name="ΦΥΓΑΜΕ!"  />
+				<text id="generic_register_namealreadyused" name="Το όνομα αυτό χρησιμοποιείται ήδη."  />
+				<text id="generic_register_namenotvalid" name="Το όνομα που έχεις εισάγει δεν είναι έγκυρο."  />
+				<text id="generic_register_passwordshort_copy" name="Ο κωδικός που έχεις εισάγει είναι πολύ μικρός. Πρέπει να περιέχει τουλάχιστον 4 χαρακτήρες."  />
+				<text id="generic_register_passwordwrong_copy" name="Ο κωδικός που έβαλες δεν είναι σωστός."  />
+				<text id="generic_register_password_copy" name="Ο κωδικός σας δε πρέπει να είναι κενός ή να περιέχει ειδικούς χαρακτήρες."  />
+				<text id="generic_register_rememberdata" name="Αποθήκευση στοιχείων"  />
+				<text id="generic_register_reward" name="Κάνε δωρεάν εγγραφή και πάρε {0} {1} δώρο!"  />
+				<text id="generic_register_subscribe" name="Εγγραφή"  />
+				<text id="generic_register_success" name="Η εγγραφή σου ήταν επιτυχής."  />
+				<text id="generic_register_title" name="Σφάλμα εγγραφής"  />
+				<text id="generic_register_unlock" name="Ξεκλείδωσε αυτή τη λειτουργία!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Παρακαλούμε προσέξτε τον τρόπο έκφρασης. Διαφορετικά θα αποκλειστείτε από το chat ή ο λογαριασμός σας θα κλείσει προσωρινά. Αιτιολογία: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="Δε μπορείς να χρησιμοποιήσεις την υπηρεσία του chat για τις επόμενες {0} λόγω επαναλαμβανόμενης κακής συμπεριφοράς. Αιτιολογία: {1}"  />
+				<text id="generic_report_muted_domain1" name="Μη γράφετε διευθύνσεις URL στο chat!"  />
+				<text id="generic_report_muted_reported_copy" name="Αρκετοί παίκτες έχουν κάνει παράπονα για σένα. Είσαι αποκλεισμένος από το chat για τις επόμενες {0}. Αιτιολογία: {1}"  />
+				<text id="generic_report_player_copy" name="Θέλεις πραγματικά ν&#039;αναφέρεις τον παίκτη {0}?
+Προσοχή! Υπερβολική χρήση αυτής της λειτουργίας θα επιφέρει μπλοκάρισμα του λογαριασμού σου."  />
+				<text id="generic_report_player_reason_0" name="Προσβολή"  />
+				<text id="generic_report_player_reason_1" name="σεξουαλική παρενόχληση"  />
+				<text id="generic_report_player_reason_2" name="φυλετική παρατήρηση"  />
+				<text id="generic_report_player_reason_3" name="Απειλή/εκβιασμός"  />
+				<text id="generic_report_player_reason_title" name="Αιτία αναφοράς"  />
+				<text id="generic_report_player_title" name="Αναφορά παίκτη?"  />
+				<text id="generic_report_reported_copy" name="Έχεις αναφερθεί στον διαχειριστή από έναν άλλο παίκτη. Αιτιολογία: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Σύνδεση"  />
+				<text id="generic_select_world" name="Επέλεξε κόσμο:"  />
+				<text id="generic_world" name="Κόσμος: {0}"  />
+				<text id="generic_world_international" name="Διεθνής: {0}"  />
+			</worlds>
+		</generic_flash>
+	</fashion>
+ 

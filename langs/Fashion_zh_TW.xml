@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FASHION - zh_TW - 20 -->
+	<fashion>
+		<achievement>
+			<text id="Basic_Achievement_Boughtdeco" name="品味服飾店"  />
+			<text id="Basic_Achievement_Boughtdeco_copy" name="已購買之裝飾品數量"  />
+			<text id="Basic_Achievement_Boughtpatterns" name="商品多樣性"  />
+			<text id="Basic_Achievement_Boughtpatterns_copy" name="已購買之樣板數量"  />
+			<text id="Basic_Achievement_Earnedchips" name="時尚金雞母"  />
+			<text id="Basic_Achievement_Earnedchips_copy" name="已賺取的時尚金"  />
+			<text id="Basic_Achievement_FinishedCoops" name="時尚任務王"  />
+			<text id="Basic_Achievement_FinishedCoops_copy" name="已完成之共同任務數量"  />
+			<text id="Basic_Achievement_FinishedGoldCoops" name="金牌服裝師"  />
+			<text id="Basic_Achievement_FinishedGoldCoops_copy" name="已完成之金牌共同任務數量"  />
+			<text id="Basic_Achievement_Mannequindesign" name="時尚穿搭王"  />
+			<text id="Basic_Achievement_Mannequindesign_copy" name="已穿搭之人偶模特兒數量"  />
+			<text id="Basic_Achievement_Masteries" name="勤勞裁縫師"  />
+			<text id="Basic_Achievement_Masteriesgold" name="金牌裁縫師"  />
+			<text id="Basic_Achievement_Masteriesgold_copy" name="已獲得之金色吊牌數量"  />
+			<text id="Basic_Achievement_Masteries_copy" name="已獲得之吊牌數量"  />
+			<text id="Basic_Achievement_Producedaccessoires" name="配件專賣店"  />
+			<text id="Basic_Achievement_Producedaccessoires_copy" name="已製作之配件數量"  />
+			<text id="Basic_Achievement_Producedbags" name="手提包小棧"  />
+			<text id="Basic_Achievement_Producedbags_copy" name="已製作之包包數量"  />
+			<text id="Basic_Achievement_Producedbottoms" name="美腿製造機"  />
+			<text id="Basic_Achievement_Producedbottoms_copy" name="已製作之褲子及裙子數量"  />
+			<text id="Basic_Achievement_Producedclothes" name="服裝單一性"  />
+			<text id="Basic_Achievement_Producedclothes_copy" name="已製作之服裝數量"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires" name="就愛瘋配件"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="已製作之配件款式數量"  />
+			<text id="Basic_Achievement_Produceddifferentclothes" name="服裝多樣性"  />
+			<text id="Basic_Achievement_Produceddifferentclothes_copy" name="已製作之服裝款式數量"  />
+			<text id="Basic_Achievement_Produceddifferentitems" name="全能供應商"  />
+			<text id="Basic_Achievement_Produceddifferentitems_copy" name="已製作之商品種類數量"  />
+			<text id="Basic_Achievement_Produceddifferentshoes" name="瘋狂鞋粉絲"  />
+			<text id="Basic_Achievement_Produceddifferentshoes_copy" name="已製作之鞋款數量"  />
+			<text id="Basic_Achievement_Producedfemaleonly" name="女裝專門店"  />
+			<text id="Basic_Achievement_Producedfemaleonly_copy" name="已製作之女裝數量"  />
+			<text id="Basic_Achievement_Producedfullbody" name="西洋量產王"  />
+			<text id="Basic_Achievement_Producedfullbody_copy" name="已製作之洋裝及西裝數量"  />
+			<text id="Basic_Achievement_Producedhats" name="帽子專賣店"  />
+			<text id="Basic_Achievement_Producedhats_copy" name="已製作之帽子數量"  />
+			<text id="Basic_Achievement_Producedjewlery" name="珠寶製造商"  />
+			<text id="Basic_Achievement_Producedjewlery_copy" name="已製作之飾品數量"  />
+			<text id="Basic_Achievement_Producedmaleonly" name="男裝專門店"  />
+			<text id="Basic_Achievement_Producedmaleonly_copy" name="已製作之男裝數量"  />
+			<text id="Basic_Achievement_Producedshoes" name="鞋子製造機"  />
+			<text id="Basic_Achievement_Producedshoes_copy" name="已製作之鞋子數量"  />
+			<text id="Basic_Achievement_Producedtops" name="上衣專門店"  />
+			<text id="Basic_Achievement_Producedtops_copy" name="已製作之上衣數量"  />
+			<text id="Basic_Achievement_Soldduringsale" name="特價拍賣王"  />
+			<text id="Basic_Achievement_Soldduringsale_copy" name="以特價賣出之商品"  />
+			<text id="Basic_Achievement_Soldproducts" name="時尚銷售王"  />
+			<text id="Basic_Achievement_Soldproducts_copy" name="已出售之商品數量"  />
+			<text id="Basic_Achievement_Spentchips" name="時尚凱子爹"  />
+			<text id="Basic_Achievement_Spentchips_copy" name="已支出之時尚金數量"  />
+			<text id="Basic_Achievement_Spentgold" name="黃金服飾店"  />
+			<text id="Basic_Achievement_Spentgold_copy" name="已支出之金紐扣數量"  />
+			<text id="Basic_Achievement_Stolenproducts" name="竊賊大本營"  />
+			<text id="Basic_Achievement_Stolenproducts_copy" name="被偷竊之商品數量"  />
+			<text id="Basic_Achievement_Wheeloffortune" name="幸運轉手"  />
+			<text id="Basic_Achievement_Wheeloffortune_copy" name="由命運轉盤贏得之獎品數量"  />
+			<text id="Social_Achievement_Friendscout" name="當紅炸子雞"  />
+			<text id="Social_Achievement_Friendscout_copy" name="線上朋友的數量"  />
+		</achievement>
+		<alerts>
+			<text id="alerts_avatarcustomize_goldrequest" name="你想要用{0} {1}幫你的角色換衣嗎?"  />
+			<text id="alerts_avatarcustom_workingplayer_copy" name="你正在進行一項宣傳活動，所以目前不能更換衣服!"  />
+			<text id="alerts_avatarcustom_workingplayer_title" name="請稍等一下!"  />
+			<text id="alerts_booster_info_copy" name="商場警衛能防止你的商品被偷竊。
+你可以雇用他五天，時間可再額外延長。"  />
+			<text id="alerts_booster_info_copy_1" name="再增加{0}個好友，保護時間將會自動延長{1}小時"  />
+			<text id="alerts_booster_info_title" name="商場警衛"  />
+			<text id="alerts_buytiles_copy" name="你想要用{1}購買{0}塊地板磚嗎?"  />
+			<text id="alerts_buytiles_title" name="購買地板磚?"  />
+			<text id="alerts_customcloth_noshape_copy" name="你必須先選擇一個服裝樣式才能放置轉印圖案!"  />
+			<text id="alerts_decoshop_dragtipp_copy" name="將物品拖曳至你的商店內使用"  />
+			<text id="alerts_decoshop_dragtipp_title" name="佈置!"  />
+			<text id="alerts_decoshop_next_Cashdesk_bylevel" name="自等級{0}起你才能再買收銀台。或將舊收銀台從商店中拖曳至此，使用別的收銀台。"  />
+			<text id="alerts_decoshop_next_Changingroom_bylevel" name="自等級{0}起你才能再買更衣間。或將舊更衣間從商店中拖曳至此，使用別的更衣間。"  />
+			<text id="alerts_decoshop_next_Counter_bylevel" name="自等級{0}起你才能再買貨架。或將舊貨架從商店中拖曳至此，換購別的貨架。"  />
+			<text id="alerts_decoshop_next_Factory_bylevel" name="自等級{0}起你才能再雇用工人。或將舊工人從商店中拖曳至此，換購別的工人。"  />
+			<text id="alerts_decoshop_next_Mannequin_bylevel" name="自等級{0}起你才能再買人偶模特兒。或將舊人偶模特兒從商店中拖曳至此，換購別的人偶模特兒。"  />
+			<text id="alerts_decoshop_nomoreCashdesk" name="你目前無法再另外購買收銀台!"  />
+			<text id="alerts_decoshop_nomoreChangingroom" name="你目前無法再另外購買更衣間!"  />
+			<text id="alerts_decoshop_nomoreCounter" name="你目前無法再另外購買貨架!"  />
+			<text id="alerts_decoshop_nomoreExpansion" name="目前暫無其他規模可供使用"  />
+			<text id="alerts_decoshop_nomoreFactory" name="你目前無法再另外雇用工人!"  />
+			<text id="alerts_decoshop_nomoreMannequin" name="你目前無法再另外購買人偶模特兒!"  />
+			<text id="alerts_decoshop_sellitem_copy" name="你想以每樣{0}時尚金將此物品賣出嗎?"  />
+			<text id="alerts_decoshop_sellitem_title" name="販賣物品"  />
+			<text id="alerts_decoshop_storeFactory_copy" name="你不能將不滿意的工人拉出商店外，付給他獎金或者賣掉他。"  />
+			<text id="alerts_decoshop_storeMannequin_copy" name="只要人偶模特兒身上仍有展示的服裝，你就不能將它儲藏起來"  />
+			<text id="alerts_decoshop_store_title" name="儲藏"  />
+			<text id="alerts_decoshop_workingplayer_copy" name="你必須先完成宣傳活動才能改建商店!"  />
+			<text id="alerts_decoshop_workingplayer_title" name="正在忙呢!"  />
+			<text id="alerts_fashionbook_notarget_copy" name="選擇一個工人來製作商品"  />
+			<text id="alerts_fashionbook_notarget_copy_1" name="工人正在製作商品，選個別的吧!"  />
+			<text id="alerts_fashionbook_notarget_title" name="哪個工人?"  />
+			<text id="alerts_fashionbook_notequaltype_copy" name="你只能讓這個工人製作特定的商品。\n從{0}貨樣裡挑選一些吧"  />
+			<text id="alerts_fashionbook_notequaltype_title" name="其他商品"  />
+			<text id="alerts_fashionbook_usebooster_title" name="使用能量補給?"  />
+			<text id="alerts_friend_ask" name="你想要將{0}加為好友嗎?"  />
+			<text id="alerts_friend_denied" name="{0}拒絕了你的好友邀請"  />
+			<text id="alerts_friend_title" name="友誼"  />
+			<text id="alerts_gift_workingplayer_copy" name="在放置你的禮物之前，先將你手上的商品置於貨架上"  />
+			<text id="alerts_gift_workingplayer_title" name="先放下!"  />
+			<text id="alerts_instantworking_goldrequest" name="你想要使用『瞬間製作』嗎?今天仍可使用{0}次!"  />
+			<text id="alerts_invitefriend_copy" name="你對{0}提出的邀請已寄出!"  />
+			<text id="alerts_invitefriend_title" name="新朋友!"  />
+			<text id="alerts_isoworld_counter_outofreach_copy" name="無法接觸到貨架，請挪動一些擺設。"  />
+			<text id="alerts_isoworld_counter_outofreach_title" name="無法接觸!"  />
+			<text id="alerts_isoworld_factory_outofreach_copy" name="無法接觸到工人，請挪動一些擺設。"  />
+			<text id="alerts_isoworld_factory_outofreach_title" name="無法接觸!"  />
+			<text id="alerts_isoworld_mannequin_instant" name="你想要重新穿搭人偶模特兒嗎?"  />
+			<text id="alerts_isoworld_marketplace_title" name="黑板"  />
+			<text id="alerts_kickedbyplayer_copy" name="商店已被店長關閉"  />
+			<text id="alerts_kickedbyplayer_title" name="你必須離開!"  />
+			<text id="alerts_kickjobber_copy" name="只要還有其他玩家在你的商店裡工作，你就不能切換至裝潢模式"  />
+			<text id="alerts_kickjobber_title" name="商店內的工人"  />
+			<text id="alerts_kickplayer_copy" name="還有其他玩家在你的店裡，你要把他們丟出去，切換至裝潢模式嗎?"  />
+			<text id="alerts_kickplayer_title" name="把玩家丟出去"  />
+			<text id="alerts_lostpassword_copy" name="輸入你的電子郵件地址，我們會寄你的密碼給你"  />
+			<text id="alerts_lostpassword_title" name="忘記密碼"  />
+			<text id="alerts_mannequindesign_nocloth_copy" name="你的架上沒有合適的商品來穿搭此人偶模特兒"  />
+			<text id="alerts_mannequindesign_nocloth_title" name="無商品!"  />
+			<text id="alerts_marketplace_playerleaved_copy" name="玩家已離開拱廊"  />
+			<text id="alerts_marketplace_playerleaved_title" name="太晚了!"  />
+			<text id="alerts_placetiles_copy" name="1.選擇一塊地板磚\n2.以滑鼠鍵在商店中選擇你希望放置的區域\n3.放開"  />
+			<text id="alerts_placetiles_title" name="放置地板磚?"  />
+			<text id="alerts_register_copy_addgold" name="你必須先註冊才能在此購物!"  />
+			<text id="alerts_register_copy_advertisement" name="你必須先註冊才能為你的商店做宣傳"  />
+			<text id="alerts_register_copy_changeavatar" name="你必須先註冊才能換衣服"  />
+			<text id="alerts_register_copy_changepassword" name="你現在可以以註冊玩家身分更改你的密碼!"  />
+			<text id="alerts_register_copy_coop" name="你必須先註冊才能參加共同任務!"  />
+			<text id="alerts_register_copy_gifts" name="你必須先註冊才能贈送禮物"  />
+			<text id="alerts_register_copy_invitefriend" name="你必須先註冊，才能邀請其他朋友加入"  />
+			<text id="alerts_register_copy_logout" name="請註冊以保存你的遊戲資料!"  />
+			<text id="alerts_register_title" name="註冊"  />
+			<text id="alerts_servermsg_10" name="重新連結系統，遊戲將馬上開始，請先登出"  />
+			<text id="alerts_servermsg_title" name="系統訊息!"  />
+			<text id="alerts_staff_fire_copy" name="你真的想要解雇你的收銀員嗎?\n沒有足夠的收銀員，你的顧客將會等更久而且對你的服務不滿意喔"  />
+			<text id="alerts_staff_fire_title" name="解雇收銀員?"  />
+			<text id="alerts_staff_hire_copy" name="你想要雇用一位新的收銀員嗎?"  />
+			<text id="alerts_staff_hire_title" name="新收銀員"  />
+			<text id="alerts_versioncheck_copy" name="請更新頁面，下載最新的版本。"  />
+			<text id="alerts_versioncheck_title" name="舊版本!"  />
+		</alerts>
+		<cloth>
+			<text id="cloth_blackbowlermale" name="大禮帽"  />
+			<text id="cloth_blackdressfemale" name="黑色洋裝"  />
+			<text id="cloth_blackhandbagfemale" name="黑色Shopper包"  />
+			<text id="cloth_blackheelsfemale" name="黑色漆皮包頭鞋"  />
+			<text id="cloth_blackjacketmale" name="皮夾克"  />
+			<text id="cloth_blackpant2male" name="GeeCee牛仔褲"  />
+			<text id="cloth_blackpantfemale" name="黑色女性窄管褲"  />
+			<text id="cloth_blackpantmale" name="黑色男性長褲"  />
+			<text id="cloth_blacksuitmale" name="細條紋西裝"  />
+			<text id="cloth_blackwatchmale" name="黑色手錶"  />
+			<text id="cloth_bluebaggypantsfemale" name="JayJay女性牛仔垮褲"  />
+			<text id="cloth_blueblousefemale" name="藍色女用襯衫"  />
+			<text id="cloth_bluecapfemale" name="藍色鴨舌帽"  />
+			<text id="cloth_bluecapmale" name="藍色鴨舌帽"  />
+			<text id="cloth_blueheadphones" name="JayJay耳機"  />
+			<text id="cloth_bluenecklacefemale" name="藍色珍珠項鍊"  />
+			<text id="cloth_bluepolomale" name="藍色Polo衫"  />
+			<text id="cloth_blueshirtmale" name="藍色T-Shirt"  />
+			<text id="cloth_bluesweatermale" name="JayJay男性藍色毛衣"  />
+			<text id="cloth_bootsfemale" name="GeeCee女用靴"  />
+			<text id="cloth_brownknitcapfemale" name="棕色毛線帽"  />
+			<text id="cloth_brownknitcapmale" name="棕色毛線帽"  />
+			<text id="cloth_cardiganfemale" name="GeeCee女性針織衫"  />
+			<text id="cloth_cardiganmale" name="GeeCee男性針織衫"  />
+			<text id="cloth_charlestonhatfemale" name="仕女帽"  />
+			<text id="cloth_checkshirtfemale" name="JayJay女性格紋襯衫"  />
+			<text id="cloth_checkshirtmale" name="JayJay男性格紋襯衫"  />
+			<text id="cloth_customcloth" name="打造你的Look!"  />
+			<text id="cloth_darkbluejeansfemale" name="深藍女性牛仔褲"  />
+			<text id="cloth_darkbluejeansmale" name="深藍男性牛仔褲"  />
+			<text id="cloth_dressfemale" name="GeeCee小洋裝"  />
+			<text id="cloth_flowerskirtfemale" name="GeeDee 碎花裙"  />
+			<text id="cloth_ggsshirtmale" name="GeeCee品牌LOGO T-Shirt"  />
+			<text id="cloth_goldnecklacefemale" name="金色串珠項鍊"  />
+			<text id="cloth_greendressfemale" name="GeeDee小洋裝"  />
+			<text id="cloth_greenjacketfemale" name="JayJay女性防風夾克"  />
+			<text id="cloth_greenjacketmale" name="JayJay男性防風夾克"  />
+			<text id="cloth_greenpulloverfemale" name="綠色套頭毛衣"  />
+			<text id="cloth_greenshirtmale" name="GeeDee男款襯衫"  />
+			<text id="cloth_greysuitmale" name="灰色西裝"  />
+			<text id="cloth_lightbluejeansfemale" name="淺藍女性牛仔褲"  />
+			<text id="cloth_lightbluejeansmale" name="淺藍男性牛仔褲"  />
+			<text id="cloth_manblackmale" name="黑色漆皮鞋"  />
+			<text id="cloth_manbrownmale" name="棕色皮鞋"  />
+			<text id="cloth_orangeknitcapfemale" name="橘色毛線帽"  />
+			<text id="cloth_orangeknitcapmale" name="橘色毛線帽"  />
+			<text id="cloth_perlnecklacefemale" name="珍珠項鍊"  />
+			<text id="cloth_pinkhangbagfemale" name="菱格紋手提包"  />
+			<text id="cloth_pinkshirtfemale" name="粉紅Polo衫"  />
+			<text id="cloth_premiumbluejacketmale" name="春季夾克"  />
+			<text id="cloth_premiumgreenjacketfemale" name="春季薄大衣"  />
+			<text id="cloth_premiumjumpsuitfemale" name="GeeDee女款連身衣褲"  />
+			<text id="cloth_premiumshortsmale" name="GeeDee男款短褲"  />
+			<text id="cloth_purplehandbagfemale" name="GeeCee Shopper包"  />
+			<text id="cloth_purplepulloverfemale" name="紫色套頭毛衣"  />
+			<text id="cloth_purpletshirtfemale" name="JayJay女性T-Shirt"  />
+			<text id="cloth_redcapfemale" name="紅色鴨舌帽"  />
+			<text id="cloth_redcapmale" name="紅色鴨舌帽"  />
+			<text id="cloth_reddressfemale" name="平口晚禮服"  />
+			<text id="cloth_redheelsfemale" name="紅色漆皮包頭鞋"  />
+			<text id="cloth_redskirtfemale" name="紅色蝴蝶結圓裙"  />
+			<text id="cloth_redsneakermale" name="JayJay男性紅色休閒鞋"  />
+			<text id="cloth_redtopfemale" name="紅色亮片背心"  />
+			<text id="cloth_scraffemale" name="GeeCee圓點圍巾"  />
+			<text id="cloth_scrafmale" name="GeeCee格紋圍巾"  />
+			<text id="cloth_silvernecklacefemale" name="銀項鍊"  />
+			<text id="cloth_silverwatchmale" name="銀錶"  />
+			<text id="cloth_sneakersfemale" name="白色球鞋"  />
+			<text id="cloth_sneakersgreenmale" name="GeeCee綠色帆布鞋"  />
+			<text id="cloth_sneakersmale" name="白色球鞋"  />
+			<text id="cloth_strawberrysneakerfemale" name="JayJay草莓鞋"  />
+			<text id="cloth_stripedshirtmale" name="GeeDee男款條紋上衣"  />
+			<text id="cloth_stripedtopfemale" name="GeeDee女款夏季背心"  />
+			<text id="cloth_stripedtshirtmale" name="JayJay男性條紋襯衫"  />
+			<text id="cloth_sweathoodiemale" name="GeeDee連帽外套"  />
+			<text id="cloth_trenchcoatmale" name="黑色風衣"  />
+			<text id="cloth_whiteshirtmale" name="白色襯衫"  />
+			<text id="cloth_whiteskirtfemale" name="白色迷你裙"  />
+			<text id="cloth_yellowdressfemale" name="金色雞尾酒小禮服"  />
+		</cloth>
+		<commons>
+			<text id="achievement_rang" name="排名{0}/{1}"  />
+			<text id="comingsoon" name="即將推出"  />
+			<text id="currency_cash" name="時尚金"  />
+			<text id="currency_gold" name="金紐扣"  />
+			<text id="currency_gold_single" name="金紐扣"  />
+			<text id="factorytyp_accessories" name="飾品配件"  />
+			<text id="factorytyp_clothes" name="服裝"  />
+			<text id="factorytyp_shoes" name="鞋子"  />
+			<text id="friendscount" name="朋友{0}"  />
+			<text id="levelcount" name="等級{0}"  />
+			<text id="levellabel" name="等級"  />
+			<text id="mastery" name="吊牌等級"  />
+			<text id="new" name="新上架!"  />
+			<text id="xplabel" name="經驗值"  />
+		</commons>
+		<coopmission>
+			<text id="coop_desc_1" name="來些正點的基本款去野餐吧!"  />
+			<text id="coop_desc_10" name="爲我們的首次登台者做些禮服和西裝吧!"  />
+			<text id="coop_desc_11" name="給男人們來些經典的唄!"  />
+			<text id="coop_desc_2" name="爲運動旅行做些合適的服裝吧!"  />
+			<text id="coop_desc_3" name="與音樂和人們狂歡一整晚!"  />
+			<text id="coop_desc_4" name="適合各種時機的完美禮物!"  />
+			<text id="coop_desc_5" name="沒有什麼比合身的西裝更棒的了!"  />
+			<text id="coop_desc_6" name="眼見之處都是鞋!"  />
+			<text id="coop_desc_7" name="裙子、上衣和鞋子...就是愛紅色!"  />
+			<text id="coop_desc_8" name="女孩們就是不能沒有洋裝!"  />
+			<text id="coop_desc_9" name="上舞蹈課穿真是再適合不過了!"  />
+			<text id="coop_title_1" name="一起來去野餐!"  />
+			<text id="coop_title_10" name="慶功舞會!"  />
+			<text id="coop_title_11" name="黑色才是王道!"  />
+			<text id="coop_title_2" name="運動風潮正當道!"  />
+			<text id="coop_title_3" name="演唱會大拍賣!"  />
+			<text id="coop_title_4" name="超正點的禮物!"  />
+			<text id="coop_title_5" name="男仕服裝專賣!"  />
+			<text id="coop_title_6" name="到處都是鞋!"  />
+			<text id="coop_title_7" name="編織一個紅色的夢想!"  />
+			<text id="coop_title_8" name="少女時裝專賣!"  />
+			<text id="coop_title_9" name="舞蹈課!"  />
+		</coopmission>
+		<coop_msg>
+			<text id="coop_msg_0" name="{0}開始了本項共同任務"  />
+			<text id="coop_msg_1" name="{0}加入了本項共同任務"  />
+			<text id="coop_msg_2" name="{0}離開了本項共同任務"  />
+			<text id="coop_msg_3" name="{0}想要製作{1}{2}次"  />
+			<text id="coop_msg_4" name="{0}製作了{1}"  />
+			<text id="coop_msg_5" name="{0}將共同任務的時間延長了"  />
+		</coop_msg>
+		<dialogs>
+			<text id="dialogs_achievement_title" name="成就"  />
+			<text id="dialogs_advertisementfinal_copy" name="你的宣傳活動已結束!於下方查看活動結果吧!下一步是什麼呢?"  />
+			<text id="dialogs_advertisementfinal_title" name="恭喜!"  />
+			<text id="dialogs_advertisementrunning_copy" name="一項宣傳活動正在進行，於此查看進度"  />
+			<text id="dialogs_advertisementrunning_time" name="剩餘時間:"  />
+			<text id="dialogs_advertisementrunning_title" name="宣傳活動開始!"  />
+			<text id="dialogs_advertisement_btn_start" name="開始"  />
+			<text id="dialogs_advertisement_flyer_copy" name="讓商店更受歡迎!"  />
+			<text id="dialogs_advertisement_flyer_reward" name="點數 {0}點"  />
+			<text id="dialogs_advertisement_flyer_title" name="發派傳單"  />
+			<text id="dialogs_advertisement_magazine_copy" name="每位顧客購買的商品數量加倍!"  />
+			<text id="dialogs_advertisement_magazine_reward" name="x {0}"  />
+			<text id="dialogs_advertisement_magazine_title" name="雜誌廣告"  />
+			<text id="dialogs_advertisement_title" name="宣傳"  />
+			<text id="dialogs_advertisement_tv_copy" name="每位在你店裡消費的顧客都能為你提高經驗值!"  />
+			<text id="dialogs_advertisement_tv_title" name="電視廣告"  />
+			<text id="dialogs_avatarselection_copy" name="名稱已被使用。建議名稱:"  />
+			<text id="dialogs_avatarselection_title" name="哎唷"  />
+			<text id="dialogs_avatar_female" name="女生"  />
+			<text id="dialogs_avatar_male" name="男生"  />
+			<text id="dialogs_avatar_name" name="名字:"  />
+			<text id="dialogs_avatar_randombtn" name="隨機選擇服裝"  />
+			<text id="dialogs_avatar_title" name="設定你的角色"  />
+			<text id="dialogs_bonus_cashdesk_copy" name="你現在可以為你的商店添加新的收銀機和收銀員!"  />
+			<text id="dialogs_bonus_cashdesk_title" name="新收銀台"  />
+			<text id="dialogs_bonus_changingroom_copy" name="你現在可以再添個更衣間"  />
+			<text id="dialogs_bonus_changingroom_title" name="新更衣間"  />
+			<text id="dialogs_bonus_counter_copy" name="你可以再買個貨架!"  />
+			<text id="dialogs_bonus_counter_title" name="新貨架"  />
+			<text id="dialogs_bonus_expand_copy" name="你將你的商店擴張了，現在有更多空間給你的顧客、裝潢及更多更多東西囉!"  />
+			<text id="dialogs_bonus_expand_title" name="擴大營業!"  />
+			<text id="dialogs_bonus_factory_copy" name="你可以將其他的工人放置於商店裡，製作更多的商品。"  />
+			<text id="dialogs_bonus_factory_title" name="新工人"  />
+			<text id="dialogs_bonus_level2_copy" name="看到了嗎?你可以將你的商店擴大營業，給你的顧客和商品更多空間!"  />
+			<text id="dialogs_bonus_level5_copy" name="你知道嗎?你可以用宣傳活動讓商店更受歡迎，提高銷售量或賺取額外經驗值喔!"  />
+			<text id="dialogs_bonus_levelUp_copy" name="恭喜!你已達到新的等級!"  />
+			<text id="dialogs_bonus_levelUp_title" name="晉級!"  />
+			<text id="dialogs_bonus_level_title" name="注意!"  />
+			<text id="dialogs_bonus_login_copy" name="你不在時商店裡:"  />
+			<text id="dialogs_bonus_login_copy2" name="登入獎勵金"  />
+			<text id="dialogs_bonus_login_title" name="歡迎回來!"  />
+			<text id="dialogs_bonus_pattern_copy" name="新的樣版已開放使用:"  />
+			<text id="dialogs_bonus_pattern_title" name="新樣版"  />
+			<text id="dialogs_booster_btnbuypolice" name="雇用/延長工作時間"  />
+			<text id="dialogs_booster_policeman_notime" name="無進行中"  />
+			<text id="dialogs_booster_title" name="能量補給"  />
+			<text id="dialogs_changepassword_newpassword" name="新密碼:"  />
+			<text id="dialogs_changepassword_oldpassword" name="舊密碼:"  />
+			<text id="dialogs_changepassword_title" name="更改密碼"  />
+			<text id="dialogs_coopreward_finish_0" name="金"  />
+			<text id="dialogs_coopreward_finish_1" name="銀"  />
+			<text id="dialogs_coopreward_finish_2" name="青銅"  />
+			<text id="dialogs_coopreward_title_fail" name="共同任務未完成"  />
+			<text id="dialogs_coopreward_title_success" name="{0}共同任務完成"  />
+			<text id="dialogs_coopshelp_copy" name="你可以在此與朋友們一起完成任務，賺取額外的經驗值和時尚金。\n任務越快完成，酬勞也就越高!\n\n假使時間不夠，你也可以隨時延長!\n\n但是請記得，你也得有所貢獻才能獲得酬勞喔!"  />
+			<text id="dialogs_coopshelp_title" name="什麼是共同任務?"  />
+			<text id="dialogs_coop_btn_action" name="細節"  />
+			<text id="dialogs_coop_btn_activecoops" name="進行中的共同任務"  />
+			<text id="dialogs_coop_btn_join" name="參加"  />
+			<text id="dialogs_coop_btn_newcoop" name="開始共同任務"  />
+			<text id="dialogs_coop_btn_progress" name="進展"  />
+			<text id="dialogs_coop_btn_protocol" name="紀錄"  />
+			<text id="dialogs_coop_btn_quit" name="離開"  />
+			<text id="dialogs_coop_extendtime_copy" name="你想以{0}個金紐扣延長共同任務的時間嗎?
+金牌: {1}
+銀牌: {2}
+銅牌: {3}"  />
+			<text id="dialogs_coop_extendtime_title" name="需要更多時間?"  />
+			<text id="dialogs_coop_maxuser" name="最多參與人數:{0}"  />
+			<text id="dialogs_coop_member" name="共同任務參與者"  />
+			<text id="dialogs_coop_minlevel" name="最低參與等級:{0}"  />
+			<text id="dialogs_coop_minlevel_short" name="最低等級:{0}"  />
+			<text id="dialogs_coop_produce_copy" name="你想要多頻繁的為此項共同任務製作{0}?"  />
+			<text id="dialogs_coop_produce_title" name="爲共同任務製作?"  />
+			<text id="dialogs_coop_quit_copy" name="你真的想要離開共同任務嗎?"  />
+			<text id="dialogs_coop_subtitle" name="你們需要製作:"  />
+			<text id="dialogs_coop_timeInfo" name="任務完成於:"  />
+			<text id="dialogs_coop_timeleft" name="剩餘時間:"  />
+			<text id="dialogs_coop_txt_noactive" name="目前無正在進行中的共同任務
+直接開始一項吧!"  />
+			<text id="dialogs_coop_txt_title" name="共同任務"  />
+			<text id="dialogs_counterclick_btndonate" name="捐贈"  />
+			<text id="dialogs_counterclick_copy" name="此貨架上仍有下列商品"  />
+			<text id="dialogs_counterclick_title" name="貨架"  />
+			<text id="dialogs_customclothbuy_copy" name="你要以{1}個金紐扣將{0}永久放在你的商品型錄中嗎?"  />
+			<text id="dialogs_customclothbuy_title" name="購買樣版!"  />
+			<text id="dialogs_customclothhelp_copy" name="你可以在這自己設計及製作獨一無二的服飾喔!選擇一個樣式和顏色吧!製作時間及收入取決於服裝樣式，新添加的樣版可供你使用24小時。若你想保存樣版，也可以將它永久放在你的商品型錄中!"  />
+			<text id="dialogs_customclothinfo_title" name="你獨一無二的風格!"  />
+			<text id="dialogs_customcloth_btn_choose" name="選擇"  />
+			<text id="dialogs_customcloth_entername" name="給我一個名字!"  />
+			<text id="dialogs_customcloth_icon" name="轉印圖案"  />
+			<text id="dialogs_customcloth_shape" name="樣式"  />
+			<text id="dialogs_customcloth_title" name="你的設計決定風格!"  />
+			<text id="dialogs_decoshophelp_copy" name="若你將傢俱或裝飾品拖曳至此框中，且不拖曳至收銀台上，它們將會被儲藏。將它們再次拖曳至商店內使用是免費的，於旁邊的空箱子處可見到物品數量"  />
+			<text id="dialogs_decoshophelp_copy_1" name="家俱和裝飾品的奢華指數能增加商店奢華指數喔!你的商店有多奢華呢?"  />
+			<text id="dialogs_decoshophelp_title" name="儲藏貨架/裝飾品?"  />
+			<text id="dialogs_decoshophelp_title_1" name="奢華指數?"  />
+			<text id="dialogs_factoryclick_btn_cancel" name="中斷商品製作"  />
+			<text id="dialogs_factoryclick_copy" name="你想要使用『瞬間製作』嗎?\n你今天還能使用{0}次"  />
+			<text id="dialogs_factoryclick_title" name="商品正在製作!"  />
+			<text id="dialogs_fashionbook_durationtime" name="所需時間: {0}"  />
+			<text id="dialogs_fashionbook_emptypattern" name="目前暫無其他樣版可供使用"  />
+			<text id="dialogs_fashionbook_emptypatterncustomcloth" name="你可以在這兒製作專屬的樣版喔!"  />
+			<text id="dialogs_fashionbook_emptyproducts" name="你需要樣版才能製作商品。\n\n在商品型錄裡購買些吧"  />
+			<text id="dialogs_fashionbook_pieces" name="數量:"  />
+			<text id="dialogs_fashionbook_productionPrice" name="製作費用{0}"  />
+			<text id="dialogs_fashionbook_saleprice" name="每件價格:"  />
+			<text id="dialogs_featureUnlocked_advertisement" name="用廣告讓生意更興隆!"  />
+			<text id="dialogs_featureUnlocked_arcades" name="去拱廊結交些新朋友吧!"  />
+			<text id="dialogs_featureUnlocked_coop" name="與朋友們一起開始一項共同任務吧!"  />
+			<text id="dialogs_featureUnlocked_custompattern" name="從現在開始設計自己專屬的服飾樣版吧!"  />
+			<text id="dialogs_featureUnlocked_decoration" name="新的裝飾品已爲你開放!"  />
+			<text id="dialogs_featureUnlocked_policeman" name="注意!從現在起商品還是很可能被偷喔!還是請個警察吧!"  />
+			<text id="dialogs_featureUnlocked_ranking" name="去拜訪排行榜上其他的玩家吧!"  />
+			<text id="dialogs_featureUnlocked_wheeloffortune" name="用命運轉盤測試你的手氣，贏得絕讚的獎品!"  />
+			<text id="dialogs_giftbox_btnclose" name="關閉"  />
+			<text id="dialogs_giftbox_btnsend" name="贈送"  />
+			<text id="dialogs_giftbox_empty_friends" name="你一天可以給每個朋友一次一份禮物"  />
+			<text id="dialogs_giftbox_empty_mygifts" name="你的禮物箱目前是空的。\n給朋友們一些吧，或許他們會回送你一點。"  />
+			<text id="dialogs_giftbox_empty_sendablegifts" name="今天沒有禮物"  />
+			<text id="dialogs_giftbox_friendstitle" name="送給朋友"  />
+			<text id="dialogs_giftbox_mygiftstitle" name="我的禮物"  />
+			<text id="dialogs_giftbox_sendablegiftstitle" name="贈送禮物"  />
+			<text id="dialogs_highscore_name" name="名字"  />
+			<text id="dialogs_highscore_rank" name="排名"  />
+			<text id="dialogs_highscore_search" name="搜尋名字/排名"  />
+			<text id="dialogs_highscore_title" name="名次表"  />
+			<text id="dialogs_info_goldsmith_copy" name="金匠專門從事飾品製作"  />
+			<text id="dialogs_info_goldsmith_title" name="金匠"  />
+			<text id="dialogs_info_sewer_copy" name="縫紉女工專門從事服裝縫製"  />
+			<text id="dialogs_info_sewer_title" name="縫紉女工"  />
+			<text id="dialogs_info_shoemaker_copy" name="鞋匠專門從事鞋子製作"  />
+			<text id="dialogs_info_shoemaker_title" name="鞋匠"  />
+			<text id="dialogs_invitefriend_copy" name="輸入朋友的名字及電子郵件邀請他們加入"  />
+			<text id="dialogs_invitefriend_emptyparam" name="你必須正確填寫所有的空格"  />
+			<text id="dialogs_invitefriend_friendname" name="朋友的名字"  />
+			<text id="dialogs_invitefriend_mail" name="朋友的電子郵件:"  />
+			<text id="dialogs_invitefriend_myname" name="你的名字:"  />
+			<text id="dialogs_invitefriend_title" name="邀請"  />
+			<text id="dialogs_lonelycash_copy" name="有人把一個錢包送到失物招領處!
+
+有可能是你朋友的嗎?"  />
+			<text id="dialogs_lonelycash_title" name="找到了!"  />
+			<text id="dialogs_lonelycop_copy" name="保安主管正在找實習生!
+或許他會雇用你的朋友喔!"  />
+			<text id="dialogs_lonelycop_title" name="好友邀請!"  />
+			<text id="dialogs_lonelypants_copy" name="你的收銀員找到一個裝著多餘存貨的箱子。\n\n把它送給你的朋友們吧!"  />
+			<text id="dialogs_lonelypants_title" name="這是什麼?"  />
+			<text id="dialogs_mannequindesign_empty" name="在這個型錄中你沒有可以選擇的"  />
+			<text id="dialogs_mannequindesign_title" name="人偶模特兒"  />
+			<text id="dialogs_mannequinpaycheck_copy" name="顧客越喜歡你的商品，穿搭人偶模特兒的報酬也就越高喔"  />
+			<text id="dialogs_mannequinpaycheck_title" name="評價"  />
+			<text id="dialogs_mastery_copy_0" name="你由製作{0}獲得了一個吊牌!"  />
+			<text id="dialogs_mastery_copy_1" name="和朋友們分享些額外的商品吧!"  />
+			<text id="dialogs_mastery_info" name="每個吊牌讓你的商品更加值錢!"  />
+			<text id="dialogs_mastery_title" name="一個新吊牌!"  />
+			<text id="dialogs_noreward_copy" name="酬勞已被其他玩家拿走了!"  />
+			<text id="dialogs_noreward_title" name="真可惜!"  />
+			<text id="dialogs_payment_copy" name="於此購買\n金紐扣和時尚金"  />
+			<text id="dialogs_payment_title" name="付款商店"  />
+			<text id="dialogs_perfectpants_copy" name="你今天完美地製作了{0}!\n送些多做的給你的朋友們吧!"  />
+			<text id="dialogs_perfectpants_title" name="太棒啦!"  />
+			<text id="dialogs_pesentreceived_text" name="你的歡迎禮物({0}個金紐扣)已添加至你的帳戶中"  />
+			<text id="dialogs_pesentreceived_title" name="歐耶!"  />
+			<text id="dialogs_pesentreminder_send" name="寄出"  />
+			<text id="dialogs_pesentreminder_text1" name="作為歡迎禮物有{0}個金紐扣正等著你，點選歡迎選單中的連結拿取吧!"  />
+			<text id="dialogs_pesentreminder_text2" name="你也可以請求再發送一次電子郵件至你的信箱"  />
+			<text id="dialogs_pesentreminder_title" name="歡迎禮!"  />
+			<text id="dialogs_receivecomeback_copy_0" name="你獲得{0}個金紐扣及一份超酷的精力補給作為歡迎回來答謝禮!"  />
+			<text id="dialogs_receivecomeback_copy_1" name="你獲得{0}個金紐扣及一位商場警衛{1}作為歡迎回來答謝禮!"  />
+			<text id="dialogs_receivecomeback_title" name="歡迎回來!"  />
+			<text id="dialogs_receivecop_copy" name="實習生已開始工作，並將商場警衛的工作時間延長了
+個小時!"  />
+			<text id="dialogs_receivecop_title" name="已雇用!"  />
+			<text id="dialogs_receiveitem_copy" name="你的酬勞在你的禮物箱裡!"  />
+			<text id="dialogs_receiveitem_title" name="歐耶!"  />
+			<text id="dialogs_receivemoney_copy" name="你的酬勞已經給付囉!"  />
+			<text id="dialogs_receivemoney_title" name="歐耶!"  />
+			<text id="dialogs_register_agb" name="接受用戶條款"  />
+			<text id="dialogs_register_btnsave" name="儲存"  />
+			<text id="dialogs_register_copy_0" name="現在就免費註冊!"  />
+			<text id="dialogs_register_copy_1" name="儲存你的遊戲資料!"  />
+			<text id="dialogs_register_copy_2" name="登入後你將獲得{0}個金紐扣作為歡迎禮，由電子郵件寄出"  />
+			<text id="dialogs_register_email" name="電子郵件"  />
+			<text id="dialogs_register_forfree" name="免費!"  />
+			<text id="dialogs_register_password" name="密碼"  />
+			<text id="dialogs_register_title" name="註冊"  />
+			<text id="dialogs_robberyall_copy" name="你所有的商品都被偷了!"  />
+			<text id="dialogs_robbery_copy" name="東西被偷了!"  />
+			<text id="dialogs_robbery_copy2" name="將已製作完成的商品至於貨架上
+或雇用一位商場警衛，防止你的商品被偷竊"  />
+			<text id="dialogs_robbery_title" name="順手牽羊!"  />
+			<text id="dialogs_sale_copy" name="點選特價標籤貼到貨架上，將特價出售的商品標示出來\n價格將會被調降，商店的受歡迎程度將會提高\n貨架清空時，特價活動也隨之結束。"  />
+			<text id="dialogs_sale_title" name="特價"  />
+			<text id="dialogs_shippingconfirmation_send" name="你的歡迎禮剛剛已經寄出囉!欲領取直接點選電子郵件中的連結即可"  />
+			<text id="dialogs_shippingconfirmation_titel" name="禮物!"  />
+			<text id="dialogs_staff_btnfire" name="解雇"  />
+			<text id="dialogs_staff_btnhire" name="雇用"  />
+			<text id="dialogs_staff_title" name="你的收銀員"  />
+			<text id="dialogs_wheeloffortune_beforespin" name="轉動命運輪盤贏得絕讚的獎品!"  />
+			<text id="dialogs_wheeloffortune_btn_go" name="轉動!"  />
+			<text id="dialogs_wheeloffortune_btn_towheel" name="來去轉動命運輪盤"  />
+			<text id="dialogs_wheeloffortune_copy1" name="你今天轉動命運輪盤了嗎?"  />
+			<text id="dialogs_wheeloffortune_info" name="每天的首次轉動命運輪盤是免費唷!"  />
+			<text id="dialogs_wheeloffortune_nomoney" name="你的金紐扣不足以轉動命運輪盤!"  />
+			<text id="dialogs_wheeloffortune_noregister" name="你只能以註冊玩家身分轉動命運輪盤!"  />
+			<text id="dialogs_wheeloffortune_nospace" name="你的禮物箱裡沒有空位放獎品了!挪點位置出來即可轉動命運輪盤!"  />
+			<text id="dialogs_wheeloffortune_title" name="命運轉盤!"  />
+			<text id="dialogs_wheeloffortune_tryagain" name="馬上再試一次吧!"  />
+			<text id="dialogs_wheeloffortune_woncash" name="恭喜恭喜!你的獎品已經給付囉!"  />
+			<text id="dialogs_wheeloffortune_woncloth" name="恭喜恭喜!你的獎品已在你的禮物箱裡囉!"  />
+			<text id="dialogs_wheeloffortune_wonitem" name="恭喜恭喜!你的獎品已在你的倉庫裡囉!"  />
+		</dialogs>
+		<error_codes>
+			<text id="error_advertisement_nolevel" name="你必須達到等級{0}才能進行一項宣傳活動"  />
+			<text id="error_advertisement_nomoney" name="你的金紐扣/時尚金不足以進行此項宣傳活動!"  />
+			<text id="error_avatar_12" name="名稱已被使用"  />
+			<text id="error_avatar_15" name="使用者已經有個顯示圖片了"  />
+			<text id="error_avatar_genderempty" name="請選擇一個角色!"  />
+			<text id="error_avatar_nameinvalide" name="你的使用者名稱不得為空白或包含特殊符號。"  />
+			<text id="error_avatar_standardname" name="請輸入一個使用者名稱"  />
+			<text id="error_boost_nomoney" name="你無法支付此能量補給的使用"  />
+			<text id="error_cancleproduction_36" name="無法接觸到貨架!你應該移動一些物品。"  />
+			<text id="error_changepassword_0" name="你的密碼已成功更改!"  />
+			<text id="error_changepassword_10" name="你輸入的舊密碼不正確!"  />
+			<text id="error_changepassword_copy" name="你的新密碼字數必須多於兩個。請確認你輸入的舊密碼是否正確。"  />
+			<text id="error_changepassword_title" name="更改密碼"  />
+			<text id="error_chat_23" name="你的聊天室功能暫時被管理員關閉。"  />
+			<text id="error_chat_24" name="請勿塞爆聊天室!"  />
+			<text id="error_common_1" name="常見錯誤/n伺服機構{0}"  />
+			<text id="error_common_3" name="- DEBUG:等級太低-"  />
+			<text id="error_common_30" name="-DEBUG:目前無工人/貨架-"  />
+			<text id="error_common_38" name="-DEBUG:於裝潢模式中-"  />
+			<text id="error_common_5" name="- DEBUG:不明的WodId -"  />
+			<text id="error_common_80" name="-DEBUG:算準時間，延遲太久-"  />
+			<text id="error_common_81" name="-DEBUG:算準時間，拒絕延遲-"  />
+			<text id="error_common_title" name="注意!"  />
+			<text id="error_coop_3" name="你的等級太低，未達到參加本項共同任務的限制。\n你必須至少擁有一個被開放的所需服裝樣版。"  />
+			<text id="error_coop_90" name="你已經參加了一項共同任務囉!"  />
+			<text id="error_coop_91" name="共同任務的最多參與人數已滿"  />
+			<text id="error_coop_92" name="共同任務已完成!"  />
+			<text id="error_coop_93" name="你今天已經開始了一項共同任務!明天才能再開始一項喔!"  />
+			<text id="error_coop_nomoney" name="你的金紐扣不足以延長本項共同任務"  />
+			<text id="error_coop_title" name="共同任務"  />
+			<text id="error_customclothbuy_nomoney" name="你的金紐扣不足以購買樣版!"  />
+			<text id="error_customclothproduce_nomoney" name="你的時尚金不足以使用樣版製作商品!"  />
+			<text id="error_customclothunlock_nomoney" name="你的時尚金或金紐扣不足以開放此物品!"  />
+			<text id="error_customize_nomoney" name="你的金紐扣不足以替你的顯示圖片更衣"  />
+			<text id="error_custom_nameinvalide" name="你不能使用{0}!"  />
+			<text id="error_deliverinfo_33" name="-DEBUG:商品仍未製作完成-"  />
+			<text id="error_deliverinfo_35" name="-DEBUG:工人什麼都沒製作-"  />
+			<text id="error_deliverinfo_36" name="無法接觸此工人。請重新佈置你的商店，至少要讓工人的一側是暢通的。"  />
+			<text id="error_deliverinfo_37" name="沒有空架子可以陳列商品"  />
+			<text id="error_deliver_33" name="-DEBUG:商品仍未製作完成-"  />
+			<text id="error_deliver_35" name="-DEBUG:工人什麼都沒製作-"  />
+			<text id="error_deliver_36" name="無法接觸此貨架。請重新佈置你的商店，至少要讓貨架的一側是暢通的。"  />
+			<text id="error_deliver_37" name="此貨架已滿，找個空貨架來放你的商品。"  />
+			<text id="error_deliver_46" name="此商品無法掛起，找個你可以將它放上去的貨架吧"  />
+			<text id="error_deliver_title" name="不行喔..."  />
+			<text id="error_editmode_3" name="-DEBUG:最低等級尚未達到-"  />
+			<text id="error_editmode_31" name="-DEBUG:物品無法點選-"  />
+			<text id="error_editmode_32" name="-DEBUG:商品沒有存貨-"  />
+			<text id="error_editmode_37" name="-DEBUG:商品仍在貨架上-"  />
+			<text id="error_editmode_39" name="-DEBUG:不明的位置-"  />
+			<text id="error_editmode_48" name="-DEBUG:無法儲藏無動力工作的工人-"  />
+			<text id="error_editmode_50" name="-DEBUG:位置被鎖定-"  />
+			<text id="error_editmode_51" name="-DEBUG:位置是空的-"  />
+			<text id="error_editmode_52" name="-DEBUG:物品無法轉動-"  />
+			<text id="error_editmode_53" name="-DEBUG:你已經有這個規模了-"  />
+			<text id="error_editmode_54" name="-DEBUG:你還不能購買此規模-"  />
+			<text id="error_editmode_55" name="-DEBUG:展示人偶無法被賣出/放置-"  />
+			<text id="error_editmode_nomoney" name="你無法支付這項物品"  />
+			<text id="error_editmode_removeMannequin" name="只要人偶模特兒身上仍有展示的服裝，你就不能賣掉它"  />
+			<text id="error_editmode_removeminCashdesk" name="你最少必須有一個收銀台，才能讓你的顧客付款。"  />
+			<text id="error_editmode_removeminChangingroom" name="你最少必須有一個更衣間，才能讓你的顧客試穿商品。"  />
+			<text id="error_editmode_removeminCounter" name="你最少需要一個架子，才能販賣你的商品。"  />
+			<text id="error_editmode_removeminFactory" name="你最少需要一個工人，才能製作新的商品。"  />
+			<text id="error_editmode_removeminMannequin" name="你最少必須有一個人偶模特兒，才能更好地推銷你的商品。"  />
+			<text id="error_editmode_removenotallowedCounter" name="貨架上仍有商品!"  />
+			<text id="error_editmode_removenotallowedDoor" name="你需要一個門!要更換請將其它的門拖曳至你的商店內"  />
+			<text id="error_editmode_removenotallowedFactory" name="工人還在忙呢!"  />
+			<text id="error_editmode_title" name="裝潢時出現錯誤"  />
+			<text id="error_fashiongame_1" name="無法載入商店，請與Goodgame技術支援部門聯絡"  />
+			<text id="error_fashiongame_title" name="嚴重的錯誤"  />
+			<text id="error_forgotpassword_101" name="你已封鎖電子郵件接收，請與技術支援部聯繫"  />
+			<text id="error_fullscreen_copy" name="無法切換全螢幕模式"  />
+			<text id="error_fullscreen_title" name="全螢幕模式"  />
+			<text id="error_gift_20" name="貨架上無空位可以使用禮物"  />
+			<text id="error_gift_34" name="已達禮物數量上限!你想以{1}個金紐扣額外再使用{0}份禮物嗎?"  />
+			<text id="error_gift_37" name="貨架上無空位可以使用禮物"  />
+			<text id="error_gift_nomoney" name="你的金紐扣不足以使用更多的禮物!"  />
+			<text id="error_gift_title" name="禮物"  />
+			<text id="error_instantdesign_34" name="- DEBUG:已達每日限制-"  />
+			<text id="error_instantdesign_nomoney" name="你的金紐扣不足以提早替人偶模特兒換衣"  />
+			<text id="error_instantdesign_nomoreinstant" name="你只能在有限的次數內提早爲人偶模特兒更換穿搭。明天你才能夠再替人偶模特兒搭配不同的服裝。"  />
+			<text id="error_instantdesign_title" name="展示櫥窗"  />
+			<text id="error_instantwork_nomoney" name="你的金紐扣不足以使用瞬間交貨"  />
+			<text id="error_invitefriend_11" name="玩家目前不在線上，稍後再試一次吧!"  />
+			<text id="error_invitefriend_13" name="你的朋友已經於遊戲中註冊了!"  />
+			<text id="error_invitefriend_14" name="電子郵件地址無效"  />
+			<text id="error_invitefriend_70" name="你的好友數量已達上限!"  />
+			<text id="error_invitefriend_71" name="玩家無法再增加好友!"  />
+			<text id="error_invitefriend_title" name="提出邀請時出現錯誤"  />
+			<text id="error_job_2" name="下班囉!你已經工作夠了"  />
+			<text id="error_join_20" name="商店裡滿囉，稍後再試吧"  />
+			<text id="error_join_21" name="-DEBUG:已在商店內-"  />
+			<text id="error_join_22" name="-DEBUG:不明的商店-"  />
+			<text id="error_join_title" name="進入商店"  />
+			<text id="error_login_10" name="使用者名稱或密碼錯誤!"  />
+			<text id="error_login_11" name="使用者名稱或密碼錯誤!"  />
+			<text id="error_login_12" name="使用者已註冊"  />
+			<text id="error_login_13" name="使用者已註冊"  />
+			<text id="error_login_14" name="使用者名稱或密碼錯誤!"  />
+			<text id="error_login_15" name="你已經登入了"  />
+			<text id="error_login_16" name="你的顯示圖片出現錯誤。請與技術支援部門聯絡。"  />
+			<text id="error_lostpassword_101" name="你已封鎖電子郵件接收，欲允許電子郵件接收請點選「好的」"  />
+			<text id="error_lostpassword_11" name="此電子郵件地址仍未被註冊!"  />
+			<text id="error_marketplace_20" name="-DEBUG:拱廊已無位置-"  />
+			<text id="error_marketplace_21" name="-DEBUG:你已經在拱廊了-"  />
+			<text id="error_marketplace_title" name="Goodgame拱廊"  />
+			<text id="error_nocustomclothselected" name="如果你想製作新商品，請先選擇一個服裝樣式!"  />
+			<text id="error_nomoney_copy" name="你無法支付此物品"  />
+			<text id="error_nomoney_guest_copy" name="你破產了嗎?\n趕快註冊就可得到{0}時尚金喔!"  />
+			<text id="error_nomoney_title" name="哎呀!錢不夠了!"  />
+			<text id="error_npchire_nomoney" name="你的金紐扣不足以聘請一位新收銀員"  />
+			<text id="error_patternshop_44" name="你已經有這個樣版了"  />
+			<text id="error_patternshop_5" name="-DEBUG: WOD不明-"  />
+			<text id="error_patternshop_nomoney" name="你無法支付新的樣版"  />
+			<text id="error_patternshop_title" name="樣版疑難"  />
+			<text id="error_police_nomoney" name="你的金紐扣不足以聘請商場警衛"  />
+			<text id="error_register_10" name="你輸入的密碼無效"  />
+			<text id="error_register_102" name="此電子郵件地址無效"  />
+			<text id="error_register_13" name="此電子郵件已被使用"  />
+			<text id="error_register_14" name="你輸入的電子郵件地址不正確"  />
+			<text id="error_register_19" name="你的電子郵件地址太長"  />
+			<text id="error_register_2" name="你已確認了你的電子郵件地址"  />
+			<text id="error_register_agb" name="不接受用戶條款不行唷，仔細閱讀後按下確認鍵即可開始遊戲!"  />
+			<text id="error_register_emailinvalide" name="電子郵件地址不得為空白或包含標點符號"  />
+			<text id="error_register_passwordinvalide" name="你的密碼不得為空白或包含特殊符號。"  />
+			<text id="error_register_title" name="註冊時出現錯誤"  />
+			<text id="error_repair_36" name="-DEBUG:無法接觸到工人-"  />
+			<text id="error_repair_48" name="-DEBUG:工人已經有100%的動力-"  />
+			<text id="error_repair_nomoney" name="你的時尚金不足以支付獎金"  />
+			<text id="error_repair_title" name="修理"  />
+			<text id="error_sale_47" name="此貨架上無商品!"  />
+			<text id="error_sale_title" name="特價拍賣"  />
+			<text id="error_walk_23" name="-DEBUG:此處無法行走-"  />
+			<text id="error_work_31" name="-DEBUG:工人們已經在工作了!-"  />
+			<text id="error_work_32" name="-DEBUG:無相符的樣版可製作此商品-"  />
+			<text id="error_work_36" name="通往工人的路堵住了!請試著改變擺設"  />
+			<text id="error_work_41" name="- DEBUG:目錄中無能量補給-"  />
+			<text id="error_work_45" name="-DEBUG:商品類型與工人類型不相符-"  />
+			<text id="error_work_49" name="- DEBUG:提供此工人不適合的能量補給-"  />
+			<text id="error_work_67" name="你的樣版不能再使用了，設計一個新的吧!"  />
+			<text id="error_work_nomoney" name="你的時尚金不足以製作此商品"  />
+			<text id="error_work_title" name="拒絕工作"  />
+		</error_codes>
+		<feature>
+			<text id="feature_0_text_0" name="是時候啦!\n\nGoodgame Fashion開始正式進入BETA階段囉\n玩家重新由等級1開始遊戲，之前購買的金紐扣仍會退回帳戶中，另外還可額外獲得10個金紐扣作為謝禮喔!\n\n希望你在Goodgame Fashion裡樂趣多多!"  />
+			<text id="feature_0_title" name="正式開始!"  />
+			<text id="feature_10_text_0" name="新的GeeDee系列來啦!快讓店裡洋溢著夏日的度假風情吧!"  />
+			<text id="feature_1_text_0" name="和你的朋友們一起合作!\n快來發掘新的共同任務吧!"  />
+			<text id="feature_2_text_0" name="發掘新的貨架、更衣間和收銀台吧!"  />
+			<text id="feature_2_text_1" name="更改角色的外貌從未如此容易!只要點選你的角色圖片!"  />
+			<text id="feature_2_text_2" name="讓音樂伴隨你進入時尚產業吧!"  />
+			<text id="feature_3_text_0" name="和煦的春天來囉!用新的樣版為你的服飾店增添春天的氣息吧!"  />
+			<text id="feature_3_text_1" name="新的吊牌讓你的商品更加值錢!"  />
+			<text id="feature_4_text_0" name="新的JayJay系列爲你的服飾店增添更多色彩!"  />
+			<text id="feature_4_text_1" name="發掘新的貨架、更衣間和收銀台吧!"  />
+			<text id="feature_4_text_2" name="新的春季夾克真是太正點啦!"  />
+			<text id="feature_4_text_3" name="新的工作機會推出囉!快去幫助你的朋友賺取酬勞吧!"  />
+			<text id="feature_5_text_0" name="新的JayJay系列爲你的服飾店增添更多色彩!"  />
+			<text id="feature_5_text_1" name="發掘新的貨架、更衣間和收銀台吧!"  />
+			<text id="feature_5_text_2" name="新的春季夾克真是太正點啦!"  />
+			<text id="feature_5_text_3" name="新的工作機會推出囉!快去幫助你的朋友賺取酬勞吧!"  />
+			<text id="feature_6_text_0" name="成為一位服裝設計師，親自設計服裝樣版吧!"  />
+			<text id="feature_6_text_1" name="為你的商店發掘新的櫥窗吧!"  />
+			<text id="feature_7_text_0" name="幸運之神是否眷顧你呢? 用拱廊那兒新推出的命運輪盤測試一下吧!"  />
+			<text id="feature_8_text_0" name="用傢俱和裝飾品的奢華指數商店更受歡迎，魅力指數破表!"  />
+			<text id="feature_8_text_1" name="用新的貨架、更衣間及收銀台讓你的顧客眼睛一亮吧!"  />
+			<text id="feature_9_text_0" name="用宣傳活動讓商店更受歡迎及賺取額外經驗值吧!"  />
+			<text id="feature_9_text_1" name="放置更多禮物在你的貨架上!"  />
+			<text id="feature_title" name="新專題"  />
+		</feature>
+		<feeds>
+			<text id="descriptionfashionfeed" name="我剛安裝了時尚教主這款遊戲。你也想成立一間精品店且成為時尚設計師嗎? 進來看看吧!"  />
+			<text id="descriptionlongfashion" name="在Goodgame Fashion開間自己的服飾店吧!成為出名的時尚設計師、購買新的服飾樣版、製作專屬風格的衣裳及創造最新的時尚潮流，打造你獨一無二的店面，成為時尚界的明日之星吧!"  />
+		</feeds>
+		<forumaction>
+			<text id="forumaction_copy_1" name="自己設計專屬的泳裝去參加比賽吧!優勝者將獲得金紐扣，設計樣版還能放到商品型錄中喔!快上論壇加入吧!"  />
+			<text id="forumaction_title_1" name="有創意點吧!"  />
+		</forumaction>
+		<loggedin_msg id=""  />
+		<panels>
+			<text id="panels_buddylist_morefriends" name="更多好友"  />
+			<text id="panels_login_email" name="使用者名稱"  />
+			<text id="panels_login_loginbtn" name="登入"  />
+			<text id="panels_login_lostpassword" name="忘記密碼?"  />
+			<text id="panels_login_password" name="密碼"  />
+			<text id="panels_login_playbtn" name="馬上開始"  />
+			<text id="panels_login_registerbtn" name="註冊"  />
+			<text id="panels_login_rememberpassword" name="儲存密碼"  />
+			<text id="panels_social_alone" name="目前只有你一人在此!"  />
+			<text id="panels_social_bot" name="服飾店閒談"  />
+			<text id="panels_social_chatblocked" name="只有等級1起的註冊玩家才能使用聊天室功能"  />
+			<text id="panels_social_come_in" name="已進入商店"  />
+			<text id="panels_social_go_out" name="已離開商店"  />
+			<text id="panels_social_nofriends" name="你還沒有好友喔!"  />
+			<text id="panels_social_welcome_market" name="歡迎來到Goodgame拱廊!"  />
+			<text id="panels_social_welcome_myshop" name="歡迎光臨"  />
+		</panels>
+		<server>
+			<mail>
+				<text id="mail_invite_friend" name="Hi %s!&lt;br /&gt;&lt;br /&gt;我剛剛發現一個超酷的線上遊戲&quot;Goodgame Fashion&quot;喔!&lt;br /&gt;&lt;br /&gt;由此連結可直接進入遊戲:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;由上面連結登入，在&quot;Goodgame Fashion&quot;免費開一間屬於你的商店!&lt;br /&gt;&lt;br /&gt;看看如何擁有自己專屬的服飾店吧!製作美麗的衣裳，配件和鞋子，在你的商店裡販賣它們，快來用個人品味打造獨一無二的服飾店吧!&lt;br /&gt;&lt;br /&gt;祝你玩的愉快，%s"  />
+				<text id="mail_lost_pw" name="Hallo %s!&lt;br /&gt;&lt;br /&gt;因為你向我們要求一個新密碼，所以你收到這封自動回覆的電子郵件。&lt;br /&gt;你的密碼為: %s&lt;br /&gt;&lt;br /&gt;由此連結可直接進入遊戲:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;任何問題及疑難請寫信至support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;我們誠摯地希望你繼續玩的愉快!&lt;br /&gt;&lt;br /&gt;你的Goodgamestudios.com服務團隊"  />
+				<text id="mail_registration" name="Hallo,&lt;br /&gt;&lt;br /&gt;非常感謝你的加入，我們誠摯的歡迎你來到&quot;Goodgame Fashion&quot;。&lt;br /&gt;&lt;br /&gt;你可以隨時以下列資料登入:&lt;br /&gt;電子郵件: %s&lt;br /&gt;密碼: %s&lt;br /&gt;&lt;br /&gt;由此連結可直接進入遊戲:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;任何問題及疑難請寫信至support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;希望你會從遊戲中得到很多樂趣!&lt;br /&gt;&lt;br /&gt;你的Goodgamestudios.com服務團隊"  />
+			</mail>
+			<misc>
+				<text id="marketplace" name="Goodgame拱廊"  />
+			</misc>
+		</server>
+		<server_msg>
+			<text id="server_msg_10" name="系統將重新連結，遊戲馬上開始。\n按F5重新載入頁面"  />
+			<text id="server_msg_title" name="系統訊息:"  />
+		</server_msg>
+		<std_buttons>
+			<text id="btn_addcurrency" name="購買時尚金/金紐扣"  />
+			<text id="btn_payment" name="購買時尚金/金紐扣"  />
+			<text id="btn_policeman" name="商場警衛"  />
+			<text id="btn_register" name="註冊"  />
+			<text id="btn_superrewardChips" name="賺取時尚金"  />
+			<text id="btn_superrewardGold" name="賺取金紐扣"  />
+		</std_buttons>
+		<tooltips>
+			<text id="tooltip_Basic_Factory_Basicaccessoire" name="金匠"  />
+			<text id="tooltip_Basic_Factory_Basiccloth" name="縫紉女工"  />
+			<text id="tooltip_Basic_Factory_Basicshoes" name="鞋匠"  />
+			<text id="tooltip_counter_pieces" name="數量: {0}"  />
+			<text id="tooltip_customcloth_icon" name="轉印圖案"  />
+			<text id="tooltip_customcloth_shape" name="樣式"  />
+			<text id="tooltip_customcloth_unlock" name="開放"  />
+			<text id="tooltip_factory_empty" name="製作新商品!"  />
+			<text id="tooltip_factory_preparestep1" name="交待工人工作"  />
+			<text id="tooltip_factory_preparetitle" name="點選"  />
+			<text id="tooltip_factory_readytoserv" name="陳列商品"  />
+			<text id="tooltip_factory_readytoserv_amount" name="數量: {0}"  />
+			<text id="tooltip_factory_wear" name="動力:{0}%"  />
+			<text id="tooltip_FashionActionPanel_btn_achievements" name="成就"  />
+			<text id="tooltip_FashionActionPanel_btn_addcurrency" name="添加時尚金/金紐扣"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisement" name="宣傳活動"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="自等級{0}你才能進行宣傳活動"  />
+			<text id="tooltip_FashionActionPanel_btn_booster" name="能量補給"  />
+			<text id="tooltip_FashionActionPanel_btn_coop" name="共同任務"  />
+			<text id="tooltip_FashionActionPanel_btn_decoshop" name="裝潢"  />
+			<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="進行宣傳活動!"  />
+			<text id="tooltip_FashionActionPanel_btn_fashionbook" name="商品型錄"  />
+			<text id="tooltip_FashionActionPanel_btn_gifts" name="禮物"  />
+			<text id="tooltip_FashionActionPanel_btn_highscore" name="名次表"  />
+			<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame拱廊"  />
+			<text id="tooltip_FashionActionPanel_btn_openclose" name="開/關閉商店"  />
+			<text id="tooltip_FashionActionPanel_btn_ownshop" name="我的商店"  />
+			<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="宣傳活動正在進行，點選查看初步結果"  />
+			<text id="tooltip_FashionActionPanel_btn_sale" name="降價"  />
+			<text id="tooltip_FashionActionPanel_btn_staff" name="收銀員"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="下半身"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="頭髮"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="膚色"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="上衣"  />
+			<text id="tooltip_FashionBookDialog_btn_all" name="全部"  />
+			<text id="tooltip_FashionBookDialog_btn_buy" name="購買樣版"  />
+			<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="設計樣版"  />
+			<text id="tooltip_FashionBookDialog_btn_mastery" name="至吊牌等級{1}仍需製作{0}次
+點選查看細節"  />
+			<text id="tooltip_FashionBookDialog_btn_produce" name="製作"  />
+			<text id="tooltip_FashionBookDialog_customcloth" name="我的樣版"  />
+			<text id="tooltip_FashionBookDialog_female" name="女裝"  />
+			<text id="tooltip_FashionBookDialog_info" name="別忘記商店裡男裝和女裝都要提供喔!"  />
+			<text id="tooltip_FashionBookDialog_male" name="男裝"  />
+			<text id="tooltip_FashionBookDialog_unisex" name="男女皆可"  />
+			<text id="tooltip_FashionBoosterDialog_addAmount" name="單次購買數量"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="延長時間"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="延長時間\n增加{1}個好友，時間+{0}"  />
+			<text id="tooltip_FashionBoosterDialog_btn_buy" name="購買"  />
+			<text id="tooltip_FashionBoosterDialog_btn_info" name="資訊"  />
+			<text id="tooltip_FashionBoosterDialog_coffee" name="咖啡\n讓縫紉女工的工作效率提高20%!"  />
+			<text id="tooltip_FashionBoosterDialog_currentAmount" name="庫存"  />
+			<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="目前的防盜措施"  />
+			<text id="tooltip_FashionBoosterDialog_energy" name="精力飲料\n讓鞋匠的工作效率提高20%!"  />
+			<text id="tooltip_FashionBoosterDialog_police" name="商場警衛"  />
+			<text id="tooltip_FashionBoosterDialog_price" name="價格"  />
+			<text id="tooltip_FashionBoosterDialog_shake" name="蛋白質飲品\n讓鐵匠的工作效率提高20%!"  />
+			<text id="tooltip_FashionCoopDialog_btn_extend" name="延長共同任務"  />
+			<text id="tooltip_FashionCounterDialog_btn_sale" name="價格將被調降"  />
+			<text id="tooltip_FashionCounterDialog_btn_spend" name="免費捐贈全部商品"  />
+			<text id="tooltip_FashionCounterDialog_btn_unsale" name="取消特價拍賣"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="購買"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_close" name="裝潢完成"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko" name="裝潢"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="裝飾品"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="櫥窗"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="門"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="地板"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="牆壁"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="牆壁裝飾"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="擴大規模"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="擴建樓層"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="擴張商店"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional" name="生財工具"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="收銀台"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="更衣間"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="貨架"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="工人"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="人偶模特兒"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="樣版"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_sell" name="販賣"  />
+			<text id="tooltip_FashionExpansionFriends" name="你還需要{0}個朋友才能購買此規模"  />
+			<text id="tooltip_FashionFactoryDialog_btn_instant" name="使用瞬間製作!"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_remove" name="刪除"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_use" name="使用"  />
+			<text id="tooltip_FashionGiftboxDialog_mygifts" name="我的禮物"  />
+			<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="贈送禮物"  />
+			<text id="tooltip_FashionHighscoreDialog_luxury" name="按奢華指數分類"  />
+			<text id="tooltip_FashionHighscoreDialog_offline" name="離線"  />
+			<text id="tooltip_FashionHighscoreDialog_online" name="上線"  />
+			<text id="tooltip_FashionHighscoreDialog_xp" name="按經驗值分類"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="配件"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="服裝"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="鞋子"  />
+			<text id="tooltip_FashionMasteryInfoDialog_bronce" name="製作更多數量!"  />
+			<text id="tooltip_FashionMasteryInfoDialog_gold" name="製作更快速!"  />
+			<text id="tooltip_FashionMasteryInfoDialog_silver" name="賺取更多經驗值!"  />
+			<text id="tooltip_FashionNamePanel_mc_luxury" name="商店的奢華指數"  />
+			<text id="tooltip_FashionNamePanel_mc_rating" name="商店受歡迎程度"  />
+			<text id="tooltip_FashionOptionPanel_btn_allowemails" name="允許電子郵件接收"  />
+			<text id="tooltip_FashionOptionPanel_btn_blockemails" name="封鎖電子郵件接收"  />
+			<text id="tooltip_FashionOptionPanel_btn_bugreport" name="錯誤通報"  />
+			<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="角色更衣"  />
+			<text id="tooltip_FashionOptionPanel_btn_changePass" name="更改密碼"  />
+			<text id="tooltip_FashionOptionPanel_btn_faq" name="問與答"  />
+			<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="全螢幕"  />
+			<text id="tooltip_FashionOptionPanel_btn_help" name="幫助"  />
+			<text id="tooltip_FashionOptionPanel_btn_logout" name="登出"  />
+			<text id="tooltip_FashionOptionPanel_btn_music" name="音樂開啟/關閉"  />
+			<text id="tooltip_FashionOptionPanel_btn_news" name="GGS論壇"  />
+			<text id="tooltip_FashionOptionPanel_btn_options" name="選項"  />
+			<text id="tooltip_FashionOptionPanel_btn_register" name="註冊"  />
+			<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="音效開啟/關閉"  />
+			<text id="tooltip_FashionOptionPanel_btn_support" name="寫信給技術支援部"  />
+			<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="領取歡迎禮"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="放大檢視"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="縮小檢視"  />
+			<text id="tooltip_FashionOptionPanel_mc_floors" name="樓層"  />
+			<text id="tooltip_FashionOptionPanel_mc_ranking" name="名次表"  />
+			<text id="tooltip_FashionPatternFriends" name="你還需要{0}個朋友才能使用此樣版"  />
+			<text id="tooltip_FashionSocialPanel_btn_buddies" name="好友"  />
+			<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="在此的玩家"  />
+			<text id="tooltip_FashionSocialPanel_btn_chat" name="聊天室"  />
+			<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="邀請朋友"  />
+			<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="添加時尚金/金紐扣"  />
+			<text id="tooltip_FashionUserStatePanel_jobs" name="活動的數量"  />
+			<text id="tooltip_FashionUserStatePanel_xp" name="至下一等級仍需{0}經驗值"  />
+			<text id="tooltip_Fashion_btnclose" name="關閉"  />
+			<text id="tooltip_levelx" name="自等級{0}方可使用"  />
+			<text id="tooltip_marketplace" name="黑板"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="成就"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="加入好友"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="資訊"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="丟出去"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="斷交"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="拜訪"  />
+			<text id="tooltip_wheeloffortune_line1" name="命運轉盤!"  />
+			<text id="tooltip_wheeloffortune_line2" name="點選開始遊戲!"  />
+			<text id="tooltip_wheeloffortune_line3" name="免費遊戲一次"  />
+			<text id="tooltip_xofy" name="{1}之中的{0}"  />
+		</tooltips>
+		<tutorial>
+			<text id="tut_buypattern_copy" name="你可以於型錄中購買新的樣版，購買過的樣版可無限使用。點選購買新樣版。"  />
+			<text id="tut_choosemannequin_copy" name="為了讓商品成為眾人目光的焦點，你可以幫人偶模特兒穿搭。點選一個空的人偶模特兒。"  />
+			<text id="tut_delivercounter_copy" name="…接著放到一個空的貨架上!"  />
+			<text id="tut_emptyfactory_copy" name="縫紉女工幫你縫製衣服，之後還有其他的工人和商品供你使用。點選縫紉女工。"  />
+			<text id="tut_instantwork_copy" name="點選按鈕使用瞬間製作"  />
+			<text id="tut_lastscreen_copy" name="太棒啦!你已經完成了在時尚界中打響名號的第一步，首位顧客已經上門囉!再四處看看吧，還有更多等著你去發掘的呢!\n\n祝你玩的愉快!"  />
+			<text id="tut_mannequinaccept_copy" name="你已經等不及想知道顧客的反應了嗎?按確認鍵查看評價吧"  />
+			<text id="tut_mannequincategory_copy" name="你可以依照人偶類型使用特定的服裝，你可以只幫半身人偶模特兒穿搭上衣。點選服裝圖片檢視可選擇的衣服。"  />
+			<text id="tut_mannequinclose_copy" name="瞧!看起來很不錯吧!點選關閉鍵回到你的商店內"  />
+			<text id="tut_mannequinclothes_copy" name="你目前只有提供藍色Polo衫。點選穿搭人偶模特兒。"  />
+			<text id="tut_openproducebook_copy" name="你購買了此樣版，現在就將它加入商品型錄中，才能檢視可製作的商品"  />
+			<text id="tut_preparesteps_copy" name="現在點選縫紉女工，吩咐她製作商品。"  />
+			<text id="tut_producefactory_copy" name="你可以用金紐扣讓商品馬上製作完成，再次點選縫紉女工"  />
+			<text id="tut_produce_copy" name="你現在可以開始製作商品"  />
+			<text id="tut_readyfactory_copy" name="為了讓顧客能夠購買你的商品，你必須將商品放置於貨架上。  點選一個已將商品製作完成的工人..."  />
+			<text id="tut_start_copy" name="歡迎光臨你的商店，{0}!\n這個簡短的導引能幫助你更快熟悉時尚產業。"  />
+			<text id="tut_title" name="導引!"  />
+		</tutorial>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="錯誤"  />
+				<text id="generic_alert_connection_failed_copy" name="遊戲沒有回應。請稍候再試!"  />
+				<text id="generic_alert_connection_failed_title" name="作業中!"  />
+				<text id="generic_alert_connection_lost_copy" name="伺服器連線中斷。請重新連線。"  />
+				<text id="generic_alert_connection_lost_description" name="為了確保良好的遊戲品質以及改善部分缺失，我們正在進行例行遊戲維修。&lt;br&gt;&lt;br&gt;我們將儘快完成維修，請玩家耐心等候。"  />
+				<text id="generic_alert_connection_lost_promo" name="在期間你可以試玩一些遊戲。"  />
+				<text id="generic_alert_connection_lost_thanks" name="感謝你們的體諒及配合!"  />
+				<text id="generic_alert_connection_lost_title" name="連線中斷!"  />
+				<text id="generic_alert_error" name="錯誤"  />
+				<text id="generic_alert_information" name="提示"  />
+				<text id="generic_alert_loggedout_copy" name="你已順利登出。別忘了，每天都有登入禮等著你來領取喔!"  />
+				<text id="generic_alert_loggedout_title" name="晚點見!"  />
+				<text id="generic_alert_warning" name="提醒"  />
+				<text id="generic_alert_watchout" name="注意!"  />
+				<text id="generic_invalid_email_provider" name="無法取得提供者的信箱!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="連線速度偏慢。請稍後再試!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="對此遊戲有更好的建議嗎? 請將你寶貴的意見留給優質遊戲團隊!"  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="注意: 欲儲存遊戲資料必須先完成註冊!"  />
+				<text id="generic_register_error_invalidemail" name="所輸入的電子信箱不正確。"  />
+				<text id="generic_report_muted_chattry" name="聊天功能暫時受到限制。"  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="接受"  />
+				<text id="generic_btn_cancel" name="取消"  />
+				<text id="generic_btn_close" name="關閉"  />
+				<text id="generic_btn_continue" name="繼續"  />
+				<text id="generic_btn_end" name="結束"  />
+				<text id="generic_btn_endnow" name="立即結束"  />
+				<text id="generic_btn_goback" name="返回"  />
+				<text id="generic_btn_no" name="否"  />
+				<text id="generic_btn_noshare" name="不行喔!"  />
+				<text id="generic_btn_notaccept" name="拒絕"  />
+				<text id="generic_btn_okay" name="可以"  />
+				<text id="generic_btn_reconnect" name="重新連線"  />
+				<text id="generic_btn_refresh" name="更新"  />
+				<text id="generic_btn_report" name="回報"  />
+				<text id="generic_btn_search" name="尋找"  />
+				<text id="generic_btn_share" name="通知好友!"  />
+				<text id="generic_btn_skip" name="略過"  />
+				<text id="generic_btn_start" name="進行"  />
+				<text id="generic_btn_topayment" name="交給我吧!"  />
+				<text id="generic_btn_yes" name="是"  />
+			</button>
+			<chat>
+				<text id="generic_chat_writeable" name="只有註冊等級達到1的玩家才可以使用聊天功能。"  />
+			</chat>
+			<common>
+				<text id="generic_admin" name="遊戲管理處"  />
+				<text id="generic_animation" name="顯示動畫"  />
+				<text id="generic_bugreport" name="錯誤回報"  />
+				<text id="generic_changePass" name="變更密碼"  />
+				<text id="generic_comma" name="."  />
+				<text id="generic_conningsoon" name="*即將推出*"  />
+				<text id="generic_date" name="日期"  />
+				<text id="generic_day" name="天"  />
+				<text id="generic_dayformat" name="{0}.{1}"  />
+				<text id="generic_days" name="天"  />
+				<text id="generic_day_short" name="天"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="電子郵件"  />
+				<text id="generic_faq" name="問與答"  />
+				<text id="generic_forum" name="論壇"  />
+				<text id="generic_friend" name="好友"  />
+				<text id="generic_friends" name="朋友"  />
+				<text id="generic_general" name="一般"  />
+				<text id="generic_ggs" name="優質遊戲製作團隊"  />
+				<text id="generic_group" name="小組"  />
+				<text id="generic_guest" name="來賓"  />
+				<text id="generic_help" name="求助"  />
+				<text id="generic_high" name="高"  />
+				<text id="generic_hour" name="小時"  />
+				<text id="generic_hours" name="小時"  />
+				<text id="generic_hour_short" name="小時"  />
+				<text id="generic_limited" name="受限制的"  />
+				<text id="generic_logout" name="登出"  />
+				<text id="generic_low" name="低"  />
+				<text id="generic_medium" name="中"  />
+				<text id="generic_minute" name="分鐘"  />
+				<text id="generic_minutes" name="分鐘"  />
+				<text id="generic_minute_short" name="分"  />
+				<text id="generic_moderator" name="製作人"  />
+				<text id="generic_music" name="開啟/關閉 音樂"  />
+				<text id="generic_name" name="姓名"  />
+				<text id="generic_news" name="新消息"  />
+				<text id="generic_options" name="設定"  />
+				<text id="generic_quality" name="品質"  />
+				<text id="generic_register" name="儲存並註冊"  />
+				<text id="generic_second" name="秒"  />
+				<text id="generic_seconds" name="秒"  />
+				<text id="generic_second_short" name="秒"  />
+				<text id="generic_sound" name="開啟/關閉 聲音"  />
+				<text id="generic_support" name="客服處"  />
+				<text id="generic_today" name="今天"  />
+				<text id="generic_tomorrow" name="明天"  />
+				<text id="generic_tutorial" name="指導"  />
+				<text id="generic_username" name="遊戲者名稱"  />
+				<text id="generic_xp" name="經驗值"  />
+				<text id="generic_yesterday" name="昨天"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="舊版本!"  />
+				<text id="generic_versioncheck_errorcode_1" name="請更新此網頁。"  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="你想要將 {0} 加為好友嗎?"  />
+				<text id="generic_friends_add_title" name="好友邀請通知"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="更多好友!"  />
+				<text id="generic_friends_denied_copy" name="{0} 拒絕你的邀請"  />
+				<text id="generic_friends_denied_title" name="拒絕此邀請"  />
+				<text id="generic_friends_invite_badword_copy" name="所輸入姓名不被允許!"  />
+				<text id="generic_friends_invite_badword_title" name="注意!"  />
+				<text id="generic_friends_invite_error_copy" name="只有已註冊的玩家才能邀請好友。"  />
+				<text id="generic_friends_invite_error_title" name="立即註冊"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="無法以全螢幕模式進行"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="捷克文"  />
+				<text id="generic_language_da" name="丹麥文"  />
+				<text id="generic_language_de" name="德文"  />
+				<text id="generic_language_el" name="希臘文"  />
+				<text id="generic_language_en" name="英文"  />
+				<text id="generic_language_es" name="西班牙文"  />
+				<text id="generic_language_fi" name="芬蘭文"  />
+				<text id="generic_language_fr" name="法文"  />
+				<text id="generic_language_hu" name="匈牙利文"  />
+				<text id="generic_language_id" name="印尼文"  />
+				<text id="generic_language_it" name="義大利文"  />
+				<text id="generic_language_ja" name="日文"  />
+				<text id="generic_language_ko" name="韓文"  />
+				<text id="generic_language_nl" name="荷蘭文"  />
+				<text id="generic_language_no" name="挪威文"  />
+				<text id="generic_language_pl" name="波蘭文"  />
+				<text id="generic_language_pt" name="葡萄牙文"  />
+				<text id="generic_language_pt_BR" name="巴西人"  />
+				<text id="generic_language_ru" name="俄文"  />
+				<text id="generic_language_sv" name="瑞典文"  />
+				<text id="generic_language_tr" name="土耳其文"  />
+				<text id="generic_language_zh_CN" name="中文 (簡體)"  />
+				<text id="generic_language_zh_TW" name="中文 (繁體)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="此帳號已被封鎖!
+請向服務人員諮詢。"  />
+				<text id="generic_login_banned_2" name="你的帳號被封鎖了!
+
+封鎖直到: {0}
+
+若有帳號封鎖等相關問題請諮詢客服人員。"  />
+				<text id="generic_login_banned_3" name="你的帳號被封鎖了!
+
+若有帳號封鎖等相關問題請諮詢客服人員。"  />
+				<text id="generic_login_banned_permanent" name="永久禁止"  />
+				<text id="generic_login_facebook" name="透過Facebook登錄"  />
+				<text id="generic_login_login" name="登入"  />
+				<text id="generic_login_loginname" name="帳號/ 電子郵件"  />
+				<text id="generic_login_lostpassword" name="忘記密碼"  />
+				<text id="generic_login_lostpassword_copy" name="請輸入電子郵件帳號，我們將會寄密碼給你。"  />
+				<text id="generic_login_lostpassword_title" name="忘記密碼"  />
+				<text id="generic_login_newplayer" name="還是新手嗎?"  />
+				<text id="generic_login_password" name="密碼"  />
+				<text id="generic_login_play" name="開始遊戲"  />
+				<text id="generic_login_playnow" name="馬上進行遊戲!"  />
+				<text id="generic_login_register" name="註冊"  />
+				<text id="generic_login_rememberpassword" name="忘記密碼"  />
+				<text id="generic_login_wronglogin" name="使用者名稱或密碼錯誤!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="先註冊才能進行遊戲存檔!"  />
+				<text id="generic_logout_guest_title" name="註冊"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="遊戲將在{0}內重新開始運作。"  />
+				<text id="servershutdownpremonition_copy" name="伺服器將於{0}關閉。為確保遊戲帳號資料的完整，請登出或是立即進行註冊。"  />
+				<text id="servershutdownpremonition_registered_copy" name="由於維修的關係，伺服器將於{0}內關閉。"  />
+				<text id="servershutdown_copy" name="遊戲伺服器正在關閉中。你可以於幾分鐘後再次登入。"  />
+				<text id="welcomeback_copy" name="歡迎回來!
+給你一塊小點心，讓你順利出發!"  />
+				<text id="welcomeback_title" name="歡迎回來!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="新密碼:"  />
+				<text id="generic_change_password_copy_oldpass" name="舊密碼:"  />
+				<text id="generic_change_password_copy_send" name="新密碼已寄至你的信箱。"  />
+				<text id="generic_change_password_error_failed" name="很抱歉，所輸入舊密碼不正確。"  />
+				<text id="generic_change_password_error_success" name="已成功變更密碼!"  />
+				<text id="generic_change_password_faild_copy" name="新密碼須大於2字元，所輸入之舊密碼必須正確!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="密碼欄位處不可空白或含有特殊字元。"  />
+				<text id="generic_change_password_faild_title" name="密碼輸入"  />
+				<text id="generic_change_password_title" name="密碼變更"  />
+				<text id="generic_guest_change_password_faild_copy" name="只有已註冊的玩家才能進行密碼變更!"  />
+				<text id="generic_guest_change_password_faild_title" name="立即註冊"  />
+			</password>
+			<payment>
+				<text id="generic_payment_48hdiscount_button" name="48小時內得到更多黃金"  />
+				<text id="generic_payment_48hdiscount_button_general" name="在48小時內購買即有更多的{0}"  />
+				<text id="generic_payment_48hdiscount_copy" name="只在註冊後48時內有效! - 購買精選黃金套裝即免費得到{0}%黃金!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="只在註冊後48時內有效! - 購買黃金套裝即免費得到{0}%黃金!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="只在註冊後48時內有效! - 購買{0}任一套裝即額外免費獲得{1}%獎勵!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="只在註冊後48時內有效! - 購買{0}精選套裝即額外免費獲得{1}%獎勵!"  />
+				<text id="generic_payment_copy" name="你將被轉至付費商店頁面。"  />
+				<text id="generic_payment_discount_button" name="現在就贏得額外{0}%的金塊吧!"  />
+				<text id="generic_payment_discount_copy" name="現在購買金塊就可多獲得{0}%紅利金喔!"  />
+				<text id="generic_payment_discount_copy_general" name="現在購買{0}即額外獲得{1}%獎勵!"  />
+				<text id="generic_payment_discount_general" name="立即取得{0}%更多{1}現金!"  />
+				<text id="generic_payment_discount_generalshort" name="額外再獲得{0}%的現金!"  />
+				<text id="generic_payment_discount_time" name="還剩 {0}!"  />
+				<text id="generic_payment_discount_title" name="用錢換取更多額外的金條!"  />
+				<text id="generic_payment_newPrices" name="要買要快! 商城裡的道具全面降價中! 省荷包的時候到了!"  />
+				<text id="generic_payment_title" name="付費商店"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="尋找網路捷徑"  />
+				<text id="loading_text_10" name="貢獻物品創造新世界"  />
+				<text id="loading_text_11" name="正在著手彩繪"  />
+				<text id="loading_text_12" name="正在進行鈕釦彩繪"  />
+				<text id="loading_text_13" name="將復活蛋藏起來"  />
+				<text id="loading_text_14" name="查詢帳號資訊"  />
+				<text id="loading_text_15" name="嚇人蟲蟲"  />
+				<text id="loading_text_16" name="提供資料給程式設計人員"  />
+				<text id="loading_text_17" name="正在和顧客玩一局"  />
+				<text id="loading_text_18" name="反轉沙漏"  />
+				<text id="loading_text_19" name="使系統暫時停止運作"  />
+				<text id="loading_text_2" name="正在幫齒輪上油"  />
+				<text id="loading_text_20" name="即將完成"  />
+				<text id="loading_text_3" name="轉動老鼠滾輪"  />
+				<text id="loading_text_4" name="重新連接伺服器"  />
+				<text id="loading_text_5" name="希望一切都能順利地進行"  />
+				<text id="loading_text_6" name="正在拿取殺蟲劑"  />
+				<text id="loading_text_7" name="正在計算並執行程式語言"  />
+				<text id="loading_text_8" name="資料數據處理中"  />
+				<text id="loading_text_9" name="手工藝品"  />
+				<text id="loading_text_default" name="初始化"  />
+				<text id="loading_text_itemXML" name="讀取遊戲資料"  />
+				<text id="progress_loadfiles" name="遊戲資料讀取中..."  />
+				<text id="progress_serverconnection" name="正在連結伺服器..."  />
+			</progressbar>
+			<register>
+				<text id="generic_register_agb_copy" name="未同意下列條款是無法是無法進行遊戲的。略讀並點選左方的按鈕即可開始遊戲。"  />
+				<text id="generic_register_agb_read" name="閱讀遊戲條款"  />
+				<text id="generic_register_alreadyavatar" name="此帳號已擁有一位角色了。"  />
+				<text id="generic_register_badword" name="請勿於名稱中使用{0}。"  />
+				<text id="generic_register_btn_agb" name="接受並同意遊戲條款"  />
+				<text id="generic_register_btn_later" name="稍後"  />
+				<text id="generic_register_btn_next" name="繼續"  />
+				<text id="generic_register_btn_save" name="儲存"  />
+				<text id="generic_register_character" name="創造你的角色"  />
+				<text id="generic_register_copy_0" name="立即免費註冊!"  />
+				<text id="generic_register_copy_1" name="儲存你的遊戲資料!"  />
+				<text id="generic_register_emaillong_copy" name="所輸入電子信箱字數過多。"  />
+				<text id="generic_register_emailwrong_copy" name="所輸入電子信箱不正確。"  />
+				<text id="generic_register_email_copy" name="電子郵件的欄位不可空白或
+含特殊字元。"  />
+				<text id="generic_register_error" name="註冊失敗"  />
+				<text id="generic_register_errormistake" name="錯誤"  />
+				<text id="generic_register_error_accountalreadyexists" name="很抱歉，此帳號已有人註冊。"  />
+				<text id="generic_register_forfree" name="免費註冊!"  />
+				<text id="generic_register_forfree1" name="免費!"  />
+				<text id="generic_register_letsgo" name="開始!"  />
+				<text id="generic_register_namealreadyused" name="已存在此名稱。"  />
+				<text id="generic_register_namenotvalid" name="所輸入名稱無效。"  />
+				<text id="generic_register_passwordshort_copy" name="所輸入密碼過短。請至少輸入4個位元。"  />
+				<text id="generic_register_passwordwrong_copy" name="輸入密碼有誤。"  />
+				<text id="generic_register_password_copy" name="密碼欄位處不可空白或含有特殊字元。"  />
+				<text id="generic_register_rememberdata" name="記住資料"  />
+				<text id="generic_register_reward" name="免費註冊並取得{0} {1}作為註冊禮!"  />
+				<text id="generic_register_subscribe" name="註冊"  />
+				<text id="generic_register_success" name="你已順利完成註冊。"  />
+				<text id="generic_register_title" name="註冊資料有誤"  />
+				<text id="generic_register_unlock" name="開啟此功能!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="請注意你的發言。不當的發言將造成禁言又或是暫時性封鎖帳號。
+原因: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="由於不當行為次數過多，接下來的 {0} 你將無法使用聊天功能。原因: {1}"  />
+				<text id="generic_report_muted_domain1" name="不能有網址出現於聊天內容!"  />
+				<text id="generic_report_muted_reported_copy" name="由於受到太多玩家檢舉，在接下來的 {0} 你將無法進行聊天功能。
+原因: {1}"  />
+				<text id="generic_report_player_copy" name="你確定要檢舉此玩家 {0}嗎?\n注意!
+隨意使用此功能有可能會封鎖帳號。"  />
+				<text id="generic_report_player_reason_0" name="羞辱"  />
+				<text id="generic_report_player_reason_1" name="性騷擾"  />
+				<text id="generic_report_player_reason_2" name="涉及種族的言論"  />
+				<text id="generic_report_player_reason_3" name="威脅"  />
+				<text id="generic_report_player_reason_title" name="回報原因:"  />
+				<text id="generic_report_player_title" name="檢舉玩家?"  />
+				<text id="generic_report_reported_copy" name="其他玩家已向遊戲管理者回報你的行為。 原因: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="連接:"  />
+				<text id="generic_select_world" name="選擇世界:"  />
+				<text id="generic_world" name="世界: {0}"  />
+				<text id="generic_world_international" name="國際的: {0}"  />
+			</worlds>
+		</generic_flash>
+	</fashion>
+ 

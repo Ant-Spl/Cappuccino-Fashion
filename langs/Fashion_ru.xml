@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FASHION - ru - 9 -->
+	<fashion>
+		<achievement>
+			<text id="Basic_Achievement_Boughtdeco" name="Люкс-Бутик"  />
+			<text id="Basic_Achievement_Boughtdeco_copy" name="Купленные декорации"  />
+			<text id="Basic_Achievement_Boughtpatterns" name="Широкий выбор"  />
+			<text id="Basic_Achievement_Boughtpatterns_copy" name="Купленные выкройки"  />
+			<text id="Basic_Achievement_Earnedchips" name="Лидер рынка"  />
+			<text id="Basic_Achievement_Earnedchips_copy" name="Заработанный Модный Доллар"  />
+			<text id="Basic_Achievement_FinishedCoops" name="Всё для всех"  />
+			<text id="Basic_Achievement_FinishedCoops_copy" name="Завершённые Co-Ops"  />
+			<text id="Basic_Achievement_FinishedGoldCoops" name="Золотой стилист"  />
+			<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Co-Ops завершённые с золотом"  />
+			<text id="Basic_Achievement_Mannequindesign" name="Шикарная ветрина"  />
+			<text id="Basic_Achievement_Mannequindesign_copy" name="Одетые манекены"  />
+			<text id="Basic_Achievement_Masteries" name="Прилежная швея"  />
+			<text id="Basic_Achievement_Masteriesgold" name="Золотая швея"  />
+			<text id="Basic_Achievement_Masteriesgold_copy" name="Собранные Золотые Ярлыки"  />
+			<text id="Basic_Achievement_Masteries_copy" name="Собранные Ярлыки"  />
+			<text id="Basic_Achievement_Producedaccessoires" name="Готовые аксессуары"  />
+			<text id="Basic_Achievement_Producedaccessoires_copy" name="Готовые аксессуары"  />
+			<text id="Basic_Achievement_Producedbags" name="Торговец сумками"  />
+			<text id="Basic_Achievement_Producedbags_copy" name="Готовые сумки"  />
+			<text id="Basic_Achievement_Producedbottoms" name="Брючный рекорд"  />
+			<text id="Basic_Achievement_Producedbottoms_copy" name="Готовые брюки и юбки"  />
+			<text id="Basic_Achievement_Producedclothes" name="Монополия одежды"  />
+			<text id="Basic_Achievement_Producedclothes_copy" name="Готовая одежда"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires" name="Стильный инвентарь"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="Готовые различные аксессуары"  />
+			<text id="Basic_Achievement_Produceddifferentclothes" name="Разнообразие одежды"  />
+			<text id="Basic_Achievement_Produceddifferentclothes_copy" name="Готовая различная одежда"  />
+			<text id="Basic_Achievement_Produceddifferentitems" name="Топ-стилист"  />
+			<text id="Basic_Achievement_Produceddifferentitems_copy" name="Готовые различные товары"  />
+			<text id="Basic_Achievement_Produceddifferentshoes" name="Oбувное помешательство"  />
+			<text id="Basic_Achievement_Produceddifferentshoes_copy" name="Готовая различная обувь"  />
+			<text id="Basic_Achievement_Producedfemaleonly" name="Только для женщин"  />
+			<text id="Basic_Achievement_Producedfemaleonly_copy" name="Готовые товары для женщин"  />
+			<text id="Basic_Achievement_Producedfullbody" name="Галстуки и воротники"  />
+			<text id="Basic_Achievement_Producedfullbody_copy" name="Готовые платья и костюмы"  />
+			<text id="Basic_Achievement_Producedhats" name="Шляпник"  />
+			<text id="Basic_Achievement_Producedhats_copy" name="Готовые шляпы"  />
+			<text id="Basic_Achievement_Producedjewlery" name="Шкатулка для драгоценностей"  />
+			<text id="Basic_Achievement_Producedjewlery_copy" name="Готовые украшения"  />
+			<text id="Basic_Achievement_Producedmaleonly" name="Только для мужчин"  />
+			<text id="Basic_Achievement_Producedmaleonly_copy" name="Готовые товары для мужчин"  />
+			<text id="Basic_Achievement_Producedshoes" name="Обувной магнат"  />
+			<text id="Basic_Achievement_Producedshoes_copy" name="Готовая обувь"  />
+			<text id="Basic_Achievement_Producedtops" name="Топы везде"  />
+			<text id="Basic_Achievement_Producedtops_copy" name="Готовые топы"  />
+			<text id="Basic_Achievement_Soldduringsale" name="Охотник за скидками"  />
+			<text id="Basic_Achievement_Soldduringsale_copy" name="Товары проданные во время распродажи."  />
+			<text id="Basic_Achievement_Soldproducts" name="Проданный товар"  />
+			<text id="Basic_Achievement_Soldproducts_copy" name="Проданные товары"  />
+			<text id="Basic_Achievement_Spentchips" name="Щедрый продавец"  />
+			<text id="Basic_Achievement_Spentchips_copy" name="Потраченные Модные Доллары"  />
+			<text id="Basic_Achievement_Spentgold" name="Золотой магазин"  />
+			<text id="Basic_Achievement_Spentgold_copy" name="Потраченные Золотые Пуговицы"  />
+			<text id="Basic_Achievement_Stolenproducts" name="Приют для воров"  />
+			<text id="Basic_Achievement_Stolenproducts_copy" name="Украденные товары"  />
+			<text id="Basic_Achievement_Wheeloffortune" name="Вращающаяся иголка"  />
+			<text id="Basic_Achievement_Wheeloffortune_copy" name="Всего выигрышей на Колесе Фортуны"  />
+			<text id="Social_Achievement_Friendscout" name="Успешный Покупатель"  />
+			<text id="Social_Achievement_Friendscout_copy" name="Друзья в сети"  />
+		</achievement>
+		<alerts>
+			<text id="alerts_avatarcustomize_goldrequest" name="Хочешь {0} {1} переодеться?"  />
+			<text id="alerts_avatarcustom_workingplayer_copy" name="Ты производишь в данный момент ещё одно действие, поэтому ты не можешь переодеться!"  />
+			<text id="alerts_avatarcustom_workingplayer_title" name="Минуточку!"  />
+			<text id="alerts_booster_info_copy" name="Сторож препятствует краже товара.
+Ты можешь взять его на 5 дней на работу и продлить это время дополнительно."  />
+			<text id="alerts_booster_info_copy_1" name="Имея {0} новых друзей защита продлевается на {1}."  />
+			<text id="alerts_booster_info_title" name="Охранник"  />
+			<text id="alerts_buytiles_copy" name="Хочешь купить {0} плитку за {1} ?"  />
+			<text id="alerts_buytiles_title" name="Купить плитку?"  />
+			<text id="alerts_customcloth_noshape_copy" name="Сначала выбери модель, чтобы разместить набивку!"  />
+			<text id="alerts_decoshop_dragtipp_copy" name="Потяни предмет в свой магазин, чтобы его использовать."  />
+			<text id="alerts_decoshop_dragtipp_title" name="Обставить!"  />
+			<text id="alerts_decoshop_next_Cashdesk_bylevel" name="С Уровня {0} ты можешь купить следующую кассу. Или потяни старую кассу из магазина сюда, чтобы использовать другую."  />
+			<text id="alerts_decoshop_next_Changingroom_bylevel" name="С Уровня {0} ты можешь купить следующую примерочную. Или потяни старую примерочную из магазина сюда, чтобы использовать другую."  />
+			<text id="alerts_decoshop_next_Counter_bylevel" name="С Уровня {0} ты можешь купить следующую полку. Или потяни старую полку из магазина сюда, чтобы купить другую."  />
+			<text id="alerts_decoshop_next_Factory_bylevel" name="С Уровня {0} ты можешь взять на работу следующего работника. Или потяни старого работника из магазина сюда, чтобы взять другого."  />
+			<text id="alerts_decoshop_next_Mannequin_bylevel" name="С Уровня {0} ты можешь купить следующий манекен. Или потяни сюда стаый манекен из магазина, чтобы купить другой."  />
+			<text id="alerts_decoshop_nomoreCashdesk" name="Ты пока не можешь купить ещё одну кассу!"  />
+			<text id="alerts_decoshop_nomoreChangingroom" name="Ты ещё не можешь купить дополнительную примерочную."  />
+			<text id="alerts_decoshop_nomoreCounter" name="Ты пока не можешь купить ещё одну полку!"  />
+			<text id="alerts_decoshop_nomoreExpansion" name="В твоём распоряженииещё нет дополнительного расширения."  />
+			<text id="alerts_decoshop_nomoreFactory" name="Ты пока не можешь нанять дополнительных работников!"  />
+			<text id="alerts_decoshop_nomoreMannequin" name="Ты пока не можешь купить ещё один манекен!"  />
+			<text id="alerts_decoshop_sellitem_copy" name="Ты действительно хочешь продать этот обьект за {0} за штуку ?"  />
+			<text id="alerts_decoshop_sellitem_title" name="Продать товар"  />
+			<text id="alerts_decoshop_storeFactory_copy" name="Ты не можешь удалить недовольного работника из магазина. Заплати бонус-зарплату или продай его/её."  />
+			<text id="alerts_decoshop_storeMannequin_copy" name="Пока манекен одет ты не можешь поместить его на склад."  />
+			<text id="alerts_decoshop_store_title" name="складировать"  />
+			<text id="alerts_decoshop_workingplayer_copy" name="Доделай начатое, прежде чем перестраивать магазин!"  />
+			<text id="alerts_decoshop_workingplayer_title" name="Занят!"  />
+			<text id="alerts_fashionbook_notarget_copy" name="Выбери работника, чтобы изготовить товар."  />
+			<text id="alerts_fashionbook_notarget_copy_1" name="Работник уже изготавливает товар.
+Выбери другого!"  />
+			<text id="alerts_fashionbook_notarget_title" name="Какой работник?"  />
+			<text id="alerts_fashionbook_notequaltype_copy" name="Этот работник может изготавливать только определённые товары.
+Выбери себе что-нибудь из {0}-колекции."  />
+			<text id="alerts_fashionbook_notequaltype_title" name="Другой товар"  />
+			<text id="alerts_fashionbook_usebooster_title" name="Применить бустер?"  />
+			<text id="alerts_friend_ask" name="Хочешь {0} добавить в друзья?"  />
+			<text id="alerts_friend_denied" name="{0} , к сожалению, не принял твоё предложение."  />
+			<text id="alerts_friend_title" name="Дружба"  />
+			<text id="alerts_gift_workingplayer_copy" name="Прежде чем разместить подарки, положи сначала готовое изделие его на полку."  />
+			<text id="alerts_gift_workingplayer_title" name="Только выложить!"  />
+			<text id="alerts_instantworking_goldrequest" name="Хочешь сразу изготовить?
+Можно ещё {0} раз!"  />
+			<text id="alerts_invitefriend_copy" name="Твоё приглашение было выслано {0}!"  />
+			<text id="alerts_invitefriend_title" name="Новые друзья!"  />
+			<text id="alerts_isoworld_counter_outofreach_copy" name="Эта полка недоступна. Переставь что-нибудь!"  />
+			<text id="alerts_isoworld_counter_outofreach_title" name="Не доступно!"  />
+			<text id="alerts_isoworld_factory_outofreach_copy" name="Работник недоступен. Переставь что-нибудь!"  />
+			<text id="alerts_isoworld_factory_outofreach_title" name="Не доступно!"  />
+			<text id="alerts_isoworld_mannequin_instant" name="Хочешь переодеть манекена?"  />
+			<text id="alerts_isoworld_marketplace_title" name="Доска объявлений"  />
+			<text id="alerts_kickedbyplayer_copy" name="Хозяин закрыл этот магазин."  />
+			<text id="alerts_kickedbyplayer_title" name="Ты должен идти!"  />
+			<text id="alerts_kickjobber_copy" name="Ты не можешь быть в модусе &quot;Перестроить&quot;, пока другие игроки работают в твоём магазине."  />
+			<text id="alerts_kickjobber_title" name="Работник в магазине"  />
+			<text id="alerts_kickplayer_copy" name="В твоём магазине находятся другие игроки. Чтобы начать перестраивать тебе придётся их выкинуть."  />
+			<text id="alerts_kickplayer_title" name="Выкинуть игрока"  />
+			<text id="alerts_lostpassword_copy" name="Задай свой электронный адрес и мы вышлем тебе новый пароль."  />
+			<text id="alerts_lostpassword_title" name="Забыл пароль?"  />
+			<text id="alerts_mannequindesign_nocloth_copy" name="Нет подходящего товара на полке, чтобы переодеть манекена."  />
+			<text id="alerts_mannequindesign_nocloth_title" name="Нет товара!"  />
+			<text id="alerts_marketplace_playerleaved_copy" name="Игрок покинул аркады."  />
+			<text id="alerts_marketplace_playerleaved_title" name="Слишком поздно!"  />
+			<text id="alerts_placetiles_copy" name="1. Выбери одну плитку
+2. Нажав на клавишу мышки, вабери желаемое место в магазине.
+3.Отпусти"  />
+			<text id="alerts_placetiles_title" name="Положить плитку?"  />
+			<text id="alerts_register_copy_addgold" name="Зарегистрируйся, чтобы сделать покупки!"  />
+			<text id="alerts_register_copy_advertisement" name="Зарегистрируйся, чтобы сделать рекламу своего магазина."  />
+			<text id="alerts_register_copy_changeavatar" name="Зарегистрируйся, чтобы переодеться."  />
+			<text id="alerts_register_copy_changepassword" name="Ты можешь изменить свой пароль только зарегистрировавшись в игре."  />
+			<text id="alerts_register_copy_coop" name="Зарегистрируйся, чтобы принять участие в Co-Op!"  />
+			<text id="alerts_register_copy_gifts" name="Зарегистрируйся, чтобы дарить подарки."  />
+			<text id="alerts_register_copy_invitefriend" name="Ты должен зарегистрироваться, чтобы пригласить друзей."  />
+			<text id="alerts_register_copy_logout" name="Зарегистрируйся, чтобы сохранить достигнутый счёт игры!"  />
+			<text id="alerts_register_title" name="Регистрация"  />
+			<text id="alerts_servermsg_10" name="Сервер будет перезагружен.
+Скоро ты сможешь продолжить. Выйди, пожалуйста, из игры."  />
+			<text id="alerts_servermsg_title" name="Сообщение с сервера!"  />
+			<text id="alerts_staff_fire_copy" name="Ты дейсвительно хочешь уволить своего кассира?
+При недостатке кассиров, покупатели будут вынуждены долго ждать и остануться недовольны."  />
+			<text id="alerts_staff_fire_title" name="Уволить кассира?"  />
+			<text id="alerts_staff_hire_copy" name="Хочешь нанять нового кассира?"  />
+			<text id="alerts_staff_hire_title" name="Новый кассир"  />
+			<text id="alerts_versioncheck_copy" name="Пожалуйста, обнови страницу чтобы загрузить новейшую версию."  />
+			<text id="alerts_versioncheck_title" name="Старая версия!"  />
+		</alerts>
+		<cloth>
+			<text id="cloth_blackbowlermale" name="Цилиндр"  />
+			<text id="cloth_blackdressfemale" name="Маленькое чёрное платье"  />
+			<text id="cloth_blackhandbagfemale" name="Чёрная сумка"  />
+			<text id="cloth_blackheelsfemale" name="Чёрные лаковые туфли"  />
+			<text id="cloth_blackjacketmale" name="Простая кожанная куртка"  />
+			<text id="cloth_blackpant2male" name="GeeCee джинсы"  />
+			<text id="cloth_blackpantfemale" name="Чёрные джинсы &quot;Дудочки&quot;"  />
+			<text id="cloth_blackpantmale" name="Чёрные брюки"  />
+			<text id="cloth_blacksuitmale" name="Костюм в тонкую полоску"  />
+			<text id="cloth_blackwatchmale" name="Чёрные часы"  />
+			<text id="cloth_bluebaggypantsfemale" name="JayJay Baggy-джинсы"  />
+			<text id="cloth_blueblousefemale" name="Голубая блузка"  />
+			<text id="cloth_bluecapfemale" name="Голубая кепка"  />
+			<text id="cloth_bluecapmale" name="Голубая бейсболка"  />
+			<text id="cloth_blueheadphones" name="JayJay наушники"  />
+			<text id="cloth_bluenecklacefemale" name="Голубое жемчужное ожерелье"  />
+			<text id="cloth_bluepolomale" name="Голубая футболка-поло"  />
+			<text id="cloth_blueshirtmale" name="Голубая футболка"  />
+			<text id="cloth_bluesweatermale" name="JayJay джемпер"  />
+			<text id="cloth_bootsfemale" name="GeeCee ботинки"  />
+			<text id="cloth_brownknitcapfemale" name="Коричневая шапка"  />
+			<text id="cloth_brownknitcapmale" name="Коричневая шапка"  />
+			<text id="cloth_cardiganfemale" name="GeeCee кардиган"  />
+			<text id="cloth_cardiganmale" name="GeeCee кардиган для юношей"  />
+			<text id="cloth_charlestonhatfemale" name="Чарльстон шляпа"  />
+			<text id="cloth_checkshirtfemale" name="JayJay рубашка в клетку"  />
+			<text id="cloth_checkshirtmale" name="JayJay рубашкa в клетку"  />
+			<text id="cloth_customcloth" name="Выбери свой стиль!"  />
+			<text id="cloth_darkbluejeansfemale" name="Синие джинсы"  />
+			<text id="cloth_darkbluejeansmale" name="Синие джинсы"  />
+			<text id="cloth_dressfemale" name="GeeCee платьице"  />
+			<text id="cloth_flowerskirtfemale" name="GeeDee юбка в цветочек"  />
+			<text id="cloth_ggsshirtmale" name="GeeCee футболка"  />
+			<text id="cloth_goldnecklacefemale" name="Золотое колье"  />
+			<text id="cloth_greendressfemale" name="GeeDee платьице"  />
+			<text id="cloth_greenjacketfemale" name="JayJay ветровка"  />
+			<text id="cloth_greenjacketmale" name="JayJay ветровка"  />
+			<text id="cloth_greenpulloverfemale" name="Зелёная водолазка"  />
+			<text id="cloth_greenshirtmale" name="GeeDee рубашка"  />
+			<text id="cloth_greysuitmale" name="Серый костюм"  />
+			<text id="cloth_lightbluejeansfemale" name="Голубые джинсы"  />
+			<text id="cloth_lightbluejeansmale" name="Голубые джинсы"  />
+			<text id="cloth_manblackmale" name="Чёрные лаковые ботинки"  />
+			<text id="cloth_manbrownmale" name="Коричневые кожаные туфли"  />
+			<text id="cloth_orangeknitcapfemale" name="Оранжевая шапка"  />
+			<text id="cloth_orangeknitcapmale" name="Оранжевая шапка"  />
+			<text id="cloth_perlnecklacefemale" name="Жемчужное ожерелье"  />
+			<text id="cloth_pinkhangbagfemale" name="Стёганая сумка"  />
+			<text id="cloth_pinkshirtfemale" name="Розовая футболка-поло"  />
+			<text id="cloth_premiumbluejacketmale" name="Весенняя куртка"  />
+			<text id="cloth_premiumgreenjacketfemale" name="Весеннее пальто"  />
+			<text id="cloth_premiumjumpsuitfemale" name="GeeDee комбинезон"  />
+			<text id="cloth_premiumshortsmale" name="GeeDee шорты"  />
+			<text id="cloth_purplehandbagfemale" name="GeeCee большая сумка"  />
+			<text id="cloth_purplepulloverfemale" name="Сиреневая водолозка"  />
+			<text id="cloth_purpletshirtfemale" name="JayJay футболка"  />
+			<text id="cloth_redcapfemale" name="Красная кепка"  />
+			<text id="cloth_redcapmale" name="Красная кепка"  />
+			<text id="cloth_reddressfemale" name="Открытое вечернее платье"  />
+			<text id="cloth_redheelsfemale" name="Красные лаковые туфли"  />
+			<text id="cloth_redskirtfemale" name="Красная юбка с бантиком"  />
+			<text id="cloth_redsneakermale" name="JayJay красные кеды"  />
+			<text id="cloth_redtopfemale" name="Красный блестящий топ"  />
+			<text id="cloth_scraffemale" name="GeeCee шаль в горошек"  />
+			<text id="cloth_scrafmale" name="GeeCee шаль в клетку"  />
+			<text id="cloth_silvernecklacefemale" name="Серебряная цепочка"  />
+			<text id="cloth_silverwatchmale" name="Серебряные часы"  />
+			<text id="cloth_sneakersfemale" name="Белые кеды"  />
+			<text id="cloth_sneakersgreenmale" name="GeeCee зелёные кеды"  />
+			<text id="cloth_sneakersmale" name="Белые кеды"  />
+			<text id="cloth_strawberrysneakerfemale" name="JayJay клубничные туфли"  />
+			<text id="cloth_stripedshirtmale" name="GeeDee полосатая рубашка"  />
+			<text id="cloth_stripedtopfemale" name="GeeDee летний топ"  />
+			<text id="cloth_stripedtshirtmale" name="JayJay футболка в полоску"  />
+			<text id="cloth_sweathoodiemale" name="GeeDee худи"  />
+			<text id="cloth_trenchcoatmale" name="Чёрный тренч"  />
+			<text id="cloth_whiteshirtmale" name="Белая рубашка"  />
+			<text id="cloth_whiteskirtfemale" name="Белая миниюбка"  />
+			<text id="cloth_yellowdressfemale" name="Золотое коктейльное платье"  />
+		</cloth>
+		<commons>
+			<text id="achievement_rang" name="Ранг {0}/{1}"  />
+			<text id="comingsoon" name="*Скоро появится*"  />
+			<text id="currency_cash" name="Модный Доллар"  />
+			<text id="currency_gold" name="Золотые пуговицы"  />
+			<text id="currency_gold_single" name="Золотая пуговица"  />
+			<text id="factorytyp_accessories" name="Аксессуары"  />
+			<text id="factorytyp_clothes" name="Одежды"  />
+			<text id="factorytyp_shoes" name="Обувь"  />
+			<text id="friendscount" name="Друзья {0}"  />
+			<text id="levelcount" name="Уровень {0}"  />
+			<text id="levellabel" name="Уровень1"  />
+			<text id="mastery" name="Уровень-Ярлыков"  />
+			<text id="new" name="Новый!"  />
+			<text id="xplabel" name="XP"  />
+		</commons>
+		<coopmission>
+			<text id="coop_desc_1" name="Парочка красивых вещей для пикника!"  />
+			<text id="coop_desc_10" name="Вечерние платья и костюмы для наших дебютантов!"  />
+			<text id="coop_desc_11" name="Классика для мужчин!"  />
+			<text id="coop_desc_2" name="Подxoдящий прикид для спортпохода!"  />
+			<text id="coop_desc_3" name="Музыка и народ ночь напролёт!"  />
+			<text id="coop_desc_4" name="Идеальные подарки на любой вкус!"  />
+			<text id="coop_desc_5" name="Что может быть лучше отлично сидящего костюма!"  />
+			<text id="coop_desc_6" name="Куда ни глянь, везде обувь!"  />
+			<text id="coop_desc_7" name="Юбки, топы, и обувь.... всё красное!"  />
+			<text id="coop_desc_8" name="Платья, платья, плятья для наших девушек!"  />
+			<text id="coop_desc_9" name="Самое то для танцевальных курсов!"  />
+			<text id="coop_title_1" name="На пикник!"  />
+			<text id="coop_title_10" name="Бал Дебютантов!"  />
+			<text id="coop_title_11" name="Чёрный и есть чёрный!"  />
+			<text id="coop_title_2" name="Физкультпривет!"  />
+			<text id="coop_title_3" name="Билеты на концерт распроданы!"  />
+			<text id="coop_title_4" name="Красивые подарки!"  />
+			<text id="coop_title_5" name="Всё для мужчины!"  />
+			<text id="coop_title_6" name="Обуви навалом!"  />
+			<text id="coop_title_7" name="ПреКрасная мечта!"  />
+			<text id="coop_title_8" name="Только для девушек!"  />
+			<text id="coop_title_9" name="Танцевальный курс!"  />
+		</coopmission>
+		<coop_msg>
+			<text id="coop_msg_0" name="{0} начал Co-Op."  />
+			<text id="coop_msg_1" name="{0} присоединился к этому Co-Op."  />
+			<text id="coop_msg_2" name="{0} покинул Co-Op."  />
+			<text id="coop_msg_3" name="{0} хочет {1} {2} раза изготовить."  />
+			<text id="coop_msg_4" name="{0} изготовил/а {1}."  />
+			<text id="coop_msg_5" name="{0} продлил Co-Op."  />
+		</coop_msg>
+		<dialogs>
+			<text id="dialogs_achievement_title" name="Награды"  />
+			<text id="dialogs_advertisementfinal_copy" name="Твоя рекламная акция завершена! Посмотри внизу результат твоей акции!
+Что же принесёт тебе следующая?"  />
+			<text id="dialogs_advertisementfinal_title" name="Поздравлям!"  />
+			<text id="dialogs_advertisementrunning_copy" name="Сейчас идёт рекламная акция. Как она проходит, смотри здесь."  />
+			<text id="dialogs_advertisementrunning_time" name="Остаток время:"  />
+			<text id="dialogs_advertisementrunning_title" name="Идёт реклама!"  />
+			<text id="dialogs_advertisement_btn_start" name="Начать"  />
+			<text id="dialogs_advertisement_flyer_copy" name="Повысь свою популярность!"  />
+			<text id="dialogs_advertisement_flyer_reward" name="{0} очки"  />
+			<text id="dialogs_advertisement_flyer_title" name="Акция флаера"  />
+			<text id="dialogs_advertisement_magazine_copy" name="Каждый посетитель покупает вдвое больше!"  />
+			<text id="dialogs_advertisement_magazine_reward" name="x {0}"  />
+			<text id="dialogs_advertisement_magazine_title" name="Журнальное объявление"  />
+			<text id="dialogs_advertisement_title" name="Реклама"  />
+			<text id="dialogs_advertisement_tv_copy" name="Каждый посетитель, который сделает у тебя покупку принесёт тебе ХР!"  />
+			<text id="dialogs_advertisement_tv_title" name="ТВ реклама"  />
+			<text id="dialogs_avatarselection_copy" name="Это имя уже занято. Как насчёт:"  />
+			<text id="dialogs_avatarselection_title" name="Оп!"  />
+			<text id="dialogs_avatar_female" name="Девочка"  />
+			<text id="dialogs_avatar_male" name="Парень"  />
+			<text id="dialogs_avatar_name" name="Имя:"  />
+			<text id="dialogs_avatar_randombtn" name="Случайный комплект одежды"  />
+			<text id="dialogs_avatar_title" name="Создай образ своего игрока"  />
+			<text id="dialogs_bonus_cashdesk_copy" name="Сейчас ты можешь добавить ещё одну кассу и одного кассира в свой магазин."  />
+			<text id="dialogs_bonus_cashdesk_title" name="Новая касса"  />
+			<text id="dialogs_bonus_changingroom_copy" name="Дополнительная примерочная теперь доступна."  />
+			<text id="dialogs_bonus_changingroom_title" name="Новая примерочная"  />
+			<text id="dialogs_bonus_counter_copy" name="Ты можешь купить себе дополнительную полку!"  />
+			<text id="dialogs_bonus_counter_title" name="Новая полка"  />
+			<text id="dialogs_bonus_expand_copy" name="Ты расширил/а свой магазин и теперь у тебя больше места для твоих покупатекей, декораций и многого другого!"  />
+			<text id="dialogs_bonus_expand_title" name="Расширение!"  />
+			<text id="dialogs_bonus_factory_copy" name="Ты можешь поместить дополнительного работника в свой магазин, чтобы изготовить больше товаров."  />
+			<text id="dialogs_bonus_factory_title" name="Новый работник"  />
+			<text id="dialogs_bonus_level2_copy" name="Уже видел? Ты можешь также расширять свой магазин, чтобы появилось больше места для посетителей и для товаров!"  />
+			<text id="dialogs_bonus_level5_copy" name="Уже видел? Ты можешь рекламировать, чтобы сделать свой магазин еще более популярным, продавать больше товаров или заработать дополнительные XP."  />
+			<text id="dialogs_bonus_levelUp_copy" name="Поздравляем с достижением нового уровня."  />
+			<text id="dialogs_bonus_levelUp_title" name="Следующий Уровень!"  />
+			<text id="dialogs_bonus_level_title" name="Внимание!"  />
+			<text id="dialogs_bonus_login_copy" name="Вот, что произошло в магазине в твоё отсутствие:"  />
+			<text id="dialogs_bonus_login_copy2" name="ЛОГИН БОНУС"  />
+			<text id="dialogs_bonus_login_title" name="Снова здесь!"  />
+			<text id="dialogs_bonus_pattern_copy" name="Теперь тебе доступны новые выкройки!"  />
+			<text id="dialogs_bonus_pattern_title" name="Новые выкройки"  />
+			<text id="dialogs_booster_btnbuypolice" name="Настроить/Продлить"  />
+			<text id="dialogs_booster_policeman_notime" name="не действующий"  />
+			<text id="dialogs_booster_title" name="Бустер"  />
+			<text id="dialogs_changepassword_newpassword" name="Новый пароль:"  />
+			<text id="dialogs_changepassword_oldpassword" name="Старый пароль:"  />
+			<text id="dialogs_changepassword_title" name="Изменить пароль"  />
+			<text id="dialogs_coopreward_finish_0" name="Золото"  />
+			<text id="dialogs_coopreward_finish_1" name="Серебро"  />
+			<text id="dialogs_coopreward_finish_2" name="Бронза"  />
+			<text id="dialogs_coopreward_title_fail" name="Незавершённые Co-Op!"  />
+			<text id="dialogs_coopreward_title_success" name="Co-Op, завершённые с {0}"  />
+			<text id="dialogs_coopshelp_copy" name="Здесь ты можешь выполнять задания со своими друзьями и таким образом заработать XP и игровые Модные Доллары.
+Чем быстрее будет выполнено задание, тем выше будет награда!
+
+Если времени будет не хватать ты можешь его продлить!
+
+Но не забудь, что награду ты получишь толко в том случае, если ты этому поспособствуешь!"  />
+			<text id="dialogs_coopshelp_title" name="Что такое Co-Ops?"  />
+			<text id="dialogs_coop_btn_action" name="Детали"  />
+			<text id="dialogs_coop_btn_activecoops" name="Действующий"  />
+			<text id="dialogs_coop_btn_join" name="участвовать"  />
+			<text id="dialogs_coop_btn_newcoop" name="Начни Co-Op"  />
+			<text id="dialogs_coop_btn_progress" name="Прогресс"  />
+			<text id="dialogs_coop_btn_protocol" name="Протокол"  />
+			<text id="dialogs_coop_btn_quit" name="Покинуть"  />
+			<text id="dialogs_coop_extendtime_copy" name="Хочешь за {0} Золотые Пуговицы продлить свой Co-Op?
+Золотое: {1}
+Серебрянное: {2}
+Бронзовое : {3}"  />
+			<text id="dialogs_coop_extendtime_title" name="Больше времени?"  />
+			<text id="dialogs_coop_maxuser" name="Максимальное кол-во участников: {0}"  />
+			<text id="dialogs_coop_member" name="Участники Co-Op:"  />
+			<text id="dialogs_coop_minlevel" name="Минимальный уровень для участия: {0}"  />
+			<text id="dialogs_coop_minlevel_short" name="мин. Уровень: {0}"  />
+			<text id="dialogs_coop_produce_copy" name="Как часто ты хочешь  {0} для этого Co-Op изготовить?"  />
+			<text id="dialogs_coop_produce_title" name="Изготавливать для Co-Op?"  />
+			<text id="dialogs_coop_quit_copy" name="Ты действительно хочешь покинуть этот Co-Op?"  />
+			<text id="dialogs_coop_subtitle" name="Вы должны произвести это:"  />
+			<text id="dialogs_coop_timeInfo" name="Справилась/ся за:"  />
+			<text id="dialogs_coop_timeleft" name="остаток времени:"  />
+			<text id="dialogs_coop_txt_noactive" name="На данный момент нет текущего Co-Op.Просто начни новый."  />
+			<text id="dialogs_coop_txt_title" name="Co-Op"  />
+			<text id="dialogs_counterclick_btndonate" name="Пожертвовать"  />
+			<text id="dialogs_counterclick_copy" name="На этой полке находятся следующие товары."  />
+			<text id="dialogs_counterclick_title" name="Покла"  />
+			<text id="dialogs_customclothbuy_copy" name="Хочешь {0} за {1} Золотые Пуговицы постоянно откладывать в каталог?"  />
+			<text id="dialogs_customclothbuy_title" name="Купить выкройку!"  />
+			<text id="dialogs_customclothhelp_copy" name="Здесь ты можешь сам сделать индивидуальный дизайн одежды и изготовить её!
+Для этого выбери форму и цвет!
+От формы зависит время изготовления и твой заработок.
+Созданная тобой выкройка находится 24 часа в твоём распоряжении.
+Если ты хочешь сохранить выкройку, то помести её в свой каталог."  />
+			<text id="dialogs_customclothinfo_title" name="Твой собственный стиль!"  />
+			<text id="dialogs_customcloth_btn_choose" name="Выбирать"  />
+			<text id="dialogs_customcloth_entername" name="Дай мне имя!"  />
+			<text id="dialogs_customcloth_icon" name="Набивка"  />
+			<text id="dialogs_customcloth_shape" name="Форма"  />
+			<text id="dialogs_customcloth_title" name="Твой дизайн определяет стиль!"  />
+			<text id="dialogs_decoshophelp_copy" name="Если ты свою мебель или декорации потянешь в этот список, а не в кассу, тогда они попадут на склад.
+Если ты снова потянешь их в свой магазин, за это не надо будет платить.
+Количество каждого предмета ты увидишь возле пустой коробки."  />
+			<text id="dialogs_decoshophelp_copy_1" name="Мебель и декорации имеют степень роскоши,в сумме они определяют степень роскоши твоего Кафе! Насколько роскошно твоё Кафе?"  />
+			<text id="dialogs_decoshophelp_title" name="Складировать полки/декорации?"  />
+			<text id="dialogs_decoshophelp_title_1" name="Степень роскоши?"  />
+			<text id="dialogs_factoryclick_btn_cancel" name="прервать производство"  />
+			<text id="dialogs_factoryclick_copy" name="Ты хочешь
+&#039;Сразу изготавливать&#039;?
+Ты можешь это сегодня сделать ещё {0} раз/а."  />
+			<text id="dialogs_factoryclick_title" name="Процесс производства!"  />
+			<text id="dialogs_fashionbook_durationtime" name="Время: {0}"  />
+			<text id="dialogs_fashionbook_emptypattern" name="В твоём распоряжении ещё нет дополнительной выкройки."  />
+			<text id="dialogs_fashionbook_emptypatterncustomcloth" name="Здесь ты можешь выложить свои выкройки!"  />
+			<text id="dialogs_fashionbook_emptyproducts" name="Тебе нужны выкройки, чтобы начать производство.
+
+Купе несколько через каталог."  />
+			<text id="dialogs_fashionbook_pieces" name="Количество:"  />
+			<text id="dialogs_fashionbook_productionPrice" name="{0} стоимость продукции"  />
+			<text id="dialogs_fashionbook_saleprice" name="/Штук:"  />
+			<text id="dialogs_featureUnlocked_advertisement" name="Оживи свой магазин рекламой!"  />
+			<text id="dialogs_featureUnlocked_arcades" name="Найди новых друзей в Аркадах!"  />
+			<text id="dialogs_featureUnlocked_coop" name="Начни Co-Op вместе со своими друзьями!"  />
+			<text id="dialogs_featureUnlocked_custompattern" name="Создайте сейчас свою собственную выкройку!"  />
+			<text id="dialogs_featureUnlocked_decoration" name="Теперь тебе доступны  новые декорации!"  />
+			<text id="dialogs_featureUnlocked_policeman" name="Внимание! С этого момента товары могут быть украдены! Лучше наймите полицейского!"  />
+			<text id="dialogs_featureUnlocked_ranking" name="Посети других игроков через Рейтинг!"  />
+			<text id="dialogs_featureUnlocked_wheeloffortune" name="Испытай удачу на Колесе Фортуны и выиграй замечательные призы!"  />
+			<text id="dialogs_giftbox_btnclose" name="Закрыть"  />
+			<text id="dialogs_giftbox_btnsend" name="подарить"  />
+			<text id="dialogs_giftbox_empty_friends" name="Ты можешь ежедневно каждому другу дарить подарок."  />
+			<text id="dialogs_giftbox_empty_mygifts" name="Твоя подарочная коробка пуста.
+ Пошли своим друзьям подарки, может быть получишь что-то в ответ."  />
+			<text id="dialogs_giftbox_empty_sendablegifts" name="Сегодня подарков нет."  />
+			<text id="dialogs_giftbox_friendstitle" name="Разослать друзьям"  />
+			<text id="dialogs_giftbox_mygiftstitle" name="Мои подарки"  />
+			<text id="dialogs_giftbox_sendablegiftstitle" name="Разослать подарки"  />
+			<text id="dialogs_highscore_name" name="Имя"  />
+			<text id="dialogs_highscore_rank" name="Ранг"  />
+			<text id="dialogs_highscore_search" name="искать имя/рейтинг"  />
+			<text id="dialogs_highscore_title" name="Рейтинг"  />
+			<text id="dialogs_info_goldsmith_copy" name="Ювелир производит только аксессуары."  />
+			<text id="dialogs_info_goldsmith_title" name="Ювелир"  />
+			<text id="dialogs_info_sewer_copy" name="Швея производит только одежду."  />
+			<text id="dialogs_info_sewer_title" name="Швея"  />
+			<text id="dialogs_info_shoemaker_copy" name="Сапожник производит только обувь"  />
+			<text id="dialogs_info_shoemaker_title" name="Сапожник"  />
+			<text id="dialogs_invitefriend_copy" name="Пригласи друга, задав его имя и адрес эл. почты."  />
+			<text id="dialogs_invitefriend_emptyparam" name="Вы должны заполнить каждoe текстовое поле."  />
+			<text id="dialogs_invitefriend_friendname" name="Имя друга:"  />
+			<text id="dialogs_invitefriend_mail" name="Адрес эл. почты друга:"  />
+			<text id="dialogs_invitefriend_myname" name="Твоё имя:"  />
+			<text id="dialogs_invitefriend_title" name="Приглашение"  />
+			<text id="dialogs_lonelycash_copy" name="Кто-то сдал кошелёк в бюро находок!
+
+Может он принадлежит твоим друзьям?"  />
+			<text id="dialogs_lonelycash_title" name="Нашёлся!"  />
+			<text id="dialogs_lonelycop_copy" name="Начальник службы безопасности ищет работу для своего практиканта!
+Может у твоих друзей есть для него место!?"  />
+			<text id="dialogs_lonelycop_title" name="Запрос!"  />
+			<text id="dialogs_lonelypants_copy" name="Твой кассир нашёл ящик с лишними товарoм.
+
+Отдай его друзьям!"  />
+			<text id="dialogs_lonelypants_title" name="Что это?"  />
+			<text id="dialogs_mannequindesign_empty" name="Ты не можешь выбирать из этой категории."  />
+			<text id="dialogs_mannequindesign_title" name="Манекен"  />
+			<text id="dialogs_mannequinpaycheck_copy" name="Впечатли своих покупателей разнообразием своих товаров и скомбинируй максимальное количество вещей на твоих манекенах!"  />
+			<text id="dialogs_mannequinpaycheck_title" name="Оценка"  />
+			<text id="dialogs_mastery_copy_0" name="Число заработанных ярлыков {0}!"  />
+			<text id="dialogs_mastery_copy_1" name="Раздай своим друзьям несколько дополнительных изделий!"  />
+			<text id="dialogs_mastery_info" name="С каждым ярлыком-больше прибыли!"  />
+			<text id="dialogs_mastery_title" name="Новый ярлык!"  />
+			<text id="dialogs_noreward_copy" name="К сожалению, награду уже получил другой игрок!"  />
+			<text id="dialogs_noreward_title" name="Жаль!"  />
+			<text id="dialogs_payment_copy" name="Купи здесь
+Золотые Пуговицы и Модные Доллары."  />
+			<text id="dialogs_payment_title" name="Оплата"  />
+			<text id="dialogs_perfectpants_copy" name="Ты сегодня отлично изготовил {0}!
+Раздай своим друзьям излишки изготовленных товаров!"  />
+			<text id="dialogs_perfectpants_title" name="Отлично!"  />
+			<text id="dialogs_pesentreceived_text" name="Твой Подарок-Приветствие из {0} Золотых Пуговиц зачислен на твой счёт."  />
+			<text id="dialogs_pesentreceived_title" name="Ей!"  />
+			<text id="dialogs_pesentreminder_send" name="Отослать"  />
+			<text id="dialogs_pesentreminder_text1" name="Подарок-Приветствие {0} Золотые пуговицы уже ждут тебя. Чтобы взять их просто нажми на ссылку в Почте-Приветствие."  />
+			<text id="dialogs_pesentreminder_text2" name="Подтверждение по эл. почте выслать ещё раз."  />
+			<text id="dialogs_pesentreminder_title" name="Подарок-Приветствие!"  />
+			<text id="dialogs_receivecomeback_copy_0" name="Подарок по случаю возвращения: {0} Золотых Пуговиц и классный Ускоритель!"  />
+			<text id="dialogs_receivecomeback_copy_1" name="Подарок по случаю возвращения: {0} Золотых Пуговиц и сторож за {1}!"  />
+			<text id="dialogs_receivecomeback_title" name="Ты снова здесь!"  />
+			<text id="dialogs_receivecop_copy" name="Практикант начал работать и продлевает время работы твоего сторожа на
+1 час!"  />
+			<text id="dialogs_receivecop_title" name="Нанят/а!"  />
+			<text id="dialogs_receiveitem_copy" name="Твоя награда находится в подарочной коробке!"  />
+			<text id="dialogs_receiveitem_title" name="Ура!"  />
+			<text id="dialogs_receivemoney_copy" name="Твоя награда тебе уже начислена!"  />
+			<text id="dialogs_receivemoney_title" name="Ура!"  />
+			<text id="dialogs_register_agb" name="Принять пользовательское соглашение"  />
+			<text id="dialogs_register_btnsave" name="Сохранить"  />
+			<text id="dialogs_register_copy_0" name="Зарегистрируйся бесплатно прямо сейчас!"  />
+			<text id="dialogs_register_copy_1" name="Сохрани статус своей игры!"  />
+			<text id="dialogs_register_copy_2" name="После регистрации ты получишь в Подарок-Приветствие {0} Золотые Пуговицы, присланные на твою почту."  />
+			<text id="dialogs_register_email" name="Электронная почта"  />
+			<text id="dialogs_register_forfree" name="БЕСПЛАТНО!"  />
+			<text id="dialogs_register_password" name="Пароль"  />
+			<text id="dialogs_register_title" name="Регистрация"  />
+			<text id="dialogs_robberyall_copy" name="Весь твой товар был украден!"  />
+			<text id="dialogs_robbery_copy" name="Произошла кража!"  />
+			<text id="dialogs_robbery_copy2" name="Выложи изготовленный товар на полку
+или найми охранника, чтобы предотвратить кражу твоего товара."  />
+			<text id="dialogs_robbery_title" name="КРАЖА!"  />
+			<text id="dialogs_sale_copy" name="Нажми табличкой &quot;Скидка&quot; на полку, чтобы пометить уценённые товары.
+Цены снизятся, а популярность твоего магазина повысится.
+Распродажа по скидкам закончится, когда полка опустеет."  />
+			<text id="dialogs_sale_title" name="Скидка"  />
+			<text id="dialogs_shippingconfirmation_send" name="Подарок-Приветствие  был только-что выслан тебе.
+
+Чтобы забрать его, просто кликни на ссылку в Письме-Приветствии."  />
+			<text id="dialogs_shippingconfirmation_titel" name="Подарок!"  />
+			<text id="dialogs_staff_btnfire" name="Уволить"  />
+			<text id="dialogs_staff_btnhire" name="Взять на работу"  />
+			<text id="dialogs_staff_title" name="Твои кассиры"  />
+			<text id="dialogs_wheeloffortune_beforespin" name="Крутите Колесо Фортуны и выигрывайте замечательные призы!"  />
+			<text id="dialogs_wheeloffortune_btn_go" name="Крутить!"  />
+			<text id="dialogs_wheeloffortune_btn_towheel" name="К Колесу Фортуны"  />
+			<text id="dialogs_wheeloffortune_copy1" name="Вы сегодня уже крутили Колесо Фортуны?"  />
+			<text id="dialogs_wheeloffortune_info" name="Первый поворот бесплатно!"  />
+			<text id="dialogs_wheeloffortune_nomoney" name="Недостаточно Золотых Пуговиц, чтобы крутить Колесо Фортуны!"  />
+			<text id="dialogs_wheeloffortune_noregister" name="Только зарегистрированный игрок может вращать Колесо Фортуны!"  />
+			<text id="dialogs_wheeloffortune_nospace" name="У вас нет места для призов! Освободите место в коробке с подарками и приходите крутить Колесо Фортуны!"  />
+			<text id="dialogs_wheeloffortune_title" name="Колесо Фортуны!"  />
+			<text id="dialogs_wheeloffortune_tryagain" name="Попробуй ещё раз!"  />
+			<text id="dialogs_wheeloffortune_woncash" name="Поздравляем! Твой выигрыш тебе уже начислен!"  />
+			<text id="dialogs_wheeloffortune_woncloth" name="Поздравляем! Ваш приз уже ждёт вас в коробке с подарками!"  />
+			<text id="dialogs_wheeloffortune_wonitem" name="Поздравляем! Ваш приз уже в вашем инвентаре!"  />
+		</dialogs>
+		<error_codes>
+			<text id="error_advertisement_nolevel" name="Реклама возможна с Уровеня {0} ."  />
+			<text id="error_advertisement_nomoney" name="Недостаточно Золотых Пуговиц/Модных Долларов, чтобы сделать эту рекламную акцию!"  />
+			<text id="error_avatar_12" name="Это имя уже занято."  />
+			<text id="error_avatar_15" name="У пользователя уже есть аватар."  />
+			<text id="error_avatar_genderempty" name="Пожалуйста, выбери персонаж!"  />
+			<text id="error_avatar_nameinvalide" name="Твоё имя не должно быть пустым или содержать особые знаки."  />
+			<text id="error_avatar_standardname" name="Введи ник пользователя"  />
+			<text id="error_boost_nomoney" name="Ты не можешь себе позволить использовать этот бустер."  />
+			<text id="error_cancleproduction_36" name="Полка недоступна! Ты должен переставить некоторые вещи."  />
+			<text id="error_changepassword_0" name="Твой пароль был успешно изменён!"  />
+			<text id="error_changepassword_10" name="Твой старый пароль задан неверно!"  />
+			<text id="error_changepassword_copy" name="Твой новый пароль должен содержать больше 2 знаков. Проверь, правильно ли ты задал/а свой старый пароль."  />
+			<text id="error_changepassword_title" name="Изменить пароль"  />
+			<text id="error_chat_23" name="Администратор временно инактивировал чат."  />
+			<text id="error_chat_24" name="Пожалуйста, не флуди в чате!"  />
+			<text id="error_common_1" name="Общие ошибки/команды сервера {0}"  />
+			<text id="error_common_3" name="- DEBUG: Слишком низкий уровень -"  />
+			<text id="error_common_30" name="-DEBUG: Работникa/Полки нет в наличии-"  />
+			<text id="error_common_38" name="-DEBUG: В режиме переобразования-"  />
+			<text id="error_common_5" name="- DEBUG: Неизвесный WodId -"  />
+			<text id="error_common_80" name="-DEBUG: Планирование маршрута.Слишком долгая задержка -"  />
+			<text id="error_common_81" name="-DEBUG: Планирование маршрута. Задержка отрицательна-"  />
+			<text id="error_common_title" name="Внимание!"  />
+			<text id="error_coop_3" name="У тебя слишком низкий уровень, чтобы принять участие в этом Co-Op
+.Тебе необходимо активировать хотя бы одну выкройку."  />
+			<text id="error_coop_90" name="Ты уже участвуешь в другом Co-Op!"  />
+			<text id="error_coop_91" name="Максимальное количество участников Co-Op уже достигнуто."  />
+			<text id="error_coop_92" name="Эта Co-Op уже завершена!"  />
+			<text id="error_coop_93" name="Ты сегодня уже начал один Co-Op!Следующий можно начать только завтра!"  />
+			<text id="error_coop_nomoney" name="Недостаточно Золотых Пуговиц, чтобы продлить этот Co-Op."  />
+			<text id="error_coop_title" name="CO-OP"  />
+			<text id="error_customclothbuy_nomoney" name="Недостаточно Золотых Пуговиц, чтобы купить выкройку!"  />
+			<text id="error_customclothproduce_nomoney" name="Недостаточно Модных Долларов, чтобы изготовить выкройку!"  />
+			<text id="error_customclothunlock_nomoney" name="Недостаточно Модных Долларов или Золотых Пуговиц, чтобы разблокировать этот предмет!"  />
+			<text id="error_customize_nomoney" name="Недостаточно Золотых Пуговиц, чтобы переодеть твоего героя."  />
+			<text id="error_custom_nameinvalide" name="Ты не можешь {0} использовать!"  />
+			<text id="error_deliverinfo_33" name="-DEBUG: Товар ещё не готов-"  />
+			<text id="error_deliverinfo_35" name="-DEBUG: Работник ничего не произвёл-"  />
+			<text id="error_deliverinfo_36" name="Этот работник недоступен. Сделай перестановку так, чтобы к нему можно было подойти хотя бы с одной стороны."  />
+			<text id="error_deliverinfo_37" name="К сожалению, полка занята, поэтому товар невозможно выложить."  />
+			<text id="error_deliver_33" name="-DEBUG: Товар ещё не готов-"  />
+			<text id="error_deliver_35" name="-DEBUG: Работник ничего не произвёл-"  />
+			<text id="error_deliver_36" name="Эта полка недоступна. Сделай перестановку так, чтобы по крейней мере с одной стоны был доступ."  />
+			<text id="error_deliver_37" name="Эта полка уже занята. Найди, пожалуйста, свободную полку и выстави товар на ней."  />
+			<text id="error_deliver_46" name="Этот товар нельзя повесить. Выбери полку на которую ты сможешь этот товар положить."  />
+			<text id="error_deliver_title" name="так не пойдёт..."  />
+			<text id="error_editmode_3" name="-DEBUG: Минимальный уровень не достигнут-"  />
+			<text id="error_editmode_31" name="-DEBUG: Объект неактивен-"  />
+			<text id="error_editmode_32" name="-DEBUG: Товара в настоящее время нет на складе-"  />
+			<text id="error_editmode_37" name="-DEBUG: Товар ещё лежит на-"  />
+			<text id="error_editmode_39" name="-DEBUG: Неизвесная позиция-"  />
+			<text id="error_editmode_48" name="-DEBUG: Немотивированные работники не сохраняются-"  />
+			<text id="error_editmode_50" name="-DEBUG: Позиция заблокирована-"  />
+			<text id="error_editmode_51" name="-DEBUG: Пустое место-"  />
+			<text id="error_editmode_52" name="-DEBUG: невращающийся объект-"  />
+			<text id="error_editmode_53" name="-DEBUG: Это расширение у тебя уже есть-"  />
+			<text id="error_editmode_54" name="-DEBUG: Ты пока не можешь купить это расширение-"  />
+			<text id="error_editmode_55" name="-DEBUG: Манекен нельзя купить/хранить-"  />
+			<text id="error_editmode_nomoney" name="К сожалению ты не можешь позволить тебе новый товар."  />
+			<text id="error_editmode_removeMannequin" name="Ты не можешь продать манекен пока он одет."  />
+			<text id="error_editmode_removeminCashdesk" name="Тебе необходимо иметь минимум одну кассу, чтобы твои покупатели могли оплатить товар."  />
+			<text id="error_editmode_removeminChangingroom" name="Тебе необходимо иметь минимум одну примерочную, чтобы покупатели могли примерить твои товары."  />
+			<text id="error_editmode_removeminCounter" name="Чтобы продавать товар тебе нужна минимум одна полка."  />
+			<text id="error_editmode_removeminFactory" name="Тебе требуется минимум один работник, чтобы начать производить товар."  />
+			<text id="error_editmode_removeminMannequin" name="Тебе необходимо иметь минимум одного манекена, чтобы лучше презентировать свой товар."  />
+			<text id="error_editmode_removenotallowedCounter" name="Полка занята!"  />
+			<text id="error_editmode_removenotallowedDoor" name="Дверь тебе необходима! Чтобы поменять её потяни другую в свой магазин."  />
+			<text id="error_editmode_removenotallowedFactory" name="Этот работник работает!"  />
+			<text id="error_editmode_title" name="Ошибка при перестановке"  />
+			<text id="error_fashiongame_1" name="Магазин не открывается. Обратись в службу технической поддержки."  />
+			<text id="error_fashiongame_title" name="Большая ошибка"  />
+			<text id="error_forgotpassword_101" name="Вы заблокировали получение электронной почты. Пожалуйста, обратитесь в службу поддержки."  />
+			<text id="error_fullscreen_copy" name="Полноэкранное изображение, к сожалению, невозможно."  />
+			<text id="error_fullscreen_title" name="Полноэкранный режим"  />
+			<text id="error_gift_20" name="К сожалению, полка занята, поэтому подарок невозможно использовать."  />
+			<text id="error_gift_34" name="Максимальое количество подарков уже достигнуто. Хочешь использовать ещё {0} за {1} Золотых Пуговиц?"  />
+			<text id="error_gift_37" name="К сожалению, полка занята, поэтому подарок невозможно использовать."  />
+			<text id="error_gift_nomoney" name="Недостаточно Золотых Пуговиц, чтобы использовать ещё больше подарков!"  />
+			<text id="error_gift_title" name="Подарки"  />
+			<text id="error_instantdesign_34" name="- DEBUG: Дневной лимит достигнут -"  />
+			<text id="error_instantdesign_nomoney" name="Недостаточно Золотых Пуговиц, чтобы заранее переодеть манекен."  />
+			<text id="error_instantdesign_nomoreinstant" name="Ты можешь только ограниченное количество раз заранее переодеть своего манекена. Завтра ты можешь снова оформить свою витрину."  />
+			<text id="error_instantdesign_title" name="Витрина"  />
+			<text id="error_instantwork_nomoney" name="Недостаточно Золотых Пуговиц, чтобы сразу изготовить."  />
+			<text id="error_invitefriend_11" name="Игрока сейчас нет в сети. Попробуй позже ещё раз!"  />
+			<text id="error_invitefriend_13" name="Твой друг уже зарегестрирован!"  />
+			<text id="error_invitefriend_14" name="Адрес эл. почты, к сожалению, недействителен"  />
+			<text id="error_invitefriend_70" name="Максимально допустимое количество друзей достигнуто!"  />
+			<text id="error_invitefriend_71" name="Игроку нельзя приглашать больше друзей."  />
+			<text id="error_invitefriend_title" name="Приглашение не удалось"  />
+			<text id="error_job_2" name="Отдохни! Ты уже достаточно поработал/а!"  />
+			<text id="error_join_20" name="Этот магазин занят, попробуй зайти позднее."  />
+			<text id="error_join_21" name="-DEBUG: Уже в магазине-"  />
+			<text id="error_join_22" name="-DEBUG: магазин неизвестен-"  />
+			<text id="error_join_title" name="Войти в магазин"  />
+			<text id="error_login_10" name="Неверные имя или пароль!"  />
+			<text id="error_login_11" name="Неверные имя или пароль!"  />
+			<text id="error_login_12" name="Игрок уже зарегистрирован."  />
+			<text id="error_login_13" name="Игрок уже зарегистрирован."  />
+			<text id="error_login_14" name="Неверные имя или пароль!"  />
+			<text id="error_login_15" name="Ты уже в игре!"  />
+			<text id="error_login_16" name="Твой характер содержит ошибку. Обратись в службу поддержки."  />
+			<text id="error_lostpassword_101" name="Вы заблокировали получение электронной почты. Нажмите на &quot;Ок&quot;, чтобы разблокировать."  />
+			<text id="error_lostpassword_11" name="Под этим адресом никто не зарегестрирован!"  />
+			<text id="error_marketplace_20" name="-DEBUG: Аркады, к сожалению, переполнены-"  />
+			<text id="error_marketplace_21" name="-DEBUG: Ты уже находишся в Аркадах-"  />
+			<text id="error_marketplace_title" name="Гудгейм Аркады"  />
+			<text id="error_nocustomclothselected" name="Сначала выбери модель, если ты хочешь что-либо изготовить!"  />
+			<text id="error_nomoney_copy" name="К сожалению, ты не можешь себе этого позволить"  />
+			<text id="error_nomoney_guest_copy" name="Бакрот?
+Тогда зарегестрируйся и получи {0} Модных Долларов!"  />
+			<text id="error_nomoney_title" name="Нехватака денег"  />
+			<text id="error_npchire_nomoney" name="Недостаточно Золотых Пуговиц, чтобы нанять нового кассира."  />
+			<text id="error_patternshop_44" name="У тебя же уже есть эта выкройка."  />
+			<text id="error_patternshop_5" name="-DEBUG: WOD неизвестно-"  />
+			<text id="error_patternshop_nomoney" name="К сожалению ты не можешь позволить себе новую выкройку."  />
+			<text id="error_patternshop_title" name="Проблема выкройки"  />
+			<text id="error_police_nomoney" name="Недостаточно Золотых Пуговиц, чтобы нанять охранника."  />
+			<text id="error_register_10" name="Заданный тобой пароль не годен!"  />
+			<text id="error_register_102" name="Адрес эл. почты недействителен!"  />
+			<text id="error_register_13" name="Игрок с таким адресом уже существует."  />
+			<text id="error_register_14" name="Заданный адрес эл. почты неверен."  />
+			<text id="error_register_19" name="Твой электронный адрес слишком длинный."  />
+			<text id="error_register_2" name="Ты уже подтвердил свой адрес эл. почты."  />
+			<text id="error_register_agb" name="Без принятия пользовательского соглашения не пойдёт. Просто прочти и подтверди кнопкой слева, затем можно начинать!"  />
+			<text id="error_register_emailinvalide" name="Адрес эл. почты не должен быть пустым или содержать специальные знаки."  />
+			<text id="error_register_passwordinvalide" name="Пароль не может быть пустым или содержать особые знаки."  />
+			<text id="error_register_title" name="Ошибка при регистрации"  />
+			<text id="error_repair_36" name="-DEBUG: Работник недоступен-"  />
+			<text id="error_repair_48" name="-DEBUG: У работника 100% мотивация-"  />
+			<text id="error_repair_nomoney" name="Недостаточно Модных Долларов, чтобы выплатить бонус-зарплату."  />
+			<text id="error_repair_title" name="Ремонт"  />
+			<text id="error_sale_47" name="Полка свободна!"  />
+			<text id="error_sale_title" name="Особое предложение"  />
+			<text id="error_walk_23" name="-DEBUG: Это место непроходимо-"  />
+			<text id="error_work_31" name="-DEBUG: Работник уже работает!-"  />
+			<text id="error_work_32" name="-DEBUG: Для этой вещи не хватает выкройки -"  />
+			<text id="error_work_36" name="Путь к работникам закрыт! Попробуй сделать перестановку."  />
+			<text id="error_work_41" name="- DEBUG: В инвентаре бустера нет -"  />
+			<text id="error_work_45" name="-DEBUG: Тип товара и тип работы не соответствуют-"  />
+			<text id="error_work_49" name="- DEBUG: Неподходящий бустер для этого работника -"  />
+			<text id="error_work_67" name="Твоя выкройка, к сожалению, уже недоступна.
+Создай новую!"  />
+			<text id="error_work_nomoney" name="Недостаточно Модных Долларов, чтобы начать изготовление."  />
+			<text id="error_work_title" name="Отказ от работы"  />
+		</error_codes>
+		<feature>
+			<text id="feature_0_text_0" name="Время пришло!
+
+Гудгейм Мода официально переходит в Бета-фазу.
+Каждый начинает снова с 1 Уровня, получает обратно свои купленные золотые пуговицы и дополнительный бонус 10 Золотых Пуговиц в благодарность. 
+
+Наслаждайтесь игрой Гудгейм Мода!"  />
+			<text id="feature_0_title" name="Официальное начало!"  />
+			<text id="feature_10_text_0" name="Лето на дворе!
+Новая коллекция GeeDee уже здесь!"  />
+			<text id="feature_1_text_0" name="Начни играть со своими друзьями!
+Открой для себя новые Co-Op!"  />
+			<text id="feature_2_text_0" name="Открой для себя новые полки, примерочные и кассы!"  />
+			<text id="feature_2_text_1" name="Переодевание проще простого!Просто нажми на своего героя!"  />
+			<text id="feature_2_text_2" name="Теперь насладись звучной Модой!"  />
+			<text id="feature_3_text_0" name="Весна пришла! 
+Обнови свой ассортимент новыми выкройками!"  />
+			<text id="feature_3_text_1" name="Новые ярлыки на твоих товарах принесут больше прибыли!"  />
+			<text id="feature_4_text_0" name="Будет ярко!
+Новая коллекция JayJay внесёт красочность в твой магазин."  />
+			<text id="feature_4_text_1" name="Открой для себя новые полки, примерочные и кассы!"  />
+			<text id="feature_4_text_2" name="Новые весенние куртки - это то, что надо!"  />
+			<text id="feature_4_text_3" name="Помоги друзьям и будешь вознагражден/а!"  />
+			<text id="feature_5_text_0" name="Ослепительно ярко! Новая JayJay коллекция сделает твой магазин более красочным."  />
+			<text id="feature_5_text_1" name="Открой для себя новые полки, примерочные и кассы!"  />
+			<text id="feature_5_text_2" name="Новые весенние куртки, достойны внимания!"  />
+			<text id="feature_5_text_3" name="Помоги друзьям и ты будешь вознаграждён!"  />
+			<text id="feature_6_text_0" name="Стань модельером и сам создай свои выкройки!"  />
+			<text id="feature_6_text_1" name="Выбери новые витрины для своего магазина!"  />
+			<text id="feature_7_text_0" name="Тебе сопутствует удача?
+Проверь это на Колесе Фортуны в Аркадах!"  />
+			<text id="feature_8_text_0" name="Повысь свою популярность и добавь гламурности своему магазину при помощи новой степени роскоши мебели и декораций!"  />
+			<text id="feature_8_text_1" name="Удиви своих покупателей новыми полками, примерочными и кассами!"  />
+			<text id="feature_9_text_0" name="Повысь рекламой популярность своего магазина и получи дополнительные ХР!"  />
+			<text id="feature_9_text_1" name="Размести больше подарков на своих полках!"  />
+			<text id="feature_title" name="Новые свойства"  />
+		</feature>
+		<feeds>
+			<text id="descriptionfashionfeed" name="Привет. А я пишу тебе из своего собственного ателье в Goodgame Fashion! Да-да! Готовлюсь к показу... эй! ну кто ж так стежок кладёт!?
+Совсем без меня обалдели. Ну всё, убегаю, приходи скорей!"  />
+			<text id="descriptionlongfashion" name="Откройте своё собственное ателье в Goodgame Fashion. Станьте кутюрье, выбирайте модные материалы и создавайте свой стиль. Заботьтесь о популярности своего ателье и сделайте его самым шикарным заведением в мире высокой моды."  />
+		</feeds>
+		<forumaction>
+			<text id="forumaction_copy_1" name="Создайте дизайн своих купaльников и победите!
+Победителя ожидают Золотые Пуговицы и Выкройка в каталоге!
+
+А тепарь в форум и за дело!"  />
+			<text id="forumaction_title_1" name="Будь изобритателен!"  />
+		</forumaction>
+		<loggedin_msg id=""  />
+		<panels>
+			<text id="panels_buddylist_morefriends" name="Больше друзей"  />
+			<text id="panels_login_email" name="Ник/ Адрес эл. почты"  />
+			<text id="panels_login_loginbtn" name="ЛОГИН"  />
+			<text id="panels_login_lostpassword" name="Забыл пароль?"  />
+			<text id="panels_login_password" name="Пароль"  />
+			<text id="panels_login_playbtn" name="ИГРАТЬ СРАЗУ"  />
+			<text id="panels_login_registerbtn" name="РЕГИСТРАЦИЯ"  />
+			<text id="panels_login_rememberpassword" name="Изменить пароль"  />
+			<text id="panels_social_alone" name="Сейчас ты здесь один!"  />
+			<text id="panels_social_bot" name="Модный Чат"  />
+			<text id="panels_social_chatblocked" name="Только зарегестрированные игроки с 1 Уровня могут писать в чате."  />
+			<text id="panels_social_come_in" name="вошёл/вошла в магазин."  />
+			<text id="panels_social_go_out" name="покинул/а магазин."  />
+			<text id="panels_social_nofriends" name="У тебя пока нет друзей!"  />
+			<text id="panels_social_welcome_market" name="Приветствуем в Гудгейм Аркадах!"  />
+			<text id="panels_social_welcome_myshop" name="Приветствуем"  />
+		</panels>
+		<server>
+			<mail>
+				<text id="mail_invite_friend" name="Привет, %s!&lt;br /&gt;&lt;br /&gt;Я только что наткнулся на классную онлайн-игру &quot;Гудгейм Мода&quot;&lt;br /&gt;&lt;br /&gt;По этой ссылке ты можешь перейти прямо к игре:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Зарегистрируйся через эту ссылку и создай бесплатно свой собственный магазин в &quot;Гудгейм Мода&quot;&lt;br /&gt;&lt;br /&gt;Узнай что значит иметь свой собственный бутик. Создай красивую одежду, аксессуары и обувь, продай их в своём магазине и сделай интерьер на свой вкус!&lt;br /&gt;&lt;br /&gt;Наслаждайся игрой и сердечный тебе привет, %s"  />
+				<text id="mail_lost_pw" name="Привет, %s!&lt;br /&gt;&lt;br /&gt;Ты получил это автоматическое письмо, потому что ты послал запрос на новый пароль.&lt;br /&gt;Твой новый пароль: %s&lt;br /&gt;&lt;br /&gt;По этой ссылке ты можешь перейти к игре:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Если возникнут вопросы или проблемы обратись в support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;Наслаждайся игрой!&lt;br /&gt;&lt;br /&gt;Твоя команда&lt;br /&gt;Goodgamestudios.com"  />
+				<text id="mail_registration" name="Привет,&lt;br /&gt;&lt;br /&gt;большое спасибо за твою регистрацию. Мы приветствуем тебя в игре &quot;Гудгейм Мода&quot;.&lt;br /&gt;&lt;br /&gt;Ты можешь в любое время войти в игру набрав:&lt;br /&gt;E-Mail: %s&lt;br /&gt;Пароль: %s&lt;br /&gt;&lt;br /&gt;По этой ссылке ты можешь перейти к игре:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Если возникнут вопросы или проблемы обратись в support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;Наслаждайся игрой!&lt;br /&gt;&lt;br /&gt;Твоя команда&lt;br /&gt;Goodgamestudios.com"  />
+			</mail>
+			<misc>
+				<text id="marketplace" name="Гудгейм Аркады"  />
+			</misc>
+		</server>
+		<server_msg>
+			<text id="server_msg_10" name="Сервер будет перегружен.
+ Нажми F5, чтобы обновить страницу."  />
+			<text id="server_msg_title" name="Сообщение с сервера:"  />
+		</server_msg>
+		<std_buttons>
+			<text id="btn_addcurrency" name="Купить Модные Доллары/ Золотые Пуговицы"  />
+			<text id="btn_payment" name="Купить Модные Доллары/ Золотые Пуговицы"  />
+			<text id="btn_policeman" name="Охранник"  />
+			<text id="btn_register" name="Регистрация"  />
+			<text id="btn_superrewardChips" name="Заработать Модные Доллары"  />
+			<text id="btn_superrewardGold" name="Заработать Золотые Пуговицы"  />
+		</std_buttons>
+		<tooltips>
+			<text id="tooltip_Basic_Factory_Basicaccessoire" name="Ювелир"  />
+			<text id="tooltip_Basic_Factory_Basiccloth" name="Швея"  />
+			<text id="tooltip_Basic_Factory_Basicshoes" name="Сапожник"  />
+			<text id="tooltip_counter_pieces" name="Количество: {0}"  />
+			<text id="tooltip_customcloth_icon" name="Набивки"  />
+			<text id="tooltip_customcloth_shape" name="Формы"  />
+			<text id="tooltip_customcloth_unlock" name="Активировать"  />
+			<text id="tooltip_factory_empty" name="Изготовь новый товар!"  />
+			<text id="tooltip_factory_preparestep1" name="давать указания работнику"  />
+			<text id="tooltip_factory_preparetitle" name="Нажми, чтобы"  />
+			<text id="tooltip_factory_readytoserv" name="выложить товар"  />
+			<text id="tooltip_factory_readytoserv_amount" name="Количество: {0}"  />
+			<text id="tooltip_factory_wear" name="Мотивация: {0}%"  />
+			<text id="tooltip_FashionActionPanel_btn_achievements" name="Награды"  />
+			<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Добавить Золотых Пуговиц/Модных Долларов"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisement" name="Реклама"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="С Уровня {0} ты можешь делать рекламу"  />
+			<text id="tooltip_FashionActionPanel_btn_booster" name="Бустер"  />
+			<text id="tooltip_FashionActionPanel_btn_coop" name="Co-Op"  />
+			<text id="tooltip_FashionActionPanel_btn_decoshop" name="Перестроить"  />
+			<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="Рекламируй!"  />
+			<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Каталог"  />
+			<text id="tooltip_FashionActionPanel_btn_gifts" name="Подарки"  />
+			<text id="tooltip_FashionActionPanel_btn_highscore" name="Рейтинг"  />
+			<text id="tooltip_FashionActionPanel_btn_market" name="Гудгейм Аркады"  />
+			<text id="tooltip_FashionActionPanel_btn_openclose" name="Магазин открыть/закрыть"  />
+			<text id="tooltip_FashionActionPanel_btn_ownshop" name="Мой магазин"  />
+			<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Идёт акция
+Нажми, чтобы узнать статус"  />
+			<text id="tooltip_FashionActionPanel_btn_sale" name="Снизить цены"  />
+			<text id="tooltip_FashionActionPanel_btn_staff" name="Кассир"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="Низ"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="Волосы"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="Цвет кожи"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="Топы"  />
+			<text id="tooltip_FashionBookDialog_btn_all" name="Всё"  />
+			<text id="tooltip_FashionBookDialog_btn_buy" name="Купить выкройку"  />
+			<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="Удалить выкройку"  />
+			<text id="tooltip_FashionBookDialog_btn_mastery" name="Ещё {0} до {1} Уровня-Ярлыков
+Нажми для подробной информации"  />
+			<text id="tooltip_FashionBookDialog_btn_produce" name="Изготовить"  />
+			<text id="tooltip_FashionBookDialog_customcloth" name="Собственные выкройки"  />
+			<text id="tooltip_FashionBookDialog_female" name="Для девушек"  />
+			<text id="tooltip_FashionBookDialog_info" name="Не забывай имееть в наличии как 
+женскую, так и мужскую
+одежду!"  />
+			<text id="tooltip_FashionBookDialog_male" name="Для парней"  />
+			<text id="tooltip_FashionBookDialog_unisex" name="Для парней и девушек"  />
+			<text id="tooltip_FashionBoosterDialog_addAmount" name="Количество за покупку"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="Дополнительное время"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="Дополнительное время
++ {0} при {1} дополнительных друзьях."  />
+			<text id="tooltip_FashionBoosterDialog_btn_buy" name="Покупать"  />
+			<text id="tooltip_FashionBoosterDialog_btn_info" name="Инфо"  />
+			<text id="tooltip_FashionBoosterDialog_coffee" name="Кофе
+Работоспособность твоей швеи повысится на 20%!"  />
+			<text id="tooltip_FashionBoosterDialog_currentAmount" name="В наличии"  />
+			<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="Актуальная защита от кражи"  />
+			<text id="tooltip_FashionBoosterDialog_energy" name="Энергетический напиток
+Работоспособность твоего сапожника повысится на 20%!"  />
+			<text id="tooltip_FashionBoosterDialog_police" name="Охранник"  />
+			<text id="tooltip_FashionBoosterDialog_price" name="Цена"  />
+			<text id="tooltip_FashionBoosterDialog_shake" name="Протеин шейк
+Работоспособность ювелира повысится на 20%!"  />
+			<text id="tooltip_FashionCoopDialog_btn_extend" name="продлить Co-Op"  />
+			<text id="tooltip_FashionCounterDialog_btn_sale" name="Цена будет снижена"  />
+			<text id="tooltip_FashionCounterDialog_btn_spend" name="Пожертвовать весь товар"  />
+			<text id="tooltip_FashionCounterDialog_btn_unsale" name="Скидку отменить"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="Покупать"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_close" name="Закончить перестановку"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko" name="Обновление"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="Декорации"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="Витрины"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="Двери"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="Полы"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="Стены"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="Настенные декорации"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="Расширения"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Этажное расширение"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="Расширить магазин"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional" name="Оборудование"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Кассы"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="Примерочные"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="Полки"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="Работник"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="Манекены"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="Выкройка"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_sell" name="Продать"  />
+			<text id="tooltip_FashionExpansionFriends" name="Тебе требуется ещё {0} друзей
+чтобы купить это расширение."  />
+			<text id="tooltip_FashionFactoryDialog_btn_instant" name="Сразу изготовить!"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_remove" name="Удалить"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_use" name="Воспользоваться"  />
+			<text id="tooltip_FashionGiftboxDialog_mygifts" name="Мои подарки"  />
+			<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="Разослать подарки"  />
+			<text id="tooltip_FashionHighscoreDialog_luxury" name="Сортировать по степени роскоши"  />
+			<text id="tooltip_FashionHighscoreDialog_offline" name="офлайн"  />
+			<text id="tooltip_FashionHighscoreDialog_online" name="В сети"  />
+			<text id="tooltip_FashionHighscoreDialog_xp" name="Сортировать по ХР"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="Аксессуары"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="Одежда"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="Обувь"  />
+			<text id="tooltip_FashionMasteryInfoDialog_bronce" name="Изготовь большее количество!"  />
+			<text id="tooltip_FashionMasteryInfoDialog_gold" name="Изготовь быстрее!"  />
+			<text id="tooltip_FashionMasteryInfoDialog_silver" name="Получи больше XP!"  />
+			<text id="tooltip_FashionNamePanel_mc_luxury" name="Роскошь твоего магазина"  />
+			<text id="tooltip_FashionNamePanel_mc_rating" name="Популярность твоего магазина"  />
+			<text id="tooltip_FashionOptionPanel_btn_allowemails" name="Письмо принять"  />
+			<text id="tooltip_FashionOptionPanel_btn_blockemails" name="Письмо блокировать"  />
+			<text id="tooltip_FashionOptionPanel_btn_bugreport" name="Сообщить об ошибке"  />
+			<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Переодеть игрока"  />
+			<text id="tooltip_FashionOptionPanel_btn_changePass" name="Поменять Пароль"  />
+			<text id="tooltip_FashionOptionPanel_btn_faq" name="Частые вопросы"  />
+			<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="Полный экран"  />
+			<text id="tooltip_FashionOptionPanel_btn_help" name="Помощь"  />
+			<text id="tooltip_FashionOptionPanel_btn_logout" name="Выход"  />
+			<text id="tooltip_FashionOptionPanel_btn_music" name="Музыку вкл/выкл"  />
+			<text id="tooltip_FashionOptionPanel_btn_news" name="Гудгейм Форум"  />
+			<text id="tooltip_FashionOptionPanel_btn_options" name="Настройки"  />
+			<text id="tooltip_FashionOptionPanel_btn_register" name="Регистрация"  />
+			<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="Звук вкл/выкл"  />
+			<text id="tooltip_FashionOptionPanel_btn_support" name="Письмо в тех.поддержку"  />
+			<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="Получить Подарок-Приветствие!"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="+ увеличить"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- уменьшить"  />
+			<text id="tooltip_FashionOptionPanel_mc_floors" name="Этажи"  />
+			<text id="tooltip_FashionOptionPanel_mc_ranking" name="Рейтинг"  />
+			<text id="tooltip_FashionPatternFriends" name="Чтобы покупать эту выкройку тебе требуется ещё {0} друзей."  />
+			<text id="tooltip_FashionSocialPanel_btn_buddies" name="Друзья"  />
+			<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="Присутствующие игроки"  />
+			<text id="tooltip_FashionSocialPanel_btn_chat" name="Чат"  />
+			<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="Пригласить друзей"  />
+			<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Добавить Модные Доллары/ Золотые Пуговицы"  />
+			<text id="tooltip_FashionUserStatePanel_jobs" name="Действия"  />
+			<text id="tooltip_FashionUserStatePanel_xp" name="{0} XP до следующего Уровня"  />
+			<text id="tooltip_Fashion_btnclose" name="Закрыть"  />
+			<text id="tooltip_levelx" name="Доступно с {0} Уровня"  />
+			<text id="tooltip_marketplace" name="Доска объявлений"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Награды"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="Добавить друга"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="Информация"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Выкинуть"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="Удалить друга"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="Посетить"  />
+			<text id="tooltip_wheeloffortune_line1" name="Колесо Фортуны!"  />
+			<text id="tooltip_wheeloffortune_line2" name="Кликни, чтобы играть!"  />
+			<text id="tooltip_wheeloffortune_line3" name="Зеркало в подарок"  />
+			<text id="tooltip_xofy" name="{0} от {1}"  />
+		</tooltips>
+		<tutorial>
+			<text id="tut_buypattern_copy" name="Здесь, в каталоге, ты можешь купить себе новые выкройки. Уже купленными выкройками ты можешь пользоваться постоянно. Нажми,чтобы купить новую выкройку."  />
+			<text id="tut_choosemannequin_copy" name="Чтобы твой товар стал популярным, ты можешь нарядить манекен. Для этого нажми на один из свободных."  />
+			<text id="tut_delivercounter_copy" name="... и затем на свободную полку!"  />
+			<text id="tut_emptyfactory_copy" name="Швея шьёт для тебя одежду, позднее тебе будeт доступно больше работников и товара. Нажми на швею."  />
+			<text id="tut_instantwork_copy" name="Нажми на кнопку, чтобы сразу изготовить товар."  />
+			<text id="tut_lastscreen_copy" name="Супер!Первые шаги сделаны, чтобы Марка твоей одежды появилась в каждом доме по всему миру, первые покупатели уже спешат! Присмотрись,сколько интересного можно ещё обнаружить.
+
+Удачи!"  />
+			<text id="tut_mannequinaccept_copy" name="С нетерпением ждёшь реакции твои клиентов? Нажми на &quot;подтвердить&quot;, чтобы посмотреть оценки."  />
+			<text id="tut_mannequincategory_copy" name="Соответственно типу манекена, ты можешь применить определённую одежду. На торс ты можешь oдевать только топы. Нажми на соответствующий символ одежды, чтобы увидеть выбранное."  />
+			<text id="tut_mannequinclose_copy" name="Отлично выглядит! Нажми на &quot;Закрыть&quot;, чтобы вернуться обратно  в свой магазин."  />
+			<text id="tut_mannequinclothes_copy" name="Сейчас у тебя есть только голубые футболки для поло. Нажми, чтобы одеть её на манекен."  />
+			<text id="tut_openproducebook_copy" name="Ты купил выкройку. Загляни опять в производственную книгу, чтобы увидеть товар для изготовления."  />
+			<text id="tut_preparesteps_copy" name="Нажми на швею, чтобы дать ей распоряжение об изготовлении."  />
+			<text id="tut_producefactory_copy" name="С Золотыми Пуговицами ты можешь сразу изготавливать. Просто снова нажми на швею."  />
+			<text id="tut_produce_copy" name="Теперь ты можешь приступить к изготовлению."  />
+			<text id="tut_readyfactory_copy" name="Помести товар в полки, чтобы клиенты могли его купить. Для этого нажми на работника с уже готовым товаром..."  />
+			<text id="tut_start_copy" name="Добро пожаловать в твой магазин, {0}!
+Это небольшое введение поможет тебе сориентироваться в мире моды."  />
+			<text id="tut_title" name="Введение!"  />
+		</tutorial>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Ошибка"  />
+				<text id="generic_alert_connection_failed_copy" name="Техническое обслуживание. Пожалуйста, попробуйте ещё раз чуть позже."  />
+				<text id="generic_alert_connection_failed_title" name="Работа в самом разгаре!"  />
+				<text id="generic_alert_connection_lost_copy" name="Связь с сервером прервана. Попробуйте ещё раз."  />
+				<text id="generic_alert_connection_lost_description" name="Сейчас проводятся работы по техническому обслуживанию, которые необходимо регулярно выполнять для установки обновлений или исправления неполадок. &lt;br&gt;&lt;br&gt;
+Мы работаем так быстро как можем, так что вы сможете вернутся к игре в кратчайшие сроки."  />
+				<text id="generic_alert_connection_lost_promo" name="Почему бы вам пока что не попробовать одну из других наших игр?"  />
+				<text id="generic_alert_connection_lost_thanks" name="Спасибо за ваше понимание!"  />
+				<text id="generic_alert_connection_lost_title" name="Связь прервалась!"  />
+				<text id="generic_alert_error" name="Ошибка"  />
+				<text id="generic_alert_information" name="Предупреждение"  />
+				<text id="generic_alert_loggedout_copy" name="Вы успешно покинули игру. Не забудьте: каждый день вас ожидает бонус за вход!"  />
+				<text id="generic_alert_loggedout_title" name="До свидания!"  />
+				<text id="generic_alert_warning" name="Внимание"  />
+				<text id="generic_alert_watchout" name="Внимание!"  />
+				<text id="generic_invalid_email_provider" name="Адреса e-mail с этого домена не разрешены!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Похоже что ваше интернет-соединение сейчас слишком медленное. Пожалуйста, попробуйте чуть позже!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Как вам понравилась игра? Можно ли её улучшить? Пожалуйста, выскажите своё мнение на форуме или в группе."  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Внимание: ваша игра сохранится, только если вы зарегистрированы."  />
+				<text id="generic_register_error_invalidemail" name="Вы указали неверный e-mail."  />
+				<text id="generic_report_muted_chattry" name="Вам запретили общаться."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Принять"  />
+				<text id="generic_btn_cancel" name="Отменить"  />
+				<text id="generic_btn_close" name="Закрыть"  />
+				<text id="generic_btn_continue" name="Продолжить"  />
+				<text id="generic_btn_end" name="Закончить"  />
+				<text id="generic_btn_endnow" name="Завершить сейчас"  />
+				<text id="generic_btn_goback" name="Назад"  />
+				<text id="generic_btn_no" name="Нет"  />
+				<text id="generic_btn_noshare" name="Ни за что!"  />
+				<text id="generic_btn_notaccept" name="Отклонить"  />
+				<text id="generic_btn_okay" name="О&#039;кей"  />
+				<text id="generic_btn_reconnect" name="Соединить повторно"  />
+				<text id="generic_btn_refresh" name="Обновить"  />
+				<text id="generic_btn_report" name="Пожаловаться"  />
+				<text id="generic_btn_search" name="Искать"  />
+				<text id="generic_btn_share" name="Поделиться!"  />
+				<text id="generic_btn_skip" name="Пропустить"  />
+				<text id="generic_btn_start" name="Начать"  />
+				<text id="generic_btn_topayment" name="Отдайте это мне!"  />
+				<text id="generic_btn_yes" name="Да"  />
+			</button>
+			<chat>
+				<text id="generic_chat_writeable" name="Вам необходимо зарегистрироваться и достичь первого уровня, чтобы общаться."  />
+			</chat>
+			<common>
+				<text id="generic_admin" name="Админ"  />
+				<text id="generic_animation" name="Показываю анимацию"  />
+				<text id="generic_bugreport" name="Расскажите нам про ошибки"  />
+				<text id="generic_changePass" name="Изменить пароль"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*Уже на подходе*"  />
+				<text id="generic_date" name="Дата"  />
+				<text id="generic_day" name="день"  />
+				<text id="generic_dayformat" name="{1}/{0}"  />
+				<text id="generic_days" name="дн"  />
+				<text id="generic_day_short" name="дн"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="E-mail"  />
+				<text id="generic_faq" name="Вопросы и ответы"  />
+				<text id="generic_forum" name="Форум"  />
+				<text id="generic_friend" name="Друг"  />
+				<text id="generic_friends" name="Друзья"  />
+				<text id="generic_general" name="Общие установки"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Группа"  />
+				<text id="generic_guest" name="Гость"  />
+				<text id="generic_help" name="Помощь"  />
+				<text id="generic_high" name="Высокое"  />
+				<text id="generic_hour" name="ч"  />
+				<text id="generic_hours" name="ч"  />
+				<text id="generic_hour_short" name="ч"  />
+				<text id="generic_limited" name="Ограниченный"  />
+				<text id="generic_logout" name="Выход"  />
+				<text id="generic_low" name="Низкое"  />
+				<text id="generic_medium" name="Среднее"  />
+				<text id="generic_minute" name="минута"  />
+				<text id="generic_minutes" name="мин"  />
+				<text id="generic_minute_short" name="мин"  />
+				<text id="generic_moderator" name="Модератор"  />
+				<text id="generic_music" name="Музыка"  />
+				<text id="generic_name" name="Имя"  />
+				<text id="generic_news" name="Новости"  />
+				<text id="generic_options" name="Настройки"  />
+				<text id="generic_quality" name="Качество"  />
+				<text id="generic_register" name="Сохранить и зарегистрироваться"  />
+				<text id="generic_second" name="секунда"  />
+				<text id="generic_seconds" name="сек"  />
+				<text id="generic_second_short" name="сек"  />
+				<text id="generic_sound" name="Звук включён/выключен"  />
+				<text id="generic_support" name="Поддержка"  />
+				<text id="generic_today" name="Сегодня"  />
+				<text id="generic_tomorrow" name="Сегодня"  />
+				<text id="generic_tutorial" name="Введение"  />
+				<text id="generic_username" name="Имя игрока"  />
+				<text id="generic_xp" name="Очки опыта"  />
+				<text id="generic_yesterday" name="Вчера"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Старая версия!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Обновите страницу."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Хотите добавить {0} в друзья?"  />
+				<text id="generic_friends_add_title" name="Приглашение дружить"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Больше друзей!"  />
+				<text id="generic_friends_denied_copy" name="{0} отклонил ваш запрос."  />
+				<text id="generic_friends_denied_title" name="Приглашение отклонено!"  />
+				<text id="generic_friends_invite_badword_copy" name="Вы выбрали непозволительное имя!"  />
+				<text id="generic_friends_invite_badword_title" name="Внимание!"  />
+				<text id="generic_friends_invite_error_copy" name="Для того, чтобы приглашать друзей, вам необходимо зарегистрироваться."  />
+				<text id="generic_friends_invite_error_title" name="Сначала регистрация"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Полноэкранный режим невозможен"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Чешский"  />
+				<text id="generic_language_da" name="Датский"  />
+				<text id="generic_language_de" name="Немецкий"  />
+				<text id="generic_language_el" name="Греческий"  />
+				<text id="generic_language_en" name="Английский"  />
+				<text id="generic_language_es" name="Испанский"  />
+				<text id="generic_language_fi" name="Финский"  />
+				<text id="generic_language_fr" name="Французский"  />
+				<text id="generic_language_hu" name="Венгерский"  />
+				<text id="generic_language_id" name="Индонезийский"  />
+				<text id="generic_language_it" name="Итальянский"  />
+				<text id="generic_language_ja" name="Японский"  />
+				<text id="generic_language_ko" name="Корейский"  />
+				<text id="generic_language_nl" name="Голландский"  />
+				<text id="generic_language_no" name="Норвежский"  />
+				<text id="generic_language_pl" name="Польский"  />
+				<text id="generic_language_pt" name="Португальский"  />
+				<text id="generic_language_pt_BR" name="Бразильский"  />
+				<text id="generic_language_ru" name="Русский"  />
+				<text id="generic_language_sv" name="Шведский"  />
+				<text id="generic_language_tr" name="Турецкий"  />
+				<text id="generic_language_zh_CN" name="Китайский (упрощённый)"  />
+				<text id="generic_language_zh_TW" name="Китайский (традиционный)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Ваша игровая запись заблокирована, пожалуйста, свяжитесь со службой поддержки!"  />
+				<text id="generic_login_banned_2" name="Ваша запись была отключена!
+
+Отключение до: {0}
+
+Если у вас есть вопросы по поводу отключения - свяжитесь со службой поддержки."  />
+				<text id="generic_login_banned_3" name="Ваша игровая запись была заблокирована навсегда.
+
+Если у вас есть вопросы по поводу этой блокировки - свяжитесь, пожалуйста, со службой поддержки."  />
+				<text id="generic_login_banned_permanent" name="навсегда"  />
+				<text id="generic_login_facebook" name="Войти через Facebook"  />
+				<text id="generic_login_login" name="Вход"  />
+				<text id="generic_login_loginname" name="Имя / E-mail"  />
+				<text id="generic_login_lostpassword" name="Забыли свой пароль?"  />
+				<text id="generic_login_lostpassword_copy" name="Укажите свой e-mail и мы пришлём вам ваш пароль."  />
+				<text id="generic_login_lostpassword_title" name="Забыли свой пароль?"  />
+				<text id="generic_login_newplayer" name="Впервые здесь?"  />
+				<text id="generic_login_password" name="Пароль"  />
+				<text id="generic_login_play" name="Играть сразу"  />
+				<text id="generic_login_playnow" name="Играть сразу!"  />
+				<text id="generic_login_register" name="Зарегистрироваться"  />
+				<text id="generic_login_rememberpassword" name="Сохранить пароль"  />
+				<text id="generic_login_wronglogin" name="Неправильный логин или пароль!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Зарегистрируйтесь, чтобы сохранить свою игру!"  />
+				<text id="generic_logout_guest_title" name="Зарегистрироваться"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Игра будет доступна не позднее, чем через {0}."  />
+				<text id="servershutdownpremonition_copy" name="Сервер игры будет отключен через {0}. Пожалуйста, выйдите из игры, чтобы сохранить её. Зарегистрируйтесь, если вы ещё этого не сделали."  />
+				<text id="servershutdownpremonition_registered_copy" name="Мы отключаем игровой сервер на {0} для профилактики."  />
+				<text id="servershutdown_copy" name="Игровой сервер отключается. Через несколько минут вы сможете снова войти в игру."  />
+				<text id="welcomeback_copy" name="Приятно снова видеть вас! Вот немножко, чтобы помочь вам заново освоиться!"  />
+				<text id="welcomeback_title" name="Вы вернулись!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Новый пароль"  />
+				<text id="generic_change_password_copy_oldpass" name="Старый пароль:"  />
+				<text id="generic_change_password_copy_send" name="Мы выслали ваш новый пароль на ваш e-mail."  />
+				<text id="generic_change_password_error_failed" name="Извините, но у вас был другой пароль."  />
+				<text id="generic_change_password_error_success" name="Ваш пароль был успешно изменён!"  />
+				<text id="generic_change_password_faild_copy" name="Вы должны составить свой новый пароль больше чем из двух знаков и правильно ввести старый пароль."  />
+				<text id="generic_change_password_faild_specialcharacters" name="Ваш пароль не должен остаться пустым или содержать спецсимволы."  />
+				<text id="generic_change_password_faild_title" name="Введите пароль"  />
+				<text id="generic_change_password_title" name="Изменение пароля"  />
+				<text id="generic_guest_change_password_faild_copy" name="Вы сможете изменять свой пароль только после регистрации!"  />
+				<text id="generic_guest_change_password_faild_title" name="Сначала регистрация"  />
+			</password>
+			<payment>
+				<text id="generic_payment_48hdiscount_button" name="Больше золота в первые 48 часов"  />
+				<text id="generic_payment_48hdiscount_button_general" name="Больше {0} в первые 48 часов"  />
+				<text id="generic_payment_48hdiscount_copy" name="Только в 2 дня после регистрации - покупайте золото и получайте +{0}% в подарок!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Только в 2 дня после регистрации - покупайте партии золота и получайте {0}% сверху в подарок!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Только в 2 дня после регистрации - покупайте {0} и получайте +{1}% в подарок!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Только в 2 дня после регистрации - покупайте {0} и получайте +{1}% в подарок!"  />
+				<text id="generic_payment_copy" name="Сейчас вы сможете пополнить счёт"  />
+				<text id="generic_payment_discount_button" name="+{0}% золота!"  />
+				<text id="generic_payment_discount_copy" name="Купите золото и получите бонус +{0}%!"  />
+				<text id="generic_payment_discount_copy_general" name="Купите {0} сейчас с бонусом +{1}%!"  />
+				<text id="generic_payment_discount_general" name="Получите на {0}% больше {1} прямо сейчас!"  />
+				<text id="generic_payment_discount_generalshort" name="Получите на {0}% больше!"  />
+				<text id="generic_payment_discount_time" name="Осталось {0}!"  />
+				<text id="generic_payment_discount_title" name="Больше золота за деньги!"  />
+				<text id="generic_payment_newPrices" name="Внимание! Внимание! Снижены цены на игровые валюты! Самое время экономить!"  />
+				<text id="generic_payment_title" name="Пополнение счёта"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Ищу туннель сквозь кибер-пространство"  />
+				<text id="loading_text_10" name="Распределяю предметы по миру"  />
+				<text id="loading_text_11" name="Прорисовываю графику"  />
+				<text id="loading_text_12" name="Раскрашиваю кнопки"  />
+				<text id="loading_text_13" name="Прячу пасхальные яйца"  />
+				<text id="loading_text_14" name="Ищу данные пользователя"  />
+				<text id="loading_text_15" name="Комменчу баги"  />
+				<text id="loading_text_16" name="Кормлю программистов"  />
+				<text id="loading_text_17" name="Экспериментирую с клиентом"  />
+				<text id="loading_text_18" name="Переворачиваю песочные часы"  />
+				<text id="loading_text_19" name="Охлаждаю систему"  />
+				<text id="loading_text_2" name="Смазываю шестерёнки"  />
+				<text id="loading_text_20" name="Скоро будет готово"  />
+				<text id="loading_text_3" name="Кручу беличье колесо"  />
+				<text id="loading_text_4" name="Включаю сервер"  />
+				<text id="loading_text_5" name="Надеюсь, что всё прошло как следует"  />
+				<text id="loading_text_6" name="Вызываю зачистку"  />
+				<text id="loading_text_7" name="Обсчитываю сложные алгоритмы"  />
+				<text id="loading_text_8" name="Калибрую накопители потока"  />
+				<text id="loading_text_9" name="Всякая всячина"  />
+				<text id="loading_text_default" name="Инициализация"  />
+				<text id="loading_text_itemXML" name="Загружаю игровые элементы"  />
+				<text id="progress_loadfiles" name="Загружаю активы..."  />
+				<text id="progress_serverconnection" name="Связываюсь с Сервером..."  />
+			</progressbar>
+			<register>
+				<text id="generic_register_agb_copy" name="Вам необходимо сперва принять Пользовательское соглашение. Подтвердите ваше согласие галочкой слева и вперёд!"  />
+				<text id="generic_register_agb_read" name="Прочитать пользовательское соглашение"  />
+				<text id="generic_register_alreadyavatar" name="У этого игрока уже есть персонаж."  />
+				<text id="generic_register_badword" name="Имя не должно содержать {0}."  />
+				<text id="generic_register_btn_agb" name="Принять Пользовательское соглашение"  />
+				<text id="generic_register_btn_later" name="Позже"  />
+				<text id="generic_register_btn_next" name="Продолжить"  />
+				<text id="generic_register_btn_save" name="Сохранить"  />
+				<text id="generic_register_character" name="Создайте свой персонаж"  />
+				<text id="generic_register_copy_0" name="Зарегистрируйтесь бесплатно!"  />
+				<text id="generic_register_copy_1" name="Сохраните вашу игру!"  />
+				<text id="generic_register_emaillong_copy" name="К сожалению, ваш e-mail слишком длинный."  />
+				<text id="generic_register_emailwrong_copy" name="Вы ввели неправильный e-mail."  />
+				<text id="generic_register_email_copy" name="E-mail не должен быть пустым или содержать спецсимволы."  />
+				<text id="generic_register_error" name="Регистрация не удалась"  />
+				<text id="generic_register_errormistake" name="Ошибка"  />
+				<text id="generic_register_error_accountalreadyexists" name="Другой игрок уже зарегистрирован под этим e-mail."  />
+				<text id="generic_register_forfree" name="Регистрируйтесь бесплатно!"  />
+				<text id="generic_register_forfree1" name="Бесплатно!"  />
+				<text id="generic_register_letsgo" name="Поехали!"  />
+				<text id="generic_register_namealreadyused" name="Это имя уже занято."  />
+				<text id="generic_register_namenotvalid" name="Вы ввели неправильное имя."  />
+				<text id="generic_register_passwordshort_copy" name="Ваш пароль слишком короткий. Он должен содержать хотя бы 4 символа."  />
+				<text id="generic_register_passwordwrong_copy" name="Вы ввели неправильный пароль."  />
+				<text id="generic_register_password_copy" name="Пароль не может быть пустым или содержать спецсимволы."  />
+				<text id="generic_register_rememberdata" name="Сохранить данные"  />
+				<text id="generic_register_reward" name="Подпишитесь бесплатно и получите {0} {1}!"  />
+				<text id="generic_register_subscribe" name="Подписаться"  />
+				<text id="generic_register_success" name="Вы успешно зарегистрировались."  />
+				<text id="generic_register_title" name="Ошибка при регистрации"  />
+				<text id="generic_register_unlock" name="Открыть эту функцию!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Пожалуйста, следите за своей манерой высказываться. В противном случае, вам запретят общаться или даже заблокируют на время игровую запись.
+Причина: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="Благодаря вашим проступкам, вы не сможете общаться в течение {0}. Причина: {1}"  />
+				<text id="generic_report_muted_domain1" name="Запрещено указывать ссылки при общении!"  />
+				<text id="generic_report_muted_reported_copy" name="Несколько игроков пожаловались на вас. Вам запретили общаться на следующие {0}. Причина: {1}"  />
+				<text id="generic_report_player_copy" name="Вы действительно хотите пожаловаться на {0}?
+Обратите внимание, что злоупотребление этой функцией может привести к блокированию игровой записи."  />
+				<text id="generic_report_player_reason_0" name="Оскорбление"  />
+				<text id="generic_report_player_reason_1" name="Сексуальное домогательство"  />
+				<text id="generic_report_player_reason_2" name="расистское высказывание"  />
+				<text id="generic_report_player_reason_3" name="Угроза или вымогательство"  />
+				<text id="generic_report_player_reason_title" name="Суть жалобы:"  />
+				<text id="generic_report_player_title" name="Пожаловаться на игрока?"  />
+				<text id="generic_report_reported_copy" name="Другой игрок пожаловался на вас администратору. Причина: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Связываюсь"  />
+				<text id="generic_select_world" name="Укажите игровой мир:"  />
+				<text id="generic_world" name="Игровой мир: {0}"  />
+				<text id="generic_world_international" name="Международный: {0}"  />
+			</worlds>
+		</generic_flash>
+	</fashion>
+ 

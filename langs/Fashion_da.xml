@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FASHION - da - 16 -->
+	<fashion>
+		<achievement>
+			<text id="Basic_Achievement_Boughtdeco" name="Luksusbutik"  />
+			<text id="Basic_Achievement_Boughtdeco_copy" name="Antal købte dekorationer"  />
+			<text id="Basic_Achievement_Boughtpatterns" name="Stort tilbud"  />
+			<text id="Basic_Achievement_Boughtpatterns_copy" name="Antal købte snitmønstre"  />
+			<text id="Basic_Achievement_Earnedchips" name="Markedsfører"  />
+			<text id="Basic_Achievement_Earnedchips_copy" name="Optjente fashiondollar"  />
+			<text id="Basic_Achievement_FinishedCoops" name="Alt for enhver"  />
+			<text id="Basic_Achievement_FinishedCoops_copy" name="Antal klarede Co-Ops"  />
+			<text id="Basic_Achievement_FinishedGoldCoops" name="Gylden indretter"  />
+			<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Antal Co-Ops klaret med guld"  />
+			<text id="Basic_Achievement_Mannequindesign" name="Flot udstillingsvindue"  />
+			<text id="Basic_Achievement_Mannequindesign_copy" name="Klædt antal butiksvinduedukker på"  />
+			<text id="Basic_Achievement_Masteries" name="Flittig syerske"  />
+			<text id="Basic_Achievement_Masteriesgold" name="Gylden syerske"  />
+			<text id="Basic_Achievement_Masteriesgold_copy" name="Opnået antal guldetiketter"  />
+			<text id="Basic_Achievement_Masteries_copy" name="Opnået antal etiketter"  />
+			<text id="Basic_Achievement_Producedaccessoires" name="Produceret accessoires"  />
+			<text id="Basic_Achievement_Producedaccessoires_copy" name="Antal producerede accessoires"  />
+			<text id="Basic_Achievement_Producedbags" name="Håndtaskehandler"  />
+			<text id="Basic_Achievement_Producedbags_copy" name="Antal producerede håndtasker"  />
+			<text id="Basic_Achievement_Producedbottoms" name="Alt for benet"  />
+			<text id="Basic_Achievement_Producedbottoms_copy" name="Producrede antal bukser og nederdele"  />
+			<text id="Basic_Achievement_Producedclothes" name="Beklædningsmonopol"  />
+			<text id="Basic_Achievement_Producedclothes_copy" name="Produceret antal klæder"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires" name="Stylish tilbehør"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="Produceret antal forskellig accessoires"  />
+			<text id="Basic_Achievement_Produceddifferentclothes" name="Beklædningsmangfoldighed"  />
+			<text id="Basic_Achievement_Produceddifferentclothes_copy" name="Produceret forskellige beklædningsstykker"  />
+			<text id="Basic_Achievement_Produceddifferentitems" name="Allround indretter"  />
+			<text id="Basic_Achievement_Produceddifferentitems_copy" name="Produceret forskellige varer"  />
+			<text id="Basic_Achievement_Produceddifferentshoes" name="Skotik"  />
+			<text id="Basic_Achievement_Produceddifferentshoes_copy" name="Produceret forskellige sko"  />
+			<text id="Basic_Achievement_Producedfemaleonly" name="Kun for kvínder"  />
+			<text id="Basic_Achievement_Producedfemaleonly_copy" name="Produceret antal varer for kvinder"  />
+			<text id="Basic_Achievement_Producedfullbody" name="Slip og krager"  />
+			<text id="Basic_Achievement_Producedfullbody_copy" name="Produceret antal klæder og jakkesæt"  />
+			<text id="Basic_Achievement_Producedhats" name="Hattemager"  />
+			<text id="Basic_Achievement_Producedhats_copy" name="Produceret antal hatte"  />
+			<text id="Basic_Achievement_Producedjewlery" name="Smykkeskrin"  />
+			<text id="Basic_Achievement_Producedjewlery_copy" name="Produceret antal smykker"  />
+			<text id="Basic_Achievement_Producedmaleonly" name="Kun for mænd"  />
+			<text id="Basic_Achievement_Producedmaleonly_copy" name="Produceret antal varer for mænd"  />
+			<text id="Basic_Achievement_Producedshoes" name="Sko-Magnat"  />
+			<text id="Basic_Achievement_Producedshoes_copy" name="Produceret antal sko"  />
+			<text id="Basic_Achievement_Producedtops" name="Overdele overalt"  />
+			<text id="Basic_Achievement_Producedtops_copy" name="Produceret antal overdele"  />
+			<text id="Basic_Achievement_Soldduringsale" name="Tilbudsjæger"  />
+			<text id="Basic_Achievement_Soldduringsale_copy" name="Solgte varer ved sale-salg"  />
+			<text id="Basic_Achievement_Soldproducts" name="Vare solgt"  />
+			<text id="Basic_Achievement_Soldproducts_copy" name="Antal solgt vare"  />
+			<text id="Basic_Achievement_Spentchips" name="Spendabel sælger"  />
+			<text id="Basic_Achievement_Spentchips_copy" name="Antal fashiondollar givet ud"  />
+			<text id="Basic_Achievement_Spentgold" name="Gylden forretning"  />
+			<text id="Basic_Achievement_Spentgold_copy" name="Antal udgivne guldknapper"  />
+			<text id="Basic_Achievement_Stolenproducts" name="Banditherberg"  />
+			<text id="Basic_Achievement_Stolenproducts_copy" name="Antal stjålne varer"  />
+			<text id="Basic_Achievement_Wheeloffortune" name="Drejende nålespil"  />
+			<text id="Basic_Achievement_Wheeloffortune_copy" name="Antal gevinster hos lykkehjulet"  />
+			<text id="Social_Achievement_Friendscout" name="Populær shopper"  />
+			<text id="Social_Achievement_Friendscout_copy" name="Antal netværksvenner"  />
+		</achievement>
+		<alerts>
+			<text id="alerts_avatarcustomize_goldrequest" name="Ønsker du at klæde dig om for {0} {1}?"  />
+			<text id="alerts_avatarcustom_workingplayer_copy" name="Du udfører lige netop endnu en aktion og kan derfor ikke klæde dig om!"  />
+			<text id="alerts_avatarcustom_workingplayer_title" name="Et øjeblik endnu!"  />
+			<text id="alerts_booster_info_copy" name="Varehusvagten forhindrer at dine varer bliver stjålet.\nDu kan ansætte ham for 5 dage og forlænge tiden yderligere."  />
+			<text id="alerts_booster_info_copy_1" name="For {0} yderligere venner forlænger beskyttelsen sig med {1}."  />
+			<text id="alerts_booster_info_title" name="Varehusvagt"  />
+			<text id="alerts_buytiles_copy" name="Ønsker du at købe {0} fliser for {1}?"  />
+			<text id="alerts_buytiles_title" name="Køb fliser?"  />
+			<text id="alerts_customcloth_noshape_copy" name="Du skal først vælge en form, så du kan pladsere påtrykket!"  />
+			<text id="alerts_decoshop_dragtipp_copy" name="Træk objektet ind i din shop for at benytte det."  />
+			<text id="alerts_decoshop_dragtipp_title" name="Indret!"  />
+			<text id="alerts_decoshop_next_Cashdesk_bylevel" name="Fra level {0} kan du købe en yderligere kasse eller du trækker en gammel kasse ud fra shoppen herind, for at benytte en anden en."  />
+			<text id="alerts_decoshop_next_Changingroom_bylevel" name="Fra level {0} af kan du købe en yderligere omklædningskabine eller trække en gammel kabine ud fra din shop herind for at benytte en anden en."  />
+			<text id="alerts_decoshop_next_Counter_bylevel" name="Fra level {0} kan du købe en yderligere reol eller træk en gammel reol ud fra shoppen herind, for at købe en anden en."  />
+			<text id="alerts_decoshop_next_Factory_bylevel" name="Fra level {0} af kan du ansætte en yderligere arbejder eller du kan trække en gammel arbejder ud af din shop herind for at købe en anden en."  />
+			<text id="alerts_decoshop_next_Mannequin_bylevel" name="Fra level {0} af kan du købe en yderligere butiksvinduedukke eller du trækker en gammel dukke ud af din shop herind for at købe en anden en."  />
+			<text id="alerts_decoshop_nomoreCashdesk" name="For tiden kan du ikke købe nogen yderligere kasse!"  />
+			<text id="alerts_decoshop_nomoreChangingroom" name="For tiden kan du ikke købe yderligere omklædningskabiner!"  />
+			<text id="alerts_decoshop_nomoreCounter" name="For tiden kan du ikke købe en yderligere reol!"  />
+			<text id="alerts_decoshop_nomoreExpansion" name="Der står for tiden ikke nye udvidelser til rådighed."  />
+			<text id="alerts_decoshop_nomoreFactory" name="For tiden kan du ikke ansætte nogen yderligere arbejder!"  />
+			<text id="alerts_decoshop_nomoreMannequin" name="For tiden kan du ikke købe nogen yderligere butiksvindusudstillingsdukke!"  />
+			<text id="alerts_decoshop_sellitem_copy" name="Vil du virkelig sælge objektet for {0} per styk?"  />
+			<text id="alerts_decoshop_sellitem_title" name="Sælg artikler"  />
+			<text id="alerts_decoshop_storeFactory_copy" name="Du kan ikke trække en utilfreds arbejder ud af shoppen. Betal en bonusløn eller sælg ham."  />
+			<text id="alerts_decoshop_storeMannequin_copy" name="Solang tid butiksvindusdukken bærer varer, kan du ikke indlagre den."  />
+			<text id="alerts_decoshop_store_title" name="Indlager"  />
+			<text id="alerts_decoshop_workingplayer_copy" name="Du skal først afslutte en aktion, inden du kan bygge din shop om!"  />
+			<text id="alerts_decoshop_workingplayer_title" name="Beskæftiget!"  />
+			<text id="alerts_fashionbook_notarget_copy" name="Vælg en arbejder for at producere vare."  />
+			<text id="alerts_fashionbook_notarget_copy_1" name="Arbejderen producerer allerede varer.
+Vælg en anden!"  />
+			<text id="alerts_fashionbook_notarget_title" name="Hvilke arbejdere?"  />
+			<text id="alerts_fashionbook_notequaltype_copy" name="Med denne arbejder kan du kun fremstille bestemte varer.\nUdvælg dig noget fra {0}-kollektionen."  />
+			<text id="alerts_fashionbook_notequaltype_title" name="Anden vare"  />
+			<text id="alerts_fashionbook_usebooster_title" name="Indsæt booster?"  />
+			<text id="alerts_friend_ask" name="Ønsker du at tilføje {0} som ven?"  />
+			<text id="alerts_friend_denied" name="{0} har desværre afvist din forespørgsel."  />
+			<text id="alerts_friend_title" name="Venskab"  />
+			<text id="alerts_gift_workingplayer_copy" name="Du bærer varer endnu. Læg disse først på en reol, inden du pladserer dine gaver."  />
+			<text id="alerts_gift_workingplayer_title" name="Aflæg først!"  />
+			<text id="alerts_instantworking_goldrequest" name="Ønsker du &#039;producer færdig med det samme&#039;?
+Endnu {0} gange muligt!"  />
+			<text id="alerts_invitefriend_copy" name="Din invitation til {0} blev sendt!"  />
+			<text id="alerts_invitefriend_title" name="Nye venner!"  />
+			<text id="alerts_isoworld_counter_outofreach_copy" name="Reolen kan ikke nås. Omdekorer."  />
+			<text id="alerts_isoworld_counter_outofreach_title" name="Ikke tilstede!"  />
+			<text id="alerts_isoworld_factory_outofreach_copy" name="Arbejderen er ikke tilstede. Omdekorer."  />
+			<text id="alerts_isoworld_factory_outofreach_title" name="Ikke tilstede!"  />
+			<text id="alerts_isoworld_mannequin_instant" name="Vil du påklæde butiksvindusdukken påny?"  />
+			<text id="alerts_isoworld_marketplace_title" name="Sort bræt"  />
+			<text id="alerts_kickedbyplayer_copy" name="Shoppen blev lukket af ejeren."  />
+			<text id="alerts_kickedbyplayer_title" name="Du skal gå!"  />
+			<text id="alerts_kickjobber_copy" name="Du kan ikke skifte i ombygningsmodussen, så længe andre spillere arbejder i din shop"  />
+			<text id="alerts_kickjobber_title" name="Arbejder i shop"  />
+			<text id="alerts_kickplayer_copy" name="Hos dig i shoppen befinder der sig endnu andre spillere. Vil du smide dem ud, så du kan skifte til ombygningsmodussen?"  />
+			<text id="alerts_kickplayer_title" name="Smid spiller ud"  />
+			<text id="alerts_lostpassword_copy" name="Indtast din e-mailadresse og vi sender et password til dig."  />
+			<text id="alerts_lostpassword_title" name="Glemt password"  />
+			<text id="alerts_mannequindesign_nocloth_copy" name="Du har ikke nogen passende vare i reolen for at kunne påklæde butiksvinduedukken."  />
+			<text id="alerts_mannequindesign_nocloth_title" name="Ingen vare!"  />
+			<text id="alerts_marketplace_playerleaved_copy" name="Spilleren har forladt Arkaderne."  />
+			<text id="alerts_marketplace_playerleaved_title" name="For sent!"  />
+			<text id="alerts_placetiles_copy" name="1. Vælg en flise\n2. Udvælg med trykket musetast det ønskede område i din shop.\n3. Slip løs"  />
+			<text id="alerts_placetiles_title" name="Pladser fliser?"  />
+			<text id="alerts_register_copy_addgold" name="Du skal først registreres for at kunne købe ind her!"  />
+			<text id="alerts_register_copy_advertisement" name="Du skal først registreres for at kunne gøre reklame for din shop-"  />
+			<text id="alerts_register_copy_changeavatar" name="Du skal registreres for at skifte tøj."  />
+			<text id="alerts_register_copy_changepassword" name="Kun som registreret spiller kan du ændre dit password!"  />
+			<text id="alerts_register_copy_coop" name="Du skal først registreres for at kunne være med ved en Co-Op!"  />
+			<text id="alerts_register_copy_gifts" name="Du skal først registreres for at kunne give gaver."  />
+			<text id="alerts_register_copy_invitefriend" name="Du skal registreres for at kunne invitere andre venner."  />
+			<text id="alerts_register_copy_logout" name="Registrer dig, for at lagre in spillestand!"  />
+			<text id="alerts_register_title" name="Registrer"  />
+			<text id="alerts_servermsg_10" name="Serveren bliver genstartet. Det går straks videre. Log dig venligst ud."  />
+			<text id="alerts_servermsg_title" name="Servernyhed!"  />
+			<text id="alerts_staff_fire_copy" name="Vil du virkelig afskedige din kasserer?\nUden tilstrækkelige kasserer venter dine kunder længere og bliver utilfredse."  />
+			<text id="alerts_staff_fire_title" name="Afskedig kassereren?"  />
+			<text id="alerts_staff_hire_copy" name="Ønsker du at ansætte en ny kasserer?"  />
+			<text id="alerts_staff_hire_title" name="Ny kasserer"  />
+			<text id="alerts_versioncheck_copy" name="Aktualisér venligst siden for at lade den nyeste version."  />
+			<text id="alerts_versioncheck_title" name="Gammel version!"  />
+		</alerts>
+		<cloth>
+			<text id="cloth_blackbowlermale" name="Cylinder"  />
+			<text id="cloth_blackdressfemale" name="Det lille sorte"  />
+			<text id="cloth_blackhandbagfemale" name="Sorte shopper"  />
+			<text id="cloth_blackheelsfemale" name="Sorte lakpumps"  />
+			<text id="cloth_blackjacketmale" name="Simpel læderjakke"  />
+			<text id="cloth_blackpant2male" name="GeeCee Jeans"  />
+			<text id="cloth_blackpantfemale" name="Sorte pigebukser(rørmodel)"  />
+			<text id="cloth_blackpantmale" name="Sorte mandebukser"  />
+			<text id="cloth_blacksuitmale" name="Nålestribsjakkesæt"  />
+			<text id="cloth_blackwatchmale" name="Sort armbåndsur"  />
+			<text id="cloth_bluebaggypantsfemale" name="JayJay pige Baggyjeans"  />
+			<text id="cloth_blueblousefemale" name="Blå damebluse"  />
+			<text id="cloth_bluecapfemale" name="Blå basecap"  />
+			<text id="cloth_bluecapmale" name="Blå basecap"  />
+			<text id="cloth_blueheadphones" name="JayJay høretelefoner"  />
+			<text id="cloth_bluenecklacefemale" name="Blå perlekæde"  />
+			<text id="cloth_bluepolomale" name="Blå poloshirt"  />
+			<text id="cloth_blueshirtmale" name="Blå T-Shirt"  />
+			<text id="cloth_bluesweatermale" name="JayJay blå drengebluse"  />
+			<text id="cloth_bootsfemale" name="GeeCee pigeboots"  />
+			<text id="cloth_brownknitcapfemale" name="Brun Beanie"  />
+			<text id="cloth_brownknitcapmale" name="Brun Beanie"  />
+			<text id="cloth_cardiganfemale" name="GeeCee pigecardigan"  />
+			<text id="cloth_cardiganmale" name="GeeCee drengecardigan"  />
+			<text id="cloth_charlestonhatfemale" name="Charleston hat"  />
+			<text id="cloth_checkshirtfemale" name="JayJay ternet pigeskjorte"  />
+			<text id="cloth_checkshirtmale" name="JayJay ternet drengeskjorte"  />
+			<text id="cloth_customcloth" name="Skab dit look!"  />
+			<text id="cloth_darkbluejeansfemale" name="Mørkeblå damejeans"  />
+			<text id="cloth_darkbluejeansmale" name="Mørkeblå drengejeans"  />
+			<text id="cloth_dressfemale" name="GeeCee lille kjole"  />
+			<text id="cloth_flowerskirtfemale" name="GeeDee blomsternederdel"  />
+			<text id="cloth_ggsshirtmale" name="GeeCee T-Shirt"  />
+			<text id="cloth_goldnecklacefemale" name="Gyldent collier"  />
+			<text id="cloth_greendressfemale" name="GeeDee (lille) kjole"  />
+			<text id="cloth_greenjacketfemale" name="JayJay pigevindjakke"  />
+			<text id="cloth_greenjacketmale" name="JayJay drenge vindjakke"  />
+			<text id="cloth_greenpulloverfemale" name="Grøn rullekragepullover"  />
+			<text id="cloth_greenshirtmale" name="GeeDee drenge shirt"  />
+			<text id="cloth_greysuitmale" name="Gråt jakkesæt"  />
+			<text id="cloth_lightbluejeansfemale" name="Lyseblå damejeans"  />
+			<text id="cloth_lightbluejeansmale" name="Lyseblå mandejeans"  />
+			<text id="cloth_manblackmale" name="Sorte laksko"  />
+			<text id="cloth_manbrownmale" name="Brune lædersko"  />
+			<text id="cloth_orangeknitcapfemale" name="Orangen Beanie"  />
+			<text id="cloth_orangeknitcapmale" name="Orange Beanie"  />
+			<text id="cloth_perlnecklacefemale" name="Enkel perlekæde"  />
+			<text id="cloth_pinkhangbagfemale" name="Quiltet håndtaske"  />
+			<text id="cloth_pinkshirtfemale" name="Rosa poloshirt"  />
+			<text id="cloth_premiumbluejacketmale" name="Forårsjakke"  />
+			<text id="cloth_premiumgreenjacketfemale" name="Forårsfrakke"  />
+			<text id="cloth_premiumjumpsuitfemale" name="GeeDee pige jumpsuit"  />
+			<text id="cloth_premiumshortsmale" name="GeeDee drenge shorts"  />
+			<text id="cloth_purplehandbagfemale" name="GeeCee shopper"  />
+			<text id="cloth_purplepulloverfemale" name="Lilla rullekragepullover"  />
+			<text id="cloth_purpletshirtfemale" name="JayJay pigetshirt"  />
+			<text id="cloth_redcapfemale" name="Rød basecap"  />
+			<text id="cloth_redcapmale" name="Rød basecap"  />
+			<text id="cloth_reddressfemale" name="Skulderfri aftenkjole"  />
+			<text id="cloth_redheelsfemale" name="Røde lakpumps"  />
+			<text id="cloth_redskirtfemale" name="Rød sløjfenederdel"  />
+			<text id="cloth_redsneakermale" name="JayJay røde drenge fodtøj"  />
+			<text id="cloth_redtopfemale" name="Rød glittertop"  />
+			<text id="cloth_scraffemale" name="GeeCee prikhalstørklæde"  />
+			<text id="cloth_scrafmale" name="GeeCee Karoscha"  />
+			<text id="cloth_silvernecklacefemale" name="Sølvhalskæde"  />
+			<text id="cloth_silverwatchmale" name="Sølvarmbånd"  />
+			<text id="cloth_sneakersfemale" name="Hvide sneaker"  />
+			<text id="cloth_sneakersgreenmale" name="GeeCee grøn træder"  />
+			<text id="cloth_sneakersmale" name="Hvide sneaker"  />
+			<text id="cloth_strawberrysneakerfemale" name="JayJay jordbærsko"  />
+			<text id="cloth_stripedshirtmale" name="GeeDee drenge stribeshirts"  />
+			<text id="cloth_stripedtopfemale" name="GeeDee pige sommertop"  />
+			<text id="cloth_stripedtshirtmale" name="JayJay sribet drengeshirt"  />
+			<text id="cloth_sweathoodiemale" name="GeeDee drenge Hoodie"  />
+			<text id="cloth_trenchcoatmale" name="Sort trenchcoat"  />
+			<text id="cloth_whiteshirtmale" name="Hvid skjorte"  />
+			<text id="cloth_whiteskirtfemale" name="Hvid mininederdel"  />
+			<text id="cloth_yellowdressfemale" name="Gyldent cocktailkjole"  />
+		</cloth>
+		<commons>
+			<text id="achievement_rang" name="Rang {0}/{1}"  />
+			<text id="comingsoon" name="*Kommer snart*"  />
+			<text id="currency_cash" name="Fashiondollar"  />
+			<text id="currency_gold" name="Guldknapper"  />
+			<text id="currency_gold_single" name="Guldknap"  />
+			<text id="factorytyp_accessories" name="Accessoires"  />
+			<text id="factorytyp_clothes" name="Beklædning"  />
+			<text id="factorytyp_shoes" name="Sko"  />
+			<text id="friendscount" name="Venner {0}"  />
+			<text id="levelcount" name="Level {0}"  />
+			<text id="levellabel" name="Level"  />
+			<text id="mastery" name="Etiket-level"  />
+			<text id="new" name="Nyt!"  />
+			<text id="xplabel" name="XP"  />
+		</commons>
+		<coopmission>
+			<text id="coop_desc_1" name="Et par skønne Basics til piknikken!"  />
+			<text id="coop_desc_10" name="Rober og jakkesæt til vores debutanter!"  />
+			<text id="coop_desc_11" name="Klassikerne for manden!"  />
+			<text id="coop_desc_2" name="Det passende outfit for en sporttrip!"  />
+			<text id="coop_desc_3" name="Musik og mennesker hele natten!"  />
+			<text id="coop_desc_4" name="De perfekte gaver til enhver anledning!"  />
+			<text id="coop_desc_5" name="Intet er så godt som et godtsiddende jakkesæt!"  />
+			<text id="coop_desc_6" name="Sko hvorhen man kun ser!"  />
+			<text id="coop_desc_7" name="Nederdel, tops og sko...alt i rødt!"  />
+			<text id="coop_desc_8" name="Klæder, klæder, klæder til vores piger!"  />
+			<text id="coop_desc_9" name="Lige det rigtige til dansekursen!"  />
+			<text id="coop_title_1" name="Lad os komme til piknik!"  />
+			<text id="coop_title_10" name="Debutantbold!"  />
+			<text id="coop_title_11" name="Sort forbliver sort!"  />
+			<text id="coop_title_2" name="Sportsligt sportsligt!"  />
+			<text id="coop_title_3" name="Koncert udsolgt!"  />
+			<text id="coop_title_4" name="Dejlige gaver!"  />
+			<text id="coop_title_5" name="Alt for manden!"  />
+			<text id="coop_title_6" name="Sko overalt!"  />
+			<text id="coop_title_7" name="En drøm i rød!"  />
+			<text id="coop_title_8" name="Kun for piger!"  />
+			<text id="coop_title_9" name="Dansekursus!"  />
+		</coopmission>
+		<coop_msg>
+			<text id="coop_msg_0" name="{0} har startet denne Co-Op."  />
+			<text id="coop_msg_1" name="{0} er tiltrådt denne Co-Op."  />
+			<text id="coop_msg_2" name="{0} har forladt denne Co-Op."  />
+			<text id="coop_msg_3" name="{0} vil producere {1} {2} gange."  />
+			<text id="coop_msg_4" name="{0} har produceret {1}."  />
+			<text id="coop_msg_5" name="{0} har forlænget Co-Open."  />
+		</coop_msg>
+		<dialogs>
+			<text id="dialogs_achievement_title" name="Udmærkelser"  />
+			<text id="dialogs_advertisementfinal_copy" name="Din reklameaktion er forbi! Se nedenfor resultatet for aktionen!
+Hvad mon den næste bringer?"  />
+			<text id="dialogs_advertisementfinal_title" name="Tillykke!"  />
+			<text id="dialogs_advertisementrunning_copy" name="En reklameaktion er i gang for tiden. Hvordan det går ser du her."  />
+			<text id="dialogs_advertisementrunning_time" name="Resterende tid:"  />
+			<text id="dialogs_advertisementrunning_title" name="Reklame er igang!"  />
+			<text id="dialogs_advertisement_btn_start" name="Start"  />
+			<text id="dialogs_advertisement_flyer_copy" name="Forøg din popularitet!"  />
+			<text id="dialogs_advertisement_flyer_reward" name="{0} points"  />
+			<text id="dialogs_advertisement_flyer_title" name="Flyeraktion"  />
+			<text id="dialogs_advertisement_magazine_copy" name="Hver kunde køber doppelt så meget ind!"  />
+			<text id="dialogs_advertisement_magazine_reward" name="x {0}"  />
+			<text id="dialogs_advertisement_magazine_title" name="Tidsskriftannonce"  />
+			<text id="dialogs_advertisement_title" name="Reklame"  />
+			<text id="dialogs_advertisement_tv_copy" name="Hver kunde der køber ind hos dig giver dig XP!"  />
+			<text id="dialogs_advertisement_tv_title" name="TV-reklame"  />
+			<text id="dialogs_avatarselection_copy" name="Navnet findes allerede. Hvordan vil det være med:"  />
+			<text id="dialogs_avatarselection_title" name="Hoppla"  />
+			<text id="dialogs_avatar_female" name="Pige"  />
+			<text id="dialogs_avatar_male" name="Dreng"  />
+			<text id="dialogs_avatar_name" name="Navn:"  />
+			<text id="dialogs_avatar_randombtn" name="Tilfældeoutfits"  />
+			<text id="dialogs_avatar_title" name="Skab din karakter"  />
+			<text id="dialogs_bonus_cashdesk_copy" name="Nu kan du udvide din shop med en yderligere kasse og en ny kasserer!"  />
+			<text id="dialogs_bonus_cashdesk_title" name="Ny kasse"  />
+			<text id="dialogs_bonus_changingroom_copy" name="En yderligere omklædningskabine blev åbnet."  />
+			<text id="dialogs_bonus_changingroom_title" name="Ny omklædningskabine"  />
+			<text id="dialogs_bonus_counter_copy" name="Du kan købe dig en yderligere reol!"  />
+			<text id="dialogs_bonus_counter_title" name="Ny reol"  />
+			<text id="dialogs_bonus_expand_copy" name="Du har ekspanderet og nu mere plads til dine kunder, dekorationer og meget mere!"  />
+			<text id="dialogs_bonus_expand_title" name="Udvidelse!"  />
+			<text id="dialogs_bonus_factory_copy" name="Du kan pladsere en yderligere arbejder i din shop for at producere mere vare."  />
+			<text id="dialogs_bonus_factory_title" name="Nye arbejdere"  />
+			<text id="dialogs_bonus_level2_copy" name="Allerede set? Du kan også udvide din shop for at få mere plads til dine kunder og dine varer!"  />
+			<text id="dialogs_bonus_level5_copy" name="Allerede set? Du kan tænde for din reklame, for at gøre din shop endnu mere populær; for at sælge mere vare eller for at tjene ekstra XP."  />
+			<text id="dialogs_bonus_levelUp_copy" name="Hjerteligt tillykke! Du har nået et nyt level."  />
+			<text id="dialogs_bonus_levelUp_title" name="LEVEL UP!"  />
+			<text id="dialogs_bonus_level_title" name="Attention!"  />
+			<text id="dialogs_bonus_login_copy" name="Dette er sket i din shop mens du har været væk:"  />
+			<text id="dialogs_bonus_login_copy2" name="LOGIN BONUS"  />
+			<text id="dialogs_bonus_login_title" name="Tilstede igen!"  />
+			<text id="dialogs_bonus_pattern_copy" name="Der blev åbnet nye snitmønstre for dig:"  />
+			<text id="dialogs_bonus_pattern_title" name="Nye snitmønstre"  />
+			<text id="dialogs_booster_btnbuypolice" name="Ansæt/Forlæng"  />
+			<text id="dialogs_booster_policeman_notime" name="ikke aktiv"  />
+			<text id="dialogs_booster_title" name="Booster"  />
+			<text id="dialogs_changepassword_newpassword" name="Nyt password"  />
+			<text id="dialogs_changepassword_oldpassword" name="Gammelt password:"  />
+			<text id="dialogs_changepassword_title" name="Ændring af password"  />
+			<text id="dialogs_coopreward_finish_0" name="Guld"  />
+			<text id="dialogs_coopreward_finish_1" name="Sølv"  />
+			<text id="dialogs_coopreward_finish_2" name="Bronze"  />
+			<text id="dialogs_coopreward_title_fail" name="Ikke klaret Co-Op!"  />
+			<text id="dialogs_coopreward_title_success" name="Klaret Co-Op med {0}"  />
+			<text id="dialogs_coopshelp_copy" name="Her kan du opfylde ordrer sammen med dine venner og dermed tjene ekstra XP og fashiondollar.\nJo hurtigere ordren bliver klaret, desto hurtigere er belønningen!\n\nHvis tiden engang skulle blive knap, kan du til enhver tid forlænge!\n\nMen tænk på, at du kun får belønningen, hvis du også bidrager med noget!"  />
+			<text id="dialogs_coopshelp_title" name="Hvad er Co-Ops?"  />
+			<text id="dialogs_coop_btn_action" name="Detaljer"  />
+			<text id="dialogs_coop_btn_activecoops" name="Aktiver"  />
+			<text id="dialogs_coop_btn_join" name="Vær med"  />
+			<text id="dialogs_coop_btn_newcoop" name="Start af Co-Op"  />
+			<text id="dialogs_coop_btn_progress" name="Fremskridt"  />
+			<text id="dialogs_coop_btn_protocol" name="Protokol"  />
+			<text id="dialogs_coop_btn_quit" name="Forlad"  />
+			<text id="dialogs_coop_extendtime_copy" name="Ønsker du at forlænge Co-Open for {0} guldknapper?
+Guldtid: {1} Sølvtid: {2}
+Broncetid: {3}"  />
+			<text id="dialogs_coop_extendtime_title" name="Mere tid?"  />
+			<text id="dialogs_coop_maxuser" name="Maksimalt deltagerantal: {0}"  />
+			<text id="dialogs_coop_member" name="Co-Opdeltager:"  />
+			<text id="dialogs_coop_minlevel" name="Mindste deltagerantal: {0}"  />
+			<text id="dialogs_coop_minlevel_short" name="Mit level: {0}"  />
+			<text id="dialogs_coop_produce_copy" name="Hvor ofte ønsker du at producere {0} til denne Co-Op?"  />
+			<text id="dialogs_coop_produce_title" name="Producer for Co-Op?"  />
+			<text id="dialogs_coop_quit_copy" name="Ønsker du virkeligt at forlade Co-Open?"  />
+			<text id="dialogs_coop_subtitle" name="Det skal I producere:"  />
+			<text id="dialogs_coop_timeInfo" name="Klaret i:"  />
+			<text id="dialogs_coop_timeleft" name="Øvrig tid:"  />
+			<text id="dialogs_coop_txt_noactive" name="For tiden findes der ikke nogen aktive Co-Ops.\nStart dog bare en!"  />
+			<text id="dialogs_coop_txt_title" name="Co-Ops"  />
+			<text id="dialogs_counterclick_btndonate" name="Bidrag"  />
+			<text id="dialogs_counterclick_copy" name="Følgende varer befinder sig på denne reol."  />
+			<text id="dialogs_counterclick_title" name="Reol"  />
+			<text id="dialogs_customclothbuy_copy" name="Ønsker du at aflægge {0} for {1} guldknap permanent i dit katalog?"  />
+			<text id="dialogs_customclothbuy_title" name="Køb snitmønster!"  />
+			<text id="dialogs_customclothhelp_copy" name="Her kan du selv designe og producere helt individuel beklædning!
+Vælg dertil en form og farve!
+Formen bestemmer produktionstiden og din fortjeneste.
+Det anlagte snitmønster står så 24 timer til din rådighed.
+Vil du beholde snitmønsteret kan du også aflægge det permanent i dit varekatalog!"  />
+			<text id="dialogs_customclothinfo_title" name="Din egen stil!"  />
+			<text id="dialogs_customcloth_btn_choose" name="Udvælg"  />
+			<text id="dialogs_customcloth_entername" name="Giv mig et navn!"  />
+			<text id="dialogs_customcloth_icon" name="Påtryk"  />
+			<text id="dialogs_customcloth_shape" name="Form"  />
+			<text id="dialogs_customcloth_title" name="Dit design bestemmer stilen!"  />
+			<text id="dialogs_decoshophelp_copy" name="Når du trækker dine møbler og dekorationer ind i denne liste og IKKE til kassen, bliver disse lagret.
+Når du trækker dem ind i din shop påny koster dig dette ikke nogen penge.
+Stykantallet for enhver genstand ser du ved siden af den tomme karton."  />
+			<text id="dialogs_decoshophelp_copy_1" name="Møblerne og dekorationerne har en luksusværdi,som, opaderet bestemmer din shops luksusværdi! Hvor luksuriøs er din shop?"  />
+			<text id="dialogs_decoshophelp_title" name="Lager reoler/dekorationer?"  />
+			<text id="dialogs_decoshophelp_title_1" name="Luksusværdi?"  />
+			<text id="dialogs_factoryclick_btn_cancel" name="Afbryd produktionen"  />
+			<text id="dialogs_factoryclick_copy" name="Ønsker du\n&#039;Producer færdig med det samme&#039;?\nI dag kan du stadig {0} gange."  />
+			<text id="dialogs_factoryclick_title" name="Produktionen er i gang!"  />
+			<text id="dialogs_fashionbook_durationtime" name="Varighed: {0}"  />
+			<text id="dialogs_fashionbook_emptypattern" name="Der står for tiden ikke yderligere snitmønster til rådighed."  />
+			<text id="dialogs_fashionbook_emptypatterncustomcloth" name="Her kan du aflægge dine egne snitmønstre!"  />
+			<text id="dialogs_fashionbook_emptyproducts" name="Du skal bruge snitmønster for at kunne producere varer.\n\nKøb dig noget fra varekataloget."  />
+			<text id="dialogs_fashionbook_pieces" name="Styktal:"  />
+			<text id="dialogs_fashionbook_productionPrice" name="{0} Produktionsomkostninger"  />
+			<text id="dialogs_fashionbook_saleprice" name="/ Styk:"  />
+			<text id="dialogs_featureUnlocked_advertisement" name="Bring din forretning rigtig i hopla med reklame!"  />
+			<text id="dialogs_featureUnlocked_arcades" name="Find nye venner i arkaderne!"  />
+			<text id="dialogs_featureUnlocked_coop" name="Start sammen dine venner en Co-Op!"  />
+			<text id="dialogs_featureUnlocked_custompattern" name="Kreer fra nu af dine egne snitmønstre!"  />
+			<text id="dialogs_featureUnlocked_decoration" name="Nye dekorationer blev åbnet for dig!"  />
+			<text id="dialogs_featureUnlocked_policeman" name="Attention! Fra nu af kan varer ogsü blive stjålet!
+Ansæt bedst en politimand!"  />
+			<text id="dialogs_featureUnlocked_ranking" name="Besøg andre spillere over ranglisten!"  />
+			<text id="dialogs_featureUnlocked_wheeloffortune" name="Prøv dit held ved lykkehjulet og vind gode priser!"  />
+			<text id="dialogs_giftbox_btnclose" name="Luk"  />
+			<text id="dialogs_giftbox_btnsend" name="forær"  />
+			<text id="dialogs_giftbox_empty_friends" name="Du kan sende hver ven en gave en gang om dagen."  />
+			<text id="dialogs_giftbox_empty_mygifts" name="Din gaveboks er tom for tiden.\nSend noget til dine venner. Måske forærer de dig noget tilbage."  />
+			<text id="dialogs_giftbox_empty_sendablegifts" name="I dag fås ikke nogen gaver."  />
+			<text id="dialogs_giftbox_friendstitle" name="Send til venner"  />
+			<text id="dialogs_giftbox_mygiftstitle" name="Mine gaver"  />
+			<text id="dialogs_giftbox_sendablegiftstitle" name="Send gaver"  />
+			<text id="dialogs_highscore_name" name="Navn"  />
+			<text id="dialogs_highscore_rank" name="Rang"  />
+			<text id="dialogs_highscore_search" name="Navn/Søg rang"  />
+			<text id="dialogs_highscore_title" name="Rangliste"  />
+			<text id="dialogs_info_goldsmith_copy" name="Guldsmeden producerer udelukkende accessoires."  />
+			<text id="dialogs_info_goldsmith_title" name="Guldsmeden"  />
+			<text id="dialogs_info_sewer_copy" name="Syersken producerer udelukkende tøj."  />
+			<text id="dialogs_info_sewer_title" name="Syersken"  />
+			<text id="dialogs_info_shoemaker_copy" name="Skomageren producerer udelukkende sko."  />
+			<text id="dialogs_info_shoemaker_title" name="Skomageren"  />
+			<text id="dialogs_invitefriend_copy" name="Angiv din vens navn og e-mailadresse for at invitere ham."  />
+			<text id="dialogs_invitefriend_emptyparam" name="Du skal udfylde alle felter korrekt."  />
+			<text id="dialogs_invitefriend_friendname" name="Vennens navn:"  />
+			<text id="dialogs_invitefriend_mail" name="Vennens e-mailadresse:"  />
+			<text id="dialogs_invitefriend_myname" name="Dit navn:"  />
+			<text id="dialogs_invitefriend_title" name="Invitation"  />
+			<text id="dialogs_lonelycash_copy" name="Nogen har afleveret en pengepung på hittegodskontoret!\n
+\nMåske tilhører den dine venner?"  />
+			<text id="dialogs_lonelycash_title" name="Fundet!"  />
+			<text id="dialogs_lonelycop_copy" name="Chefen fra sikkerhedstjenesten søger en plads til sin praktikant!
+Måske ansætter dine venner ham!"  />
+			<text id="dialogs_lonelycop_title" name="Forespørgsel!"  />
+			<text id="dialogs_lonelypants_copy" name="Din kasserer har fundet en kasse med overskudsvarer.\n\nGiv dem til dine venner!"  />
+			<text id="dialogs_lonelypants_title" name="Hvad er det?"  />
+			<text id="dialogs_mannequindesign_empty" name="Fra denne kategori har du ikke noget til udvalg."  />
+			<text id="dialogs_mannequindesign_title" name="Udstillingsvindusdukke"  />
+			<text id="dialogs_mannequinpaycheck_copy" name="Jo bedre kunde kan lide varen, desto større falder din belønning for påklædning af butiksvindusdukken ud."  />
+			<text id="dialogs_mannequinpaycheck_title" name="Vurdering"  />
+			<text id="dialogs_mastery_copy_0" name="Du har fortjent en etiket for {0}!"  />
+			<text id="dialogs_mastery_copy_1" name="Giv dog et par ekstra enheder til dine venner!"  />
+			<text id="dialogs_mastery_info" name="Med hver etiket bliver din vare stadig gevinstbringende!"  />
+			<text id="dialogs_mastery_title" name="En ny etiket!"  />
+			<text id="dialogs_noreward_copy" name="Belønningen har desværre allerede en anden spiller hentet!"  />
+			<text id="dialogs_noreward_title" name="Ærgerligt!"  />
+			<text id="dialogs_payment_copy" name="Køb her\nGuldknapper og fashiondollar."  />
+			<text id="dialogs_payment_title" name="Paymentshop"  />
+			<text id="dialogs_perfectpants_copy" name="Du har produceret {0} perfekt i dag!\nGiv dine venner dog det producerede overskud!"  />
+			<text id="dialogs_perfectpants_title" name="Perfekt!"  />
+			<text id="dialogs_pesentreceived_text" name="Din velkomstgave på {0} guldknapper blev føjet til din konto"  />
+			<text id="dialogs_pesentreceived_title" name="Hurra!"  />
+			<text id="dialogs_pesentreminder_send" name="Send"  />
+			<text id="dialogs_pesentreminder_text1" name="Som velkomstgave ligger {0} guldknapper klar til dig.
+Til afhentning klik på linket i velkomst-mailen."  />
+			<text id="dialogs_pesentreminder_text2" name="Du kan kan også lade dig tilsende e-mailen endnu engang."  />
+			<text id="dialogs_pesentreminder_title" name="Velkomstgave!"  />
+			<text id="dialogs_receivecomeback_copy_0" name="Som velkommen-tilbage gave får du {0} guldknapper for en cool booster!"  />
+			<text id="dialogs_receivecomeback_copy_1" name="Som velkommen-tilbage-gave får du {0} guldknapper og varehusvagt for {1}!"  />
+			<text id="dialogs_receivecomeback_title" name="Du er tilbage!"  />
+			<text id="dialogs_receivecop_copy" name="Praktikanten har begyndt med at arbejde og forlænger tiden af din vagtmand med\n1 time!"  />
+			<text id="dialogs_receivecop_title" name="Ansat!"  />
+			<text id="dialogs_receiveitem_copy" name="Din belønning befinder sig i din gaveboks!"  />
+			<text id="dialogs_receiveitem_title" name="Hurra!"  />
+			<text id="dialogs_receivemoney_copy" name="Du har allerede fået tilgodeskrevet din belønning!"  />
+			<text id="dialogs_receivemoney_title" name="Hurra!"  />
+			<text id="dialogs_register_agb" name="Accepter AGB"  />
+			<text id="dialogs_register_btnsave" name="Lagring"  />
+			<text id="dialogs_register_copy_0" name="Registrer dig gratis nu!"  />
+			<text id="dialogs_register_copy_1" name="Lager din spillestand!"  />
+			<text id="dialogs_register_copy_2" name="Efter tilmeldingen får du {0} guldknapper tilsendt per e-mail."  />
+			<text id="dialogs_register_email" name="E-mail"  />
+			<text id="dialogs_register_forfree" name="GRATIS!"  />
+			<text id="dialogs_register_password" name="Password"  />
+			<text id="dialogs_register_title" name="REGISTRER"  />
+			<text id="dialogs_robberyall_copy" name="Hele din vare blev stjålet!"  />
+			<text id="dialogs_robbery_copy" name="Der blev stjålet!"  />
+			<text id="dialogs_robbery_copy2" name="Læg færdig producerede varer på en reol\neller ansæt en varehusvagt for beskytte din vare imod tyveri."  />
+			<text id="dialogs_robbery_title" name="TYVERI!"  />
+			<text id="dialogs_sale_copy" name="Klik med en sale-skilt på en reol for at afmærk varen til sale-salg.\nPriserne bliver reduceret og din shops popularitet stiger.\nSalesalget stopper når reolen er tom."  />
+			<text id="dialogs_sale_title" name="Salg"  />
+			<text id="dialogs_shippingconfirmation_send" name="Din velkomstgave blev lige sendt til dig.
+
+For afhentning klik bare på linket i velkomst-mailen."  />
+			<text id="dialogs_shippingconfirmation_titel" name="Gave!"  />
+			<text id="dialogs_staff_btnfire" name="Afskedig"  />
+			<text id="dialogs_staff_btnhire" name="Ansæt"  />
+			<text id="dialogs_staff_title" name="Dine kasserer"  />
+			<text id="dialogs_wheeloffortune_beforespin" name="Drej lykkehjulet og vind flotte præmier!"  />
+			<text id="dialogs_wheeloffortune_btn_go" name="Drej!"  />
+			<text id="dialogs_wheeloffortune_btn_towheel" name="Til lykkehjulet"  />
+			<text id="dialogs_wheeloffortune_copy1" name="Allerede drejet lykkehjulet i dag?"  />
+			<text id="dialogs_wheeloffortune_info" name="Den første drejerunde om dagen er gratis!"  />
+			<text id="dialogs_wheeloffortune_nomoney" name="Du har ikke nok guldknapper for at kunne dreje lykkehjulet!"  />
+			<text id="dialogs_wheeloffortune_noregister" name="Kun som registreret spiller må du dreje lykkehjulet!"  />
+			<text id="dialogs_wheeloffortune_nospace" name="Du har ikke plads i din gaveboks til dine præmier! Gør plads, så kan du dreje lykkehjulet!"  />
+			<text id="dialogs_wheeloffortune_title" name="Lykkehjulet!"  />
+			<text id="dialogs_wheeloffortune_tryagain" name="Prøv dog en gang mere lige straks!"  />
+			<text id="dialogs_wheeloffortune_woncash" name="Hjerteligt tillykke! Din præmie fik du allerede tilgodeskrevet!"  />
+			<text id="dialogs_wheeloffortune_woncloth" name="Hjerteligt tillykke! Din præmie befinder sig i din gaveboks!"  />
+			<text id="dialogs_wheeloffortune_wonitem" name="Hjerteligt tillykke! Din præmie befinder sig på dit lager!"  />
+		</dialogs>
+		<error_codes>
+			<text id="error_advertisement_nolevel" name="Du skal mindst have nået level {0} for at kunne udføre en reklameaktion."  />
+			<text id="error_advertisement_nomoney" name="Du har ikke nok Guldknapper/Fashiondollar for at kunne udføre denne reklameaktion!"  />
+			<text id="error_avatar_12" name="Navnet findes allerede."  />
+			<text id="error_avatar_15" name="Brugeren har allerede en Avatar."  />
+			<text id="error_avatar_genderempty" name="Vælg venligst en karakter ud!"  />
+			<text id="error_avatar_nameinvalide" name="Dit brugernavn må ikke være tomt eller indeholde særtegn."  />
+			<text id="error_avatar_standardname" name="Indberet venligst dit brugernavn."  />
+			<text id="error_boost_nomoney" name="Du har ikke råd til at indsætte denne booster."  />
+			<text id="error_cancleproduction_36" name="Reolen kan ikke nå! Du burde flytte nogle ting."  />
+			<text id="error_changepassword_0" name="Dit password blev ændret succesfuldt!"  />
+			<text id="error_changepassword_10" name="Dit gamle password er ikke angivet korrekt!"  />
+			<text id="error_changepassword_copy" name="Dit nye password skal være på mere end 2 tegn. Bemærk om du har indtastet dit gamle password korrekt."  />
+			<text id="error_changepassword_title" name="Ændring af password"  />
+			<text id="error_chat_23" name="Din chatfunktion blev midlertidigt deaktiveret af administrator."  />
+			<text id="error_chat_24" name="Spam venligst ikke chatten fuld!"  />
+			<text id="error_common_1" name="Generel fejl/nserverkommando {0}"  />
+			<text id="error_common_3" name="- DEBUG: For lille level -"  />
+			<text id="error_common_30" name="-DEBUG: Arbejder/Reol ikke tilstede-"  />
+			<text id="error_common_38" name="-DEBUG: I ombygningsmodus-"  />
+			<text id="error_common_5" name="- DEBUG: Ukendt WodId -"  />
+			<text id="error_common_80" name="-DEBUG: Vejberegning. Forsinkelse for lang -"  />
+			<text id="error_common_81" name="-DEBUG: Vejberegning. Forsinkelse negativ -"  />
+			<text id="error_common_title" name="Attention!"  />
+			<text id="error_coop_3" name="Dit level er for lavt for at kunne deltage ved denne Co-Op.\nDu skal mindst have åbnet et snitmønster."  />
+			<text id="error_coop_90" name="Du deltager allerede ved en Co-Op!"  />
+			<text id="error_coop_91" name="Det maksimale deltagertal for Co-Ops er allerede nået."  />
+			<text id="error_coop_92" name="Co-Open er allerede færdig!"  />
+			<text id="error_coop_93" name="Du har i dag allerede begyndt en Co-Op! Du kan først starte en igen i morgen!"  />
+			<text id="error_coop_nomoney" name="Du har ikke nok guldknapper til at forlænge denne Co-Op."  />
+			<text id="error_coop_title" name="CO-OP"  />
+			<text id="error_customclothbuy_nomoney" name="Du har ikke nok guldknapper til at købe snitmønsteret!"  />
+			<text id="error_customclothproduce_nomoney" name="Du har ikke nok fashiondollar til at producere snitmønsteret!"  />
+			<text id="error_customclothunlock_nomoney" name="Du har ikke nok fashiondollar eller guldknapper til at åbne denne genstand!"  />
+			<text id="error_customize_nomoney" name="Du har ikke nok guldknapper til at klæde din Avatar om."  />
+			<text id="error_custom_nameinvalide" name="Du må ikke anvende {0}!"  />
+			<text id="error_deliverinfo_33" name="-DEBUG: Vare er endnu ikke færdigproduceret-"  />
+			<text id="error_deliverinfo_35" name="-DEBUG: Arbejderen havde ikke produceret noget-"  />
+			<text id="error_deliverinfo_36" name="Denne arbejder er ikke tilstede. Ryd din shop, så at i det mindste en side hos arbejderen er tilgängelig."  />
+			<text id="error_deliverinfo_37" name="Desværre er ikke nogen reol fri til at udstille varen."  />
+			<text id="error_deliver_33" name="-DEBUG: Vare er endnu ikke færdigproduceret-"  />
+			<text id="error_deliver_35" name="-DEBUG: Arbejderen havde ikke produceret noget-"  />
+			<text id="error_deliver_36" name="Denne reol kan ikke nås. Ryd din shop så at i det mindste en side af reolen er tilgængelig."  />
+			<text id="error_deliver_37" name="Denne reol er desværre allerede fuld. Søg dig en fri reol og udstil dine varer der."  />
+			<text id="error_deliver_46" name="Man kan ikke hænge denne vare op. Vælg en reol hvorpå du lægge det."  />
+			<text id="error_deliver_title" name="Går ikke..."  />
+			<text id="error_editmode_3" name="-DEBUG: Mindste level er ikke opfyldt-"  />
+			<text id="error_editmode_31" name="-DEBUG: Objekt er ikke klikbar-"  />
+			<text id="error_editmode_32" name="-DEBUG: Artiklen er ikke på lager-"  />
+			<text id="error_editmode_37" name="-DEBUG: Vare ligger endnu på-"  />
+			<text id="error_editmode_39" name="-DEBUG: Ukendt position-"  />
+			<text id="error_editmode_48" name="-DEBUG: Umotiverede arbejdere er ikke lagerbare-"  />
+			<text id="error_editmode_50" name="-DEBUG: Positionen er blokerbar-"  />
+			<text id="error_editmode_51" name="-DEBUG: Positionen er tom-"  />
+			<text id="error_editmode_52" name="-DEBUG: Objekt er ikke drejebart-"  />
+			<text id="error_editmode_53" name="-DEBUG: Denne udvidelse har du allerede-"  />
+			<text id="error_editmode_54" name="-DEBUG: Denne udvidelse må du ikke købe endnu-"  />
+			<text id="error_editmode_55" name="-DEBUG: Butiksvinduedukke kan ikke sælges/indlagres -"  />
+			<text id="error_editmode_nomoney" name="Du har desværre ikke råd til denne artikel."  />
+			<text id="error_editmode_removeMannequin" name="Sol lang tid dukken bærer vare, kan du ikke sælge den."  />
+			<text id="error_editmode_removeminCashdesk" name="Du skal mindst have en kasse, så dine kunder kan betale varen."  />
+			<text id="error_editmode_removeminChangingroom" name="Du skal mindst have en omklædningskabine, så dine kunder kan prøve varen."  />
+			<text id="error_editmode_removeminCounter" name="Du skal bruge mindst en reol, så du kan sælge dine varer."  />
+			<text id="error_editmode_removeminFactory" name="Du har brug for mindst en arbejder for at kunne producere nye varer."  />
+			<text id="error_editmode_removeminMannequin" name="Du skal mindst have en butiksvinduedukke, så du kan præsentere din vare bedre."  />
+			<text id="error_editmode_removenotallowedCounter" name="På reolen befinder der sig endnu vare!"  />
+			<text id="error_editmode_removenotallowedDoor" name="Du har brug for en dør! For at skifte døren træk en anden ind i din shop."  />
+			<text id="error_editmode_removenotallowedFactory" name="Arbejderen er stadig i indsats!"  />
+			<text id="error_editmode_title" name="Fejl ved ombygningen"  />
+			<text id="error_fashiongame_1" name="Shoppen kunne ikke lades. Henvend dig venligst til Goodgame Studios-Support."  />
+			<text id="error_fashiongame_title" name="Grov fejl"  />
+			<text id="error_forgotpassword_101" name="Du har blokeret modtagelsen af e-mails. Henvend dig venligst til supporten."  />
+			<text id="error_fullscreen_copy" name="Fuldbilledmodussen er desværre ikke mulig."  />
+			<text id="error_fullscreen_title" name="Fuldbilledmodus"  />
+			<text id="error_gift_20" name="Desværre er reolen ikke fri for at kunne benytte gaven."  />
+			<text id="error_gift_34" name="Du har allerede nået dit gavelimit.
+Ønsker du at anvende yderligere {0} for {1} guldknapper?"  />
+			<text id="error_gift_37" name="Desværre er reolen ikke fri for at kunne benytte reolen."  />
+			<text id="error_gift_nomoney" name="Du har ikke nok guldknapper for at kunne benytte endnu flere gaver!"  />
+			<text id="error_gift_title" name="Gaver"  />
+			<text id="error_instantdesign_34" name="- DEBUG: Daglige limit opnået -"  />
+			<text id="error_instantdesign_nomoney" name="Du har ikke guldknapper nok til at kunne påklæde butiksvinduedukken i nyt tøj."  />
+			<text id="error_instantdesign_nomoreinstant" name="Du kan kun begrænset ofte klæde din butiksvindusdukke tidligt. I morgen kan du gestalte dit butiksvindue anderledes igen."  />
+			<text id="error_instantdesign_title" name="Udstillingsvindue"  />
+			<text id="error_instantwork_nomoney" name="Du har ikke nok guldknapper til at kunne færdiggøre produktionen med det samme."  />
+			<text id="error_invitefriend_11" name="Spilleren er ikke online for tiden. Prøv senere endnu engang!"  />
+			<text id="error_invitefriend_13" name="Din ven er allerede registreret hos Fashion!"  />
+			<text id="error_invitefriend_14" name="E-mailadressen er desværre ugyldig"  />
+			<text id="error_invitefriend_70" name="Du har allerede nået din vennelimit!"  />
+			<text id="error_invitefriend_71" name="Spilleren må ikke have yderligere venner!"  />
+			<text id="error_invitefriend_title" name="Invitation slået fejl"  />
+			<text id="error_job_2" name="Fyraften! Du har først engang arbejdet nok."  />
+			<text id="error_join_20" name="Shoppen er fuld. Prøv igen senere."  />
+			<text id="error_join_21" name="-DEBUG: Allerede i shoppen-"  />
+			<text id="error_join_22" name="-DEBUG: Shoppen er ukendt-"  />
+			<text id="error_join_title" name="Betræd shop"  />
+			<text id="error_login_10" name="Brugernavn eller password er forkert!"  />
+			<text id="error_login_11" name="Brugernavn eller password er forkert!"  />
+			<text id="error_login_12" name="Bruger er allerede tilmeldt."  />
+			<text id="error_login_13" name="Bruger er allerede tilmeldt."  />
+			<text id="error_login_14" name="Brugernavn eller password er forkert!"  />
+			<text id="error_login_15" name="Du er allerede logget på"  />
+			<text id="error_login_16" name="Din Avatar er fejlfuld. Henvend dig venligst til supporten."  />
+			<text id="error_lostpassword_101" name="Denne e-mailadresse er blokeret. Klik på okaz, for at tillade modtagelsen."  />
+			<text id="error_lostpassword_11" name="På denne adresse er der ikke registreret nogen bruger!"  />
+			<text id="error_marketplace_20" name="-DEBUG: Arkaderne er desværre fulde-"  />
+			<text id="error_marketplace_21" name="-DEBUG: Du befinder dig allerede i arkaderne-"  />
+			<text id="error_marketplace_title" name="Goodgame arkader"  />
+			<text id="error_nocustomclothselected" name="Vælg først en form, når du vil producere noget!"  />
+			<text id="error_nomoney_copy" name="Det har du desværre ikke råd til."  />
+			<text id="error_nomoney_guest_copy" name="Du er fallit?\nSå registrer dig hurtigt og kasser {0} fashiondollar!"  />
+			<text id="error_nomoney_title" name="Pengemangel"  />
+			<text id="error_npchire_nomoney" name="Du har ikke guldknapper nok til at kunne ansætte en ny kasserer."  />
+			<text id="error_patternshop_44" name="Du besidder da allerede dette snitmønster."  />
+			<text id="error_patternshop_5" name="-DEBUG: WOD ukendt-"  />
+			<text id="error_patternshop_nomoney" name="Du har desværre ikke råd til det nye snitmønster."  />
+			<text id="error_patternshop_title" name="Snitmønsterproblem"  />
+			<text id="error_police_nomoney" name="Du har ikke nok guldknapper til at ansætte varehusvagten."  />
+			<text id="error_register_10" name="Det password du har indtastet er ikke korrekt."  />
+			<text id="error_register_102" name="Den indtastede adresse er ikke gyldig."  />
+			<text id="error_register_13" name="På denne e-mail er der allerede tilmeldt en spiller."  />
+			<text id="error_register_14" name="E-mailadressen du har indtastet er ikke korrekt."  />
+			<text id="error_register_19" name="Din e-mailadresse er desværre for lang."  />
+			<text id="error_register_2" name="Du har allerede bekræftet din e-mailadresse."  />
+			<text id="error_register_agb" name="Uden AGB går det ikke. Bare læs og bekræft med button på højre side; så kan det gå løs!"  />
+			<text id="error_register_emailinvalide" name="E-mailadressen må ikke være tom eller indeholde særtegn."  />
+			<text id="error_register_passwordinvalide" name="Dit password må ikke være tomt eller indeholde særtegn."  />
+			<text id="error_register_title" name="Registreringsfejl"  />
+			<text id="error_repair_36" name="-DEBUG: Arbejderen er ikke tilstede-"  />
+			<text id="error_repair_48" name="-DEBUG: Arbejder har allerede 100% motivation-"  />
+			<text id="error_repair_nomoney" name="Du har ikke nok fashiondollar til at betale en bonusløn."  />
+			<text id="error_repair_title" name="Reparation"  />
+			<text id="error_sale_47" name="På denne reol er der ikke nogen vare!"  />
+			<text id="error_sale_title" name="Særtilbud"  />
+			<text id="error_walk_23" name="-DEBUG: Dette sted er ikke begåbar-"  />
+			<text id="error_work_31" name="-DEBUG: Arbejderne arbejder allerede!-"  />
+			<text id="error_work_32" name="-DEBUG: Snitmønsteret mangler til dette produkt -"  />
+			<text id="error_work_36" name="Vejen til arbejderen er spærret! Forsøg at omdekorer."  />
+			<text id="error_work_41" name="- DEBUG: Ikke nogen booster i inventaret -"  />
+			<text id="error_work_45" name="-DEBUG: Produkttyp og arbejdertyp passer ikke overens-"  />
+			<text id="error_work_49" name="- DEBUG: Forkert booster for denne arbejder -"  />
+			<text id="error_work_67" name="Dit snitmønster er ikke mere til rådighed.
+Kreer dog et nyt et!"  />
+			<text id="error_work_nomoney" name="Du har ikke nok fashiondollar til at starte produktionen."  />
+			<text id="error_work_title" name="Arbejdsvægring"  />
+		</error_codes>
+		<feature>
+			<text id="feature_0_text_0" name="Det er så vidt!\n\nGoodgame Fashion starter officielt i BETA-fasen.\nEnhver starter igen med Level 1, får tilgodeskrevet sine købte guldknapper og ydermere 10 bonus-guldknapper som tak. \n\nRigtig god fornøjelse hos Goodgame Fashion!"  />
+			<text id="feature_0_title" name="Officiel start!"  />
+			<text id="feature_10_text_0" name="Det bliver sommerligt!
+Den nye GeeDee kollektion er kommet!"  />
+			<text id="feature_1_text_0" name="Gennemstart med dine venner i fællesskab!\nOpdag de nye Co-Ops!"  />
+			<text id="feature_2_text_0" name="Opdag de nye reoler, omklædningskabiner og kasser!"  />
+			<text id="feature_2_text_1" name="At flytte har aldrig været så let! Klik bare på din karakter!"  />
+			<text id="feature_2_text_2" name="Oplev Fashion nu med lyd!"  />
+			<text id="feature_3_text_0" name="Foråret kommer!
+Bring med det nye snitmønster et frisk pust ind i din shop!"  />
+			<text id="feature_3_text_1" name="Med de nye etiketter bliver din vare stadig gevinstbringende!"  />
+			<text id="feature_4_text_0" name="Det bliver kulørt!
+Den ny JayJaykollektion bringer farve i din forretning!"  />
+			<text id="feature_4_text_1" name="Opdag de nye reoler, omklædningskabiner og kasser!"  />
+			<text id="feature_4_text_2" name="De nye forårsjakker lønner sig rigtigt!"  />
+			<text id="feature_4_text_3" name="Gå dine venner til hænde og du bliver belønnet!"  />
+			<text id="feature_5_text_0" name="Det bliver kulørt! Den nye JayJay kollektion bringer farve i din forretning!"  />
+			<text id="feature_5_text_1" name="Opdag de nye reoler, omklædningskabiner og kasser!"  />
+			<text id="feature_5_text_2" name="De nye forårsjakker lønner sig rigtigt!"  />
+			<text id="feature_5_text_3" name="Giv dine venner en hånd og du bliver belønnet!"  />
+			<text id="feature_6_text_0" name="Bliv modedesigner og kreer dine snitmønstre bare selv!"  />
+			<text id="feature_6_text_1" name="Opdag de nye butiksvinduer til din shop!"  />
+			<text id="feature_7_text_0" name="Står dit held dig bi?
+Find ud af det hos det nye lykkehjul i arkaderne!"  />
+			<text id="feature_8_text_0" name="Forøg din popularitet og hent glamouren til din shop med den nye luksusværdi på møbler og dekorationer!"  />
+			<text id="feature_8_text_1" name="Begejstre dine kunder med nye reoler, kabiner og kasser!"  />
+			<text id="feature_9_text_0" name="Forøg din shops popularitet med reklame og tjen ekstra XP!"  />
+			<text id="feature_9_text_1" name="Anbring flere gaver på dine hylder!"  />
+			<text id="feature_title" name="Nye features"  />
+		</feature>
+		<feeds>
+			<text id="descriptionfashionfeed" name="Jeg har lige installeret Goodgame Fashion. Vil du også åbne en Fashion Shop og blive modedesigner? Så kig da ind!"  />
+			<text id="descriptionlongfashion" name="Åben din egen shop hos Goodgame Fashion. Bliv til den  foretrukne modedesigner, køb nye snitmønstre, producer din egen beklædning og skab nye trends. Dekorer din shop og bliv den nye star på modescenen!"  />
+		</feeds>
+		<forumaction>
+			<text id="forumaction_copy_1" name="Design din egen bademode og vind!
+Vinderen kan forvente gudlknapper og snitmønsteret kommer i snitmønsterbogen!
+
+Altså ind forummet og spil med!"  />
+			<text id="forumaction_title_1" name="Vær kreativ!"  />
+		</forumaction>
+		<loggedin_msg id=""  />
+		<panels>
+			<text id="panels_buddylist_morefriends" name="Flere venner"  />
+			<text id="panels_login_email" name="Brugernavn/ E-mail"  />
+			<text id="panels_login_loginbtn" name="LOGIN"  />
+			<text id="panels_login_lostpassword" name="Glemt password?"  />
+			<text id="panels_login_password" name="Password"  />
+			<text id="panels_login_playbtn" name="SPIL MED DET SAMME"  />
+			<text id="panels_login_registerbtn" name="REGISTRER"  />
+			<text id="panels_login_rememberpassword" name="Lagring af password"  />
+			<text id="panels_social_alone" name="For tiden er du alene her!"  />
+			<text id="panels_social_bot" name="Fashion-Chat"  />
+			<text id="panels_social_chatblocked" name="Kun registrerede spillere fra level 1 må benytte chatten."  />
+			<text id="panels_social_come_in" name="har betrådt shoppen"  />
+			<text id="panels_social_go_out" name="har forladt shoppen"  />
+			<text id="panels_social_nofriends" name="Du har ikke nogen venner endnu!"  />
+			<text id="panels_social_welcome_market" name="Velkommen i Goodgame Arkaderne!"  />
+			<text id="panels_social_welcome_myshop" name="Velkommen"  />
+		</panels>
+		<server>
+			<mail>
+				<text id="mail_invite_friend" name="Hi %s!&lt;br /&gt;&lt;br /&gt;Jeg har lige opdaget det smarte onlinespil &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br
+/&gt;via dette link kommer du direkte til spillet:&lt;br
+/&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br
+/&gt;Tilmeld dig vialinket, for at"  />
+				<text id="mail_lost_pw" name="Hallo %s!&lt;br /&gt;&lt;br /&gt;Du modtager denne automatiske e-mail, fordi du har søgt om et nyt password.&lt;br/&gt;dit password er: %s&lt;br /&gt;&lt;br /&gt;via dette link kommer du direkte til spillet:&lt;br /&gt;http:
+//www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;ved spørgsmål og problemer henvend dig venligst til support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;vi ønsker dig viderehen rigtig god fornøjelse med at spille!&lt;br /&gt;&lt;br /&gt;dit team fra&lt;br /&gt;Goodgamestudios.com"  />
+				<text id="mail_registration" name="Hallo,&lt;br /&gt;&lt;br /&gt;mange tak for din tilmelding og hjerteligt velkommen hos &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br
+/&gt;Du kan tilenhver tid logge dig på med følgende data:&lt;br /&gt;E-mail: %s&lt;br /&gt;Password: %s&lt;br /&gt;&lt;br
+/&gt;via dette link kommer du direkte til spillet:&lt;br
+/&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br
+/&gt;Ved spørgsmål og problemer henvend dig venligst til support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;Vi ønsker dig rigtig god fornøjelse med at spille!&lt;br /&gt;&lt;br /&gt;Dit team fra&lt;br /&gt;Goodgamestudios.com"  />
+			</mail>
+			<misc>
+				<text id="marketplace" name="Goodgame arkader"  />
+			</misc>
+		</server>
+		<server_msg>
+			<text id="server_msg_10" name="Serveren bliver genstartet. Det går straks videre.\nTryk F5 for at lade siden påny"  />
+			<text id="server_msg_title" name="Servernyhed:"  />
+		</server_msg>
+		<std_buttons>
+			<text id="btn_addcurrency" name="Køb fashiondollar/guldknapper"  />
+			<text id="btn_payment" name="Køb fashiondollar/guldknapper"  />
+			<text id="btn_policeman" name="Varehusvagt"  />
+			<text id="btn_register" name="Registrer"  />
+			<text id="btn_superrewardChips" name="Tjen fashiondollar"  />
+			<text id="btn_superrewardGold" name="Tjen guldknapper"  />
+		</std_buttons>
+		<tooltips>
+			<text id="tooltip_Basic_Factory_Basicaccessoire" name="Guldsmed"  />
+			<text id="tooltip_Basic_Factory_Basiccloth" name="Syerske"  />
+			<text id="tooltip_Basic_Factory_Basicshoes" name="Skomager"  />
+			<text id="tooltip_counter_pieces" name="Antal: {0}"  />
+			<text id="tooltip_customcloth_icon" name="Påtryk"  />
+			<text id="tooltip_customcloth_shape" name="Former"  />
+			<text id="tooltip_customcloth_unlock" name="Åben"  />
+			<text id="tooltip_factory_empty" name="Producer nye varer!"  />
+			<text id="tooltip_factory_preparestep1" name="Anvise arbejder"  />
+			<text id="tooltip_factory_preparetitle" name="Klik til"  />
+			<text id="tooltip_factory_readytoserv" name="Læg varen ud"  />
+			<text id="tooltip_factory_readytoserv_amount" name="Antal: {0}"  />
+			<text id="tooltip_factory_wear" name="Motivation: {0}%"  />
+			<text id="tooltip_FashionActionPanel_btn_achievements" name="Udmærkelser"  />
+			<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Tilføj
+guldknapper/fashiondollar"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisement" name="Reklame"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="Fra level {0} kan du lave reklame"  />
+			<text id="tooltip_FashionActionPanel_btn_booster" name="Booster"  />
+			<text id="tooltip_FashionActionPanel_btn_coop" name="Co-Ops"  />
+			<text id="tooltip_FashionActionPanel_btn_decoshop" name="Ombyg"  />
+			<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="Gør reklame!"  />
+			<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalog"  />
+			<text id="tooltip_FashionActionPanel_btn_gifts" name="Gaver"  />
+			<text id="tooltip_FashionActionPanel_btn_highscore" name="Rangliste"  />
+			<text id="tooltip_FashionActionPanel_btn_market" name="Goodgame arkader"  />
+			<text id="tooltip_FashionActionPanel_btn_openclose" name="Åben/luk shop"  />
+			<text id="tooltip_FashionActionPanel_btn_ownshop" name="Min shop"  />
+			<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Aktionen er i gang
+Klik for en mellemstand"  />
+			<text id="tooltip_FashionActionPanel_btn_sale" name="Reducer priser"  />
+			<text id="tooltip_FashionActionPanel_btn_staff" name="Kasserer"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="Underdele"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="Hår"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="Hudfarve"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="Overdele"  />
+			<text id="tooltip_FashionBookDialog_btn_all" name="Alle"  />
+			<text id="tooltip_FashionBookDialog_btn_buy" name="Køb snitmønster"  />
+			<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="Design et snitmønster"  />
+			<text id="tooltip_FashionBookDialog_btn_mastery" name="endnu {0} indtil etikette-level {1}
+Klik for detaljer"  />
+			<text id="tooltip_FashionBookDialog_btn_produce" name="Producer"  />
+			<text id="tooltip_FashionBookDialog_customcloth" name="Eget snitmønster"  />
+			<text id="tooltip_FashionBookDialog_female" name="Til piger"  />
+			<text id="tooltip_FashionBookDialog_info" name="Tænk altid på at have tøj\ntil piger og drenge\ni shoppen!"  />
+			<text id="tooltip_FashionBookDialog_male" name="Til drenge"  />
+			<text id="tooltip_FashionBookDialog_unisex" name="Til drenge og piger"  />
+			<text id="tooltip_FashionBoosterDialog_addAmount" name="Styktal per køb"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="Forlænget tid"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="Forlænget tid\n+ {0} ved {1} yderligere venner"  />
+			<text id="tooltip_FashionBoosterDialog_btn_buy" name="Køb"  />
+			<text id="tooltip_FashionBoosterDialog_btn_info" name="Info"  />
+			<text id="tooltip_FashionBoosterDialog_coffee" name="Kaffe\nDin syerskes præstation stiger med op til 20%!"  />
+			<text id="tooltip_FashionBoosterDialog_currentAmount" name="På lager"  />
+			<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="Aktuel tyverisikring"  />
+			<text id="tooltip_FashionBoosterDialog_energy" name="Energidrik\nDin skomagers præstation stiger med op til 20%!"  />
+			<text id="tooltip_FashionBoosterDialog_police" name="Varehusvagt"  />
+			<text id="tooltip_FashionBoosterDialog_price" name="Pris"  />
+			<text id="tooltip_FashionBoosterDialog_shake" name="Proteinshake\nDin smeds præstation stiger med op til 20%!"  />
+			<text id="tooltip_FashionCoopDialog_btn_extend" name="Forlæng Co-Op"  />
+			<text id="tooltip_FashionCounterDialog_btn_sale" name="Prisen bliver reduceret"  />
+			<text id="tooltip_FashionCounterDialog_btn_spend" name="Giv vare restløs og gratis"  />
+			<text id="tooltip_FashionCounterDialog_btn_unsale" name="Ophæv reducering"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="Køb"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_close" name="Afslut ombygning"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko" name="Renovering"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="Dekoration"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="Udstillingsvindue"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="Døre"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="Gulve"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="Vægge"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="Vægdekoration"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="Udvidelser"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Udbyg etager"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="Udvid shop"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional" name="Funktionelt"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Kassen"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="Omklædningskabiner"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="Reoler"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="Arbejder"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="Udstillingsvindusdukker"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="Snitmønster"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_sell" name="Sælg"  />
+			<text id="tooltip_FashionExpansionFriends" name="Du har brug for endnu {0} venner\nfor at købe denne udvidelse"  />
+			<text id="tooltip_FashionFactoryDialog_btn_instant" name="Producer færdig med det samme!"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_remove" name="Slet"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_use" name="Benyt"  />
+			<text id="tooltip_FashionGiftboxDialog_mygifts" name="Mine gaver"  />
+			<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="Send gaver"  />
+			<text id="tooltip_FashionHighscoreDialog_luxury" name="Sorter efter luksusværdi"  />
+			<text id="tooltip_FashionHighscoreDialog_offline" name="Offline"  />
+			<text id="tooltip_FashionHighscoreDialog_online" name="Online"  />
+			<text id="tooltip_FashionHighscoreDialog_xp" name="Sorter efter XP"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="Accessoires"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="Beklædning"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="Sko"  />
+			<text id="tooltip_FashionMasteryInfoDialog_bronce" name="Producer et større stykantal!"  />
+			<text id="tooltip_FashionMasteryInfoDialog_gold" name="Producer hurtigere"  />
+			<text id="tooltip_FashionMasteryInfoDialog_silver" name="Får mere XP!"  />
+			<text id="tooltip_FashionNamePanel_mc_luxury" name="Dine shops luksusværdi"  />
+			<text id="tooltip_FashionNamePanel_mc_rating" name="Din shops popularitet"  />
+			<text id="tooltip_FashionOptionPanel_btn_allowemails" name="Tillad e-mails"  />
+			<text id="tooltip_FashionOptionPanel_btn_blockemails" name="Bloker e-mails"  />
+			<text id="tooltip_FashionOptionPanel_btn_bugreport" name="Fejlmelding"  />
+			<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Flyt karakter"  />
+			<text id="tooltip_FashionOptionPanel_btn_changePass" name="Ændring af password"  />
+			<text id="tooltip_FashionOptionPanel_btn_faq" name="FAQ"  />
+			<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="Fuldbilled"  />
+			<text id="tooltip_FashionOptionPanel_btn_help" name="Hjælp"  />
+			<text id="tooltip_FashionOptionPanel_btn_logout" name="Logout"  />
+			<text id="tooltip_FashionOptionPanel_btn_music" name="Musik til/fra"  />
+			<text id="tooltip_FashionOptionPanel_btn_news" name="GGS forum"  />
+			<text id="tooltip_FashionOptionPanel_btn_options" name="Optioner"  />
+			<text id="tooltip_FashionOptionPanel_btn_register" name="Registrer"  />
+			<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="Lyd til/fra"  />
+			<text id="tooltip_FashionOptionPanel_btn_support" name="Mail til support"  />
+			<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="Afhent velkommenpakke"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="+ Zoom"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- Zoom"  />
+			<text id="tooltip_FashionOptionPanel_mc_floors" name="Etager"  />
+			<text id="tooltip_FashionOptionPanel_mc_ranking" name="Rangliste"  />
+			<text id="tooltip_FashionPatternFriends" name="Du har brug for endnu {0} venner\nfor at åbne dette snitmønster"  />
+			<text id="tooltip_FashionSocialPanel_btn_buddies" name="Venner"  />
+			<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="Tilstedeværende spiller"  />
+			<text id="tooltip_FashionSocialPanel_btn_chat" name="Chat"  />
+			<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="Inviter venner"  />
+			<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Tilføj fashiondollar/guldknapper"  />
+			<text id="tooltip_FashionUserStatePanel_jobs" name="Antal aktioner"  />
+			<text id="tooltip_FashionUserStatePanel_xp" name="{0} XP op til næste level"  />
+			<text id="tooltip_Fashion_btnclose" name="Luk"  />
+			<text id="tooltip_levelx" name="Til rådighed fra level {0}"  />
+			<text id="tooltip_marketplace" name="Sort bræt"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Udmærkelser"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="Tilføj ven"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="Information"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Smid ud"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="Slet ven"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="Besøg"  />
+			<text id="tooltip_wheeloffortune_line1" name="Lykkehjulet!"  />
+			<text id="tooltip_wheeloffortune_line2" name="Klik for at spille!"  />
+			<text id="tooltip_wheeloffortune_line3" name="Et spil gratis"  />
+			<text id="tooltip_xofy" name="{0} af {1}"  />
+		</tooltips>
+		<tutorial>
+			<text id="tut_buypattern_copy" name="Her i kataloget kan du købe nye snitmønstre. Engang købte snitmønstre kan du anvende ubegrænset. Klik for at købe et nyt mønster."  />
+			<text id="tut_choosemannequin_copy" name="Så dine artikler bliver et seerhit, kan du påklæde din butiksvinduedukke. Klik dertil på en tom butiksvinduedukke."  />
+			<text id="tut_delivercounter_copy" name="... og efterfølgende på en fri reol!"  />
+			<text id="tut_emptyfactory_copy" name="Syersken fremstiller tøj til dig. Senere står dig yderligere arbejdere og varer til rådighed. Klik på syersken."  />
+			<text id="tut_instantwork_copy" name="Klik på button for at færdigfremstil varen med det samme."  />
+			<text id="tut_lastscreen_copy" name="Super! De først skridt er taget for at bringe dit label i denne verdens klædeskabe; de første kunder kommer allerede. Se dig allerbedst selv lidt omkring; der findes endnu en del at opdage.\n\nRigtig god fornøjelse!"  />
+			<text id="tut_mannequinaccept_copy" name="Er du allerede spændt på dine kunders reaktioner? Klik på bekræft for at kunne se vurderingen."  />
+			<text id="tut_mannequincategory_copy" name="Alt efter dukketyp, kan du anvende bestemt påklædning. Torsoen kan du lejlighedsvis påklæde overdele, for at kunne se udvalget."  />
+			<text id="tut_mannequinclose_copy" name="Nå; det ser da helt godt ud! Klik på luk-button, for at komme tilbage til din shop."  />
+			<text id="tut_mannequinclothes_copy" name="For tiden tilbyder du kun blå polo-shirts. Klik derpå for at klæde butiksvindusudstillingsdukken dermed."  />
+			<text id="tut_openproducebook_copy" name="Du har købt snitmønsteret. Skift nu igen til produktionsbogen for at se den producerbare vare."  />
+			<text id="tut_preparesteps_copy" name="Klik nu på syersken for at give hende anvisninger til produktionen."  />
+			<text id="tut_producefactory_copy" name="Med guldknapper kan du færdigstille varerne med det samme. Klip påny på syersken."  />
+			<text id="tut_produce_copy" name="Nu kan du begynde med produktionen."  />
+			<text id="tut_readyfactory_copy" name="Så kunder kan købe dine varer, må du putte dem på en reol. Klik dermed på arbejderen med den færdige vare..."  />
+			<text id="tut_start_copy" name="Hjerteligt velkommen i din shop, {0}!\nDenne korte indføring vil hjælpe dig med at finde dig hurtigt tilrette i modeverdenen."  />
+			<text id="tut_title" name="Indføring!"  />
+		</tutorial>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Fejl"  />
+				<text id="generic_alert_connection_failed_copy" name="For tiden foretages vedligeholdelsesarbejde for spillet. Prøv igen senere!"  />
+				<text id="generic_alert_connection_failed_title" name="Vedligeholdelsesarbejde!"  />
+				<text id="generic_alert_connection_lost_copy" name="Forbindelsen til spilleserveren blev afbrudt. Forsøg venligst at opret din forbindelse igen."  />
+				<text id="generic_alert_connection_lost_description" name="Aktuelt vedligeholdes der. Dette skal desværre gøres af og til.
+For at indspille updates og nye features eller rette en fejl.&lt;br&gt;&lt;br&gt;
+Vi arbejder på højtryk, så I hurtigst muligt kan spille igen."  />
+				<text id="generic_alert_connection_lost_promo" name="Prøv da i mellemtiden et af vores andre spil."  />
+				<text id="generic_alert_connection_lost_thanks" name="Mange tak for jeres forståelse!"  />
+				<text id="generic_alert_connection_lost_title" name="Tabt forbindelse!"  />
+				<text id="generic_alert_error" name="Error"  />
+				<text id="generic_alert_information" name="Henvisning"  />
+				<text id="generic_alert_loggedout_copy" name="Du har logget dig succesrigt ud. Glem ikke: Hver dag venter der en login-bonus på dig!"  />
+				<text id="generic_alert_loggedout_title" name="Indtil senere!"  />
+				<text id="generic_alert_warning" name="Advarsel"  />
+				<text id="generic_alert_watchout" name="Attention!"  />
+				<text id="generic_invalid_email_provider" name="En e-mailadresse fra denne tilbyder er ikke tilladt!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Din internetforbindelse lader til at være meget langsom for tide. Prøv igen senere!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Hvad synes du om spillet og hvad kan gøres bedre?
+Skriv din mening i vores Goodgame-Forum henholdsvis gruppe!"  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Attention: Din spillestand bliver kun lagret, når du lader dig registrere!"  />
+				<text id="generic_register_error_invalidemail" name="E-mailadressen, du har indtastet, er ikke korrekt."  />
+				<text id="generic_report_muted_chattry" name="Du kan desværre ikke benytte chatten i øjeblikket på grund af din spærring."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="tage imod"  />
+				<text id="generic_btn_cancel" name="Afbryd"  />
+				<text id="generic_btn_close" name="Luk"  />
+				<text id="generic_btn_continue" name="Videre"  />
+				<text id="generic_btn_end" name="Afslut"  />
+				<text id="generic_btn_endnow" name="Afslut med det samme"  />
+				<text id="generic_btn_goback" name="Tilbage"  />
+				<text id="generic_btn_no" name="Nej"  />
+				<text id="generic_btn_noshare" name="Alligevel ikke!"  />
+				<text id="generic_btn_notaccept" name="Afvis"  />
+				<text id="generic_btn_okay" name="OK"  />
+				<text id="generic_btn_reconnect" name="Opret påny"  />
+				<text id="generic_btn_refresh" name="Aktualiser"  />
+				<text id="generic_btn_report" name="Meld"  />
+				<text id="generic_btn_search" name="Søg"  />
+				<text id="generic_btn_share" name="Del!"  />
+				<text id="generic_btn_skip" name="Overspring"  />
+				<text id="generic_btn_start" name="Start"  />
+				<text id="generic_btn_topayment" name="Hit med det!"  />
+				<text id="generic_btn_yes" name="Ja"  />
+			</button>
+			<chat>
+				<text id="generic_chat_writeable" name="Kun registrerede spillere fra level 1 af må benytte chatten."  />
+			</chat>
+			<common>
+				<text id="generic_admin" name="Admin"  />
+				<text id="generic_animation" name="Vis animationer"  />
+				<text id="generic_bugreport" name="Meld fejl til os"  />
+				<text id="generic_changePass" name="Ændring af password"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*Kommer snart*"  />
+				<text id="generic_date" name="Dato"  />
+				<text id="generic_day" name="Dag"  />
+				<text id="generic_dayformat" name="{0}.{1}"  />
+				<text id="generic_days" name="Dage"  />
+				<text id="generic_day_short" name="T"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="E-mail"  />
+				<text id="generic_faq" name="Spørgsmål og svar"  />
+				<text id="generic_forum" name="Forum"  />
+				<text id="generic_friend" name="Ven"  />
+				<text id="generic_friends" name="Venner"  />
+				<text id="generic_general" name="Generelt"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Gruppe"  />
+				<text id="generic_guest" name="Gæst"  />
+				<text id="generic_help" name="Hjælp"  />
+				<text id="generic_high" name="Op"  />
+				<text id="generic_hour" name="Time"  />
+				<text id="generic_hours" name="Timer"  />
+				<text id="generic_hour_short" name="Time"  />
+				<text id="generic_limited" name="Limited"  />
+				<text id="generic_logout" name="Logout"  />
+				<text id="generic_low" name="Lavt"  />
+				<text id="generic_medium" name="Middel"  />
+				<text id="generic_minute" name="Minut"  />
+				<text id="generic_minutes" name="Minutter"  />
+				<text id="generic_minute_short" name="Min"  />
+				<text id="generic_moderator" name="Moderator"  />
+				<text id="generic_music" name="Musik til/fra"  />
+				<text id="generic_name" name="Navn"  />
+				<text id="generic_news" name="Nyheder"  />
+				<text id="generic_options" name="Indstillinger"  />
+				<text id="generic_quality" name="Kvalitet"  />
+				<text id="generic_register" name="Gem og registrer"  />
+				<text id="generic_second" name="Sekund"  />
+				<text id="generic_seconds" name="Sekunder"  />
+				<text id="generic_second_short" name="Sek"  />
+				<text id="generic_sound" name="Lyd til/fra"  />
+				<text id="generic_support" name="Support"  />
+				<text id="generic_today" name="I dag"  />
+				<text id="generic_tomorrow" name="Morgen"  />
+				<text id="generic_tutorial" name="Tutorial"  />
+				<text id="generic_username" name="Spillernavn"  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="I går"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Gammel version!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Aktualiser siden."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Ønsker du at føje {0} til som ven?"  />
+				<text id="generic_friends_add_title" name="Venskabsforespørgsel"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Flere venner"  />
+				<text id="generic_friends_denied_copy" name="{0} har desværre afvist din forespørgsel."  />
+				<text id="generic_friends_denied_title" name="Forespørgsel afvist!"  />
+				<text id="generic_friends_invite_badword_copy" name="Det navn du har angivet, er ikke tilladt!"  />
+				<text id="generic_friends_invite_badword_title" name="Attention!"  />
+				<text id="generic_friends_invite_error_copy" name="Kun som registreret spiller kan du invitere andre spillere."  />
+				<text id="generic_friends_invite_error_title" name="Registrer først"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Fuld billedmodus ikke mulig"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Tjekkisk"  />
+				<text id="generic_language_da" name="Dansk"  />
+				<text id="generic_language_de" name="Tysk"  />
+				<text id="generic_language_el" name="Græsk"  />
+				<text id="generic_language_en" name="Engelsk"  />
+				<text id="generic_language_es" name="Spansk"  />
+				<text id="generic_language_fi" name="Finsk"  />
+				<text id="generic_language_fr" name="Fransk"  />
+				<text id="generic_language_hu" name="Ungarsk"  />
+				<text id="generic_language_id" name="Indonesisk"  />
+				<text id="generic_language_it" name="Italiensk"  />
+				<text id="generic_language_ja" name="Japansk"  />
+				<text id="generic_language_ko" name="Koreansk"  />
+				<text id="generic_language_nl" name="Hollandsk"  />
+				<text id="generic_language_no" name="Norsk"  />
+				<text id="generic_language_pl" name="Polsk"  />
+				<text id="generic_language_pt" name="Portugisisk"  />
+				<text id="generic_language_pt_BR" name="Brasiliansk"  />
+				<text id="generic_language_ru" name="Russisk"  />
+				<text id="generic_language_sv" name="Svensk"  />
+				<text id="generic_language_tr" name="Tyrkisk"  />
+				<text id="generic_language_zh_CN" name="Kinesisk (forenklet)"  />
+				<text id="generic_language_zh_TW" name="Kinesisk (traditionelt)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Din account blev spærret! Henvend dig venligst til supporten!"  />
+				<text id="generic_login_banned_2" name="Din account blev spærret!
+
+Spærringen gælder indtil: {0}
+
+Såfremt du har spørgsmål til spærringen, så henvend dig venligst til supporten."  />
+				<text id="generic_login_banned_3" name="Din account blev spærret permant.
+
+Såfremt du har spørgsmål til spærringen, henvend dig venligst til supporten."  />
+				<text id="generic_login_banned_permanent" name="permanent"  />
+				<text id="generic_login_facebook" name="Tilmeld dig via Facebook"  />
+				<text id="generic_login_login" name="LOGIN"  />
+				<text id="generic_login_loginname" name="Brugernavn/ E-mail"  />
+				<text id="generic_login_lostpassword" name="Glemt password?"  />
+				<text id="generic_login_lostpassword_copy" name="Indtast din e-mailadresse og du vil få tilsendt et nyt password."  />
+				<text id="generic_login_lostpassword_title" name="Glemt password"  />
+				<text id="generic_login_newplayer" name="NY HER?"  />
+				<text id="generic_login_password" name="Password"  />
+				<text id="generic_login_play" name="SPIL MED DET SAMME"  />
+				<text id="generic_login_playnow" name="Spil nu!"  />
+				<text id="generic_login_register" name="Registrer"  />
+				<text id="generic_login_rememberpassword" name="Lagring af password"  />
+				<text id="generic_login_wronglogin" name="Brugernavn eller Password forkert!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Registrer dig for at kunne lagre din spillerstand!"  />
+				<text id="generic_logout_guest_title" name="Registrer"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Senest {0} vil spillet være til at nå igen."  />
+				<text id="servershutdownpremonition_copy" name="Spilserveren bliver kørt ned i  {0}. Log dig venligst ud eller registrer dig for at sikre din spillestand."  />
+				<text id="servershutdownpremonition_registered_copy" name="Spilserveren bliver kørt ned på {0} på grund af vedligeholdelsesarbejde."  />
+				<text id="servershutdown_copy" name="Spilserveren bliver nu kørt ned. Om et par minutter kan du logge dig på igen."  />
+				<text id="welcomeback_copy" name="Skønt at se dig igen! Her en lille ting, for at gøre genindstigingen lettere!"  />
+				<text id="welcomeback_title" name="Igen tilstede!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Nyt password"  />
+				<text id="generic_change_password_copy_oldpass" name="Gammelt password"  />
+				<text id="generic_change_password_copy_send" name="Dit nye password blev sendt til din e-mailadresse."  />
+				<text id="generic_change_password_error_failed" name="Sorry, men er det ikke dit gmle password?"  />
+				<text id="generic_change_password_error_success" name="Password blev ændret succesrigt!"  />
+				<text id="generic_change_password_faild_copy" name="Dit password skal være længere end 2 tegn og det gamle password skal være indtastet korrekt!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Dit password må ikke være tomt eller indeholde særtegn."  />
+				<text id="generic_change_password_faild_title" name="Passwordindlæsning"  />
+				<text id="generic_change_password_title" name="Passwordændring"  />
+				<text id="generic_guest_change_password_faild_copy" name="Kun som registreret spiller kan du ændre dit password!"  />
+				<text id="generic_guest_change_password_faild_title" name="Registrer først"  />
+			</password>
+			<payment>
+				<text id="generic_payment_48hdiscount_button" name="Mere guld i de første 48 timer"  />
+				<text id="generic_payment_48hdiscount_button_general" name="Mere {0} i de første 48 timer"  />
+				<text id="generic_payment_48hdiscount_copy" name="Køb guld de første 48 timer og få yderligere {0}% hos udvalgte pakker!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Køb guld i de første 48 timer og få yderligere {0}% hos alle pakker!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Køb {0} indenfor de første 48 timer og få yderligere {1}% hos alle pakker!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Køb {0} indenfor de første 48 timer og få yderligere {1}% ved udvalgte pakker!"  />
+				<text id="generic_payment_copy" name="Du bliver nu ledt videre til paymentshop."  />
+				<text id="generic_payment_discount_button" name="Nu {0}% mere guld for pengene!"  />
+				<text id="generic_payment_discount_copy" name="Køb guld nu og få en {0}% bonus!"  />
+				<text id="generic_payment_discount_copy_general" name="Køb {0} nu og få en bonus på {1}%!"  />
+				<text id="generic_payment_discount_general" name="Nu {0}% mere {1} for pengene!"  />
+				<text id="generic_payment_discount_generalshort" name="{0}% mere for pengene!"  />
+				<text id="generic_payment_discount_time" name="ENDNU {0}!"  />
+				<text id="generic_payment_discount_title" name="Mere guld for pengene!"  />
+				<text id="generic_payment_newPrices" name="Fra nu af! Konstant reducerede priser i vores Payment-Shop! Spar virkelig penge!"  />
+				<text id="generic_payment_title" name="Paymentshop"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Søg tunnel gennem cyberspace"  />
+				<text id="loading_text_10" name="Fordel genstande i verdenen"  />
+				<text id="loading_text_11" name="Mal grafikker"  />
+				<text id="loading_text_12" name="Mal buttons"  />
+				<text id="loading_text_13" name="Gem påskeæg"  />
+				<text id="loading_text_14" name="Slog brugerdata op"  />
+				<text id="loading_text_15" name="Skræm bugs væk"  />
+				<text id="loading_text_16" name="Fodre programmørerne"  />
+				<text id="loading_text_17" name="Skru ved klienten"  />
+				<text id="loading_text_18" name="Drej sanduret"  />
+				<text id="loading_text_19" name="Køl systemet"  />
+				<text id="loading_text_2" name="Giv tandhjulene olie"  />
+				<text id="loading_text_20" name="Bliver lige straks færdig"  />
+				<text id="loading_text_3" name="Drej hamsterhjulet"  />
+				<text id="loading_text_4" name="Opvarm serveren"  />
+				<text id="loading_text_5" name="Håber at alt går godt"  />
+				<text id="loading_text_6" name="Hent kammerjægeren"  />
+				<text id="loading_text_7" name="Beregn kompliceret algoritme"  />
+				<text id="loading_text_8" name="Kalibrer flukskompesatorer"  />
+				<text id="loading_text_9" name="Byggegenstande"  />
+				<text id="loading_text_default" name="Initialisering"  />
+				<text id="loading_text_itemXML" name="Lad spilelementer"  />
+				<text id="progress_loadfiles" name="Spillegrafikker bliver ladet..."  />
+				<text id="progress_serverconnection" name="Forbind med gameserver..."  />
+			</progressbar>
+			<register>
+				<text id="generic_register_agb_copy" name="Uden AGB går det ikke. Bare læs og bekræft med knappen til venstre, så kan det gå løs!"  />
+				<text id="generic_register_agb_read" name="læs AGB"  />
+				<text id="generic_register_alreadyavatar" name="Useren har allerede et navn."  />
+				<text id="generic_register_badword" name="Du må ikke anvende {0} i dit navn."  />
+				<text id="generic_register_btn_agb" name="Accepter AGB"  />
+				<text id="generic_register_btn_later" name="Senere"  />
+				<text id="generic_register_btn_next" name="Fortsæt"  />
+				<text id="generic_register_btn_save" name="Gem"  />
+				<text id="generic_register_character" name="Skab din karakter"  />
+				<text id="generic_register_copy_0" name="Registrer dig gratis nu!"  />
+				<text id="generic_register_copy_1" name="Lager din spillestand!"  />
+				<text id="generic_register_emaillong_copy" name="Din e-mailadresse er desværre for lang."  />
+				<text id="generic_register_emailwrong_copy" name="Den e-mailadresse du har indtastet er ikke korrekt."  />
+				<text id="generic_register_email_copy" name="E-mailadressen må ikke være tom eller indeholde særtegn."  />
+				<text id="generic_register_error" name="Registrering slået fejl"  />
+				<text id="generic_register_errormistake" name="Fejl"  />
+				<text id="generic_register_error_accountalreadyexists" name="Under denne e-mail er allerede en spiller tilmeldt, sorry."  />
+				<text id="generic_register_forfree" name="Tilmeld dig gratis!"  />
+				<text id="generic_register_forfree1" name="Gratis!"  />
+				<text id="generic_register_letsgo" name="DET GÅR LØS"  />
+				<text id="generic_register_namealreadyused" name="Navnet findes allerede."  />
+				<text id="generic_register_namenotvalid" name="Det indtastede navn er ugyldigt."  />
+				<text id="generic_register_passwordshort_copy" name="Det indtastede password er for kort. Det skal mindst indeholde 4 tegn."  />
+				<text id="generic_register_passwordwrong_copy" name="Det password du har indtastet er ikke korrekt."  />
+				<text id="generic_register_password_copy" name="Dit password må ikke være tomt eller indeholde særtegn."  />
+				<text id="generic_register_rememberdata" name="Husk data"  />
+				<text id="generic_register_reward" name="Tilmeld dig gratis og få {0} {1} som gave!"  />
+				<text id="generic_register_subscribe" name="Tilmeld"  />
+				<text id="generic_register_success" name="Du har registreret dig succesfuldt."  />
+				<text id="generic_register_title" name="Registreringsfejl"  />
+				<text id="generic_register_unlock" name="Åben denne funktion!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Vær venligst opmærksom på din udtryksmåde ellers risikerer du en chat-spærring eller en midlertidig spærring af accounten.
+Grund: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="På grund af gentaget fejlopførsel kan du ikke benytte chatten de næste {0}. Grund: {1}"  />
+				<text id="generic_report_muted_domain1" name="Ikke nogen internetadresser i chatten!"  />
+				<text id="generic_report_muted_reported_copy" name="Der er flere spillere som har klaget over dig. På grund af det, kan du ikke benytte chatten for de næste {0}. Grund: {1}"  />
+				<text id="generic_report_player_copy" name="Vil du virkelig melde den spiller {0}?\nAttention! Misbrug af denne funktion kan føre til spærring af account."  />
+				<text id="generic_report_player_reason_0" name="Fornærmelse"  />
+				<text id="generic_report_player_reason_1" name="sexchikane"  />
+				<text id="generic_report_player_reason_2" name="racistisk ytring"  />
+				<text id="generic_report_player_reason_3" name="Trussel/Afpresning"  />
+				<text id="generic_report_player_reason_title" name="Grunden til meldingen:"  />
+				<text id="generic_report_player_title" name="Meld spiller?"  />
+				<text id="generic_report_reported_copy" name="Du blev meldt til administrator af en anden spiller. Grund: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Forbind"  />
+				<text id="generic_select_world" name="Vælg verden:"  />
+				<text id="generic_world" name="Verden: {0}"  />
+				<text id="generic_world_international" name="International: {0}"  />
+			</worlds>
+		</generic_flash>
+	</fashion>
+ 

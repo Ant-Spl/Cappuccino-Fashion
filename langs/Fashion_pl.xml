@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FASHION - pl - 4 -->
+	<fashion>
+		<achievement>
+			<text id="Basic_Achievement_Boughtdeco" name="Luksusowy Butik"  />
+			<text id="Basic_Achievement_Boughtdeco_copy" name="Liczba kupionych dekoracji"  />
+			<text id="Basic_Achievement_Boughtpatterns" name="Szeroki wybór produktów"  />
+			<text id="Basic_Achievement_Boughtpatterns_copy" name="Liczba zakupionych wykrojów"  />
+			<text id="Basic_Achievement_Earnedchips" name="Główny leader"  />
+			<text id="Basic_Achievement_Earnedchips_copy" name="Zarobione fashion dolary"  />
+			<text id="Basic_Achievement_FinishedCoops" name="Coś dla każdego"  />
+			<text id="Basic_Achievement_FinishedCoops_copy" name="Liczba wykonanych Zadań"  />
+			<text id="Basic_Achievement_FinishedGoldCoops" name="Złota konfekcja"  />
+			<text id="Basic_Achievement_FinishedGoldCoops_copy" name="Liczba Co-Ops zakończonych zdobyciem złota"  />
+			<text id="Basic_Achievement_Mannequindesign" name="Świetny pokaz"  />
+			<text id="Basic_Achievement_Mannequindesign_copy" name="Ilość ubranych manekinów"  />
+			<text id="Basic_Achievement_Masteries" name="Serwer jest zajęty."  />
+			<text id="Basic_Achievement_Masteriesgold" name="Złoty Serwer"  />
+			<text id="Basic_Achievement_Masteriesgold_copy" name="Liczba zarobionych Złotych Metek"  />
+			<text id="Basic_Achievement_Masteries_copy" name="Liczba zarobionych Metek"  />
+			<text id="Basic_Achievement_Producedaccessoires" name="Produkuj akcesoria"  />
+			<text id="Basic_Achievement_Producedaccessoires_copy" name="Liczba wyprodukowanych akcesoriów"  />
+			<text id="Basic_Achievement_Producedbags" name="Sprzedawca torebek"  />
+			<text id="Basic_Achievement_Producedbags_copy" name="Liczba wyprodukowanych torebek"  />
+			<text id="Basic_Achievement_Producedbottoms" name="Wszystko dla nóg"  />
+			<text id="Basic_Achievement_Producedbottoms_copy" name="Liczba wyprodukowanych spódnic i spodni"  />
+			<text id="Basic_Achievement_Producedclothes" name="Odzieżowy monopol"  />
+			<text id="Basic_Achievement_Producedclothes_copy" name="Ilość wyprodukowanej odzieży"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires" name="Świetne akcesoria"  />
+			<text id="Basic_Achievement_Produceddifferentaccessoires_copy" name="Liczba wyprodukowanych różnych akcesoriów"  />
+			<text id="Basic_Achievement_Produceddifferentclothes" name="Różnorodność odzieży"  />
+			<text id="Basic_Achievement_Produceddifferentclothes_copy" name="Ilość wyprodukowanych różnych ubrań"  />
+			<text id="Basic_Achievement_Produceddifferentitems" name="Całodobowy pracownik"  />
+			<text id="Basic_Achievement_Produceddifferentitems_copy" name="Liczba wyprodukowanych różnych towarów"  />
+			<text id="Basic_Achievement_Produceddifferentshoes" name="Pracowity szewc"  />
+			<text id="Basic_Achievement_Produceddifferentshoes_copy" name="Liczba wyprodukowanych różnych butów"  />
+			<text id="Basic_Achievement_Producedfemaleonly" name="Tylko dla kobiet"  />
+			<text id="Basic_Achievement_Producedfemaleonly_copy" name="Liczba wyprodukowanych towarów dla kobiet"  />
+			<text id="Basic_Achievement_Producedfullbody" name="Krawat i melonik"  />
+			<text id="Basic_Achievement_Producedfullbody_copy" name="Liczba wyprodukowanych sukienek i garniturów"  />
+			<text id="Basic_Achievement_Producedhats" name="Kapelusznik"  />
+			<text id="Basic_Achievement_Producedhats_copy" name="Liczba wyprodukowanych czapek"  />
+			<text id="Basic_Achievement_Producedjewlery" name="Szkatułka"  />
+			<text id="Basic_Achievement_Producedjewlery_copy" name="Liczba wyprodukowanych ozdób"  />
+			<text id="Basic_Achievement_Producedmaleonly" name="Tylko dla mężczyzn"  />
+			<text id="Basic_Achievement_Producedmaleonly_copy" name="Liczba wyprodukowanych towarów dla mężczyzn"  />
+			<text id="Basic_Achievement_Producedshoes" name="Buciany magnat"  />
+			<text id="Basic_Achievement_Producedshoes_copy" name="Liczba wyprodukowanych butów"  />
+			<text id="Basic_Achievement_Producedtops" name="Wszędzie topy"  />
+			<text id="Basic_Achievement_Producedtops_copy" name="Liczba wyprodukowanych topów"  />
+			<text id="Basic_Achievement_Soldduringsale" name="Łowca promocji"  />
+			<text id="Basic_Achievement_Soldduringsale_copy" name="Towary sprzedane na promocji"  />
+			<text id="Basic_Achievement_Soldproducts" name="Towar sprzedany"  />
+			<text id="Basic_Achievement_Soldproducts_copy" name="Ilość sprzedanych rzeczy"  />
+			<text id="Basic_Achievement_Spentchips" name="Hojny sprzdawca"  />
+			<text id="Basic_Achievement_Spentchips_copy" name="Liczba wydanych Fashion dolarów"  />
+			<text id="Basic_Achievement_Spentgold" name="Złoty sklep"  />
+			<text id="Basic_Achievement_Spentgold_copy" name="Liczba wydanych złotych guzików"  />
+			<text id="Basic_Achievement_Stolenproducts" name="Schronisko bandziorów"  />
+			<text id="Basic_Achievement_Stolenproducts_copy" name="Liczba skradzionych produktów"  />
+			<text id="Basic_Achievement_Wheeloffortune" name="Wirująca Igła"  />
+			<text id="Basic_Achievement_Wheeloffortune_copy" name="Liczba zwycięstw w Loterii"  />
+			<text id="Social_Achievement_Friendscout" name="Ulubiony sprzedawca"  />
+			<text id="Social_Achievement_Friendscout_copy" name="Liczba przyjaciół na NK"  />
+		</achievement>
+		<alerts>
+			<text id="alerts_avatarcustomize_goldrequest" name="Czy chcesz zmienić ubrania za {0} {1}?"  />
+			<text id="alerts_avatarcustom_workingplayer_copy" name="Prowadzisz już działania i dlatego nie możesz się przenieść!"  />
+			<text id="alerts_avatarcustom_workingplayer_title" name="Zaraz!"  />
+			<text id="alerts_booster_info_copy" name="Ochroniarz chroni Twój sklep.\nMożesz zatrudnić go na 5 dni a następnie przedłużyć ten czas."  />
+			<text id="alerts_booster_info_copy_1" name="Jeśli dostaniesz  {0} przyjaciół przedłużysz ochronę o {1}."  />
+			<text id="alerts_booster_info_title" name="Ochroniarz"  />
+			<text id="alerts_buytiles_copy" name="Czy chcesz kupić {0} płytki za {1}?"  />
+			<text id="alerts_buytiles_title" name="Kupić kafelki?"  />
+			<text id="alerts_customcloth_noshape_copy" name="Najpierw musisz wybrać kształt by móc umieścić go jako nadruk!"  />
+			<text id="alerts_decoshop_dragtipp_copy" name="Aby użyć tego obiekt przeciągnij go do swojego sklepu."  />
+			<text id="alerts_decoshop_dragtipp_title" name="Dekoruj!"  />
+			<text id="alerts_decoshop_next_Cashdesk_bylevel" name="Od poziomu {0} możesz kupić kolejną kasę. Jeśli chcesz możesz przeciągnąć starą kasę ze sklepu tak aby kupić jakąś inną."  />
+			<text id="alerts_decoshop_next_Changingroom_bylevel" name="Od poziomu {0} możesz kupić kolejną przebieralnię. Jeśli chcesz możesz przeciągnąć starą przebieralnię ze sklepu tak aby kupić jakaś inną."  />
+			<text id="alerts_decoshop_next_Counter_bylevel" name="Od poziomu {0} możesz kupić kolejny regał. Jeśli chcesz możesz przeciągnąć stary regał ze sklepu tak aby kupić jakiś inny."  />
+			<text id="alerts_decoshop_next_Factory_bylevel" name="Od poziomu {0} możesz zatrudnić nowego pracownika. Jeśli chcesz możesz przeciągnąć starego pracownika ze sklepu tak aby zatrudnić nowego."  />
+			<text id="alerts_decoshop_next_Mannequin_bylevel" name="Od poziomu {0} możesz kupić kolejnego manekina. Jeśli chcesz możesz przeciągnąć starego manekina ze sklepu tak aby kupić jakiś inny."  />
+			<text id="alerts_decoshop_nomoreCashdesk" name="Obecnie nie możesz kupić kolejnej kasy!"  />
+			<text id="alerts_decoshop_nomoreChangingroom" name="Obecnie nie możesz kupić kolejnej przebieralni!"  />
+			<text id="alerts_decoshop_nomoreCounter" name="Obecnie nie możesz kupić kolejnego regału!"  />
+			<text id="alerts_decoshop_nomoreExpansion" name="Nie ma dostępnych poszerzeń"  />
+			<text id="alerts_decoshop_nomoreFactory" name="Nie możesz kupić więcej pracowników!"  />
+			<text id="alerts_decoshop_nomoreMannequin" name="Obecnie nie możesz kupić kolejnego manekina!"  />
+			<text id="alerts_decoshop_sellitem_copy" name="Czy chcesz sprzedać ten obiekt za {0}sztukę ?"  />
+			<text id="alerts_decoshop_sellitem_title" name="Artykuł został sprzedany"  />
+			<text id="alerts_decoshop_storeFactory_copy" name="Nie możesz wyrzucić niezadowolonego pracownika ze sklepu. Wypłać mu premię lub sprzedaj go."  />
+			<text id="alerts_decoshop_storeMannequin_copy" name="Nie możesz składować manekina dopóki ma na sobie ubrania"  />
+			<text id="alerts_decoshop_store_title" name="Zasoby"  />
+			<text id="alerts_decoshop_workingplayer_copy" name="Zanim przebudujesz sklep, musisz skończyć najpierw aktualną akcję!"  />
+			<text id="alerts_decoshop_workingplayer_title" name="Jesteś zajęty!"  />
+			<text id="alerts_fashionbook_notarget_copy" name="Aby produkować towar wybierz pracownika."  />
+			<text id="alerts_fashionbook_notarget_copy_1" name="Ten pracownik produkuje towar. Wybierz jakiegoś innego!"  />
+			<text id="alerts_fashionbook_notarget_title" name="Który pracownik?"  />
+			<text id="alerts_fashionbook_notequaltype_copy" name="Ten pracownik może produkwoać tylko  pewne rzeczy.\nWybierz produkt z {0} kolekcji"  />
+			<text id="alerts_fashionbook_notequaltype_title" name="Inne produkty"  />
+			<text id="alerts_fashionbook_usebooster_title" name="Wykorzystać  przyśpieszacz?"  />
+			<text id="alerts_friend_ask" name="Czy chcesz dodać {0} jako przyjaciela?"  />
+			<text id="alerts_friend_denied" name="{0} odrzucił Twoje zapytanie!"  />
+			<text id="alerts_friend_title" name="Przyjaźń"  />
+			<text id="alerts_gift_workingplayer_copy" name="Masz jeszcze towar w rękach. Połóż go na regale zanim ustawisz prezenty."  />
+			<text id="alerts_gift_workingplayer_title" name="Najpierw odłóż"  />
+			<text id="alerts_instantworking_goldrequest" name="Czy chcesz &#039;produkować ekspresowo&#039;? Możliwe jeszcze {0} razy!"  />
+			<text id="alerts_invitefriend_copy" name="Zaproszenie dla {0} zostało wysłane!"  />
+			<text id="alerts_invitefriend_title" name="zostałes zaproszony!"  />
+			<text id="alerts_isoworld_counter_outofreach_copy" name="Regał jest nieosiągalny! Musisz przestawić kilka rzeczy!"  />
+			<text id="alerts_isoworld_counter_outofreach_title" name="Nieosiągalne!"  />
+			<text id="alerts_isoworld_factory_outofreach_copy" name="Pracownik jest nieosiągalny. Zmień ustawienie."  />
+			<text id="alerts_isoworld_factory_outofreach_title" name="Nieosiągalne!"  />
+			<text id="alerts_isoworld_mannequin_instant" name="Czy chcesz przebrać manekina?"  />
+			<text id="alerts_isoworld_marketplace_title" name="Tablica"  />
+			<text id="alerts_kickedbyplayer_copy" name="Sklep został zamknięty przez właściciela."  />
+			<text id="alerts_kickedbyplayer_title" name="Musisz iść!"  />
+			<text id="alerts_kickjobber_copy" name="Nie możesz włączyć modułu przebudowy dopóki inni gracze pracują w Twoim sklepie."  />
+			<text id="alerts_kickjobber_title" name="Pracownik w sklepie"  />
+			<text id="alerts_kickplayer_copy" name="U Ciebie w sklepie znajdują się inni gracze. Czy chcesz ich wyrzucić aby znaleźć się w module przebudowy?"  />
+			<text id="alerts_kickplayer_title" name="Wyrzuć gracza"  />
+			<text id="alerts_lostpassword_copy" name="Podaj Twój e-mail a my prześlemy Ci nowe hasło."  />
+			<text id="alerts_lostpassword_title" name="Nie pamiętasz hasła?"  />
+			<text id="alerts_mannequindesign_nocloth_copy" name="Nie masz odpowiednich towarów aby ubrać manekiny."  />
+			<text id="alerts_mannequindesign_nocloth_title" name="Nie ma towarów!"  />
+			<text id="alerts_marketplace_playerleaved_copy" name="Gracz opuścił arkady"  />
+			<text id="alerts_marketplace_playerleaved_title" name="Za późno"  />
+			<text id="alerts_placetiles_copy" name="1. Wybierz płytkę\n2. Przytrzymując przycisk myszki wybierz obszar w Twoim sklepie.\n3. Puść klawisz"  />
+			<text id="alerts_placetiles_title" name="Pozycjonować płytki?"  />
+			<text id="alerts_register_copy_addgold" name="Aby tutaj kupować musisz się zarejestrować!"  />
+			<text id="alerts_register_copy_advertisement" name="Najpierw musisz się zarejestrować by móc się reklamować swój sklep."  />
+			<text id="alerts_register_copy_changeavatar" name="Musisz się zarejestrować aby móc zmienić swój wygląd!"  />
+			<text id="alerts_register_copy_changepassword" name="Tylko jako zarejestrowany gracz możesz zmienić hasło!"  />
+			<text id="alerts_register_copy_coop" name="Musisz się najpierw zarejestrować aby brać udział w Zadaniu!"  />
+			<text id="alerts_register_copy_gifts" name="Musisz się najpierw zarejestrować aby zrobić prezent."  />
+			<text id="alerts_register_copy_invitefriend" name="Musisz się najpierw zarejestrować aby zaprosić swoich przyjaciół."  />
+			<text id="alerts_register_copy_logout" name="Zarejestruj się aby zapisać stan Twojej gry!"  />
+			<text id="alerts_register_title" name="Zarejestruj się"  />
+			<text id="alerts_servermsg_10" name="Serwer zostanie zrestartowany.
+Możesz powrócić niedługo. 
+Prosimy się wylogować."  />
+			<text id="alerts_servermsg_title" name="Wiadomość z serwera!"  />
+			<text id="alerts_staff_fire_copy" name="Czy na pewno chcesz zwolnić kasjera?\nJeśli nie masz wystarczająco dużo kasjerów klienci będą czekać dłużej w kolejce i będą niezadowoleni."  />
+			<text id="alerts_staff_fire_title" name="Zwolnij kasjera?"  />
+			<text id="alerts_staff_hire_copy" name="Czy chcesz zatrudnić kasjera?"  />
+			<text id="alerts_staff_hire_title" name="Nowa kasjerka"  />
+			<text id="alerts_versioncheck_copy" name="Proszę aktualizuj stronę aby załadować nową wersję!"  />
+			<text id="alerts_versioncheck_title" name="Stara wersja!"  />
+		</alerts>
+		<cloth>
+			<text id="cloth_blackbowlermale" name="Cylinder"  />
+			<text id="cloth_blackdressfemale" name="Mała czarna"  />
+			<text id="cloth_blackhandbagfemale" name="Duża Czarna Torebka"  />
+			<text id="cloth_blackheelsfemale" name="Czarne Szpilki"  />
+			<text id="cloth_blackjacketmale" name="Skórzana kurtka"  />
+			<text id="cloth_blackpant2male" name="Jeansy GeeCee"  />
+			<text id="cloth_blackpantfemale" name="Czarne damskie rurki"  />
+			<text id="cloth_blackpantmale" name="Czarne męskie rurki"  />
+			<text id="cloth_blacksuitmale" name="Garnitur w prążki"  />
+			<text id="cloth_blackwatchmale" name="Czarny zegarek"  />
+			<text id="cloth_bluebaggypantsfemale" name="Dziewczęce Szerokie Spodnie JayJay"  />
+			<text id="cloth_blueblousefemale" name="Niebieska damska bluzka"  />
+			<text id="cloth_bluecapfemale" name="Niebieska czapka baseballowa"  />
+			<text id="cloth_bluecapmale" name="Niebieska czapka baseballowa"  />
+			<text id="cloth_blueheadphones" name="Słuchawki  JayJay"  />
+			<text id="cloth_bluenecklacefemale" name="Niebieski naszyjnik z pereł"  />
+			<text id="cloth_bluepolomale" name="Niebieskie polo"  />
+			<text id="cloth_blueshirtmale" name="Niebieski t-shirt"  />
+			<text id="cloth_bluesweatermale" name="Niebieski Męski Sweter JayJay"  />
+			<text id="cloth_bootsfemale" name="Damskie buty GeeCee"  />
+			<text id="cloth_brownknitcapfemale" name="Brązowa czapka"  />
+			<text id="cloth_brownknitcapmale" name="Brązowa czapka"  />
+			<text id="cloth_cardiganfemale" name="Damski rozpinany sweter"  />
+			<text id="cloth_cardiganmale" name="Męski rozpinany sweter"  />
+			<text id="cloth_charlestonhatfemale" name="Kapelusz"  />
+			<text id="cloth_checkshirtfemale" name="Damska Kraciasta Spódnica JayJay"  />
+			<text id="cloth_checkshirtmale" name="Męska Kraciasta koszula JayJay"  />
+			<text id="cloth_customcloth" name="Stwórz swój wygląd!"  />
+			<text id="cloth_darkbluejeansfemale" name="Ciemnoniebieskie damskie spodnie"  />
+			<text id="cloth_darkbluejeansmale" name="Ciemnoniebieskie męskie jeansy"  />
+			<text id="cloth_dressfemale" name="Damska sukienka GeeCee"  />
+			<text id="cloth_flowerskirtfemale" name="Spódnica w kwiaty GeeDee"  />
+			<text id="cloth_ggsshirtmale" name="T-shirt GeeCee"  />
+			<text id="cloth_goldnecklacefemale" name="Złoty naszyjnik"  />
+			<text id="cloth_greendressfemale" name="Sukienka GeeDee"  />
+			<text id="cloth_greenjacketfemale" name="Damska Wiatrówka JayJay"  />
+			<text id="cloth_greenjacketmale" name="Męska Wiatrówka JayJay"  />
+			<text id="cloth_greenpulloverfemale" name="Zielony golf"  />
+			<text id="cloth_greenshirtmale" name="Męski T-shirt GeeDee"  />
+			<text id="cloth_greysuitmale" name="Szary garnitur"  />
+			<text id="cloth_lightbluejeansfemale" name="Jasnoniebieskie damskie jeansy"  />
+			<text id="cloth_lightbluejeansmale" name="Jasnoniebieskie męskie jeansy"  />
+			<text id="cloth_manblackmale" name="Buty męskie"  />
+			<text id="cloth_manbrownmale" name="Brązowe buty skórzane"  />
+			<text id="cloth_orangeknitcapfemale" name="Pomarańczowa czapka"  />
+			<text id="cloth_orangeknitcapmale" name="Pomarańczowa czapka"  />
+			<text id="cloth_perlnecklacefemale" name="Perłowy naszyjnik"  />
+			<text id="cloth_pinkhangbagfemale" name="Pikowana Torebka"  />
+			<text id="cloth_pinkshirtfemale" name="Różowe polo"  />
+			<text id="cloth_premiumbluejacketmale" name="Wiosenna Kurtka"  />
+			<text id="cloth_premiumgreenjacketfemale" name="Wiosenny Płaszcz"  />
+			<text id="cloth_premiumjumpsuitfemale" name="Damski Jednoczęściowy Kostium GeeDee"  />
+			<text id="cloth_premiumshortsmale" name="Męskie szorty GeeDee"  />
+			<text id="cloth_purplehandbagfemale" name="Torebka GeeCee"  />
+			<text id="cloth_purplepulloverfemale" name="Różowy golf"  />
+			<text id="cloth_purpletshirtfemale" name="Dziewczęcy T-Shirt JayJay"  />
+			<text id="cloth_redcapfemale" name="Czerwona baseballówka"  />
+			<text id="cloth_redcapmale" name="Czerwona baseballówka"  />
+			<text id="cloth_reddressfemale" name="Sukienka bez ramion"  />
+			<text id="cloth_redheelsfemale" name="Czerwone szpilki"  />
+			<text id="cloth_redskirtfemale" name="Czerwona spódnica"  />
+			<text id="cloth_redsneakermale" name="Czerwone Męskie Trampki JayJay"  />
+			<text id="cloth_redtopfemale" name="Świecący czerwony top"  />
+			<text id="cloth_scraffemale" name="Szalik GeeCee"  />
+			<text id="cloth_scrafmale" name="Męski szalik GeeCee"  />
+			<text id="cloth_silvernecklacefemale" name="Srebrny łańcuszek"  />
+			<text id="cloth_silverwatchmale" name="Srebrny zegarek"  />
+			<text id="cloth_sneakersfemale" name="Białe trampki"  />
+			<text id="cloth_sneakersgreenmale" name="Zielone Trampki"  />
+			<text id="cloth_sneakersmale" name="Białe trampki"  />
+			<text id="cloth_strawberrysneakerfemale" name="Truskawkowe Buty  JayJay"  />
+			<text id="cloth_stripedshirtmale" name="Męska koszula w paski GeeDee"  />
+			<text id="cloth_stripedtopfemale" name="Damska letnia bluzeczka  GeeDee"  />
+			<text id="cloth_stripedtshirtmale" name="Męski Pasiasty T-Shirt JayJay"  />
+			<text id="cloth_sweathoodiemale" name="Męska bluza z kapturem GeeDee"  />
+			<text id="cloth_trenchcoatmale" name="Czarny trench"  />
+			<text id="cloth_whiteshirtmale" name="Biała koszula"  />
+			<text id="cloth_whiteskirtfemale" name="Biała mini"  />
+			<text id="cloth_yellowdressfemale" name="Słodka sukienka koktajlowa"  />
+		</cloth>
+		<commons>
+			<text id="achievement_rang" name="Ranga {0}/{1}"  />
+			<text id="comingsoon" name="*Wkrótce*"  />
+			<text id="currency_cash" name="Fashion dolary"  />
+			<text id="currency_gold" name="Złote guziki"  />
+			<text id="currency_gold_single" name="Złoty guzik"  />
+			<text id="factorytyp_accessories" name="Akcesoria"  />
+			<text id="factorytyp_clothes" name="Ubrania"  />
+			<text id="factorytyp_shoes" name="Buty"  />
+			<text id="friendscount" name="Przyjaciele {0}"  />
+			<text id="levelcount" name="Poziom {0}"  />
+			<text id="levellabel" name="Poziom"  />
+			<text id="mastery" name="Poziom Metek"  />
+			<text id="new" name="Nowy!"  />
+			<text id="xplabel" name="XP"  />
+		</commons>
+		<coopmission>
+			<text id="coop_desc_1" name="Kilka potrzebnych rzeczy do pikniku !"  />
+			<text id="coop_desc_10" name="Piękne suknie wieczorowe na twoją studniówkę!"  />
+			<text id="coop_desc_11" name="Klasyk dla mężczyzn!"  />
+			<text id="coop_desc_2" name="Odpowiedni strój na wycieczkę sportową!"  />
+			<text id="coop_desc_3" name="Ludzie i muzyka przez całą noc!"  />
+			<text id="coop_desc_4" name="Świetny prezent na każdą okazję!"  />
+			<text id="coop_desc_5" name="Nic nie jest tak dobre jak Twój dobrze dopasowany garnitur!"  />
+			<text id="coop_desc_6" name="Buty gdziekolwiek spojrzysz!"  />
+			<text id="coop_desc_7" name="Spódnice, topy i buty... wszystko czerwone!"  />
+			<text id="coop_desc_8" name="Suknie, suknie i jeszcze raz suknie na gale!"  />
+			<text id="coop_desc_9" name="Idealne na zajęcia taneczne!"  />
+			<text id="coop_title_1" name="Chodźmy na piknik!"  />
+			<text id="coop_title_10" name="Studniówka!"  />
+			<text id="coop_title_11" name="Powrót do czerni!"  />
+			<text id="coop_title_2" name="Mega sportowo!"  />
+			<text id="coop_title_3" name="Wyprzedane!"  />
+			<text id="coop_title_4" name="Świetne prezenty!"  />
+			<text id="coop_title_5" name="Wszystko dla mężczyzny!"  />
+			<text id="coop_title_6" name="Wszędzie buty!"  />
+			<text id="coop_title_7" name="Dama w czerwieni!"  />
+			<text id="coop_title_8" name="Tylko dla dziewczyn!"  />
+			<text id="coop_title_9" name="Kurs taneczny!"  />
+		</coopmission>
+		<coop_msg>
+			<text id="coop_msg_0" name="{0} zaczął/ła to Zadanie."  />
+			<text id="coop_msg_1" name="{0} przyłączył/ła się do tego Zadania."  />
+			<text id="coop_msg_2" name="{0} opuścił/ła to Zadanie."  />
+			<text id="coop_msg_3" name="{0} będzie produkował/a {1} {2} razy"  />
+			<text id="coop_msg_4" name="{0} wyprodukował/ła {1}"  />
+			<text id="coop_msg_5" name="{0} przedłużył to Zadanie."  />
+		</coop_msg>
+		<dialogs>
+			<text id="dialogs_achievement_title" name="Odznaczenia"  />
+			<text id="dialogs_advertisementfinal_copy" name="Twoja kampania reklamowa została zakończona pełnym ! Sprawdź wszystkie rezultaty jej działania!
+Co może przynieść Ci następna?"  />
+			<text id="dialogs_advertisementfinal_title" name="Gratulacje!"  />
+			<text id="dialogs_advertisementrunning_copy" name="Kampania reklamowa jest  już uruchomiona.
+Kliknij tutaj aby zobaczyć jak to działa."  />
+			<text id="dialogs_advertisementrunning_time" name="Pozostały czas:"  />
+			<text id="dialogs_advertisementrunning_title" name="Reklama działa!"  />
+			<text id="dialogs_advertisement_btn_start" name="Start"  />
+			<text id="dialogs_advertisement_flyer_copy" name="Zwiększ swoją popularność!"  />
+			<text id="dialogs_advertisement_flyer_reward" name="{0} Punktów"  />
+			<text id="dialogs_advertisement_flyer_title" name="Latanie"  />
+			<text id="dialogs_advertisement_magazine_copy" name="Każdy klient kupuje dwa razy tyle!"  />
+			<text id="dialogs_advertisement_magazine_reward" name="x {0}"  />
+			<text id="dialogs_advertisement_magazine_title" name="Magazyn reklam"  />
+			<text id="dialogs_advertisement_title" name="Reklama"  />
+			<text id="dialogs_advertisement_tv_copy" name="Każdy klient robiący u Ciebie zakupy przynosi Ci XP!"  />
+			<text id="dialogs_advertisement_tv_title" name="Reklama telewizyjna"  />
+			<text id="dialogs_avatarselection_copy" name="To imię jest już zajęte. Może :"  />
+			<text id="dialogs_avatarselection_title" name="Ups"  />
+			<text id="dialogs_avatar_female" name="Dziewczyna"  />
+			<text id="dialogs_avatar_male" name="Chłopak"  />
+			<text id="dialogs_avatar_name" name="Imię:"  />
+			<text id="dialogs_avatar_randombtn" name="Losowy strój"  />
+			<text id="dialogs_avatar_title" name="Stwórz swoją postać"  />
+			<text id="dialogs_bonus_cashdesk_copy" name="Teraz możesz dodać nowego kasjera i kasę do Twojego sklepu!"  />
+			<text id="dialogs_bonus_cashdesk_title" name="Nowa kasa"  />
+			<text id="dialogs_bonus_changingroom_copy" name="Nowa przebieralnia została odblokowana"  />
+			<text id="dialogs_bonus_changingroom_title" name="Nowa przebieralnia"  />
+			<text id="dialogs_bonus_counter_copy" name="Możesz kupić kolejny regał!"  />
+			<text id="dialogs_bonus_counter_title" name="Nowy regał"  />
+			<text id="dialogs_bonus_expand_copy" name="Właśnie ekspandowałeś i masz więcej miejsca dla klientów i dekoracji!"  />
+			<text id="dialogs_bonus_expand_title" name="Poszerzenie!"  />
+			<text id="dialogs_bonus_factory_copy" name="Teraz możesz dodać nowego pracownika do Twojego sklepu."  />
+			<text id="dialogs_bonus_factory_title" name="Nowy pracownik"  />
+			<text id="dialogs_bonus_level2_copy" name="Czy wiesz, że możesz poszerzyć sklep aby mieć więcej miejsca dla klientów i towarów."  />
+			<text id="dialogs_bonus_level5_copy" name="Czy już zauważyłeś? Możesz zareklamować swój sklep i spowodować by był bardziej popularny, sprzedać więcej dóbr albo zarobić więcej XP."  />
+			<text id="dialogs_bonus_levelUp_copy" name="Gratulacje! Osiągnąłeś nowy poziom."  />
+			<text id="dialogs_bonus_levelUp_title" name="Poziom wyżej!"  />
+			<text id="dialogs_bonus_level_title" name="Uwaga!"  />
+			<text id="dialogs_bonus_login_copy" name="To zdarzyło się w twoim sklepie podczas Twojej nieobecności :"  />
+			<text id="dialogs_bonus_login_copy2" name="LOGIN BONUS"  />
+			<text id="dialogs_bonus_login_title" name="Wróciłeś/łaś"  />
+			<text id="dialogs_bonus_pattern_copy" name="Nowe wykroje zostały dla Ciebie udostępnione!"  />
+			<text id="dialogs_bonus_pattern_title" name="Nowy wykrój"  />
+			<text id="dialogs_booster_btnbuypolice" name="Zatrudnij/Poszerz"  />
+			<text id="dialogs_booster_policeman_notime" name="nieaktywne"  />
+			<text id="dialogs_booster_title" name="Przyśpieszacz"  />
+			<text id="dialogs_changepassword_newpassword" name="Nowe hasło"  />
+			<text id="dialogs_changepassword_oldpassword" name="Stare hasło:"  />
+			<text id="dialogs_changepassword_title" name="Zmień hasło"  />
+			<text id="dialogs_coopreward_finish_0" name="Złoto"  />
+			<text id="dialogs_coopreward_finish_1" name="Srebro"  />
+			<text id="dialogs_coopreward_finish_2" name="Brąz"  />
+			<text id="dialogs_coopreward_title_fail" name="Wspólne Zadania nie zostały wykonane!"  />
+			<text id="dialogs_coopreward_title_success" name="Wspólne Zadania zostały zakończone z {0}"  />
+			<text id="dialogs_coopshelp_copy" name="Możesz wykonywać zadania z Twoimi przyjaciółmi i zarobić dodatkowe punkty XP i fashion dolary.\nIm szybsi jesteście tym wyższa nagroda!\n\nJeśli zabraknie Ci czasu wystarczy go przedłużyć!\n\nPamiętaj otrzymasz nagrodę jeśli wniesiesz jakiś wkład do wykonania zadania!"  />
+			<text id="dialogs_coopshelp_title" name="Czym są Zadania?"  />
+			<text id="dialogs_coop_btn_action" name="Detale"  />
+			<text id="dialogs_coop_btn_activecoops" name="Aktywne"  />
+			<text id="dialogs_coop_btn_join" name="Przyłącz się"  />
+			<text id="dialogs_coop_btn_newcoop" name="Zacznij Zadania"  />
+			<text id="dialogs_coop_btn_progress" name="Postęp"  />
+			<text id="dialogs_coop_btn_protocol" name="Protokół"  />
+			<text id="dialogs_coop_btn_quit" name="Zamknij"  />
+			<text id="dialogs_coop_extendtime_copy" name="Czy chcesz przedłużyć Co-op za {0} Złotych Guzików?
+Złoty Czas: {1}
+Srebrny Czas: {2}
+Brązowy Czas: {3}"  />
+			<text id="dialogs_coop_extendtime_title" name="Więcej czasu?"  />
+			<text id="dialogs_coop_maxuser" name="Max ilość uczestników: {0}"  />
+			<text id="dialogs_coop_member" name="Współuczestnicy"  />
+			<text id="dialogs_coop_minlevel" name="Min ilość uczestników: {0}"  />
+			<text id="dialogs_coop_minlevel_short" name="Min. poziom: {0}"  />
+			<text id="dialogs_coop_produce_copy" name="Jak długo chcesz produkować {0} dla Zadania?"  />
+			<text id="dialogs_coop_produce_title" name="Produkuj dla Zadań?"  />
+			<text id="dialogs_coop_quit_copy" name="Czy chcesz opuścić to Zadanie?"  />
+			<text id="dialogs_coop_subtitle" name="To musisz wyprodukować!"  />
+			<text id="dialogs_coop_timeInfo" name="Zakończony w :"  />
+			<text id="dialogs_coop_timeleft" name="Pozostały czas:"  />
+			<text id="dialogs_coop_txt_noactive" name="Na razie nie ma aktywnych Zadań.\nZacznij jakiś!"  />
+			<text id="dialogs_coop_txt_title" name="Wspólne Zadania"  />
+			<text id="dialogs_counterclick_btndonate" name="Ufunduj"  />
+			<text id="dialogs_counterclick_copy" name="Następujące rzeczy są na półce"  />
+			<text id="dialogs_counterclick_title" name="Regały"  />
+			<text id="dialogs_customclothbuy_copy" name="Czy chcesz dodać {0} na stale do twojego katalogu za {1}złotych guzików?"  />
+			<text id="dialogs_customclothbuy_title" name="Kup wzorzec!"  />
+			<text id="dialogs_customclothhelp_copy" name="Tutaj możesz stworzyć i wyprodukować swoje własne ubrania!
+Kształt, który został użyty określa czas produkcji oraz wielkość twoich zarobków.
+Wzór będzie dostępny przez 24 godziny.
+Jeśli chcesz zachować wzór, możesz go dodać na zawsze do twojego katalogu!"  />
+			<text id="dialogs_customclothinfo_title" name="Twój własny styl!"  />
+			<text id="dialogs_customcloth_btn_choose" name="Wybierz!"  />
+			<text id="dialogs_customcloth_entername" name="Daj mi nazwę!"  />
+			<text id="dialogs_customcloth_icon" name="Reprodukcja"  />
+			<text id="dialogs_customcloth_shape" name="Kształt"  />
+			<text id="dialogs_customcloth_title" name="Twój projekt definiuje styl!"  />
+			<text id="dialogs_decoshophelp_copy" name="Jeśli przenosisz swoje meble albo dekoracje do tej karty a NIE do kasy, zostaną one przeniesione do przechowalni.
+Wyciągnięcie ich ponownie do sklepu nie będzie Cię nic kosztowało.
+Możesz zobaczyć liczbę każdej pozycji przy pustym polu."  />
+			<text id="dialogs_decoshophelp_copy_1" name="Meble i dekoracje posiadają punkty prestiżu, które po zsumowaniu podniosą prestiż twojego sklepu. Jak bardzo luxusowy jest twój sklep?"  />
+			<text id="dialogs_decoshophelp_title" name="Czy chcesz włożyć szafki/ dekoracje do przechowalni?"  />
+			<text id="dialogs_decoshophelp_title_1" name="Prestiżu?"  />
+			<text id="dialogs_factoryclick_btn_cancel" name="Przerwij produkcję"  />
+			<text id="dialogs_factoryclick_copy" name="Czy chcesz &quot;zakończyć ekspresowo&quot;? Możesz to zrobić dzisiaj jeszcze {0} razy"  />
+			<text id="dialogs_factoryclick_title" name="Produkcja trwa!"  />
+			<text id="dialogs_fashionbook_durationtime" name="Wytrzymałość: {0}"  />
+			<text id="dialogs_fashionbook_emptypattern" name="Nie ma do dyspozycji żadnych wykrojów."  />
+			<text id="dialogs_fashionbook_emptypatterncustomcloth" name="Tutaj możesz znaleźć swoje własne wzorce!"  />
+			<text id="dialogs_fashionbook_emptyproducts" name="Potrzebujesz wykrój aby móc produkować rzeczy.\n\nKup jakiś w katalogu."  />
+			<text id="dialogs_fashionbook_pieces" name="Liczba sztuk:"  />
+			<text id="dialogs_fashionbook_productionPrice" name="Koszty produkcji {0}"  />
+			<text id="dialogs_fashionbook_saleprice" name="/ Sztuka:"  />
+			<text id="dialogs_featureUnlocked_advertisement" name="Użyj reklam aby w twoim sklepie zrobiło się gwarno!"  />
+			<text id="dialogs_featureUnlocked_arcades" name="Znajdz nowych znajomych w Arkadach!"  />
+			<text id="dialogs_featureUnlocked_coop" name="Zacznie Współpracę z twoimi przyjaciółmi!"  />
+			<text id="dialogs_featureUnlocked_custompattern" name="Projektuj już teraz twoje nowe wzory!"  />
+			<text id="dialogs_featureUnlocked_decoration" name="Nowe dekoracje zostały dla Ciebie aktywowane!"  />
+			<text id="dialogs_featureUnlocked_policeman" name="Uwaga! Od teraz dobra mogą zostać skradzione! Najlepiej będzie zatrudnić policjanta!"  />
+			<text id="dialogs_featureUnlocked_ranking" name="Odwiedż innych graczy po rankingu!"  />
+			<text id="dialogs_featureUnlocked_wheeloffortune" name="Spróbuj twojego szczęścia w Kole Fortuny i wygrywaj świetne nagrody!"  />
+			<text id="dialogs_giftbox_btnclose" name="Zamknij"  />
+			<text id="dialogs_giftbox_btnsend" name="wyślij jako prezent"  />
+			<text id="dialogs_giftbox_empty_friends" name="Jednemu przyjacielowi możesz wysłać jeden prezent dzienni."  />
+			<text id="dialogs_giftbox_empty_mygifts" name="Twoje pudełko na prezenty jest puste.\nWyślij jakieś Twoim przyjaciołom a może odeślą Ci kilka prezentów."  />
+			<text id="dialogs_giftbox_empty_sendablegifts" name="Dzisiaj nie ma żadnych prezentów."  />
+			<text id="dialogs_giftbox_friendstitle" name="Prześlij do przyjaciół"  />
+			<text id="dialogs_giftbox_mygiftstitle" name="Moje prezenty"  />
+			<text id="dialogs_giftbox_sendablegiftstitle" name="Wyślij prezent"  />
+			<text id="dialogs_highscore_name" name="Imię"  />
+			<text id="dialogs_highscore_rank" name="Ranga"  />
+			<text id="dialogs_highscore_search" name="Imię/Miejsce szukaj"  />
+			<text id="dialogs_highscore_title" name="Ranking"  />
+			<text id="dialogs_info_goldsmith_copy" name="Złotnik produkuje akcesoria"  />
+			<text id="dialogs_info_goldsmith_title" name="Złotnik"  />
+			<text id="dialogs_info_sewer_copy" name="Krawcowa produkuje wyłącznie ubrania"  />
+			<text id="dialogs_info_sewer_title" name="Krawcowa"  />
+			<text id="dialogs_info_shoemaker_copy" name="Szewc produkuje wyłącznie buty"  />
+			<text id="dialogs_info_shoemaker_title" name="Szewc"  />
+			<text id="dialogs_invitefriend_copy" name="Podaj imię i adres e-mail przyjaciela aby go zaprosić."  />
+			<text id="dialogs_invitefriend_emptyparam" name="Musisz poprawnie wypełnić wszystkie pola."  />
+			<text id="dialogs_invitefriend_friendname" name="Imię przyjaciela:"  />
+			<text id="dialogs_invitefriend_mail" name="Adres e-mail Twoich przyjaciół:"  />
+			<text id="dialogs_invitefriend_myname" name="Twoje imię:"  />
+			<text id="dialogs_invitefriend_title" name="Zaproszenie"  />
+			<text id="dialogs_lonelycash_copy" name="Ktoś oddał pieniądze w urzędzie podatkowym!\n\nMoże należą one do Twoich przyjaciół?"  />
+			<text id="dialogs_lonelycash_title" name="Znaleziono!"  />
+			<text id="dialogs_lonelycop_copy" name="Szef bezpieczeństwa szuka praktykantów!\nMoże zatrudni Twoich przyjaciół!"  />
+			<text id="dialogs_lonelycop_title" name="Zapytanie!"  />
+			<text id="dialogs_lonelypants_copy" name="Twój kasjer znalazł skrzynkę z towarami.\n\nPodaruj je Twoim przyjaciołom!"  />
+			<text id="dialogs_lonelypants_title" name="Co to jest?"  />
+			<text id="dialogs_mannequindesign_empty" name="Nie masz nic do wyboru z tej kategorii."  />
+			<text id="dialogs_mannequindesign_title" name="Manekin"  />
+			<text id="dialogs_mannequinpaycheck_copy" name="Im bardziej towar podoba się klientom tym wyższa jest nagroda za ubiór manekina."  />
+			<text id="dialogs_mannequinpaycheck_title" name="Ocena"  />
+			<text id="dialogs_mastery_copy_0" name="Zarobiłeś metkę za {0}!"  />
+			<text id="dialogs_mastery_copy_1" name="Podziel się specjalnymi dobrami z przyjaciółmi!"  />
+			<text id="dialogs_mastery_info" name="Każda etykietka, którą zarobisz spowoduje, że twoje dobra są lepsze!"  />
+			<text id="dialogs_mastery_title" name="Nowa etykieta!"  />
+			<text id="dialogs_noreward_copy" name="Inny gracz był szybszy niż Ty!"  />
+			<text id="dialogs_noreward_title" name="Szkoda!"  />
+			<text id="dialogs_payment_copy" name="Kup tutaj złote guziki/fashion dolary."  />
+			<text id="dialogs_payment_title" name="Sklep z Płatnościami"  />
+			<text id="dialogs_perfectpants_copy" name="Wyprodukowałeś dzisiaj perfekcyjnie {0} razy!\nOddaj przyjaciołom nadmiar!"  />
+			<text id="dialogs_perfectpants_title" name="Perfekcyjnie!"  />
+			<text id="dialogs_pesentreceived_text" name="Twój powitalny prezent {0}Złotych Guzików zostało dodanych do twojego konta."  />
+			<text id="dialogs_pesentreceived_title" name="Hurra!"  />
+			<text id="dialogs_pesentreminder_send" name="Wyślij"  />
+			<text id="dialogs_pesentreminder_text1" name="{0} Złotych Guzików czeka na ciebie jako powitalny prezent. 
+Kliknij na link w powitalnym e-mailu by je kolekcjonować."  />
+			<text id="dialogs_pesentreminder_text2" name="Możesz znowu wysyłać e-maile."  />
+			<text id="dialogs_pesentreminder_title" name="Prezent powitalny!"  />
+			<text id="dialogs_receivecomeback_copy_0" name="Jak prezent powitalny dostajesz {0} Złotych Guzików oraz polepszacz!"  />
+			<text id="dialogs_receivecomeback_copy_1" name="Jako witamy z powrotem prezent dostajesz {0} złotych guzików i ochroniarza na {1}!"  />
+			<text id="dialogs_receivecomeback_title" name="Jesteś z powrotem!"  />
+			<text id="dialogs_receivecop_copy" name="Praktykant zaczął pracę i przedłużył czas Twojej warty o\n1 godzinę!"  />
+			<text id="dialogs_receivecop_title" name="Zatrudniony!"  />
+			<text id="dialogs_receiveitem_copy" name="Twoja nagroda znajduje się w pudełku na prezenty"  />
+			<text id="dialogs_receiveitem_title" name="Hurra!"  />
+			<text id="dialogs_receivemoney_copy" name="Twoja nagroda została dodana!"  />
+			<text id="dialogs_receivemoney_title" name="Hurra!"  />
+			<text id="dialogs_register_agb" name="Akceptuj regulamin"  />
+			<text id="dialogs_register_btnsave" name="Zapisz"  />
+			<text id="dialogs_register_copy_0" name="Zarejestruj się teraz za darmo!"  />
+			<text id="dialogs_register_copy_1" name="Zapisz stan swojej gry!"  />
+			<text id="dialogs_register_copy_2" name="Po rejestracji otrzymasz przez maila  {0} Złotych Guzików jako prezent przywitalny."  />
+			<text id="dialogs_register_email" name="E-mail"  />
+			<text id="dialogs_register_forfree" name="ZA DARMO!"  />
+			<text id="dialogs_register_password" name="Hasło"  />
+			<text id="dialogs_register_title" name="Zarejestruj się"  />
+			<text id="dialogs_robberyall_copy" name="Wszystkie towary zostały skradzione"  />
+			<text id="dialogs_robbery_copy" name="Niektóre towary zostały skradzione."  />
+			<text id="dialogs_robbery_copy2" name="Połóż gotowy towar na regale
+lub zatrudnij strażnika aby chronił Twoje rzeczy przed kradzieżą."  />
+			<text id="dialogs_robbery_title" name="KRADZIEŻ!"  />
+			<text id="dialogs_sale_copy" name="Kliknij na półkę używając znaku wyprzedaży aby oznaczyć rzeczy na wyprzedaż.\nCeny zostaną obniżone a popularność Twojego sklepu wzrośnie.\nObniżka zakończy się kiedy półka będzie pusta."  />
+			<text id="dialogs_sale_title" name="Na sprzedaż"  />
+			<text id="dialogs_shippingconfirmation_send" name="Właśnie wysłaliśmy tobie prezent powitalny.
+Aby go otrzymać wystarczy kliknąc w Link podany w powitalnym E-mailu."  />
+			<text id="dialogs_shippingconfirmation_titel" name="Obecny!"  />
+			<text id="dialogs_staff_btnfire" name="Zwolnij"  />
+			<text id="dialogs_staff_btnhire" name="Zatrudnij"  />
+			<text id="dialogs_staff_title" name="Twoi kasjerzy"  />
+			<text id="dialogs_wheeloffortune_beforespin" name="Zakręć kołem i wygraj wspaniałe nagrody!"  />
+			<text id="dialogs_wheeloffortune_btn_go" name="Kręć"  />
+			<text id="dialogs_wheeloffortune_btn_towheel" name="Do Koła Fortuny"  />
+			<text id="dialogs_wheeloffortune_copy1" name="Losowałeś już dziś?"  />
+			<text id="dialogs_wheeloffortune_info" name="Pierwsze zakręcenie jest darmowe!"  />
+			<text id="dialogs_wheeloffortune_nomoney" name="Nie masz tyle Złotych Guzików by kręcić kołem!"  />
+			<text id="dialogs_wheeloffortune_noregister" name="Możesz zakręcić tylko jako zarejestrowany gracz!"  />
+			<text id="dialogs_wheeloffortune_nospace" name="W twojej szkatułce nie ma miejsca na nagrody! 
+Zrób w niej miejsce i dopiero wtedy włącz koło fortuny!"  />
+			<text id="dialogs_wheeloffortune_title" name="Loteria"  />
+			<text id="dialogs_wheeloffortune_tryagain" name="Spróbuj ponownie!"  />
+			<text id="dialogs_wheeloffortune_woncash" name="Gratulacje! Twoja nagroda została już dopisana do Twojego konta!"  />
+			<text id="dialogs_wheeloffortune_woncloth" name="Gratulacje! Możesz znaleść swoją nagrodę w magazynie!"  />
+			<text id="dialogs_wheeloffortune_wonitem" name="Gratulacje! Możesz znaleść swoją nagrodę w magazynie!"  />
+		</dialogs>
+		<error_codes>
+			<text id="error_advertisement_nolevel" name="Musisz posiadać co najmniej poziom {0} by być częścią promocji."  />
+			<text id="error_advertisement_nomoney" name="Nie masz wystarczająco dużo Złotych Guzików/Fashion Dolarów żeby użyć tej promocji!"  />
+			<text id="error_avatar_12" name="To imię jest już zajęte"  />
+			<text id="error_avatar_15" name="Użytkownik ma już avatara"  />
+			<text id="error_avatar_genderempty" name="Proszę wybrać postać!"  />
+			<text id="error_avatar_nameinvalide" name="Nazwa użytkownika nie może być pusta lub zawierać znaków specjalnych."  />
+			<text id="error_avatar_standardname" name="Wpisz nazwę użytkownika"  />
+			<text id="error_boost_nomoney" name="Nie stać Cię na zastosowanie tego przyśpieszacza"  />
+			<text id="error_cancleproduction_36" name="Regał jest nieosiągalny! Musisz przestawić kilka rzeczy!"  />
+			<text id="error_changepassword_0" name="Twoje hasło zostało zmienione"  />
+			<text id="error_changepassword_10" name="To nie jest twoje stare hasło!"  />
+			<text id="error_changepassword_copy" name="Twoje nowe hasło musi być dłuższe niż 2 znaki. Pamiętaj aby podać poprawnie stare hasło."  />
+			<text id="error_changepassword_title" name="Zmień hasło"  />
+			<text id="error_chat_23" name="Twój chat został dezaktywowany przez administratora."  />
+			<text id="error_chat_24" name="Proszę nie spamuj chatu!"  />
+			<text id="error_common_1" name="Błąd\nWiadomość z serwera {0}"  />
+			<text id="error_common_3" name="- DEBUG: Za niski poziom -"  />
+			<text id="error_common_30" name="-DEBUG: Nie ma dostępnego pracownika/półki-"  />
+			<text id="error_common_38" name="-DEBUG: W trybie renowacji-"  />
+			<text id="error_common_5" name="- DEBUG: Nieznany WodId -"  />
+			<text id="error_common_80" name="-DEBUG: Obliczanie drogi. Opóźnienie za długie-"  />
+			<text id="error_common_81" name="-DEBUG: Obliczanie drogi. opóźnienie negatywne-"  />
+			<text id="error_common_title" name="Uwaga!"  />
+			<text id="error_coop_3" name="Masz za niski poziom aby brać udział w tym Zadaniu.\n Musisz mieć odblokowany chociaż jeden wykrój."  />
+			<text id="error_coop_90" name="Bierzesz już udział w innym Zadaniu!"  />
+			<text id="error_coop_91" name="Maksymalna liczba uczestników tego Zadania została osiągnięta."  />
+			<text id="error_coop_92" name="Zadanie zostało zakończone!"  />
+			<text id="error_coop_93" name="Już dzisiaj zacząłeś Zadania! Dopiero jutro możesz zacząć nowe Zadanie!"  />
+			<text id="error_coop_nomoney" name="Nie masz wystarczająco dużo złotych guzików aby przedłużyć to Zadanie."  />
+			<text id="error_coop_title" name="Wspólne Zadania"  />
+			<text id="error_customclothbuy_nomoney" name="Nie masz wystarczająco dużo Złotych Guzików aby kupić ten wzór!"  />
+			<text id="error_customclothproduce_nomoney" name="Nie masz wystarczająco dużo Fashiondollarów aby wyprodukować ten wzór!"  />
+			<text id="error_customclothunlock_nomoney" name="Nie masz wystarczająco dużo Fashiondollarów albo Złotych Guzików aby odblokować tę pozycję!"  />
+			<text id="error_customize_nomoney" name="Nie masz wystarczająco dużo złotych guzików aby przebrać Twojego avatara."  />
+			<text id="error_custom_nameinvalide" name="Nie możesz użyć {0}!"  />
+			<text id="error_deliverinfo_33" name="-DEBUG: Towar nie został jeszcze wyprodukowany-"  />
+			<text id="error_deliverinfo_35" name="-DEBUG: Pracownik nic nie wyprodukował-"  />
+			<text id="error_deliverinfo_36" name="Ten pracownik jest nieosiągalny. Zmień ustawienie tak aby pracownik był dostępny przynajmniej z jednej strony."  />
+			<text id="error_deliverinfo_37" name="Regał jest zajęty i nie można użyć prezentu."  />
+			<text id="error_deliver_33" name="-DEBUG: Towar nie został jeszcze wyprodukowany-"  />
+			<text id="error_deliver_35" name="-DEBUG: Pracownik nic nie wyprodukował-"  />
+			<text id="error_deliver_36" name="Ten regał jest nieosiągalny. Zmień ustawienie tak aby regał był dostępny przynajmniej z jednej strony."  />
+			<text id="error_deliver_37" name="Ten regał jest pełny. Poszukaj jakiegoś wolnego regału i postaw tam produkty."  />
+			<text id="error_deliver_46" name="Nie można powiesić tych towarów. Poszukaj jakiegoś regału."  />
+			<text id="error_deliver_title" name="Nie działa..."  />
+			<text id="error_editmode_3" name="-DEBUG: Minimalny poziom nie został osiągnięty-"  />
+			<text id="error_editmode_31" name="-DEBUG: Nie można kliknąć na ten obiekt-"  />
+			<text id="error_editmode_32" name="-DEBUG: Artykuł nie znajduje się w magazynie-"  />
+			<text id="error_editmode_37" name="-DEBUG: Produkty wciąż znajdują się na półce-"  />
+			<text id="error_editmode_39" name="-DEBUG: Nieznana pozycja-"  />
+			<text id="error_editmode_48" name="-DEBUG: Niezmotywowani pracownicy nie mogą zostać przechowani-"  />
+			<text id="error_editmode_50" name="-DEBUG: Pozycja jest zablokowana-"  />
+			<text id="error_editmode_51" name="-DEBUG: Pozycja jest pusta-"  />
+			<text id="error_editmode_52" name="-DEBUG: Przedmiotu nie można obrócić-"  />
+			<text id="error_editmode_53" name="-DEBUG: Już masz to powiększenie-"  />
+			<text id="error_editmode_54" name="-DEBUG: Nie możesz kupić tego powiększenia-"  />
+			<text id="error_editmode_55" name="-DEBUG: Manekin nie może być sprzedany/zmagazynowany-"  />
+			<text id="error_editmode_nomoney" name="Nie stać Cię na ten artykuł."  />
+			<text id="error_editmode_removeMannequin" name="Dopóki na manekinie znajduje się towar nie możesz go sprzedać."  />
+			<text id="error_editmode_removeminCashdesk" name="Musisz mieć przynajmniej jedną kasę aby klienci mogli zapłacić za towary."  />
+			<text id="error_editmode_removeminChangingroom" name="Musisz mieć przynajmniej jedną przebieralnie aby klienci mogli przymierzyć towary."  />
+			<text id="error_editmode_removeminCounter" name="Potrzebujesz przynajmniej jeden regał aby móc sprzedawać Twoje towary."  />
+			<text id="error_editmode_removeminFactory" name="Potrzebujesz przynajmniej jednego pracownika aby wyprodukować nowy towar."  />
+			<text id="error_editmode_removeminMannequin" name="Musisz mieć przynajmniej jednego manekina aby Twoje produkty były dobrze zaprezentowane."  />
+			<text id="error_editmode_removenotallowedCounter" name="Na regale znajdują się jeszcze towary!"  />
+			<text id="error_editmode_removenotallowedDoor" name="Potrzebujesz drzwi! Aby je wymienić przeciągnij nowe do Twojego sklepu"  />
+			<text id="error_editmode_removenotallowedFactory" name="Pracownik nadal pracuje!"  />
+			<text id="error_editmode_title" name="Błąd podczas redekoracji"  />
+			<text id="error_fashiongame_1" name="Sklep nie może zostać załadowany. Proszę zgłoś się do  supportu Goodgame Studios"  />
+			<text id="error_fashiongame_title" name="Zły błąd"  />
+			<text id="error_forgotpassword_101" name="Masz zablokowaną możliwośc odbierania e-maili. 
+Prosze skontaktować się z Supportem."  />
+			<text id="error_fullscreen_copy" name="Tryb pełnoekranowy nie jest możliwy."  />
+			<text id="error_fullscreen_title" name="Tryb pełnoekranowy"  />
+			<text id="error_gift_20" name="Regał jest zajęty i nie można użyć prezentu."  />
+			<text id="error_gift_34" name="Twój limit prezentów został osiągnięty.
+Czy chcesz użyć {0} więcej za {1} Złotych Guzików?"  />
+			<text id="error_gift_37" name="Regał jest zajęty i nie można użyć prezentu."  />
+			<text id="error_gift_nomoney" name="Masz za mało Złotych Guzików by mieć więcej prezentów!"  />
+			<text id="error_gift_title" name="Prezenty"  />
+			<text id="error_instantdesign_34" name="- DEBUG: Dzienny limit osiągnięty -"  />
+			<text id="error_instantdesign_nomoney" name="Nie masz wystarczająco dużo złotych guzików aby ubrać na nowo tego manekina."  />
+			<text id="error_instantdesign_nomoreinstant" name="Tylko określona ilość manekinów może być na nowo ubrana. Jutro będziesz mógł ponownie udekorować wystawę."  />
+			<text id="error_instantdesign_title" name="Pokaz"  />
+			<text id="error_instantwork_nomoney" name="Nie masz wystarczająco dużo złotych guzików aby zakończyć ekspresowo produkcję."  />
+			<text id="error_invitefriend_11" name="Ten gracz nie jest w tym momencie dostępny.
+Prosimy spróbować ponownie później!"  />
+			<text id="error_invitefriend_13" name="Twój przyjaciel zarejestrował się w Fashion!"  />
+			<text id="error_invitefriend_14" name="Adres e-mail jest nieważny"  />
+			<text id="error_invitefriend_70" name="Limit przyjaciół został osiągnięty!"  />
+			<text id="error_invitefriend_71" name="Ten gracz nie posiada innych przyjaciół!"  />
+			<text id="error_invitefriend_title" name="Błędne zaproszenie"  />
+			<text id="error_job_2" name="Wolne! Na razie koniec pracy."  />
+			<text id="error_join_20" name="Sklep jest pełny, spróbuj później."  />
+			<text id="error_join_21" name="-DEBUG: Już w sklepie-"  />
+			<text id="error_join_22" name="-DEBUG: Sklep jest nieznany-"  />
+			<text id="error_join_title" name="Wejdź do sklepu"  />
+			<text id="error_login_10" name="Nazwa użytkownika lub hasło jest nieprawidłowe!"  />
+			<text id="error_login_11" name="Nazwa użytkownika lub hasło jest nieprawidłowe!"  />
+			<text id="error_login_12" name="Użytkownik jest już zarejestrowany."  />
+			<text id="error_login_13" name="Użytkownik jest już zarejestrowany."  />
+			<text id="error_login_14" name="Nazwa użytkownika lub hasło jest nieprawidłowe!"  />
+			<text id="error_login_15" name="Jesteś już zalogowany"  />
+			<text id="error_login_16" name="Twój avatar jest błędny. Proszę zgłoś się do supportu"  />
+			<text id="error_lostpassword_101" name="Masz zablokowane przyjmowanie e-maili. 
+Nacisnij ok i zezwól na odbieranie e-maili."  />
+			<text id="error_lostpassword_11" name="Pod tym adresem nie jest zarejestrowany żaden gracz"  />
+			<text id="error_marketplace_20" name="-DEBUG: Arkady są pełne-"  />
+			<text id="error_marketplace_21" name="-DEBUG: Właśnie znajdujesz się w arkadach-"  />
+			<text id="error_marketplace_title" name="Arkady Goodgame"  />
+			<text id="error_nocustomclothselected" name="Jeśli chcesz coś wyprodukować wybierz najpierw kształt!"  />
+			<text id="error_nomoney_copy" name="Niestety,na to nie możesz sobie jeszcze pozwolić."  />
+			<text id="error_nomoney_guest_copy" name="Zbankrutowałeś?\nWięc szybko zarejestruj się i zainkasuj {0}!"  />
+			<text id="error_nomoney_title" name="Brak pieniędzy"  />
+			<text id="error_npchire_nomoney" name="Nie masz wystarczająco dużo złotych guzików aby zatrudnić nową kasjerkę."  />
+			<text id="error_patternshop_44" name="Już masz ten wykrój."  />
+			<text id="error_patternshop_5" name="-DEBUG: WOD unknown-"  />
+			<text id="error_patternshop_nomoney" name="Nie stać Cię na ten wykrój."  />
+			<text id="error_patternshop_title" name="Problem z wykrojem"  />
+			<text id="error_police_nomoney" name="Nie masz wystarczająco dużo złotych guzików aby zatrudnić tego strażnika."  />
+			<text id="error_register_10" name="Hasło jest za krótkie."  />
+			<text id="error_register_102" name="Podany adres e-mail nie jest poprawny."  />
+			<text id="error_register_13" name="Pod tym adresem e-mail już jest zarejestrowany gracz."  />
+			<text id="error_register_14" name="Adres e-mail jest niepoprawny"  />
+			<text id="error_register_19" name="Twój adres e-mail jest za długi."  />
+			<text id="error_register_2" name="Już potwierdziłeś swój adres e-mail."  />
+			<text id="error_register_agb" name="Bez akceptacji zasad użytkowania portalu nie przejdziesz dalej. Potwierdź regulamin!"  />
+			<text id="error_register_emailinvalide" name="Adres e-mail nie może być pusty i zawierać znaków specjalnych."  />
+			<text id="error_register_passwordinvalide" name="Twoje hasło nie może być puste lub zawierać znaków specjalnych."  />
+			<text id="error_register_title" name="Błąd rejestracji"  />
+			<text id="error_repair_36" name="-DEBUG: Pracownik nie jest dostępny-"  />
+			<text id="error_repair_48" name="-DEBUG: Pracownik ma już 100% motywacji-"  />
+			<text id="error_repair_nomoney" name="Nie masz wystarczającej liczby fashion dolarów aby wypłacić premię."  />
+			<text id="error_repair_title" name="Naprawa"  />
+			<text id="error_sale_47" name="Na tym regale nie ma żadnego towaru!"  />
+			<text id="error_sale_title" name="WYPRZEDAŻ"  />
+			<text id="error_walk_23" name="-DEBUG: To miejsce jest niedostępne-"  />
+			<text id="error_work_31" name="-DEBUG: Pracownik już pracue!-"  />
+			<text id="error_work_32" name="-DEBUG: Nie masz wykroju do tego produktu -"  />
+			<text id="error_work_36" name="Droga do pracowników jest zagrodzona! Spróbuj zmienić umeblowanie."  />
+			<text id="error_work_41" name="- DEBUG: Nie ma żadnego przyśpieszacza w inwentarzu -"  />
+			<text id="error_work_45" name="-DEBUG: Typ produkcji i typ pracownika nie pasują do siebie-"  />
+			<text id="error_work_49" name="- DEBUG: Zły przyśpieszacz dla tego pracownika -"  />
+			<text id="error_work_67" name="Twój wzorzec nie jest już dostępny. 
+Stwórz nowy!"  />
+			<text id="error_work_nomoney" name="Nie masz wystarczającej liczby fashion dolarów aby zacząć produkcję."  />
+			<text id="error_work_title" name="Odmowa pracy"  />
+		</error_codes>
+		<feature>
+			<text id="feature_0_text_0" name="To jest już tak zaawansowane!\n\nGoodgame Fashion weszło w fazę BETA.\nKażdy kto startuje z poziomu 1 dostaje swoje zakupione złote guziki i bonus w postaci 10 złotych guzików w ramach podziękowania.\n\nMiłej gry w Goodgame Fashion!"  />
+			<text id="feature_0_title" name="Oficjalny start!"  />
+			<text id="feature_10_text_0" name="Rozpoczęło się lato! 
+Nowa kolekcja GeeDee już jest tutaj!"  />
+			<text id="feature_1_text_0" name="Szukaj złota wraz z przyjaciółmi!\nOdkryj nowe Zadania!"  />
+			<text id="feature_2_text_0" name="Odkrywaj nowe półki, przebieralnie i kasy!"  />
+			<text id="feature_2_text_1" name="Nigdy zmiana twojego wyglądu nie była tak prosta! Po prostu kliknij na swóją postać!"  />
+			<text id="feature_2_text_2" name="Ciesz się teraz Fashion z Dzwiękiem!"  />
+			<text id="feature_3_text_0" name="Nadchodzi wiosna! Przynieś trochę świeżego powietrza i nowych wzorów do Twojego sklepu!"  />
+			<text id="feature_3_text_1" name="Dzieki nowym metkom twoje produkty beda coraz bardziej rentowne!"  />
+			<text id="feature_4_text_0" name="Wszędzie kolory!
+Zobacz nową kolekcję JayJay!"  />
+			<text id="feature_4_text_1" name="Odkryj nowe regały, przebieralnie oraz kasy!"  />
+			<text id="feature_4_text_2" name="Nowe wiosenne kurteczki są niesamowite!"  />
+			<text id="feature_4_text_3" name="Nowa praca czeka na Ciebie! Pomóż swoim znajomym i odbierz  nagrodę!"  />
+			<text id="feature_5_text_0" name="Jest kolorowo! Nowa kolekcja JayJay nadaje kolorów twojemu sklepu!"  />
+			<text id="feature_5_text_1" name="Odkryj nowe regały, garderoby i kasy!"  />
+			<text id="feature_5_text_2" name="Nowe wiosenne kurtki są tego warte!"  />
+			<text id="feature_5_text_3" name="Idź do swoich znajomych i zdobądź nagrodę!"  />
+			<text id="feature_6_text_0" name="Zostań projektantem mody i stwórz swoje własne wzorce!"  />
+			<text id="feature_6_text_1" name="Odkryj nowe okna wystawowe dla Twojego sklepu!"  />
+			<text id="feature_7_text_0" name="Jak dużo masz szczęścia? 
+Zakręć Kołem Fortuny i sprawdź!"  />
+			<text id="feature_8_text_0" name="Dodaj twojemu sklepu więcej popularności i prestiżu poprzez nowe luxusowe meble i dekoracje!"  />
+			<text id="feature_8_text_1" name="Zainspiruj swoich klientów nowymi regałami,kabinami oraz kasami!"  />
+			<text id="feature_9_text_0" name="Zwiększ popularność swojego sklepu poprzez reklamę i zarób dodatkowe XP!"  />
+			<text id="feature_9_text_1" name="Dodaj więcej prezentów na Twoje półki!"  />
+			<text id="feature_title" name="Nowe dodatki"  />
+		</feature>
+		<feeds>
+			<text id="descriptionfashionfeed" name="Właśnie zainstalowałem Goodgame Fashion. Może też chcesz zostać projektantem mody i mieć własny sklep? 
+Wejdź i zobacz sam!"  />
+			<text id="descriptionlongfashion" name="Otwórz własny sklep w Goodgame Fashion. Zostań znanym projektantem, kupuj nowe wykroje, produkuj własne ubrania i wyznaczaj trendy a wkrótce będziesz mógł zostać modowym guru!"  />
+		</feeds>
+		<forumaction>
+			<text id="forumaction_copy_1" name="Zaprojektój swój własny strój kąpielowy i wygraj!
+Złote Guziki czekają na zwycięzcę a krój pojawi się z projektach!
+
+Wyłącz forum i dołącz do konkursu!"  />
+			<text id="forumaction_title_1" name="Bądź kreatywny!"  />
+		</forumaction>
+		<loggedin_msg id=""  />
+		<panels>
+			<text id="panels_buddylist_morefriends" name="Więcej przyjaciół"  />
+			<text id="panels_login_email" name="Nazwa użytkownika/ E-mail"  />
+			<text id="panels_login_loginbtn" name="LOGIN"  />
+			<text id="panels_login_lostpassword" name="Nie pamiętasz hasła?"  />
+			<text id="panels_login_password" name="Hasło"  />
+			<text id="panels_login_playbtn" name="GRAJ TERAZ"  />
+			<text id="panels_login_registerbtn" name="ZAREJESTRUJ SIĘ"  />
+			<text id="panels_login_rememberpassword" name="Zapisz hasło"  />
+			<text id="panels_social_alone" name="Na razie jesteś tu sam!"  />
+			<text id="panels_social_bot" name="Fashion-Chat"  />
+			<text id="panels_social_chatblocked" name="Tylko gracze którzy osiągnęli 1 poziom i są zarejestrowani mogą używać chatu."  />
+			<text id="panels_social_come_in" name="wszedł/ła do sklepu"  />
+			<text id="panels_social_go_out" name="wyszedł/ła ze sklepu"  />
+			<text id="panels_social_nofriends" name="Nie masz żadnych przyjaciół!"  />
+			<text id="panels_social_welcome_market" name="Witamy w Arkadach Goodgame!"  />
+			<text id="panels_social_welcome_myshop" name="Witamy"  />
+		</panels>
+		<server>
+			<mail>
+				<text id="mail_invite_friend" name="Hej %s!&lt;br /&gt;&lt;br /&gt;Odkryłem świetną grę online &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Ten link zaprowadzi Cię do gry:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Zarejestruj się pod tym linkiem aby otworzyć własny sklep w &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;Dowiedź się jak to jest mieć swój własny sklep, produkuj ubrania, buty i akcesoria. A następnie sprzedawaj je w urządzonym przez Ciebie sklepie.!&lt;br /&gt;&lt;br /&gt;Miłej zabawy,pozdrowienia %s"  />
+				<text id="mail_lost_pw" name="Hej %s!&lt;br /&gt;&lt;br /&gt;Otrzymujesz ten e-mail automatycznie, ponieważ poprosiłeś/łaś o nowe hasło.&lt;br /&gt;Twoje hasło to: %s&lt;br /&gt;&lt;br /&gt;Ten link zaprowadzi Cię do gry:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Jeśli masz pytania lub problemy zgłoś się do support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;Miłej gry!&lt;br /&gt;&lt;br /&gt;Twój Team z&lt;br /&gt;Goodgamestudios.com"  />
+				<text id="mail_registration" name="Hej,&lt;br /&gt;&lt;br /&gt;dziękujemy za rejestrację w &quot;Goodgame Fashion&quot;.&lt;br /&gt;&lt;br /&gt;W każdej chwili możesz się zalogować używając danych:&lt;br /&gt;E-mail: %s&lt;br /&gt;Hasło: %s&lt;br /&gt;&lt;br /&gt;Ten link zaprowadzi Cię prosto do gry:&lt;br /&gt;http://www.goodgamestudios.com/fashion/&lt;br /&gt;&lt;br /&gt;Jeśli masz pytania lub problemy to zgłoś się do support@goodgamestudios.com&lt;br /&gt;&lt;br /&gt;Miłej zabawy!&lt;br /&gt;&lt;br /&gt;Twój Team z&lt;br /&gt;Goodgamestudios.com"  />
+			</mail>
+			<misc>
+				<text id="marketplace" name="Arkady Goodgame"  />
+			</misc>
+		</server>
+		<server_msg>
+			<text id="server_msg_10" name="Serwer zostanie zrestartowany. Za chwile wszystko wróci do normy.\nWciśnij F5, aby załadować ponownie stronę."  />
+			<text id="server_msg_title" name="Wiadomość z serwera!"  />
+		</server_msg>
+		<std_buttons>
+			<text id="btn_addcurrency" name="Kup fashion dolary/złote guziki"  />
+			<text id="btn_payment" name="Kup fashion dolary/złote guziki"  />
+			<text id="btn_policeman" name="Ochroniarz"  />
+			<text id="btn_register" name="Zarejestruj się"  />
+			<text id="btn_superrewardChips" name="Zarób fashion dolary"  />
+			<text id="btn_superrewardGold" name="Zarób złote guziki"  />
+		</std_buttons>
+		<tooltips>
+			<text id="tooltip_Basic_Factory_Basicaccessoire" name="Złotnik"  />
+			<text id="tooltip_Basic_Factory_Basiccloth" name="Krawcowa"  />
+			<text id="tooltip_Basic_Factory_Basicshoes" name="Szewc"  />
+			<text id="tooltip_counter_pieces" name="Liczba: {0}"  />
+			<text id="tooltip_customcloth_icon" name="Reprodukcje"  />
+			<text id="tooltip_customcloth_shape" name="Kształty"  />
+			<text id="tooltip_customcloth_unlock" name="Odblokuj"  />
+			<text id="tooltip_factory_empty" name="Produkuj nowe towary!"  />
+			<text id="tooltip_factory_preparestep1" name="Instruuj pracownika"  />
+			<text id="tooltip_factory_preparetitle" name="Kliknij do"  />
+			<text id="tooltip_factory_readytoserv" name="Prezentuj towary"  />
+			<text id="tooltip_factory_readytoserv_amount" name="Liczba: {0}"  />
+			<text id="tooltip_factory_wear" name="Motywacja : {0}%"  />
+			<text id="tooltip_FashionActionPanel_btn_achievements" name="Odznaczenia"  />
+			<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Dodaj złote guziki/\nfashion dolary"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisement" name="Reklama"  />
+			<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="Od poziomu {0} możesz się reklamować"  />
+			<text id="tooltip_FashionActionPanel_btn_booster" name="Przyśpieszacz"  />
+			<text id="tooltip_FashionActionPanel_btn_coop" name="Wspólne Zadania"  />
+			<text id="tooltip_FashionActionPanel_btn_decoshop" name="Przebuduj"  />
+			<text id="tooltip_FashionActionPanel_btn_doadvertisement" name="Zareklamuj się !"  />
+			<text id="tooltip_FashionActionPanel_btn_fashionbook" name="Katalog"  />
+			<text id="tooltip_FashionActionPanel_btn_gifts" name="Prezenty"  />
+			<text id="tooltip_FashionActionPanel_btn_highscore" name="Ranking"  />
+			<text id="tooltip_FashionActionPanel_btn_market" name="Arkady Goodgame"  />
+			<text id="tooltip_FashionActionPanel_btn_openclose" name="Otwórz/zamknij sklep"  />
+			<text id="tooltip_FashionActionPanel_btn_ownshop" name="Mój sklep"  />
+			<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Akcja w ruchu.
+Kliknij pośrodku etapu."  />
+			<text id="tooltip_FashionActionPanel_btn_sale" name="Obniżka ceny"  />
+			<text id="tooltip_FashionActionPanel_btn_staff" name="Kasjer"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="Dół"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_hair" name="Włosy"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_skin" name="Kolor skóry"  />
+			<text id="tooltip_FashionAvatarCreationDialog_btn_tops" name="Topy"  />
+			<text id="tooltip_FashionBookDialog_btn_all" name="Wszystkie"  />
+			<text id="tooltip_FashionBookDialog_btn_buy" name="Kup wykrój"  />
+			<text id="tooltip_FashionBookDialog_btn_customclothdesign" name="Wzorzec"  />
+			<text id="tooltip_FashionBookDialog_btn_mastery" name="Nadal {0}do poziomu Metek {1}
+Kliknij po więcej szczegółów"  />
+			<text id="tooltip_FashionBookDialog_btn_produce" name="Produkuj"  />
+			<text id="tooltip_FashionBookDialog_customcloth" name="Standardowe Wzorce"  />
+			<text id="tooltip_FashionBookDialog_female" name="Dla dziewczyn"  />
+			<text id="tooltip_FashionBookDialog_info" name="Pamiętaj aby zawsze w sklepie\nmieć ubrania dla dziewczyn i chłopców!"  />
+			<text id="tooltip_FashionBookDialog_male" name="Dla chłopców"  />
+			<text id="tooltip_FashionBookDialog_unisex" name="Dla chłopców i dziewczyn"  />
+			<text id="tooltip_FashionBoosterDialog_addAmount" name="Ilość na zakup"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime" name="Przedłużenie czasu"  />
+			<text id="tooltip_FashionBoosterDialog_addPoliceTime_social" name="Przedłuż czas\n+ {0} przy {1} kolejnych przyjaciołach."  />
+			<text id="tooltip_FashionBoosterDialog_btn_buy" name="Kup"  />
+			<text id="tooltip_FashionBoosterDialog_btn_info" name="Info"  />
+			<text id="tooltip_FashionBoosterDialog_coffee" name="Kawa\n Zwiększa wydajność krawcowych o 20%!"  />
+			<text id="tooltip_FashionBoosterDialog_currentAmount" name="Na składzie"  />
+			<text id="tooltip_FashionBoosterDialog_currentPoliceTime" name="Aktualna ochrona przed kradzieżą"  />
+			<text id="tooltip_FashionBoosterDialog_energy" name="Energydrink\nWydajność szewca zwiększa się o 20%"  />
+			<text id="tooltip_FashionBoosterDialog_police" name="Ochroniarz"  />
+			<text id="tooltip_FashionBoosterDialog_price" name="Cena"  />
+			<text id="tooltip_FashionBoosterDialog_shake" name="Proteinowy koktajl\nZwiększa wydajność złotnika o 20%!"  />
+			<text id="tooltip_FashionCoopDialog_btn_extend" name="Przedłuż Zadania"  />
+			<text id="tooltip_FashionCounterDialog_btn_sale" name="Cena jest obniżona"  />
+			<text id="tooltip_FashionCounterDialog_btn_spend" name="Ufunduj towar bez płacenia podatków."  />
+			<text id="tooltip_FashionCounterDialog_btn_unsale" name="Anuluj wyprzedaż"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_buy_expansions" name="Kup"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_close" name="Zakończ przebudowe"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko" name="Renowacja"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Deko" name="Dekoracje"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_display" name="Wyświetl okno"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Door" name="Drzwi"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Tiles" name="Piętra"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wall" name="Ściany"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_deko_Wallobject" name="Dekoracje ścian"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion" name="Poszerzenia"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Level" name="Dodaj piętra"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_expansion_Size" name="Poszerz sklep"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional" name="Funkcjonalne"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Kasy"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="Przebieralnia"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="Regały"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="Pracownik"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="Manekin"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="Wykrój"  />
+			<text id="tooltip_FashionDekoShopPanel_btn_sell" name="Sprzedaj"  />
+			<text id="tooltip_FashionExpansionFriends" name="Potrzebujesz jeszcze {0} przyjaciół\naby kupić to poszerzenie."  />
+			<text id="tooltip_FashionFactoryDialog_btn_instant" name="Zakończ teraz!"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_remove" name="Usuń"  />
+			<text id="tooltip_FashionGiftboxDialog_btn_use" name="Użyj"  />
+			<text id="tooltip_FashionGiftboxDialog_mygifts" name="Moje prezenty"  />
+			<text id="tooltip_FashionGiftboxDialog_sendablegifts" name="Wyślij prezent"  />
+			<text id="tooltip_FashionHighscoreDialog_luxury" name="Sortuj według prestiżu"  />
+			<text id="tooltip_FashionHighscoreDialog_offline" name="Offline"  />
+			<text id="tooltip_FashionHighscoreDialog_online" name="Online"  />
+			<text id="tooltip_FashionHighscoreDialog_xp" name="Sortuj według XP"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_accessory" name="Akcesoria"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_clothes" name="Ubrania"  />
+			<text id="tooltip_FashionMannequinDesignDialog_btn_shoes" name="Buty"  />
+			<text id="tooltip_FashionMasteryInfoDialog_bronce" name="Produkuj więcej!"  />
+			<text id="tooltip_FashionMasteryInfoDialog_gold" name="Produkuj szybciej!"  />
+			<text id="tooltip_FashionMasteryInfoDialog_silver" name="Złap więcej XP!"  />
+			<text id="tooltip_FashionNamePanel_mc_luxury" name="Prestiż Twojego Sklepu"  />
+			<text id="tooltip_FashionNamePanel_mc_rating" name="Popularność Twojego sklepu"  />
+			<text id="tooltip_FashionOptionPanel_btn_allowemails" name="Zezwalaj na e-maile"  />
+			<text id="tooltip_FashionOptionPanel_btn_blockemails" name="Zablokuj e-maile."  />
+			<text id="tooltip_FashionOptionPanel_btn_bugreport" name="Zgłoś błąd"  />
+			<text id="tooltip_FashionOptionPanel_btn_changeAvatar" name="Przebierz postać"  />
+			<text id="tooltip_FashionOptionPanel_btn_changePass" name="Zmień hasło"  />
+			<text id="tooltip_FashionOptionPanel_btn_faq" name="FAQ"  />
+			<text id="tooltip_FashionOptionPanel_btn_fullscreen" name="Tryb pełnoekranowy"  />
+			<text id="tooltip_FashionOptionPanel_btn_help" name="Pomoc"  />
+			<text id="tooltip_FashionOptionPanel_btn_logout" name="Wyloguj się"  />
+			<text id="tooltip_FashionOptionPanel_btn_music" name="Muzyka włączona/wyłączona"  />
+			<text id="tooltip_FashionOptionPanel_btn_news" name="GGS Forum"  />
+			<text id="tooltip_FashionOptionPanel_btn_options" name="Opcje"  />
+			<text id="tooltip_FashionOptionPanel_btn_register" name="Zarejestruj się"  />
+			<text id="tooltip_FashionOptionPanel_btn_soundeffect" name="Dżwięk włączony/wyłączony"  />
+			<text id="tooltip_FashionOptionPanel_btn_support" name="Wyślij e-mail do supportu"  />
+			<text id="tooltip_FashionOptionPanel_btn_verifyemail" name="Odbierz powitalny prezent"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomIn" name="+ Zwiększenie"  />
+			<text id="tooltip_FashionOptionPanel_btn_zoomOut" name="- Zmniejszenie"  />
+			<text id="tooltip_FashionOptionPanel_mc_floors" name="Piętra"  />
+			<text id="tooltip_FashionOptionPanel_mc_ranking" name="Ranking"  />
+			<text id="tooltip_FashionPatternFriends" name="Potrzebujesz jeszcze {0} aby odblokować ten wykrój"  />
+			<text id="tooltip_FashionSocialPanel_btn_buddies" name="Przyjaciele"  />
+			<text id="tooltip_FashionSocialPanel_btn_buddiesinshop" name="Obecni gracze"  />
+			<text id="tooltip_FashionSocialPanel_btn_chat" name="Rozmowa"  />
+			<text id="tooltip_FashionSocialPanel_btn_findbuddies" name="Zaproś przyjaciół"  />
+			<text id="tooltip_FashionUserStatePanel_btn_addcurrency" name="Dodaj fashion dolary/ złote guziki"  />
+			<text id="tooltip_FashionUserStatePanel_jobs" name="Liczba działań"  />
+			<text id="tooltip_FashionUserStatePanel_xp" name="{0} XP do kolejnego poziomu"  />
+			<text id="tooltip_Fashion_btnclose" name="Zamknij"  />
+			<text id="tooltip_levelx" name="Dostępny od poziomu {0}"  />
+			<text id="tooltip_marketplace" name="Tablica"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_achievements" name="Odznaczenia"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_addfriend" name="Dodaj przyjaciela"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_info" name="Informacja"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_kick" name="Wyrzuć"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_removebuddy" name="Usuń z listy przyjaciół"  />
+			<text id="tooltip_PlayerActionChoicesComponent_btn_visit" name="Odwiedź"  />
+			<text id="tooltip_wheeloffortune_line1" name="Koło Fortuny"  />
+			<text id="tooltip_wheeloffortune_line2" name="Kliknij by grać!"  />
+			<text id="tooltip_wheeloffortune_line3" name="Darmowa gra"  />
+			<text id="tooltip_xofy" name="{0} z {1}"  />
+		</tooltips>
+		<tutorial>
+			<text id="tut_buypattern_copy" name="W katalogu możesz kupować wykroje. Raz zakupiony wyrój możesz wykorzystać wiele razy. Kliknij aby kupić nowy wykrój."  />
+			<text id="tut_choosemannequin_copy" name="Użyj manekina aby artykuł został zauważony. Kliknij na wolnego manekina."  />
+			<text id="tut_delivercounter_copy" name="...a potem postaw to na półkę!"  />
+			<text id="tut_emptyfactory_copy" name="Krawcowe szyją ubrania, później będziesz mógł zatrudnić innych pracowników do pomocy. Kliknij na krawcową."  />
+			<text id="tut_instantwork_copy" name="Kliknij na przycisk a Twoje ubrania będą gotowe natychmiast."  />
+			<text id="tut_lastscreen_copy" name="Świetnie! Uczyniłeś pierwsze kroki aby stworzyć swoją własną markę. Pierwsi klienci już idą. Rozejrzyj się trochę po świecie mody.Tutaj jest wiele więcej do odkrycia.\n\nMiłej zabawy!"  />
+			<text id="tut_mannequinaccept_copy" name="Zastanawiasz się jaka jest reakcja Twoich gości? Kliknij na potwierdź aby zobaczyć ocenę."  />
+			<text id="tut_mannequincategory_copy" name="Pewne ubrania możesz założyć tylko na niektóre manekiny. Na tors możesz założyć tyko top. Kliknij na ikonę ubrań aby zobaczyć selekcję."  />
+			<text id="tut_mannequinclose_copy" name="To wygląda świetnie! Kliknij na zakończ aby powrócić do sklepu."  />
+			<text id="tut_mannequinclothes_copy" name="Obecnie masz w ofercie niebieskie polo. Kliknij aby ubrać manekin."  />
+			<text id="tut_openproducebook_copy" name="Kupiłeś wykrój. Spoglądaj do książki produkcyjnej aby zobaczyć nowe towary, które będzie można produkować."  />
+			<text id="tut_preparesteps_copy" name="Teraz kliknij na krawcową aby dać jej instrukcje potrzebne do produkcji."  />
+			<text id="tut_producefactory_copy" name="Ze złotymi guzikami możesz zakończyć produkcję ekspresowo. Aby zakończyć teraz kliknij na krawcowe."  />
+			<text id="tut_produce_copy" name="Możesz teraz rozpocząć produkcję."  />
+			<text id="tut_readyfactory_copy" name="Aby Twoi klienci mogli robić zakupy musisz posprzątać na regale. Kliknij na pracownika, który wyprodukował towar."  />
+			<text id="tut_start_copy" name="Witamy w Twoim sklepie, {0}!
+Ten krótki tutorial pomoże Ci odnaleźć się w świecie mody."  />
+			<text id="tut_title" name="Tutorial!"  />
+		</tutorial>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Błąd"  />
+				<text id="generic_alert_connection_failed_copy" name="Na grze prowadzone są teraz prace. Spróbuj później !"  />
+				<text id="generic_alert_connection_failed_title" name="Prace w toku"  />
+				<text id="generic_alert_connection_lost_copy" name="Połączenie z grą zostanie przerwane. Spróbuj ponownie się połączyć."  />
+				<text id="generic_alert_connection_lost_description" name="Właśnie trwają prace remontowe w celu wprowadzenia nowej aktualizacji, opcji w grze lub usuwania błędów. &lt;br&gt;&lt;br&gt; Pracujemy tak szybko jak jest to możliwe abyś mógł/a szybko zagrać w grę."  />
+				<text id="generic_alert_connection_lost_promo" name="Może w międzyczasie zobaczysz nasze inne gry?"  />
+				<text id="generic_alert_connection_lost_thanks" name="Dziękujemy za zrozumienie!"  />
+				<text id="generic_alert_connection_lost_title" name="Połączenie przerwane!"  />
+				<text id="generic_alert_error" name="Błąd"  />
+				<text id="generic_alert_information" name="Wskazówka"  />
+				<text id="generic_alert_loggedout_copy" name="Właśnie się wylogowałeś ale nie zapomnij: każdego dnia czeka na Ciebie login bonus!"  />
+				<text id="generic_alert_loggedout_title" name="Do zobaczenia!"  />
+				<text id="generic_alert_warning" name="Uwaga!"  />
+				<text id="generic_alert_watchout" name="Uwaga!"  />
+				<text id="generic_invalid_email_provider" name="Adres E-mail od tego dostawcy jest zabroniony!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Twoje połączenie internetowe jest za wolne. Spróbuj później!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Podoba Ci się gra?Jak możemy ją ulepszyć? Napisz nam swoje zdanie na forum lub grupie Goodgame!"  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Uwaga: stan gry zostanie zapisany jeśli się zarejestrujesz!"  />
+				<text id="generic_register_error_invalidemail" name="Adres e-mail jest niepoprawny"  />
+				<text id="generic_report_muted_chattry" name="W tej chwili nie możesz korzystać z chatu, ponieważ zostałeś zablokowany"  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Przyjmij"  />
+				<text id="generic_btn_cancel" name="Przerwij"  />
+				<text id="generic_btn_close" name="Zamknij"  />
+				<text id="generic_btn_continue" name="Dalej"  />
+				<text id="generic_btn_end" name="Zakończ"  />
+				<text id="generic_btn_endnow" name="Zakończ natychmiast"  />
+				<text id="generic_btn_goback" name="Wstecz"  />
+				<text id="generic_btn_no" name="Nie"  />
+				<text id="generic_btn_noshare" name="Jeszcze nie!"  />
+				<text id="generic_btn_notaccept" name="Odrzuć"  />
+				<text id="generic_btn_okay" name="Ok"  />
+				<text id="generic_btn_reconnect" name="Połącz ponownie"  />
+				<text id="generic_btn_refresh" name="Aktualizacja"  />
+				<text id="generic_btn_report" name="Zgłoś"  />
+				<text id="generic_btn_search" name="Szukaj"  />
+				<text id="generic_btn_share" name="Podziel się!"  />
+				<text id="generic_btn_skip" name="Przeskocz"  />
+				<text id="generic_btn_start" name="Start"  />
+				<text id="generic_btn_topayment" name="Daj to!"  />
+				<text id="generic_btn_yes" name="Tak"  />
+			</button>
+			<chat>
+				<text id="generic_chat_writeable" name="Tylko osoby zarejestrowane, które osiągneły 1 poziom mogą uzywać czatu."  />
+			</chat>
+			<common>
+				<text id="generic_admin" name="Admin"  />
+				<text id="generic_animation" name="Pokazuj animacje"  />
+				<text id="generic_bugreport" name="Zgłoś nam błąd"  />
+				<text id="generic_changePass" name="Zmień hasło"  />
+				<text id="generic_comma" name="."  />
+				<text id="generic_conningsoon" name="*Już niedługo*"  />
+				<text id="generic_date" name="Fakt"  />
+				<text id="generic_day" name="dzień"  />
+				<text id="generic_dayformat" name="{0}.{1}."  />
+				<text id="generic_days" name="dni"  />
+				<text id="generic_day_short" name="T"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="E-mail"  />
+				<text id="generic_faq" name="Pytania i odpowiedzi"  />
+				<text id="generic_forum" name="Forum"  />
+				<text id="generic_friend" name="Znajomy"  />
+				<text id="generic_friends" name="Znajomy"  />
+				<text id="generic_general" name="Ustawienia Ogólne"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Grupa"  />
+				<text id="generic_guest" name="Gość"  />
+				<text id="generic_help" name="Pomoc"  />
+				<text id="generic_high" name="Wysoka"  />
+				<text id="generic_hour" name="godzina"  />
+				<text id="generic_hours" name="Godziny"  />
+				<text id="generic_hour_short" name="Std"  />
+				<text id="generic_limited" name="Limitowane"  />
+				<text id="generic_logout" name="Wyloguj się"  />
+				<text id="generic_low" name="Niska"  />
+				<text id="generic_medium" name="Średnia"  />
+				<text id="generic_minute" name="minuta"  />
+				<text id="generic_minutes" name="minuty"  />
+				<text id="generic_minute_short" name="mój"  />
+				<text id="generic_moderator" name="Mod"  />
+				<text id="generic_music" name="Muzyka on/off"  />
+				<text id="generic_name" name="Imię"  />
+				<text id="generic_news" name="Nowe hasło"  />
+				<text id="generic_options" name="Ustawienia"  />
+				<text id="generic_quality" name="Jakość"  />
+				<text id="generic_register" name="Zapisz i zarejestruj się"  />
+				<text id="generic_second" name="sekunda"  />
+				<text id="generic_seconds" name="sekundy"  />
+				<text id="generic_second_short" name="Sek"  />
+				<text id="generic_sound" name="Dźwięk on/off"  />
+				<text id="generic_support" name="Support"  />
+				<text id="generic_today" name="Dzisiaj"  />
+				<text id="generic_tomorrow" name="Jutro"  />
+				<text id="generic_tutorial" name="Tutorial"  />
+				<text id="generic_username" name="Imię gracza"  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="Wczoraj"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Stara wersja!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Aktualizuj stronę"  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Czy chcesz dodać {0} do listy przyjaciół?"  />
+				<text id="generic_friends_add_title" name="Zaproszenie do znajomych"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Więcej przyjaciół!"  />
+				<text id="generic_friends_denied_copy" name="{0} odrzucił Twoje zapytanie."  />
+				<text id="generic_friends_denied_title" name="Zapytanie odrzucone!"  />
+				<text id="generic_friends_invite_badword_copy" name="Podana nazwa jest niedopuszczalna!"  />
+				<text id="generic_friends_invite_badword_title" name="Uwaga!"  />
+				<text id="generic_friends_invite_error_copy" name="Możesz zaprosić innych graczy tylko jako zarejestrowany użytkownik."  />
+				<text id="generic_friends_invite_error_title" name="Najpierw zarejestruj się"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Moduł pełnoekranowy niemożliwy"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Czeski"  />
+				<text id="generic_language_da" name="Duński"  />
+				<text id="generic_language_de" name="Niemiecki"  />
+				<text id="generic_language_el" name="Grecki"  />
+				<text id="generic_language_en" name="Angielski"  />
+				<text id="generic_language_es" name="Hiszpański"  />
+				<text id="generic_language_fi" name="Fiński"  />
+				<text id="generic_language_fr" name="Francuski"  />
+				<text id="generic_language_hu" name="Węgierski"  />
+				<text id="generic_language_id" name="Indonezyjski"  />
+				<text id="generic_language_it" name="Włoski"  />
+				<text id="generic_language_ja" name="Japoński"  />
+				<text id="generic_language_ko" name="Koreański"  />
+				<text id="generic_language_nl" name="Niderlandzki"  />
+				<text id="generic_language_no" name="Norweski"  />
+				<text id="generic_language_pl" name="Polski"  />
+				<text id="generic_language_pt" name="Portugalski"  />
+				<text id="generic_language_pt_BR" name="Brazylijski"  />
+				<text id="generic_language_ru" name="Rosyjski"  />
+				<text id="generic_language_sv" name="Szwedzki"  />
+				<text id="generic_language_tr" name="Turecki"  />
+				<text id="generic_language_zh_CN" name="Chiński (uproszczony)"  />
+				<text id="generic_language_zh_TW" name="Chiński (tradycyjny)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Twoje konto zostało zablokowane! Proszę zgłoś się do Support'u!"  />
+				<text id="generic_login_banned_2" name="Twoje konto zostało zdeaktywowane!
+
+Deaktywacja trwa do: {0}
+
+Jeśli masz pytania dotyczące deaktywacji, prosimy skontaktować się z pomocą."  />
+				<text id="generic_login_banned_3" name="Twoje konto zostało zablokowane na stałe.
+Jeśli masz jakieś pytania dotyczące blokady, prosimy skontaktować się z pomocą."  />
+				<text id="generic_login_banned_permanent" name="stały"  />
+				<text id="generic_login_facebook" name="Zaloguj się przez Facebooka!"  />
+				<text id="generic_login_login" name="LOGIN"  />
+				<text id="generic_login_loginname" name="Nazwa użytkownika/ E-Mail"  />
+				<text id="generic_login_lostpassword" name="Nie pamiętasz hasła?"  />
+				<text id="generic_login_lostpassword_copy" name="Podaj swój adres e-mail a my przyslemy Ci hasło."  />
+				<text id="generic_login_lostpassword_title" name="Nie pamiętam hasła"  />
+				<text id="generic_login_newplayer" name="Jesteś nowy?"  />
+				<text id="generic_login_password" name="Hasło"  />
+				<text id="generic_login_play" name="GRAJ TERAZ"  />
+				<text id="generic_login_playnow" name="Graj teraz!"  />
+				<text id="generic_login_register" name="Rejestracja"  />
+				<text id="generic_login_rememberpassword" name="Zapisz hasło"  />
+				<text id="generic_login_wronglogin" name="Nazwa użytkownika lub hasło niepoprawne!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Zarejestruj się aby zapisać stan gry!"  />
+				<text id="generic_logout_guest_title" name="Rejestracja"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Sława będzie dostępna ponownie najpoźniej w ciągu {0}"  />
+				<text id="servershutdownpremonition_copy" name="Serwer zostanie wyłączony za {0}. Wyloguj się lub zarejestruj aby zapisać stan gry."  />
+				<text id="servershutdownpremonition_registered_copy" name="Serwer gry jest zamknięty w {0} z powodu prac konserwacyjnych."  />
+				<text id="servershutdown_copy" name="Serwer zostanie wyłączony. Za kilka minut można się ponownie zalogować."  />
+				<text id="welcomeback_copy" name="Miło Cię tu znowu widzieć! Otrzymujesz mały podarunek aby pomóc Ci podwyższyć poziom!"  />
+				<text id="welcomeback_title" name="Znowu tutaj!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Nowe hasło:"  />
+				<text id="generic_change_password_copy_oldpass" name="Stare hasło:"  />
+				<text id="generic_change_password_copy_send" name="Twoje nowe hasło zostało wysłane na adres e-mail"  />
+				<text id="generic_change_password_error_failed" name="Sorry, ale to nie jest Twoje stare hasło."  />
+				<text id="generic_change_password_error_success" name="Hasło zostało zmienione"  />
+				<text id="generic_change_password_faild_copy" name="Twoje nowe hasło musi zawierać więcej niż 2 znaki a stare powinno zostać poprawnie podane"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Twoje hasło nie może być puste i zawierać znaków specjalnych."  />
+				<text id="generic_change_password_faild_title" name="Podaj hasło"  />
+				<text id="generic_change_password_title" name="Zmiana hasła"  />
+				<text id="generic_guest_change_password_faild_copy" name="Możesz zmienić hasło tylko jako zarejestrowany gracz!"  />
+				<text id="generic_guest_change_password_faild_title" name="Najpierw zarejestruj się"  />
+			</password>
+			<payment>
+				<text id="generic_payment_48hdiscount_button" name="Więcej złota w przeciągu 48 godzin"  />
+				<text id="generic_payment_48hdiscount_button_general" name="Więcej {0} w przeciągu 48 godzin"  />
+				<text id="generic_payment_48hdiscount_copy" name="Tylko 48 godzin po rejestracji- kup wybrane pakiety złota i otrzymaj {0}% złota za darmo!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Tylko 48 godzin po rejestracji- kup pakiet złota i otrzymaj {0}% złota za darmo!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Tylko 48 godzin po rejestracji- kup pakiet {0} i otrzymaj {1}% za darmo!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Tylko 48 godzin po rejestracji- kup wybrane pakiety {0} i otrzymaj {1}% za darmo!"  />
+				<text id="generic_payment_copy" name="Zostaniesz przeniesiony do Paymentshopu"  />
+				<text id="generic_payment_discount_button" name="Teraz {0}% więcej złota za pieniądze!"  />
+				<text id="generic_payment_discount_copy" name="Kup teraz złoto i otrzymaj {0}% bonus!"  />
+				<text id="generic_payment_discount_copy_general" name="Kup teraz {0} i otrzymaj bonus w wysokości {1} %!"  />
+				<text id="generic_payment_discount_general" name="Otrzymaj {0}% więcej {1} za Twoje pieniądze!"  />
+				<text id="generic_payment_discount_generalshort" name="{0}% więcej za złoto!"  />
+				<text id="generic_payment_discount_time" name="JESZCZE {0}!"  />
+				<text id="generic_payment_discount_title" name="Więcej złota za pieniądze!"  />
+				<text id="generic_payment_newPrices" name="Od teraz  permanentnie  obniżamy ceny w naszym sklepie z płatnościami! Dzięki temu zaoszczędzicie dużo pieniędzy!"  />
+				<text id="generic_payment_title" name="Sklep z płatnościami"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Poszukiwanie tunelu  w przestrzeni kosmicznej"  />
+				<text id="loading_text_10" name="Rozłóż pozycje w świecie"  />
+				<text id="loading_text_11" name="Rysowanie grafik"  />
+				<text id="loading_text_12" name="Kolorowanie guzików"  />
+				<text id="loading_text_13" name="Ukryj jajka wielkanocne"  />
+				<text id="loading_text_14" name="Zobacz informacje użytkownika"  />
+				<text id="loading_text_15" name="Odstraszanie błędów"  />
+				<text id="loading_text_16" name="Karmienie programistów"  />
+				<text id="loading_text_17" name="Zagraj z klientem"  />
+				<text id="loading_text_18" name="Włącz klepsydrę"  />
+				<text id="loading_text_19" name="Chłodzenie systemu"  />
+				<text id="loading_text_2" name="Olejenie kół zębatych"  />
+				<text id="loading_text_20" name="Będzie zrobione niedługo"  />
+				<text id="loading_text_3" name="Zakręć kółkiem chomika"  />
+				<text id="loading_text_4" name="Rozgrzewanie serwera"  />
+				<text id="loading_text_5" name="Mam nadzieję, że wszystko pójdzie dobrze"  />
+				<text id="loading_text_6" name="Zadzwoń po tępiciela"  />
+				<text id="loading_text_7" name="Kalkulowanie skomplikowanych algorytmów"  />
+				<text id="loading_text_8" name="Kalibracja strumienia kompesatorów"  />
+				<text id="loading_text_9" name="Pozycja Tinkera"  />
+				<text id="loading_text_default" name="Initializacja"  />
+				<text id="loading_text_itemXML" name="Ładowanie elementów gry"  />
+				<text id="progress_loadfiles" name="Ładowanie aktywów..."  />
+				<text id="progress_serverconnection" name="Łączenie z serwerem..."  />
+			</progressbar>
+			<register>
+				<text id="generic_register_agb_copy" name="Bez akceptacji zasad użytkowania serwisu nie przejdziesz dalej, musisz je przeczytać i zaakceptować, potem możesz kontynuować!"  />
+				<text id="generic_register_agb_read" name="Przeczytaj warunki"  />
+				<text id="generic_register_alreadyavatar" name="Ten użytkownik ma już awatara."  />
+				<text id="generic_register_badword" name="Nie możesz użyć {0} w nazwie."  />
+				<text id="generic_register_btn_agb" name="Akceptuj regulamin"  />
+				<text id="generic_register_btn_later" name="Później"  />
+				<text id="generic_register_btn_next" name="Dalej"  />
+				<text id="generic_register_btn_save" name="Zapisz"  />
+				<text id="generic_register_character" name="Stwórz swoją postać"  />
+				<text id="generic_register_copy_0" name="Zarejestruj się darmowo!"  />
+				<text id="generic_register_copy_1" name="Zapisz stan gry!"  />
+				<text id="generic_register_emaillong_copy" name="Twój adres e-mail jest za długi."  />
+				<text id="generic_register_emailwrong_copy" name="Podany e-mail jest niepoprawny."  />
+				<text id="generic_register_email_copy" name="Adres e-mail nie możne być pusty i zawierać znaków specjalnych."  />
+				<text id="generic_register_error" name="Rejestracja zakończona błędem."  />
+				<text id="generic_register_errormistake" name="Błąd"  />
+				<text id="generic_register_error_accountalreadyexists" name="Pod tym adresem e-mail jest już zarejestrowany gracz, sorry"  />
+				<text id="generic_register_forfree" name="Zarejestruj się za darmo!"  />
+				<text id="generic_register_forfree1" name="Za darmo!"  />
+				<text id="generic_register_letsgo" name="Chodźmy!"  />
+				<text id="generic_register_namealreadyused" name="Ta nazwa jest już zajęta."  />
+				<text id="generic_register_namenotvalid" name="Nazwa użytkownika jest nieważna."  />
+				<text id="generic_register_passwordshort_copy" name="Podane hasło jest za krótkie. Musi  składać się z conajmniej 4 znaków."  />
+				<text id="generic_register_passwordwrong_copy" name="Podane hasło jest niepoprawne"  />
+				<text id="generic_register_password_copy" name="Twoje hasło nie może być puste i zawierać znaków specjalnych."  />
+				<text id="generic_register_rememberdata" name="Zapamiętaj dane"  />
+				<text id="generic_register_reward" name="Subskrybuj za darmo i otrzymaj {0} {1}!"  />
+				<text id="generic_register_subscribe" name="Subskrybuj"  />
+				<text id="generic_register_success" name="Właśnie się zalogowałeś/aś."  />
+				<text id="generic_register_title" name="Błąd rejestracji"  />
+				<text id="generic_register_unlock" name="Ta funkcja jest włączona!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Uważaj na sposób wyrażania się, ponieważ Twój czat może zostać zablokowany lub w najgorszym przypadku Twoje konto.Powód :{0}"  />
+				<text id="generic_report_muted_badword2_copy" name="Nie możesz korzystać z czatu przez {0}, ponieważ nie przestrzegałeś reguł naszego portalu. Powód: {1}"  />
+				<text id="generic_report_muted_domain1" name="Żadnych adresów internetowych na czacie!"  />
+				<text id="generic_report_muted_reported_copy" name="Wielu graczy skarżyło się na Ciebie.Nie możesz korzystać z czatu przez {0}. Powód: {1}"  />
+				<text id="generic_report_player_copy" name="Czy chcesz na pewno zarejestrować  gracza {0}?
+Uwaga!
+nadużycie tej funkcji może doprowadzić do blokady konta."  />
+				<text id="generic_report_player_reason_0" name="Obraza"  />
+				<text id="generic_report_player_reason_1" name="Niestosowne treści seksualne"  />
+				<text id="generic_report_player_reason_2" name="Rasistowskie opinie"  />
+				<text id="generic_report_player_reason_3" name="Groźby/Szantaż"  />
+				<text id="generic_report_player_reason_title" name="Powód zgłoszenia:"  />
+				<text id="generic_report_player_title" name="Zarejestruj gracza?"  />
+				<text id="generic_report_reported_copy" name="Zostałeś zgłoszony przez innego gracza do administratora.
+Powód: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="połączyć"  />
+				<text id="generic_select_world" name="Wybierz świat:"  />
+				<text id="generic_world" name="Świat: {0}"  />
+				<text id="generic_world_international" name="Internacjonalny : {0}"  />
+			</worlds>
+		</generic_flash>
+	</fashion>
+ 
