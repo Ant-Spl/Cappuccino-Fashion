@@ -515,6 +515,9 @@ Untuk mengumpulkannya, klik saja tautan di email selamat datang." />
 		<text id="dialogs_wheeloffortune_woncash" name="Selamat! Kami telah mengirimkan hadiahmu!" />
 		<text id="dialogs_wheeloffortune_woncloth" name="Selamat! Temukan hadiahmu di kotak hadiah!" />
 		<text id="dialogs_wheeloffortune_wonitem" name="Selamat! Kamu bisa menemukan hadiahmu di ruang penyimpanan." />
+		<text id="dialogs_coop_daily_remaining" name="{0}/{1} today"/>
+		<text id="dialogs_coop_daily_loading" name="Loading..."/>
+		<text id="dialogs_coop_daily_tooltip" name="Starting or joining a co-op uses one entry. Resets daily at 00:00 UTC!"/>
 	</dialogs>
 	<error_codes>
 		<text id="error_advertisement_nolevel" name="Setidaknya kamu harus mencapai level {0} untuk ambil bagian dalam promosi." />

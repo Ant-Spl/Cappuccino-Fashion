@@ -492,6 +492,9 @@ Haz clic en el vínculo aceptar correo electrónico para cobrarlos." />
 		<text id="dialogs_wheeloffortune_woncash" name="¡Felicitaciones! El premio lo acabas de recibir." />
 		<text id="dialogs_wheeloffortune_woncloth" name="¡Felicitaciones! Encontrarás tu premio en la caja de regalos." />
 		<text id="dialogs_wheeloffortune_wonitem" name="¡Felicitaciones! Tu premio se encuentra en la sala de almacenamiento" />
+		<text id="dialogs_coop_daily_remaining" name="{0}/{1} today"/>
+		<text id="dialogs_coop_daily_loading" name="Loading..."/>
+		<text id="dialogs_coop_daily_tooltip" name="Starting or joining a co-op uses one entry. Resets daily at 00:00 UTC!"/>
 	</dialogs>
 	<error_codes>
 		<text id="error_advertisement_nolevel" name="Tienes que llegar al menos a nivel de {0} con el fin de ser capaces de participar en una promoción." />

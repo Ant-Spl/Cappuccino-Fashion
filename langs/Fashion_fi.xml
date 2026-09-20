@@ -510,6 +510,9 @@ Jos haluat saada sen, sinun tarvitsee vain klikata linkkiä tervetuloa-sähköpo
 		<text id="dialogs_wheeloffortune_woncash" name="Onneksi olkoon! Olemme jo antaneet sinulle palkinnon!" />
 		<text id="dialogs_wheeloffortune_woncloth" name="Onneksi olkoon! Löydät palkintosi lahjaboksistasi!" />
 		<text id="dialogs_wheeloffortune_wonitem" name="Onneksi olkoon! Löydät palkinnon varastohuoneesta." />
+		<text id="dialogs_coop_daily_remaining" name="{0}/{1} today"/>
+		<text id="dialogs_coop_daily_loading" name="Loading..."/>
+		<text id="dialogs_coop_daily_tooltip" name="Starting or joining a co-op uses one entry. Resets daily at 00:00 UTC!"/>
 	</dialogs>
 	<error_codes>
 		<text id="error_advertisement_nolevel" name="Sinun täytyy olla vähintään tasolla {0} ottaaksesi osaa promoon." />

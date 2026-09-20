@@ -493,6 +493,9 @@ Per ritirarlo clicca sul link nell&amp;#039;email ricevuta." />
 		<text id="dialogs_wheeloffortune_woncash" name="Congratulazioni! Il premio ti è stato assegnato!" />
 		<text id="dialogs_wheeloffortune_woncloth" name="Congratulazioni! Il premio si trova nella tua scatola dei regali!" />
 		<text id="dialogs_wheeloffortune_wonitem" name="Congratulazioni! Il premio si trova nel tuo magazzino!" />
+		<text id="dialogs_coop_daily_remaining" name="{0}/{1} today"/>
+		<text id="dialogs_coop_daily_loading" name="Loading..."/>
+		<text id="dialogs_coop_daily_tooltip" name="Starting or joining a co-op uses one entry. Resets daily at 00:00 UTC!"/>
 	</dialogs>
 	<error_codes>
 		<text id="error_advertisement_nolevel" name="Devi essere almeno al livello {0} per fare una campagna pubblicitaria." />

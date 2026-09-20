@@ -492,6 +492,9 @@ Jestli si je chceš vyzvednout, klikni na link v mailu na uvítanou." />
 		<text id="dialogs_wheeloffortune_woncash" name="Gratulujeme! Tvoje cena Ti byla připsána k dobru!" />
 		<text id="dialogs_wheeloffortune_woncloth" name="Gratulujeme! Tvoje cena se nachází v boxu na dárky!" />
 		<text id="dialogs_wheeloffortune_wonitem" name="Gratulujeme! Tvoje cena se nachází ve skladu!" />
+		<text id="dialogs_coop_daily_remaining" name="{0}/{1} today"/>
+		<text id="dialogs_coop_daily_loading" name="Loading..."/>
+		<text id="dialogs_coop_daily_tooltip" name="Starting or joining a co-op uses one entry. Resets daily at 00:00 UTC!"/>
 	</dialogs>
 	<error_codes>
 		<text id="error_advertisement_nolevel" name="Jestli chceš dělat reklamní akci, musíš dosáhnout minimálně levelu {0}." />
