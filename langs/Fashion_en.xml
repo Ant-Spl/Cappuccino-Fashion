@@ -512,6 +512,9 @@ In order to collect it, simply click on the link in the welcome e-mail."  />
 			<text id="dialogs_wheeloffortune_woncash" name="Congratulations! We have already awarded you your prize!"  />
 			<text id="dialogs_wheeloffortune_woncloth" name="Congratulations! You can find your prize in the gift box."  />
 			<text id="dialogs_wheeloffortune_wonitem" name="Congratulations! You can find your prize in the gift box."  />
+			<text id="dialogs_coop_daily_remaining" name="{0}/{1} today"/>
+            <text id="dialogs_coop_daily_loading" name="Loading..."/>
+            <text id="dialogs_coop_daily_tooltip" name="Starting or joining a co-op uses one entry. Resets daily at 00:00 UTC!"/>
 		</dialogs>
 		<error_codes>
 			<text id="error_advertisement_nolevel" name="You have to reach at least level {0} in order to be able to take part in a promotion."  />
