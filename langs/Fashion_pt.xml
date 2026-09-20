@@ -492,9 +492,9 @@ Para retirá-lo clique no link do E-Mail de boas vindas." />
 		<text id="dialogs_wheeloffortune_woncash" name="Parabéns! O seu prêmio já lhe foi creditado!" />
 		<text id="dialogs_wheeloffortune_woncloth" name="Parabéns! O seu prêmio se encontra na sua caixa de presentes!" />
 		<text id="dialogs_wheeloffortune_wonitem" name="Parabéns! O seu prêmio se encontra no seu estoque!" />
-		<text id="dialogs_coop_daily_remaining" name="{0}/{1} today"/>
-		<text id="dialogs_coop_daily_loading" name="Loading..."/>
-		<text id="dialogs_coop_daily_tooltip" name="Starting or joining a co-op uses one entry. Resets daily at 00:00 UTC!"/>
+		<text id="dialogs_coop_daily_remaining" name="{0}/{1} hoje"/>
+		<text id="dialogs_coop_daily_loading" name="Carregando..."/>
+		<text id="dialogs_coop_daily_tooltip" name="Iniciar ou entrar em uma Co-Op usa 1 ponto. Ele recarrega todo dia às 21:00 BRT!"/>
 	</dialogs>
 	<error_codes>
 		<text id="error_advertisement_nolevel" name="Você deve ter atingido no mínimo o nível {0} para fazer propaganda." />
