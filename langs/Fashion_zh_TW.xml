@@ -491,6 +491,9 @@
 		<text id="dialogs_wheeloffortune_woncash" name="恭喜恭喜!你的獎品已經給付囉!" />
 		<text id="dialogs_wheeloffortune_woncloth" name="恭喜恭喜!你的獎品已在你的禮物箱裡囉!" />
 		<text id="dialogs_wheeloffortune_wonitem" name="恭喜恭喜!你的獎品已在你的倉庫裡囉!" />
+		<text id="dialogs_coop_daily_remaining" name="{0}/{1} today"/>
+		<text id="dialogs_coop_daily_loading" name="Loading..."/>
+		<text id="dialogs_coop_daily_tooltip" name="Starting or joining a co-op uses one entry. Resets daily at 00:00 UTC!"/>
 	</dialogs>
 	<error_codes>
 		<text id="error_advertisement_nolevel" name="你必須達到等級{0}才能進行一項宣傳活動" />

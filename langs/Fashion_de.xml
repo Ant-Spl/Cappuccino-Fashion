@@ -498,6 +498,9 @@ Zum Abholen klick einfach auf den Link in der Willkommens-Mail." />
 		<text id="dialogs_wheeloffortune_woncash" name="Herzlichen Glückwunsch! Dein Preis wurde Dir bereits gutgeschrieben!" />
 		<text id="dialogs_wheeloffortune_woncloth" name="Herzlichen Glückwunsch! Dein Preis befindet sich in Deiner Geschenkbox!" />
 		<text id="dialogs_wheeloffortune_wonitem" name="Herzlichen Glückwunsch! Dein Preis befindet sich in Deiner Geschenkbox!" />
+		<text id="dialogs_coop_daily_remaining" name="{0}/{1} today"/>
+		<text id="dialogs_coop_daily_loading" name="Loading..."/>
+		<text id="dialogs_coop_daily_tooltip" name="Starting or joining a co-op uses one entry. Resets daily at 00:00 UTC!"/>
 	</dialogs>
 	<error_codes>
 		<text id="error_advertisement_nolevel" name="Du musst mindestens Level {0} erreicht haben, um eine Werbeaktion zu machen." />
