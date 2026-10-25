@@ -202,6 +202,7 @@ Scegline un altro!" />
 		<text id="cloth_purplehandbagfemale" name="Borsa GeeCee" />
 		<text id="cloth_purplepulloverfemale" name="Dolcevita viola" />
 		<text id="cloth_purpletshirtfemale" name="T-shirt donna JayJay" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Cappellino rosso" />
 		<text id="cloth_redcapmale" name="Cappellino rosso" />
 		<text id="cloth_reddressfemale" name="Abito senza spalline" />
@@ -726,8 +727,11 @@ Vai al forum e partecipa!" />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Orafo" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Sarta" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Calzolaio" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Quantità: {0}" />
 		<text id="tooltip_customcloth_icon" name="Stampe" />
 		<text id="tooltip_customcloth_shape" name="Forme" />

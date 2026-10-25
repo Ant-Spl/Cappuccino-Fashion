@@ -207,6 +207,7 @@ Ole hyvä ja kirjaudu ulos." />
 		<text id="cloth_purplehandbagfemale" name="GeeCee-laukku" />
 		<text id="cloth_purplepulloverfemale" name="Lila poolopaita" />
 		<text id="cloth_purpletshirtfemale" name="Tyttöjen JayJay-paita" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Punainen baseball-lippis" />
 		<text id="cloth_redcapmale" name="Punainen baseball-lippis" />
 		<text id="cloth_reddressfemale" name="Olkaimeton iltapuku" />
@@ -759,8 +760,11 @@ Tiimisi&lt;br /&gt;Cappuccinostudios.com" />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Kultaseppä" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Ompelija" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Suutari" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Määrä: {0}" />
 		<text id="tooltip_customcloth_icon" name="Printit" />
 		<text id="tooltip_customcloth_shape" name="Muodot" />

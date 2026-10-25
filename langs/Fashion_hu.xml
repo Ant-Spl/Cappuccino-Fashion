@@ -202,6 +202,7 @@ Még {0}x megteheted!" />
 		<text id="cloth_purplehandbagfemale" name="GeeCee nagy táska" />
 		<text id="cloth_purplepulloverfemale" name="Lila garbó" />
 		<text id="cloth_purpletshirtfemale" name="JayJay lány póló" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Vörös baseball sapka" />
 		<text id="cloth_redcapmale" name="Vörös baseball sapka" />
 		<text id="cloth_reddressfemale" name="Vállnélküli estélyi" />
@@ -729,8 +730,11 @@ Irány a fórum és nyerj!" />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Ötvös" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Varrónő" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Cipész" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Szám: {0}" />
 		<text id="tooltip_customcloth_icon" name="Lenyomat" />
 		<text id="tooltip_customcloth_shape" name="Fórum" />

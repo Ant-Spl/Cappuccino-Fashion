@@ -201,6 +201,7 @@
 		<text id="cloth_purplehandbagfemale" name="Taška GeeCee" />
 		<text id="cloth_purplepulloverfemale" name="Fialový rolák" />
 		<text id="cloth_purpletshirtfemale" name="Dívčí tričko JayJay" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="červená kšiltovka" />
 		<text id="cloth_redcapmale" name="červená kšiltovka" />
 		<text id="cloth_reddressfemale" name="Šaty s holými rameny" />
@@ -726,8 +727,11 @@ Takže rychle na fórum a do toho!" />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Zlatník" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Švadlena" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Obuvník" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Počet: {0}" />
 		<text id="tooltip_customcloth_icon" name="Pootisky" />
 		<text id="tooltip_customcloth_shape" name="Formy" />

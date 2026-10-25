@@ -205,6 +205,7 @@ Oprime F5 para actualizar la página." />
 		<text id="cloth_purplehandbagfemale" name="Bolso GeCe de mano" />
 		<text id="cloth_purplepulloverfemale" name="Jersey de cuello alto violeta" />
 		<text id="cloth_purpletshirtfemale" name="Camiseta para niñas JayJay" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Gorra roja" />
 		<text id="cloth_redcapmale" name="Gorra roja" />
 		<text id="cloth_reddressfemale" name="Vestido de tarde sin mangas" />
@@ -731,8 +732,11 @@ Tu equipo de &lt;br /&gt;Cappuccinostudios.com" />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Orfebre" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Costurera" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Zapatero" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Cantidad: {0}" />
 		<text id="tooltip_customcloth_icon" name="Estampados" />
 		<text id="tooltip_customcloth_shape" name="Formas" />

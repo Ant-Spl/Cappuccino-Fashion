@@ -203,6 +203,7 @@ Prosimy się wylogować." />
 		<text id="cloth_purplehandbagfemale" name="Torebka GeeCee" />
 		<text id="cloth_purplepulloverfemale" name="Różowy golf" />
 		<text id="cloth_purpletshirtfemale" name="Dziewczęcy T-Shirt JayJay" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Czerwona baseballówka" />
 		<text id="cloth_redcapmale" name="Czerwona baseballówka" />
 		<text id="cloth_reddressfemale" name="Sukienka bez ramion" />
@@ -736,8 +737,11 @@ Wyłącz forum i dołącz do konkursu!" />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Złotnik" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Krawcowa" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Szewc" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Liczba: {0}" />
 		<text id="tooltip_customcloth_icon" name="Reprodukcje" />
 		<text id="tooltip_customcloth_shape" name="Kształty" />

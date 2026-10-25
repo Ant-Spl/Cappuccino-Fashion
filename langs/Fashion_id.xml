@@ -209,6 +209,7 @@ Jika kamu belum punya cukup banyak kasir, pelanggan akan antri lebih lama dan ti
 		<text id="cloth_purplehandbagfemale" name="Tas Tangan GeeCee" />
 		<text id="cloth_purplepulloverfemale" name="Turtleneck Ungu" />
 		<text id="cloth_purpletshirtfemale" name="T-Shirt Cewek JayJay" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Topi Pet Merah" />
 		<text id="cloth_redcapmale" name="Topi Pet Merah" />
 		<text id="cloth_reddressfemale" name="Gaun Malam Tanpa Tali" />
@@ -765,8 +766,11 @@ Tekan F5 untuk menyegarkan situs." />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Perajin Emas" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Penjahit" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Pembuat sepatu" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Kuantitas: {0}" />
 		<text id="tooltip_customcloth_icon" name="Motif" />
 		<text id="tooltip_customcloth_shape" name="Model" />

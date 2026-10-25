@@ -202,6 +202,7 @@ Välj en annan!" />
 		<text id="cloth_purplehandbagfemale" name="GeeCee Handväska" />
 		<text id="cloth_purplepulloverfemale" name="Lila Polotröja" />
 		<text id="cloth_purpletshirtfemale" name="JayJay T-Shirt för Damer" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Röd Keps" />
 		<text id="cloth_redcapmale" name="Röd Keps" />
 		<text id="cloth_reddressfemale" name="Axelbandslös Aftonklänning" />
@@ -733,8 +734,11 @@ Ditt team på&lt;br /&gt;Cappuccinostudios.com" />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Guldsmed" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Sömmerska" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Skomakare" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Kvantitet: {0}" />
 		<text id="tooltip_customcloth_icon" name="Tryck" />
 		<text id="tooltip_customcloth_shape" name="Former" />

@@ -209,6 +209,7 @@ Sans suffisamment de caissiers tes clients vont attendre plus longtemps et être
 		<text id="cloth_purplehandbagfemale" name="Sacs à main GeeCee" />
 		<text id="cloth_purplepulloverfemale" name="Chandail à col roulé violet" />
 		<text id="cloth_purpletshirtfemale" name="T-Shirt JayJay filles" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Casquette rouge" />
 		<text id="cloth_redcapmale" name="Casquette rouge" />
 		<text id="cloth_reddressfemale" name="Robe du soir épaules nues" />
@@ -761,8 +762,11 @@ Presses F5 pour recharger la page" />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Orfèvre" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Couturière" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Cordonnier" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Quantité: {0}" />
 		<text id="tooltip_customcloth_icon" name="Impressions" />
 		<text id="tooltip_customcloth_shape" name="Moule" />

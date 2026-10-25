@@ -209,6 +209,7 @@
 		<text id="cloth_purplehandbagfemale" name="GeeCee большая сумка" />
 		<text id="cloth_purplepulloverfemale" name="Сиреневая водолозка" />
 		<text id="cloth_purpletshirtfemale" name="JayJay футболка" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Красная кепка" />
 		<text id="cloth_redcapmale" name="Красная кепка" />
 		<text id="cloth_reddressfemale" name="Открытое вечернее платье" />
@@ -767,8 +768,11 @@
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Ювелир" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Швея" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Сапожник" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Количество: {0}" />
 		<text id="tooltip_customcloth_icon" name="Набивки" />
 		<text id="tooltip_customcloth_shape" name="Формы" />

@@ -207,6 +207,7 @@
 		<text id="cloth_purplehandbagfemale" name="GeeCee ハンドバッグ" />
 		<text id="cloth_purplepulloverfemale" name="紫のタートルネック" />
 		<text id="cloth_purpletshirtfemale" name="JayJay ガールズTシャツ" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="赤のベース帽" />
 		<text id="cloth_redcapmale" name="赤のベース帽" />
 		<text id="cloth_reddressfemale" name="オフショルダーのイブニングドレス" />
@@ -769,8 +770,11 @@ F5キーを押してページを再読み込みしてください。" />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="金細工師" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="裁縫師" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="靴職人" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="数量: {0}" />
 		<text id="tooltip_customcloth_icon" name="プリント" />
 		<text id="tooltip_customcloth_shape" name="形" />

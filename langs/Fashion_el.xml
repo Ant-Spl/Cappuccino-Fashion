@@ -206,6 +206,7 @@
 		<text id="cloth_purplehandbagfemale" name="Τσάντα GeeCee" />
 		<text id="cloth_purplepulloverfemale" name="Μωβ ζιβάγκο" />
 		<text id="cloth_purpletshirtfemale" name="Μπλουζάκι JayJay για κορίτσια" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Κόκκινο καπέλο" />
 		<text id="cloth_redcapmale" name="Κόκκινο καπέλο" />
 		<text id="cloth_reddressfemale" name="Βραδινο φόρεμα στράπλες" />
@@ -756,8 +757,11 @@
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Χρυσοχόος" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Μοδίστρα" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Υποδηματοποιός" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Ποσότητα: {0}" />
 		<text id="tooltip_customcloth_icon" name="Στάμπες" />
 		<text id="tooltip_customcloth_shape" name="Σχήματα" />
