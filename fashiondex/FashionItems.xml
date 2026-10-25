@@ -71,6 +71,9 @@
 <wod id="252" n="Basic" g="Factory" t="Basiccloth" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" productType="1" />
 <wod id="253" n="Basic" g="Factory" t="Basicshoes" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="3000" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="10" productType="2" />
 <wod id="254" n="Basic" g="Factory" t="Basicaccessoire" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="4" productType="3" />
+<wod id="255" n="Basic" g="Factory" t="Basicclothred" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="25000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="10" productType="1" />
+<wod id="256" n="Basic" g="Factory" t="Basicshoesred" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="25000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="10" productType="2" />
+<wod id="257" n="Basic" g="Factory" t="Basicaccessoirered" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="25000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="10" productType="3" />
 <wod id="306" n="Basic" g="Counter" t="Woodlighttwo" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="0" gold="2" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" xp="0" level="0" putslots="2" hangslots="0" />
 <wod id="307" n="Basic" g="Counter" t="Woodmediumone" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" putslots="1" hangslots="0" />
 <wod id="308" n="Basic" g="Counter" t="Woodmediumtwo" walkable="0" rotatetype="2" collisionSizeX="1" collisionSizeY="1" cash="2000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="0" level="0" putslots="2" hangslots="0" />
@@ -303,6 +306,7 @@
 <wod id="1363" n="Basic" g="Clothes" t="Omelettedressfemale" cash="101" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="4" level="1" incomePerUnit="100" production="5" duration="2" productSubType="22" productionCostCash="400" productionCostGold="0" gender="1" />
 <wod id="1364" n="Basic" g="Clothes" t="Dancingchefdress" cash="300" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="680" level="2" incomePerUnit="2" production="900" duration="540" productSubType="22" productionCostCash="1224" productionCostGold="0" gender="1" />
 <wod id="1365" n="Basic" g="Clothes" t="Dancingchefsweater" cash="300" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="680" level="2" incomePerUnit="2" production="900" duration="540" productSubType="24" productionCostCash="1224" productionCostGold="0" gender="2" />
+<wod id="1366" n="Basic" g="Clothes" t="Rainbownecklacefemale" cash="20000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" xp="1560" level="20" incomePerUnit="6" production="900" duration="720" productSubType="0" productionCostCash="4000" productionCostGold="0" gender="1" />
 <wod id="1501" n="Static" g="Background" t="Village" />
 <wod id="1502" n="Marketplace" g="Background" t="Normal" />
 <wod id="1601" n="Basic" g="Moving" t="-" />

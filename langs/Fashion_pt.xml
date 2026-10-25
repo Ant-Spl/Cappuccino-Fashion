@@ -201,6 +201,7 @@
 		<text id="cloth_purplehandbagfemale" name="Bolsa GeeCee" />
 		<text id="cloth_purplepulloverfemale" name="Blusa de Gola Alta Lilás" />
 		<text id="cloth_purpletshirtfemale" name="Camiseta Feminina JayJay" />
+		<text id="cloth_rainbownecklacefemale" name="Colar Arco-Íris" />
 		<text id="cloth_redcapfemale" name="Boné Vermelho" />
 		<text id="cloth_redcapmale" name="Boné Vermelho" />
 		<text id="cloth_reddressfemale" name="Vestido Tomara-Que-Caia" />
@@ -724,19 +725,22 @@ Vá ao forum e participe!" />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Ourives" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Ourives (vermelho)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Costureira" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Costureira (vermelho)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Sapateiro" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Sapateiro (vermelho)" />
 		<text id="tooltip_counter_pieces" name="Quantidade: {0}" />
 		<text id="tooltip_customcloth_icon" name="Estampas" />
 		<text id="tooltip_customcloth_shape" name="Formas" />
 		<text id="tooltip_customcloth_unlock" name="Liberar" />
-		<text id="tooltip_factory_empty" name="Produza nova mercadoria!" />
-		<text id="tooltip_factory_preparestep1" name="ordenar funcionários" />
+		<text id="tooltip_factory_empty" name="Produza novas mercadorias!" />
+		<text id="tooltip_factory_preparestep1" name="orientar funcionário(a)" />
 		<text id="tooltip_factory_preparetitle" name="Clique para" />
-		<text id="tooltip_factory_readytoserv" name="Depositar mercadoria" />
+		<text id="tooltip_factory_readytoserv" name="Colocar mercadoria" />
 		<text id="tooltip_factory_readytoserv_amount" name="Quantidade: {0}" />
 		<text id="tooltip_factory_wear" name="Motivação: {0}%" />
-		<text id="tooltip_FashionActionPanel_btn_achievements" name="Premiações" />
+		<text id="tooltip_FashionActionPanel_btn_achievements" name="Conquistas" />
 		<text id="tooltip_FashionActionPanel_btn_addcurrency" name="Acrescentar Botões de Ouro/Fashiondólares" />
 		<text id="tooltip_FashionActionPanel_btn_advertisement" name="Propaganda" />
 		<text id="tooltip_FashionActionPanel_btn_advertisementlocked" name="A partir do nível {0} você pode fazer propaganda" />
@@ -751,7 +755,7 @@ Vá ao forum e participe!" />
 		<text id="tooltip_FashionActionPanel_btn_openclose" name="Abrir/fechar loja" />
 		<text id="tooltip_FashionActionPanel_btn_ownshop" name="Minha loja" />
 		<text id="tooltip_FashionActionPanel_btn_runningadvertisement" name="Promoção em andamento
-Clique para resultado" />
+Clique para ver o resultado" />
 		<text id="tooltip_FashionActionPanel_btn_sale" name="Reduzir preços" />
 		<text id="tooltip_FashionActionPanel_btn_staff" name="Caixas" />
 		<text id="tooltip_FashionAvatarCreationDialog_btn_bottoms" name="Calças" />

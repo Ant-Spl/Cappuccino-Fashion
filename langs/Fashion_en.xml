@@ -208,6 +208,7 @@ Please log out."  />
 			<text id="cloth_purplehandbagfemale" name="GeeCee Handbag"  />
 			<text id="cloth_purplepulloverfemale" name="Purple Turtleneck"  />
 			<text id="cloth_purpletshirtfemale" name="JayJay Girls T-Shirt"  />
+			<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 			<text id="cloth_redcapfemale" name="Red Basecap"  />
 			<text id="cloth_redcapmale" name="Red Basecap"  />
 			<text id="cloth_reddressfemale" name="Strapless Evening Dress"  />
@@ -760,8 +761,11 @@ Your team at&lt;br /&gt;Cappuccinostudios.com"  />
 		</std_buttons>
 		<tooltips>
 			<text id="tooltip_Basic_Factory_Basicaccessoire" name="Goldsmith"  />
+			<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 			<text id="tooltip_Basic_Factory_Basiccloth" name="Seamstress"  />
+			<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 			<text id="tooltip_Basic_Factory_Basicshoes" name="Shoemaker"  />
+			<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 			<text id="tooltip_counter_pieces" name="Quantity: {0}"  />
 			<text id="tooltip_customcloth_icon" name="Prints"  />
 			<text id="tooltip_customcloth_shape" name="Shapes"  />
