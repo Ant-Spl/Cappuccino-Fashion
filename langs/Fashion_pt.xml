@@ -805,7 +805,7 @@ Clique para detalhes" />
 		<text id="tooltip_FashionDekoShopPanel_btn_functional_Cashpoint" name="Caixas" />
 		<text id="tooltip_FashionDekoShopPanel_btn_functional_Changeroom" name="Cabines" />
 		<text id="tooltip_FashionDekoShopPanel_btn_functional_Counter" name="Prateleiras" />
-		<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="Funcionário" />
+		<text id="tooltip_FashionDekoShopPanel_btn_functional_Factory" name="Funcionários(as)" />
 		<text id="tooltip_FashionDekoShopPanel_btn_functional_Mannequin" name="Manequins de vitrine" />
 		<text id="tooltip_FashionDekoShopPanel_btn_pattern" name="Molde" />
 		<text id="tooltip_FashionDekoShopPanel_btn_sell" name="Vender" />
