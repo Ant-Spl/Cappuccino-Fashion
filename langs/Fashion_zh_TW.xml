@@ -202,6 +202,7 @@
 		<text id="cloth_purplehandbagfemale" name="GeeCee Shopper包" />
 		<text id="cloth_purplepulloverfemale" name="紫色套頭毛衣" />
 		<text id="cloth_purpletshirtfemale" name="JayJay女性T-Shirt" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="紅色鴨舌帽" />
 		<text id="cloth_redcapmale" name="紅色鴨舌帽" />
 		<text id="cloth_reddressfemale" name="平口晚禮服" />
@@ -718,8 +719,11 @@
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="金匠" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="縫紉女工" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="鞋匠" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="數量: {0}" />
 		<text id="tooltip_customcloth_icon" name="轉印圖案" />
 		<text id="tooltip_customcloth_shape" name="樣式" />

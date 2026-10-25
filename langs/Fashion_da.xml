@@ -203,6 +203,7 @@ Endnu {0} gange muligt!" />
 		<text id="cloth_purplehandbagfemale" name="GeeCee shopper" />
 		<text id="cloth_purplepulloverfemale" name="Lilla rullekragepullover" />
 		<text id="cloth_purpletshirtfemale" name="JayJay pigetshirt" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Rød basecap" />
 		<text id="cloth_redcapmale" name="Rød basecap" />
 		<text id="cloth_reddressfemale" name="Skulderfri aftenkjole" />
@@ -742,8 +743,11 @@ Altså ind forummet og spil med!" />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Guldsmed" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Syerske" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Skomager" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Antal: {0}" />
 		<text id="tooltip_customcloth_icon" name="Påtryk" />
 		<text id="tooltip_customcloth_shape" name="Former" />

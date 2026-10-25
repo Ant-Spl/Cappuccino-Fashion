@@ -208,6 +208,7 @@ Eğer yeterli kasiyerin olmazsa, müşterilerin daha fazla bekleyecek ve mutsuz 
 		<text id="cloth_purplehandbagfemale" name="GeeCee El Çantası" />
 		<text id="cloth_purplepulloverfemale" name="Mor Balıkçı Yaka Kazak" />
 		<text id="cloth_purpletshirtfemale" name="JayJay Kız Tişört" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Kırmızı Beyzbol Şapkası" />
 		<text id="cloth_redcapmale" name="Kırmızı Beyzbol Şapkası" />
 		<text id="cloth_reddressfemale" name="Askısız Abiye" />
@@ -773,8 +774,11 @@ Siteyi yenilemek için F5&amp;#039;e bas." />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Kuyumcu" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Terzi" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Ayakkabıcı" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Adet: {0}" />
 		<text id="tooltip_customcloth_icon" name="Çıktılar" />
 		<text id="tooltip_customcloth_shape" name="Şekiller" />

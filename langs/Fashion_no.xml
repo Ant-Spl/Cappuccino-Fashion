@@ -208,6 +208,7 @@ Hvis du ikke har nok kassepersonale må kundene vente lenger og vil bli misforn�
 		<text id="cloth_purplehandbagfemale" name="GeeCee Veske" />
 		<text id="cloth_purplepulloverfemale" name="Lilla Polokrage" />
 		<text id="cloth_purpletshirtfemale" name="JayJay Jente T-Skjorte" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Rød Baseballcaps" />
 		<text id="cloth_redcapmale" name="Rød Baseballcaps" />
 		<text id="cloth_reddressfemale" name="Stroppløs Aften Kjole" />
@@ -762,8 +763,11 @@ Trykk F5 for å oppdatere siden." />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Gullsmed" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Syerske" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Skomaker" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Kvantitet: {0}" />
 		<text id="tooltip_customcloth_icon" name="Utskrifter" />
 		<text id="tooltip_customcloth_shape" name="Former" />

@@ -207,6 +207,7 @@ Als je niet genoeg kassières hebt, moeten je klanten langer wachten." />
 		<text id="cloth_purplehandbagfemale" name="GeeCee handtas" />
 		<text id="cloth_purplepulloverfemale" name="Paarse koltrui" />
 		<text id="cloth_purpletshirtfemale" name="JayJay T-shirt voor meisjes" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="Rode honkbalpet" />
 		<text id="cloth_redcapmale" name="Rode honkbalpet" />
 		<text id="cloth_reddressfemale" name="Strapless avondjurk" />
@@ -766,8 +767,11 @@ Druk op F5 om de site te vernieuwen." />
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="Goudsmid" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="Naaister" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="Schoenmaker" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="Hoeveelheid: {0}" />
 		<text id="tooltip_customcloth_icon" name="Prints" />
 		<text id="tooltip_customcloth_shape" name="Vormen" />

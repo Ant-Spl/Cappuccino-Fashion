@@ -206,6 +206,7 @@
 		<text id="cloth_purplehandbagfemale" name="GeeCee 大包包" />
 		<text id="cloth_purplepulloverfemale" name="紫色高领毛衣" />
 		<text id="cloth_purpletshirtfemale" name="JayJay女式T-Shirt" />
+		<text id="cloth_rainbownecklacefemale" name="Rainbow Necklace" />
 		<text id="cloth_redcapfemale" name="红色棒球帽" />
 		<text id="cloth_redcapmale" name="红色棒球帽" />
 		<text id="cloth_reddressfemale" name="无肩晚装" />
@@ -760,8 +761,11 @@ Cappuccino Fashion官方beta版发布！
 	</std_buttons>
 	<tooltips>
 		<text id="tooltip_Basic_Factory_Basicaccessoire" name="珠宝设计师" />
+		<text id="tooltip_Basic_Factory_Basicaccessoirered" name="Goldsmith (Red)" />
 		<text id="tooltip_Basic_Factory_Basiccloth" name="裁缝" />
+		<text id="tooltip_Basic_Factory_Basicclothred" name="Seamstress (Red)" />
 		<text id="tooltip_Basic_Factory_Basicshoes" name="鞋匠" />
+		<text id="tooltip_Basic_Factory_Basicshoesred" name="Shoemaker (Red)" />
 		<text id="tooltip_counter_pieces" name="数量 ： {0}" />
 		<text id="tooltip_customcloth_icon" name="印制" />
 		<text id="tooltip_customcloth_shape" name="款式" />
