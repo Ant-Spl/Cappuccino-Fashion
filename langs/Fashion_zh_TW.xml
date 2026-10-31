@@ -179,6 +179,7 @@
 		<text id="cloth_dressfemale" name="GeeCee小洋裝" />
 		<text id="cloth_flowerskirtfemale" name="GeeDee 碎花裙" />
 		<text id="cloth_ggsshirtmale" name="GeeCee品牌LOGO T-Shirt" />
+		<text id="cloth_mjblueskirtfemale" name="MJ's Blue Skirt" />
 		<text id="cloth_goldenwatch" name="Monchlex Watch" />
 		<text id="cloth_goldnecklacefemale" name="金色串珠項鍊" />
 		<text id="cloth_greendressfemale" name="GeeDee小洋裝" />
@@ -271,6 +272,12 @@
 		<text id="coop_title_7" name="編織一個紅色的夢想!" />
 		<text id="coop_title_8" name="少女時裝專賣!" />
 		<text id="coop_title_9" name="舞蹈課!" />
+		<text id="coop_desc_12" name="Winter is coming, girls. Warm up!" />
+		<text id="coop_desc_13" name="A coordinated blue-themed collection!" />
+		<text id="coop_desc_14" name="Step into the world of high-end fashion!" />
+		<text id="coop_title_12" name="IT'S GETTING COLD!" />
+		<text id="coop_title_13" name="Blue Crush Collection!" />
+		<text id="coop_title_14" name="The Executive Atelier!" />
 	</coopmission>
 	<coop_msg>
 		<text id="coop_msg_0" name="{0}開始了本項共同任務" />
