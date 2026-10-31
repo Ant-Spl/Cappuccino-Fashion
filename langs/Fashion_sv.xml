@@ -179,6 +179,7 @@ Välj en annan!" />
 		<text id="cloth_dressfemale" name="GeeCee Klänning" />
 		<text id="cloth_flowerskirtfemale" name="GeeDee Blom Kjol" />
 		<text id="cloth_ggsshirtmale" name="GeeCee T-Shirt" />
+		<text id="cloth_mjblueskirtfemale" name="MJ's Blue Skirt" />
 		<text id="cloth_goldenwatch" name="Monchlex Watch" />
 		<text id="cloth_goldnecklacefemale" name="Guldhalsband" />
 		<text id="cloth_greendressfemale" name="GeeDee Klänning" />
@@ -271,6 +272,12 @@ Välj en annan!" />
 		<text id="coop_title_7" name="Dam i rött!" />
 		<text id="coop_title_8" name="Kvinnokläder!" />
 		<text id="coop_title_9" name="Dansklass!" />
+		<text id="coop_desc_12" name="Winter is coming, girls. Warm up!" />
+		<text id="coop_desc_13" name="A coordinated blue-themed collection!" />
+		<text id="coop_desc_14" name="Step into the world of high-end fashion!" />
+		<text id="coop_title_12" name="IT'S GETTING COLD!" />
+		<text id="coop_title_13" name="Blue Crush Collection!" />
+		<text id="coop_title_14" name="The Executive Atelier!" />
 	</coopmission>
 	<coop_msg>
 		<text id="coop_msg_0" name="{0} startade denna Co-Op." />
